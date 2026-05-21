@@ -1,0 +1,63 @@
+# Islands of Myth — Complete Guided Tour + World Entry
+# 2026-05-14 05:53:05
+
+
+======================================================================
+=== LOGIN ===
+======================================================================
+
+Last login: Wed May 13 17:52:39 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+>Welcome back, Chronicler! Restarting the guide for you......
+
+First we will go through some basic commands that will help you play this game.
+    You might want to take notes.
+
+First we will go through some basic commands that will help you play this game.
+    You might want to take notes.
+
+
+======================================================================
+=== PRE-TOUR ===
+======================================================================
+
+This guide is best viewed in color. Not all terminals support color so we
+    default to no color. If you would like to turn color on, type 'ansi on'. If you find your terminal does not
+    support it, type 'ansi off'. The tour will wait for 15 seconds to make sure your
+    terminal is ok.
+
+This guide is best viewed in color. Not all terminals support color so we
+    default to no color. If you would like to turn color on, type 'ansi on'. If you find your terminal does not
+    support it, type 'ansi off'. The tour will wait for 15 seconds to make sure your
+    terminal is ok.
+
+
+======================================================================
+=== PRE-TOUR ===
+======================================================================
+
+The first command is 'look'. If you want to get information about your
+    environment, you can 'look'. Type 'look' now to get a description of the
+    room you are in.
+>
+
+======================================================================
+=== PRE-TOUR ===
+======================================================================
+
+The first command is 'look'. If you want to get information about your
+    environment, you can 'look'. Type 'look' now to get a description of the
+    room you are in.
+>
+
+======================================================================
+=== TOUR STEP 5 ===
+======================================================================
+You are taken over by yourself, or something.
+

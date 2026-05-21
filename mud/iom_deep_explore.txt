@@ -1,0 +1,418 @@
+# Islands of Myth — Deep Exploration of Illium Starting Area
+# 2026-05-14 06:19:18
+
+
+======================================================================
+=== LOGIN ===
+======================================================================
+Password: 
+
+======================================================================
+=== PASSWORD ===
+======================================================================
+
+Last login: Wed May 13 18:18:49 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Explorer has reconnected (Human level 1).
+hp(595/792) sp(595/772) ep(538/538) > 
+
+======================================================================
+=== ENTER PORTAL ===
+======================================================================
+There is no portal here.
+hp(597/792) sp(597/772) ep(538/538) > 
+
+======================================================================
+=== HANDBOOK ===
+======================================================================
+It is a small brown book, labeled 'The Newbie's Handbook.' It contains valuable
+information on playing the game. 
+To use this book, you can 'read handbook' to view a list of the different
+topics that have been written within its pages. To read about each topic, you
+can simply type 'read about topic' and it will display the information for you.
+Newbie Handbook is open.
+hp(597/792) sp(597/772) ep(538/538) > 
+
+======================================================================
+=== GO SOUTHEAST ===
+======================================================================
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room,
+while to the east is the Newbie Guild.
+
+
+hp(601/792) sp(601/772) ep(538/538) > 
+
+======================================================================
+=== LOOK SOUTHEAST ===
+======================================================================
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room,
+while to the east is the Newbie Guild.
+
+
+hp(601/792) sp(601/772) ep(538/538) > 
+
+======================================================================
+=== EXITS SOUTHEAST ===
+======================================================================
+You notice these exits:
+          East :  Entrance to the Newbie
+                  Guild
+     Northwest :  Adventurer Guild
+                  Entrance
+hp(603/792) sp(603/772) ep(538/538) > 
+
+======================================================================
+=== BACK FROM SOUTHEAST ===
+======================================================================
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north,
+southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its
+architecture, the guild houses a vast amount of help for the new adventurers
+and the old. Its high domed ceiling swirls with blue and whites, like the sky
+on a very windy day. Because it is domed and there are windows all along the
+wall, the room seems very open and very friendly.
+
+Someone has left Formula: Head: Lesser Wisdom lying on the ground.
+Formula: Feet: Lesser Dexterity lies here, discarded.
+
+hp(603/792) sp(603/772) ep(538/538) > 
+
+======================================================================
+=== GO NORTHEAST ===
+======================================================================
+Silent room [exits: southwest]
+ This is a silent room where no channels/tells/says can reach you.
+
+
+hp(605/792) sp(605/772) ep(538/538) > 
+
+======================================================================
+=== LOOK NORTHEAST ===
+======================================================================
+Silent room [exits: southwest]
+ This is a silent room where no channels/tells/says can reach you.
+
+
+hp(605/792) sp(605/772) ep(538/538) > 
+
+======================================================================
+=== EXITS NORTHEAST ===
+======================================================================
+You notice these exits:
+     Southwest :  Adventurer Guild
+                  Entrance
+hp(609/792) sp(609/772) ep(538/538) > 
+
+======================================================================
+=== BACK FROM NORTHEAST ===
+======================================================================
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north,
+southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its
+architecture, the guild houses a vast amount of help for the new adventurers
+and the old. Its high domed ceiling swirls with blue and whites, like the sky
+on a very windy day. Because it is domed and there are windows all along the
+wall, the room seems very open and very friendly.
+
+Some luckless fool has left Formula: Head: Lesser Wisdom here.
+Someone has left Formula: Feet: Lesser Dexterity lying on the ground.
+
+hp(609/792) sp(609/772) ep(538/538) > 
+
+======================================================================
+=== GO SOUTHWEST ===
+======================================================================
+Portal Room [exits: abjurer, elemental, woodsman, northeast, shifter,
+martial_artist, lurker, druid, acrobat, weaver, evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for
+the ease and convenience of all adventurers.
+
+
+hp(609/792) sp(609/772) ep(538/538) > 
+
+======================================================================
+=== LOOK SOUTHWEST ===
+======================================================================
+Portal Room [exits: abjurer, elemental, woodsman, northeast, shifter,
+martial_artist, lurker, druid, acrobat, weaver, evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for
+the ease and convenience of all adventurers.
+
+
+hp(611/792) sp(611/772) ep(538/538) > 
+
+======================================================================
+=== EXITS SOUTHWEST ===
+======================================================================
+
+
+======================================================================
+=== BACK FROM SOUTHWEST ===
+======================================================================
+You notice these exits:
+       Warrior :  Warrior Training
+                  Center
+      Psychics :  Under a Colossal
+                  Tree
+    Unraveller :  Hall of
+                  Unravelling
+        Evoker :  Evoker Class
+        Weaver :  Small chapel
+       Acrobat :  GuildMaster's
+                  Room
+         Druid :  At the Foot of the
+                  Great Oak
+        Lurker :  GuildMaster's
+                  Room
+Martial_artist :  John Wu's Dojo
+       Shifter :  Forest trail
+     Northeast :  Adventurer Guild
+                  Entrance
+      Woodsman :  Cabin of the
+                  Woodsman
+     Elemental :  Elemental Guild
+                  Hall
+       Abjurer :  Abjurer Guild
+                  Hall
+hp(611/792) sp(611/772) ep(538/538) > Adventurer Guild Entrance [exits: west, south, southeast, northeast, north,
+southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its
+architecture, the guild houses a vast amount of help for the new adventurers
+and the old. Its high domed ceiling swirls with blue and whites, like the sky
+on a very windy day. Because it is domed and there are windows all along the
+wall, the room seems very open and very friendly.
+
+Someone has left Formula: Head: Lesser Wisdom lying on the ground.
+Formula: Feet: Lesser Dexterity lies here.
+
+hp(615/792) sp(615/772) ep(538/538) > 
+
+======================================================================
+=== MAP ===
+======================================================================
+     Adventurer's Guild of Illium
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            Cloud Road        
+                | 0
+                |/         0 = Silent Room
+              1-@-2 +-6    1 = Plaque Room
+               /|\  |      2 = Level Advance
+              3 4 +-5-7    3 = Portal room  
+                    |      4 = Myth room
+                    +-8    5 = Newbie guild
+                    |      6 = Maxxis' shop
+                    9      7 = Equipment Machine
+                           8 = Tree of Life
+                           9 = Reinc portal 
+
+	@ = You are here
+
+hp(615/792) sp(615/772) ep(538/538) > 
+
+======================================================================
+=== HELP GUILDS ===
+======================================================================
+
+Guild structure in Islands of Myth:
+
+    + Level system
+        Every time you advance one level you are given what is know as an 'open
+        guild level'. This information is displayed in the 'score' command (see
+        'commands'). You may use your open guild levels to advance in other
+        guilds.
+
+    + Alpha guilds
+        There are 14 alpha type guilds. Alpha guilds are the lowest guilds on
+        the guild tree and basically define what type of character your going
+to
+        become. The 14 alpha guilds as of August 13, 2009 are:
+
+        - Warrior
+        - Martial artist
+        - Acrobat
+        - Abjurer
+        - Elemental
+        - Psychics
+        - Evoker
+        - Necromancer
+        - Weaver
+        - Unraveller
+        - Druid
+        - Shapeshifter
+--More--(42%) [?]: 
+
+======================================================================
+=== HELP FAQ ===
+======================================================================
+Islands of Myth FAQ
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  1)  Newbie questions          2)  Rules!!              
+  3)  Equipment questions       4)  Guilds               
+  5)  Combat questions          6)  Monsters             
+  7)  Healing                   8)  Misc. questions      
+  9)  News questions.          10)  Islands of Myth city.
+ 11)  Spells / Skills          12)  Commands             
+  q)  Quit                    
+[123456789101112q] 
+
+======================================================================
+=== HELP TOPICS ===
+======================================================================
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== HELP ALL_RACES ===
+======================================================================
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== HELP ALL_SKILLS ===
+======================================================================
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== HELP ALL_SPELLS ===
+======================================================================
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== HELP GUILD_TREE ===
+======================================================================
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== HELP RACE HUMAN ===
+======================================================================
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== LOOK ACHMAN ===
+======================================================================
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== LOOK MEMORIAL ===
+======================================================================
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== LOOK MOONFLOWER ===
+======================================================================
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== LOOK FORMULA ===
+======================================================================
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== LOOK LODESTONE ===
+======================================================================
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== LOOK PYROCLAST ===
+======================================================================
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== LOOK STATUE ===
+======================================================================
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== GO NORTH TO CLOUD ROAD ===
+======================================================================
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== GO EAST ON CLOUD ROAD ===
+======================================================================
+Invalid selection.
+[123456789101112q] Rawrbeart arrives at the Adventure Guild.
+Rawrbeart leaves north.
+
+
+======================================================================
+=== LOOK EAST ON CLOUD ROAD ===
+======================================================================
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== EXITS EAST ON CLOUD ROAD ===
+======================================================================
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== GO FURTHER EAST ===
+======================================================================
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== LOOK FURTHER EAST ===
+======================================================================
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== EXITS FURTHER EAST ===
+======================================================================
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== BACK WEST ===
+======================================================================
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== BACK TO GUILD ===
+======================================================================
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== BACK SOUTH TO GUILD ===
+======================================================================
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== FINAL LOOK ===
+======================================================================
+Rawrbeart arrives at the Adventure Guild.
+Rawrbeart leaves southwest.
+Invalid selection.
+[123456789101112q] 
+
+======================================================================
+=== QUIT ===
+======================================================================
+Invalid selection.
+[123456789101112q] 

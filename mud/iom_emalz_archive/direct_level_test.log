@@ -1,0 +1,109 @@
+spawn telnet islandsofmyth.org 3000
+Trying 158.69.5.47...
+Connected to islandsofmyth.org.
+Escape character is '^]'.
+^L
+
+  \_   \___| | __ _ _ __   __| |___    ___  / _|   /\/\  _   _| |_| |__  
+   / /\/ __| |/ _` | '_ \ / _` / __|  / _ \| |_   /    \| | | | __| '_ \ 
+/\/ /_ \__ \ | (_| | | | | (_| \__ \ | (_) |  _| / /\/\ \ |_| | |_| | | |
+\____/ |___/_|\__,_|_| |_|\__,_|___/  \___/|_|   \/    \/\__, |\__|_| |_|
+                                                         |___/          
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 23 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+> emalz
+Password: 
+Last login: Sun May 17 17:42:15 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Emalz has reconnected (Kobold level 6).
+hp(880/880) sp(714/714) ep(634/634) > Zlame [myth]: I honestly have no idea who Emalz is but I have my guesses ;p 
+score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    6                Open Guild Levels :    2              |
+|                                                                            |
+| Experience     :           1,276     Explored          :  0.28% ( 2.40%)   |
+| Next level     :           2,118     Rooms Explored    :            48     |
+| Guild Level    :             645     Gold on hand      :         1,000     |
+| To Next Level  :             842     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   42 | Hit Points     :   880 (  880) | AC       : VLow     |
+| Dexterity    :   36 | Spell Points   :   714 (  714) | Size     : 3'6"     |
+| Constitution :   43 | Endurance Pts. :   634 (  634) | Weight   : 77 lb    |
+| Stamina      :   33 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   24 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   24 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   84 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (4)                      | Mail          : 0/0           |
+|                                            | Kills         : 8             |
+`----------------------------------------------------------------------------'
+hp(880/880) sp(714/714) ep(634/634) > warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(880/880) sp(714/714) ep(634/634) > e
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large podium. Upon that podium sits Achman, the
+judge. He controls the levels of Islands of Myth, and has the power to create some of the strongest players. He sits in
+a high back chair built into the podium. Talk to him if you wish to advance in your endeavors. 
+
+Achman the Judge
+
+hp(880/880) sp(714/714) ep(634/634) > advance
+Pick a stat to advance!
+hp(880/880) sp(714/714) ep(634/634) > level
+You just entered something the MUD doesn't understand.
+Talk to Sisong in the adv hall if you get a chance for more help.
+hp(880/880) sp(714/714) ep(634/634) > train
+You just entered something the MUD doesn't understand.
+To say something in a room type: say message
+hp(880/880) sp(714/714) ep(634/634) > Nailman [myth]: sebbe? ;D 
+talk achman
+[myth]: Zlame grins.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Adventurers leveling place
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  General information                b)  List level costs              
+  c)  Advance a level                    d)  Advance a level picking a stat
+  e)  Advance several levels             q)  Quit                          
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdeq] You are taken over by yourself, or something.
+Connection closed by foreign host.
+d
+expect: spawn id exp4 not open
+    while executing
+"expect "\[abcdefghijmq\]""
+    (file "/root/.openclaw/workspace/mud/iom_emalz_archive/direct_level_test.expect" line 47)

@@ -1,0 +1,147 @@
+#!/usr/bin/expect -f
+# Red Dragon MUD - Emalz Leveling and Exploration Script
+# Created to handle IOM menu navigation correctly
+
+set timeout 30
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/emalz_run_[exec date +%s].log"
+log_file $logfile
+
+proc wait_prompt {} {
+    expect "hp("
+    sleep 1
+}
+
+proc send_cmd {cmd} {
+    send "$cmd\r"
+    sleep 1
+}
+
+spawn telnet islandsofmyth.org 3000
+
+# Login
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+
+# Wait for initial prompt
+wait_prompt
+
+# Record state
+send_cmd "score"
+wait_prompt
+
+send_cmd "skills"
+wait_prompt
+
+# === LEVEL UP IF POSSIBLE ===
+send_cmd "warp"
+wait_prompt
+
+send_cmd "e"
+wait_prompt
+
+send_cmd "talk achman"
+sleep 2
+
+# Wait for main menu and pick 'd' (Advance a level picking a stat)
+expect {
+    "Advance a level picking a stat" {
+        send "d\r"
+    }
+    "\[abcdeq\]" {
+        send "d\r"
+    }
+    timeout {
+        send "q\r"
+        wait_prompt
+    }
+}
+
+sleep 2
+
+# Wait for stat selection menu and pick 'a' (Advance strength)
+expect {
+    "Advance strength" {
+        send "a\r"
+    }
+    "\[abcdefghijmq\]" {
+        send "a\r"
+    }
+    timeout {
+        send "q\r"
+        wait_prompt
+    }
+}
+
+sleep 2
+
+# Wait for "How many times?" prompt
+expect {
+    "How many times?" {
+        send "1\r"
+    }
+    timeout {
+        send "1\r"
+    }
+}
+
+sleep 3
+wait_prompt
+
+# Confirm level up
+send_cmd "score"
+wait_prompt
+
+# Get out of judge room
+send_cmd "warp"
+wait_prompt
+
+# === EXPLORATION PHASE ===
+# Explore all directions from Adventurer Guild Entrance
+set directions {west south southeast northeast north}
+
+foreach dir $directions {
+    send_cmd $dir
+    wait_prompt
+    
+    send_cmd "look"
+    wait_prompt
+    
+    # Try to kill any monsters
+    send_cmd "kill earwig"
+    sleep 3
+    expect {
+        "You killed" {
+            send_cmd "get all from corpse"
+            wait_prompt
+            send_cmd "eat corpse"
+            wait_prompt
+        }
+        "What?" {}
+        "There is no" {}
+        "hp(" {}
+        timeout {}
+    }
+    
+    # Go back
+    switch $dir {
+        "west" { send_cmd "east" }
+        "south" { send_cmd "north" }
+        "southeast" { send_cmd "northwest" }
+        "northeast" { send_cmd "southwest" }
+        "north" { send_cmd "south" }
+    }
+    wait_prompt
+}
+
+# Final score
+send_cmd "score"
+wait_prompt
+
+# Quit
+send "quit\r"
+expect "Save"
+send "Y\r"
+
+puts "=== SESSION COMPLETE ==="

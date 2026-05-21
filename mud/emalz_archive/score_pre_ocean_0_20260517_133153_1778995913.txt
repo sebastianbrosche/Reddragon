@@ -1,0 +1,50 @@
+USAGE: combat <arg>
+Possible arguments are:
+	'status'                    - Current settings.
+	'percent'                   - How effective did the hit appear to be.
+	'blocks'                    - Shows 2 color blocks. The first block is
+	                              how damaged the attacker appears to be.
+	                              The latter shows how damaged the target
+	                              appears to be.
+	'number'                    - Numerical indexing of hit strength. The larger
+	                              value, the harder the hit was.
+	'reporter'                  - Report the conditions of you and your target
+	'silent on'                 - Toggle combat spam off.
+	'silent off'                - Toggle combat spam on.
+	'silent generic'            - Toggle most fighter spam.
+	'silent start use'          - Toggle skill/spell start messages.
+	'silent finish use'         - Toggle skill/spell finish messages.
+	'silent words'              - Toggle spell words.
+	'silent skill action'       - Toggle skill/spell action messages.
+	'silent round'              - Toggle 'New Round' messages on and off.
+	'silent generic other'      - Toggle most fighter spam from others.
+	'silent start use other'    - Toggle skill/spell start messages from others.
+	'silent finish use other'   - Toggle skill/spells finish messages from others.
+	'silent words other'        - Toggle spell words from others.
+	'silent skill action other' - Toggle skill/spell action messages from others.
+	'attack'                    - Toggle whether or not you will melee with your target.
+	'defend'                    - Toggle whether or not you will dodge your target.
+	'tank'                      - Toggle whether or not you will tank for those behind you.
+
+hp(716/716) sp(750/750) ep(538/538) > ,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored          :  0.15% ( 1.30%)   |
+| Next level     :              27     Rooms Explored    :            26     |
+| Guild Level    :               9     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   26 | Hit Points     :   716 (  716) | AC       : None     |
+| Dexterity    :   26 | Spell Points   :   750 (  750) | Size     : 3'2"     |
+| Constitution :   26 | Endurance Pts. :   538 (  538) | Weight   : 70 lb    |
+| Stamina      :   26 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   25 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(716/716) sp(750/750) ep(538/538) > 

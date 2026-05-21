@@ -1,0 +1,778 @@
+# Islands of Myth — Tutorial Walk-Through v3
+# 2026-05-14 05:58:43
+
+
+======================================================================
+=== LOGIN ===
+======================================================================
+
+Last login: Wed May 13 17:58:10 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+[0mMCCP - Mud Client Compression Protocol Supported
+[0mMXP - Mud Extension Protocol Supported
+[0mA dark, sucking portal appears. You fall from it!
+[0mWelcome back!
+[0m>[0mWelcome back, Chronicler! Restarting the guide for you......
+[0m
+First we will go through some basic commands that will help you play this game.
+    You might want to take notes.
+[0m
+First we will go through some basic commands that will help you play this game.
+    You might want to take notes.
+[0m
+
+======================================================================
+=== STEP 2 ===
+======================================================================
+
+This guide is best viewed in color. Not all terminals support color so we
+    default to no color. If you would like to turn color on, t[1mype 'ansi[0m on'. If you find your terminal does not
+    support i[1mt, type 'a[0mnsi off'. The tour will wait for 15 seconds to make sure your
+    terminal is ok.
+[0m
+This guide is best viewed in color. Not all terminals support color so we
+    default to no color. If you would like to turn color on, t[1mype 'ansi[0m on'. If you find your terminal does not
+    support i[1mt, type 'a[0mnsi off'. The tour will wait for 15 seconds to make sure your
+    terminal is ok.
+[0m
+
+======================================================================
+=== STEP 3 ===
+======================================================================
+>[0m
+
+======================================================================
+=== STEP 4 ===
+======================================================================
+>[0m
+
+======================================================================
+=== STEP 5 ===
+======================================================================
+>[0m
+
+======================================================================
+=== STEP 6 ===
+======================================================================
+>[0m
+
+======================================================================
+=== STEP 7 ===
+======================================================================
+>[0m
+
+======================================================================
+=== STEP 8 ===
+======================================================================
+>[0m
+The first command is 'look'. If you want to get information about your
+    environment, you can 'look'. Type 'look' now to get a description of the
+    room you are in.
+>[0m
+The first command is 'look'. If you want to get information about your
+    environment, you can 'look'. Type 'look' now to get a description of the
+    room you are in.
+>[0m
+
+======================================================================
+=== STEP 9 ===
+======================================================================
+Guide Level 1[0m [exits: [35mback[0m[0m]
+[0m You stand in a void of white light. The light flickers slightly as the voice
+talks to you, guiding you through the basic commands of mudding.
+
+A sign stands here.
+
+
+[0m[0m
+
+======================================================================
+=== STEP 10 ===
+======================================================================
+Please type 'look' now.
+>[0m[0m
+That is what the room you are standing in right now looks like. To look at
+    something inside the room, you would type 'look at <object>' where <object>
+    is the name of the object.
+[0m
+
+======================================================================
+=== STEP 11 ===
+======================================================================
+Guide Level 1[0m [exits: [35mback[0m[0m]
+[0m You stand in a void of white light. The light flickers slightly as the voice
+talks to you, guiding you through the basic commands of mudding.
+
+A sign stands here.
+
+
+[0m>[0m
+
+======================================================================
+=== STEP 12 ===
+======================================================================
+>[0m
+That is what the room you are standing in right now looks like. To look at
+    something inside the room, you would type 'look at <object>' where <object>
+    is the name of the object.
+[0m
+
+======================================================================
+=== STEP 13 ===
+======================================================================
+>[0m
+Notice how there was a sign in the room with you? Look at that sign right now
+    by typing 'look at sign'
+>[0m
+
+======================================================================
+=== STEP 14 ===
+======================================================================
+The wooden sign has been freshly painted with bright red paint. It says, 'You
+have just successfully looked at an object! Congrats!'
+[0m
+[0m>[0m
+
+======================================================================
+=== STEP 15 ===
+======================================================================
+>[0m
+Notice how there was a sign in the room with you? Look at that sign right now
+    by typing 'look at sign'
+>[0m
+[1mCongratulations! You have finished level one.[0m
+[0m
+If you would like to go back to the beginning, please type [1m'back'[0m now. If you
+    would like to exit this guide now, t[1mype '[0mout' now. If you are ready to continue, t[1mype 'conti[0mnue' now.
+>[0m
+
+======================================================================
+=== STEP 16 ===
+======================================================================
+Please select either 'continue', 'out', or 'back'.
+[0m[0mAutosave.
+[0m
+
+======================================================================
+=== STEP 17 ===
+======================================================================
+Great! Moving you to the next level!
+[0m[0m
+MUDs are multi-player games. Many people from all over the world log into this
+    game at the same time. To find out who is logged in at any point in time,
+    type 'who'. Type 'who' right now to see who is logged in.
+>[0m
+
+======================================================================
+=== STEP 18 ===
+======================================================================
+Please type 'who' now.
+[0m[0m
+
+======================================================================
+=== STEP 19 ===
+======================================================================
+------------------------------------------
+-------------------------------------
+[0m--                              [1m[34mIslands of Myth[0m                              
+--
+[0m--                14 players (1 wizard, 13 mortals), 0 [1mfriends[0m               
+--
+[0m------------------------------------------
+-------------------------------------
+[0mchpho .Vor         [0m [1807].Nailman     [0m [ 467].Tomten      [0m { 305}.Dritthil    [0m
+[0m{ 298}.Temuthril   [0m { 241}.Wildchild   [0m [ 201].Fraziw      [0m { 161} Slayn       [0m
+[0m[ 160].Seth        [0m [ 155].Korthrun    [0m [ 103].Darx        [0m {  67} Grease      [0m
+[0m{  15} Rawrbeart   [0m [   1] Chronicler  [0m
+[0m------------------------------------------
+-------------------------------------
+[0m-- . = idle, () = dead, {} = race leader, * = edit, ~ = wiztest, ^ = builder 
+--
+[0m------------------------------------------
+-------------------------------------
+[0m[0m
+
+======================================================================
+=== STEP 20 ===
+======================================================================
+>[0m
+If you want to find out more about a player, you can 'finger <player's name>'.
+    Pick one of the players that you saw on the who list and type 'finger
+    <player's name>' now.
+>[0m
+
+======================================================================
+=== STEP 21 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 22 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 23 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 24 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 25 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 26 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 27 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 28 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 29 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 30 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 31 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 32 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 33 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 34 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 35 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 36 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 37 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 38 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 39 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 40 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 41 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 42 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 43 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 44 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 45 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 46 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 47 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 48 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 49 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 50 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 51 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 52 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 53 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 54 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 55 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 56 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 57 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 58 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 59 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 60 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 61 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 62 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 63 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 64 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 65 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 66 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 67 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 68 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 69 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 70 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 71 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 72 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 73 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 74 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 75 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 76 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 77 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 78 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 79 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 80 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 81 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 82 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 83 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 84 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 85 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 86 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 87 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 88 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 89 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 90 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 91 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 92 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 93 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 94 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 95 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 96 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 97 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 98 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 99 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 100 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 101 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m
+
+======================================================================
+=== STEP 102 ===
+======================================================================
+You need to finger a player. Type 'finger <player's name>' now. For example,
+'finger zifnab'.
+>[0m[0m

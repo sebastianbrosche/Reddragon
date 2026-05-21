@@ -1,0 +1,608 @@
+# Islands of Myth — Raw Race Capture
+# Session: 2026-05-14 04:37:45
+
+
+======================================================================
+=== LOGIN MENU ===
+======================================================================
+^L
+        _________   ________________   ____
+       / / ___/ /  / __  / __  / __ |/ ___/
+      / /__  / /__/ __  / / / / /_/ /__  /
+     /_/____/____/_/ /_/_/ /_/_____/____/
+      ___________  ________  ___________  __
+     / __  / ___/ /     / /_/ /__  __/ /_/ /
+    / /_/ / __/  / /_/ /___  /  / / / __  /
+   /_____/_/    /_/ /_/   /_/  /_/ /_/ /_/
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 14 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+> 
+======================================================================
+
+======================================================================
+=== NAME ENTRY ===
+======================================================================
+Password: 
+======================================================================
+
+======================================================================
+=== PASSWORD ENTRY ===
+======================================================================
+
+Last login: Wed May 13 16:36:01 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Chronicler has reconnected (Unselected level 1).
+hp(10/10) sp(437/706) ep(437/498) > 
+======================================================================
+
+======================================================================
+=== RACE-SELECT ROOM ===
+======================================================================
+You just entered something the MUD doesn't understand.
+If you are having trouble, type help
+hp(10/10) sp(439/706) ep(439/498) > 
+======================================================================
+
+======================================================================
+=== READ SIGN ===
+======================================================================
+
+This room is where players pick their respective races.
+Please keep in mind how you want to play, whether that is a fighter race or are
+more inclined to use magic. If you are completely new to Islands of Myth, magic
+using races are typically difficult to start out as, you might have more fun in
+the early stages of your playing here as a fighter race.
+
+The poster in this room will give you an idea of which races are suited for
+which guilds.
+You are allowed to change your race at any point in the game, however; there is
+a cost associated with doing that.  Make your choice wisely.
+There is a very good source of help information available, once you pick your
+race type 'faq'
+
+P.S.  If you see a prompt in the lower left hand corner
+        of your screen that says --More--(XX%) that means
+        the mud is waiting for you to hit enter, before
+        showing you more information.  Just hit enter
+        when you are through reading that page.
+hp(10/10) sp(441/706) ep(441/498) > 
+======================================================================
+
+======================================================================
+=== SIGN CONT ===
+======================================================================
+
+======================================================================
+
+======================================================================
+=== READ POSTER PAGE 1 ===
+======================================================================
+    -+ This Poster gives a few hints about Races and Guilds +-
+    -+ It associates some recommended races to Alpha guilds   +-
+
+       1 - Not recommended
+       2 - Poor fit
+       3 - Decent fit
+       4 - Good fit (recommended)
+
+           Warrior Martial Druid Woodsman Shapeshifter Weaver Unraveller
+---------------------------------------------------------------------
+Cromagnon     4       3      1      2          2         1       1
+Drow          2       2      4      3          3         4       4
+Dwarf         3       3      2      4          4         2       2
+Elf           2       2      4      2          4         4       4
+Ent           2       1      4      1          3         4       4
+Faerie        1       1      4      1          2         4       4
+Gargoyle      1       1      2      1          2         2       2
+Giant         4       3      1      2          1         1       1
+Gnome         1       1      4      1          2         4       4
+Goblin        2       4      1      2          2         1       1
+Grorrark      3       4      1      2          3         1       1
+Halfelf       3       3      2      4          4         2       2
+Hobbit        2       4      1      2          3         1       1
+Human         3       3      3      4          4         3       3
+Kobold        2       2      1      2          2         1       1
+---- (1-25-37%)[h]: 
+======================================================================
+
+======================================================================
+=== RACE: CROMAGNON ===
+======================================================================
+-----------------------------------------------------------------------------
+                              C r o m a g n o n                             
+-----------------------------------------------------------------------------
+Cromagnons are living relics from the early dawn of humanity. They 
+are living ancestors of humans and are thought of as Humans by most. 
+Actually, they are quite a bit different; Cromagnons lack the ability 
+for magic completely, but they possess a better grasp of basic skills 
+and are a bit stronger because of their tougher lifestyle.
+-----------------------------------------------------------------------------
+  Strength     : Good       Dexterity    : Above Ave  Intelligence : Bad       
+  Constitution : Good       Stamina      : Above Ave  Wisdom       : Bad       
+  Hp max       : Average    Ep max       : Average    Sp max       : Terrible  
+  Hp regen     : Above Ave  Ep regen     : Above Ave  Sp regen     : Terrible  
+-----------------------------------------------------------------------------
+They can train skills up to 90%
+They can study spells up to 70%
+Their experience rate is 106 %
+Average height: 5 feet 5 inches
+Average mass: 184
+They are considered to be rather unattractive creatures.
+-----------------------------------------------------------------------------
+They learn skills much faster than humans.
+They learn spells slower than humans.
+They are naturally extremely resistant to physical damage.
+They are naturally vulnerable to magical damage.
+
+---- (1-25-96%)[h]: 
+======================================================================
+
+======================================================================
+=== RACE: DROW ===
+======================================================================
+You just entered something the MUD doesn't understand.
+To turn on a channel type: on <channel name>
+hp(10/10) sp(467/706) ep(467/498) > 
+======================================================================
+
+======================================================================
+=== RACE: DWARF ===
+======================================================================
+You just entered something the MUD doesn't understand.
+If you are having trouble, type 'faq'
+hp(10/10) sp(469/706) ep(469/498) > -----------------------------------------------------------------------------
+                                  D w a r f                                 
+-----------------------------------------------------------------------------
+Dwarves are small heavy-set humanoids who usually sport large beards. 
+But never let a Dwarf's size fool you, they are known for their strength 
+in character and in battle. They are excellent craftsmen and make the 
+best of weaponsmiths due to their keen abilities in manual labor. Dwarves 
+are not adepts of magic, even though they have some limited potential.
+-----------------------------------------------------------------------------
+  Strength     : Good       Dexterity    : Above Ave  Intelligence : Poor      
+  Constitution : Good       Stamina      : Above Ave  Wisdom       : Above Ave 
+  Hp max       : Good       Ep max       : Average    Sp max       : Terrible  
+  Hp regen     : Average    Ep regen     : Above Ave  Sp regen     : Poor      
+-----------------------------------------------------------------------------
+They can train skills up to 100%
+They can study spells up to 85%
+Their experience rate is 88 %
+Average height: 4 feet
+Average mass: 176
+They have average charisma.
+-----------------------------------------------------------------------------
+They learn skills much faster than humans.
+They learn spells much slower than humans.
+They can see in the dark.
+They are naturally extremely resistant to poison damage.
+
+---- (1-25-92%)[h]: 
+======================================================================
+
+======================================================================
+=== RACE: ELF ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Common channels are newbie, chat and myth. Type: on myth.
+hp(10/10) sp(471/706) ep(471/498) > 
+======================================================================
+
+======================================================================
+=== RACE: ENT ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Type look to see what is in the current room.
+hp(10/10) sp(473/706) ep(473/498) > 
+======================================================================
+
+======================================================================
+=== RACE: FAERIE ===
+======================================================================
+You just entered something the MUD doesn't understand.
+To turn on a channel type: on <channel name>
+hp(10/10) sp(477/706) ep(477/498) > -----------------------------------------------------------------------------
+                                 F a e r i e                                
+-----------------------------------------------------------------------------
+Faeries are a race of tiny, mystical creatures. Although they are equipped with
+a set of insect-like wings, evolution has left them unable to fly. Although
+they are small and ineffective in physical combat, they are quick learners of
+spells, and have been known to make very able mages and clerics. Their size and
+agility also have lead some of them to become thieves.
+-----------------------------------------------------------------------------
+  Strength     : Terrible   Dexterity    : Very Good  Intelligence : Above Ave 
+  Constitution : Poor       Stamina      : Poor       Wisdom       : Very Good 
+  Hp max       : Below Ave  Ep max       : Below Ave  Sp max       : Very Good 
+  Hp regen     : Below Ave  Ep regen     : Poor       Sp regen     : Very Good 
+-----------------------------------------------------------------------------
+They can train skills up to 95%
+They can study spells up to 100%
+Their experience rate is 97 %
+Average height: 2 feet 4 inches
+Average mass: 16
+They are considered to be quite attractive creatures.
+-----------------------------------------------------------------------------
+They learn skills slower than humans.
+They learn spells much faster than humans.
+They can see in the dark.
+They are naturally resistant to psionic damage.
+They are naturally resistant to magical damage.
+They are naturally vulnerable to physical damage.
+-----------------------------------------------------------------------------
+
+hp(10/10) sp(477/706) ep(477/498) > 
+======================================================================
+
+======================================================================
+=== RACE: GARGOYLE ===
+======================================================================
+You just entered something the MUD doesn't understand.
+If you need help you can try on the channels, type: newbie Can someone help me
+with (whatever you need help with).
+hp(10/10) sp(479/706) ep(479/498) > 
+======================================================================
+
+======================================================================
+=== RACE: GIANT ===
+======================================================================
+You just entered something the MUD doesn't understand.
+If you are having trouble, type 'faq'
+hp(10/10) sp(481/706) ep(481/498) > 
+======================================================================
+
+======================================================================
+=== RACE: GNOME ===
+======================================================================
+-----------------------------------------------------------------------------
+                                  G n o m e                                 
+-----------------------------------------------------------------------------
+Gnomes are small cousins of the Dwarves, and are often found to be 
+helping someone in need.  They have rich brown skin, white hair, 
+and china-blue eyes, both sexes have rounded ears and very large 
+noses. The male gnomes prefer to keep their beards short and 
+stylishly-trimmed. They are excellent tinkers, constantly inventing 
+something to make life easier (or more chaotic if something goes wrong).  
+Gnomes are a very wise race, well known for their magical abilities; 
+they are sometimes able to freely use minor protective spells on 
+themselves.
+-----------------------------------------------------------------------------
+  Strength     : Poor       Dexterity    : Below Ave  Intelligence : Above Ave 
+  Constitution : Below Ave  Stamina      : Poor       Wisdom       : Excellent 
+  Hp max       : Below Ave  Ep max       : Below Ave  Sp max       : Very Good 
+  Hp regen     : Below Ave  Ep regen     : Poor       Sp regen     : Very Good 
+-----------------------------------------------------------------------------
+They can train skills up to 85%
+They can study spells up to 95%
+Their experience rate is 106 %
+Average height: 3 feet 6 inches
+Average mass: 122
+They have average charisma.
+-----------------------------------------------------------------------------
+
+---- (1-25-83%)[h]: 
+======================================================================
+
+======================================================================
+=== RACE: GOBLIN ===
+======================================================================
+You just entered something the MUD doesn't understand.
+To tell someone something: type tell <player name> message
+hp(10/10) sp(497/706) ep(497/498) > 
+======================================================================
+
+======================================================================
+=== RACE: GRORRARK ===
+======================================================================
+You just entered something the MUD doesn't understand.
+To turn on a channel type: on <channel name>
+hp(10/10) sp(499/706) ep(498/498) > -----------------------------------------------------------------------------
+                               G r o r r a r k                              
+-----------------------------------------------------------------------------
+Grorrarks are the result of an ill-starred breeding between a human and a lion.
+Although they remain mostly beast, they have retained the ability to reason and learn as a human would. Still,
+they have kept the ferocity and fierceness of lions, and have an instinctive and natural grasp for learning
+skills, which allow them to be among the most feared and able fighters.  They are sometimes able to draw on their
+lion half, and roar, or roar LIV.
+-----------------------------------------------------------------------------
+  Strength     : Good       Dexterity    : Excellent  Intelligence : Poor      
+  Constitution : Good       Stamina      : Above Ave  Wisdom       : Poor      
+  Hp max       : Above Ave  Ep max       : Below Ave  Sp max       : Bad       
+  Hp regen     : Average    Ep regen     : Above Ave  Sp regen     : Bad       
+-----------------------------------------------------------------------------
+They can train skills up to 100%
+They can study spells up to 80%
+Their experience rate is 88 %
+Average height: 6 feet 8 inches
+Average mass: 267
+They have average charisma.
+-----------------------------------------------------------------------------
+They learn skills faster than humans.
+They learn spells MUCH slower than humans.
+They can see in the dark.
+They can eat corpses.
+They are naturally resistant to cold damage.
+They are naturally extremely vulnerable to fire damage.
+-----------------------------------------------------------------------------
+
+hp(10/10) sp(499/706) ep(498/498) > 
+======================================================================
+
+======================================================================
+=== RACE: HALFELF ===
+======================================================================
+You just entered something the MUD doesn't understand.
+To tell someone something: type tell <player name> message
+hp(10/10) sp(503/706) ep(498/498) > 
+======================================================================
+
+======================================================================
+=== RACE: HOBBIT ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Common channels are newbie, chat and myth. Type: on myth.
+hp(10/10) sp(505/706) ep(498/498) > 
+======================================================================
+
+======================================================================
+=== RACE: HUMAN ===
+======================================================================
+You just entered something the MUD doesn't understand.
+If you need help you can try on the channels, type: newbie Can someone help me
+with (whatever you need help with).
+hp(10/10) sp(507/706) ep(498/498) > -----------------------------------------------------------------------------
+                                  H u m a n                                 
+-----------------------------------------------------------------------------
+The humans of Islands of Myth are the most common race, and also the 
+more adaptable one. Though less gifted than other races in a specific 
+guild, they are good learners, able to master skills and spells 
+equally. They can be both fierce fighters and learned spellcasters. 
+-----------------------------------------------------------------------------
+  Strength     : Average    Dexterity    : Average    Intelligence : Average   
+  Constitution : Average    Stamina      : Average    Wisdom       : Average   
+  Hp max       : Average    Ep max       : Average    Sp max       : Average   
+  Hp regen     : Average    Ep regen     : Average    Sp regen     : Average   
+-----------------------------------------------------------------------------
+They can train skills up to 95%
+They can study spells up to 95%
+Their experience rate is 100 %
+Average height: 5 feet 8 inches
+Average mass: 176
+They have average charisma.
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+
+hp(10/10) sp(507/706) ep(498/498) > 
+======================================================================
+
+======================================================================
+=== RACE: KOBOLD ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Need more help, ask on the newbie channel, type: newbie 'your question.'
+hp(10/10) sp(509/706) ep(498/498) > 
+======================================================================
+
+======================================================================
+=== RACE: LEPRECHAUN ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Type look to see what is in the current room.
+hp(10/10) sp(513/706) ep(498/498) > 
+======================================================================
+
+======================================================================
+=== RACE: LIZARDMAN ===
+======================================================================
+You just entered something the MUD doesn't understand.
+To turn on a channel type: on <channel name>
+hp(10/10) sp(515/706) ep(498/498) > 
+======================================================================
+
+======================================================================
+=== RACE: MINDFLAYER ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Type who to see who is online.
+hp(10/10) sp(517/706) ep(498/498) > -----------------------------------------------------------------------------
+                             M i n d f l a y e r                            
+-----------------------------------------------------------------------------
+Mindflayers come from the Dark of the Underworld, far from the light 
+of the sun. Their tentacled heads contain evil genius unmatched in any 
+other of the world's races. Said to feed on the brains of the fallen, 
+mindflayers are also reputed to gain psionic power by feeding thus. 
+Mindflayers are highly magical, and can cast magics unknown to any 
+other mortal. They are of average height, but have purplish skin and
+over-large eyes. Where most races have their mouths, mindflayers have 
+a nest of foot-long tentacles, which they use to eat. Their voices are
+guttural, and they have a hard time pronouncing certain words.
+-----------------------------------------------------------------------------
+  Strength     : Poor       Dexterity    : Below Ave  Intelligence : Excellent 
+  Constitution : Poor       Stamina      : Poor       Wisdom       : Excellent 
+  Hp max       : Poor       Ep max       : Bad        Sp max       : Excellent 
+  Hp regen     : Poor       Ep regen     : Poor       Sp regen     : Excellent 
+-----------------------------------------------------------------------------
+They can train skills up to 90%
+They can study spells up to 100%
+Their experience rate is 89 %
+Average height: 5 feet 4 inches
+Average mass: 100
+They are considered to be totally repulsive creatures.
+-----------------------------------------------------------------------------
+
+---- (1-25-75%)[h]: 
+======================================================================
+
+======================================================================
+=== RACE: MINOTAUR ===
+======================================================================
+You just entered something the MUD doesn't understand.
+If you are having trouble, type 'faq'
+hp(10/10) sp(519/706) ep(498/498) > 
+======================================================================
+
+======================================================================
+=== RACE: OGIER ===
+======================================================================
+You just entered something the MUD doesn't understand.
+To turn on a channel type: on <channel name>
+hp(10/10) sp(521/706) ep(498/498) > 
+======================================================================
+
+======================================================================
+=== RACE: PHOENIX ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Type look to see what is in the current room.
+hp(10/10) sp(525/706) ep(498/498) > -----------------------------------------------------------------------------
+                                P h o e n i x                               
+-----------------------------------------------------------------------------
+The phoenix is a legendary bird of fire, with the ability to return
+from beyond the grave. They are fierce in combat, but would rather
+use their great intellect as their weapon. The phoenix are renowned
+for their abandon in battle. They have been known to charge into combat 
+against great odds, and with little hope for survival. When their great 
+intelligence and fighting spirit are coupled with their magical nature, 
+it is easy to see why the phoenix is one of the most feared races on 
+Islands of Myth.
+-----------------------------------------------------------------------------
+  Strength     : Below Ave  Dexterity    : Average    Intelligence : Good      
+  Constitution : Below Ave  Stamina      : Below Ave  Wisdom       : Above Ave 
+  Hp max       : Below Ave  Ep max       : Poor       Sp max       : Good      
+  Hp regen     : Below Ave  Ep regen     : Poor       Sp regen     : Very Good 
+-----------------------------------------------------------------------------
+They can train skills up to 90%
+They can study spells up to 95%
+Their experience rate is 102 %
+Average height: 5 feet
+Average mass: 109
+They are considered to be quite attractive creatures.
+-----------------------------------------------------------------------------
+They learn skills much slower than humans.
+
+---- (1-25-80%)[h]: 
+======================================================================
+
+======================================================================
+=== RACE: SNAKEMAN ===
+======================================================================
+You just entered something the MUD doesn't understand.
+To say something in a room type: say message
+hp(10/10) sp(527/706) ep(498/498) > 
+======================================================================
+
+======================================================================
+=== RACE: THRIKHREN ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Talk to Sisong in the adv hall if you get a chance for more help.
+hp(10/10) sp(529/706) ep(498/498) > -----------------------------------------------------------------------------
+                              T h r i k h r e n                             
+-----------------------------------------------------------------------------
+Thrikhren are an ancient race of Mantis warriors and are very intelligent 
+insectoids. Thrikhrens are some of the most proficient mages in the world.
+Their main area of expertise is in the mind; but this doesn't mean their
+bodies are lacking. They have strong shells and sharp claws that confer to
+them natural abilites welcome to any spellcaster.
+-----------------------------------------------------------------------------
+  Strength     : Below Ave  Dexterity    : Above Ave  Intelligence : Excellent 
+  Constitution : Average    Stamina      : Poor       Wisdom       : Above Ave 
+  Hp max       : Average    Ep max       : Poor       Sp max       : Above Ave 
+  Hp regen     : Poor       Ep regen     : Poor       Sp regen     : Very Good 
+-----------------------------------------------------------------------------
+They can train skills up to 95%
+They can study spells up to 95%
+Their experience rate is 87 %
+Average height: 4 feet 7 inches
+Average mass: 114
+They have average charisma.
+-----------------------------------------------------------------------------
+They learn skills slower than humans.
+They learn spells about as fast as humans.
+They can see in the dark.
+They can eat corpses.
+
+---- (1-25-86%)[h]: 
+======================================================================
+
+======================================================================
+=== RACE: TROLL ===
+======================================================================
+You just entered something the MUD doesn't understand.
+If you need help you can try on the channels, type: newbie Can someone help me
+with (whatever you need help with).
+hp(10/10) sp(531/706) ep(498/498) > 
+======================================================================
+
+======================================================================
+=== RACE: VAMPIRE ===
+======================================================================
+You just entered something the MUD doesn't understand.
+To tell someone something: type tell <player name> message
+hp(10/10) sp(533/706) ep(498/498) > 
+======================================================================
+
+======================================================================
+=== RACE: VINNIPIER ===
+======================================================================
+You just entered something the MUD doesn't understand.
+If you are having trouble, type help
+hp(10/10) sp(537/706) ep(498/498) > 
+======================================================================
+
+======================================================================
+=== RACE: XORN ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Type look to see what is in the current room.
+hp(10/10) sp(539/706) ep(498/498) > 
+======================================================================
+
+======================================================================
+=== FINAL LOOK ===
+======================================================================
+You just entered something the MUD doesn't understand.
+If you are having trouble, type 'faq'
+hp(10/10) sp(541/706) ep(498/498) > Hall of Races [exits: south and north]
+This is the Hall of Races in the space outside the world.  The only way out of
+this void is to select the race you wish to represent in the world of Islands
+of Myth. In this hall, every race has a statue, and you feel that you can do
+these things: 
+-------------------------------------------------------------------------
+      TYPE THIS    : TO RECEIVE
+-------------------------------------------------------------------------
+      all races    : To get a list of available races
+      touch <race> : To touch the statue of <race> and enter the world
+      la <race>    : To examine <race>'s statue and learn more info
+      read poster  : To see which races are best for which guilds
+      read sign    : You're lost and need additional help
+-------------------------------------------------------------------------
+
+An interesting looking poster.
+
+An important sign stands here.
+
+hp(10/10) sp(541/706) ep(498/498) > 
+======================================================================

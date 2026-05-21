@@ -1,0 +1,13 @@
+You just entered something the MUD doesn't understand.
+Want to try something fun? type: random
+hp(716/716) sp(750/750) ep(538/538) > Sebbe tells you: yo
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(716/716) sp(750/750) ep(538/538) > 

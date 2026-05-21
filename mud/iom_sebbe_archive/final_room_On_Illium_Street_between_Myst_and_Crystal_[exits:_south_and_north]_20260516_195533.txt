@@ -1,0 +1,8 @@
+{
+  "look": "On Illium Street between Myst and Crystal [exits: south and north]\r\n You stand before Central Square as it lies directly north. To the east you can see the wishing pools of Gossamer through the Lorling\r\ntrees at your side. And to the west, Lorlings stand in a cluster, creating a small forest in the heart of the city. Each side of the\r\nstreet, Lorlings sway and talk among themselves in a language lost to your ears.\r\n\r\nA floating moonflower vine (glowing)\r\n\r\n",
+  "exits": "You notice these exits:\r\n         North :  Central Square\r\n         South :  Intersection of Illium\r\n                  and Crystal\r\n",
+  "scan": "Typo.\r\n",
+  "from": "Central Square [exits: south, west, north, east and fountain]",
+  "via": "south",
+  "enter_msg": "On Illium Street between Myst and Crystal [exits: south and north]\r\nA floating moonflower vine (glowing)\r\n\r\n"
+}

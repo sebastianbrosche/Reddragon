@@ -1,0 +1,207 @@
+#!/usr/bin/expect -f
+# Red Dragon MUD - Emalz Leveling and Exploration Script v2
+# Handles insufficient XP case correctly
+
+set timeout 30
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/emalz_run_[exec date +%s].log"
+log_file $logfile
+
+proc wait_prompt {} {
+    expect "hp("
+    sleep 1
+}
+
+proc send_cmd {cmd} {
+    send "$cmd\r"
+    sleep 1
+}
+
+spawn telnet islandsofmyth.org 3000
+
+# Login
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+
+# Wait for initial prompt
+wait_prompt
+
+# Record state
+send_cmd "score"
+expect {
+    -re {Experience\s+:\s+([0-9,]+)} {
+        set xp_str $expect_out(1,string)
+        set xp_clean [string map {, ""} $xp_str]
+        set current_xp $xp_clean
+        puts "=== Current XP: $current_xp ==="
+    }
+    timeout {
+        set current_xp 0
+    }
+}
+wait_prompt
+
+send_cmd "skills"
+wait_prompt
+
+# === CHECK IF CAN LEVEL UP ===
+# Level 6 needs 2118 XP, Level 7 needs more, etc
+# We need at least next_level XP to advance
+set can_level 0
+if {$current_xp >= 2118} {
+    set can_level 1
+}
+
+# === LEVEL UP IF POSSIBLE ===
+if {$can_level} {
+    send_cmd "warp"
+    wait_prompt
+    
+    send_cmd "e"
+    wait_prompt
+    
+    send_cmd "talk achman"
+    sleep 2
+    
+    # Wait for main menu and pick 'd'
+    expect "[abcdeq]"
+    send "d\r"
+    sleep 2
+    
+    # Wait for stat selection menu and pick 'a' (strength)
+    expect "[abcdefghijmq]"
+    send "a\r"
+    sleep 2
+    
+    # Wait for "How many times?"
+    expect "How many times?"
+    send "1\r"
+    sleep 3
+    
+    # Check result
+    expect {
+        "You still need" {
+            # Not enough XP - quit menu
+            send "q\r"
+            sleep 1
+            send "q\r"
+            sleep 1
+            wait_prompt
+        }
+        "Congratulations" {
+            # Leveled up!
+            wait_prompt
+        }
+        "hp(" {
+            # Back to prompt
+        }
+        timeout {
+            send "q\r"
+        }
+    }
+    
+    # Confirm level
+    send_cmd "score"
+    wait_prompt
+    
+    # Get out of judge room
+    send_cmd "warp"
+    wait_prompt
+}
+
+# === EXPLORATION / GRINDING PHASE ===
+# Explore all directions from Adventurer Guild Entrance
+set directions {west south southeast northeast north southwest}
+
+foreach dir $directions {
+    send_cmd $dir
+    wait_prompt
+    
+    send_cmd "look"
+    wait_prompt
+    
+    # Try to kill any monsters
+    send_cmd "kill earwig"
+    sleep 3
+    expect {
+        "You killed" {
+            send_cmd "get all from corpse"
+            wait_prompt
+            send_cmd "eat corpse"
+            wait_prompt
+        }
+        "What?" {}
+        "There is no" {}
+        "hp(" {}
+        timeout {}
+    }
+    
+    # Go back to guild entrance before next direction
+    send_cmd "warp"
+    wait_prompt
+}
+
+# Try Yensid Land via Sisong for earwig grinding
+send_cmd "warp"
+wait_prompt
+
+send_cmd "se"
+wait_prompt
+
+send_cmd "e"
+wait_prompt
+
+send_cmd "talk sisong"
+sleep 2
+
+# Pick option 9 (Yensid Land)
+expect "number to travel to"
+send "9\r"
+sleep 3
+wait_prompt
+
+# Look around Yensid Land
+send_cmd "look"
+wait_prompt
+
+# Try to find and kill earwigs
+for {set i 0} {$i < 5} {incr i} {
+    send_cmd "kill earwig"
+    sleep 4
+    expect {
+        "You killed" {
+            send_cmd "get all from corpse"
+            wait_prompt
+            send_cmd "eat corpse"
+            wait_prompt
+        }
+        "What?" {
+            # No earwig here, try moving
+            send_cmd "nw"
+            wait_prompt
+        }
+        "There is no" {
+            send_cmd "nw"
+            wait_prompt
+        }
+        "hp(" {}
+        timeout {}
+    }
+}
+
+# Return to guild
+send_cmd "warp"
+wait_prompt
+
+# Final score
+send_cmd "score"
+wait_prompt
+
+# Quit
+send "quit\r"
+expect "Save"
+send "Y\r"
+
+puts "=== SESSION COMPLETE ==="
+puts "=== XP gained this session ==="

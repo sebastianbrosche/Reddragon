@@ -1,0 +1,248 @@
+# Missing Races Capture
+# 2026-05-14 04:42:42
+
+
+======================================================================
+=== LOGIN ===
+======================================================================
+
+Last login: Wed May 13 16:39:59 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Chronicler has reconnected (Unselected level 1).
+hp(10/10) sp(543/706) ep(498/498) > 
+
+======================================================================
+=== RACE-SELECT ===
+======================================================================
+You just entered something the MUD doesn't understand.
+If you need help you can try on the channels, type: newbie Can someone help me
+with (whatever you need help with).
+hp(10/10) sp(547/706) ep(498/498) > 
+
+======================================================================
+=== RACE: DROW ===
+======================================================================
+-----------------------------------------------------------------------------
+                                   D r o w                                  
+-----------------------------------------------------------------------------
+Drow are the Dark Elves of the Underworld - fearless killers who are 
+known for both their spellcasting and fighting ability. Though more
+frail than humans, they are solid fighters with a great reputation of
+ruthlessness and precision. Those who cross a dark elf usually meet a 
+swift demise. Drow are tallish elves with indigo skin and white hair, 
+and usually have either red or golden eyes.
+-----------------------------------------------------------------------------
+  Strength     : Average    Dexterity    : Good       Intelligence : Above Ave 
+  Constitution : Below Ave  Stamina      : Below Ave  Wisdom       : Good      
+  Hp max       : Average    Ep max       : Below Ave  Sp max       : Average   
+  Hp regen     : Below Ave  Ep regen     : Average    Sp regen     : Very Good 
+-----------------------------------------------------------------------------
+They can train skills up to 95%
+They can study spells up to 100%
+Their experience rate is 84 %
+Average height: 5 feet 4 inches
+Average mass: 133
+They are considered to be fascinating creatures.
+-----------------------------------------------------------------------------
+They learn skills slower than humans.
+They learn spells about as fast as humans.
+They can see in the dark.
+
+---- (1-25-83%)[h]: {myth}: Slayn blinks.
+
+
+======================================================================
+=== RACE: ELF ===
+======================================================================
+-----------------------------------------------------------------------------
+                                    E l f                                   
+-----------------------------------------------------------------------------
+Elves are slender and graceful humanoids, with fair faces and slightly 
+pointed ears. Elves are a very ancient and highly advanced race with a 
+long history steeped in mystery and magic. Elves are all long-lived, 
+almost immortal, living through centuries and seeming ageless to humans.
+-----------------------------------------------------------------------------
+  Strength     : Below Ave  Dexterity    : Above Ave  Intelligence : Average   
+  Constitution : Below Ave  Stamina      : Poor       Wisdom       : Very Good 
+  Hp max       : Average    Ep max       : Poor       Sp max       : Average   
+  Hp regen     : Average    Ep regen     : Above Ave  Sp regen     : Very Good 
+-----------------------------------------------------------------------------
+They can train skills up to 95%
+They can study spells up to 95%
+Their experience rate is 95 %
+Average height: 5 feet 2 inches
+Average mass: 113
+They are considered to be fascinating creatures.
+-----------------------------------------------------------------------------
+They learn skills much slower than humans.
+They learn spells about as fast as humans.
+They can see in the dark.
+-----------------------------------------------------------------------------
+
+hp(10/10) sp(581/706) ep(498/498) > 
+
+======================================================================
+=== RACE: LEPRECHAUN ===
+======================================================================
+-----------------------------------------------------------------------------
+                             L e p r e c h a u n                            
+-----------------------------------------------------------------------------
+Leprechauns are very small beings that are distantly related 
+to hobbits, though both races have gone separate ways a long 
+time ago. Leprechauns are usually playful and cheerful, being 
+sometimes mischievous. They are nimble and have a quick mind, 
+which gives them natural abilities at magic, even though they 
+are a bit erratic and sometimes lack proper concentration for 
+rituals and enchantments.
+-----------------------------------------------------------------------------
+  Strength     : Terrible   Dexterity    : Above Ave  Intelligence : Above Ave 
+  Constitution : Poor       Stamina      : Poor       Wisdom       : Good      
+  Hp max       : Poor       Ep max       : Poor       Sp max       : Good      
+  Hp regen     : Poor       Ep regen     : Poor       Sp regen     : Good      
+-----------------------------------------------------------------------------
+They can train skills up to 80%
+They can study spells up to 90%
+Their experience rate is 118 %
+Average height: 2 feet 10 inches
+Average mass: 73
+They are considered to be quite attractive creatures.
+-----------------------------------------------------------------------------
+They learn skills slower than humans.
+They learn spells much faster than humans.
+
+---- (1-25-92%)[h]: 
+
+======================================================================
+=== RACE: LIZARDMAN ===
+======================================================================
+-----------------------------------------------------------------------------
+                              L i z a r d m a n                             
+-----------------------------------------------------------------------------
+Lizardmen are savage, semi-aquatic, reptilian humanoids that live
+through scavenging, raiding, and in less hostile areas, by fishing
+and gathering. Adult lizardmen stand 6-7 feet tall, weighing 200 to
+250 pounds. Skin tones range from dark green to grey and brown. They
+are scaled and have a flecked appearance. Their tails are 3-4 feet
+long and although not prehensile are quite expressive. Males are
+nearly impossible to distinguish from females without either asking
+or close inspection. About one tribe in ten has evolved to a higher
+state and it is these lizardmen that are sometimes seen adventuring.
+
+-----------------------------------------------------------------------------
+  Strength     : Above Ave  Dexterity    : Good       Intelligence : Poor      
+  Constitution : Above Ave  Stamina      : Average    Wisdom       : Above Ave 
+  Hp max       : Above Ave  Ep max       : Average    Sp max       : Bad       
+  Hp regen     : Below Ave  Ep regen     : Above Ave  Sp regen     : Average   
+-----------------------------------------------------------------------------
+They can train skills up to 95%
+They can study spells up to 90%
+Their experience rate is 87 %
+Average height: 6 feet 4 inches
+Average mass: 254
+They are considered to be quite attractive creatures.
+
+---- (1-25-83%)[h]: 
+
+======================================================================
+=== RACE: OGIER ===
+======================================================================
+-----------------------------------------------------------------------------
+                                  O g i e r                                 
+-----------------------------------------------------------------------------
+Widely known as expert stonemasons, the Ogier were first seen in Islands of
+Myth  
+during the construction of the city, and the mysterious tunnels beneath it.  
+Their excellent eye for detail, speed of work and ability to work long hours 
+throughout the year led them to be much sought after. Known as a pacific     
+people who long for the old ways of tending living and growing thing, the    
+Ogier were not always this way. They were quick to act and quick on their    
+feet and considered some of the fiercest warriors. Unfortunately, in the ages
+since the Ogier left their homes,
+the Stedding, to come to Islands of Myth, they have become withdrawn and lost
+much
+of their mental capacity, now reputably slow to recover magical energies and 
+slow learners of spells and skills. Ogier resemble humans in general build,  
+with long tufted ears and broad, vaguely snoutlike noses. However they are  
+much larger and much longer lived, and can be most often seen adventuring as
+woodsmen, rogues and fighters.
+-----------------------------------------------------------------------------
+  Strength     : Good       Dexterity    : Excellent  Intelligence : Bad       
+  Constitution : Very Good  Stamina      : Above Ave  Wisdom       : Poor      
+  Hp max       : Good       Ep max       : Above Ave  Sp max       : Bad       
+  Hp regen     : Average    Ep regen     : Above Ave  Sp regen     : Bad       
+-----------------------------------------------------------------------------
+They can train skills up to 95%
+They can study spells up to 60%
+
+---- (1-25-73%)[h]: 
+
+======================================================================
+=== RACE: SNAKEMAN ===
+======================================================================
+-----------------------------------------------------------------------------
+                               S n a k e m a n                              
+-----------------------------------------------------------------------------
+Snakemen are a race of humanoid shaped reptiles. They have most of the features
+of the snake, with their scaly hide and their cold blood. Snakemen were created
+a long time ago by magic by a powerful mage that intended to use them as his
+servants. The experiment was a bit too successful and they proved themselves
+more intelligent than their creator and eliminated him. Since then, snakemen
+have always produced some of the best mages of the Islands of Myth world.
+-----------------------------------------------------------------------------
+  Strength     : Poor       Dexterity    : Below Ave  Intelligence : Excellent 
+  Constitution : Poor       Stamina      : Poor       Wisdom       : Average   
+  Hp max       : Poor       Ep max       : Poor       Sp max       : Very Good 
+  Hp regen     : Below Ave  Ep regen     : Below Ave  Sp regen     : Excellent 
+-----------------------------------------------------------------------------
+They can train skills up to 95%
+They can study spells up to 100%
+Their experience rate is 98 %
+Average height: 4 feet 4 inches
+Average mass: 109
+They are considered to be quite repulsive creatures.
+-----------------------------------------------------------------------------
+They learn skills much slower than humans.
+They learn spells much faster than humans.
+They can see in the dark.
+They are naturally resistant to poison damage.
+They are naturally vulnerable to physical damage.
+-----------------------------------------------------------------------------
+
+hp(10/10) sp(661/706) ep(498/498) > 
+
+======================================================================
+=== RACE: VINNIPIER ===
+======================================================================
+-----------------------------------------------------------------------------
+                              V i n n i p i e r                             
+-----------------------------------------------------------------------------
+Vinnipier are a genetic mistake in an elf offbreed. They have small 
+pointy ears like elves do, but are physically stronger being a race 
+much more warlike than elves. They have small oval shaped blue eyes 
+and an awkward slanted head. They stagger constantly, possibly due 
+to the genetic mistake. This makes them appear to be intoxicated 
+almost constantly.
+-----------------------------------------------------------------------------
+  Strength     : Good       Dexterity    : Very Good  Intelligence : Below Ave 
+  Constitution : Above Ave  Stamina      : Below Ave  Wisdom       : Below Ave 
+  Hp max       : Average    Ep max       : Average    Sp max       : Bad       
+  Hp regen     : Above Ave  Ep regen     : Above Ave  Sp regen     : Poor      
+-----------------------------------------------------------------------------
+They can train skills up to 100%
+They can study spells up to 80%
+Their experience rate is 94 %
+Average height: 5 feet 2 inches
+Average mass: 129
+They are considered to be fascinating creatures.
+-----------------------------------------------------------------------------
+They learn skills about as fast as humans.
+They learn spells about as fast as humans.
+They are naturally extremely resistant to magical damage.
+
+---- (1-25-96%)[h]: 

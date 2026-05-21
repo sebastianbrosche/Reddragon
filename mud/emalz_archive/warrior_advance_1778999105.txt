@@ -1,0 +1,7 @@
+You become more adept in your warrior guild.
+You learn the skill honor of the gods.
+Stats: str:+1, dex:+2, con:+2, wis:+1, sta:+1, hp_regen:+2, sp_regen:+1,
+       ep_regen:+2, hp_max:+2, ep_max:+1, sp_max:+1
+This cost you 289 experience points.
+You feel as though the Gods now take less interest in your well being.
+hp(862/888) sp(736/754) ep(608/630) > 

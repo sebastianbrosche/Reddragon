@@ -1,0 +1,518 @@
+# Islands of Myth — Elemental Guild
+# 2026-05-14 06:37:52
+
+
+======================================================================
+=== LOGIN ===
+======================================================================
+Password: 
+
+======================================================================
+=== PASSWORD ===
+======================================================================
+
+Last login: Wed May 13 18:37:24 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Explorer has reconnected (Human level 1).
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== ENTER PORTAL ===
+======================================================================
+There is no portal here.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOCATION ===
+======================================================================
+Outside a small shack [exits: northeast, west, south, southeast, shack,
+northwest, north, east and southwest]
+ffff|ffff There is a curious shack here. It looks quite old. 
+ffff#ffff 
+fff#*#fff 
+bfff#ffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== AT GUILD ===
+======================================================================
+Outside a small shack [exits: northeast, west, south, southeast, shack,
+northwest, north, east and southwest]
+ffff|ffff There is a curious shack here. It looks quite old. 
+ffff#ffff 
+fff#*#fff 
+bfff#ffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== PORTAL ROOM ===
+======================================================================
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+fffff#fff You are in a forest. Large trees form a canopy overhead. The ground
+bfff#?#ff is moist and fertile. 
+~bff*#fff 
+bffffffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== ELEMENTAL GUILD ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Common channels are newbie, chat and myth. Type: on myth.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK ELEMENTAL ===
+======================================================================
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+fffff#fff You are in a forest. Large trees form a canopy overhead. The ground
+bfff#?#ff is moist and fertile. 
+~bff*#fff 
+bffffffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== EXITS ELEMENTAL ===
+======================================================================
+You notice these exits:
+     Southwest :  Forest
+          East :  Crumbling
+                  Ruins
+         North :  Crumbling
+                  Ruins
+     Northwest :  Forest
+     Southeast :  Forest
+         South :  Forest
+          West :  Forest
+     Northeast :  Outside a small
+                  shack
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== INFO ELEMENTAL ===
+======================================================================
+There is nothing here to get information from.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== AFTER OUT ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Talk to Sisong in the adv hall if you get a chance for more help.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== OUT LOOK ===
+======================================================================
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+fffff#fff You are in a forest. Large trees form a canopy overhead. The ground
+bfff#?#ff is moist and fertile. 
+~bff*#fff 
+bffffffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== OUT EXITS ===
+======================================================================
+You notice these exits:
+     Southwest :  Forest
+          East :  Crumbling
+                  Ruins
+         North :  Crumbling
+                  Ruins
+     Northwest :  Forest
+     Southeast :  Forest
+         South :  Forest
+          West :  Forest
+     Northeast :  Outside a small
+                  shack
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== OUT: NORTH ===
+======================================================================
+Crumbling Ruins [exits: northeast, west, south, southeast, northwest, north,
+east and southwest]
+?ffff|fff All around are the shattered walls of ancient buildings. 
+fffff#fff 
+bfff*?#ff 
+~bfff#fff 
+bffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK NORTH ===
+======================================================================
+Crumbling Ruins [exits: northeast, west, south, southeast, northwest, north,
+east and southwest]
+?ffff|fff All around are the shattered walls of ancient buildings. 
+fffff#fff 
+bfff*?#ff 
+~bfff#fff 
+bffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== BACK FROM NORTH ===
+======================================================================
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+fffff#fff You are in a forest. Large trees form a canopy overhead. The ground
+bfff#?#ff is moist and fertile. 
+~bff*#fff 
+bffffffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== OUT: SOUTH ===
+======================================================================
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+bfff#?#ff You are in a forest. Large trees form a canopy overhead. The ground
+~bfff#fff is moist and fertile. 
+bfff*ffff 
+fffffffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK SOUTH ===
+======================================================================
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+bfff#?#ff You are in a forest. Large trees form a canopy overhead. The ground
+~bfff#fff is moist and fertile. 
+bfff*ffff 
+fffffffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== BACK FROM SOUTH ===
+======================================================================
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+fffff#fff You are in a forest. Large trees form a canopy overhead. The ground
+bfff#?#ff is moist and fertile. 
+~bff*#fff 
+bffffffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== OUT: EAST ===
+======================================================================
+Crumbling Ruins [exits: northeast, west, south, southeast, northwest, north,
+east and southwest]
+ffff#ffff All around are the shattered walls of ancient buildings. 
+fff#?#fff 
+bfff*ffff 
+fffffffff 
+ffffffff^ 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK EAST ===
+======================================================================
+Crumbling Ruins [exits: northeast, west, south, southeast, northwest, north,
+east and southwest]
+ffff#ffff All around are the shattered walls of ancient buildings. 
+fff#?#fff 
+bfff*ffff 
+fffffffff 
+ffffffff^ 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== BACK FROM EAST ===
+======================================================================
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+fffff#fff You are in a forest. Large trees form a canopy overhead. The ground
+bfff#?#ff is moist and fertile. 
+~bff*#fff 
+bffffffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== OUT: WEST ===
+======================================================================
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+bfffff#ff You are in a forest. Large trees form a canopy overhead. The ground
+~bfff#?#f is moist and fertile. 
+~~bf*f#ff 
+bbfffffff 
+bffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK WEST ===
+======================================================================
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+bfffff#ff You are in a forest. Large trees form a canopy overhead. The ground
+~bfff#?#f is moist and fertile. 
+~~bf*f#ff 
+bbfffffff 
+bffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== BACK FROM WEST ===
+======================================================================
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+fffff#fff You are in a forest. Large trees form a canopy overhead. The ground
+bfff#?#ff is moist and fertile. 
+~bff*#fff 
+bffffffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== OUT: NORTHEAST ===
+======================================================================
+Outside a small shack [exits: northeast, west, south, southeast, shack,
+northwest, north, east and southwest]
+ffff|ffff There is a curious shack here. It looks quite old. 
+ffff#ffff 
+fff#*#fff 
+bfff#ffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK NORTHEAST ===
+======================================================================
+Outside a small shack [exits: northeast, west, south, southeast, shack,
+northwest, north, east and southwest]
+ffff|ffff There is a curious shack here. It looks quite old. 
+ffff#ffff 
+fff#*#fff 
+bfff#ffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== BACK FROM NORTHEAST ===
+======================================================================
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+fffff#fff You are in a forest. Large trees form a canopy overhead. The ground
+bfff#?#ff is moist and fertile. 
+~bff*#fff 
+bffffffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== OUT: NORTHWEST ===
+======================================================================
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+f?ffff|ff You are in a forest. Large trees form a canopy overhead. The ground
+bfffff#ff is moist and fertile. 
+~bff*#?#f 
+~~bfff#ff 
+bbfffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK NORTHWEST ===
+======================================================================
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+f?ffff|ff You are in a forest. Large trees form a canopy overhead. The ground
+bfffff#ff is moist and fertile. 
+~bff*#?#f 
+~~bfff#ff 
+bbfffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== BACK FROM NORTHWEST ===
+======================================================================
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+fffff#fff You are in a forest. Large trees form a canopy overhead. The ground
+bfff#?#ff is moist and fertile. 
+~bff*#fff 
+bffffffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== OUT: SOUTHEAST ===
+======================================================================
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+fff#?#fff You are in a forest. Large trees form a canopy overhead. The ground
+bfff#ffff is moist and fertile. 
+ffff*ffff 
+ffffffff^ 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK SOUTHEAST ===
+======================================================================
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+fff#?#fff You are in a forest. Large trees form a canopy overhead. The ground
+bfff#ffff is moist and fertile. 
+ffff*ffff 
+ffffffff^ 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== BACK FROM SOUTHEAST ===
+======================================================================
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+fffff#fff You are in a forest. Large trees form a canopy overhead. The ground
+bfff#?#ff is moist and fertile. 
+~bff*#fff 
+bffffffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== OUT: SOUTHWEST ===
+======================================================================
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+~bfff#?#f You are in a forest. Large trees form a canopy overhead. The ground
+~~bfff#ff is moist and fertile. 
+bbff*ffff 
+bffffffff 
+bffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK SOUTHWEST ===
+======================================================================
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+~bfff#?#f You are in a forest. Large trees form a canopy overhead. The ground
+~~bfff#ff is moist and fertile. 
+bbff*ffff 
+bffffffff 
+bffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== BACK FROM SOUTHWEST ===
+======================================================================
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+fffff#fff You are in a forest. Large trees form a canopy overhead. The ground
+bfff#?#ff is moist and fertile. 
+~bff*#fff 
+bffffffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== BACK TO ELEMENTAL ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Need more help, ask on the newbie channel, type: newbie 'your question.'
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== QUIT ===
+======================================================================
+Quitting. Please stand by while saving.
+SUMMARY
+Login time: 25m30s  Exp Earned: 0
+________________________________________________________________
+|       Combat Category   |   Today's session | Total to date  |
+'--------------------------------------------------------------'
+|  Experience per minute  |         0         |       153      |
+|   Criticals inflicted   |         0         |        0       |
+|     Criticals taken     |         0         |        0       |
+|     Stuns inflicted     |         0         |        0       |
+|       Stuns taken       |         0         |        0       |
+|     Dodges Performed    |         0         |        0       |
+|         # deaths        |         0         |        0       |
+|         # reincs        |         0         |        0       |
+'--------------------------------------------------------------'
+Closing down.
+ Saving your character.
+

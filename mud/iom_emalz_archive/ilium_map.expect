@@ -1,0 +1,280 @@
+#!/usr/bin/expect -f
+set timeout 60
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/ilium_map.log"
+set mapfile "/root/.openclaw/workspace/mud/iom_emalz_archive/ilium_map_data.txt"
+
+exec rm -f $logfile
+log_file $logfile
+
+# Helper proc to log room data
+proc log_room {data} {
+    set fp [open "/root/.openclaw/workspace/mud/iom_emalz_archive/ilium_map_data.txt" a]
+    puts $fp $data
+    close $fp
+}
+
+spawn telnet islandsofmyth.org 3000
+
+# Login
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+
+expect ">"
+
+# Record initial state
+send "score\r"
+expect ">"
+
+# Warp to central location
+send "warp\r"
+expect ">"
+
+# Start mapping from Adventure Guild
+log_room "=== ILIUM CITY MAPPING START: [exec date] ==="
+
+# Look at current room
+send "look\r"
+expect ">"
+
+# Try all standard directions and record
+set directions {n ne e se s sw w nw up down}
+
+foreach dir $directions {
+    send "$dir\r"
+    sleep 1
+    expect {
+        ">" {}
+        timeout {
+            send "\r"
+            expect ">"
+        }
+    }
+    
+    # Look at new room
+    send "look\r"
+    sleep 1
+    expect ">"
+    
+    # Go back
+    switch $dir {
+        "n" { send "s\r" }
+        "ne" { send "sw\r" }
+        "e" { send "w\r" }
+        "se" { send "nw\r" }
+        "s" { send "n\r" }
+        "sw" { send "ne\r" }
+        "w" { send "e\r" }
+        "nw" { send "se\r" }
+        "up" { send "down\r" }
+        "down" { send "up\r" }
+    }
+    sleep 1
+    expect ">"
+}
+
+# Now try deeper exploration - go in each direction and explore 2 rooms deep
+# Start with east since that's often where cities extend
+send "e\r"
+expect ">"
+send "look\r"
+expect ">"
+
+# From this room, try all exits
+foreach dir $directions {
+    send "$dir\r"
+    sleep 1
+    expect ">"
+    send "look\r"
+    sleep 1
+    expect ">"
+    
+    # Return to previous room
+    switch $dir {
+        "n" { send "s\r" }
+        "ne" { send "sw\r" }
+        "e" { send "w\r" }
+        "se" { send "nw\r" }
+        "s" { send "n\r" }
+        "sw" { send "ne\r" }
+        "w" { send "e\r" }
+        "nw" { send "se\r" }
+        "up" { send "down\r" }
+        "down" { send "up\r" }
+    }
+    sleep 1
+    expect ">"
+}
+
+# Go back to starting point
+send "w\r"
+expect ">"
+
+# Try south
+send "s\r"
+expect ">"
+send "look\r"
+expect ">"
+
+# Explore from here
+foreach dir $directions {
+    send "$dir\r"
+    sleep 1
+    expect ">"
+    send "look\r"
+    sleep 1
+    expect ">"
+    switch $dir {
+        "n" { send "s\r" }
+        "ne" { send "sw\r" }
+        "e" { send "w\r" }
+        "se" { send "nw\r" }
+        "s" { send "n\r" }
+        "sw" { send "ne\r" }
+        "w" { send "e\r" }
+        "nw" { send "se\r" }
+        "up" { send "down\r" }
+        "down" { send "up\r" }
+    }
+    sleep 1
+    expect ">"
+}
+
+# Go back
+send "n\r"
+expect ">"
+
+# Try west
+send "w\r"
+expect ">"
+send "look\r"
+expect ">"
+
+# Continue west as far as possible (3 rooms)
+for {set i 0} {$i < 3} {incr i} {
+    send "w\r"
+    sleep 1
+    expect ">"
+    send "look\r"
+    sleep 1
+    expect ">"
+}
+
+# Go back east 3 rooms
+for {set i 0} {$i < 3} {incr i} {
+    send "e\r"
+    sleep 1
+    expect ">"
+}
+
+# Try north
+send "n\r"
+expect ">"
+send "look\r"
+expect ">"
+
+# Explore north path
+foreach dir $directions {
+    send "$dir\r"
+    sleep 1
+    expect ">"
+    send "look\r"
+    sleep 1
+    expect ">"
+    switch $dir {
+        "n" { send "s\r" }
+        "ne" { send "sw\r" }
+        "e" { send "w\r" }
+        "se" { send "nw\r" }
+        "s" { send "n\r" }
+        "sw" { send "ne\r" }
+        "w" { send "e\r" }
+        "nw" { send "se\r" }
+        "up" { send "down\r" }
+        "down" { send "up\r" }
+    }
+    sleep 1
+    expect ">"
+}
+
+# Try northeast
+send "ne\r"
+expect ">"
+send "look\r"
+expect ">"
+
+# Explore from northeast
+foreach dir $directions {
+    send "$dir\r"
+    sleep 1
+    expect ">"
+    send "look\r"
+    sleep 1
+    expect ">"
+    switch $dir {
+        "n" { send "s\r" }
+        "ne" { send "sw\r" }
+        "e" { send "w\r" }
+        "se" { send "nw\r" }
+        "s" { send "n\r" }
+        "sw" { send "ne\r" }
+        "w" { send "e\r" }
+        "nw" { send "se\r" }
+        "up" { send "down\r" }
+        "down" { send "up\r" }
+    }
+    sleep 1
+    expect ">"
+}
+
+# Try northwest
+send "nw\r"
+expect ">"
+send "look\r"
+expect ">"
+
+# Explore from northwest
+foreach dir $directions {
+    send "$dir\r"
+    sleep 1
+    expect ">"
+    send "look\r"
+    sleep 1
+    expect ">"
+    switch $dir {
+        "n" { send "s\r" }
+        "ne" { send "sw\r" }
+        "e" { send "w\r" }
+        "se" { send "nw\r" }
+        "s" { send "n\r" }
+        "sw" { send "ne\r" }
+        "w" { send "e\r" }
+        "nw" { send "se\r" }
+        "up" { send "down\r" }
+        "down" { send "up\r" }
+    }
+    sleep 1
+    expect ">"
+}
+
+# Check for warrior guild
+send "where warrior\r"
+sleep 2
+expect ">"
+
+send "who\r"
+sleep 2
+expect ">"
+
+log_room "=== ILIUM CITY MAPPING END: [exec date] ==="
+
+send "score\r"
+expect ">"
+
+send "quit\r"
+sleep 3
+expect "Save"
+send "Y\r"
+
+puts "ILIUM MAPPING COMPLETE"

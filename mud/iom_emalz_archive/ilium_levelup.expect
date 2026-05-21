@@ -1,0 +1,104 @@
+#!/usr/bin/expect -f
+set timeout 60
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/ilium_levelup.log"
+exec rm -f $logfile
+log_file $logfile
+
+spawn telnet islandsofmyth.org 3000
+
+expect {
+    "Please enter a name" {}
+    timeout { puts "TIMEOUT waiting for login prompt"; exit 1 }
+}
+
+send "emalz\r"
+
+expect {
+    "Password:" {}
+    "already playing" {
+        puts "Already playing - may need to wait"
+        sleep 5
+        send "emalz\r"
+        expect "Password:"
+    }
+    timeout { puts "TIMEOUT after name"; exit 1 }
+}
+
+send "creative\r"
+
+expect {
+    ">" {}
+    timeout { puts "TIMEOUT after password"; exit 1 }
+}
+
+# Record state
+send "score\r"
+expect ">"
+
+send "skills\r"
+expect ">"
+
+# Warp to guild
+send "warp\r"
+expect ">"
+
+# Go to Level Room
+send "e\r"
+expect ">"
+
+# Talk to Achman and select advance
+send "talk achman\r"
+expect "Adventurers leveling place"
+expect "\[abcdeq\]"
+
+# Select c) Advance a level
+send "c\r"
+sleep 2
+expect {
+    ">" {}
+    "What stat would you like to raise?" {
+        # If asked for stat, pick Strength
+        send "strength\r"
+        sleep 2
+        expect ">"
+    }
+    timeout { send "\r"; expect ">" }
+}
+
+# Check if we advanced
+send "score\r"
+expect ">"
+
+# Try advancing again if possible
+send "talk achman\r"
+expect "Adventurers leveling place"
+expect "\[abcdeq\]"
+send "c\r"
+sleep 2
+expect ">"
+
+send "score\r"
+expect ">"
+
+# Try again
+send "talk achman\r"
+expect "Adventurers leveling place"
+expect "\[abcdeq\]"
+send "c\r"
+sleep 2
+expect ">"
+
+send "score\r"
+expect ">"
+
+# Back to guild
+send "w\r"
+expect ">"
+
+# Save and quit
+send "quit\r"
+sleep 3
+expect "Save"
+send "Y\r"
+
+puts "LEVEL UP SESSION COMPLETE"

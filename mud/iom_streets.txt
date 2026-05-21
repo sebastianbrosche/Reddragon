@@ -1,0 +1,485 @@
+# Islands of Myth — Illium City Street Exploration
+# 2026-05-14 06:23:36
+
+
+======================================================================
+=== LOGIN ===
+======================================================================
+Password: 
+
+======================================================================
+=== PASSWORD ===
+======================================================================
+
+Last login: Wed May 13 18:21:44 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Explorer has reconnected (Human level 1).
+hp(693/792) sp(693/772) ep(538/538) > 
+
+======================================================================
+=== ENTER PORTAL ===
+======================================================================
+There is no portal here.
+hp(697/792) sp(697/772) ep(538/538) > 
+
+======================================================================
+=== CLOUD ROAD ===
+======================================================================
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers
+Guild. It contains some of the most helpful things in the world of Islands of
+Myth. To the east is Titan Street; to the west is Gossamer Street. Small trees
+line the road.
+
+A floating moonflower vine
+A grand memorial is here.
+
+hp(699/792) sp(699/772) ep(538/538) > 
+
+======================================================================
+=== TITAN STREET 1 ===
+======================================================================
+A vendor hawks fruit from his stall.
+Intersection of Cloud and Titan [exits: south, west and north]
+ The edge of the Illium Bazaar here blends into Cloud Road, which heads west
+towards the Illian Adventurers' Guild. The guild is a domed building, visible
+for blocks - especially over the low stalls of the marketplace. The city
+cathedral lies close by to the south, dominating the landscape for blocks
+around.
+
+A floating moonflower vine
+
+hp(701/792) sp(701/772) ep(538/538) > 
+
+======================================================================
+=== TITAN STREET 2 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(701/792) sp(701/772) ep(538/538) > 
+
+======================================================================
+=== TITAN STREET 3 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(701/792) sp(701/772) ep(538/538) > 
+
+======================================================================
+=== TITAN STREET 4 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(703/792) sp(703/772) ep(538/538) > 
+
+======================================================================
+=== TITAN STREET 5 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(703/792) sp(703/772) ep(538/538) > 
+
+======================================================================
+=== BACK WEST 1 ===
+======================================================================
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers
+Guild. It contains some of the most helpful things in the world of Islands of
+Myth. To the east is Titan Street; to the west is Gossamer Street. Small trees
+line the road.
+
+A floating moonflower vine
+A grand memorial is here.
+
+hp(707/792) sp(707/772) ep(538/538) > 
+
+======================================================================
+=== BACK WEST 2 ===
+======================================================================
+You are jostled as people pass by, heading for the large blue structure.
+Glowing wisps float through the air.
+Intersection of Gossamer and Cloud [exits: south, west, north and east]
+ This busy intersection is the crossroads for Gossamer and Cloud. East of where
+you stand, a large dome structure sits. West is Illium Street, full of citizens
+and wisps. Heading north takes you further into the city. All along here small
+flowers grow among strange trees!
+
+A floating moonflower vine
+
+hp(707/792) sp(707/772) ep(538/538) > 
+
+======================================================================
+=== BACK WEST 3 ===
+======================================================================
+Glowing wisps float through the air.
+On Cloud Road between Illium and Gossamer [exits: west and east]
+ Upon Cloud Road, you cannot help but notice the trees! You see how this little
+road got its name! To the north of you sits a small building, not enterable
+from here. To the west is a large domed structure. Many people seem in a hurry
+to get there.
+
+A floating moonflower vine
+
+hp(709/792) sp(709/772) ep(538/538) > 
+
+======================================================================
+=== BACK WEST 4 ===
+======================================================================
+Glowing wisps float through the air.
+Intersection of Illium and Cloud [exits: south, north and east]
+ Upon this delightful little intersection, you can see the Gossamer Aqueduct to
+the west, flowing south into Central Square. To the east runs Cloud Avenue.
+Lined with small, strange trees, you cannot help but see where it got its name.
+To the south is Central Square. A monument stands in the middle. And all along
+this street Lorlings stand tall, with wisps darting in and out of their
+branches.
+
+A floating moonflower vine
+
+hp(709/792) sp(709/772) ep(538/538) > Rawrbeart enters.
+Rawrbeart leaves south.
+
+
+======================================================================
+=== BACK WEST 5 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(709/792) sp(709/772) ep(538/538) > 
+
+======================================================================
+=== GOSSAMER STREET 1 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(713/792) sp(713/772) ep(538/538) > 
+
+======================================================================
+=== GOSSAMER STREET 2 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(713/792) sp(713/772) ep(538/538) > 
+
+======================================================================
+=== GOSSAMER STREET 3 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(715/792) sp(715/772) ep(538/538) > 
+
+======================================================================
+=== GOSSAMER STREET 4 ===
+======================================================================
+
+
+======================================================================
+=== GOSSAMER STREET 5 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(717/792) sp(717/772) ep(538/538) > 
+
+======================================================================
+=== BACK EAST 1 ===
+======================================================================
+On Cloud Road between Illium and Gossamer [exits: west and east]
+ Upon Cloud Road, you cannot help but notice the trees! You see how this little
+road got its name! To the north of you sits a small building, not enterable
+from here. To the west is a large domed structure. Many people seem in a hurry
+to get there.
+
+A floating moonflower vine
+
+hp(717/792) sp(717/772) ep(538/538) > 
+
+======================================================================
+=== BACK EAST 2 ===
+======================================================================
+Intersection of Gossamer and Cloud [exits: south, west, north and east]
+ This busy intersection is the crossroads for Gossamer and Cloud. East of where
+you stand, a large dome structure sits. West is Illium Street, full of citizens
+and wisps. Heading north takes you further into the city. All along here small
+flowers grow among strange trees!
+
+A floating moonflower vine
+
+hp(719/792) sp(719/772) ep(538/538) > 
+
+======================================================================
+=== BACK EAST 3 ===
+======================================================================
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers
+Guild. It contains some of the most helpful things in the world of Islands of
+Myth. To the east is Titan Street; to the west is Gossamer Street. Small trees
+line the road.
+
+A floating moonflower vine
+A grand memorial is here.
+
+hp(719/792) sp(719/772) ep(538/538) > 
+
+======================================================================
+=== BACK EAST 4 ===
+======================================================================
+Intersection of Cloud and Titan [exits: south, west and north]
+ The edge of the Illium Bazaar here blends into Cloud Road, which heads west
+towards the Illian Adventurers' Guild. The guild is a domed building, visible
+for blocks - especially over the low stalls of the marketplace. The city
+cathedral lies close by to the south, dominating the landscape for blocks
+around.
+
+A floating moonflower vine
+
+hp(723/792) sp(723/772) ep(538/538) > 
+
+======================================================================
+=== BACK EAST 5 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(723/792) sp(723/772) ep(538/538) > 
+
+======================================================================
+=== BACK TO GUILD ===
+======================================================================
+On Titan street [exits: south and north]
+ The road extends below you as you walk through the eastern section of Illium
+City. A cathedral rests in the center of the eastern side of Illium, standing
+magnificiently against the horizon.
+
+A floating moonflower vine
+
+hp(725/792) sp(725/772) ep(538/538) > 
+
+======================================================================
+=== FINAL LOOK ===
+======================================================================
+On Titan street [exits: south and north]
+ The road extends below you as you walk through the eastern section of Illium
+City. A cathedral rests in the center of the eastern side of Illium, standing
+magnificiently against the horizon.
+
+A floating moonflower vine
+
+hp(725/792) sp(725/772) ep(538/538) > 
+
+======================================================================
+=== GO MYTH ROOM ===
+======================================================================
+On Titan street [exits: south and north]
+ The road beneath you appears to have been made out of a very fine, very thin
+dirt that almost seems like dust. It extends throughout the various sections of
+Illium City.
+
+A floating moonflower vine
+
+hp(725/792) sp(725/772) ep(538/538) > 
+
+======================================================================
+=== LOOK LODESTONE ===
+======================================================================
+There is no at lodestone here.
+hp(727/792) sp(727/772) ep(538/538) > 
+
+======================================================================
+=== LOOK PYROCLAST ===
+======================================================================
+There is no at pyroclast here.
+hp(727/792) sp(727/772) ep(538/538) > 
+
+======================================================================
+=== LOOK STATUE ===
+======================================================================
+There is no at statue here.
+hp(731/792) sp(731/772) ep(538/538) > 
+
+======================================================================
+=== BACK NORTH ===
+======================================================================
+On Titan street [exits: south and north]
+ The road extends below you as you walk through the eastern section of Illium
+City. A cathedral rests in the center of the eastern side of Illium, standing
+magnificiently against the horizon.
+
+A floating moonflower vine
+
+hp(731/792) sp(731/772) ep(538/538) > 
+
+======================================================================
+=== GO EAST ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(733/792) sp(733/772) ep(538/538) > 
+
+======================================================================
+=== GO SE TO NEWBIE ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(733/792) sp(733/772) ep(538/538) > 
+
+======================================================================
+=== GO EAST TO NEWBIE GUILD ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(733/792) sp(733/772) ep(538/538) > 
+
+======================================================================
+=== LOOK NEWBIE GUILD ===
+======================================================================
+On Titan street [exits: south and north]
+ The road extends below you as you walk through the eastern section of Illium
+City. A cathedral rests in the center of the eastern side of Illium, standing
+magnificiently against the horizon.
+
+A floating moonflower vine
+
+hp(737/792) sp(737/772) ep(538/538) > 
+
+======================================================================
+=== EXITS NEWBIE GUILD ===
+======================================================================
+You notice these exits:
+         North :  Intersection of Cloud
+                  and Titan
+         South :  On Titan
+                  street
+hp(737/792) sp(737/772) ep(538/538) > 
+
+======================================================================
+=== BACK WEST ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(739/792) sp(739/772) ep(538/538) > 
+
+======================================================================
+=== BACK NW ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(739/792) sp(739/772) ep(538/538) > 
+
+======================================================================
+=== BACK W ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(741/792) sp(741/772) ep(538/538) > 
+
+======================================================================
+=== GO EAST TO LEVEL ===
+======================================================================
+[login]: Darx has reconnected (Elf level 103).
+It doesn't seem possible to go that direction.
+hp(741/792) sp(741/772) ep(538/538) > 
+
+======================================================================
+=== GO NORTH FROM LEVEL ===
+======================================================================
+Intersection of Cloud and Titan [exits: south, west and north]
+ The edge of the Illium Bazaar here blends into Cloud Road, which heads west
+towards the Illian Adventurers' Guild. The guild is a domed building, visible
+for blocks - especially over the low stalls of the marketplace. The city
+cathedral lies close by to the south, dominating the landscape for blocks
+around.
+
+A floating moonflower vine
+
+hp(745/792) sp(745/772) ep(538/538) > 
+
+======================================================================
+=== LOOK NORTH FROM LEVEL ===
+======================================================================
+Intersection of Cloud and Titan [exits: south, west and north]
+ The edge of the Illium Bazaar here blends into Cloud Road, which heads west
+towards the Illian Adventurers' Guild. The guild is a domed building, visible
+for blocks - especially over the low stalls of the marketplace. The city
+cathedral lies close by to the south, dominating the landscape for blocks
+around.
+
+A floating moonflower vine
+
+hp(745/792) sp(745/772) ep(538/538) > 
+
+======================================================================
+=== BACK SOUTH ===
+======================================================================
+On Titan street [exits: south and north]
+ The road extends below you as you walk through the eastern section of Illium
+City. A cathedral rests in the center of the eastern side of Illium, standing
+magnificiently against the horizon.
+
+A floating moonflower vine
+
+hp(745/792) sp(745/772) ep(538/538) > 
+
+======================================================================
+=== GO SOUTH FROM LEVEL ===
+======================================================================
+On Titan street [exits: south and north]
+ The road beneath you appears to have been made out of a very fine, very thin
+dirt that almost seems like dust. It extends throughout the various sections of
+Illium City.
+
+A floating moonflower vine
+
+hp(747/792) sp(747/772) ep(538/538) > 
+
+======================================================================
+=== LOOK SOUTH FROM LEVEL ===
+======================================================================
+On Titan street [exits: south and north]
+ The road beneath you appears to have been made out of a very fine, very thin
+dirt that almost seems like dust. It extends throughout the various sections of
+Illium City.
+
+A floating moonflower vine
+
+hp(747/792) sp(747/772) ep(538/538) > 
+
+======================================================================
+=== BACK NORTH ===
+======================================================================
+On Titan street [exits: south and north]
+ The road extends below you as you walk through the eastern section of Illium
+City. A cathedral rests in the center of the eastern side of Illium, standing
+magnificiently against the horizon.
+
+A floating moonflower vine
+
+hp(749/792) sp(749/772) ep(538/538) > 
+
+======================================================================
+=== BACK TO GUILD FINAL ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(749/792) sp(749/772) ep(538/538) > 
+
+======================================================================
+=== FINAL LOOK ===
+======================================================================
+On Titan street [exits: south and north]
+ The road extends below you as you walk through the eastern section of Illium
+City. A cathedral rests in the center of the eastern side of Illium, standing
+magnificiently against the horizon.
+
+A floating moonflower vine
+
+hp(753/792) sp(753/772) ep(538/538) > 
+
+======================================================================
+=== QUIT ===
+======================================================================
+Quitting. Please stand by while saving.
+SUMMARY
+Login time: 11m25s  Exp Earned: 0
+________________________________________________________________
+|       Combat Category   |   Today's session | Total to date  |
+'--------------------------------------------------------------'
+|  Experience per minute  |         0         |       333      |
+|   Criticals inflicted   |         0         |        0       |
+|     Criticals taken     |         0         |        0       |
+|     Stuns inflicted     |         0         |        0       |
+|       Stuns taken       |         0         |        0       |
+|     Dodges Performed    |         0         |        0       |
+|         # deaths        |         0         |        0       |
+|         # reincs        |         0         |        0       |
+'--------------------------------------------------------------'
+Closing down.
+ Saving your character.
+

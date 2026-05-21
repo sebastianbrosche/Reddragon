@@ -1,0 +1,13 @@
+You need to enter a positive number.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Picking a special statistic for leveling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  Advance strength         b)  Advance constitution
+  c)  Advance dexterity        d)  Advance stamina     
+  e)  Advance intelligence     f)  Advance wisdom      
+  g)  Advance charisma         h)  Advance hp regen    
+  i)  Advance sp regen         j)  Advance ep regen    
+  m)  Main menu                q)  Quit                
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdefghijmq] 

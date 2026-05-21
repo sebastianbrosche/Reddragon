@@ -1,0 +1,150 @@
+Let me pull everything together from your past messages and the master brief.
+Let me check the session history for the API keys you shared.
+Let me check the memory files for the actual API keys.
+Let me search more specifically for the API keys in the session history.
+Let me search for the specific API keys you shared in the session history.
+I found the API keys document. Let me extract all the credentials and compile them for Miha.
+Let me also get the ThriveCart and Bunny video library keys from the session history.
+Let me search for the ThriveCart API key and Bunny video library keys in the session history.
+Let me search for the specific API keys you shared.
+I found the API keys document. Let me extract the key information and compile it for Miha.
+Now let me search for the ThriveCart API key and other keys you mentioned.
+I found the API keys. Let me compile everything for Miha.
+Here's the compiled API keys document for Miha. Copy/paste ready:
+
+---
+
+API KEYS & CREDENTIALS — Yoga for BJJ / Heat Lagos
+
+🔒 CONFIDENTIAL — Store in password manager. Do NOT share publicly.
+
+Compiled: 2026-05-14 for Miha (new partner)
+
+Team: Sebastian (boss), Adam (Heat Lagos), Sarah (yogaforbjj), Miha (you)
+
+---
+
+✅ CONNECTED & READY TO USE
+
+Cloudflare (yttpor website + DNS)
+- Account ID: `cb8ab13b857925cdb9b3c0fd9d4ec4bf`
+- Zone ID (yogateachertrainingportugal.eu): `df5f2995df4b020962c38223c4ebef88`
+- Pages Project: `teachertrainingportugal`
+- API Token: `cfat_FwaLsgySfMTAOQgRhipQAMsrDegj84pw7TgTml4tde9c2bcc`
+- Permissions: Pages (read/write/deploy), Zone read-only
+
+Google Workspace (OAuth — FULL ACCESS)
+- Client ID: `155462436083-nf3oe6q4s95fchbeqqq5540go7o8q8rp.apps.googleusercontent.com`
+- Client Secret: `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`
+- Refresh Token: `1//018zjyFLqI5wjCgYIARAAGAESNgF-L9IrQjxHMUcUUWMXrGlXRaNAJSJzueFYJSsIhdXksxVBPzSu-MJsLanz9ulovsJ6NdLzJg`
+- Scopes: Gmail (read/send), Drive, Calendar, Docs, YouTube, Search Console, GTM
+
+Google Maps
+- API Key: `AIzaSyD9oRIge-amOrtJGh0B8zbdVxIG6iKYiZg`
+
+Bunny.net (Video CDN — 3 libraries)
+- Master API Key: `131c3bb5-8243-4c12-8543-40ca1f2362d9f516eedb-777e-4fb3-a277-e1d45ea90a33`
+- Library 1 — yogaforbjj (main):
+  - ID: `215008`
+  - CDN: `vz-5ecbf445-fd1.b-cdn.net`
+  - API Key: `56caa234-b17c-4197-9b8e9c7ad886-43f3-419b`
+- Library 2 — courses/trainings:
+  - ID: `220256`
+  - CDN: `vz-58c3981c-cce.b-cdn.net`
+  - API Key: `2f36c34c-aa63-4473-9c140a78eea4-6a06-4a66`
+- Library 3 — ads + lead magnets:
+  - ID: `401774`
+  - CDN: `vz-76b2c0b8-3d1.b-cdn.net`
+  - API Key: `f4c8227d-7f37-44ae-8d08cd91dc3e-0c1b-4c60`
+
+Telegram (Adam's Bot)
+- Bot Token: `8738372819:AAHlwS5Qj05k_JS_FSdN8vfsbFPnWUaOuYg`
+- Bot Handle: `@Adam_kimi_bot`
+
+Go High Level (GHL) — Yoga For BJJ
+- API Key: `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2NhdGlvbl9pZCI6IlcyNE9KOWlCZzVUdmF2Rm5TcFE1IiwidmVyc2lvbiI6MSwiaWF0IjoxNzExNTE4ODY5MDI1LCJzdWIiOiJoanZ2ZGFiNjJwNTVqem9FRXlORSJ9.pzEjTWsne7P04FVGxHMKU7fB4J3nCtSKHBKb-kkr204`
+- Location: Yoga For BJJ (Málaga, Spain)
+- Owner: Sebastian Brosche
+- Email: sebastian@yogaforbjj.net
+
+ThriveCart
+- API Key: `VWQ5P696-EPEDSIIH-R68ZZPAZ-1VG26OZT`
+- Note: This is where revenue is made. Can cancel/refund, modify bump offers and upsells.
+
+xAI / Grok (for transcription)
+- API Key: `xai-7lnLpnwMAxLPx4EgmtGemHQdkJGRQLsYb45AzgN2Qpaefy6ksExZBvwtYUSA0licX6kfdf95I2VtUmZd`
+- Use case: Transcribing Bunny videos cheaply via Whisper API
+
+---
+
+⛔ PENDING / NOT YET RECEIVED
+
+Service	What We Need	Priority	
+Stripe	Secret key (`sk_live_...`)	HIGH	
+Meta (Facebook/Instagram)	App ID + App Secret + Access Token	HIGH	
+YouTube API	API key (via Google Cloud)	MEDIUM	
+TikTok	App credentials	MEDIUM	
+X/Twitter	Bearer token + API key/secret	MEDIUM	
+Canva	App credentials from canva.com/developers	MEDIUM	
+CapCut	No public API available	LOW	
+Groq	API key (`gsk_...`) — cheaper transcription alternative	MEDIUM	
+
+---
+
+🏢 bsport (Heat Lagos CRM)
+- Status: No official API. Community workaround: https://github.com/angristan/bsport-charts
+- Account: sebastian.brosche@gmail.com
+- Studio: Heat Lagos
+
+---
+
+👤 Kimi / OpenClaw Account IDs
+- Sebastian: `19e208c3-5692-85ce-8000-09855981e978`
+- Sarah (yogaforbjj agent): `19e20762-1702-8250-8000-00005198da1b`
+
+---
+
+📁 Where Files Live
+
+```
+~/.openclaw/workspace/
+├── yogaforbjj/                    # Main project folder
+│   ├── README.md
+│   ├── FOR_SARAH_CONTENT_STRATEGY.md   # Content bible
+│   └── teacher-training/
+│       └── the-yoga-coach-ryt200-v1.0.md
+├── integrations/
+│   └── connected_services.json    # Live integration status
+├── memory/
+│   ├── 2026-05-13.md              # Day 1 log (Adam)
+│   ├── 2026-05-14.md              # Day 2 log (Sarah)
+│   └── 2026-05-13-integrations.md # Full integration wishlist
+├── SOUL.md                        # Agent identity/rules
+├── COMMANDS.md                    # Sebastian's rules
+├── USER.md                        # Sebastian's profile
+├── IDENTITY.md                    # Agent name/vibe
+└── TOOLS.md                       # Environment notes
+```
+
+---
+
+🔗 Lead Magnet Pages (GHL Funnels)
+- Injury E-book: https://network.yogaforbjj.net/injury-ebook
+- Career Bundle: https://network.yogaforbjj.net/career-bundle
+- Longevity Bundle: https://network.yogaforbjj.net/longevitybundle
+- Black Friday (Unbreakable Bundle): https://network.yogaforbjj.net/black-friday
+- Unbreakable Bundle: https://network.yogaforbjj.net/unbreakable-bundle
+
+---
+
+Last updated: 2026-05-14. If you need anything else, ask Sarah or Sebastian.
+
+---
+
+Notes for Miha:
+- Google OAuth is the big one — it gives access to Gmail, Drive, Calendar, Docs, YouTube, Search Console, GTM
+- Bunny has 3 video libraries — the main one (yogaforbjj) has 600+ videos
+- ThriveCart is the revenue engine — treat that key carefully
+- GHL is connected to the Yoga For BJJ location (Málaga) — not Heat Lagos
+
+Want me to also create a separate "Miha Onboarding" doc with what each API does and how to use them?

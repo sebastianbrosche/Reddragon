@@ -1,0 +1,15 @@
+{
+  "north__north": "Glowing wisps float through the air.\r\nIntersection of Illium and Ethereal [exits: south, west, north and east]\r\nA floating moonflower vine\r\n\r\n",
+  "south__south": "Glowing wisps float through the air.\r\nIntersection of Illium and Crystal [exits: south, west, north and east]\r\nA floating moonflower vine\r\n\r\n",
+  "east__east": "Intersection of Gossamer and Myst [exits: south, west, north and east]\r\nA floating moonflower vine\r\n\r\n",
+  "west__west": "Something twinkles and glimmers in the north, through the trees.\r\nIntersection of Myst and Arcane [exits: south, west, north and east]\r\nA floating moonflower vine\r\n\r\n",
+  "north__east": "It doesn't seem possible to go that direction.\r\n",
+  "north__west": "It doesn't seem possible to go that direction.\r\n",
+  "south__east": "It doesn't seem possible to go that direction.\r\n",
+  "south__west": "It doesn't seem possible to go that direction.\r\n",
+  "east__north": "It doesn't seem possible to go that direction.\r\n",
+  "west__north": "It doesn't seem possible to go that direction.\r\n",
+  "up": "It doesn't seem possible to go that direction.\r\n",
+  "down": "It doesn't seem possible to go that direction.\r\n",
+  "fountain": "Words tumble and flow in the windows.\r\nHeart of Illium [exits: out]\r\nA blue tome sitting on a marble pedestal.\r\n\r\n\r\n"
+}

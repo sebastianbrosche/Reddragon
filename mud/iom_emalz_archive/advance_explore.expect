@@ -1,0 +1,192 @@
+#!/usr/bin/expect -f
+set timeout 30
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/advance_explore_[exec date +%s].log"
+log_file $logfile
+
+spawn telnet islandsofmyth.org 3000
+
+# Login sequence
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+
+# Wait for prompt
+expect "hp("
+
+# Record initial state
+send "score\r"
+expect "hp("
+sleep 1
+
+send "skills\r"
+expect "hp("
+sleep 1
+
+# === ADVANCE TO LEVEL 6 ===
+puts "=== ADVANCING TO LEVEL 6 ==="
+send "warp\r"
+expect "hp("
+sleep 1
+
+send "e\r"
+expect "hp("
+sleep 1
+
+send "talk achman\r"
+sleep 2
+expect {
+    "advance" {
+        send "c\r"
+    }
+    "Advance" {
+        send "c\r"
+    }
+    "hp(" {
+        send "talk achman\r"
+        sleep 2
+        expect "advance"
+        send "c\r"
+    }
+}
+
+sleep 3
+expect "hp("
+
+# Confirm level up
+send "score\r"
+expect "hp("
+sleep 1
+
+# === EXPLORATION PHASE ===
+puts "=== STARTING EXPLORATION ==="
+set explore_count 0
+set rooms_mapped 0
+
+while {1} {
+    incr explore_count
+    puts "=== EXPLORE CYCLE $explore_count ==="
+    
+    # Warp to central hub
+    send "warp\r"
+    expect "hp("
+    sleep 1
+    
+    # Go to Sisong and pick a random newbie area
+    send "se\r"
+    expect "hp("
+    sleep 1
+    
+    send "e\r"
+    expect "hp("
+    sleep 1
+    
+    # Talk to sisong
+    send "talk sisong\r"
+    sleep 2
+    expect "Newbie Areas"
+    send "2\r"
+    
+    sleep 2
+    
+    # Pick a random area based on cycle count
+    set area [expr {$explore_count % 5 + 1}]
+    
+    expect "Newbie Garden"
+    send "$area\r"
+    
+    sleep 2
+    expect "Would you like to visit"
+    send "Y\r"
+    
+    sleep 3
+    expect "hp("
+    
+    # Look at current room
+    send "look\r"
+    expect "hp("
+    sleep 1
+    
+    # Try all directions and record rooms
+    set directions {n ne e se s sw w nw up down}
+    
+    foreach dir $directions {
+        send "$dir\r"
+        sleep 2
+        expect {
+            "hp(" {
+                incr rooms_mapped
+                send "look\r"
+                sleep 1
+                expect "hp("
+                sleep 1
+                
+                # Go back
+                switch $dir {
+                    "n" { send "s\r" }
+                    "ne" { send "sw\r" }
+                    "e" { send "w\r" }
+                    "se" { send "nw\r" }
+                    "s" { send "n\r" }
+                    "sw" { send "ne\r" }
+                    "w" { send "e\r" }
+                    "nw" { send "se\r" }
+                    "up" { send "down\r" }
+                    "down" { send "up\r" }
+                }
+                sleep 2
+                expect "hp("
+            }
+            timeout {
+                send "\r"
+                expect "hp("
+            }
+        }
+    }
+    
+    # Every 3 cycles, check score and skills
+    if {$explore_count % 3 == 0} {
+        send "score\r"
+        expect "hp("
+        sleep 1
+        send "skills\r"
+        expect "hp("
+        sleep 1
+    }
+    
+    # Try to kill any monsters we find
+    send "look\r"
+    expect "hp("
+    sleep 1
+    
+    # Look for monsters and kill them
+    set monsters {"earwig" "spider" "rat" "snake" "worm" "bug" "insect"}
+    foreach monster $monsters {
+        send "kill $monster\r"
+        sleep 3
+        expect {
+            "You killed" {
+                send "get all from corpse\r"
+                sleep 1
+                expect "hp("
+                send "eat corpse\r"
+                sleep 1
+                expect "hp("
+            }
+            "What?" { }
+            "There is no" { }
+            "hp(" { }
+            timeout { }
+        }
+    }
+    
+    puts "=== CYCLE $explore_count COMPLETE - Rooms mapped: $rooms_mapped ==="
+    sleep 2
+}
+
+# Cleanup
+send "quit\r"
+expect "Save"
+send "Y\r"
+
+puts "Exploration session ended"

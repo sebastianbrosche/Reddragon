@@ -1,0 +1,9 @@
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A grand memorial is here.
+A floating moonflower vine (glowing)
+
+hp(716/716) sp(750/750) ep(538/538) > 

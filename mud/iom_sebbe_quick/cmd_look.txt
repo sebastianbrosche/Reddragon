@@ -1,0 +1,23 @@
+Central Square [exits: south, west, north, east and fountain]
+ The heart of Illium, Central Square. Life bustles all around you, even if no other beings but the Lorlings are present. Surrounded on
+all sides by the trees, you feel as though you are in the middle of an enchanted forest, or a lost world. In the exact center, Illium's
+Heart stands. The fountain is a monument of sorts, erected by the gods of this world. Inside the trees, you can see pools of water,
+part of the Gossamer River captured as homes to water beings and as wishing pools. Water surrounds the fountain, and two huge windows,
+created by the water flowing from the top, cover an inner haven to the fountain.
+
+It seems that someone has left 3 minor mana potions lying here.
+Some luckless fool has left 2 minor intelligence potions here.
+A lesser strength potion lies here.
+Someone has left a minor strength potion lying on the ground.
+A minor wisdom potion lies here, abandoned.
+A minor dexterity potion lies in the room.
+2 pyroclasts lie here.
+You notice a lesser mana potion lying on the ground here.
+A large fountain sits in the center of the square.
+The Lockdown Machine
+A Birthday Machine
+A floating moonflower vine
+
+Blue is the Faerie  
+
+You feel Peckish.

@@ -1,0 +1,26 @@
+mitr       : use hymn to mitra on
+nebwie     : newbie
+o2o        : ode to ona
+p.         : party say
+p1         : nailman
+p2         : aquaduck
+p4         : me
+pa         : pancake
+pal.       : party day last
+psl        : party say last
+raw        : use hymn of rawknrhol
+sosin      : use song of sinbad on
+sots       : use song of the streets on
+stego      : stegosaurus
+tal        : talon
+tet        : tetrahedron
+thib       : thibault
+tric       : triceratops
+velo       : velociraptor
+vrg        : vargh
+wa         : wear all
+wll        : all
+ws         : use mithrens warsong on
+xp         : exp
+zig        : zigario
+zl         : zlame

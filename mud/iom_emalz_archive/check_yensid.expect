@@ -1,0 +1,36 @@
+#!/usr/bin/expect -f
+set timeout 30
+log_file /root/.openclaw/workspace/mud/iom_emalz_archive/yensid_info.log
+spawn telnet islandsofmyth.org 3000
+
+# Login
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+
+# Wait for prompt
+expect ">"
+
+# Navigate to Sisong  
+send "warp\r"
+expect ">"
+send "se\r"
+expect ">"
+send "e\r"
+expect ">"
+
+# Talk to Sisong - should open menu
+send "talk sisong\r"
+expect "Sisong's Newbie Information"
+
+# Select option 2 - Newbie Areas
+send "2\r"
+expect "Newbie Areas"
+
+# Select option 9 - Yensid Land
+send "9\r"
+sleep 3
+
+# Capture what comes next
+interact

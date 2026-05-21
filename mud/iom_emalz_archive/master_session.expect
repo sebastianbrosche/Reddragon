@@ -1,0 +1,324 @@
+#!/usr/bin/expect -f
+set timeout 120
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/master_session.log"
+exec rm -f $logfile
+log_file $logfile
+
+puts "Starting master session - waiting for MUD session cleanup..."
+sleep 30
+
+spawn telnet islandsofmyth.org 3000
+
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+expect ">"
+
+# === INITIAL STATE ===
+send "score\r"
+expect ">"
+send "skills\r"
+expect ">"
+
+# === WARP TO GUILD ===
+send "warp\r"
+expect ">"
+
+# === LEVEL ADVANCEMENT ===
+send "e\r"
+expect ">"
+
+# Try advancing up to 10 times with slow delays
+for {set i 0} {$i < 10} {incr i} {
+    send "talk achman\r"
+    expect "Adventurers leveling place"
+    expect "\[abcdeq\]"
+    sleep 3
+    send "d\r"
+    expect "Picking a special statistic for leveling"
+    expect "\[abcdefghijmq\]"
+    sleep 3
+    send "a\r"
+    sleep 5
+    expect {
+        "How many times?" {
+            send "1\r"
+            sleep 5
+            expect {
+                "You have advanced" { sleep 1; expect ">" }
+                "You do not have enough" { sleep 1; expect ">" }
+                ">" {}
+                timeout { send "\r"; expect ">" }
+            }
+        }
+        "You have advanced" { sleep 1; expect ">" }
+        "You do not have enough" { sleep 1; expect ">" }
+        "What stat" {
+            send "strength\r"
+            sleep 5
+            expect {
+                "How many" { send "1\r"; sleep 5; expect ">" }
+                ">" {}
+            }
+        }
+        ">" {}
+        timeout { send "\r"; expect ">" }
+    }
+    send "score\r"
+    expect ">"
+}
+
+# Back to guild
+send "w\r"
+expect ">"
+
+# === ILIUM MAPPING: Portal Room ===
+send "sw\r"
+expect ">"
+send "look\r"
+expect ">"
+
+# Enter Warrior portal
+send "warrior\r"
+sleep 2
+expect ">"
+send "look\r"
+expect ">"
+
+# Explore warrior guild
+set wdirs {n s e w ne nw se sw up down}
+foreach dir $wdirs {
+    send "$dir\r"
+    sleep 1
+    expect ">"
+    send "look\r"
+    sleep 1
+    expect ">"
+    switch $dir {
+        "n" { send "s\r" }
+        "s" { send "n\r" }
+        "e" { send "w\r" }
+        "w" { send "e\r" }
+        "ne" { send "sw\r" }
+        "nw" { send "se\r" }
+        "se" { send "nw\r" }
+        "sw" { send "ne\r" }
+        "up" { send "down\r" }
+        "down" { send "up\r" }
+    }
+    sleep 1
+    expect ">"
+}
+send "out\r"
+sleep 1
+expect ">"
+send "ne\r"
+expect ">"
+
+# === ILIUM MAPPING: City Streets ===
+send "n\r"
+expect ">"
+send "look\r"
+expect ">"
+
+# Titan Street east
+send "e\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+for {set i 0} {$i < 3} {incr i} {
+    send "e\r"
+    sleep 1
+    expect ">"
+    send "look\r"
+    sleep 1
+    expect ">"
+}
+# Return
+for {set i 0} {$i < 3} {incr i} {
+    send "w\r"
+    sleep 1
+    expect ">"
+}
+send "w\r"
+expect ">"
+
+# Gossamer Street west
+send "w\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+for {set i 0} {$i < 3} {incr i} {
+    send "w\r"
+    sleep 1
+    expect ">"
+    send "look\r"
+    sleep 1
+    expect ">"
+}
+# Return
+for {set i 0} {$i < 3} {incr i} {
+    send "e\r"
+    sleep 1
+    expect ">"
+}
+send "e\r"
+expect ">"
+
+# Back to guild
+send "s\r"
+expect ">"
+
+# === NEWBIE GUILD / Nuvo Portal ===
+send "nw\r"
+expect ">"
+send "look\r"
+expect ">"
+send "e\r"
+expect ">"
+send "look\r"
+expect ">"
+send "w\r"
+expect ">"
+send "se\r"
+expect ">"
+
+# === SCORE BEFORE GRINDING ===
+send "score\r"
+expect ">"
+send "skills\r"
+expect ">"
+
+# === GO TO YENSIDLAND FOR EARWIG GRINDING ===
+send "se\r"
+expect ">"
+send "e\r"
+expect ">"
+send "talk sisong\r"
+sleep 2
+expect ">"
+send "yensidland\r"
+sleep 2
+expect ">"
+send "look\r"
+expect ">"
+
+# Enter LobeLands
+send "nw\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+# Enable combat silence
+send "combat silence\r"
+expect ">"
+
+# === EARWIG GRINDING LOOP ===
+set grind_count 0
+for {set i 0} {$i < 60} {incr i} {
+    # Look for earwigs in current room
+    send "look\r"
+    sleep 1
+    expect ">"
+    
+    # Check if earwig present - if "Earwig" in output, kill it
+    # We'll just try kill regardless - MUD will say "I don't see" if none
+    send "kill earwig\r"
+    sleep 8
+    expect {
+        ">" {}
+        timeout { send "look\r"; expect ">" }
+    }
+    
+    # Check status
+    if {$grind_count % 10 == 0} {
+        send "score\r"
+        expect ">"
+        send "hp\r"
+        expect ">"
+    }
+    
+    # Alternate between rooms
+    if {$i % 2 == 0} {
+        send "n\r"
+        sleep 1
+        expect ">"
+    } else {
+        send "s\r"
+        sleep 1
+        expect ">"
+    }
+    
+    # Rest if needed (every 5 cycles)
+    if {$i % 5 == 0} {
+        send "rest\r"
+        sleep 2
+        expect ">"
+    }
+    
+    incr grind_count
+    
+    # Every 20 kills, warp to guild and try to level up
+    if {$grind_count % 20 == 0 && $grind_count > 0} {
+        send "warp\r"
+        sleep 2
+        expect ">"
+        send "e\r"
+        expect ">"
+        
+        # Try advancing
+        send "talk achman\r"
+        expect "Adventurers leveling place"
+        expect "\[abcdeq\]"
+        sleep 3
+        send "d\r"
+        expect "Picking a special statistic for leveling"
+        expect "\[abcdefghijmq\]"
+        sleep 3
+        send "a\r"
+        sleep 5
+        expect {
+            "You have advanced" { sleep 1; expect ">" }
+            "You do not have enough" { sleep 1; expect ">" }
+            ">" {}
+            timeout { send "\r"; expect ">" }
+        }
+        
+        send "score\r"
+        expect ">"
+        send "w\r"
+        expect ">"
+        
+        # Return to Yensidland
+        send "se\r"
+        expect ">"
+        send "e\r"
+        expect ">"
+        send "talk sisong\r"
+        sleep 2
+        expect ">"
+        send "yensidland\r"
+        sleep 2
+        expect ">"
+        send "nw\r"
+        sleep 1
+        expect ">"
+    }
+}
+
+# Final state
+send "score\r"
+expect ">"
+send "skills\r"
+expect ">"
+
+send "quit\r"
+sleep 3
+expect "Save"
+send "Y\r"
+
+puts "MASTER SESSION COMPLETE - Emalz grinding and mapping finished"

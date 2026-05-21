@@ -1,0 +1,305 @@
+# Islands of Myth — Enter the World & Explore
+# 2026-05-14 06:16:03
+
+
+======================================================================
+=== LOGIN ===
+======================================================================
+Password: 
+
+======================================================================
+=== PASSWORD ===
+======================================================================
+
+Last login: Wed May 13 18:14:54 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Explorer has reconnected (Human level 1).
+hp(89/784) sp(89/772) ep(89/538) > 
+
+======================================================================
+=== GATES LOOK ===
+======================================================================
+At the Gates of Islands of Myth [exits: none]
+ This room lies on the borders of the world of Islands of Myth. When you are
+ready to enter the world of Islands of Myth, 'enter portal'. To choose another
+race, 'enter mirror' to return to the previous room.
+
+A gaping portal dominates the west wall.
+A VERY important sign that must be read!!!!
+A large mirror hangs on the east wall.
+
+hp(91/784) sp(91/772) ep(91/538) > 
+
+======================================================================
+=== GATES SIGN ===
+======================================================================
+
+* What next?
+   See below as to what to do next.  For further information
+   on Islands of Myth try using the 'faq' command.
+
+  * What do I do in this room?
+
+   +  If you want to change your race selection, you can enter
+      the mirror and do so at no penalty.
+      
+   +  If you are satisfied with your race choice,  you may enter 
+      the portal and begin your journey into the lands of Islands of
+      Myth. After entering the portal you will be in what is known as the
+      'adventurer guild' in Illium City, or 'adv guild' for short.
+      Please read the below before you do that.  
+      
+   +  At this point it is probably a good time to decide what 'guild' your
+      character is going to play.  To get help on guilds after entering
+      the portal you can type help guilds.  At this point there are 13
+      alpha guilds you can select from (listed under help guilds).  Those 
+      'alpha' guilds will expand out into more guilds as your level 
+      progresses, see help guild_tree for more information on those.  
+
+   +  Once you get a feel for what guild you would like to play it is time
+      to advance your levels. The Gods of Islands of Myth have given you
+      2k of free exp. It is suggested that you use this to advance your
+
+--More--(54%) [?]: 
+
+======================================================================
+=== ENTER PORTAL ===
+======================================================================
+
+Sorry, there is no help on that topic (try: topics or faq)
+
+hp(95/784) sp(95/772) ep(95/538) > 
+
+======================================================================
+=== WORLD LOOK ===
+======================================================================
+At the Gates of Islands of Myth [exits: none]
+ This room lies on the borders of the world of Islands of Myth. When you are
+ready to enter the world of Islands of Myth, 'enter portal'. To choose another
+race, 'enter mirror' to return to the previous room.
+
+A gaping portal dominates the west wall.
+A VERY important sign that must be read!!!!
+A large mirror hangs on the east wall.
+
+hp(97/784) sp(97/772) ep(97/538) > 
+
+======================================================================
+=== WORLD EXITS ===
+======================================================================
+There are no exits to this room.
+hp(97/784) sp(97/772) ep(97/538) > 
+
+======================================================================
+=== WORLD SIGN ===
+======================================================================
+
+* What next?
+   See below as to what to do next.  For further information
+   on Islands of Myth try using the 'faq' command.
+
+  * What do I do in this room?
+
+   +  If you want to change your race selection, you can enter
+      the mirror and do so at no penalty.
+      
+   +  If you are satisfied with your race choice,  you may enter 
+      the portal and begin your journey into the lands of Islands of
+      Myth. After entering the portal you will be in what is known as the
+      'adventurer guild' in Illium City, or 'adv guild' for short.
+      Please read the below before you do that.  
+      
+   +  At this point it is probably a good time to decide what 'guild' your
+      character is going to play.  To get help on guilds after entering
+      the portal you can type help guilds.  At this point there are 13
+      alpha guilds you can select from (listed under help guilds).  Those 
+      'alpha' guilds will expand out into more guilds as your level 
+      progresses, see help guild_tree for more information on those.  
+
+   +  Once you get a feel for what guild you would like to play it is time
+      to advance your levels. The Gods of Islands of Myth have given you
+      2k of free exp. It is suggested that you use this to advance your
+
+--More--(54%) [?]: 
+
+======================================================================
+=== GO NORTH ===
+======================================================================
+
+Sorry, there is no help on that topic (try: topics or faq)
+
+hp(99/784) sp(99/772) ep(99/538) > 
+
+======================================================================
+=== LOOK NORTH ===
+======================================================================
+At the Gates of Islands of Myth [exits: none]
+ This room lies on the borders of the world of Islands of Myth. When you are
+ready to enter the world of Islands of Myth, 'enter portal'. To choose another
+race, 'enter mirror' to return to the previous room.
+
+A gaping portal dominates the west wall.
+A VERY important sign that must be read!!!!
+A large mirror hangs on the east wall.
+
+hp(99/784) sp(99/772) ep(99/538) > 
+
+======================================================================
+=== EXITS NORTH ===
+======================================================================
+There are no exits to this room.
+hp(103/784) sp(103/772) ep(103/538) > 
+
+======================================================================
+=== BACK FROM NORTH ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(103/784) sp(103/772) ep(103/538) > 
+
+======================================================================
+=== GO SOUTH ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(105/784) sp(105/772) ep(105/538) > 
+
+======================================================================
+=== GO EAST ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(105/784) sp(105/772) ep(105/538) > 
+
+======================================================================
+=== GO WEST ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(109/784) sp(109/772) ep(109/538) > 
+
+======================================================================
+=== GO UP ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(109/784) sp(109/772) ep(109/538) > 
+
+======================================================================
+=== GO DOWN ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(111/784) sp(111/772) ep(111/538) > 
+
+======================================================================
+=== FINAL LOOK ===
+======================================================================
+At the Gates of Islands of Myth [exits: none]
+ This room lies on the borders of the world of Islands of Myth. When you are
+ready to enter the world of Islands of Myth, 'enter portal'. To choose another
+race, 'enter mirror' to return to the previous room.
+
+A gaping portal dominates the west wall.
+A VERY important sign that must be read!!!!
+A large mirror hangs on the east wall.
+
+hp(113/784) sp(113/772) ep(113/538) > 
+
+======================================================================
+=== WHO ===
+======================================================================
+------------------------------------------
+-------------------------------------
+--                              Islands of Myth                              
+--
+--                13 players (1 wizard, 12 mortals), 0 friends               
+--
+------------------------------------------
+-------------------------------------
+chpho .Vor          [1807].Nailman      [ 467].Tomten       { 305}.Dritthil    
+{ 298}.Temuthril    { 241} Wildchild    [ 201].Fraziw       [ 160].Seth        
+[ 155].Korthrun     [ 103].Darx         {  67} Grease       {  15} Rawrbeart   
+[   1] Explorer    
+------------------------------------------
+-------------------------------------
+-- . = idle, () = dead, {} = race leader, * = edit, ~ = wiztest, ^ = builder 
+--
+------------------------------------------
+-------------------------------------
+hp(113/784) sp(113/772) ep(113/538) > 
+
+======================================================================
+=== SCORE ===
+======================================================================
+,----------------------------------------------------------------------------.
+| Explorer the Human                                                         |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored          :  0.02% ( 0.15%)   |
+| Next level     :              27     Rooms Explored    :             3     |
+| Guild Level    :               9     Gold on hand      :             0     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   26 | Hit Points     :   113 (  784) | AC       : None     |
+| Dexterity    :   26 | Spell Points   :   113 (  772) | Size     : 4'7"     |
+| Constitution :   26 | Endurance Pts. :   113 (  538) | Weight   : 142 lb   |
+| Stamina      :   26 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   26 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   26 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :  128 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(113/784) sp(113/772) ep(113/538) > 
+
+======================================================================
+=== STATS ===
+======================================================================
+Stats:
+ Str: 26   Dex: 26   Con: 26   Sta: 26   Int: 26   Wis: 26   Cha: 128
+hp(117/784) sp(117/772) ep(117/538) > 
+
+======================================================================
+=== MAP ===
+======================================================================
+There is no map for this area.
+
+hp(119/784) sp(119/772) ep(119/538) > 
+
+======================================================================
+=== LOOK SELF ===
+======================================================================
+There is no self here.
+hp(119/784) sp(119/772) ep(119/538) > 
+
+======================================================================
+=== INVENTORY ===
+======================================================================
+Weight (in lbs): You[142] + EQ[0] = Total[142], Capacity[0%]
+You are empty handed.
+hp(123/784) sp(123/772) ep(123/538) > 
+
+======================================================================
+=== QUIT ===
+======================================================================
+Quitting. Please stand by while saving.
+SUMMARY
+Login time: 3m22s  Exp Earned: 0
+________________________________________________________________
+|       Combat Category   |   Today's session | Total to date  |
+'--------------------------------------------------------------'
+|  Experience per minute  |         0         |      1000      |
+|   Criticals inflicted   |         0         |        0       |
+|     Criticals taken     |         0         |        0       |
+|     Stuns inflicted     |         0         |        0       |
+|       Stuns taken       |         0         |        0       |
+|     Dodges Performed    |         0         |        0       |
+|         # deaths        |         0         |        0       |
+|         # reincs        |         0         |        0       |
+'--------------------------------------------------------------'
+Closing down.
+ Saving your character.
+

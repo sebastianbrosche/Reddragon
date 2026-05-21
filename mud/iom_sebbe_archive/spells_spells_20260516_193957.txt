@@ -1,0 +1,30 @@
+-=-=-| Evoker  |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  darkness                    :   5%  |  fire dart                   :   5%
+  floating disc               :   5%  |  ice dart                    :   5%
+  light                       :   5%  |  magic blast                 :   5%
+  magic dart                  :   5%  |  magic wind                  :   5%
+  mind sponge                 :   5%  |  spectral push               :   5%
+-=-=-| Evoker of elements  |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  fire bolt                   :   5%  |  ice bolt                    :   5%
+  power bolt                  :   5%  |  vacuum bolt                 :   5%
+-=-=-| Evoker of ether |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  acid arrow                  :   5%  |  dispel magic                :   5%
+  lightning arrow             :   5%  |  magical arrow               :   5%
+  poison arrow                :   5%  |
+-=-=-| Navigator |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  create navigation stone     :   5%  |  guild portal                : 100%
+  heavy weight                :   5%  |  relocate                    : 100%
+  summon                      : 100%  |  whisper's recall            :   5%
+  word of recall              :   5%  |
+-=-=-| Evoker of force |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  concussive force            :   5%  |  hail of stones              : 100%
+  hammering blow              :  95%  |
+-=-=-| Evoker of magic |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  breath of magic             :   5%  |  magical fury                :   5%
+  mana storm                  : 100%  |
+-=-=-| Evoker of ice |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  cone of cold                : 100%  |  freezing sphere             :   5%
+  hypothermia                 :   5%  |
+-=-=-| Evoker of vacuum  |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  choking strike              :   5%  |  suffocating force           :   5%
+---- (1-29-58%)[h]: 

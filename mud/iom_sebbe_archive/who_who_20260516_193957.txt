@@ -1,0 +1,21 @@
+  void vortex                 : 100%  |
+-=-=-| Evoker of flames  |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  fire wave                   : 100%  |  flame strike                : 100%
+  immolate                    :   5%  |
+-=-=-| Evoker of lightning |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  chain lightning             : 100%  |  electrocution               : 100%
+  static discharge            :   5%  |
+-=-=-| Evoker of acid  |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  acidic ray                  :   5%  |  corrosive cloud             : 100%
+  dissolving spray            :   5%  |
+-=-=-| Evoker of poison  |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  killing plague              : 100%  |  venomous bite               :   5%
+  virulent strike             :   5%  |
+-=-=-| Enchanter |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  enlarge weapon              :   5%  |  identify                    :   5%
+  shrink weapon               : 100%  |
+-=-=-| Sorcerer  |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  amplify magic               :   5%  |  condition orbit             :   5%
+  dampen magic                :   5%  |  prismatic spray             :   5%
+  store spell                 :   5%  |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

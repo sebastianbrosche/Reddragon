@@ -1,0 +1,8 @@
+{
+  "look": "On Myst Avenue between Arcane and Illium [exits: west and east]\r\n Standing in the inner sanctum of Central Square, the fountain there can be seen through the trees. North and south of you lay more of\r\nthe large trees, and their guardian wisps. Though through the trunks to the north, you can see the glittering of pools.\r\n\r\nA floating moonflower vine (glowing)\r\n\r\n",
+  "exits": "You notice these exits:\r\n          East :  Central Square\r\n          West :  Intersection of Myst\r\n                  and Arcane\r\n",
+  "scan": "Magneto says 'Nice typo' and adds it to his collection.\r\n",
+  "from": "Central Square [exits: south, west, north, east and fountain]",
+  "via": "west",
+  "enter_msg": "A Lorling creaks and groans as it moves slightly to the right of where it was.\r\nOn Myst Avenue between Arcane and Illium [exits: west and east]\r\nA floating moonflower vine (glowing)\r\n\r\n"
+}

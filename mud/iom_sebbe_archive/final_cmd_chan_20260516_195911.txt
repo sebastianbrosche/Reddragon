@@ -1,0 +1,28 @@
+inform               16 (+)   -----R--  
+iomchat               6 (-)   --------  Discussion between ports
+login                16 (+)   -----R--  
+lurker               10 (-)   ---G----  Guild channel
+martial_artist        4 (-)   ---G----  Guild channel
+mdeath                0 (-)   ------W-  Monster Deaths
+monitor               0 (-)   -----RW-  
+mud_issues            2 (-)   --------  Mud Issues
+mudclients           11 (-)   --------  Discussions about mud client topics, like triggers
+myth                 16 (+)   --------  Mud-related discussion
+necromancer           1 (-)   ---G----  Guild channel
+newbie               16 (+)   --------  Helping new guys to start out
+obscene              14 (-)   --------  Perverted thoughts here
+parties              16 (+)   --------  Players Looking for parties
+plaque               16 (+)   -----R--  Players that change rank on plaque
+racing                2 (-)   --------  Dragon races
+rep                   0 (-)   -------P  Player wiz rep
+sales                16 (+)   --------  For selling your gear
+shapeshifter          4 (-)   ---G----  Guild channel
+southcape             7 (-)   -----R--  Southcape Happenings
+unraveller            2 (-)   ---G----  Guild channel
+warrior               6 (-)   ---G----  Guild channel
+weaver               11 (-)   ---G----  Guild channel
+witch                 3 (-)   ---G----  Guild channel
+wiz                   0 (-)   ------W-  Coding 101
+wizinfo               0 (-)   -----RW-  
+woodsman              3 (-)   ---G----  Guild channel
+zombie                7 (-)   --------  Discussion about other muds

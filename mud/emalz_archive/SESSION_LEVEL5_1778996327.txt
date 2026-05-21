@@ -1,0 +1,3799 @@
+[START] 2026-05-17T13:38:47.583885
+[PHASE] Login
+^L
+                  ___                      _
+              (O)  |  _ | _.._  _| _   _ _|_  |\/|  _|_ |_
+              <M  _|__> |(_|| |(_|_>  (_) |   |  |\/ |_ | |
+   o          <M                                  /
+  /| ......  /:M\------------------------------------------------,,,,,,
+(O)[]XXXXXX[]I:K+}=====<{H}>================================------------>
+  \| ^^^^^^  \:W/------------------------------------------------''''''
+   o          <W
+              <W   islandsofmyth.org 3000      www.islandsofmyth.org 
+              (O)  
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 18 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+>
+>>> emalz
+Password:
+>>> creative
+
+Last login: Sun May 17 01:33:47 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Emalz has reconnected (Kobold level 1).
+hp(716/716) sp(750/750) ep(538/538) >
+Autosave.
+[PHASE] Logged in
+>>> score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored          :  0.15% ( 1.30%)   |
+| Next level     :              27     Rooms Explored    :            26     |
+| Guild Level    :               9     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   26 | Hit Points     :   716 (  716) | AC       : None     |
+| Dexterity    :   26 | Spell Points   :   750 (  750) | Size     : 3'2"     |
+| Constitution :   26 | Endurance Pts. :   538 (  538) | Weight   : 70 lb    |
+| Stamina      :   26 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   25 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(716/716) sp(750/750) ep(538/538) >
+>>> skills
+You don't know any skills.
+hp(716/716) sp(750/750) ep(538/538) >
+[PHASE] Finding Gnosis
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly
+>>> warp
+breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> warp
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> warp
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> warp
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> warp
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie at your feet.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large podium. Upon that podium sits Achman, the
+judge. He controls the levels of Islands of Myth, and has the power to create some of the strongest players. He sits in
+a high back chair built into the podium. Talk to him if you wish to advance in your endeavors. 
+
+Achman the Judge
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> warp
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+Silent room [exits: southwest]
+ This is a silent room where no channels/tells/says can reach you.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> warp
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Myth Room [exits: north]
+ In this room, those who have been honored stand. It is bright and open room, with plenty of light. Statues stand all
+along the walls. Statues of those who have contributed much to this amazing world. 
+
+Statue of Tigran
+Statue of Cebcurg
+Statue of Daneel
+Statue of Marvin
+Statue of Magneto
+Statue of Vor
+Statue of Drabit 
+Statue of Zifnab
+Statue of Friski
+Statue of Nyx
+Statue of Ant
+Statue of Sigwald
+Statue of Khosan
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> warp
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+Portal Room [exits: shifter, abjurer, elemental, woodsman, northeast, martial_artist, lurker, druid, acrobat, weaver,
+evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for the ease and convenience of all
+adventurers.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> warp
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Plaque Rooms [exits: east]
+ This large and marbleized room holds the famed plaques of Islands of Myth. Because it is valued among so many
+adventurers, its encasing is grand indeed. The walls are made of a solid white rock, lined with veins of blue. The
+floor is blue quartz. The numerous plaques hang on the walls.
+
+
+Spectra the Snakeman  
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> warp
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> warp
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie at your feet.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+You are jostled as people pass by, heading for the large blue structure.
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A floating moonflower vine (glowing)
+A grand memorial is here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Intersection of Cloud and Titan [exits: south, west and north]
+ The edge of the Illium Bazaar here blends into Cloud Road, which heads west towards the Illian Adventurers' Guild. The
+guild is a domed building, visible for blocks - especially over the low stalls of the marketplace. The city cathedral
+lies close by to the south, dominating the landscape for blocks around.
+
+A floating moonflower vine (glowing)
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A floating moonflower vine (glowing)
+A grand memorial is here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> warp
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie at your feet.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A floating moonflower vine (glowing)
+A grand memorial is here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+You are jostled as people pass by, heading for the large blue structure.
+Intersection of Gossamer and Cloud [exits: south, west, north and east]
+ This busy intersection is the crossroads for Gossamer and Cloud. East of where you stand, a large dome structure sits.
+West is Illium Street, full of citizens and wisps. Heading north takes you further into the city. All along here small
+flowers grow among strange trees!
+
+A floating moonflower vine (glowing)
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A floating moonflower vine (glowing)
+A grand memorial is here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+[WARN] Could not find Gnosis
+[PHASE] Exploring to find earwigs
+>>> warp
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie at your feet.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A floating moonflower vine (glowing)
+A grand memorial is here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+Silent room [exits: southwest]
+ This is a silent room where no channels/tells/says can reach you.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie at your feet.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large podium. Upon that podium sits Achman, the
+judge. He controls the levels of Islands of Myth, and has the power to create some of the strongest players. He sits in
+a high back chair built into the podium. Talk to him if you wish to advance in your endeavors. 
+
+Achman the Judge
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Myth Room [exits: north]
+ In this room, those who have been honored stand. It is bright and open room, with plenty of light. Statues stand all
+along the walls. Statues of those who have contributed much to this amazing world. 
+
+Statue of Tigran
+Statue of Cebcurg
+Statue of Daneel
+Statue of Marvin
+Statue of Magneto
+Statue of Vor
+Statue of Drabit 
+Statue of Zifnab
+Statue of Friski
+Statue of Nyx
+Statue of Ant
+Statue of Sigwald
+Statue of Khosan
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+Portal Room [exits: shifter, abjurer, elemental, woodsman, northeast, martial_artist, lurker, druid, acrobat, weaver,
+evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for the ease and convenience of all
+adventurers.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Plaque Rooms [exits: east]
+ This large and marbleized room holds the famed plaques of Islands of Myth. Because it is valued among so many
+adventurers, its encasing is grand indeed. The walls are made of a solid white rock, lined with veins of blue. The
+floor is blue quartz. The numerous plaques hang on the walls.
+
+
+Spectra the Snakeman  
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> u
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> d
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> d
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> u
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> warp
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A floating moonflower vine (glowing)
+A grand memorial is here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+Silent room [exits: southwest]
+ This is a silent room where no channels/tells/says can reach you.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large podium. Upon that podium sits Achman, the
+judge. He controls the levels of Islands of Myth, and has the power to create some of the strongest players. He sits in
+a high back chair built into the podium. Talk to him if you wish to advance in your endeavors. 
+
+Achman the Judge
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Myth Room [exits: north]
+ In this room, those who have been honored stand. It is bright and open room, with plenty of light. Statues stand all
+along the walls. Statues of those who have contributed much to this amazing world. 
+
+Statue of Tigran
+Statue of Cebcurg
+Statue of Daneel
+Statue of Marvin
+Statue of Magneto
+Statue of Vor
+Statue of Drabit 
+Statue of Zifnab
+Statue of Friski
+Statue of Nyx
+Statue of Ant
+Statue of Sigwald
+Statue of Khosan
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie at your feet.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+Portal Room [exits: shifter, abjurer, elemental, woodsman, northeast, martial_artist, lurker, druid, acrobat, weaver,
+evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for the ease and convenience of all
+adventurers.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Plaque Rooms [exits: east]
+ This large and marbleized room holds the famed plaques of Islands of Myth. Because it is valued among so many
+adventurers, its encasing is grand indeed. The walls are made of a solid white rock, lined with veins of blue. The
+floor is blue quartz. The numerous plaques hang on the walls.
+
+
+Spectra the Snakeman  
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> u
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> d
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> d
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> u
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> warp
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A floating moonflower vine (glowing)
+A grand memorial is here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Intersection of Cloud and Titan [exits: south, west and north]
+ The edge of the Illium Bazaar here blends into Cloud Road, which heads west towards the Illian Adventurers' Guild. The
+guild is a domed building, visible for blocks - especially over the low stalls of the marketplace. The city cathedral
+lies close by to the south, dominating the landscape for blocks around.
+
+A floating moonflower vine (glowing)
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+On Titan street [exits: south and north]
+ An abundance of wisps twirl around you as you step into this section of Illium City. Large and small buildings have
+been erected all around you, providing the necessary services to the city of Illium.
+
+A floating moonflower vine (glowing)
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+Intersection of Cloud and Titan [exits: south, west and north]
+ The edge of the Illium Bazaar here blends into Cloud Road, which heads west towards the Illian Adventurers' Guild. The
+guild is a domed building, visible for blocks - especially over the low stalls of the marketplace. The city cathedral
+lies close by to the south, dominating the landscape for blocks around.
+
+A floating moonflower vine (glowing)
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A floating moonflower vine (glowing)
+A grand memorial is here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A floating moonflower vine (glowing)
+A grand memorial is here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Intersection of Gossamer and Cloud [exits: south, west, north and east]
+ This busy intersection is the crossroads for Gossamer and Cloud. East of where you stand, a large dome structure sits.
+West is Illium Street, full of citizens and wisps. Heading north takes you further into the city. All along here small
+flowers grow among strange trees!
+
+A floating moonflower vine (glowing)
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A floating moonflower vine (glowing)
+A grand memorial is here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> u
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> d
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> d
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> u
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> warp
+Intersection of Gossamer and Cloud [exits: south, west, north and east]
+ This busy intersection is the crossroads for Gossamer and Cloud. East of where you stand, a large dome structure sits.
+West is Illium Street, full of citizens and wisps. Heading north takes you further into the city. All along here small
+flowers grow among strange trees!
+
+A floating moonflower vine (glowing)
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A floating moonflower vine (glowing)
+A grand memorial is here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+Silent room [exits: southwest]
+ This is a silent room where no channels/tells/says can reach you.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie at your feet.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large podium. Upon that podium sits Achman, the
+judge. He controls the levels of Islands of Myth, and has the power to create some of the strongest players. He sits in
+a high back chair built into the podium. Talk to him if you wish to advance in your endeavors. 
+
+Achman the Judge
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie at your feet.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Myth Room [exits: north]
+ In this room, those who have been honored stand. It is bright and open room, with plenty of light. Statues stand all
+along the walls. Statues of those who have contributed much to this amazing world. 
+
+Statue of Tigran
+Statue of Cebcurg
+Statue of Daneel
+Statue of Marvin
+Statue of Magneto
+Statue of Vor
+Statue of Drabit 
+Statue of Zifnab
+Statue of Friski
+Statue of Nyx
+Statue of Ant
+Statue of Sigwald
+Statue of Khosan
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+Portal Room [exits: shifter, abjurer, elemental, woodsman, northeast, martial_artist, lurker, druid, acrobat, weaver,
+evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for the ease and convenience of all
+adventurers.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Plaque Rooms [exits: east]
+ This large and marbleized room holds the famed plaques of Islands of Myth. Because it is valued among so many
+adventurers, its encasing is grand indeed. The walls are made of a solid white rock, lined with veins of blue. The
+floor is blue quartz. The numerous plaques hang on the walls.
+
+
+Spectra the Snakeman  
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie at your feet.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> u
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> d
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> d
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> u
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> warp
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A floating moonflower vine (glowing)
+A grand memorial is here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A floating moonflower vine (glowing)
+A grand memorial is here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+Silent room [exits: southwest]
+ This is a silent room where no channels/tells/says can reach you.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large podium. Upon that podium sits Achman, the
+judge. He controls the levels of Islands of Myth, and has the power to create some of the strongest players. He sits in
+a high back chair built into the podium. Talk to him if you wish to advance in your endeavors. 
+
+Achman the Judge
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Myth Room [exits: north]
+ In this room, those who have been honored stand. It is bright and open room, with plenty of light. Statues stand all
+along the walls. Statues of those who have contributed much to this amazing world. 
+
+Statue of Tigran
+Statue of Cebcurg
+Statue of Daneel
+Statue of Marvin
+Statue of Magneto
+Statue of Vor
+Statue of Drabit 
+Statue of Zifnab
+Statue of Friski
+Statue of Nyx
+Statue of Ant
+Statue of Sigwald
+Statue of Khosan
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+Portal Room [exits: shifter, abjurer, elemental, woodsman, northeast, martial_artist, lurker, druid, acrobat, weaver,
+evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for the ease and convenience of all
+adventurers.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie at your feet.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Plaque Rooms [exits: east]
+ This large and marbleized room holds the famed plaques of Islands of Myth. Because it is valued among so many
+adventurers, its encasing is grand indeed. The walls are made of a solid white rock, lined with veins of blue. The
+floor is blue quartz. The numerous plaques hang on the walls.
+
+
+Spectra the Snakeman  
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> u
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> d
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> d
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> u
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> warp
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A floating moonflower vine (glowing)
+A grand memorial is here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+Silent room [exits: southwest]
+ This is a silent room where no channels/tells/says can reach you.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large podium. Upon that podium sits Achman, the
+judge. He controls the levels of Islands of Myth, and has the power to create some of the strongest players. He sits in
+a high back chair built into the podium. Talk to him if you wish to advance in your endeavors. 
+
+Achman the Judge
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Myth Room [exits: north]
+ In this room, those who have been honored stand. It is bright and open room, with plenty of light. Statues stand all
+along the walls. Statues of those who have contributed much to this amazing world. 
+
+Statue of Tigran
+Statue of Cebcurg
+Statue of Daneel
+Statue of Marvin
+Statue of Magneto
+Statue of Vor
+Statue of Drabit 
+Statue of Zifnab
+Statue of Friski
+Statue of Nyx
+Statue of Ant
+Statue of Sigwald
+Statue of Khosan
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie at your feet.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+Portal Room [exits: shifter, abjurer, elemental, woodsman, northeast, martial_artist, lurker, druid, acrobat, weaver,
+evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for the ease and convenience of all
+adventurers.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Plaque Rooms [exits: east]
+ This large and marbleized room holds the famed plaques of Islands of Myth. Because it is valued among so many
+adventurers, its encasing is grand indeed. The walls are made of a solid white rock, lined with veins of blue. The
+floor is blue quartz. The numerous plaques hang on the walls.
+
+
+Spectra the Snakeman  
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie at your feet.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> u
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> d
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> d
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> u
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> warp
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A floating moonflower vine (glowing)
+A grand memorial is here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Intersection of Gossamer and Cloud [exits: south, west, north and east]
+ This busy intersection is the crossroads for Gossamer and Cloud. East of where you stand, a large dome structure sits.
+West is Illium Street, full of citizens and wisps. Heading north takes you further into the city. All along here small
+flowers grow among strange trees!
+
+A floating moonflower vine (glowing)
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+On Gossamer Street between Storm and Cloud [exits: south and north]
+ You stand on Gossamer Street, Storm Street sits just north, and Cloud Road is due south. To the west a small building
+sits. A large, blue dome sits to the southeast. Small flowers line this road.
+
+A floating moonflower vine (glowing)
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+Intersection of Gossamer and Cloud [exits: south, west, north and east]
+ This busy intersection is the crossroads for Gossamer and Cloud. East of where you stand, a large dome structure sits.
+West is Illium Street, full of citizens and wisps. Heading north takes you further into the city. All along here small
+flowers grow among strange trees!
+
+A floating moonflower vine (glowing)
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A floating moonflower vine (glowing)
+A grand memorial is here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+Intersection of Gossamer and Cloud [exits: south, west, north and east]
+ This busy intersection is the crossroads for Gossamer and Cloud. East of where you stand, a large dome structure sits.
+West is Illium Street, full of citizens and wisps. Heading north takes you further into the city. All along here small
+flowers grow among strange trees!
+
+A floating moonflower vine (glowing)
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+A tree shakes and shivers. A strange sigh is heard.
+Intersection of Gossamer and Ethereal [exits: south, west and north]
+ You stand on a small intersection. It seems to be part of an inner square. To the south many large trees sit. Wisps
+float lazily through the branches. To the east a large building sits. Ethereal continues west, running along the mass
+of trees. South, Gossamer seems to end and a large shadow looms.
+
+A floating moonflower vine (glowing)
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+Intersection of Gossamer and Cloud [exits: south, west, north and east]
+ This busy intersection is the crossroads for Gossamer and Cloud. East of where you stand, a large dome structure sits.
+West is Illium Street, full of citizens and wisps. Heading north takes you further into the city. All along here small
+flowers grow among strange trees!
+
+A floating moonflower vine (glowing)
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Glowing wisps float through the air.
+On Cloud Road between Illium and Gossamer [exits: west and east]
+ Upon Cloud Road, you cannot help but notice the trees! You see how this little road got its name! To the north of you
+sits a small building, not enterable from here. To the west is a large domed structure. Many people seem in a hurry to
+get there.
+
+A floating moonflower vine (glowing)
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+Intersection of Gossamer and Cloud [exits: south, west, north and east]
+ This busy intersection is the crossroads for Gossamer and Cloud. East of where you stand, a large dome structure sits.
+West is Illium Street, full of citizens and wisps. Heading north takes you further into the city. All along here small
+flowers grow among strange trees!
+
+A floating moonflower vine (glowing)
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> u
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> d
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> d
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> u
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> warp
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A floating moonflower vine (glowing)
+A grand memorial is here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A floating moonflower vine (glowing)
+A grand memorial is here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+Silent room [exits: southwest]
+ This is a silent room where no channels/tells/says can reach you.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large podium. Upon that podium sits Achman, the
+judge. He controls the levels of Islands of Myth, and has the power to create some of the strongest players. He sits in
+a high back chair built into the podium. Talk to him if you wish to advance in your endeavors. 
+
+Achman the Judge
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Myth Room [exits: north]
+ In this room, those who have been honored stand. It is bright and open room, with plenty of light. Statues stand all
+along the walls. Statues of those who have contributed much to this amazing world. 
+
+Statue of Tigran
+Statue of Cebcurg
+Statue of Daneel
+Statue of Marvin
+Statue of Magneto
+Statue of Vor
+Statue of Drabit 
+Statue of Zifnab
+Statue of Friski
+Statue of Nyx
+Statue of Ant
+Statue of Sigwald
+Statue of Khosan
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+Portal Room [exits: shifter, abjurer, elemental, woodsman, northeast, martial_artist, lurker, druid, acrobat, weaver,
+evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for the ease and convenience of all
+adventurers.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Plaque Rooms [exits: east]
+ This large and marbleized room holds the famed plaques of Islands of Myth. Because it is valued among so many
+adventurers, its encasing is grand indeed. The walls are made of a solid white rock, lined with veins of blue. The
+floor is blue quartz. The numerous plaques hang on the walls.
+
+
+Spectra the Snakeman  
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> u
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> d
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> d
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> u
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> warp
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> u
+You are jostled as people pass by, heading for the large blue structure.
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A floating moonflower vine (glowing)
+A grand memorial is here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+Silent room [exits: southwest]
+ This is a silent room where no channels/tells/says can reach you.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large podium. Upon that podium sits Achman, the
+judge. He controls the levels of Islands of Myth, and has the power to create some of the strongest players. He sits in
+a high back chair built into the podium. Talk to him if you wish to advance in your endeavors. 
+
+Achman the Judge
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Myth Room [exits: north]
+ In this room, those who have been honored stand. It is bright and open room, with plenty of light. Statues stand all
+along the walls. Statues of those who have contributed much to this amazing world. 
+
+Statue of Tigran
+Statue of Cebcurg
+Statue of Daneel
+Statue of Marvin
+Statue of Magneto
+Statue of Vor
+Statue of Drabit 
+Statue of Zifnab
+Statue of Friski
+Statue of Nyx
+Statue of Ant
+Statue of Sigwald
+Statue of Khosan
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+Portal Room [exits: shifter, abjurer, elemental, woodsman, northeast, martial_artist, lurker, druid, acrobat, weaver,
+evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for the ease and convenience of all
+adventurers.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Plaque Rooms [exits: east]
+ This large and marbleized room holds the famed plaques of Islands of Myth. Because it is valued among so many
+adventurers, its encasing is grand indeed. The walls are made of a solid white rock, lined with veins of blue. The
+floor is blue quartz. The numerous plaques hang on the walls.
+
+
+Spectra the Snakeman  
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> u
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> d
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> d
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> u
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> d
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> warp
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> d
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A floating moonflower vine (glowing)
+A grand memorial is here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+Silent room [exits: southwest]
+ This is a silent room where no channels/tells/says can reach you.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large podium. Upon that podium sits Achman, the
+judge. He controls the levels of Islands of Myth, and has the power to create some of the strongest players. He sits in
+a high back chair built into the podium. Talk to him if you wish to advance in your endeavors. 
+
+Achman the Judge
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Myth Room [exits: north]
+ In this room, those who have been honored stand. It is bright and open room, with plenty of light. Statues stand all
+along the walls. Statues of those who have contributed much to this amazing world. 
+
+Statue of Tigran
+Statue of Cebcurg
+Statue of Daneel
+Statue of Marvin
+Statue of Magneto
+Statue of Vor
+Statue of Drabit 
+Statue of Zifnab
+Statue of Friski
+Statue of Nyx
+Statue of Ant
+Statue of Sigwald
+Statue of Khosan
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+Portal Room [exits: shifter, abjurer, elemental, woodsman, northeast, martial_artist, lurker, druid, acrobat, weaver,
+evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for the ease and convenience of all
+adventurers.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Plaque Rooms [exits: east]
+ This large and marbleized room holds the famed plaques of Islands of Myth. Because it is valued among so many
+adventurers, its encasing is grand indeed. The walls are made of a solid white rock, lined with veins of blue. The
+floor is blue quartz. The numerous plaques hang on the walls.
+
+
+Spectra the Snakeman  
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> u
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> d
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> d
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> u
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> u
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> warp
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(716/716) sp(750/750) ep(538/538) >
+[ERROR] Could not find earwigs anywhere
+[PHASE] Kill anything mode
+>>> n
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A floating moonflower vine (glowing)
+A grand memorial is here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large podium. Upon that podium sits Achman, the
+judge. He controls the levels of Islands of Myth, and has the power to create some of the strongest players. He sits in
+a high back chair built into the podium. Talk to him if you wish to advance in your endeavors. 
+
+Achman the Judge
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Myth Room [exits: north]
+ In this room, those who have been honored stand. It is bright and open room, with plenty of light. Statues stand all
+along the walls. Statues of those who have contributed much to this amazing world. 
+
+Statue of Tigran
+Statue of Cebcurg
+Statue of Daneel
+Statue of Marvin
+Statue of Magneto
+Statue of Vor
+Statue of Drabit 
+Statue of Zifnab
+Statue of Friski
+Statue of Nyx
+Statue of Ant
+Statue of Sigwald
+Statue of Khosan
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Plaque Rooms [exits: east]
+ This large and marbleized room holds the famed plaques of Islands of Myth. Because it is valued among so many
+adventurers, its encasing is grand indeed. The walls are made of a solid white rock, lined with veins of blue. The
+floor is blue quartz. The numerous plaques hang on the walls.
+
+
+Spectra the Snakeman  
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie at your feet.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+Silent room [exits: southwest]
+ This is a silent room where no channels/tells/says can reach you.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+Portal Room [exits: shifter, abjurer, elemental, woodsman, northeast, martial_artist, lurker, druid, acrobat, weaver,
+evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for the ease and convenience of all
+adventurers.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Brightly Lit Hallway [exits: south and east]
+ You are wandering down a brightly lit hallway. To the east you can make out the entrance to Maxxis' Newbie Shop and to
+the south is the way back to the entrance of the Newbie Guild.
+
+
+Temuthril the Angel 17.43 -> 22.43
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Used Equipment Storage Room [exits: west]
+ This simple room is virtually empty, apart from the conspicuous machine situated in the middle of the room and humming
+quietly to itself. Apparently this location has been set aside to house the newbie equipment dispensing machine. It can
+be used to obtain a fresh set of equipment. Of course, being free, this 'eq' is probably worth just that, next to
+nothing.
+
+A strange looking machine sits in the middle of the room.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Brightly Lit Hallway [exits: south, north and east]
+ You find yourself in a brightly lit hallway. To the east you can make out a small greenhouse that looks safe and
+inviting. Ahead a little ways to the north is the way back to the entrance of the Newbie Guild. You also notice the
+soft glow of light coming from the room to the south.
+
+A portal leading to Bahk'Grul
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Brightly Lit Hallway [exits: south and east]
+ You are wandering down a brightly lit hallway. To the east you can make out the entrance to Maxxis' Newbie Shop and to
+the south is the way back to the entrance of the Newbie Guild.
+
+
+Temuthril the Angel 17.43 -> 22.43
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Used Equipment Storage Room [exits: west]
+ This simple room is virtually empty, apart from the conspicuous machine situated in the middle of the room and humming
+quietly to itself. Apparently this location has been set aside to house the newbie equipment dispensing machine. It can
+be used to obtain a fresh set of equipment. Of course, being free, this 'eq' is probably worth just that, next to
+nothing.
+
+A strange looking machine sits in the middle of the room.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Brightly Lit Hallway [exits: south, north and east]
+ You find yourself in a brightly lit hallway. To the east you can make out a small greenhouse that looks safe and
+inviting. Ahead a little ways to the north is the way back to the entrance of the Newbie Guild. You also notice the
+soft glow of light coming from the room to the south.
+
+A portal leading to Bahk'Grul
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Brightly Lit Hallway [exits: south and east]
+ You are wandering down a brightly lit hallway. To the east you can make out the entrance to Maxxis' Newbie Shop and to
+the south is the way back to the entrance of the Newbie Guild.
+
+
+Temuthril the Angel 17.43 -> 22.43
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Used Equipment Storage Room [exits: west]
+ This simple room is virtually empty, apart from the conspicuous machine situated in the middle of the room and humming
+quietly to itself. Apparently this location has been set aside to house the newbie equipment dispensing machine. It can
+be used to obtain a fresh set of equipment. Of course, being free, this 'eq' is probably worth just that, next to
+nothing.
+
+A strange looking machine sits in the middle of the room.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Brightly Lit Hallway [exits: south, north and east]
+ You find yourself in a brightly lit hallway. To the east you can make out a small greenhouse that looks safe and
+inviting. Ahead a little ways to the north is the way back to the entrance of the Newbie Guild. You also notice the
+soft glow of light coming from the room to the south.
+
+A portal leading to Bahk'Grul
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Brightly Lit Hallway [exits: south and east]
+ You are wandering down a brightly lit hallway. To the east you can make out the entrance to Maxxis' Newbie Shop and to
+the south is the way back to the entrance of the Newbie Guild.
+
+
+Temuthril the Angel 17.43 -> 22.43
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Used Equipment Storage Room [exits: west]
+ This simple room is virtually empty, apart from the conspicuous machine situated in the middle of the room and humming
+quietly to itself. Apparently this location has been set aside to house the newbie equipment dispensing machine. It can
+be used to obtain a fresh set of equipment. Of course, being free, this 'eq' is probably worth just that, next to
+nothing.
+
+A strange looking machine sits in the middle of the room.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Brightly Lit Hallway [exits: south, north and east]
+ You find yourself in a brightly lit hallway. To the east you can make out a small greenhouse that looks safe and
+inviting. Ahead a little ways to the north is the way back to the entrance of the Newbie Guild. You also notice the
+soft glow of light coming from the room to the south.
+
+A portal leading to Bahk'Grul
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Brightly Lit Hallway [exits: south and east]
+ You are wandering down a brightly lit hallway. To the east you can make out the entrance to Maxxis' Newbie Shop and to
+the south is the way back to the entrance of the Newbie Guild.
+
+
+Temuthril the Angel 17.43 -> 22.43
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Used Equipment Storage Room [exits: west]
+ This simple room is virtually empty, apart from the conspicuous machine situated in the middle of the room and humming
+quietly to itself. Apparently this location has been set aside to house the newbie equipment dispensing machine. It can
+be used to obtain a fresh set of equipment. Of course, being free, this 'eq' is probably worth just that, next to
+nothing.
+
+A strange looking machine sits in the middle of the room.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Brightly Lit Hallway [exits: south, north and east]
+ You find yourself in a brightly lit hallway. To the east you can make out a small greenhouse that looks safe and
+inviting. Ahead a little ways to the north is the way back to the entrance of the Newbie Guild. You also notice the
+soft glow of light coming from the room to the south.
+
+A portal leading to Bahk'Grul
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Brightly Lit Hallway [exits: south and east]
+ You are wandering down a brightly lit hallway. To the east you can make out the entrance to Maxxis' Newbie Shop and to
+the south is the way back to the entrance of the Newbie Guild.
+
+
+Temuthril the Angel 17.43 -> 22.43
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Used Equipment Storage Room [exits: west]
+ This simple room is virtually empty, apart from the conspicuous machine situated in the middle of the room and humming
+quietly to itself. Apparently this location has been set aside to house the newbie equipment dispensing machine. It can
+be used to obtain a fresh set of equipment. Of course, being free, this 'eq' is probably worth just that, next to
+nothing.
+
+A strange looking machine sits in the middle of the room.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Brightly Lit Hallway [exits: south, north and east]
+ You find yourself in a brightly lit hallway. To the east you can make out a small greenhouse that looks safe and
+inviting. Ahead a little ways to the north is the way back to the entrance of the Newbie Guild. You also notice the
+soft glow of light coming from the room to the south.
+
+A portal leading to Bahk'Grul
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Brightly Lit Hallway [exits: south and east]
+ You are wandering down a brightly lit hallway. To the east you can make out the entrance to Maxxis' Newbie Shop and to
+the south is the way back to the entrance of the Newbie Guild.
+
+
+Temuthril the Angel 17.43 -> 22.43
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Used Equipment Storage Room [exits: west]
+ This simple room is virtually empty, apart from the conspicuous machine situated in the middle of the room and humming
+quietly to itself. Apparently this location has been set aside to house the newbie equipment dispensing machine. It can
+be used to obtain a fresh set of equipment. Of course, being free, this 'eq' is probably worth just that, next to
+nothing.
+
+A strange looking machine sits in the middle of the room.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Brightly Lit Hallway [exits: south, north and east]
+ You find yourself in a brightly lit hallway. To the east you can make out a small greenhouse that looks safe and
+inviting. Ahead a little ways to the north is the way back to the entrance of the Newbie Guild. You also notice the
+soft glow of light coming from the room to the south.
+
+A portal leading to Bahk'Grul
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Brightly Lit Hallway [exits: south and east]
+ You are wandering down a brightly lit hallway. To the east you can make out the entrance to Maxxis' Newbie Shop and to
+the south is the way back to the entrance of the Newbie Guild.
+
+
+Temuthril the Angel 17.43 -> 22.43
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Used Equipment Storage Room [exits: west]
+ This simple room is virtually empty, apart from the conspicuous machine situated in the middle of the room and humming
+quietly to itself. Apparently this location has been set aside to house the newbie equipment dispensing machine. It can
+be used to obtain a fresh set of equipment. Of course, being free, this 'eq' is probably worth just that, next to
+nothing.
+
+A strange looking machine sits in the middle of the room.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Brightly Lit Hallway [exits: south, north and east]
+ You find yourself in a brightly lit hallway. To the east you can make out a small greenhouse that looks safe and
+inviting. Ahead a little ways to the north is the way back to the entrance of the Newbie Guild. You also notice the
+soft glow of light coming from the room to the south.
+
+A portal leading to Bahk'Grul
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Brightly Lit Hallway [exits: south and east]
+ You are wandering down a brightly lit hallway. To the east you can make out the entrance to Maxxis' Newbie Shop and to
+the south is the way back to the entrance of the Newbie Guild.
+
+
+Temuthril the Angel 17.43 -> 22.43
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Used Equipment Storage Room [exits: west]
+ This simple room is virtually empty, apart from the conspicuous machine situated in the middle of the room and humming
+quietly to itself. Apparently this location has been set aside to house the newbie equipment dispensing machine. It can
+be used to obtain a fresh set of equipment. Of course, being free, this 'eq' is probably worth just that, next to
+nothing.
+
+A strange looking machine sits in the middle of the room.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Brightly Lit Hallway [exits: south, north and east]
+ You find yourself in a brightly lit hallway. To the east you can make out a small greenhouse that looks safe and
+inviting. Ahead a little ways to the north is the way back to the entrance of the Newbie Guild. You also notice the
+soft glow of light coming from the room to the south.
+
+A portal leading to Bahk'Grul
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Brightly Lit Hallway [exits: south and east]
+ You are wandering down a brightly lit hallway. To the east you can make out the entrance to Maxxis' Newbie Shop and to
+the south is the way back to the entrance of the Newbie Guild.
+
+
+Temuthril the Angel 17.43 -> 22.43
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Used Equipment Storage Room [exits: west]
+ This simple room is virtually empty, apart from the conspicuous machine situated in the middle of the room and humming
+quietly to itself. Apparently this location has been set aside to house the newbie equipment dispensing machine. It can
+be used to obtain a fresh set of equipment. Of course, being free, this 'eq' is probably worth just that, next to
+nothing.
+
+A strange looking machine sits in the middle of the room.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Brightly Lit Hallway [exits: south, north and east]
+ You find yourself in a brightly lit hallway. To the east you can make out a small greenhouse that looks safe and
+inviting. Ahead a little ways to the north is the way back to the entrance of the Newbie Guild. You also notice the
+soft glow of light coming from the room to the south.
+
+A portal leading to Bahk'Grul
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Brightly Lit Hallway [exits: south and east]
+ You are wandering down a brightly lit hallway. To the east you can make out the entrance to Maxxis' Newbie Shop and to
+the south is the way back to the entrance of the Newbie Guild.
+
+
+Temuthril the Angel 17.43 -> 22.43
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Used Equipment Storage Room [exits: west]
+ This simple room is virtually empty, apart from the conspicuous machine situated in the middle of the room and humming
+quietly to itself. Apparently this location has been set aside to house the newbie equipment dispensing machine. It can
+be used to obtain a fresh set of equipment. Of course, being free, this 'eq' is probably worth just that, next to
+nothing.
+
+A strange looking machine sits in the middle of the room.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Brightly Lit Hallway [exits: south, north and east]
+ You find yourself in a brightly lit hallway. To the east you can make out a small greenhouse that looks safe and
+inviting. Ahead a little ways to the north is the way back to the entrance of the Newbie Guild. You also notice the
+soft glow of light coming from the room to the south.
+
+A portal leading to Bahk'Grul
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+Brightly Lit Hallway [exits: south and east]
+ You are wandering down a brightly lit hallway. To the east you can make out the entrance to Maxxis' Newbie Shop and to
+the south is the way back to the entrance of the Newbie Guild.
+
+
+Temuthril the Angel 17.43 -> 22.43
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+Used Equipment Storage Room [exits: west]
+ This simple room is virtually empty, apart from the conspicuous machine situated in the middle of the room and humming
+quietly to itself. Apparently this location has been set aside to house the newbie equipment dispensing machine. It can
+be used to obtain a fresh set of equipment. Of course, being free, this 'eq' is probably worth just that, next to
+nothing.
+
+A strange looking machine sits in the middle of the room.
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> s
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> n
+Brightly Lit Hallway [exits: south, north and east]
+ You find yourself in a brightly lit hallway. To the east you can make out a small greenhouse that looks safe and
+inviting. Ahead a little ways to the north is the way back to the entrance of the Newbie Guild. You also notice the
+soft glow of light coming from the room to the south.
+
+A portal leading to Bahk'Grul
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> w
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> e
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> se
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> sw
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> ne
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+>>> nw

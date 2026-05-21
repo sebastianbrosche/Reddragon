@@ -1,0 +1,185 @@
+#!/usr/bin/expect -f
+set timeout 30
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/yensid_explore.log"
+exec rm -f $logfile
+log_file $logfile
+
+spawn telnet islandsofmyth.org 3000
+
+# Login
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+
+# Wait for prompt
+expect ">"
+
+# Teleport to Yensid via Sisong
+send "warp\r"
+expect ">"
+send "se\r"
+expect ">"
+send "e\r"
+expect ">"
+send "talk sisong\r"
+expect "Sisong's Newbie Information"
+send "2\r"
+expect "Newbie Areas"
+send "9\r"
+expect "Would you like to visit the Yensid Land?"
+send "Y\r"
+expect ">"
+
+# Enable combat silence
+send "combat silence\r"
+expect ">"
+
+# Now explore systematically. From entry: exits east, northwest, out
+# Let's go northwest first
+send "nw\r"
+expect ">"
+send "look\r"
+expect ">"
+
+# From there, try all directions
+send "n\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+send "e\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+send "s\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+send "w\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+# Go back to entry and try east->northeast->explore
+send "se\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+send "e\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+send "ne\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+# Explore from NE of BurnWorld
+send "n\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+send "e\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+send "w\r"
+sleep 1
+expect ">"
+send "w\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+send "e\r"
+sleep 1
+expect ">"
+
+send "s\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+# Back to BurnWorld, try south
+send "sw\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+# Try going south from BurnWorld
+send "s\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+# From south of BurnWorld, explore
+send "e\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+send "w\r"
+sleep 1
+expect ">"
+
+send "s\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+send "n\r"
+sleep 1
+expect ">"
+
+# Back to BurnWorld, back to entry
+send "n\r"
+sleep 1
+expect ">"
+send "w\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+# Now try 'out' from entry
+send "out\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+# Try to kill any earwig we find along the way
+send "kill earwig\r"
+sleep 5
+expect ">"
+
+# Final score
+send "score\r"
+expect ">"
+
+send "quit\r"
+sleep 3
+
+puts "EXPLORATION COMPLETE"

@@ -1,0 +1,683 @@
+[START] 2026-05-17T14:14:50.790361
+^L
+    _____     _                 _              __   __  __       _   _
+   |_   _|   | |               | |            / _| |  \/  |     | | | |
+     | |  ___| | __ _ _ __   __| |___    ___ | |_  | \  / |_   _| |_| |__
+     | | / __| |/ _` | '_ \ / _` / __|  / _ \|  _| | |\/| | | | | __| '_ \
+    _| |_\__ \ | (_| | | | | (_| \__ \ | (_) | |   | |  | | |_| | |_| | | |
+   |_____|___/_|\__,_|_| |_|\__,_|___/  \___/|_|   |_|  |_|\__, |\__|_| |_|
+                                                            __/ |
+                                                           |___/
+
+
+                 _______                                   _______
+                .;;;;;;;;;.                               .;;;;;;;;;.
+               ///////\\\\\\                             ///////\\\\\\
+              ( //~///~\\\~\\                           //~///~\\\~\\^)
+              \`  ///_ / \\`\                           /`// \ -\\\  ~/
+                 / / -/  ^\                               /^  \- \ \
+                  / -/                                         \- \
+                 / -/                                           \- \
+                (- (                 /~~~~~~~~~\                 )_ )
+                 \ -\               /-----------\               /_ /
+                  \ -\              :====(@)====:              /- /
+                   \ _\             |-----------|             /- /
+                   _\ -\@___________|___________|________@___/- /_
+                  / @  @                                     @    \
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 19 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+>
+>>> emalz
+Password:
+>>> creative
+
+Last login: Sun May 17 01:51:29 2026 from: 47.237.80.25 (47.237.80.25)
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Emalz has reconnected (Kobold level 1).
+hp(804/804) sp(772/772) ep(566/566) >
+[LOGIN] Done
+>>> score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    0              |
+|                                                                            |
+| Experience     :           1,991     Explored          :  0.22% ( 1.95%)   |
+| Next level     :              27     Rooms Explored    :            39     |
+| Guild Level    :              27     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   32 | Hit Points     :   804 (  804) | AC       : VLow     |
+| Dexterity    :   28 | Spell Points   :   772 (  772) | Size     : 3'4"     |
+| Constitution :   38 | Endurance Pts. :   566 (  566) | Weight   : 73 lb    |
+| Stamina      :   28 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   26 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   26 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (1)                      | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(804/804) sp(772/772) ep(566/566) >
+>>> skills
+-=-=-| Warrior |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  attack                       :  28%  |  tanking                      :  28%
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+hp(804/804) sp(772/772) ep(566/566) >
+[START] Level 1
+[CYCLE] 1
+>>> score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    0              |
+|                                                                            |
+| Experience     :           1,991     Explored          :  0.22% ( 1.95%)   |
+| Next level     :              27     Rooms Explored    :            39     |
+| Guild Level    :              27     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   32 | Hit Points     :   804 (  804) | AC       : VLow     |
+| Dexterity    :   28 | Spell Points   :   772 (  772) | Size     : 3'4"     |
+| Constitution :   38 | Endurance Pts. :   566 (  566) | Weight   : 73 lb    |
+| Stamina      :   28 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   26 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   26 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (1)                      | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(804/804) sp(772/772) ep(566/566) >
+[STATUS] Level 1
+[JUDGE] Leveling up
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(804/804) sp(772/772) ep(566/566) >
+>>> e
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large podium. Upon that podium sits Achman, the
+judge. He controls the levels of Islands of Myth, and has the power to create some of the strongest players. He sits in
+a high back chair built into the podium. Talk to him if you wish to advance in your endeavors. 
+
+Achman the Judge
+
+hp(804/804) sp(772/772) ep(566/566) >
+>>> talk to judge
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Adventurers leveling place
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  General information                b)  List level costs              
+  c)  Advance a level                    d)  Advance a level picking a stat
+  e)  Advance several levels             q)  Quit                          
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdeq]
+>>> d
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Picking a special statistic for leveling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  Advance strength         b)  Advance constitution
+  c)  Advance dexterity        d)  Advance stamina     
+  e)  Advance intelligence     f)  Advance wisdom      
+  g)  Advance charisma         h)  Advance hp regen    
+  i)  Advance sp regen         j)  Advance ep regen    
+  m)  Main menu                q)  Quit                
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdefghijmq]
+>>> a
+How many times?:
+>>> q
+You need to enter a positive number.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Picking a special statistic for leveling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  Advance strength         b)  Advance constitution
+  c)  Advance dexterity        d)  Advance stamina     
+  e)  Advance intelligence     f)  Advance wisdom      
+  g)  Advance charisma         h)  Advance hp regen    
+  i)  Advance sp regen         j)  Advance ep regen    
+  m)  Main menu                q)  Quit                
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdefghijmq]
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> score
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Starting
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: n
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> n
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: e
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> e
+How many times?:
+[EXPLORE] Primary direction: w
+>>> warp
+You need to enter a positive number.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Picking a special statistic for leveling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  Advance strength         b)  Advance constitution
+  c)  Advance dexterity        d)  Advance stamina     
+  e)  Advance intelligence     f)  Advance wisdom      
+  g)  Advance charisma         h)  Advance hp regen    
+  i)  Advance sp regen         j)  Advance ep regen    
+  m)  Main menu                q)  Quit                
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdefghijmq]
+>>> w
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: ne
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> ne
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: nw
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> nw
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: se
+>>> warp
+Autosave.
+Invalid selection.
+[abcdefghijmq]
+>>> se
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: sw
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> sw
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: s
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> s
+Invalid selection.
+[abcdefghijmq]
+[CYCLE] 2
+>>> score
+Invalid selection.
+[abcdefghijmq]
+[STATUS] Level 1
+[JUDGE] Leveling up
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> e
+How many times?:
+[JUDGE] Judge not found!
+>>> warp
+You need to enter a positive number.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Picking a special statistic for leveling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  Advance strength         b)  Advance constitution
+  c)  Advance dexterity        d)  Advance stamina     
+  e)  Advance intelligence     f)  Advance wisdom      
+  g)  Advance charisma         h)  Advance hp regen    
+  i)  Advance sp regen         j)  Advance ep regen    
+  m)  Main menu                q)  Quit                
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdefghijmq]
+[EXPLORE] Starting
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: n
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> n
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: e
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> e
+How many times?:
+[EXPLORE] Primary direction: w
+>>> warp
+You need to enter a positive number.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Picking a special statistic for leveling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  Advance strength         b)  Advance constitution
+  c)  Advance dexterity        d)  Advance stamina     
+  e)  Advance intelligence     f)  Advance wisdom      
+  g)  Advance charisma         h)  Advance hp regen    
+  i)  Advance sp regen         j)  Advance ep regen    
+  m)  Main menu                q)  Quit                
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdefghijmq]
+>>> w
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: ne
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> ne
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: nw
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> nw
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: se
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> se
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: sw
+>>> warp
+You grow a little.
+Invalid selection.
+[abcdefghijmq]
+>>> sw
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: s
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> s
+Invalid selection.
+[abcdefghijmq]
+[CYCLE] 3
+>>> score
+Invalid selection.
+[abcdefghijmq]
+[STATUS] Level 1
+[JUDGE] Leveling up
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> e
+How many times?: You feel fully healed.
+[JUDGE] Judge not found!
+>>> warp
+You need to enter a positive number.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Picking a special statistic for leveling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  Advance strength         b)  Advance constitution
+  c)  Advance dexterity        d)  Advance stamina     
+  e)  Advance intelligence     f)  Advance wisdom      
+  g)  Advance charisma         h)  Advance hp regen    
+  i)  Advance sp regen         j)  Advance ep regen    
+  m)  Main menu                q)  Quit                
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdefghijmq]
+[EXPLORE] Starting
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: n
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> n
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: e
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> e
+How many times?:
+[EXPLORE] Primary direction: w
+>>> warp
+You need to enter a positive number.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Picking a special statistic for leveling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  Advance strength         b)  Advance constitution
+  c)  Advance dexterity        d)  Advance stamina     
+  e)  Advance intelligence     f)  Advance wisdom      
+  g)  Advance charisma         h)  Advance hp regen    
+  i)  Advance sp regen         j)  Advance ep regen    
+  m)  Main menu                q)  Quit                
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdefghijmq]
+>>> w
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: ne
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> ne
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: nw
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> nw
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: se
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> se
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: sw
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> sw
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: s
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> s
+Invalid selection.
+[abcdefghijmq]
+[CYCLE] 4
+>>> score
+Invalid selection.
+[abcdefghijmq]
+[STATUS] Level 1
+[JUDGE] Leveling up
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> e
+How many times?:
+[JUDGE] Judge not found!
+>>> warp
+You need to enter a positive number.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Picking a special statistic for leveling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  Advance strength         b)  Advance constitution
+  c)  Advance dexterity        d)  Advance stamina     
+  e)  Advance intelligence     f)  Advance wisdom      
+  g)  Advance charisma         h)  Advance hp regen    
+  i)  Advance sp regen         j)  Advance ep regen    
+  m)  Main menu                q)  Quit                
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdefghijmq]
+[EXPLORE] Starting
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: n
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> n
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: e
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> e
+How many times?:
+[EXPLORE] Primary direction: w
+>>> warp
+You need to enter a positive number.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Picking a special statistic for leveling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  Advance strength         b)  Advance constitution
+  c)  Advance dexterity        d)  Advance stamina     
+  e)  Advance intelligence     f)  Advance wisdom      
+  g)  Advance charisma         h)  Advance hp regen    
+  i)  Advance sp regen         j)  Advance ep regen    
+  m)  Main menu                q)  Quit                
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdefghijmq]
+>>> w
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: ne
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> ne
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: nw
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> nw
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: se
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> se
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: sw
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> sw
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: s
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> s
+Invalid selection.
+[abcdefghijmq]
+[CYCLE] 5
+>>> score
+Invalid selection.
+[abcdefghijmq]
+[STATUS] Level 1
+[JUDGE] Leveling up
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> e
+How many times?:
+[JUDGE] Judge not found!
+>>> warp
+You need to enter a positive number.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Picking a special statistic for leveling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  Advance strength         b)  Advance constitution
+  c)  Advance dexterity        d)  Advance stamina     
+  e)  Advance intelligence     f)  Advance wisdom      
+  g)  Advance charisma         h)  Advance hp regen    
+  i)  Advance sp regen         j)  Advance ep regen    
+  m)  Main menu                q)  Quit                
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdefghijmq]
+[EXPLORE] Starting
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: n
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> n
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: e
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> e
+How many times?:
+[EXPLORE] Primary direction: w
+>>> warp
+You need to enter a positive number.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Picking a special statistic for leveling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  Advance strength         b)  Advance constitution
+  c)  Advance dexterity        d)  Advance stamina     
+  e)  Advance intelligence     f)  Advance wisdom      
+  g)  Advance charisma         h)  Advance hp regen    
+  i)  Advance sp regen         j)  Advance ep regen    
+  m)  Main menu                q)  Quit                
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdefghijmq]
+>>> w
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: ne
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> ne
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: nw
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> nw
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: se
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> se
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: sw
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> sw
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: s
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> s
+Invalid selection.
+[abcdefghijmq]
+[CYCLE] 6
+>>> score
+Invalid selection.
+[abcdefghijmq]
+[STATUS] Level 1
+[JUDGE] Leveling up
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> e
+How many times?:
+[JUDGE] Judge not found!
+>>> warp
+You need to enter a positive number.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Picking a special statistic for leveling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  Advance strength         b)  Advance constitution
+  c)  Advance dexterity        d)  Advance stamina     
+  e)  Advance intelligence     f)  Advance wisdom      
+  g)  Advance charisma         h)  Advance hp regen    
+  i)  Advance sp regen         j)  Advance ep regen    
+  m)  Main menu                q)  Quit                
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdefghijmq]
+[EXPLORE] Starting
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: n
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> n
+Invalid selection.
+[abcdefghijmq]
+[EXPLORE] Primary direction: e
+>>> warp
+Invalid selection.
+[abcdefghijmq]
+>>> e

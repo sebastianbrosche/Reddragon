@@ -1,0 +1,38 @@
+#!/usr/bin/expect -f
+set timeout 60
+log_file /root/.openclaw/workspace/mud/iom_emalz_archive/grind_20260518.log
+spawn telnet islandsofmyth.org 3000
+
+# Login
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+
+# Wait for prompt
+expect ">"
+
+# Do initial checks
+send "score\r"
+expect ">"
+send "skills\r"
+expect ">"
+
+# Navigate to Sisong for earwig assignment  
+send "warp\r"
+expect ">"
+send "se\r"
+expect ">"
+send "e\r"
+expect ">"
+
+# Talk to Sisong (NOT Gnosis - he's dead in Red Dragon lore)
+send "talk sisong\r"
+expect ">"
+
+# Combat silence for stat capture
+send "combat silence\r"
+expect ">"
+
+# Start killing earwigs - loop will be handled externally
+interact

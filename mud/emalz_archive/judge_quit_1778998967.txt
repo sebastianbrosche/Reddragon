@@ -1,0 +1,3 @@
+Your body glows with magical energy.
+You feel fully refreshed.
+hp(812/812) sp(754/754) ep(568/568) > 

@@ -1,0 +1,489 @@
+# Islands of Myth — Enter the World v3
+# 2026-05-14 06:17:56
+
+
+======================================================================
+=== LOGIN ===
+======================================================================
+Password: 
+
+======================================================================
+=== PASSWORD ===
+======================================================================
+
+Last login: Wed May 13 18:17:35 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Explorer has reconnected (Human level 1).
+hp(149/784) sp(149/772) ep(149/538) > 
+
+======================================================================
+=== GATES LOOK ===
+======================================================================
+At the Gates of Islands of Myth [exits: none]
+ This room lies on the borders of the world of Islands of Myth. When you are
+ready to enter the world of Islands of Myth, 'enter portal'. To choose another
+race, 'enter mirror' to return to the previous room.
+
+A gaping portal dominates the west wall.
+A VERY important sign that must be read!!!!
+A large mirror hangs on the east wall.
+
+hp(153/784) sp(153/772) ep(153/538) > 
+
+======================================================================
+=== ENTER PORTAL ===
+======================================================================
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north,
+southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its
+architecture, the guild houses a vast amount of help for the new adventurers
+and the old. Its high domed ceiling swirls with blue and whites, like the sky
+on a very windy day. Because it is domed and there are windows all along the
+wall, the room seems very open and very friendly.
+
+Formula: Head: Lesser Wisdom lies in the room.
+You notice Formula: Feet: Lesser Dexterity lying on the ground here.
+
+[login]: Explorer enters Islands of Myth.
+Using the 'start here' command to set your starting location.
+Ok, you now start at: Adventurer Guild Entrance.
+Giving you a little gold to get you started.
+You find a handbook in your pocket, type 'look at handbook' to see it.
+You feel fully refreshed.
+hp(553/792) sp(553/772) ep(538/538) > 
+
+======================================================================
+=== WORLD LOOK ===
+======================================================================
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north,
+southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its
+architecture, the guild houses a vast amount of help for the new adventurers
+and the old. Its high domed ceiling swirls with blue and whites, like the sky
+on a very windy day. Because it is domed and there are windows all along the
+wall, the room seems very open and very friendly.
+
+You notice Formula: Head: Lesser Wisdom lying on the ground here.
+Formula: Feet: Lesser Dexterity lies at your feet.
+
+hp(555/792) sp(555/772) ep(538/538) > 
+
+======================================================================
+=== WORLD EXITS ===
+======================================================================
+You notice these exits:
+          East :  Level Room
+     Southwest :  Portal Room
+         North :  On Cloud Road between
+                  Gossamer and Titan
+     Northeast :  Silent room
+     Southeast :  Newbie Guild
+                  Entrance
+         South :  Myth Room
+          West :  Plaque Rooms
+hp(557/792) sp(557/772) ep(538/538) > 
+
+======================================================================
+=== GO NORTH ===
+======================================================================
+You are jostled as people pass by, heading for the large blue structure.
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers
+Guild. It contains some of the most helpful things in the world of Islands of
+Myth. To the east is Titan Street; to the west is Gossamer Street. Small trees
+line the road.
+
+A floating moonflower vine
+A grand memorial is here.
+
+hp(557/792) sp(557/772) ep(538/538) > 
+
+======================================================================
+=== LOOK NORTH ===
+======================================================================
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers
+Guild. It contains some of the most helpful things in the world of Islands of
+Myth. To the east is Titan Street; to the west is Gossamer Street. Small trees
+line the road.
+
+A floating moonflower vine
+A grand memorial is here.
+
+hp(559/792) sp(559/772) ep(538/538) > 
+
+======================================================================
+=== EXITS NORTH ===
+======================================================================
+You notice these exits:
+          East :  Intersection of Cloud
+                  and Titan
+          West :  Intersection of
+                  Gossamer and Cloud
+         South :  Adventurer Guild
+                  Entrance
+hp(559/792) sp(559/772) ep(538/538) > 
+
+======================================================================
+=== BACK FROM NORTH ===
+======================================================================
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north,
+southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its
+architecture, the guild houses a vast amount of help for the new adventurers
+and the old. Its high domed ceiling swirls with blue and whites, like the sky
+on a very windy day. Because it is domed and there are windows all along the
+wall, the room seems very open and very friendly.
+
+It seems that someone has left Formula: Head: Lesser Wisdom lying here.
+Someone has discarded Formula: Feet: Lesser Dexterity here.
+
+hp(559/792) sp(559/772) ep(538/538) > 
+
+======================================================================
+=== GO SOUTH ===
+======================================================================
+Myth Room [exits: north]
+ In this room, those who have been honored stand. It is bright and open room,
+with plenty of light. Statues stand all along the walls. Statues of those who
+have contributed much to this amazing world. 
+
+You notice a small lodestone (blue glow) lying on the ground here.
+You notice a small lodestone (green glow) lying on the ground here.
+Someone has left 3 small lodestone (indigo glow)s lying on the ground.
+4 small lodestone (violet glow)s lie here.
+3 pyroclasts lie here.
+A pyroclast lies here, discarded.
+Statue of Cebcurg
+Statue of Vor
+Statue of Tigran
+Statue of Drabit 
+Statue of Daneel
+Statue of Zifnab
+Statue of Friski
+Statue of Nyx
+Statue of Ant
+Statue of Sigwald
+Statue of Marvin
+Statue of Magneto
+Statue of Khosan
+
+Dritthil the Ghyrdon  
+
+hp(563/792) sp(563/772) ep(538/538) > 
+
+======================================================================
+=== LOOK SOUTH ===
+======================================================================
+Myth Room [exits: north]
+ In this room, those who have been honored stand. It is bright and open room,
+with plenty of light. Statues stand all along the walls. Statues of those who
+have contributed much to this amazing world. 
+
+Someone has discarded a small lodestone (blue glow) here.
+A small lodestone (green glow) lies on the floor.
+3 small lodestone (indigo glow)s lie here, discarded.
+4 small lodestone (violet glow)s lie here, discarded.
+Some luckless fool has left 3 pyroclasts here.
+A pyroclast lies here, abandoned.
+Statue of Cebcurg
+Statue of Vor
+Statue of Tigran
+Statue of Drabit 
+Statue of Daneel
+Statue of Zifnab
+Statue of Friski
+Statue of Nyx
+Statue of Ant
+Statue of Sigwald
+Statue of Marvin
+Statue of Magneto
+Statue of Khosan
+
+Dritthil the Ghyrdon  
+
+hp(563/792) sp(563/772) ep(538/538) > 
+
+======================================================================
+=== EXITS SOUTH ===
+======================================================================
+You notice these exits:
+         North :  Adventurer Guild
+                  Entrance
+hp(565/792) sp(565/772) ep(538/538) > 
+
+======================================================================
+=== BACK FROM SOUTH ===
+======================================================================
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north,
+southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its
+architecture, the guild houses a vast amount of help for the new adventurers
+and the old. Its high domed ceiling swirls with blue and whites, like the sky
+on a very windy day. Because it is domed and there are windows all along the
+wall, the room seems very open and very friendly.
+
+Someone has left Formula: Head: Lesser Wisdom lying on the ground.
+Formula: Feet: Lesser Dexterity lies here.
+
+hp(565/792) sp(565/772) ep(538/538) > 
+
+======================================================================
+=== GO EAST ===
+======================================================================
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large
+podium. Upon that podium sits Achman, the judge. He controls the levels of
+Islands of Myth, and has the power to create some of the strongest players. He
+sits in a high back chair built into the podium. Talk to him if you wish to
+advance in your endeavors. 
+
+Achman the Judge
+
+hp(569/792) sp(569/772) ep(538/538) > 
+
+======================================================================
+=== LOOK EAST ===
+======================================================================
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large
+podium. Upon that podium sits Achman, the judge. He controls the levels of
+Islands of Myth, and has the power to create some of the strongest players. He
+sits in a high back chair built into the podium. Talk to him if you wish to
+advance in your endeavors. 
+
+Achman the Judge
+
+hp(569/792) sp(569/772) ep(538/538) > 
+
+======================================================================
+=== EXITS EAST ===
+======================================================================
+You notice these exits:
+          West :  Adventurer Guild
+                  Entrance
+hp(571/792) sp(571/772) ep(538/538) > 
+
+======================================================================
+=== BACK FROM EAST ===
+======================================================================
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north,
+southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its
+architecture, the guild houses a vast amount of help for the new adventurers
+and the old. Its high domed ceiling swirls with blue and whites, like the sky
+on a very windy day. Because it is domed and there are windows all along the
+wall, the room seems very open and very friendly.
+
+Someone has left Formula: Head: Lesser Wisdom lying on the ground.
+Someone has discarded Formula: Feet: Lesser Dexterity here.
+
+hp(571/792) sp(571/772) ep(538/538) > 
+
+======================================================================
+=== GO WEST ===
+======================================================================
+Plaque Rooms [exits: east]
+ This large and marbleized room holds the famed plaques of Islands of Myth.
+Because it is valued among so many adventurers, its encasing is grand indeed.
+The walls are made of a solid white rock, lined with veins of blue. The floor
+is blue quartz. The numerous plaques hang on the walls.
+
+
+hp(575/792) sp(575/772) ep(538/538) > 
+
+======================================================================
+=== LOOK WEST ===
+======================================================================
+Plaque Rooms [exits: east]
+ This large and marbleized room holds the famed plaques of Islands of Myth.
+Because it is valued among so many adventurers, its encasing is grand indeed.
+The walls are made of a solid white rock, lined with veins of blue. The floor
+is blue quartz. The numerous plaques hang on the walls.
+
+
+hp(575/792) sp(575/772) ep(538/538) > 
+
+======================================================================
+=== EXITS WEST ===
+======================================================================
+You notice these exits:
+          East :  Adventurer Guild
+                  Entrance
+hp(575/792) sp(575/772) ep(538/538) > 
+
+======================================================================
+=== BACK FROM WEST ===
+======================================================================
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north,
+southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its
+architecture, the guild houses a vast amount of help for the new adventurers
+and the old. Its high domed ceiling swirls with blue and whites, like the sky
+on a very windy day. Because it is domed and there are windows all along the
+wall, the room seems very open and very friendly.
+
+Formula: Head: Lesser Wisdom lies at your feet.
+Formula: Feet: Lesser Dexterity lies at your feet.
+
+hp(577/792) sp(577/772) ep(538/538) > 
+
+======================================================================
+=== GO UP ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(577/792) sp(577/772) ep(538/538) > 
+
+======================================================================
+=== GO DOWN ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(581/792) sp(581/772) ep(538/538) > 
+
+======================================================================
+=== FINAL LOOK ===
+======================================================================
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north,
+southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its
+architecture, the guild houses a vast amount of help for the new adventurers
+and the old. Its high domed ceiling swirls with blue and whites, like the sky
+on a very windy day. Because it is domed and there are windows all along the
+wall, the room seems very open and very friendly.
+
+Someone has discarded Formula: Head: Lesser Wisdom here.
+Formula: Feet: Lesser Dexterity lies here, discarded.
+
+hp(583/792) sp(583/772) ep(538/538) > 
+
+======================================================================
+=== WHO ===
+======================================================================
+------------------------------------------
+-------------------------------------
+--                              Islands of Myth                              
+--
+--                12 players (1 wizard, 11 mortals), 0 friends               
+--
+------------------------------------------
+-------------------------------------
+chpho .Vor          [1807].Nailman      [ 467].Tomten       { 305}.Dritthil    
+{ 298}.Temuthril    { 241}.Wildchild    [ 201].Fraziw       [ 160].Seth        
+[ 155].Korthrun     {  67} Grease       {  15} Rawrbeart    [   1] Explorer    
+------------------------------------------
+-------------------------------------
+-- . = idle, () = dead, {} = race leader, * = edit, ~ = wiztest, ^ = builder 
+--
+------------------------------------------
+-------------------------------------
+hp(583/792) sp(583/772) ep(538/538) > 
+
+======================================================================
+=== SCORE ===
+======================================================================
+,----------------------------------------------------------------------------.
+| Explorer the Human                                                         |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored          :  0.05% ( 0.40%)   |
+| Next level     :              27     Rooms Explored    :             8     |
+| Guild Level    :               9     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   26 | Hit Points     :   583 (  792) | AC       : None     |
+| Dexterity    :   26 | Spell Points   :   583 (  772) | Size     : 4'9"     |
+| Constitution :   26 | Endurance Pts. :   538 (  538) | Weight   : 147 lb   |
+| Stamina      :   26 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   26 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   26 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :  128 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(583/792) sp(583/772) ep(538/538) > 
+
+======================================================================
+=== STATS ===
+======================================================================
+Stats:
+ Str: 26   Dex: 26   Con: 26   Sta: 26   Int: 26   Wis: 26   Cha: 128
+hp(585/792) sp(585/772) ep(538/538) > 
+
+======================================================================
+=== MAP ===
+======================================================================
+     Adventurer's Guild of Illium
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            Cloud Road        
+                | 0
+                |/         0 = Silent Room
+              1-@-2 +-6    1 = Plaque Room
+               /|\  |      2 = Level Advance
+              3 4 +-5-7    3 = Portal room  
+                    |      4 = Myth room
+                    +-8    5 = Newbie guild
+                    |      6 = Maxxis' shop
+                    9      7 = Equipment Machine
+                           8 = Tree of Life
+                           9 = Reinc portal 
+
+	@ = You are here
+
+hp(589/792) sp(589/772) ep(538/538) > 
+
+======================================================================
+=== INVENTORY ===
+======================================================================
+Weight (in lbs): You[147] + EQ[1] = Total[148], Capacity[0%]
+	[+-+ General items +-+]
+(1)  Newbie Handbook (open)
+hp(589/792) sp(589/772) ep(538/538) > 
+
+======================================================================
+=== EQUIPMENT ===
+======================================================================
+   ------------------------------------------------------------------------   
+   ------------------------------------------------------------------------   
+hp(591/792) sp(591/772) ep(538/538) > 
+
+======================================================================
+=== SKILLS ===
+======================================================================
+You don't know any skills.
+hp(591/792) sp(591/772) ep(538/538) > 
+
+======================================================================
+=== SPELLS ===
+======================================================================
+You don't know any spells.
+hp(595/792) sp(595/772) ep(538/538) > 
+
+======================================================================
+=== QUIT ===
+======================================================================
+Quitting. Please stand by while saving.
+SUMMARY
+Login time: 5m29s  Exp Earned: 0
+________________________________________________________________
+|       Combat Category   |   Today's session | Total to date  |
+'--------------------------------------------------------------'
+|  Experience per minute  |         0         |       666      |
+|   Criticals inflicted   |         0         |        0       |
+|     Criticals taken     |         0         |        0       |
+|     Stuns inflicted     |         0         |        0       |
+|       Stuns taken       |         0         |        0       |
+|     Dodges Performed    |         0         |        0       |
+|         # deaths        |         0         |        0       |
+|         # reincs        |         0         |        0       |
+'--------------------------------------------------------------'
+Closing down.
+ Saving your character.
+

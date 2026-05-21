@@ -1,0 +1,30 @@
+Name                  #oL     Flags     Topic
+-------------------------------------------------------------
+abjurer              10 (-)   ---G----  Guild channel
+admin                 0 (-)   A-------  You wish you knew
+alien                 8 (-)   --------  Finns and other aliens
+arch                  0 (-)   -a------  Coding 102
+archinfo              0 (-)   -a---R--  
+arena                12 (-)   --------  Arena talk
+auction              10 (-)   -----R--  
+auction2              3 (-)   -----R--  
+bard                  2 (-)   ---G----  Guild channel
+bounty               14 (-)   --------  for bounty and bounty accessories
+build                 0 (-)   ------W-  building 101
+castles               4 (-)   -----R--  
+cebinfo               0 (-)   -----RW-  
+chat                 14 (+)   --------  General discussion
+clans                 8 (-)   --------  Clan stuff
+death                16 (+)   -----R--  Deaths of players
+death_taunt           5 (-)   -----R--  Death taunts
+debug                 0 (-)   -----RW-  
+druid                 4 (-)   ---G----  Guild channel
+elemental             2 (-)   ---G----  Guild channel
+equip                15 (-)   --------  Equipment Party Discussions
+error                 0 (-)   ------W-  error
+event                16 (+)   -----R--  Event information
+evoker                6 (+)   ---G----  Guild channel
+fishing               6 (-)   --------  Fishing Channel
+geek                  9 (-)   --------  Geek stuff
+ghost                15 (-)   --------  Oops!  I need ressed!
+---- (1-29-50%)[h]: 

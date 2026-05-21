@@ -1,0 +1,209 @@
+#!/usr/bin/expect -f
+set timeout 300
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/comprehensive_session.log"
+exec rm -f $logfile
+log_file $logfile
+
+puts "Starting comprehensive session - mapping + grinding..."
+
+spawn telnet islandsofmyth.org 3000
+
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+expect ">"
+
+# === INITIAL STATE ===
+send "score\r"
+expect ">"
+send "skills\r"
+expect ">"
+
+# === WARP TO GUILD ===
+send "warp\r"
+expect ">"
+
+# === ILIUM MAPPING: Portal Room & Warrior Guild ===
+send "sw\r"
+expect ">"
+send "look\r"
+expect ">"
+
+send "warrior\r"
+sleep 2
+expect ">"
+send "look\r"
+expect ">"
+
+set wdirs {n s e w ne nw se sw up down}
+foreach dir $wdirs {
+    send "$dir\r"
+    sleep 1
+    expect ">"
+    send "look\r"
+    sleep 1
+    expect ">"
+    switch $dir {
+        "n" { send "s\r" }
+        "s" { send "n\r" }
+        "e" { send "w\r" }
+        "w" { send "e\r" }
+        "ne" { send "sw\r" }
+        "nw" { send "se\r" }
+        "se" { send "nw\r" }
+        "sw" { send "ne\r" }
+        "up" { send "down\r" }
+        "down" { send "up\r" }
+    }
+    sleep 1
+    expect ">"
+}
+send "out\r"
+sleep 1
+expect ">"
+send "ne\r"
+expect ">"
+
+# === ILIUM MAPPING: City Streets ===
+send "n\r"
+expect ">"
+send "look\r"
+expect ">"
+
+# Titan Street east
+send "e\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+for {set i 0} {$i < 3} {incr i} {
+    send "e\r"
+    sleep 1
+    expect ">"
+    send "look\r"
+    sleep 1
+    expect ">"
+}
+for {set i 0} {$i < 3} {incr i} {
+    send "w\r"
+    sleep 1
+    expect ">"
+}
+send "w\r"
+expect ">"
+
+# Gossamer Street west
+send "w\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+for {set i 0} {$i < 3} {incr i} {
+    send "w\r"
+    sleep 1
+    expect ">"
+    send "look\r"
+    sleep 1
+    expect ">"
+}
+for {set i 0} {$i < 3} {incr i} {
+    send "e\r"
+    sleep 1
+    expect ">"
+}
+send "e\r"
+expect ">"
+
+# Back to guild
+send "s\r"
+expect ">"
+
+# === GO TO YENSIDLAND ===
+send "se\r"
+expect ">"
+send "e\r"
+expect ">"
+
+# Navigate Sisong's menu properly
+send "talk sisong\r"
+expect "Sisong's Newbie Information"
+send "2\r"
+expect "Newbie Areas"
+send "9\r"
+expect "Would you like to visit the Yensid Land?"
+send "Y\r"
+expect ">"
+
+# Look around
+send "look\r"
+expect ">"
+
+# Enter LobeLands
+send "nw\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+# Enable combat silence
+send "combat silence\r"
+expect ">"
+
+# === EARWIG GRINDING ===
+set total_kills 0
+for {set i 0} {$i < 100} {incr i} {
+    send "look\r"
+    sleep 1
+    expect ">"
+    
+    send "kill earwig\r"
+    sleep 8
+    expect {
+        ">" {}
+        timeout { send "look\r"; expect ">" }
+    }
+    
+    if {$i % 5 == 0} {
+        send "hp\r"
+        expect ">"
+    }
+    
+    if {$i % 10 == 0} {
+        send "score\r"
+        expect ">"
+    }
+    
+    if {$i % 15 == 0} {
+        send "rest\r"
+        sleep 3
+        expect ">"
+    }
+    
+    if {$i % 2 == 0} {
+        send "n\r"
+        sleep 1
+        expect ">"
+    } else {
+        send "s\r"
+        sleep 1
+        expect ">"
+    }
+    
+    incr total_kills
+}
+
+# Final state
+send "score\r"
+expect ">"
+send "skills\r"
+expect ">"
+
+# Clean quit
+send "quit\r"
+sleep 3
+expect "Save"
+send "Y\r"
+sleep 5
+
+puts "COMPREHENSIVE SESSION COMPLETE - Total cycles: $total_kills"

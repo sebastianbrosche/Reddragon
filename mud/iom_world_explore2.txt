@@ -1,0 +1,217 @@
+# Islands of Myth — World Exploration v2
+# 2026-05-14 05:44:22
+
+
+======================================================================
+=== LOGIN ===
+======================================================================
+
+Last login: Wed May 13 17:43:59 2026 from: 47.237.80.25 (47.237.80.25)
+Turning off channel 'myth'.
+Turning off channel 'chat'.
+Turning off channel 'newbie'.
+Turning off channel 'login'.
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+>Welcome back, Chronicler! Restarting the guide for you......
+Turning off channel 'myth'.
+Turning off channel 'chat'.
+Turning off channel 'newbie'.
+Turning off channel 'login'.
+Welcome to Islands of Myth, Chronicler!
+
+
+======================================================================
+=== RACE-SELECT ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Type look to see what is in the current room.
+>Welcome to Islands of Myth, Chronicler!
+
+
+======================================================================
+=== SELECT HUMAN ===
+======================================================================
+There is no human here.
+>
+This is Islands of Myth's guided tour to mudding. If you would like to go back
+    to the previous level at any point, type 'back'.
+
+
+======================================================================
+=== STARTING ROOM ===
+======================================================================
+
+This is Islands of Myth's guided tour to mudding. If you would like to go back
+    to the previous level at any point, type 'back'.
+Islands of Myth's New Player Guided Tour [exits: back]
+ You see nothing special about Islands of Myth's New Player Guided Tour
+
+
+>
+Islands of Myth is a MUD - a Multi-User Dungeon. A MUD is an internet
+    roleplaying game where players from all over the world log in and play
+    interactively together to make their characters more powerful.
+
+Islands of Myth is a MUD - a Multi-User Dungeon. A MUD is an internet
+    roleplaying game where players from all over the world log in and play
+    interactively together to make their characters more powerful.
+
+
+======================================================================
+=== EXITS ===
+======================================================================
+You notice these exits:
+          Back :  Welcome to Islands of
+                  Myth!
+>
+As you can see, Islands of Myth is a text-based internet game. Commands are
+    sent from you to the computer using text. Feedback comes from the computer
+    to you in text as well.
+
+As you can see, Islands of Myth is a text-based internet game. Commands are
+    sent from you to the computer using text. Feedback comes from the computer
+    to you in text as well.
+
+
+======================================================================
+=== WHO ===
+======================================================================
+
+Since this game is text-based, the first thing a new player needs to learn is
+    some basic commands so he can interact with the game. You will be
+    introduced to some of those commands in this step-by-step guide.
+------------------------------------------
+-------------------------------------
+--                              Islands of Myth                              
+--
+--                14 players (1 wizard, 13 mortals), 0 friends               
+--
+------------------------------------------
+-------------------------------------
+chpho .Vor          [1807].Nailman      [ 467].Tomten       [ 305].Dritthil    
+{ 298}.Temuthril    { 241}.Wildchild    [ 201].Fraziw       { 161} Slayn       
+[ 160].Seth         [ 155].Korthrun     [ 103].Darx         {  67} Grease      
+{  15} Rawrbeart    [   1] Chronicler  
+------------------------------------------
+-------------------------------------
+-- . = idle, () = dead, {} = race leader, * = edit, ~ = wiztest, ^ = builder 
+--
+------------------------------------------
+-------------------------------------
+>
+Since this game is text-based, the first thing a new player needs to learn is
+    some basic commands so he can interact with the game. You will be
+    introduced to some of those commands in this step-by-step guide.
+
+Also, as a player new to MUDs, you are going to be guided through creating a
+    character and started in the world of Islands of Myth!
+
+Also, as a player new to MUDs, you are going to be guided through creating a
+    character and started in the world of Islands of Myth!
+
+
+======================================================================
+=== SCORE ===
+======================================================================
+,----------------------------------------------------------------------------.
+| Chronicler the Unselected                                                  |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored          :  0.02% ( 0.20%)   |
+| Next level     :              27     Rooms Explored    :             4     |
+| Guild Level    :               9     Gold on hand      :             0     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   23 | Hit Points     :    10 (   10) | AC       : None     |
+| Dexterity    :   23 | Spell Points   :   706 (  706) | Size     : 0'1"     |
+| Constitution :   23 | Endurance Pts. :   498 (  498) | Weight   : 7 lb     |
+| Stamina      :   23 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   23 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   23 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   23 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+>
+If you are ready to start through your guided tour of basic MUD commands and
+    character creation, type 'continue' now. If you want to exit this guide and
+    go to the character creation for experienced MUD players, type 'out' now.
+>
+If you are ready to start through your guided tour of basic MUD commands and
+    character creation, type 'continue' now. If you want to exit this guide and
+    go to the character creation for experienced MUD players, type 'out' now.
+>
+
+======================================================================
+=== INVENTORY ===
+======================================================================
+Please select either 'continue', 'out', or 'back'.
+
+
+======================================================================
+=== EQUIPMENT ===
+======================================================================
+Please select either 'continue', 'out', or 'back'.
+
+
+======================================================================
+=== SKILLS ===
+======================================================================
+Please select either 'continue', 'out', or 'back'.
+
+
+======================================================================
+=== SPELLS ===
+======================================================================
+Please select either 'continue', 'out', or 'back'.
+
+
+======================================================================
+=== MAPPER ===
+======================================================================
+Please select either 'continue', 'out', or 'back'.
+
+
+======================================================================
+=== MAP ===
+======================================================================
+Please select either 'continue', 'out', or 'back'.
+
+
+======================================================================
+=== AREAS ===
+======================================================================
+Please select either 'continue', 'out', or 'back'.
+
+
+======================================================================
+=== WORLDS ===
+======================================================================
+Please select either 'continue', 'out', or 'back'.
+
+
+======================================================================
+=== COMMANDS ===
+======================================================================
+Please select either 'continue', 'out', or 'back'.
+
+
+======================================================================
+=== TIME ===
+======================================================================
+Please select either 'continue', 'out', or 'back'.
+You are taken over by yourself, or something.
+
+
+======================================================================
+=== WEATHER ===
+======================================================================
+

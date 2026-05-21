@@ -1,0 +1,21 @@
+============================================================
+         Islands of Myth: Game Summary
+============================================================
+               Reboot In: 4 days 19 hours 12 minutes 18 seconds.
+            Current Time: Sat May 16 07:58:31 2026
+                  Uptime: 16 hours 47 minutes 42 seconds
+            Restarted on: Fri May 15 15:10:49 2026
+        Skills Processed: 12585
+        Spells Processed: 15255
+         Saves performed: 50
+                     Cpu: 10.84%
+                    Load: 1.07 cmds/s, 257.53 comp lines/s.
+                  Memory: 329,132,384 bytes
+            Room Cleanup: Objects=12642  Rooms=151  Parents=70  Active=34  Refused=37  Cleaned=10  Monster=0
+          Driver Version: MudOS v22.2b9 based, IOM v2
+        Num. of feelings: 4296
+      Num. of Players On: 16
+       Avg. # plys/today: 14.462
+       Avg. # wizs/today: 1.003
+       Total num of plys: 9505
+       Total num of wizs: 39

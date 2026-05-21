@@ -1,0 +1,449 @@
+spawn telnet islandsofmyth.org 3000
+Trying 158.69.5.47...
+Connected to islandsofmyth.org.
+Escape character is '^]'.
+^L
+      .         .      /\      .:  *       .          .    +
+                 *    .'  `.      .     .     *      .                  .
+  :             .    /      \  _ .________________  .          .    .
+     ooooo          oooo~~-+.'/.' `.^^^^^^^^\~~~~~\.  .o8
+ .   `888'  . .     `888--.|  /     \~~~~~~~|~~~~~|  "888    |         *
+      888   .oooo.o  888   .oooo.   ooo. .oo." " .oooo888   .oooo.o   .       .
+   :  888  d88(  "8  888 -`p  )88b  `888P"Y88b  d88' `888  d88(  "8         .
+  -*- 888  `"Y88b.*  888   .oP"888   888   888 _888_  888. `"Y88b. .       .
+   :  888  o. .)88b  888  d8(  888   888   888 /888/\ 888  o.  )88b
+     o888o 8""888P' o888o `Y888""8o o888o o888o `Y8bod88P" 8""888P'
+          .           |u   | |       | .o88o. / ///==\     / \     +     .
+ .          :         |.--u| |..---..| 888 `" ////====\   /   \       .
+      .       *       | u  | .ooooo.  o888oo  |~~|++++| .`+~~~+'  .
+   .                  |.-|~ d88' `88b  888  | |u ||||||   |  U|            .
+                   /~~~~/-\ 888   888  888  |u|==|++++|   |   |
+                   |===| _| 888   888  888  | |u ||HH||U~U~U~U~|
+           ooo  |===||ooooo `Y8bod8P' o888o  .|+oooo /_/_/_/aa
+           `88.|~~~~\-.888'.._|--.------- .o8  ``888_.        ~~~~~~
+            888b    \d'888  oooo /\ ooo .o888oo |888..oo. ||  ~~~~
+     ~~~~   8 Y88. .P  888 ` `88.  .8'  _|888    888P"Y88b '|
+            8  `888'   888 // `88..8'  \`|888   '888' |888
+            8    Y     888 \   `888'`  .- 888 .  888   888~~~~~~
+           o8o        o888o '   .8'     . "888" o888o o888o
+                             .o..P'
+   islandsofmyth.org 3000    `Y8P'   islandsofmyth.net 3000
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 22 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+> emalz
+Password: 
+Last login: Sun May 17 17:04:45 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Emalz has reconnected (Kobold level 5).
+hp(876/876) sp(714/714) ep(628/628) > warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(876/876) sp(714/714) ep(628/628) > se
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(876/876) sp(714/714) ep(628/628) > e
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(876/876) sp(714/714) ep(628/628) > talk sisong
+Sisong's Newbie Information.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  1)  Misc. Information     2)  Newbie Areas          q)  Quit             
+
+[12q] 2
+9
+Newbie Areas
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  1)  Newbie Garden                     2)  The Valley of New Adventurers
+  3)  Spider Cave                       4)  The Circus                   
+  5)  Monster Daycare                   6)  Church                       
+  7)  Ocean                             8)  Strawberry Fields            
+  9)  Yensid Land                      10)  Fire World                   
+ 11)  Ice World                        12)  Cat World                    
+ 13)  Kobold Village                   14)  Zoo                          
+ 15)  Newbie Forest                    16)  Ancient Tree                 
+ 17)  Animal Nursery                   18)  Swallow Moors                
+ 19)  Bee Hive                          m)  Return to Main Menu          
+  q)  Quit                            
+[12345678910111213141516171819mq] Sisong says, "Yensid Land has monsters of varying levels, some are rather easy, others are tough.  Make sure you map
+    the area for in it lies a secret. Of course I could tell you what it is, but then I'd have to kill you. Ha ha ha,
+    err, only joking."
+Sisong asks, "Would you like to visit the Yensid Land?"
+Please answer Y for yes or N for no: Y
+
+Sisong says, "Well then, off ya go!  Oh, by the way. You can use the portal at the entrance of Yensid Land to return
+    back here. Best of luck!". And with that she grabs you by your shoulders and throws you towards your chosen
+    destination. Hold on, the landing could be a bit bumpy!
+
+Welcome to YENSIDLAND [exits: east, northwest and out]
+ This is such a jolly place!! You think you might just pop out a jolly fart or two just to show everyone how jolly you
+feel about being in the jolliest land in jolly old Islands of Myth!!!
+
+A jolly sign sits beside the path
+A portal to the Newbie Guild.
+
+You appear from thin air.
+hp(876/876) sp(714/714) ep(628/628) > combat silence
+USAGE: combat <arg>
+Possible arguments are:
+	'status'                    - Current settings.
+	'percent'                   - How effective did the hit appear to be.
+	'blocks'                    - Shows 2 color blocks. The first block is
+	                              how damaged the attacker appears to be.
+	                              The latter shows how damaged the target
+	                              appears to be.
+	'number'                    - Numerical indexing of hit strength. The larger
+	                              value, the harder the hit was.
+	'reporter'                  - Report the conditions of you and your target
+	'silent on'                 - Toggle combat spam off.
+	'silent off'                - Toggle combat spam on.
+	'silent generic'            - Toggle most fighter spam.
+	'silent start use'          - Toggle skill/spell start messages.
+	'silent finish use'         - Toggle skill/spell finish messages.
+	'silent words'              - Toggle spell words.
+	'silent skill action'       - Toggle skill/spell action messages.
+	'silent round'              - Toggle 'New Round' messages on and off.
+	'silent generic other'      - Toggle most fighter spam from others.
+	'silent start use other'    - Toggle skill/spenw
+ll start messages from others.
+	'silent finish use other'   - Toggle skill/spells finish messages from others.
+	'silent words other'        - Toggle spell words from others.
+	'silent skill action other' - Toggle skill/spell action messages from others.
+	'attack'                    - Toggle whether or not you will melee with your target.
+	'defend'                    - Toggle whether or not you will dodge your target.
+	'tank'                      - Toggle whether or not you will tank for those behind you.
+
+hp(876/876) sp(714/714) ep(628/628) > look
+LobeLands [exits: southeast and north]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+
+hp(876/876) sp(714/714) ep(628/628) > n
+LobeLands [exits: southeast and north]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+
+hp(876/876) sp(714/714) ep(628/628) > LobeLands [exits: northeast and south]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+
+hp(876/876) sp(714/714) ep(628/628) > look
+e
+LobeLands [exits: northeast and south]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+
+hp(876/876) sp(714/714) ep(628/628) > It doesn't seem possible to go that direction.
+hp(876/876) sp(714/714) ep(628/628) > look
+s
+LobeLands [exits: northeast and south]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+
+hp(876/876) sp(714/714) ep(628/628) > LobeLands [exits: southeast and north]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+
+hp(876/876) sp(714/714) ep(628/628) > look
+w
+LobeLands [exits: southeast and north]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+
+hp(876/876) sp(714/714) ep(628/628) > It doesn't seem possible to go that direction.
+hp(876/876) sp(714/714) ep(628/628) > look
+se
+LobeLands [exits: southeast and north]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+
+hp(876/876) sp(714/714) ep(628/628) > Welcome to YENSIDLAND [exits: east, northwest and out]
+ This is such a jolly place!! You think you might just pop out a jolly fart or two just to show everyone how jolly you
+feel about being in the jolliest land in jolly old Islands of Myth!!!
+
+A jolly sign sits beside the path
+A portal to the Newbie Guild.
+
+hp(876/876) sp(714/714) ep(628/628) > look
+e
+Welcome to YENSIDLAND [exits: east, northwest and out]
+ This is such a jolly place!! You think you might just pop out a jolly fart or two just to show everyone how jolly you
+feel about being in the jolliest land in jolly old Islands of Myth!!!
+
+A jolly sign sits beside the path
+A portal to the Newbie Guild.
+
+hp(876/876) sp(714/714) ep(628/628) > 'BurnWorld! [exits: west, northeast and south]
+ Everywhere you look your vision is obstructed by gigantic tufts of bushy hair. The hair makes navigation impossible,
+leaving you with only two options: blunder about wildly or scratch your ass in despair.
+
+A slithering Sideburner coils for a strike 
+
+hp(876/876) sp(714/714) ep(628/628) > look
+ne
+'BurnWorld! [exits: west, northeast and south]
+ Everywhere you look your vision is obstructed by gigantic tufts of bushy hair. The hair makes navigation impossible,
+leaving you with only two options: blunder about wildly or scratch your ass in despair.
+
+A slithering Sideburner coils for a strike 
+
+hp(876/876) sp(714/714) ep(628/628) > 'BurnWorld! [exits: east, north and southwest]
+ Everywhere you look your vision is obstructed by gigantic tufts of bushy hair. The hair makes navigation impossible,
+leaving you with only two options: blunder about wildly or scratch your ass in despair.
+
+A slithering Sideburner coils for a strike 
+A slithering Sideburner coils for a strike 
+
+hp(876/876) sp(714/714) ep(628/628) > look
+n
+'BurnWorld! [exits: east, north and southwest]
+ Everywhere you look your vision is obstructed by gigantic tufts of bushy hair. The hair makes navigation impossible,
+leaving you with only two options: blunder about wildly or scratch your ass in despair.
+
+A slithering Sideburner coils for a strike 
+A slithering Sideburner coils for a strike 
+
+hp(876/876) sp(714/714) ep(628/628) > LobeLands [exits: south and northwest]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+
+hp(876/876) sp(714/714) ep(628/628) > look
+e
+LobeLands [exits: south and northwest]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+
+hp(876/876) sp(714/714) ep(628/628) > It doesn't seem possible to go that direction.
+hp(876/876) sp(714/714) ep(628/628) > look
+w
+LobeLands [exits: south and northwest]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+
+hp(876/876) sp(714/714) ep(628/628) > It doesn't seem possible to go that direction.
+hp(876/876) sp(714/714) ep(628/628) > w
+It doesn't seem possible to go that direction.
+hp(876/876) sp(714/714) ep(628/628) > look
+e
+LobeLands [exits: south and northwest]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+
+hp(876/876) sp(714/714) ep(628/628) > It doesn't seem possible to go that direction.
+hp(876/876) sp(714/714) ep(628/628) > s
+'BurnWorld! [exits: east, north and southwest]
+ Everywhere you look your vision is obstructed by gigantic tufts of bushy hair. The hair makes navigation impossible,
+leaving you with only two options: blunder about wildly or scratch your ass in despair.
+
+A slithering Sideburner coils for a strike 
+A slithering Sideburner coils for a strike 
+
+hp(876/876) sp(714/714) ep(628/628) > look
+sw
+'BurnWorld! [exits: east, north and southwest]
+ Everywhere you look your vision is obstructed by gigantic tufts of bushy hair. The hair makes navigation impossible,
+leaving you with only two options: blunder about wildly or scratch your ass in despair.
+
+A slithering Sideburner coils for a strike 
+A slithering Sideburner coils for a strike 
+
+hp(876/876) sp(714/714) ep(628/628) > <-<myth>->: Nod gives you a boot to the head!
+'BurnWorld! [exits: west, northeast and south]
+ Everywhere you look your vision is obstructed by gigantic tufts of bushy hair. The hair makes navigation impossible,
+leaving you with only two options: blunder about wildly or scratch your ass in despair.
+
+A slithering Sideburner coils for a strike 
+
+hp(876/876) sp(714/714) ep(628/628) > look
+s
+'BurnWorld! [exits: west, northeast and south]
+ Everywhere you look your vision is obstructed by gigantic tufts of bushy hair. The hair makes navigation impossible,
+leaving you with only two options: blunder about wildly or scratch your ass in despair.
+
+A slithering Sideburner coils for a strike 
+
+hp(876/876) sp(714/714) ep(628/628) > 'BurnWorld! [exits: south and north]
+ Everywhere you look your vision is obstructed by gigantic tufts of bushy hair. The hair makes navigation impossible,
+leaving you with only two options: blunder about wildly or scratch your ass in despair.
+
+A slithering Sideburner coils for a strike 
+A slithering Sideburner coils for a strike 
+A slithering Sideburner coils for a strike 
+
+hp(876/876) sp(714/714) ep(628/628) > look
+e
+'BurnWorld! [exits: south and north]
+ Everywhere you look your vision is obstructed by gigantic tufts of bushy hair. The hair makes navigation impossible,
+leaving you with only two options: blunder about wildly or scratch your ass in despair.
+
+A slithering Sideburner coils for a strike 
+A slithering Sideburner coils for a strike 
+A slithering Sideburner coils for a strike 
+
+hp(876/876) sp(714/714) ep(628/628) > It doesn't seem possible to go that direction.
+hp(876/876) sp(714/714) ep(628/628) > look
+w
+'BurnWorld! [exits: south and north]
+ Everywhere you look your vision is obstructed by gigantic tufts of bushy hair. The hair makes navigation impossible,
+leaving you with only two options: blunder about wildly or scratch your ass in despair.
+
+A slithering Sideburner coils for a strike 
+A slithering Sideburner coils for a strike 
+A slithering Sideburner coils for a strike 
+
+hp(876/876) sp(714/714) ep(628/628) > It doesn't seem possible to go that direction.
+hp(876/876) sp(714/714) ep(628/628) > s
+Epsnot Center! [exits: west, southeast, northeast and north]
+ This place is simply GREAT! Magnificent mounds of masterfully molded mucus abound, and sizeable stalagmites of
+stupendous snot range as far as the eye can see!
+
+A small Nosegoblin dances about 
+A small Nosegoblin dances about 
+
+hp(876/876) sp(714/714) ep(628/628) > look
+n
+Epsnot Center! [exits: west, southeast, northeast and north]
+ This place is simply GREAT! Magnificent mounds of masterfully molded mucus abound, and sizeable stalagmites of
+stupendous snot range as far as the eye can see!
+
+A small Nosegoblin dances about 
+A small Nosegoblin dances about 
+
+hp(876/876) sp(714/714) ep(628/628) > 'BurnWorld! [exits: south and north]
+ Everywhere you look your vision is obstructed by gigantic tufts of bushy hair. The hair makes navigation impossible,
+leaving you with only two options: blunder about wildly or scratch your ass in despair.
+
+A slithering Sideburner coils for a strike 
+A slithering Sideburner coils for a strike 
+A slithering Sideburner coils for a strike 
+
+hp(876/876) sp(714/714) ep(628/628) > n
+'BurnWorld! [exits: west, northeast and south]
+ Everywhere you look your vision is obstructed by gigantic tufts of bushy hair. The hair makes navigation impossible,
+leaving you with only two options: blunder about wildly or scratch your ass in despair.
+
+A slithering Sideburner coils for a strike 
+
+hp(876/876) sp(714/714) ep(628/628) > w
+Welcome to YENSIDLAND [exits: east, northwest and out]
+ This is such a jolly place!! You think you might just pop out a jolly fart or two just to show everyone how jolly you
+feel about being in the jolliest land in jolly old Islands of Myth!!!
+
+A jolly sign sits beside the path
+A portal to the Newbie Guild.
+
+hp(876/876) sp(714/714) ep(628/628) > look
+out
+Welcome to YENSIDLAND [exits: east, northwest and out]
+ This is such a jolly place!! You think you might just pop out a jolly fart or two just to show everyone how jolly you
+feel about being in the jolliest land in jolly old Islands of Myth!!!
+
+A jolly sign sits beside the path
+A portal to the Newbie Guild.
+
+hp(876/876) sp(714/714) ep(628/628) > Scenic Location [exits: path, northeast, west, south, southeast, northwest, north, east and southwest]
+RR?pppppp A strange looking path leads into the hills to the southwest. 
+ppp\ppppp 
+----*pppp 
+ppppppppp 
+fffffffff 
+
+
+hp(876/876) sp(714/714) ep(628/628) > look
+kill earwig
+Scenic Location [exits: path, northeast, west, south, southeast, northwest, north, east and southwest]
+RR?pppppp A strange looking path leads into the hills to the southwest. 
+ppp\ppppp 
+----*pppp 
+ppppppppp 
+fffffffff 
+
+
+hp(876/876) sp(714/714) ep(628/628) > There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > 

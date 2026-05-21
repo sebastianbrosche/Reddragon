@@ -1,0 +1,5 @@
+Level:   Name:        Flags:    Party:      Idle time:
+------------------------------------------------------
+[201]    Fraziw                             1h56m51s
+[1812]    Nailman                P/1         1h6m6s
+[186]    Zarp                   P/1         2h47s

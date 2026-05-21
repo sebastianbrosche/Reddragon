@@ -1,0 +1,8 @@
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large podium. Upon that podium sits Achman, the
+judge. He controls the levels of Islands of Myth, and has the power to create some of the strongest players. He sits in
+a high back chair built into the podium. Talk to him if you wish to advance in your endeavors. 
+
+Achman the Judge
+
+hp(716/716) sp(750/750) ep(538/538) > 

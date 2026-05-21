@@ -1,0 +1,218 @@
+# Islands of Myth — Fresh Character + World Exploration
+# 2026-05-14 06:09:43
+
+
+======================================================================
+=== NAME ENTRY ===
+======================================================================
+
+Nobody around with that name. If you want to create a new
+character, please enter 'c'.
+
+
+
+----------------------------------------------------------------------------
+The Administrators of Islands of Myth are:
+Zifnab, Marvin, Sigwald, Magneto, Khosan, Ixtlilton, Vor, Daneel and Saryon
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 12 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Your Selection?
+> 
+
+======================================================================
+=== PASSWORD ===
+======================================================================
+
+Nobody around with that name. If you want to create a new
+character, please enter 'c'.
+
+
+
+----------------------------------------------------------------------------
+Check out the Islands of Myth Web Page at: http://islandsofmyth.org
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 12 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Your Selection?
+> 
+
+======================================================================
+=== EMAIL ===
+======================================================================
+Sorry, everybody needs a name here.  Please try again.
+
+
+
+----------------------------------------------------------------------------
+Email: mud@islandsofmyth.org with problems concerning Islands of Myth.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 12 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Your Selection?
+> 
+
+======================================================================
+=== HEAR ABOUT ===
+======================================================================
+Sorry, everybody needs a name here.  Please try again.
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 12 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Your Selection?
+> 
+
+======================================================================
+=== GENDER ===
+======================================================================
+
+Nobody around with that name. If you want to create a new
+character, please enter 'c'.
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 12 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Your Selection?
+> 
+
+======================================================================
+=== STARTING ROOM ===
+======================================================================
+
+Nobody around with that name. If you want to create a new
+character, please enter 'c'.
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 12 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+I think you're having trouble. Please enter a 'NICKNAME'
+or if you want you can enter a 'letter' from the above menu.
+Please enter a Name you would like others to know you as now.
+> 
+
+======================================================================
+=== EXITS ===
+======================================================================
+
+Nobody around with that name. If you want to create a new
+character, please enter 'c'.
+
+
+
+CAREFUL!
+Not entering anything this time will kick you out!.
+Please type in a name you would like to be know as on the mud.
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 12 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+I think you're having trouble. Please enter a 'NICKNAME'
+or if you want you can enter a 'letter' from the above menu.
+Please enter a Name you would like others to know you as now.
+> 
+
+======================================================================
+=== RACE-SELECT ===
+======================================================================
+
+Nobody around with that name. If you want to create a new
+character, please enter 'c'.
+
+
+
+SORRY YOU ARE HAVING TROUBLE, PLEASE COME BACK WHEN
+YOU WOULD LIKE TO PLAY.
+
+
+======================================================================
+=== TOUCH HUMAN ===
+======================================================================
+

@@ -1,0 +1,864 @@
+# Islands of Myth — Elemental, Psychics, Weaver Guilds
+# 2026-05-14 06:34:17
+
+
+======================================================================
+=== LOGIN ===
+======================================================================
+Password: 
+
+======================================================================
+=== PASSWORD ===
+======================================================================
+
+Last login: Wed May 13 18:33:23 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Explorer has reconnected (Human level 1).
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== ENTER PORTAL ===
+======================================================================
+There is no portal here.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOCATION CHECK ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK 0 ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== SOUTH 0 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK 1 ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== SOUTH 1 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK 2 ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== SOUTH 2 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK 3 ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== SOUTH 3 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK 4 ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== SOUTH 4 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== VERIFY GUILD ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== PORTAL ROOM (elemental) ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== ELEMENTAL GUILD ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Type look to see what is in the current room.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK ELEMENTAL ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== EXITS ELEMENTAL ===
+======================================================================
+You notice these exits:
+           Out :  Outside a small
+                  shack
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== INFO ELEMENTAL ===
+======================================================================
+   ------------------------------------------------------------------------   
+   |         Guild info on warrior. A alpha level warrior guild.          |   
+   |            ---------------------------------------------             |   
+   |                              [Level 01]                              |   
+   |                    New Skills: attack and tanking                    |   
+   |                              [Level 02]                              |   
+   |                    New Skills: weapon skill blunt                    |   
+   |                              [Level 03]                              |   
+   |                      New Skills: flesh of stone                      |   
+   |                              [Level 04]                              |   
+   |                    New Skills: honor of the gods                     |   
+   |                              [Level 05]                              |   
+   |                  New Skills: weapon skill piercing                   |   
+   |                              [Level 06]                              |   
+   |                          New Skills: punch                           |   
+   |                              [Level 08]                              |   
+   |                  New Skills: weapon skill slashing                   |   
+   |                              [Level 10]                              |   
+   |          New Skills: essence eye and weapon skill whipping           |   
+   |                              [Level 11]                              |   
+   |                       New Skills: forearm bash                       |   
+   |                              [Level 14]                              |   
+   |                        New Skills: doublehit                         |   
+   |                              [Level 15]                              |   
+   |                           New Skills: kick                           |   
+---- (1-25-73%)[h]: 
+
+======================================================================
+=== OUT ELEMENTAL ===
+======================================================================
+   |                              [Level 17]                              |   
+   |                          New Skills: dodge                           |   
+   |                              [Level 19]                              |   
+   |                           New Skills: stun                           |   
+   |                              [Level 20]                              |   
+   |                      New Skills: unarmed combat                      |   
+   |                                                                      |   
+   |            ---------------------------------------------             |   
+   ------------------------------------------------------------------------   
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== NE RETURN ELEMENTAL ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOCATION CHECK ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK 0 ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== SOUTH 0 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK 1 ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== SOUTH 1 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK 2 ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== SOUTH 2 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK 3 ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== SOUTH 3 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK 4 ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== SOUTH 4 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== VERIFY GUILD ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== PORTAL ROOM (psychics) ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== PSYCHICS GUILD ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Common channels are newbie, chat and myth. Type: on myth.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK PSYCHICS ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== EXITS PSYCHICS ===
+======================================================================
+You notice these exits:
+           Out :  Outside a small
+                  shack
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== INFO PSYCHICS ===
+======================================================================
+   ------------------------------------------------------------------------   
+   |         Guild info on warrior. A alpha level warrior guild.          |   
+   |            ---------------------------------------------             |   
+   |                              [Level 01]                              |   
+   |                    New Skills: attack and tanking                    |   
+   |                              [Level 02]                              |   
+   |                    New Skills: weapon skill blunt                    |   
+   |                              [Level 03]                              |   
+   |                      New Skills: flesh of stone                      |   
+   |                              [Level 04]                              |   
+   |                    New Skills: honor of the gods                     |   
+   |                              [Level 05]                              |   
+   |                  New Skills: weapon skill piercing                   |   
+   |                              [Level 06]                              |   
+   |                          New Skills: punch                           |   
+   |                              [Level 08]                              |   
+   |                  New Skills: weapon skill slashing                   |   
+   |                              [Level 10]                              |   
+   |          New Skills: essence eye and weapon skill whipping           |   
+   |                              [Level 11]                              |   
+   |                       New Skills: forearm bash                       |   
+   |                              [Level 14]                              |   
+   |                        New Skills: doublehit                         |   
+   |                              [Level 15]                              |   
+   |                           New Skills: kick                           |   
+---- (1-25-73%)[h]: 
+
+======================================================================
+=== OUT PSYCHICS ===
+======================================================================
+   |                              [Level 17]                              |   
+   |                          New Skills: dodge                           |   
+   |                              [Level 19]                              |   
+   |                           New Skills: stun                           |   
+   |                              [Level 20]                              |   
+   |                      New Skills: unarmed combat                      |   
+   |                                                                      |   
+   |            ---------------------------------------------             |   
+   ------------------------------------------------------------------------   
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== NE RETURN PSYCHICS ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOCATION CHECK ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK 0 ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== SOUTH 0 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK 1 ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== SOUTH 1 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK 2 ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== SOUTH 2 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK 3 ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== SOUTH 3 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK 4 ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== SOUTH 4 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== VERIFY GUILD ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== PORTAL ROOM (weaver) ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== WEAVER GUILD ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Type look to see what is in the current room.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK WEAVER ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== EXITS WEAVER ===
+======================================================================
+You notice these exits:
+           Out :  Outside a small
+                  shack
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== INFO WEAVER ===
+======================================================================
+   ------------------------------------------------------------------------   
+   |         Guild info on warrior. A alpha level warrior guild.          |   
+   |            ---------------------------------------------             |   
+   |                              [Level 01]                              |   
+   |                    New Skills: attack and tanking                    |   
+   |                              [Level 02]                              |   
+   |                    New Skills: weapon skill blunt                    |   
+   |                              [Level 03]                              |   
+   |                      New Skills: flesh of stone                      |   
+   |                              [Level 04]                              |   
+   |                    New Skills: honor of the gods                     |   
+   |                              [Level 05]                              |   
+   |                  New Skills: weapon skill piercing                   |   
+   |                              [Level 06]                              |   
+   |                          New Skills: punch                           |   
+   |                              [Level 08]                              |   
+   |                  New Skills: weapon skill slashing                   |   
+   |                              [Level 10]                              |   
+   |          New Skills: essence eye and weapon skill whipping           |   
+   |                              [Level 11]                              |   
+   |                       New Skills: forearm bash                       |   
+   |                              [Level 14]                              |   
+   |                        New Skills: doublehit                         |   
+   |                              [Level 15]                              |   
+   |                           New Skills: kick                           |   
+---- (1-25-73%)[h]: 
+
+======================================================================
+=== OUT WEAVER ===
+======================================================================
+   |                              [Level 17]                              |   
+   |                          New Skills: dodge                           |   
+   |                              [Level 19]                              |   
+   |                           New Skills: stun                           |   
+   |                              [Level 20]                              |   
+   |                      New Skills: unarmed combat                      |   
+   |                                                                      |   
+   |            ---------------------------------------------             |   
+   ------------------------------------------------------------------------   
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== NE RETURN WEAVER ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOCATION CHECK ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK 0 ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== SOUTH 0 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK 1 ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== SOUTH 1 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK 2 ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== SOUTH 2 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK 3 ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== SOUTH 3 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK 4 ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== SOUTH 4 ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== VERIFY GUILD ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== FINAL LOOK ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== QUIT ===
+======================================================================
+Quitting. Please stand by while saving.
+SUMMARY
+Login time: 22m41s  Exp Earned: 0
+________________________________________________________________
+|       Combat Category   |   Today's session | Total to date  |
+'--------------------------------------------------------------'
+|  Experience per minute  |         0         |       181      |
+|   Criticals inflicted   |         0         |        0       |
+|     Criticals taken     |         0         |        0       |
+|     Stuns inflicted     |         0         |        0       |
+|       Stuns taken       |         0         |        0       |
+|     Dodges Performed    |         0         |        0       |
+|         # deaths        |         0         |        0       |
+|         # reincs        |         0         |        0       |
+'--------------------------------------------------------------'
+Closing down.
+ Saving your character.
+

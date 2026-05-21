@@ -1,0 +1,179 @@
+#!/usr/bin/expect -f
+
+set timeout 60
+set timestamp [clock format [clock seconds] -format "%Y%m%d_%H%M%S"]
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/session_${timestamp}.log"
+log_file $logfile
+
+puts "Starting Islands of Myth grinding session at $timestamp"
+puts "Log file: $logfile"
+
+spawn telnet islandsofmyth.org 3000
+
+# Handle initial connection
+expect {
+    "login:" { send "emalz\r" }
+    "Please enter a name" { send "emalz\r" }
+    timeout { puts "Timeout waiting for login prompt"; exit 1 }
+}
+
+expect {
+    "password:" { send "creative\r" }
+    "Password:" { send "creative\r" }
+    timeout { puts "Timeout waiting for password prompt"; exit 1 }
+}
+
+# Wait for login to complete - use simpler pattern matching
+expect {
+    "hp(" { 
+        puts "Logged in successfully" 
+        # Wait for rest of prompt
+        expect "> "
+    }
+    "Do you want ANSI" { 
+        send "y\r"
+        expect "hp("
+        expect "> "
+    }
+    timeout { puts "Timeout waiting for game prompt"; exit 1 }
+}
+
+# Function to send command and wait for prompt
+proc send_cmd {cmd} {
+    global spawn_id
+    send "$cmd\r"
+    expect {
+        "hp(" { expect "> " }
+        "Hp:" { expect "> " }
+        timeout { puts "Timeout after command: $cmd"; return 1 }
+    }
+    return 0
+}
+
+# Check score
+send_cmd "score"
+send_cmd "skills"
+
+# Level up if needed - go to judge
+send_cmd "warp"
+send_cmd "e"
+
+# Talk to judge
+send "talk achman\r"
+expect {
+    "What can I do for you?" {
+        send "d\r"
+        expect {
+            "Which stat" {
+                send "strength\r"
+                expect "hp("
+                expect "> "
+                puts "Leveled up!"
+            }
+            "hp(" {
+                expect "> "
+                puts "Judge response complete"
+            }
+            timeout { puts "Timeout at stat selection"; send_cmd "warp" }
+        }
+    }
+    "hp(" {
+        expect "> "
+        puts "Judge not available or not ready"
+    }
+    timeout { puts "Timeout talking to judge"; send_cmd "warp" }
+}
+
+# Verify level
+send_cmd "score"
+
+# Go to Sisong to explore newbie areas
+send_cmd "warp"
+
+send "talk sisong\r"
+expect {
+    "What can I do for you?" {
+        send "2\r"
+        expect {
+            "Where would you like to go?" {
+                # Try Newbie Garden (1)
+                send "1\r"
+                expect {
+                    "Are you sure you want to go" {
+                        send "y\r"
+                        expect "hp("
+                        expect "> "
+                        puts "Teleported to Newbie Garden"
+                    }
+                    "hp(" {
+                        expect "> "
+                        puts "Already at destination or teleport complete"
+                    }
+                }
+            }
+            "hp(" {
+                expect "> "
+                puts "Travel menu not showing"
+            }
+        }
+    }
+    "hp(" {
+        expect "> "
+        puts "Sisong not found"
+    }
+    timeout { puts "Timeout talking to sisong"; send_cmd "warp" }
+}
+
+# Look around current location
+send_cmd "look"
+
+# Explore and grind loop
+set explore_count 0
+set directions {n s e w ne nw se sw}
+
+while {$explore_count < 30} {
+    incr explore_count
+    set dir [lindex $directions [expr {int(rand()*8)}]]
+    
+    puts "Exploration step $explore_count: going $dir"
+    
+    send "$dir\r"
+    expect {
+        "hp(" { expect "> " }
+        "Hp:" { expect "> " }
+        timeout { puts "Timeout moving $dir"; continue }
+    }
+    
+    # Look at room
+    send_cmd "look"
+    
+    # Check score every few steps
+    if {$explore_count % 5 == 0} {
+        send_cmd "score"
+    }
+    
+    # Small delay to let room description print
+    after 500
+}
+
+# Final checks
+send_cmd "score"
+send_cmd "skills"
+
+# Return to guild
+send_cmd "warp"
+
+# Save and quit
+send "quit\r"
+expect {
+    "quit" { send "y\r" }
+    "hp(" { 
+        expect "> "
+        send "quit\r"
+        expect "quit"
+        send "y\r"
+    }
+}
+
+puts "Grinding session complete! Log: $logfile"
+exit 0

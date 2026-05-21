@@ -1,0 +1,2 @@
+Verbose mode is off.
+Usage: verbose [on|off]

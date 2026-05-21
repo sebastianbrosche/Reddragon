@@ -1,0 +1,126 @@
+#!/usr/bin/expect -f
+set timeout 120
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/direct_advance_test.log"
+exec rm -f $logfile
+log_file $logfile
+
+spawn telnet islandsofmyth.org 3000
+
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+expect ">"
+
+# Check score
+send "score\r"
+expect ">"
+
+# Warp to guild
+send "warp\r"
+expect ">"
+
+# Go to Level Room
+send "e\r"
+expect ">"
+
+# Try direct advance command
+send "advance\r"
+sleep 2
+expect {
+    "Pick a stat to advance!" {
+        sleep 3
+        send "strength\r"
+        sleep 5
+        expect {
+            "How many" {
+                sleep 3
+                send "1\r"
+                sleep 5
+                expect {
+                    "You have advanced" { sleep 2; expect ">" }
+                    "You do not have enough" { sleep 2; expect ">" }
+                    ">" {}
+                    timeout { send "\r"; expect ">" }
+                }
+            }
+            "You have advanced" { sleep 2; expect ">" }
+            "You do not have enough" { sleep 2; expect ">" }
+            ">" {}
+            timeout { send "\r"; expect ">" }
+        }
+    }
+    "You have advanced" { sleep 2; expect ">" }
+    "You do not have enough" { sleep 2; expect ">" }
+    ">" {}
+    timeout { send "\r"; expect ">" }
+}
+
+send "score\r"
+expect ">"
+
+# Try again
+send "advance\r"
+sleep 2
+expect {
+    "Pick a stat to advance!" {
+        sleep 3
+        send "strength\r"
+        sleep 5
+        expect {
+            "How many" {
+                sleep 3
+                send "1\r"
+                sleep 5
+                expect {
+                    "You have advanced" { sleep 2; expect ">" }
+                    "You do not have enough" { sleep 2; expect ">" }
+                    ">" {}
+                    timeout { send "\r"; expect ">" }
+                }
+            }
+            "You have advanced" { sleep 2; expect ">" }
+            "You do not have enough" { sleep 2; expect ">" }
+            ">" {}
+            timeout { send "\r"; expect ">" }
+        }
+    }
+    ">" {}
+    timeout { send "\r"; expect ">" }
+}
+
+send "score\r"
+expect ">"
+
+# Try third time
+send "advance\r"
+sleep 2
+expect {
+    "Pick a stat to advance!" {
+        sleep 3
+        send "strength\r"
+        sleep 5
+        expect {
+            "How many" {
+                sleep 3
+                send "1\r"
+                sleep 5
+                expect ">" {}
+            }
+            ">" {}
+            timeout { send "\r"; expect ">" }
+        }
+    }
+    ">" {}
+    timeout { send "\r"; expect ">" }
+}
+
+send "score\r"
+expect ">"
+
+send "quit\r"
+sleep 3
+expect "Save"
+send "Y\r"
+
+puts "DIRECT ADVANCE TEST COMPLETE"

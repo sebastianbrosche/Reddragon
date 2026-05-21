@@ -1,0 +1,2 @@
+Stats:
+ Str: 105   Dex: 162   Con: 115   Sta: 112   Int: 409   Wis: 243   Cha: 73

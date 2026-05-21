@@ -1,0 +1,298 @@
+# Islands of Myth — Warrior Guild Hall
+# 2026-05-14 06:32:53
+
+
+======================================================================
+=== LOGIN ===
+======================================================================
+Password: 
+
+======================================================================
+=== PASSWORD ===
+======================================================================
+
+Last login: Wed May 13 18:29:32 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Explorer has reconnected (Human level 1).
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== CURRENT LOCATION ===
+======================================================================
+On Titan street [exits: south and north]
+ The road extends below you as you walk through the eastern section of Illium
+City. A cathedral rests in the center of the eastern side of Illium, standing
+magnificiently against the horizon.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== NORTH ===
+======================================================================
+A charwoman wanders by with a bucket of ashes.
+Intersection of Cloud and Titan [exits: south, west and north]
+ The edge of the Illium Bazaar here blends into Cloud Road, which heads west
+towards the Illian Adventurers' Guild. The guild is a domed building, visible
+for blocks - especially over the low stalls of the marketplace. The city
+cathedral lies close by to the south, dominating the landscape for blocks
+around.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== WEST ===
+======================================================================
+Glowing wisps float through the air.
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers
+Guild. It contains some of the most helpful things in the world of Islands of
+Myth. To the east is Titan Street; to the west is Gossamer Street. Small trees
+line the road.
+
+A grand memorial is here.
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== SOUTH TO GUILD ===
+======================================================================
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north,
+southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its
+architecture, the guild houses a vast amount of help for the new adventurers
+and the old. Its high domed ceiling swirls with blue and whites, like the sky
+on a very windy day. Because it is domed and there are windows all along the
+wall, the room seems very open and very friendly.
+
+Someone has left Formula: Head: Lesser Wisdom lying on the ground.
+Formula: Feet: Lesser Dexterity lies here.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== VERIFY GUILD ===
+======================================================================
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north,
+southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its
+architecture, the guild houses a vast amount of help for the new adventurers
+and the old. Its high domed ceiling swirls with blue and whites, like the sky
+on a very windy day. Because it is domed and there are windows all along the
+wall, the room seems very open and very friendly.
+
+Formula: Head: Lesser Wisdom lies here.
+It seems that someone has left Formula: Feet: Lesser Dexterity lying here.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== PORTAL ROOM ===
+======================================================================
+Portal Room [exits: abjurer, elemental, woodsman, northeast, shifter,
+martial_artist, lurker, druid, acrobat, weaver, evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for
+the ease and convenience of all adventurers.
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK PORTAL ===
+======================================================================
+Portal Room [exits: abjurer, elemental, woodsman, northeast, shifter,
+martial_artist, lurker, druid, acrobat, weaver, evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for
+the ease and convenience of all adventurers.
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== EXITS PORTAL ===
+======================================================================
+You notice these exits:
+       Warrior :  Warrior Training
+                  Center
+      Psychics :  Under a Colossal
+                  Tree
+    Unraveller :  Hall of
+                  Unravelling
+        Evoker :  Evoker Class
+        Weaver :  Small chapel
+       Acrobat :  GuildMaster's
+                  Room
+         Druid :  At the Foot of the
+                  Great Oak
+        Lurker :  GuildMaster's
+                  Room
+Martial_artist :  John Wu's Dojo
+       Shifter :  Forest trail
+     Northeast :  Adventurer Guild
+                  Entrance
+      Woodsman :  Cabin of the
+                  Woodsman
+     Elemental :  Elemental Guild
+                  Hall
+       Abjurer :  Abjurer Guild
+                  Hall
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== WARRIOR GUILD ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK WARRIOR ===
+======================================================================
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== EXITS WARRIOR ===
+======================================================================
+You notice these exits:
+           Out :  Outside a small
+                  shack
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LIST ===
+======================================================================
+USAGE: list <spells/skills> <all/short>
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== INFO ===
+======================================================================
+   ------------------------------------------------------------------------   
+   |         Guild info on warrior. A alpha level warrior guild.          |   
+   |            ---------------------------------------------             |   
+   |                              [Level 01]                              |   
+   |                    New Skills: attack and tanking                    |   
+   |                              [Level 02]                              |   
+   |                    New Skills: weapon skill blunt                    |   
+   |                              [Level 03]                              |   
+   |                      New Skills: flesh of stone                      |   
+   |                              [Level 04]                              |   
+   |                    New Skills: honor of the gods                     |   
+   |                              [Level 05]                              |   
+   |                  New Skills: weapon skill piercing                   |   
+   |                              [Level 06]                              |   
+   |                          New Skills: punch                           |   
+   |                              [Level 08]                              |   
+   |                  New Skills: weapon skill slashing                   |   
+   |                              [Level 10]                              |   
+   |          New Skills: essence eye and weapon skill whipping           |   
+   |                              [Level 11]                              |   
+   |                       New Skills: forearm bash                       |   
+   |                              [Level 14]                              |   
+   |                        New Skills: doublehit                         |   
+   |                              [Level 15]                              |   
+   |                           New Skills: kick                           |   
+---- (1-25-73%)[h]: 
+
+======================================================================
+=== HELP WARRIOR ===
+======================================================================
+More Help:
+
+  Commands are one letter anachronyms as listed below
+
+    a : Print current page again.
+    / : /<string> starts foward search for string.
+  h,? : This help, OR ?<string> to start backward search for string.
+    d : Toggle scanning direction.
+        Changes which direction you page through the file(s).
+    b : goto the beginning of the file.
+    e : goto the end of the file.
+    n : Next file in scan direction if any.
+    # : goto line number #
+    q : quit
+    s : Set or toggle off search string.
+        s <string> where <string> is what you're looking for.
+        Searches are done in the scan direction and page displayed
+          is the one directly following any match made.
+        Until you toggle s off, any scan will search for a match.
+        s by itself turns off the search parameter
+
+    enter or anything else scans the next page.
+---- (1-25-73%)[h]: 
+
+======================================================================
+=== BACK PORTAL ===
+======================================================================
+more: no more files after this file
+---- (1-25-73%)[h]: 
+
+======================================================================
+=== BACK TO GUILD ===
+======================================================================
+more: no more files after this file
+---- (1-25-73%)[h]: 
+
+======================================================================
+=== FINAL LOOK ===
+======================================================================
+   |                              [Level 17]                              |   
+   |                          New Skills: dodge                           |   
+   |                              [Level 19]                              |   
+   |                           New Skills: stun                           |   
+   |                              [Level 20]                              |   
+   |                      New Skills: unarmed combat                      |   
+   |                                                                      |   
+   |            ---------------------------------------------             |   
+   ------------------------------------------------------------------------   
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== QUIT ===
+======================================================================
+Quitting. Please stand by while saving.
+SUMMARY
+Login time: 20m3s  Exp Earned: 0
+________________________________________________________________
+|       Combat Category   |   Today's session | Total to date  |
+'--------------------------------------------------------------'
+|  Experience per minute  |         0         |       200      |
+|   Criticals inflicted   |         0         |        0       |
+|     Criticals taken     |         0         |        0       |
+|     Stuns inflicted     |         0         |        0       |
+|       Stuns taken       |         0         |        0       |
+|     Dodges Performed    |         0         |        0       |
+|         # deaths        |         0         |        0       |
+|         # reincs        |         0         |        0       |
+'--------------------------------------------------------------'
+Closing down.
+ Saving your character.
+

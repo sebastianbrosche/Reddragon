@@ -1,0 +1,469 @@
+# Islands of Myth — Complete Guided Tour Archive
+# 2026-05-14 05:49:43
+
+
+======================================================================
+=== LOGIN ===
+======================================================================
+
+Last login: Wed May 13 17:49:23 2026 from: 47.237.80.25 (47.237.80.25)
+Turning off channel 'myth'.
+Turning off channel 'chat'.
+Turning off channel 'newbie'.
+Turning off channel 'login'.
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+>Welcome back, Chronicler! Restarting the guide for you......
+Turning off channel 'myth'.
+Turning off channel 'chat'.
+Turning off channel 'newbie'.
+Turning off channel 'login'.
+Welcome to Islands of Myth, Chronicler!
+
+
+======================================================================
+=== TOUR STEP 0 ===
+======================================================================
+Welcome to Islands of Myth, Chronicler!
+
+
+======================================================================
+=== TOUR STEP 1 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+To say something in a room type: say message
+>
+
+======================================================================
+=== TOUR STEP 2 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+To tell someone something: type tell <player name> message
+>
+This is Islands of Myth's guided tour to mudding. If you would like to go back
+    to the previous level at any point, type 'back'.
+
+This is Islands of Myth's guided tour to mudding. If you would like to go back
+    to the previous level at any point, type 'back'.
+
+
+======================================================================
+=== TOUR STEP 3 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+If you are having trouble, type help
+>
+
+======================================================================
+=== TOUR STEP 4 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+To tell someone something: type tell <player name> message
+>
+
+======================================================================
+=== TOUR STEP 5 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Common channels are newbie, chat and myth. Type: on myth.
+>
+
+======================================================================
+=== TOUR STEP 6 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Talk to Sisong in the adv hall if you get a chance for more help.
+>
+Islands of Myth is a MUD - a Multi-User Dungeon. A MUD is an internet
+    roleplaying game where players from all over the world log in and play
+    interactively together to make their characters more powerful.
+
+Islands of Myth is a MUD - a Multi-User Dungeon. A MUD is an internet
+    roleplaying game where players from all over the world log in and play
+    interactively together to make their characters more powerful.
+
+
+======================================================================
+=== TOUR STEP 7 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+To turn on a channel type: on <channel name>
+>
+
+======================================================================
+=== TOUR STEP 8 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+If you are having trouble, type help
+>
+
+======================================================================
+=== TOUR STEP 9 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+If you need help you can try on the channels, type: newbie Can someone help me
+with (whatever you need help with).
+>
+
+======================================================================
+=== TOUR STEP 10 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Need more help, ask on the newbie channel, type: newbie 'your question.'
+>
+As you can see, Islands of Myth is a text-based internet game. Commands are
+    sent from you to the computer using text. Feedback comes from the computer
+    to you in text as well.
+
+As you can see, Islands of Myth is a text-based internet game. Commands are
+    sent from you to the computer using text. Feedback comes from the computer
+    to you in text as well.
+
+
+======================================================================
+=== TOUR STEP 11 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Need more help, ask on the newbie channel, type: newbie 'your question.'
+>
+
+======================================================================
+=== TOUR STEP 12 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+If you are having trouble, type help
+>
+
+======================================================================
+=== TOUR STEP 13 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Talk to Sisong in the adv hall if you get a chance for more help.
+>
+
+======================================================================
+=== TOUR STEP 14 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+To tell someone something: type tell <player name> message
+>
+Since this game is text-based, the first thing a new player needs to learn is
+    some basic commands so he can interact with the game. You will be
+    introduced to some of those commands in this step-by-step guide.
+
+Since this game is text-based, the first thing a new player needs to learn is
+    some basic commands so he can interact with the game. You will be
+    introduced to some of those commands in this step-by-step guide.
+
+
+======================================================================
+=== TOUR STEP 15 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Common channels are newbie, chat and myth. Type: on myth.
+>
+
+======================================================================
+=== TOUR STEP 16 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+To say something in a room type: say message
+>
+
+======================================================================
+=== TOUR STEP 17 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+To say something in a room type: say message
+>
+
+======================================================================
+=== TOUR STEP 18 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+To turn on a channel type: on <channel name>
+>
+Also, as a player new to MUDs, you are going to be guided through creating a
+    character and started in the world of Islands of Myth!
+
+Also, as a player new to MUDs, you are going to be guided through creating a
+    character and started in the world of Islands of Myth!
+
+
+======================================================================
+=== TOUR STEP 19 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Talk to Sisong in the adv hall if you get a chance for more help.
+>
+
+======================================================================
+=== TOUR STEP 20 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+To say something in a room type: say message
+>
+
+======================================================================
+=== TOUR STEP 21 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+If you are having trouble, type help
+>
+
+======================================================================
+=== TOUR STEP 22 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Need more help, ask on the newbie channel, type: newbie 'your question.'
+>
+If you are ready to start through your guided tour of basic MUD commands and
+    character creation, type 'continue' now. If you want to exit this guide and
+    go to the character creation for experienced MUD players, type 'out' now.
+>
+If you are ready to start through your guided tour of basic MUD commands and
+    character creation, type 'continue' now. If you want to exit this guide and
+    go to the character creation for experienced MUD players, type 'out' now.
+>
+
+======================================================================
+=== TOUR STEP 23 ===
+======================================================================
+Great! Moving you to the next level!
+
+First we will go through some basic commands that will help you play this game.
+    You might want to take notes.
+
+
+======================================================================
+=== TOUR STEP 24 ===
+======================================================================
+>
+
+======================================================================
+=== TOUR STEP 25 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Talk to Sisong in the adv hall if you get a chance for more help.
+>
+
+======================================================================
+=== TOUR STEP 26 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+If you are having trouble, type 'faq'
+>
+
+======================================================================
+=== TOUR STEP 27 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+If you are having trouble, type 'faq'
+>
+This guide is best viewed in color. Not all terminals support color so we
+    default to no color. If you would like to turn color on, type 'ansi on'. If you find your terminal does not
+    support it, type 'ansi off'. The tour will wait for 15 seconds to make sure your
+    terminal is ok.
+
+
+======================================================================
+=== TOUR STEP 28 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+To say something in a room type: say message
+>
+
+======================================================================
+=== TOUR STEP 29 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+To turn on a channel type: on <channel name>
+>
+
+======================================================================
+=== TOUR STEP 30 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Want to try something fun? type: random
+>
+
+======================================================================
+=== TOUR STEP 31 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+To turn on a channel type: on <channel name>
+>
+
+======================================================================
+=== TOUR STEP 32 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+If you are having trouble, type help
+>
+
+======================================================================
+=== TOUR STEP 33 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Type look to see what is in the current room.
+>
+
+======================================================================
+=== TOUR STEP 34 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+If you need help you can try on the channels, type: newbie Can someone help me
+with (whatever you need help with).
+>
+
+======================================================================
+=== TOUR STEP 35 ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Type look to see what is in the current room.
+>
+The first command is 'look'. If you want to get information about your
+    environment, you can 'look'. Type 'look' now to get a description of the
+    room you are in.
+>
+
+======================================================================
+=== TOUR STEP 36 ===
+======================================================================
+Please type 'look' now.
+>
+
+======================================================================
+=== TOUR STEP 37 ===
+======================================================================
+Please type 'look' now.
+>
+
+======================================================================
+=== TOUR STEP 38 ===
+======================================================================
+Please type 'look' now.
+>
+
+======================================================================
+=== TOUR STEP 39 ===
+======================================================================
+Please type 'look' now.
+>
+
+======================================================================
+=== TOUR STEP 40 ===
+======================================================================
+Please type 'look' now.
+>
+
+======================================================================
+=== TOUR STEP 41 ===
+======================================================================
+Please type 'look' now.
+>
+
+======================================================================
+=== TOUR STEP 42 ===
+======================================================================
+Please type 'look' now.
+>
+
+======================================================================
+=== TOUR STEP 43 ===
+======================================================================
+Please type 'look' now.
+>
+
+======================================================================
+=== TOUR STEP 44 ===
+======================================================================
+Please type 'look' now.
+>
+
+======================================================================
+=== TOUR STEP 45 ===
+======================================================================
+Please type 'look' now.
+>
+
+======================================================================
+=== TOUR STEP 46 ===
+======================================================================
+Please type 'look' now.
+>You are now a fully grown unselected.
+
+
+======================================================================
+=== TOUR STEP 47 ===
+======================================================================
+Please type 'look' now.
+>
+
+======================================================================
+=== TOUR STEP 48 ===
+======================================================================
+Please type 'look' now.
+>
+
+======================================================================
+=== TOUR STEP 49 ===
+======================================================================
+Please type 'look' now.
+>
+
+======================================================================
+=== POST-TOUR ===
+======================================================================
+Please type 'look' now.
+>
+
+======================================================================
+=== LOOK ===
+======================================================================
+Guide Level 1 [exits: back]
+ You stand in a void of white light. The light flickers slightly as the voice
+talks to you, guiding you through the basic commands of mudding.
+
+A sign stands here.
+
+
+>
+That is what the room you are standing in right now looks like. To look at
+    something inside the room, you would type 'look at <object>' where <object>
+    is the name of the object.
+
+
+======================================================================
+=== EXITS ===
+======================================================================
+You notice these exits:
+          Back :  Islands of Myth's New
+                  Player Guided Tour
+>
+Notice how there was a sign in the room with you? Look at that sign right now
+    by typing 'look at sign'
+>
+
+======================================================================
+=== WHO ===
+======================================================================
+Please type 'look at sign' now to look at the sign.
+
+
+======================================================================
+=== SCORE ===
+======================================================================
+Please type 'look at sign' now to look at the sign.
+
+
+======================================================================
+=== NORTH ===
+======================================================================
+Please type 'look at sign' now to look at the sign.
+

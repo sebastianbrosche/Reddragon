@@ -1,0 +1,149 @@
+Heat Lagos, API & Access Keys
+
+Managed by: Miha (backed up, protected, version-controlled)
+Last updated: 14 May 2026
+Rule: ONE doc, updated in place, never duplicated
+
+---
+
+SERPAPI
+
+Key: fe991cba4526642095747280988f8e326ba9c9056bed1d15867bc36f91120a2d
+URL: https://serpapi.com/manage-api-key
+Owner: Sebastian (account holder)
+Access: All team members (read only, Miha holds the key doc)
+
+Capabilities we care about:
+- Google Search API
+- Google Local API (find gyms, wellness centers in Algarve)
+- Google Maps API (competitor locations, reviews)
+- Google Reviews API (competitor analysis)
+- Google Trends API (wellness trends in Portugal)
+- Google Jobs API (personal trainer hiring)
+- YouTube Search API (content research)
+- YouTube Video Transcript API (HUGE, pull transcripts from any video)
+- Google Hotels API (wellness tourist research)
+- Google Images API (content inspiration)
+
+NOTES:
+- Rate limits apply, use responsibly
+- Prefer cached results when possible
+- Document what we search for in the Search Log sheet
+
+---
+
+SHELLY (Smart Home / Sauna Controls)
+
+API access: [PENDING, Sarah or Adam to add]
+URL: [PENDING]
+Key: [PENDING]
+Owner: [PENDING]
+Goal: Connect to Google Home / Alexa for voice commands
+Research needed: Is there an open-source Google Home or Alexa API that connects to Kimi?
+
+---
+
+BSPORT
+
+API: None available
+Access: Dashboard login only
+Owner: Sebastian (account holder)
+Adam's access: Needs login credentials to act as "mystery shopper"
+  - View class bookings
+  - Check email campaigns
+  - Monitor member activity
+  - Test user experience
+Credentials needed from Sebastian:
+  - bsport login email
+  - bsport login password
+  - Or: shared access / sub-account if bsport supports it
+
+---
+
+GOOGLE WORKSPACE / GMAIL API
+
+Status: Connected (Adam set up OAuth)
+Owner: Sebastian
+Access: Adam (for email campaigns if bsport fails)
+Use: Summer membership push to 234 leads
+
+---
+
+CLOUDFLARE
+
+Status: Active (YTT site hosted)
+Owner: Sebastian
+Access: Adam (website management)
+Sites:
+  - yogateachertrainingportugal.eu
+
+---
+
+META / FACEBOOK / INSTAGRAM
+
+Status: Stine runs @heat_lagos Instagram
+Owner: Stine (Sebastian's wife)
+Access: Read only for team (learn her style, repurpose content)
+Action: We need to review her posts to understand the visual style
+
+---
+
+YOUTUBE
+
+Access: Via SerpAPI YouTube Video Transcript API
+Capability: Paste any YouTube URL, pull transcript automatically
+Use case:
+  - Sebastian sees a good video
+  - Pastes URL in chat
+  - Team pulls transcript
+  - Extracts valuable points
+  - Adds to document or creates blog post
+
+---
+
+OTHER APIs NEEDED
+
+Google Home / Alexa integration:
+  - Research needed: open-source or API-accessible voice assistant
+  - Goal: Voice commands to Shelly (sauna controls)
+  - Assigned: Sarah or Adam to investigate
+
+Canva API:
+  - For automated image generation
+  - Research if available
+
+Groq / Whisper:
+  - For voice transcription (Sebastian's voice messages)
+  - Already known to team
+
+---
+
+ACCESS LOG
+
+| Date | Who | What API | Purpose | Result |
+|------|-----|----------|---------|--------|
+| 14 May | Kimi | SerpAPI | Set up team access | Key added |
+| 14 May | Adam | bsport | Summer email campaign | OAuth connected, API blocked |
+| 14 May | Adam | Gmail | Fallback for 234 leads | OAuth connected |
+| 14 May | Adam | Cloudflare | YTT site hosting | Active |
+
+---
+
+SECURITY RULES
+
+1. This doc lives in ONE place, managed by Miha
+2. Never share keys in chat (only the key doc)
+3. Never create a second version of this doc
+4. Update in place when new keys arrive
+5. If a key is compromised, rotate immediately and update this doc
+6. Team members check this doc regularly for new access
+
+---
+
+NEXT ADDITIONS
+
+- Shelly API details (Sarah or Adam to provide)
+- bsport login credentials (Sebastian to share securely)
+- Meta/Instagram business account access (if needed for ads)
+- Canva API (if available)
+- TikTok API (if needed for content)

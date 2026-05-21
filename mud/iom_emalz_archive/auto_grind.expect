@@ -1,0 +1,97 @@
+#!/usr/bin/expect -f
+set timeout 30
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/auto_grind.log"
+
+# Clear old log and start fresh
+exec rm -f $logfile
+log_file $logfile
+
+spawn telnet islandsofmyth.org 3000
+
+# Login
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+
+# Wait for prompt
+expect ">"
+
+# Check current state
+send "score\r"
+expect ">"
+send "skills\r"
+expect ">"
+
+# Navigate to Sisong  
+send "warp\r"
+expect ">"
+send "se\r"
+expect ">"
+send "e\r"
+expect ">"
+
+# Talk to Sisong
+send "talk sisong\r"
+expect "Sisong's Newbie Information"
+
+# Select option 2 - Newbie Areas
+send "2\r"
+expect "Newbie Areas"
+
+# Select option 9 - Yensid Land
+send "9\r"
+expect "Would you like to visit the Yensid Land?"
+send "Y\r"
+
+# Wait to arrive at Yensid Land
+expect ">"
+sleep 2
+send "look\r"
+expect ">"
+
+# Enable combat silence for stat capture
+send "combat silence\r"
+expect ">"
+
+# Look for earwigs and start killing
+# We will loop: look, kill earwig, rest if needed
+# The loop continues until we hit level 15
+
+set level 5
+set kill_count 0
+
+while {$level < 15} {
+    send "look\r"
+    expect ">"
+    
+    # Try to kill an earwig if present
+    send "kill earwig\r"
+    sleep 8
+    
+    # Check if we got a prompt back (combat might take time)
+    expect ">"
+    
+    # Every 5 kills, check score
+    incr kill_count
+    if {$kill_count % 5 == 0} {
+        send "score\r"
+        expect ">"
+    }
+    
+    # Check if we leveled up - the MUD will announce it
+    # We rely on periodic score checks
+}
+
+# Final score and skills when done
+send "score\r"
+expect ">"
+send "skills\r"
+expect ">"
+
+# Save and quit
+send "quit\r"
+expect "Save"
+send "Y\r"
+
+puts "GRINDING COMPLETE - Level 15 reached!"

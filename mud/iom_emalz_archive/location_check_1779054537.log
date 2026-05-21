@@ -1,0 +1,81 @@
+spawn telnet islandsofmyth.org 3000
+Trying 158.69.5.47...
+Connected to islandsofmyth.org.
+Escape character is '^]'.
+^L
+
+  _   _   _   _   _   _   _     _   _     _   _   _   _
+ / \ / \ / \ / \ / \ / \ / \   / \ / \   / \ / \ / \ / \
+( I | s | l | a | n | d | s ) ( o | f ) ( M | y | t | h )
+ \_/ \_/ \_/ \_/ \_/ \_/ \_/   \_/ \_/   \_/ \_/ \_/ \_/
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 22 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+> emalz
+
+Sorry, Emalz has been frozen for this reason: fix your reconnect
+
+	Frozen until: Sun May 17 19:48:36 2026
+
+
+
+----------------------------------------------------------------------------
+The Administrators of Islands of Myth are:
+Zifnab, Marvin, Sigwald, Magneto, Khosan, Ixtlilton, Vor, Daneel and Saryon
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 22 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Your Selection?
+> creative
+
+Nobody around with that name. If you want to create a new
+character, please enter 'c'.
+
+
+
+----------------------------------------------------------------------------
+Check out the Islands of Myth Web Page at: http://islandsofmyth.org
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 22 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Your Selection?
+> 

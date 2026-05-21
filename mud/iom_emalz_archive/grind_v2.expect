@@ -1,0 +1,130 @@
+#!/usr/bin/expect -f
+set timeout 180
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/grind_v2.log"
+set statusfile "/root/.openclaw/workspace/mud/iom_emalz_archive/grind_status.txt"
+
+exec rm -f $logfile
+log_file $logfile
+
+spawn telnet islandsofmyth.org 3000
+
+# Login
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+
+# Wait for prompt
+expect ">"
+
+# Check initial state
+send "score\r"
+expect ">"
+
+# Navigate to Yensid Land via Sisong
+send "warp\r"
+expect ">"
+send "se\r"
+expect ">"
+send "e\r"
+expect ">"
+send "talk sisong\r"
+expect "Sisong's Newbie Information"
+send "2\r"
+expect "Newbie Areas"
+send "9\r"
+expect "Would you like to visit the Yensid Land?"
+send "Y\r"
+expect ">"
+
+# Enable combat silence
+send "combat silence\r"
+expect ">"
+
+# Navigate to LobeLands (where earwigs are)
+send "e\r"
+expect ">"
+send "ne\r"
+expect ">"
+send "n\r"
+expect ">"
+
+# Write status
+set fp [open $statusfile w]
+puts $fp "GRIND_START: [exec date]"
+puts $fp "LOCATION: LobeLands"
+puts $fp "TARGET: Level 15"
+close $fp
+
+set kill_count 0
+set cycles 0
+
+while {$kill_count < 150} {
+    incr cycles
+    
+    # Look to see if earwigs are present
+    send "look\r"
+    sleep 2
+    expect ">"
+    
+    # Try to kill earwig - if present, combat will start
+    send "kill earwig\r"
+    sleep 15
+    
+    # Wait for prompt (combat done or "no earwig")
+    expect {
+        ">" {}
+        timeout {
+            send "\r"
+            sleep 2
+            expect ">"
+        }
+    }
+    
+    # Check if we actually killed something by looking at HP
+    # If HP dropped, we fought; if not, no earwig was there
+    # We assume a kill happened if we see "falls to the ground DEAD" in log
+    # For now, we just count attempts and do score checks
+    
+    # If no earwig found (will show in log), wait longer for respawn
+    # We can't easily parse output in expect, so we add extra wait every few cycles
+    if {$cycles % 3 == 0} {
+        sleep 15
+    }
+    
+    # Every 8 cycles, check score and rest if needed
+    if {$cycles % 8 == 0} {
+        send "score\r"
+        sleep 2
+        expect ">"
+        
+        # Try resting if HP seems low (can't parse easily, just rest anyway)
+        send "rest\r"
+        sleep 5
+        expect ">"
+        
+        # Update status
+        set fp [open $statusfile a]
+        puts $fp "CHECKPOINT_$cycles: [exec date]"
+        close $fp
+    }
+    
+    # Brief pause
+    sleep 5
+}
+
+# Final checks
+send "score\r"
+expect ">"
+send "skills\r"
+expect ">"
+
+set fp [open $statusfile a]
+puts $fp "GRIND_END: [exec date]"
+puts $fp "CYCLES: $cycles"
+close $fp
+
+send "quit\r"
+sleep 3
+
+puts "GRINDING V2 COMPLETE"

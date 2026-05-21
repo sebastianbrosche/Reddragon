@@ -1,0 +1,3208 @@
+=== BANNER ===
+^L
+        _________   ________________   ____
+       / / ___/ /  / __  / __  / __ |/ ___/
+      / /__  / /__/ __  / / / / /_/ /__  /
+     /_/____/____/_/ /_/_/ /_/_____/____/
+      ___________  ________  ___________  __
+     / __  / ___/ /     / /_/ /__  __/ /_/ /
+    / /_/ / __/  / /_/ /___  /  / / / __  /
+   /_____/_/    /_/ /_/   /_/  /_/ /_/ /_/
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 15 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+> 
+
+CMD: sebbe
+Password: 
+
+CMD: [password]
+
+Last login: Sat May 16 05:58:07 2026 from: 47.237.80.25 (47.237.80.25)
+
+********************************************************
+               Welcome to Islands of Myth!
++=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+Join us at...
+Discord : https://discord.gg/gSctHJRVvQ
+Facebook: https://www.facebook.com/groups/11655590400/
+
+New Gear & info site from Tomten:
+http://iominfo.vlp.se
+********************************************************
+
+
+   ------------------------------------------------------------------------   
+   |                     #<># You have NEW mail! #<>#                     |   
+   ------------------------------------------------------------------------   
+You wear prismatic amulet.
+Your brain pulses.
+You feel witty.
+Your brain feels like a sponge.
+You feel resistant.
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+You enter Islands of Myth.
+Clan TOTD: Duh, Wazzup?.
+Welcome to Islands of Myth!
+You feel Peckish.
+
+
+CMD: inventory
+----------------------------------------
+These typos almost cause lag!
+
+============================================================
+
+CMD: equipment
+----------------------------------------
+Marvin whines that he doesn't have a typo message.
+
+============================================================
+
+CMD: score
+----------------------------------------
+,----------------------------------------------------------------------------.
+| Sebbe the Snakeman   (Disciples)                                           |
+| Level          :  157                Open Guild Levels :   40              |
+|                                                                            |
+| Experience     :      38,435,826     Explored          : 39.16% (41.25%)   |
+| Next level     :     100,000,000     Rooms Explored    :         6,825     |
+| Guild Level    :      47,351,880     Gold on hand      :       156,411     |
+| To Next Level  :      61,564,174     Gold in bank      :     3,143,687     |
+| To Guild Level :       8,916,054                                           |
+|----------------------------------------------------------------------------|
+| Strength     :  105 | Hit Points     :  2166 ( 2166) | AC       : VLow     |
+| Dexterity    :  162 | Spell Points   :  7274 ( 7274) | Size     : 4'4"     |
+| Constitution :  115 | Endurance Pts. :  1714 ( 1714) | Weight   : 108 lb   |
+| Stamina      :  112 | Hunger         : Peckish       | Stealth  : 18%      |
+| Intelligence :  409 | Wimpy          : 50%           | Hiding   : No       |
+| Wisdom       :  243 | Growth         : Full          | Poisoned : No       |
+| Charisma     :   73 | Alignment      : God Like      | TaskPts. : 51       |
+|----------------------------------------------------------------------------|
+| alpha   : evoker (20)                      | Mail          : 9/25          |
+| gamma   : navigator (10),                  | Kills         : 72,205        |
+|           evoker of ether (10),            `-------------------------------|
+|           traveler (10),                                                   |
+|           evoker of elements (10)                                          |
+| bravo   : evoker of lightning (5), evoker of acid (5), enchanter (2),      |
+|           evoker of poison (5), evoker of ice (5), evoker of magic (5),    |
+|           evoker of flames (5), evoker of force (5), evoker of vacuum (5)  |
+| omicron : sorcerer (15)                                                    |
+`----------------------------------------------------------------------------'
+
+============================================================
+
+CMD: spells
+----------------------------------------
+-=-=-| Evoker  |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  darkness                    :   5%  |  fire dart                   :   5%
+  floating disc               :   5%  |  ice dart                    :   5%
+  light                       :   5%  |  magic blast                 :   5%
+  magic dart                  :   5%  |  magic wind                  :   5%
+  mind sponge                 :   5%  |  spectral push               :   5%
+-=-=-| Evoker of elements  |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  fire bolt                   :   5%  |  ice bolt                    :   5%
+  power bolt                  :   5%  |  vacuum bolt                 :   5%
+-=-=-| Evoker of ether |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  acid arrow                  :   5%  |  dispel magic                :   5%
+  lightning arrow             :   5%  |  magical arrow               :   5%
+  poison arrow                :   5%  |
+-=-=-| Navigator |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  create navigation stone     :   5%  |  guild portal                : 100%
+  heavy weight                :   5%  |  relocate                    : 100%
+  summon                      : 100%  |  whisper's recall            :   5%
+  word of recall              :   5%  |
+-=-=-| Evoker of force |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  concussive force            :   5%  |  hail of stones              : 100%
+  hammering blow              :  95%  |
+-=-=-| Evoker of magic |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  breath of magic             :   5%  |  magical fury                :   5%
+  mana storm                  : 100%  |
+-=-=-| Evoker of ice |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  cone of cold                : 100%  |  freezing sphere             :   5%
+  hypothermia                 :   5%  |
+-=-=-| Evoker of vacuum  |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  choking strike              :   5%  |  suffocating force           :   5%
+---- (1-29-58%)[h]: 
+============================================================
+
+CMD: who
+----------------------------------------
+  void vortex                 : 100%  |
+-=-=-| Evoker of flames  |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  fire wave                   : 100%  |  flame strike                : 100%
+  immolate                    :   5%  |
+-=-=-| Evoker of lightning |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  chain lightning             : 100%  |  electrocution               : 100%
+  static discharge            :   5%  |
+-=-=-| Evoker of acid  |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  acidic ray                  :   5%  |  corrosive cloud             : 100%
+  dissolving spray            :   5%  |
+-=-=-| Evoker of poison  |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  killing plague              : 100%  |  venomous bite               :   5%
+  virulent strike             :   5%  |
+-=-=-| Enchanter |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  enlarge weapon              :   5%  |  identify                    :   5%
+  shrink weapon               : 100%  |
+-=-=-| Sorcerer  |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  amplify magic               :   5%  |  condition orbit             :   5%
+  dampen magic                :   5%  |  prismatic spray             :   5%
+  store spell                 :   5%  |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+============================================================
+
+CMD: commands
+----------------------------------------
+FARGIN [ T_Y_P_O ] !
+
+============================================================
+
+CMD: look self
+----------------------------------------
+There is no self here.
+
+============================================================
+
+CMD: title
+----------------------------------------
+Your title is:  
+
+============================================================
+
+CMD: level
+----------------------------------------
+What?
+
+============================================================
+
+CMD: experience
+----------------------------------------
+Typo.
+
+============================================================
+
+CMD: hp
+----------------------------------------
+What a concept!
+
+============================================================
+
+CMD: mana
+----------------------------------------
+Scusi?
+
+============================================================
+
+CMD: guild
+----------------------------------------
+WHHHHHAAAAAAATTTTTT!!!!!??????
+
+============================================================
+
+CMD: money
+----------------------------------------
+You have the following types of money:
+
+      gold 156411
+
+============================================================
+
+CMD: weight
+----------------------------------------
+Weight (in lbs): You[108] + EQ[1] = Total[109], Capacity[0%]
+
+============================================================
+
+CMD: affects
+----------------------------------------
+Scusi?
+
+============================================================
+
+CMD: report
+----------------------------------------
+You report: Hp: 2166 (2166)  Sp: 7274 (7274)  Ep: 1714 (1714)
+
+============================================================
+
+CMD: channels
+----------------------------------------
+SHOWING SYSTEM CHANNELS
+Name                  #oL     Flags     Topic
+-------------------------------------------------------------
+abjurer              10 (-)   ---G----  Guild channel
+admin                 0 (-)   A-------  You wish you knew
+alien                 8 (-)   --------  Finns and other aliens
+arch                  0 (-)   -a------  Coding 102
+archinfo              0 (-)   -a---R--  
+arena                12 (-)   --------  Arena talk
+auction              10 (-)   -----R--  
+auction2              3 (-)   -----R--  
+bard                  2 (-)   ---G----  Guild channel
+bounty               14 (-)   --------  for bounty and bounty accessories
+build                 0 (-)   ------W-  building 101
+castles               4 (-)   -----R--  
+cebinfo               0 (-)   -----RW-  
+chat                 14 (+)   --------  General discussion
+clans                 8 (-)   --------  Clan stuff
+death                16 (+)   -----R--  Deaths of players
+death_taunt           5 (-)   -----R--  Death taunts
+debug                 0 (-)   -----RW-  
+druid                 4 (-)   ---G----  Guild channel
+elemental             2 (-)   ---G----  Guild channel
+equip                15 (-)   --------  Equipment Party Discussions
+error                 0 (-)   ------W-  error
+event                16 (+)   -----R--  Event information
+evoker                6 (+)   ---G----  Guild channel
+fishing               6 (-)   --------  Fishing Channel
+geek                  9 (-)   --------  Geek stuff
+ghost                15 (-)   --------  Oops!  I need ressed!
+---- (1-29-50%)[h]: 
+============================================================
+
+CMD: alias
+----------------------------------------
+Name                  #oL     Flags     Topic
+-------------------------------------------------------------
+abjurer              10 (-)   ---G----  Guild channel
+admin                 0 (-)   A-------  You wish you knew
+alien                 8 (-)   --------  Finns and other aliens
+arch                  0 (-)   -a------  Coding 102
+archinfo              0 (-)   -a---R--  
+arena                12 (-)   --------  Arena talk
+auction              10 (-)   -----R--  
+auction2              3 (-)   -----R--  
+bard                  2 (-)   ---G----  Guild channel
+bounty               14 (-)   --------  for bounty and bounty accessories
+build                 0 (-)   ------W-  building 101
+castles               4 (-)   -----R--  
+cebinfo               0 (-)   -----RW-  
+chat                 14 (+)   --------  General discussion
+clans                 8 (-)   --------  Clan stuff
+death                16 (+)   -----R--  Deaths of players
+death_taunt           5 (-)   -----R--  Death taunts
+debug                 0 (-)   -----RW-  
+druid                 4 (-)   ---G----  Guild channel
+elemental             2 (-)   ---G----  Guild channel
+equip                15 (-)   --------  Equipment Party Discussions
+error                 0 (-)   ------W-  error
+event                16 (+)   -----R--  Event information
+evoker                6 (+)   ---G----  Guild channel
+fishing               6 (-)   --------  Fishing Channel
+geek                  9 (-)   --------  Geek stuff
+ghost                15 (-)   --------  Oops!  I need ressed!
+---- (1-29-50%)[h]: 
+============================================================
+
+CMD: group
+----------------------------------------
+inform               16 (+)   -----R--  
+iomchat               6 (-)   --------  Discussion between ports
+login                16 (+)   -----R--  
+lurker               10 (-)   ---G----  Guild channel
+martial_artist        4 (-)   ---G----  Guild channel
+mdeath                0 (-)   ------W-  Monster Deaths
+monitor               0 (-)   -----RW-  
+mud_issues            2 (-)   --------  Mud Issues
+mudclients           11 (-)   --------  Discussions about mud client topics, like triggers
+myth                 16 (+)   --------  Mud-related discussion
+necromancer           1 (-)   ---G----  Guild channel
+newbie               16 (+)   --------  Helping new guys to start out
+obscene              14 (-)   --------  Perverted thoughts here
+parties              16 (+)   --------  Players Looking for parties
+plaque               16 (+)   -----R--  Players that change rank on plaque
+racing                2 (-)   --------  Dragon races
+rep                   0 (-)   -------P  Player wiz rep
+sales                16 (+)   --------  For selling your gear
+shapeshifter          4 (-)   ---G----  Guild channel
+southcape             7 (-)   -----R--  Southcape Happenings
+unraveller            2 (-)   ---G----  Guild channel
+warrior               6 (-)   ---G----  Guild channel
+weaver               11 (-)   ---G----  Guild channel
+witch                 3 (-)   ---G----  Guild channel
+wiz                   0 (-)   ------W-  Coding 101
+wizinfo               0 (-)   -----RW-  
+woodsman              3 (-)   ---G----  Guild channel
+zombie                7 (-)   --------  Discussion about other muds
+
+============================================================
+
+CMD: buddylist
+----------------------------------------
+Sigwald softly whispers: 'Well *I* do understand French, but the driver doesn't'.
+
+============================================================
+
+CMD: quests
+----------------------------------------
+                      Islands of Myth Quests
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  1)  QUEST RULES                   
+  2)  Obsessive Collector                                       
+  3)  Mischief, machinations, and morals                        
+  4)  Defeat Zatea                                              
+  5)  Discover Nimrodel (C)           
+  6)  Naval Warfare                                             
+  7)  Hefnoin Civic Duties                                      
+  8)  Destroy Schizomycetes                                     
+  9)  Destroy Tiamat                    
+ 10)  Proof of Royal Lineage (C)      
+ 11)  Help Helga (C)                  
+ 12)  Save Uforia                                               
+ 13)  Discover the Dreamers                                     
+ 14)  Unlock the secrets of the Gnolls                          
+ 15)  Satisfy Chilperic                                         
+ 16)  Help Janriella                                            
+ 17)  The Great Green Monkey Heist & other Adventures           
+ 18)  Return Clayborn Necklace                                  
+ 19)  Banish Jesrael                                            
+ 20)  Shaman's Staff                                            
+ 21)  Save the Safari Camp                                      
+ 22)  Peace in the Dig                                          
+ 23)  Discover Mermaid City                                     
+ 24)  Blackavar Quest                                           
+ 25)  read about the 'Fall of RDC' (C)
+ 26)  Goodwin's Treasure                                        
+---- (1-29-65%)[h]: 
+============================================================
+
+CMD: time
+----------------------------------------
+ 27)  Rescue Clara                                              
+ 28)  Newbie Explore                                            
+ 29)  Feline Puzzle (C)               
+ 30)  Help Breeder Bob                                          
+ 31)  Help Farmer Joe (C)             
+ 32)  To slay a God (C)               
+ 33)  Nuvo City Newbie School                                   
+ 34)  Avenge Players Death (C)        
+ 35)  Light the Lighthouse Lamp                                 
+ 36)  Elven Secret                                              
+ 37)  Avert Orc Invasion                                        
+ 38)  Help Miss Cromwell                                        
+ 39)  Retrieve the Shikon Shards                                
+  q)  Quit                                                      
+
+Information for which quest: 
+============================================================
+
+CMD: weather
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: followers
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: north
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: exits
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: south
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: south
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: exits
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: north
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: east
+----------------------------------------
+Invalid selection.
+Information for which quest: You feel healed by the magic of Gossamer River.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: exits
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: west
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: Water splashes about.
+
+============================================================
+
+CMD: west
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: exits
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: east
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: up
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: exits
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: down
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: down
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: exits
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: up
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: northeast
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: exits
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: southwest
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: northwest
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: exits
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: southeast
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: southeast
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: exits
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: northwest
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: southwest
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: exits
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: northeast
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: home
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: Water splashes about.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: guild
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: north
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: north
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: north
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: north
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: east
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: north
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: west
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: south
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: south
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: south
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: south
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: east
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: south
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: west
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Water splashes about.
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: east
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: east
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: east
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: east
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: north
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: east
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: south
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: west
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: west
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: west
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: west
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: north
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: west
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: south
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: Water splashes about.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: up
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: up
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: up
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: down
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: down
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: down
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: enter guild
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: enter temple
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: recall
+----------------------------------------
+Invalid selection.
+Information for which quest: 
+============================================================
+
+CMD: look
+----------------------------------------
+Invalid selection.
+Information for which quest: You are taken over by yourself, or something.
+
+============================================================
+
+=== BANNER ===
+^L
+
+  \_   \___| | __ _ _ __   __| |___    ___  / _|   /\/\  _   _| |_| |__  
+   / /\/ __| |/ _` | '_ \ / _` / __|  / _ \| |_   /    \| | | | __| '_ \ 
+/\/ /_ \__ \ | (_| | | | | (_| \__ \ | (_) |  _| / /\/\ \ |_| | |_| | | |
+\____/ |___/_|\__,_|_| |_|\__,_|___/  \___/|_|   \/    \/\__, |\__|_| |_|
+                                                         |___/          
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 15 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+> 
+
+CMD: sebbe
+Password: 
+
+CMD: [password]
+
+Last login: Sat May 16 07:45:52 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Sebbe has reconnected (Snakeman level 157).
+
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: i
+----------------------------------------
+Weight (in lbs): You[108] + EQ[1] = Total[109], Capacity[0%]
+	[+-+ Armors +-+]
+(1)  Prismatic amulet (worn)
+
+============================================================
+
+CMD: eq
+----------------------------------------
+   ------------------------------------------------------------------------   
+   |                   Prismatic amulet (worn) (amulet)                   |   
+   ------------------------------------------------------------------------   
+Crabstick [myth]: I'm still trying to remember how to play lurker, been a hot minute 
+
+============================================================
+
+CMD: score
+----------------------------------------
+,----------------------------------------------------------------------------.
+| Sebbe the Snakeman   (Disciples)                                           |
+| Level          :  157                Open Guild Levels :   40              |
+|                                                                            |
+| Experience     :      38,435,826     Explored          : 39.16% (41.25%)   |
+| Next level     :     100,000,000     Rooms Explored    :         6,825     |
+| Guild Level    :      47,351,880     Gold on hand      :       156,411     |
+| To Next Level  :      61,564,174     Gold in bank      :     3,143,687     |
+| To Guild Level :       8,916,054                                           |
+|----------------------------------------------------------------------------|
+| Strength     :  105 | Hit Points     :  2166 ( 2166) | AC       : VLow     |
+| Dexterity    :  162 | Spell Points   :  7274 ( 7274) | Size     : 4'4"     |
+| Constitution :  115 | Endurance Pts. :  1714 ( 1714) | Weight   : 108 lb   |
+| Stamina      :  112 | Hunger         : Peckish       | Stealth  : 18%      |
+| Intelligence :  409 | Wimpy          : 50%           | Hiding   : No       |
+| Wisdom       :  243 | Growth         : Full          | Poisoned : No       |
+| Charisma     :   73 | Alignment      : God Like      | TaskPts. : 51       |
+|----------------------------------------------------------------------------|
+| alpha   : evoker (20)                      | Mail          : 9/25          |
+| gamma   : navigator (10),                  | Kills         : 72,205        |
+|           evoker of ether (10),            `-------------------------------|
+|           traveler (10),                                                   |
+|           evoker of elements (10)                                          |
+| bravo   : evoker of lightning (5), evoker of acid (5), enchanter (2),      |
+|           evoker of poison (5), evoker of ice (5), evoker of magic (5),    |
+|           evoker of flames (5), evoker of force (5), evoker of vacuum (5)  |
+| omicron : sorcerer (15)                                                    |
+`----------------------------------------------------------------------------'
+
+============================================================
+
+CMD: who
+----------------------------------------
+--------------------------------------------------------------------------------
+--                              Islands of Myth                               --
+--         16 players (0 wizards, 16 mortals), 3 friends, 2 clanmates         --
+--------------------------------------------------------------------------------
+[1812].Nailman      [ 520].Temuthril    [ 467].Tomten       [ 305].Dritthil    
+[ 241].Wildchild    [ 212].Lyrion       [ 201].Fraziw       [ 186].Zarp        
+[ 169].Hoggle       { 162}.Slayn        [ 160].Seth         [ 158] Nol         
+[ 157] Sebbe        [ 155].Korthrun     [ 126] Crabstick    [ 104].Monkey      
+--------------------------------------------------------------------------------
+-- . = idle, () = dead, {} = race leader, * = edit, ~ = wiztest, ^ = builder  --
+--------------------------------------------------------------------------------
+
+============================================================
+
+CMD: time
+----------------------------------------
+Lets go back to beginning typing. The home keys are asdf for your left hand and jkl; for your right...
+
+============================================================
+
+CMD: weather
+----------------------------------------
+USAGE: weather [sun,clouds,moon,rain,snow]
+
+============================================================
+
+CMD: report
+----------------------------------------
+You report: Hp: 2166 (2166)  Sp: 7274 (7274)  Ep: 1714 (1714)
+
+============================================================
+
+CMD: spells
+----------------------------------------
+-=-=-| Evoker  |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  darkness                    :   5%  |  fire dart                   :   5%
+  floating disc               :   5%  |  ice dart                    :   5%
+  light                       :   5%  |  magic blast                 :   5%
+  magic dart                  :   5%  |  magic wind                  :   5%
+  mind sponge                 :   5%  |  spectral push               :   5%
+-=-=-| Evoker of elements  |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  fire bolt                   :   5%  |  ice bolt                    :   5%
+  power bolt                  :   5%  |  vacuum bolt                 :   5%
+-=-=-| Evoker of ether |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  acid arrow                  :   5%  |  dispel magic                :   5%
+  lightning arrow             :   5%  |  magical arrow               :   5%
+  poison arrow                :   5%  |
+-=-=-| Navigator |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  create navigation stone     :   5%  |  guild portal                : 100%
+  heavy weight                :   5%  |  relocate                    : 100%
+  summon                      : 100%  |  whisper's recall            :   5%
+  word of recall              :   5%  |
+-=-=-| Evoker of force |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  concussive force            :   5%  |  hail of stones              : 100%
+  hammering blow              :  95%  |
+-=-=-| Evoker of magic |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  breath of magic             :   5%  |  magical fury                :   5%
+  mana storm                  : 100%  |
+-=-=-| Evoker of ice |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  cone of cold                : 100%  |  freezing sphere             :   5%
+  hypothermia                 :   5%  |
+-=-=-| Evoker of vacuum  |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  choking strike              :   5%  |  suffocating force           :   5%
+---- (1-29-58%)[h]: 
+============================================================
+
+CMD: skills
+----------------------------------------
+more: search set to "kills"
+---- (1-29-58%)[h]: 
+============================================================
+
+CMD: abilities
+----------------------------------------
+
+============================================================
+
+CMD: guild
+----------------------------------------
+You just entered something that nobody can understand!
+Nol [myth]: need some help? 
+
+============================================================
+
+CMD: clan
+----------------------------------------
+USAGE: 'help clan' for further information.
+
+============================================================
+
+CMD: order
+----------------------------------------
+You have entered a typo. Input discarded.
+
+============================================================
+
+CMD: title
+----------------------------------------
+Your title is:  
+
+============================================================
+
+CMD: level
+----------------------------------------
+Zifnab hates it when you typo like that.
+
+============================================================
+
+CMD: experience
+----------------------------------------
+An interesting idea.
+
+============================================================
+
+CMD: hp
+----------------------------------------
+Error: Typo!
+
+============================================================
+
+CMD: mana
+----------------------------------------
+Zifnab nabs your TYPO before you can re-enter it!
+
+============================================================
+
+CMD: money
+----------------------------------------
+You have the following types of money:
+
+      gold 156411
+
+============================================================
+
+CMD: weight
+----------------------------------------
+Weight (in lbs): You[108] + EQ[1] = Total[109], Capacity[0%]
+
+============================================================
+
+CMD: followers
+----------------------------------------
+Typo.
+
+============================================================
+
+CMD: affects
+----------------------------------------
+Magneto says 'Nice typo' and adds it to his collection.
+
+============================================================
+
+CMD: affect
+----------------------------------------
+opyt typo or something. Yes you just Typoed!
+
+============================================================
+
+CMD: channels
+----------------------------------------
+SHOWING SYSTEM CHANNELS
+Name                  #oL     Flags     Topic
+-------------------------------------------------------------
+abjurer              10 (-)   ---G----  Guild channel
+admin                 0 (-)   A-------  You wish you knew
+alien                 8 (-)   --------  Finns and other aliens
+arch                  0 (-)   -a------  Coding 102
+archinfo              0 (-)   -a---R--  
+arena                12 (-)   --------  Arena talk
+auction              10 (-)   -----R--  
+auction2              3 (-)   -----R--  
+bard                  2 (-)   ---G----  Guild channel
+bounty               14 (-)   --------  for bounty and bounty accessories
+build                 0 (-)   ------W-  building 101
+castles               4 (-)   -----R--  
+cebinfo               0 (-)   -----RW-  
+chat                 14 (+)   --------  General discussion
+clans                 8 (-)   --------  Clan stuff
+death                16 (+)   -----R--  Deaths of players
+death_taunt           5 (-)   -----R--  Death taunts
+debug                 0 (-)   -----RW-  
+druid                 4 (-)   ---G----  Guild channel
+elemental             2 (-)   ---G----  Guild channel
+equip                15 (-)   --------  Equipment Party Discussions
+error                 0 (-)   ------W-  error
+event                16 (+)   -----R--  Event information
+evoker                6 (+)   ---G----  Guild channel
+fishing               6 (-)   --------  Fishing Channel
+geek                  9 (-)   --------  Geek stuff
+ghost                15 (-)   --------  Oops!  I need ressed!
+---- (1-29-50%)[h]: Crabstick [myth]: Backstab, then impaling, then profit? 
+
+============================================================
+
+CMD: group
+----------------------------------------
+inform               16 (+)   -----R--  
+iomchat               6 (-)   --------  Discussion between ports
+login                16 (+)   -----R--  
+lurker               10 (-)   ---G----  Guild channel
+martial_artist        4 (-)   ---G----  Guild channel
+mdeath                0 (-)   ------W-  Monster Deaths
+monitor               0 (-)   -----RW-  
+mud_issues            2 (-)   --------  Mud Issues
+mudclients           11 (-)   --------  Discussions about mud client topics, like triggers
+myth                 16 (+)   --------  Mud-related discussion
+necromancer           1 (-)   ---G----  Guild channel
+newbie               16 (+)   --------  Helping new guys to start out
+obscene              14 (-)   --------  Perverted thoughts here
+parties              16 (+)   --------  Players Looking for parties
+plaque               16 (+)   -----R--  Players that change rank on plaque
+racing                2 (-)   --------  Dragon races
+rep                   0 (-)   -------P  Player wiz rep
+sales                16 (+)   --------  For selling your gear
+shapeshifter          4 (-)   ---G----  Guild channel
+southcape             7 (-)   -----R--  Southcape Happenings
+unraveller            2 (-)   ---G----  Guild channel
+warrior               6 (-)   ---G----  Guild channel
+weaver               11 (-)   ---G----  Guild channel
+witch                 3 (-)   ---G----  Guild channel
+wiz                   0 (-)   ------W-  Coding 101
+wizinfo               0 (-)   -----RW-  
+woodsman              3 (-)   ---G----  Guild channel
+zombie                7 (-)   --------  Discussion about other muds
+
+============================================================
+
+CMD: party
+----------------------------------------
+USAGE: party help
+
+============================================================
+
+CMD: buddylist
+----------------------------------------
+You are really good at making TYPOS! really!
+
+============================================================
+
+CMD: alias
+----------------------------------------
+Alias      : Expansion
+Ali        : alias
+Dis        : disciples
+Il         : me
+Lego       : lostego
+Pl         : party say last
+Valk       : valkyrie
+dal        : dalmeir
+disc       : disciples
+duck       : aquaduck
+emb        : embark
+enli       : use hymn of enlightenment
+figner     : finger
+fittan     : zlame
+gar        : garkhan
+hoe        : use hymn of enlightenment on
+hora       : hammer of rullande aska
+ld         : last disciples
+lim        : use limber up
+limb       : use limber up
+ll         : bluemoon
+ll.        : soulfire
+lo         : lostego
+los        : use legend of sear on
+losear     : use legend of sear on
+mal        : malinac
+mam        : mamoru
+mand       : manderlay
+mao        : map
+---- (1-29-52%)[h]: 
+============================================================
+
+CMD: alignment
+----------------------------------------
+Alias      : Expansion
+Ali        : alias
+Dis        : disciples
+Il         : me
+Lego       : lostego
+Pl         : party say last
+Valk       : valkyrie
+dal        : dalmeir
+disc       : disciples
+duck       : aquaduck
+emb        : embark
+enli       : use hymn of enlightenment
+figner     : finger
+fittan     : zlame
+gar        : garkhan
+hoe        : use hymn of enlightenment on
+hora       : hammer of rullande aska
+ld         : last disciples
+lim        : use limber up
+limb       : use limber up
+ll         : bluemoon
+ll.        : soulfire
+lo         : lostego
+los        : use legend of sear on
+losear     : use legend of sear on
+mal        : malinac
+mam        : mamoru
+mand       : manderlay
+mao        : map
+---- (1-29-52%)[h]: 
+============================================================
+
+CMD: deity
+----------------------------------------
+more: now scanning backward
+---- (1-29-52%)[h]: 
+============================================================
+
+CMD: patron
+----------------------------------------
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+Nol [myth]: you are caster? 
+
+============================================================
+
+CMD: exits
+----------------------------------------
+You notice these exits:
+           Out :  Central Square
+
+============================================================
+
+CMD: scan
+----------------------------------------
+Typo.
+
+============================================================
+
+CMD: consider
+----------------------------------------
+Zifnab hates it when you typo like that.
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: north
+----------------------------------------
+[myth]: Crabstick nods.
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Words tumble and flow in the windows.
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: exits
+----------------------------------------
+You notice these exits:
+           Out :  Central Square
+
+============================================================
+
+CMD: scan
+----------------------------------------
+PING! typo alert!
+
+============================================================
+
+CMD: consider
+----------------------------------------
+TYPO!
+
+============================================================
+
+CMD: south
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+Nol [myth]: that's pretty much it 
+
+============================================================
+
+CMD: south
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: exits
+----------------------------------------
+You notice these exits:
+           Out :  Central Square
+
+============================================================
+
+CMD: scan
+----------------------------------------
+Scusi?
+
+============================================================
+
+CMD: consider
+----------------------------------------
+Typo.
+
+============================================================
+
+CMD: north
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: east
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: exits
+----------------------------------------
+You notice these exits:
+           Out :  Central Square
+
+============================================================
+
+CMD: scan
+----------------------------------------
+You can't be serious.
+
+============================================================
+
+CMD: consider
+----------------------------------------
+Magneto says 'Nice typo' and adds it to his collection.
+
+============================================================
+
+CMD: west
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+Crabstick [myth]: Forgot touch of darkness was a thing so took healer secondary, probably need to change that 
+
+============================================================
+
+CMD: west
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: exits
+----------------------------------------
+You notice these exits:
+           Out :  Central Square
+
+============================================================
+
+CMD: scan
+----------------------------------------
+Magneto says 'Nice typo' and adds it to his collection.
+
+============================================================
+
+CMD: consider
+----------------------------------------
+The Gamedriver looks at you with a look of utter bafflement.
+
+============================================================
+
+CMD: east
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: up
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: exits
+----------------------------------------
+You notice these exits:
+           Out :  Central Square
+
+============================================================
+
+CMD: scan
+----------------------------------------
+Umm... Come again?
+
+============================================================
+
+CMD: consider
+----------------------------------------
+Nol [myth]: healer secondary is great if you are going for templar 
+Zifnab hates it when you typo like that.
+
+============================================================
+
+CMD: down
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: down
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: exits
+----------------------------------------
+You notice these exits:
+           Out :  Central Square
+
+============================================================
+
+CMD: scan
+----------------------------------------
+No. You can not type that and get away with it.
+
+============================================================
+
+CMD: consider
+----------------------------------------
+No. You can not type that and get away with it.
+
+============================================================
+
+CMD: up
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: northeast
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: exits
+----------------------------------------
+You notice these exits:
+           Out :  Central Square
+Nol [myth]: templar = never tap 
+
+============================================================
+
+CMD: scan
+----------------------------------------
+WHAT are you saying???
+
+============================================================
+
+CMD: consider
+----------------------------------------
+Typo.
+
+============================================================
+
+CMD: southwest
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: northwest
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: exits
+----------------------------------------
+You notice these exits:
+           Out :  Central Square
+
+============================================================
+
+CMD: scan
+----------------------------------------
+Sure, sure.. (hey bob, call the shrinks).
+
+============================================================
+
+CMD: consider
+----------------------------------------
+Typo.
+
+============================================================
+
+CMD: southeast
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: southeast
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: exits
+----------------------------------------
+You notice these exits:
+           Out :  Central Square
+
+============================================================
+
+CMD: scan
+----------------------------------------
+You are really good at making TYPOS! really!
+
+============================================================
+
+CMD: consider
+----------------------------------------
+You are really good at making TYPOS! really!
+
+============================================================
+
+CMD: northwest
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: southwest
+----------------------------------------
+It doesn't seem possible to go that direction.
+Crabstick [myth]: Eventually that's the plan, but it's 4g worth of levels so can probably grab something more useful in the meantime 
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: exits
+----------------------------------------
+You notice these exits:
+           Out :  Central Square
+
+============================================================
+
+CMD: scan
+----------------------------------------
+Error: Typo!
+
+============================================================
+
+CMD: consider
+----------------------------------------
+You are really good at making TYPOS! really!
+
+============================================================
+
+CMD: northeast
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: guild
+----------------------------------------
+Error: Typo!
+Nol [myth]: abj? 
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: clan
+----------------------------------------
+USAGE: 'help clan' for further information.
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: order
+----------------------------------------
+Scusi?
+Nol [myth]: or animal tamer? 
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: temple
+----------------------------------------
+An interesting idea.
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: church
+----------------------------------------
+Get serious.
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: north
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: south
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: east
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: west
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+Crabstick [myth]: Yeah that's what I'm tossing up 
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: north
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: north
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: south
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: south
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: east
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: east
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: west
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: west
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: north
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: east
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+Whispers and sighs are heard.
+
+============================================================
+
+CMD: north
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: west
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: south
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: east
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: south
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: west
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: up
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: down
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: up
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: up
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: down
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: down
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+Autosave.
+
+============================================================
+
+CMD: north
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: north
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: north
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: look
+----------------------------------------
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+
+============================================================
+
+CMD: recall
+----------------------------------------
+The spell 'word of recall at' does not exist.
+
+============================================================
+
+CMD: south
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+
+CMD: south
+----------------------------------------
+It doesn't seem possible to go that direction.
+
+============================================================
+

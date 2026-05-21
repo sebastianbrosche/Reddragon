@@ -1,0 +1,124 @@
+#!/usr/bin/expect -f
+set timeout 30
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/levelup_v3_[exec date +%s].log"
+log_file $logfile
+
+spawn telnet islandsofmyth.org 3000
+
+# Login
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+expect "hp("
+
+# STEP 1: warp
+send "warp\r"
+expect "hp("
+sleep 1
+
+# STEP 2: score
+send "score\r"
+expect "hp("
+sleep 1
+
+# STEP 3: go east to Level Room
+send "e\r"
+expect "hp("
+sleep 1
+
+# STEP 4: talk to achman
+send "talk achman\r"
+sleep 2
+expect "Advance a level picking a stat"
+sleep 1
+
+# STEP 5: type d to advance with stat pick
+send "d\r"
+sleep 2
+
+# Pick strength (a)
+expect "Advance strength"
+send "a\r"
+sleep 2
+
+# Now it asks how many times
+expect "How many times"
+send "1\r"
+sleep 3
+expect "hp("
+
+# STEP 6: confirm level up
+send "score\r"
+expect "hp("
+sleep 1
+
+# STEP 7: warp back
+send "warp\r"
+expect "hp("
+sleep 1
+
+# EXPLORE NEW AREAS from Adventurer Guild Entrance
+# Try west
+send "w\r"
+expect "hp("
+sleep 1
+send "look\r"
+expect "hp("
+sleep 1
+
+# Go back and try north
+send "e\r"
+expect "hp("
+sleep 1
+send "n\r"
+expect "hp("
+sleep 1
+send "look\r"
+expect "hp("
+sleep 1
+
+# Go back and try northeast
+send "s\r"
+expect "hp("
+sleep 1
+send "ne\r"
+expect "hp("
+sleep 1
+send "look\r"
+expect "hp("
+sleep 1
+
+# Go back and try southwest
+send "sw\r"
+expect "hp("
+sleep 1
+send "s\r"
+expect "hp("
+sleep 1
+send "look\r"
+expect "hp("
+sleep 1
+
+# Go back and try south
+send "n\r"
+expect "hp("
+sleep 1
+send "s\r"
+expect "hp("
+sleep 1
+send "look\r"
+expect "hp("
+sleep 1
+
+# Final score
+send "score\r"
+expect "hp("
+sleep 1
+
+# Quit
+send "quit\r"
+expect "Save"
+send "Y\r"
+
+puts "=== DONE ==="

@@ -1,0 +1,42 @@
+#!/usr/bin/expect -f
+# Simple login check for emalz
+
+set timeout 20
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/check_detention_[exec date +%s].log"
+log_file $logfile
+
+spawn telnet islandsofmyth.org 3000
+
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+
+sleep 3
+
+# Just wait and see what happens
+expect {
+    "Detention Facility" {
+        puts "=== STILL IN DETENTION ==="
+        send "look\r"
+        sleep 2
+        send "who\r"
+        sleep 2
+        send "quit\r"
+        expect "Save"
+        send "Y\r"
+    }
+    "hp(" {
+        puts "=== NOT IN DETENTION - NORMAL GAMEPLAY ==="
+        send "score\r"
+        sleep 2
+        send "quit\r"
+        expect "Save"
+        send "Y\r"
+    }
+    timeout {
+        puts "=== TIMEOUT ==="
+    }
+}
+
+puts "=== CHECK COMPLETE ==="

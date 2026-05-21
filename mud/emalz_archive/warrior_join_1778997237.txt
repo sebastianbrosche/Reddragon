@@ -1,0 +1,14 @@
+You join the warrior guild.
+Turning on channel 'warrior'.
+You learn the skill attack.
+You learn the skill tanking.
+Stats: str:+1, dex:+2, con:+2, int:+1, wis:+1, sta:+2, hp_regen:+2,
+       sp_regen:+1, ep_regen:+1, hp_max:+2, ep_max:+1, sp_max:+1
+This cost you 9 experience points.
+QuinSyndrius says 'Welcome among us! Take that ornamented warrior belt as a proof of your membership and carry high the honour and reputation of our guild!
+You wear ornamented warrior belt.
+You feel stronger.
+Your heart beats an extra beat.
+Your muscles swell.
+You feel less resistant.
+hp(716/796) sp(750/772) ep(538/566) > 

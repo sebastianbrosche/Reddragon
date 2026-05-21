@@ -1,0 +1,3 @@
+You just entered something the MUD doesn't understand.
+If you are having trouble, type help
+hp(876/876) sp(714/714) ep(628/628) > 

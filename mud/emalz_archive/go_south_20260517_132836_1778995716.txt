@@ -1,0 +1,19 @@
+Myth Room [exits: north]
+ In this room, those who have been honored stand. It is bright and open room, with plenty of light. Statues stand all
+along the walls. Statues of those who have contributed much to this amazing world. 
+
+Statue of Khosan
+Statue of Sigwald
+Statue of Ant
+Statue of Nyx
+Statue of Friski
+Statue of Zifnab
+Statue of Drabit 
+Statue of Vor
+Statue of Magneto
+Statue of Marvin
+Statue of Daneel
+Statue of Cebcurg
+Statue of Tigran
+
+hp(716/716) sp(750/750) ep(538/538) > 

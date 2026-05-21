@@ -1,0 +1,253 @@
+# Islands of Myth — World Exploration
+# 2026-05-14 05:41:37
+
+
+======================================================================
+=== LOGIN ===
+======================================================================
+
+Last login: Wed May 13 16:45:46 2026 from: 47.237.80.25 (47.237.80.25)
+
+********************************************************
+               Welcome to Islands of Myth!
++=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+Join us at...
+Discord : https://discord.gg/gSctHJRVvQ
+Facebook: https://www.facebook.com/groups/11655590400/
+
+New Gear & info site from Tomten:
+http://iominfo.vlp.se
+********************************************************
+
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+Welcome to Islands of Myth!!!  We hope you find the mud enjoyable.
+
+This is the starting room.  In this room are 2 exits race-select, and tour.
+
+If you are new to mudding, or new to Islands of Myth, and wish to take the tour
+    please type tour.  This will take approximately 15-30 minutes, but is well
+    worth the time, particularly if you have not played this type of mud
+    before.  It will guide you through character creation, as well as choosing
+    a guild.
+
+If you have played here, or another mud before, you may type race-select to go
+    right to the character creation process.
+Welcome to Islands of Myth! [exits: tour and north]
+
+
+
+Welcome to Islands of Myth!
+hp(10/10) sp(685/706) ep(498/498) > 
+
+======================================================================
+=== WHO ===
+======================================================================
+------------------------------------------
+-------------------------------------
+--                              Islands of Myth                              
+--
+--                15 players (1 wizard, 14 mortals), 0 friends               
+--
+------------------------------------------
+-------------------------------------
+chpho .Vor          [1807].Nailman      [ 467].Tomten       [ 305].Dritthil    
+{ 298}.Temuthril    { 241}.Wildchild    [ 201].Fraziw       { 161} Slayn       
+[ 160].Seth         [ 155].Korthrun     [ 103].Darx         {  67} Grease      
+{  15} Rawrbeart    [   4].Ethicaodini  [   1] Chronicler  
+------------------------------------------
+-------------------------------------
+-- . = idle, () = dead, {} = race leader, * = edit, ~ = wiztest, ^ = builder 
+--
+------------------------------------------
+-------------------------------------
+hp(10/10) sp(685/706) ep(498/498) > 
+
+======================================================================
+=== SCORE ===
+======================================================================
+,----------------------------------------------------------------------------.
+| Chronicler the Unselected                                                  |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored          :  0.02% ( 0.15%)   |
+| Next level     :              27     Rooms Explored    :             3     |
+| Guild Level    :               9     Gold on hand      :             0     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   23 | Hit Points     :    10 (   10) | AC       : None     |
+| Dexterity    :   23 | Spell Points   :   687 (  706) | Size     : 0'1"     |
+| Constitution :   23 | Endurance Pts. :   498 (  498) | Weight   : 7 lb     |
+| Stamina      :   23 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   23 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   23 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   23 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(10/10) sp(687/706) ep(498/498) > 
+
+======================================================================
+=== STATS ===
+======================================================================
+Stats:
+ Str: 23   Dex: 23   Con: 23   Sta: 23   Int: 23   Wis: 23   Cha: 23
+hp(10/10) sp(687/706) ep(498/498) > 
+
+======================================================================
+=== INVENTORY ===
+======================================================================
+You just entered something the MUD doesn't understand.
+If you are having trouble, type help
+hp(10/10) sp(689/706) ep(498/498) > 
+
+======================================================================
+=== EQUIPMENT ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Talk to Sisong in the adv hall if you get a chance for more help.
+hp(10/10) sp(691/706) ep(498/498) > 
+
+======================================================================
+=== LOOK ===
+======================================================================
+Welcome to Islands of Myth! [exits: tour and north]
+ You stand in an empty room. White walls surround you on all sides except where
+the wall breaks for an exit. There are two exits leading out of this room.
+Small letters mark the exits. One reads 'tour' and the other reads 'north'. 
+
+
+hp(10/10) sp(691/706) ep(498/498) > 
+
+======================================================================
+=== EXITS ===
+======================================================================
+You notice these exits:
+         North :  Hall of Races
+          Tour :  Islands of Myth's New
+                  Player Guided Tour
+hp(10/10) sp(693/706) ep(498/498) > 
+
+======================================================================
+=== TOUR ===
+======================================================================
+Turning off channel 'myth'.
+Turning off channel 'chat'.
+Turning off channel 'newbie'.
+Turning off channel 'login'.
+Islands of Myth's New Player Guided Tour [exits: back]
+ You see nothing special about Islands of Myth's New Player Guided Tour
+
+
+>Welcome to Islands of Myth, Chronicler!
+
+This is Islands of Myth's guided tour to mudding. If you would like to go back
+    to the previous level at any point, type 'back'.
+
+
+======================================================================
+=== HELP ===
+======================================================================
+
+  Islands of Myth help
+
+Please specify what you need help on in any of the following ways (without
+the quotes):
+
+"faq" : This answers most of your questions in an organized manner.
+
+"spell darkness" : Replace darkness with the spell you want help on. You can
+   get a list by looking up "all_spells".
+
+"skill attack" : Same as before, replace attack with the wanted skill. You
+   can get a list by looking up "all_skills".
+
+"race human" : Display information for the specified race. You can get a
+   list by looking up "all_races".
+
+Or just enter one of the many independent topics. The list is available by
+   looking up "all_topics". You can also search the topics with eg. "search
+   cheating".
+
+Help topic? [?]: 
+Islands of Myth is a MUD - a Multi-User Dungeon. A MUD is an internet
+    roleplaying game where players from all over the world log in and play
+    interactively together to make their characters more powerful.
+Your body glows with magical energy.
+
+As you can see, Islands of Myth is a text-based internet game. Commands are
+    sent from you to the computer using text. Feedback comes from the computer
+    to you in text as well.
+
+
+======================================================================
+=== FAQ ===
+======================================================================
+Islands of Myth FAQ
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  1)  Newbie questions          2)  Rules!!              
+  3)  Equipment questions       4)  Guilds               
+  5)  Combat questions          6)  Monsters             
+  7)  Healing                   8)  Misc. questions      
+  9)  News questions.          10)  Islands of Myth city.
+ 11)  Spells / Skills          12)  Commands             
+  q)  Quit                    
+[123456789101112q] 
+Since this game is text-based, the first thing a new player needs to learn is
+    some basic commands so he can interact with the game. You will be
+    introduced to some of those commands in this step-by-step guide.
+
+
+======================================================================
+=== GUILD CMD ===
+======================================================================
+Autosave.
+Invalid selection.
+[123456789101112q] 
+Also, as a player new to MUDs, you are going to be guided through creating a
+    character and started in the world of Islands of Myth!
+
+If you are ready to start through your guided tour of basic MUD commands and
+    character creation, type 'continue' now. If you want to exit this guide and
+    go to the character creation for experienced MUD players, type 'out' now.
+>
+
+======================================================================
+=== GUILDS LIST ===
+======================================================================
+Please select either 'continue', 'out', or 'back'.
+
+
+======================================================================
+=== GUILD INFO ===
+======================================================================
+Please select either 'continue', 'out', or 'back'.
+
+
+======================================================================
+=== LOOK ROOM ===
+======================================================================
+Please select either 'continue', 'out', or 'back'.
+
+
+======================================================================
+=== GO NORTH ===
+======================================================================
+Please select either 'continue', 'out', or 'back'.
+
+
+======================================================================
+=== LOOK NORTH ROOM ===
+======================================================================
+Please select either 'continue', 'out', or 'back'.
+
+
+======================================================================
+=== GO SOUTH ===
+======================================================================
+Please select either 'continue', 'out', or 'back'.
+

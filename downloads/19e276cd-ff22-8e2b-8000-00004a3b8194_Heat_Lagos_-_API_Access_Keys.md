@@ -1,0 +1,172 @@
+Heat Lagos, API & Access Keys
+
+Managed by: Miha (backed up, protected, version-controlled)
+Last updated: 14 May 2026
+Rule: ONE doc, updated in place, never duplicated
+
+---
+
+SERPAPI
+
+Key: fe991cba4526642095747280988f8e326ba9c9056bed1d15867bc36f91120a2d
+URL: https://serpapi.com/manage-api-key
+Owner: Sebastian (account holder)
+Access: All team members (read only, Miha holds the key doc)
+
+Capabilities we care about:
+- Google Search API
+- Google Local API (find gyms, wellness centers in Algarve)
+- Google Maps API (competitor locations, reviews)
+- Google Reviews API (competitor analysis)
+- Google Trends API (wellness trends in Portugal)
+- Google Jobs API (personal trainer hiring)
+- YouTube Search API (content research)
+- YouTube Video Transcript API (HUGE, pull transcripts from any video)
+- Google Hotels API (wellness tourist research)
+- Google Images API (content inspiration)
+
+NOTES:
+- Rate limits apply, use responsibly
+- Prefer cached results when possible
+- Document what we search for in the Search Log sheet
+
+---
+
+SHELLY (Smart Home / Sauna Controls)
+
+API access: VERIFIED and WORKING
+Server: https://shelly-258-eu.shelly.cloud
+Auth Key: NDE0MjVjdWlkF8CEE62AA4EEA592AF52DFDF3421D60EB3FD9E65E959A5C942145E99B80B0166295492AACF96A771
+Status: Active, tested by Kimi and Miha
+Current reading: 5.27 kW total (two sauna heaters running, 66C and 78C, 7 devices total)
+Goal: Connect to Google Home / Alexa for voice commands
+Research: Sarah documented Shelly Cloud integration and local HTTP API options
+Next: Sebastian says "forget about Shelly, it's running" - integration complete
+
+---
+
+BSPORT
+
+API: None available
+Access: Dashboard login only
+Owner: Sebastian (account holder)
+Adam's access: Credentials provided, TEST NOW
+  - Staff login: adambot@yogaforbjj.net / kimiclaw321 (TESTED, WORKING)
+  - Client login: adam@yogaforbjj.net / kimiclaw321 (for heatlagos.com)
+  - Backoffice: https://backoffice.bsport.io/
+  - bsport help center: https://intercom.help/bsport-helpcenter/en/
+  - NOTE: Staff login confirmed working in Chrome browser with saved credentials
+  - Adam exploring dashboard now — 2 hour mastery sprint in progress
+Actions Adam can take:
+  - View class bookings
+  - Check email campaigns
+  - Monitor member activity
+  - Test user experience
+  - Make changes Sebastian explicitly requests (substitute teachers, class updates)
+  - NOTE: Only make changes when Sebastian explicitly asks. Otherwise read-only.
+  - DO NOT make changes without explicit permission
+
+---
+
+GOOGLE WORKSPACE / GMAIL API
+
+Status: Connected (Adam set up OAuth)
+Owner: Sebastian
+Access: Adam (for email campaigns if bsport fails)
+Use: Summer membership push to 234 leads
+
+---
+
+CLOUDFLARE
+
+Status: Active (YTT site hosted)
+Owner: Sebastian
+Access: Adam (website management)
+Sites:
+  - yogateachertrainingportugal.eu
+API Token: cfut_zOCov9RQdnKGXndhoWB0TKhHQ5SyLOBQ1HnAwdeZ65e01d72
+  - Status: Authenticates but missing Pages:Edit permission
+  - Can read zones but cannot deploy Pages sites
+  - YTT deployment BLOCKED until Pages:Edit is added
+  - Sebastian needs to go to dash.cloudflare.com/profile/api-tokens → Create Token → Edit Cloudflare Pages template → include zone yogateachertrainingportugal.eu
+  - Previous token: cfut_zOCov9RQdnKGXndhoWB0TKhHQ5SyLOBQ1HnAwdeZ65e01d72 (deprecated, replaced above)
+  - DEPRECATED tokens:
+    - cfut_zOCov9RQdnKGXndhoWB0TKhHQ5SyLOBQ1HnAwdeZ65e01d72 (missing Pages:Edit)
+    - Previous token (expired/deprecated by Sebastian)
+
+---
+
+META / FACEBOOK / INSTAGRAM
+
+Status: Stine runs @heat_lagos Instagram
+Owner: Stine (Sebastian's wife)
+Access: Read only for team (learn her style, repurpose content)
+Action: We need to review her posts to understand the visual style
+
+---
+
+YOUTUBE
+
+Access: Via SerpAPI YouTube Video Transcript API
+Capability: Paste any YouTube URL, pull transcript automatically
+Use case:
+  - Sebastian sees a good video
+  - Pastes URL in chat
+  - Team pulls transcript
+  - Extracts valuable points
+  - Adds to document or creates blog post
+
+---
+
+OTHER APIs NEEDED
+
+Google Home / Alexa integration:
+  - Research needed: open-source or API-accessible voice assistant
+  - Goal: Voice commands to Shelly (sauna controls)
+  - Assigned: Sarah or Adam to investigate
+
+Canva API:
+  - For automated image generation
+  - Research if available
+
+Groq / Whisper:
+  - For voice transcription (Sebastian's voice messages)
+  - Already known to team
+
+---
+
+ACCESS LOG
+
+| Date | Who | What API | Purpose | Result |
+|------|-----|----------|---------|--------|
+| 14 May | Kimi | SerpAPI | Set up team access | Key added |
+| 14 May | Adam | bsport | Summer email campaign | OAuth connected, API blocked |
+| 14 May | Adam | Gmail | Fallback for 234 leads | OAuth connected |
+| 14 May | Adam | Cloudflare | YTT site hosting | Active, token pending |
+| 15 May | Miha | Cloudflare | New token from Sebastian | Authenticates but missing Pages:Edit |
+| 15 May | Adam | bsport | Staff login test | adambot@yogaforbjj.net WORKING |
+| 15 May | Adam | bsport | Dashboard exploration | 17 sessions, 53 bookings mapped |
+| 14 May | Kimi | SerpAPI | Google Maps testimonials | 8 reviews pulled, 5.0 rating |
+| 14 May | Kimi | Shelly | Test sauna power | 5.27 kW verified |
+
+---
+
+SECURITY RULES
+
+1. This doc lives in ONE place, managed by Miha
+2. Never share keys in chat (only the key doc)
+3. Never create a second version of this doc
+4. Update in place when new keys arrive
+5. If a key is compromised, rotate immediately and update this doc
+6. Team members check this doc regularly for new access
+7. Sebastian is installing Chromium browser for shared bot access
+
+---
+
+NEXT ADDITIONS
+
+- Cloudflare API token (Sebastian to paste in text)
+- Meta/Instagram business account access (if needed for ads)
+- Canva API (if available)
+- TikTok API (if needed for content)
+- bsport staff login (Sebastian creating separate staff account)

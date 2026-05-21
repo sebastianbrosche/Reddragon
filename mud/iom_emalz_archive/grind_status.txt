@@ -1,0 +1,5 @@
+GRIND_START: Mon May 18 05:14:39 AM CST 2026
+LOCATION: LobeLands (dual rooms)
+TARGET: Level 15
+STRATEGY: Kill all earwigs in room 1, go n to room 2, kill all, go s back
+CYCLE_5: Mon May 18 05:21:31 AM CST 2026

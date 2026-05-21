@@ -1,0 +1,8 @@
+{
+  "look": "Heart of Illium [exits: out]\r\n You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not\r\nslippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with\r\nsilver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like\r\nglass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors\r\nflow within them. Type 'la <first/second> window' to read what they say.\r\n\r\nA blue tome sitting on a marble pedestal.\r\n\r\n\r\n",
+  "exits": "You notice these exits:\r\n           Out :  Central Square\r\n",
+  "scan": "Umm... Come again?\r\n",
+  "consider": "Nol [myth]: healer secondary is great if you are going for templar \r\nZifnab hates it when you typo like that.\r\n",
+  "enter_direction": "up",
+  "enter_result": "It doesn't seem possible to go that direction.\r\n"
+}

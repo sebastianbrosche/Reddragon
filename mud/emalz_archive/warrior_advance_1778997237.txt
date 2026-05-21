@@ -1,0 +1,2 @@
+You can't advance a specific stat here.
+hp(716/796) sp(750/772) ep(538/566) > 

@@ -1,0 +1,30 @@
+-=-=-| Evoker  |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  casting                      :  50%  |  ceremony                     :   5%
+  channel energy               : 110%  |  determine effectiveness      :   5%
+  essence eye                  :   5%  |  evocation                    : 110%
+  honor of the gods            :   5%  |  magical economy              :   5%
+-=-=-| Traveler  |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  awareness                    :   5%  |  camping                      :   5%
+  fire building                :   5%  |  fishing                      :   5%
+  herb gathering               :   5%  |  herb preservation            :   5%
+  hunting                      :   5%  |  scavenge wood                :   5%
+  skinning                     :   5%  |  tinning                      :   5%
+  torch making                 :   5%  |
+-=-=-| Evoker of elements  |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  high energy focus            : 110%  |  quick chant                  : 110%
+  regeneration trance          : 110%  |
+-=-=-| Evoker of ether |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  focused mind                 : 110%  |
+-=-=-| Navigator |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  mastery of navigation        : 110%  |
+-=-=-| Evoker of force |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  force evocation              : 112%  |  physical focus               :  60%
+-=-=-| Evoker of ice |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  cold evocation               : 110%  |  cold focus                   :  60%
+-=-=-| Evoker of magic |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  magic evocation              : 110%  |  magical focus                :  60%
+-=-=-| Evoker of flames  |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  fire evocation               : 110%  |  fire focus                   :  60%
+-=-=-| Evoker of vacuum  |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  asphyxiation focus           :  60%  |  vacuum evocation             : 110%
+---- (1-29-74%)[h]: 

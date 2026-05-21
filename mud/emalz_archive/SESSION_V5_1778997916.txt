@@ -1,0 +1,82 @@
+[START] 2026-05-17T14:05:16.770208
+^L
+
+  _   _   _   _   _   _   _     _   _     _   _   _   _
+ / \ / \ / \ / \ / \ / \ / \   / \ / \   / \ / \ / \ / \
+( I | s | l | a | n | d | s ) ( o | f ) ( M | y | t | h )
+ \_/ \_/ \_/ \_/ \_/ \_/ \_/   \_/ \_/   \_/ \_/ \_/ \_/
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 19 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+>
+>>> emalz
+Password:
+>>> creative
+
+Last login: Sun May 17 01:51:29 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Emalz has reconnected (Kobold level 1).
+hp(804/804) sp(772/772) ep(566/566) >
+[LOGIN] Done
+>>> score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    0              |
+|                                                                            |
+| Experience     :           1,991     Explored          :  0.22% ( 1.95%)   |
+| Next level     :              27     Rooms Explored    :            39     |
+| Guild Level    :              27     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   32 | Hit Points     :   804 (  804) | AC       : VLow     |
+| Dexterity    :   28 | Spell Points   :   772 (  772) | Size     : 3'4"     |
+| Constitution :   38 | Endurance Pts. :   566 (  566) | Weight   : 73 lb    |
+| Stamina      :   28 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   26 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   26 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (1)                      | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(804/804) sp(772/772) ep(566/566) > You are taken over by yourself, or something.
+>>> skills
+[WARRIOR] Guild stuff
+>>> warp
+[FATAL] [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/mud/v5_level_bot.py", line 316, in <module>
+    bot.run()
+  File "/root/.openclaw/workspace/mud/v5_level_bot.py", line 269, in run
+    self.warrior_stuff()
+  File "/root/.openclaw/workspace/mud/v5_level_bot.py", line 143, in warrior_stuff
+    self.send("warp", wait=2)
+  File "/root/.openclaw/workspace/mud/v5_level_bot.py", line 76, in send
+    self.tn.write((cmd + "\r\n").encode('ascii'))
+  File "/usr/lib/python3.12/telnetlib.py", line 295, in write
+    self.sock.sendall(buffer)
+BrokenPipeError: [Errno 32] Broken pipe

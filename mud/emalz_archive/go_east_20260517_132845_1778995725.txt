@@ -1,0 +1,13 @@
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+A gold Plaque
+A blue portal, leading to Nuvo City
+Sisong the Newbie Navigator
+
+hp(716/716) sp(750/750) ep(538/538) > 

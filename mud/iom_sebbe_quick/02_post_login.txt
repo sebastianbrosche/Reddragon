@@ -1,0 +1,12 @@
+��
+Last login: Sat May 16 05:31:23 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Sebbe has reconnected (Snakeman level 157).
+Gab, the Pawn Broker [sales]: I have a Scaled Armshield for sale for 120,000 gold.
+Water splashes near the fountain's base.

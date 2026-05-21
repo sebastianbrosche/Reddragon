@@ -1,0 +1,48 @@
+spawn telnet islandsofmyth.org 3000
+Trying 158.69.5.47...
+Connected to islandsofmyth.org.
+Escape character is '^]'.
+^L
+'||'        '||                        '||                      .'|. 
+ ||   ....   ||   ....   .. ...      .. ||   ....       ...   .||.   
+ ||  ||. '   ||  '' .||   ||  ||   .'  '||  ||. '     .|  '|.  ||    
+ ||  . '|..  ||  .|' ||   ||  ||   |.   ||  . '|..    ||   ||  ||    
+.||. |'..|' .||. '|..'|' .||. ||.  '|..'||. |'..|'     '|..|' .||.   
+                                                                     
+                                                                     
+'||    ||'            .   '||      
+ |||  |||  .... ... .||.   || ..   
+ |'|..'||   '|.  |   ||    ||' ||  
+ | '|' ||    '|.|    ||    ||  ||  
+.|. | .||.    '|     '|.' .||. ||. 
+           .. |                    
+            ''                     
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 21 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+> emalz
+Password: invalid command name "0-9"
+    while executing
+"0-9"
+    invoked from within
+"expect {
+    -re "hp\\([0-9]+/[0-9]+\\) sp\\([0-9]+/[0-9]+\\) ep\\([0-9]+/[0-9]+\\) >" { puts "Logged in successfully" }
+    -re "Hp:.*> " { puts "Log..."
+    (file "emalz_grind_v2.exp" line 27)

@@ -1,0 +1,402 @@
+# Islands of Myth — Handbook + Help Guilds Capture
+# 2026-05-14 06:20:56
+
+
+======================================================================
+=== LOGIN ===
+======================================================================
+Password: 
+
+======================================================================
+=== PASSWORD ===
+======================================================================
+
+Last login: Wed May 13 18:20:28 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Explorer has reconnected (Human level 1).
+hp(653/792) sp(653/772) ep(538/538) > 
+
+======================================================================
+=== ENTER PORTAL ===
+======================================================================
+There is no portal here.
+hp(655/792) sp(655/772) ep(538/538) > 
+
+======================================================================
+=== HANDBOOK TOPICS ===
+======================================================================
+It has a number of entries about various topics:
+- Introduction
+- Newbie
+- Movement
+- Interaction
+- Directions
+- Advancement
+- Events
+- Guilds
+- Party
+- Quests
+- Channels
+- Sales
+- Combat
+- News
+- Abbreviations
+- Misc
+To read one of the sections, type 'read about ______'
+hp(657/792) sp(657/772) ep(538/538) > 
+
+======================================================================
+=== HANDBOOK: GETTING STARTED ===
+======================================================================
+There is nothing here in which to look that up.
+hp(657/792) sp(657/772) ep(538/538) > 
+
+======================================================================
+=== HANDBOOK: COMMANDS ===
+======================================================================
+There is nothing here in which to look that up.
+hp(661/792) sp(661/772) ep(538/538) > 
+
+======================================================================
+=== HANDBOOK: COMBAT ===
+======================================================================
+[from Newbie Handbook]
+******
+Combat
+******
+Combat is initiated whenever a monster becomes aggressive 
+to you. If you are standing in a room with a goblin, you 
+can type 'attack goblin' and it will initiate combat for 
+you. If you cast an offensive spell or use an offensive
+skill, it will also initiate combat. If you are in a party, 
+as well, and one of the party members attack or initiate 
+the monster in combat, all of the members of the party will 
+become aggressive against the monster that has been targetted.
+Be sure to 'consider' the monster beforehand, and feel free 
+to ask on newbie whether or not you are able to kill the 
+monster before attacking. 
+
+You should probably have some sort of equipment before
+initiating combat with a monster. (see the 'interaction'
+section to learn how to use armor, and the 'directions'
+section to find your way to the newbie armor shop.)
+
+An important command you might like to remember is the 
+'wimpy' command, you can set it at a percentage 
+(ie: 50% is 'wimpy 50') which will then make you flee 
+from a monster once your hit points drop below 50% of 
+your maximum. 
+---- (1-25-53%)[h]: 
+
+======================================================================
+=== HANDBOOK: GUILDS ===
+======================================================================
+(to view a specific help file on this command type 'help wimpy') 
+
+To cast a spell once you have learned it, the syntax is simply 
+'cast <spellname> at <target>' in most cases, while some spells 
+later on will be just 'cast <spellname>' or you can even type
+'cast <spellname> with <something>' however you will be used 
+to the syntax by the time you get those spells. 
+
+Skills can be used with the 'use' verb, as a brief example 
+'use punch on monster' will initiate the skill 'punch' at the 
+monster targetted.
+
+To view more information on spells or skills, type 'help spells', 
+'help skills' for a more in depth look at them both.
+
+Please note that if you are using a client that has triggers, 
+and you attempt to set up a trigger to automatically attack 
+a monster once something has happened, for example:
+ if someone else attacks a monster, you attack it too. This 
+ is against the rules here, and considered 'botting.'  To 
+ view more help on botting, type help botting.
+
+hp(663/792) sp(663/772) ep(538/538) > 
+
+======================================================================
+=== HANDBOOK: EQUIPMENT ===
+======================================================================
+There is nothing here in which to look that up.
+hp(663/792) sp(663/772) ep(538/538) > 
+
+======================================================================
+=== HANDBOOK: LEVELS ===
+======================================================================
+There is nothing here in which to look that up.
+hp(667/792) sp(667/772) ep(538/538) > 
+
+======================================================================
+=== HANDBOOK: RACES ===
+======================================================================
+There is nothing here in which to look that up.
+hp(667/792) sp(667/772) ep(538/538) > 
+
+======================================================================
+=== HANDBOOK: MOVEMENT ===
+======================================================================
+[from Newbie Handbook]
+********
+Movement
+********
+Movement in Islands of Myth is fairly simple, and depending 
+on what client you are using, it can be made even simpler. 
+Portal, zMud, and many other MUD clients will allow you to 
+use the number pad on the far right side of your keyboard as
+a means to explore, 8 being north, 9 being northeast, etc. 
+
+To move on your own, simply type 'n' or 'north' or even 
+'go n/north' to move one room north. If you wish to go north 
+many times you can also type 'N' or 'X n' where 'X' is the 
+number you would like to have it repeat the following
+command. For example:
+
+> 5 say hello 
+  Will make you say 'hello' five times.
+
+The do command is another effective way to input a bunch 
+of different commands all at once, by using the following 
+syntax:
+
+> do say hello;say hi;say hello
+  Which will make you say 'hello', 'hi', and then 'hello' 
+  all at once.
+---- (1-25-75%)[h]: 
+
+======================================================================
+=== HELP GUILDS ===
+======================================================================
+More Help:
+
+  Commands are one letter anachronyms as listed below
+
+    a : Print current page again.
+    / : /<string> starts foward search for string.
+  h,? : This help, OR ?<string> to start backward search for string.
+    d : Toggle scanning direction.
+        Changes which direction you page through the file(s).
+    b : goto the beginning of the file.
+    e : goto the end of the file.
+    n : Next file in scan direction if any.
+    # : goto line number #
+    q : quit
+    s : Set or toggle off search string.
+        s <string> where <string> is what you're looking for.
+        Searches are done in the scan direction and page displayed
+          is the one directly following any match made.
+        Until you toggle s off, any scan will search for a match.
+        s by itself turns off the search parameter
+
+    enter or anything else scans the next page.
+---- (1-25-75%)[h]: 
+
+======================================================================
+=== HELP: FAQ ===
+======================================================================
+Islands of Myth FAQ
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  1)  Newbie questions          2)  Rules!!              
+  3)  Equipment questions       4)  Guilds               
+  5)  Combat questions          6)  Monsters             
+  7)  Healing                   8)  Misc. questions      
+  9)  News questions.          10)  Islands of Myth city.
+ 11)  Spells / Skills          12)  Commands             
+  q)  Quit                    
+[123456789101112q] 
+
+======================================================================
+=== HELP: COMMANDS ===
+======================================================================
+
+To get a list of all of the commands currently available to players
+on Islands of Myth, please type: all commands.
+
+If you would like help on a specific command, type: help <command>.
+
+If a help file is not available, please ask on the newbie
+channel and point out the lack of a help file to a wizard.
+
+Help topic? [?]: 
+
+======================================================================
+=== HELP: COMBAT ===
+======================================================================
+
+USAGE: combat <arg>
+
+The combat command is a interface on how you would like combat displayed
+to you.
+
+Possible arguments are:
+
+        'status'           - Your current settings for combat.
+
+        'percent'          - How effective did the hit appear to be.
+                             The formula for this is not specific, but it
+			     is based on how much damage you did and how
+			     much of that damage actually hit the victim
+ 			     'before' the victims armor class and resistances
+			     are factored in.
+
+        'blocks'           - Shows 2 color blocks. The first block is
+                             how damaged the attacker appears to be.
+                             The latter shows how damaged the target
+                             appears to be. Note that this setting is 
+			     ineffective if you do not have a ANSI terminal.
+
+        'reporter <delay>' - Report the conditions of you and your target
+                             every 'delay' seconds. Give no delay to turn
+                             reporter off. (min 2 seconds)
+--More--(83%) [?]: 
+
+======================================================================
+=== HELP: LEVELS ===
+======================================================================
+
+levels:
+
+Levels are a measurement of how far your character has
+advanced in Islands of Myth.  
+
+Help topic? [?]: 
+
+======================================================================
+=== HELP: ALIGNMENT ===
+======================================================================
+
+Alignment on Islands of Myth is used mainly for guilds. Certain
+guilds have restrictions on what their alignment can be.
+The effects usually vary from spell/skill to spell/skill.
+
+You change your alignment by killing those monsters which are 
+opposite of where you want to be for example if you need to be
+'good' you need to kill evil monsters.
+
+The levels of alignment from good to evil:
+         God Like, Saint, Holy man, Good, Sli. Good, Neutral,
+         Sli. Evil, Evil, Very Evil, Demonic, Satanic
+
+
+Help topic? [?]: 
+
+======================================================================
+=== HELP: RACES ===
+======================================================================
+
+Sorry, there is no help on that topic (try: topics or faq)
+
+hp(679/792) sp(679/772) ep(538/538) > 
+
+======================================================================
+=== LOOK FORMULA ===
+======================================================================
+Do you mean Formula: Feet: Lesser Dexterity, Formula: Head: Lesser Wisdom or ?
+hp(683/792) sp(683/772) ep(538/538) > 
+
+======================================================================
+=== LOOK NEWBIE HANDBOOK ===
+======================================================================
+It is a small brown book, labeled 'The Newbie's Handbook.' It contains valuable
+information on playing the game. 
+To use this book, you can 'read handbook' to view a list of the different
+topics that have been written within its pages. To read about each topic, you
+can simply type 'read about topic' and it will display the information for you.
+Newbie Handbook is open.
+hp(685/792) sp(685/772) ep(538/538) > 
+
+======================================================================
+=== GO PORTAL ROOM ===
+======================================================================
+Rawrbeart arrives at the Adventure Guild.
+Rawrbeart leaves north.
+Portal Room [exits: abjurer, elemental, woodsman, northeast, shifter,
+martial_artist, lurker, druid, acrobat, weaver, evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for
+the ease and convenience of all adventurers.
+
+
+hp(685/792) sp(685/772) ep(538/538) > 
+
+======================================================================
+=== LOOK PORTAL ROOM ===
+======================================================================
+Portal Room [exits: abjurer, elemental, woodsman, northeast, shifter,
+martial_artist, lurker, druid, acrobat, weaver, evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for
+the ease and convenience of all adventurers.
+
+
+hp(685/792) sp(685/772) ep(538/538) > 
+
+======================================================================
+=== LOOK WARRIOR PORTAL ===
+======================================================================
+There is no at warrior here.
+hp(687/792) sp(687/772) ep(538/538) > 
+
+======================================================================
+=== LOOK ELEMENTAL PORTAL ===
+======================================================================
+There is no at elemental here.
+hp(687/792) sp(687/772) ep(538/538) > 
+
+======================================================================
+=== BACK TO GUILD ===
+======================================================================
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north,
+southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its
+architecture, the guild houses a vast amount of help for the new adventurers
+and the old. Its high domed ceiling swirls with blue and whites, like the sky
+on a very windy day. Because it is domed and there are windows all along the
+wall, the room seems very open and very friendly.
+
+It seems that someone has left Formula: Head: Lesser Wisdom lying here.
+It seems that someone has left Formula: Feet: Lesser Dexterity lying here.
+
+hp(691/792) sp(691/772) ep(538/538) > 
+
+======================================================================
+=== FINAL LOOK ===
+======================================================================
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north,
+southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its
+architecture, the guild houses a vast amount of help for the new adventurers
+and the old. Its high domed ceiling swirls with blue and whites, like the sky
+on a very windy day. Because it is domed and there are windows all along the
+wall, the room seems very open and very friendly.
+
+Formula: Head: Lesser Wisdom lies here.
+Someone has discarded Formula: Feet: Lesser Dexterity here.
+
+hp(691/792) sp(691/772) ep(538/538) > 
+
+======================================================================
+=== QUIT ===
+======================================================================
+Quitting. Please stand by while saving.
+SUMMARY
+Login time: 8m24s  Exp Earned: 0
+________________________________________________________________
+|       Combat Category   |   Today's session | Total to date  |
+'--------------------------------------------------------------'
+|  Experience per minute  |         0         |       400      |
+|   Criticals inflicted   |         0         |        0       |
+|     Criticals taken     |         0         |        0       |
+|     Stuns inflicted     |         0         |        0       |
+|       Stuns taken       |         0         |        0       |
+|     Dodges Performed    |         0         |        0       |
+|         # deaths        |         0         |        0       |
+|         # reincs        |         0         |        0       |
+'--------------------------------------------------------------'
+Closing down.
+ Saving your character.
+

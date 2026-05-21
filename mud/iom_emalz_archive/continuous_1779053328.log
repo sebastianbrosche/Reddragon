@@ -1,0 +1,144 @@
+spawn telnet islandsofmyth.org 3000
+Trying 158.69.5.47...
+Connected to islandsofmyth.org.
+Escape character is '^]'.
+^L
+/\__  _\         /\_ \                      /\ \                      /'___\ 
+\/_/\ \/     ____\//\ \      __      ___    \_\ \    ____        ___ /\ \__/ 
+   \ \ \    /',__\ \ \ \   /'__`\  /' _ `\  /'_` \  /',__\      / __`\ \ ,__\
+    \_\ \__/\__, `\ \_\ \_/\ \L\.\_/\ \/\ \/\ \L\ \/\__, `\    /\ \L\ \ \ \_/
+    /\_____\/\____/ /\____\ \__/.\_\ \_\ \_\ \___,_\/\____/    \ \____/\ \_\ 
+    \/_____/\/___/  \/____/\/__/\/_/\/_/\/_/\/__,_ /\/___/      \/___/  \/_/ 
+                                                                             
+                                                                             
+                  __    __         
+ /'\_/`\         /\ \__/\ \        
+/\      \  __  __\ \ ,_\ \ \___    
+\ \ \__\ \/\ \/\ \\ \ \/\ \  _ `\  
+ \ \ \_/\ \ \ \_\ \\ \ \_\ \ \ \ \ 
+  \ \_\\ \_\/`____ \\ \__\\ \_\ \_\
+   \/_/ \/_/`/___/> \\/__/ \/_/\/_/
+               /\___/              
+               \/__/               
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 23 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+> emalz
+Password: 
+Last login: Sun May 17 17:28:27 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Emalz has reconnected (Kobold level 5).
+hp(876/876) sp(714/714) ep(628/628) > score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    5                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,508     Explored          :  0.28% ( 2.40%)   |
+| Next level     :           1,232     Rooms Explored    :            48     |
+| Guild Level    :             645     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   39 | Hit Points     :   876 (  876) | AC       : VLow     |
+| Dexterity    :   35 | Spell Points   :   714 (  714) | Size     : 3'6"     |
+| Constitution :   43 | Endurance Pts. :   628 (  628) | Weight   : 77 lb    |
+| Stamina      :   32 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   24 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   24 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   85 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (4)                      | Mail          : 0/0           |
+|                                            | Kills         : 8             |
+`----------------------------------------------------------------------------'
+hp(876/876) sp(714/714) ep(628/628) > skills
+-=-=-| Warrior |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  attack                       :  21%  |  flesh of stone               :  21%
+  honor of the gods            :  21%  |  tanking                      :  21%
+  weapon skill blunt           :  21%  |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+hp(876/876) sp(714/714) ep(628/628) > warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(876/876) sp(714/714) ep(628/628) > se
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(876/876) sp(714/714) ep(628/628) > e
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(876/876) sp(714/714) ep(628/628) > talk sisong
+Sisong's Newbie Information.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  1)  Misc. Information     2)  Newbie Areas          q)  Quit             
+
+[12q] 2
+Newbie Areas
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  1)  Newbie Garden                     2)  The Valley of New Adventurers
+  3)  Spider Cave                       4)  The Circus                   
+  5)  Monster Daycare                   6)  Church                       
+  7)  Ocean                             8)  Strawberry Fields            
+  9)  Yensid Land                      10)  Fire World                   
+ 11)  Ice World                        12)  Cat World                    
+ 13)  Kobold Village                   14)  Zoo                          
+ 15)  Newbie Forest                    16)  Ancient Tree                 
+ 17)  Animal Nursery                   18)  Swallow Moors                
+ 19)  Bee Hive                          m)  Return to Main Menu          
+  q)  Quit                            
+[12345678910111213141516171819mq] 9
+Sisong says, "Yensid Land has monsters of varying levels, some are rather easy, others are tough.  Make sure you map
+    the area for in it lies a secret. Of course I could tell you what it is, but then I'd have to kill you. Ha ha ha,
+    err, only joking."
+Sisong asks, "Would you like to visit the Yensid Land?"
+Please answer Y for yes or N for no: q
+Sisong asks, "Would you like to visit the Yensid Land?"
+Please answer Y for yes or N for no: nw
+Sisong asks, "Would you like to visit the Yensid Land?"
+Please answer Y for yes or N for no: look
+Sisong asks, "Would you like to visit the Yensid Land?"
+Please answer Y for yes or N for no: kill earwig
+Sisong asks, "Would you like to visit the Yensid Land?"
+Please answer Y for yes or N for no: 
+Sisong asks, "Would you like to visit the Yensid Land?"
+Please answer Y for yes or N for no: 

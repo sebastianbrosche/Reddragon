@@ -1,0 +1,34 @@
+#!/usr/bin/expect -f
+# Check current location
+
+set timeout 20
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/location_check_[exec date +%s].log"
+log_file $logfile
+
+spawn telnet islandsofmyth.org 3000
+
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+
+sleep 3
+
+expect "hp("
+send "look\r"
+sleep 2
+
+send "score\r"
+sleep 2
+
+send "quit\r"
+sleep 2
+
+expect {
+    "Save" { send "Y\r" }
+    "Saving" { puts "=== Saving ===" }
+    timeout { puts "=== Timeout ===" }
+}
+
+sleep 2
+puts "=== DONE ==="

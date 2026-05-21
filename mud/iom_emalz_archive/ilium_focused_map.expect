@@ -1,0 +1,186 @@
+#!/usr/bin/expect -f
+set timeout 60
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/ilium_focused_map.log"
+exec rm -f $logfile
+log_file $logfile
+
+spawn telnet islandsofmyth.org 3000
+
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+
+expect ">"
+
+# Record state
+send "score\r"
+expect ">"
+
+send "skills\r"
+expect ">"
+
+# Warp to guild
+send "warp\r"
+expect ">"
+
+# === LEVEL ROOM - ADVANCE LEVELS ===
+send "e\r"
+expect ">"
+send "look\r"
+expect ">"
+
+send "talk achman\r"
+sleep 2
+expect ">"
+
+# Try to advance
+send "advance\r"
+sleep 2
+expect ">"
+
+send "score\r"
+expect ">"
+
+# Back to guild
+send "w\r"
+expect ">"
+
+# === PORTAL ROOM - WARRIOR GUILD ===
+send "sw\r"
+expect ">"
+send "look\r"
+expect ">"
+
+# Enter warrior portal
+send "warrior\r"
+expect ">"
+send "look\r"
+expect ">"
+
+# Explore warrior guild
+send "n\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+send "s\r"
+sleep 1
+expect ">"
+
+send "e\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+send "w\r"
+sleep 1
+expect ">"
+
+send "ne\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+send "sw\r"
+sleep 1
+expect ">"
+
+send "nw\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+send "se\r"
+sleep 1
+expect ">"
+
+send "up\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+send "down\r"
+sleep 1
+expect ">"
+
+# Back to portal room
+send "out\r"
+sleep 1
+expect ">"
+
+# Back to adventurer guild
+send "ne\r"
+expect ">"
+
+# === TITAN STREET (east from Cloud Road) ===
+send "n\r"
+expect ">"
+send "e\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+# Continue east along Titan Street
+for {set i 0} {$i < 5} {incr i} {
+    send "e\r"
+    sleep 1
+    expect ">"
+    send "look\r"
+    sleep 1
+    expect ">"
+}
+
+# Return to Cloud Road
+for {set i 0} {$i < 5} {incr i} {
+    send "w\r"
+    sleep 1
+    expect ">"
+}
+
+# === GOSSAMER STREET (west from Cloud Road) ===
+send "w\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+# Continue west along Gossamer Street
+for {set i 0} {$i < 5} {incr i} {
+    send "w\r"
+    sleep 1
+    expect ">"
+    send "look\r"
+    sleep 1
+    expect ">"
+}
+
+# Return to Cloud Road
+for {set i 0} {$i < 5} {incr i} {
+    send "e\r"
+    sleep 1
+    expect ">"
+}
+
+# Back to guild
+send "s\r"
+expect ">"
+
+# Final score
+send "score\r"
+expect ">"
+send "skills\r"
+expect ">"
+
+send "quit\r"
+sleep 3
+expect "Save"
+send "Y\r"
+
+puts "FOCUSED ILIUM MAPPING COMPLETE"

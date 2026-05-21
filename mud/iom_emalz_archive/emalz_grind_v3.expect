@@ -1,0 +1,198 @@
+#!/usr/bin/expect -f
+# Emalz Grinding Script v3 - Fixed for proper menu handling and disconnection
+
+set timeout 30
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/emalz_grind_[exec date +%s].log"
+log_file $logfile
+
+proc wait_prompt {} {
+    expect "hp("
+    sleep 1
+}
+
+proc send_cmd {cmd} {
+    send "$cmd\r"
+    sleep 1
+}
+
+spawn telnet islandsofmyth.org 3000
+
+# Login
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+
+# Wait for initial prompt
+wait_prompt
+
+# Check score
+send_cmd "score"
+expect {
+    -re {Experience\s+:\s+([0-9,]+)} {
+        set xp_str $expect_out(1,string)
+        set xp_clean [string map {, ""} $xp_str]
+        set current_xp $xp_clean
+        puts "=== Current XP: $current_xp ==="
+    }
+    timeout {
+        set current_xp 0
+    }
+}
+wait_prompt
+
+# Extract "To Next Level" value
+send_cmd "score"
+expect {
+    -re {To Next Level\s+:\s+([0-9,]+)} {
+        set need_str $expect_out(1,string)
+        set need_clean [string map {, ""} $need_str]
+        set xp_needed $need_clean
+        puts "=== XP needed for next level: $xp_needed ==="
+    }
+    timeout {
+        set xp_needed 999999
+    }
+}
+wait_prompt
+
+# === LEVEL UP IF POSSIBLE ===
+if {$current_xp >= 2118} {
+    puts "=== CAN LEVEL UP - GOING TO JUDGE ==="
+    send_cmd "warp"
+    wait_prompt
+    
+    send_cmd "e"
+    wait_prompt
+    
+    send_cmd "talk achman"
+    sleep 2
+    
+    # Main menu - pick 'd' for stat leveling
+    expect "[abcdeq]"
+    send "d\r"
+    sleep 2
+    
+    # Stat menu - pick 'a' for strength
+    expect "[abcdefghijmq]"
+    send "a\r"
+    sleep 2
+    
+    # How many times
+    expect "How many times?"
+    send "1\r"
+    sleep 3
+    
+    # Handle result
+    expect {
+        "You still need" {
+            puts "=== NOT ENOUGH XP AFTER ALL ==="
+            send "q\r"
+            sleep 1
+            expect "[abcdeq]"
+            send "q\r"
+            sleep 1
+        }
+        "Congratulations" {
+            puts "=== LEVELED UP! ==="
+            wait_prompt
+        }
+        "hp(" {
+            puts "=== BACK TO PROMPT ==="
+        }
+        timeout {
+            send "q\r"
+        }
+    }
+    
+    wait_prompt
+    send_cmd "warp"
+    wait_prompt
+} else {
+    puts "=== NOT ENOUGH XP TO LEVEL ($current_xp / 2118 needed) ==="
+}
+
+# === GRINDING PHASE ===
+# Go to Yensid Land for earwig grinding
+puts "=== GOING TO YENSID LAND ==="
+send_cmd "warp"
+wait_prompt
+
+send_cmd "se"
+wait_prompt
+
+send_cmd "e"
+wait_prompt
+
+send_cmd "talk sisong"
+sleep 2
+
+# Pick option 9 (Yensid Land)
+expect "number to travel to"
+send "9\r"
+sleep 3
+wait_prompt
+
+# Look around
+send_cmd "look"
+wait_prompt
+
+# Kill earwigs in a loop
+set kills 0
+for {set i 0} {$i < 10} {incr i} {
+    send_cmd "kill earwig"
+    sleep 4
+    
+    expect {
+        "You killed" {
+            incr kills
+            puts "=== KILL #${kills} ==="
+            send_cmd "get all from corpse"
+            wait_prompt
+            send_cmd "eat corpse"
+            wait_prompt
+        }
+        "What?" {
+            puts "=== NO EARWIG - TRYING NW ==="
+            send_cmd "nw"
+            wait_prompt
+        }
+        "There is no" {
+            puts "=== NO EARWIG HERE ==="
+        }
+        "hp(" {
+            # Already at prompt, maybe combat ended fast
+        }
+        timeout {
+            puts "=== COMBAT TIMEOUT ==="
+        }
+    }
+}
+
+# Return to guild
+send_cmd "warp"
+wait_prompt
+
+# Final score check
+send_cmd "score"
+wait_prompt
+
+# Quit safely
+puts "=== QUITTING ==="
+send "quit\r"
+sleep 2
+
+expect {
+    "Save" {
+        send "Y\r"
+    }
+    "Saving your character" {
+        puts "=== SAVE IN PROGRESS ==="
+    }
+    timeout {
+        puts "=== QUIT TIMEOUT ==="
+    }
+}
+
+sleep 2
+puts "=== SESSION COMPLETE - KILLS: $kills ==="

@@ -1,0 +1,2187 @@
+[START] 2026-05-17T14:21:49.841353
+^L
+           *****  *     ***                               **
+        ******  *        ***                               **
+       **   *  *          **                               **
+      *    *  *           **                               **
+          *  *    ****    **                               **     ****
+         ** **   * **** * **      ****   ***  ****     *** **    * **** *
+         ** **  **  ****  **     * ***  * **** **** * ********* **  ****
+       **** ** ****       **    *   ****   **   **** **   **** ****
+      * *** **   ***      **   **    **    **    **  **    **    ***
+         ** **     ***    **   **    **    **    **  **    **      ***
+    **   ** **       ***  **   **    **    **    **  **    **        ***
+   ***   *  *   ****  **  **   **    **    **    **  **    **   ****  **
+    ***    *   * **** *   **   **    **    **    **  **    **  * **** *
+     ******       ****    *** * ***** **   ***   ***  *****       ****
+       ***                 ***   ***   **   ***   ***  ***
+
+             ***           *****   **    **                          *
+            ** ***       ******  ***** *****                  *     **
+           **   ***     **   *  *  ***** *****               **     **
+           **          *    *  *   * **  * **                **     **
+   ****    **              *  *    *     *  **   ****      ******** **
+  * ***  * ******         ** **    *     *   **    ***  * ********  **  ***
+ *   ****  *****          ** **    *     *   **     ****     **     ** * ***
+**    **   **             ** **    *     *   **      **      **     ***   ***
+**    **   **             ** **    *     *   **      **      **     **     **
+**    **   **             ** **    *     **  **      **      **     **     **
+**    **   **             *  **    *     **  **      **      **     **     **
+**    **   **                *     *      ** **      **      **     **     **
+ ******    **            ****      *      **  *********      **     **     **
+  ****     **           *  *****           **   **** ***      **    **     **
+            **         *     **                       ***            **    **
+                       *                       *****   ***                 *
+                        **                   ********  **                 *
+                                            *      ****                  *
+                                                                        *
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 18 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+>
+>>> emalz
+Password:
+>>> creative
+
+Last login: Sun May 17 02:20:58 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Emalz has reconnected (Kobold level 1).
+hp(812/812) sp(772/772) ep(566/566) >
+[LOGIN] Done
+>>> score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    0              |
+|                                                                            |
+| Experience     :           1,991     Explored          :  0.22% ( 1.95%)   |
+| Next level     :              27     Rooms Explored    :            39     |
+| Guild Level    :              27     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   32 | Hit Points     :   812 (  812) | AC       : VLow     |
+| Dexterity    :   28 | Spell Points   :   772 (  772) | Size     : 3'6"     |
+| Constitution :   38 | Endurance Pts. :   566 (  566) | Weight   : 77 lb    |
+| Stamina      :   28 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   26 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   26 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (1)                      | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(812/812) sp(772/772) ep(566/566) >
+>>> skills
+-=-=-| Warrior |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  attack                       :  28%  |  tanking                      :  28%
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+hp(812/812) sp(772/772) ep(566/566) >
+[START] Level 1
+[CYCLE] 1
+>>> score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    0              |
+|                                                                            |
+| Experience     :           1,991     Explored          :  0.22% ( 1.95%)   |
+| Next level     :              27     Rooms Explored    :            39     |
+| Guild Level    :              27     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   32 | Hit Points     :   812 (  812) | AC       : VLow     |
+| Dexterity    :   28 | Spell Points   :   772 (  772) | Size     : 3'6"     |
+| Constitution :   38 | Endurance Pts. :   566 (  566) | Weight   : 77 lb    |
+| Stamina      :   28 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   26 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   26 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (1)                      | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(812/812) sp(772/772) ep(566/566) >
+[STATUS] Level 1
+[JUDGE] Leveling up
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(812/812) sp(772/772) ep(566/566) >
+>>> e
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large podium. Upon that podium sits Achman, the
+judge. He controls the levels of Islands of Myth, and has the power to create some of the strongest players. He sits in
+a high back chair built into the podium. Talk to him if you wish to advance in your endeavors. 
+
+Achman the Judge
+
+hp(812/812) sp(772/772) ep(566/566) >
+>>> talk to judge
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Adventurers leveling place
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  General information                b)  List level costs              
+  c)  Advance a level                    d)  Advance a level picking a stat
+  e)  Advance several levels             q)  Quit                          
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdeq]
+>>> d
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Picking a special statistic for leveling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  Advance strength         b)  Advance constitution
+  c)  Advance dexterity        d)  Advance stamina     
+  e)  Advance intelligence     f)  Advance wisdom      
+  g)  Advance charisma         h)  Advance hp regen    
+  i)  Advance sp regen         j)  Advance ep regen    
+  m)  Main menu                q)  Quit                
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdefghijmq]
+>>> a
+How many times?:
+>>> 1
+You advance one level.
+As you get more powerful, you feel some of the Gods newbie blessing going away.
+Stats: str:+1, dex:+2, con:+1, wis:+1, sta:+1, hp_regen:+1, ep_regen:+2,
+       hp_max:+1, ep_max:+1
+You feel like you gained extra str!
+You are now level 2 with 1,964 experience points remaining.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Picking a special statistic for leveling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  Advance strength         b)  Advance constitution
+  c)  Advance dexterity        d)  Advance stamina     
+  e)  Advance intelligence     f)  Advance wisdom      
+  g)  Advance charisma         h)  Advance hp regen    
+  i)  Advance sp regen         j)  Advance ep regen    
+  m)  Main menu                q)  Quit                
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdefghijmq]
+>>> q
+Your body glows with magical energy.
+You feel fully refreshed.
+hp(812/812) sp(754/754) ep(568/568) >
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(812/812) sp(754/754) ep(568/568) >
+>>> score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    2                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           1,964     Explored          :  0.22% ( 1.95%)   |
+| Next level     :             103     Rooms Explored    :            39     |
+| Guild Level    :              27     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   33 | Hit Points     :   812 (  812) | AC       : VLow     |
+| Dexterity    :   29 | Spell Points   :   754 (  754) | Size     : 3'6"     |
+| Constitution :   38 | Endurance Pts. :   568 (  568) | Weight   : 77 lb    |
+| Stamina      :   28 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   26 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   90 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (1)                      | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(812/812) sp(754/754) ep(568/568) >
+[LEVEL] Leveled to 2!
+[WARRIOR] Visiting guild
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(812/812) sp(754/754) ep(568/568) >
+>>> sw
+Portal Room [exits: shifter, abjurer, elemental, woodsman, northeast, martial_artist, lurker, druid, acrobat, weaver,
+evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for the ease and convenience of all
+adventurers.
+
+
+hp(812/812) sp(754/754) ep(568/568) >
+>>> warrior
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with training equipment of various sort,
+weapons, armor and of course the huge figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they strive to be better under the master's
+watchful eye.
+
+A huge white marble plaque.
+QuinSyndrius The Great Warlord
+
+hp(812/812) sp(754/754) ep(568/568) >
+>>> advance
+You become more adept in your warrior guild.
+You learn the skill weapon skill blunt.
+Stats: str:+2, dex:+1, con:+2, int:+1, wis:+1, sta:+1, hp_regen:+2,
+       sp_regen:+1, ep_regen:+1, hp_max:+2, ep_max:+2, sp_max:+1
+This cost you 27 experience points.
+You feel as though the Gods now take less interest in your well being.
+hp(812/840) sp(754/776) ep(568/588) >
+[WARRIOR] Success: advance
+>>> level
+You just entered something the MUD doesn't understand.
+If you are having trouble, type help
+hp(812/840) sp(754/776) ep(568/588) >
+>>> train
+You just entered something the MUD doesn't understand.
+Common channels are newbie, chat and myth. Type: on myth.
+hp(812/840) sp(754/776) ep(568/588) >
+>>> train skills
+You can't train skills.
+hp(814/840) sp(758/776) ep(570/588) >
+>>> list skills
+.----------------------------------------------------------------------.
+| Skills                           | Lvl |  %  | Max | Exp:   |  $     |
++----------------------------------------------------------------------+
+| attack                           | 1   | 10  | 90  | 367    | 10     |
+| tanking                          | 1   | 10  | 90  | 445    | 12     |
+| weapon skill blunt               | 2   | 10  | 90  | 403    | 11     |
++----------------------------------------------------------------------+
+| Total: 3        |
+'-----------------'
+hp(814/840) sp(758/776) ep(570/588) >
+>>> skills
+-=-=-| Warrior |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  attack                       :  27%  |  tanking                      :  27%
+  weapon skill blunt           :  27%  |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+hp(814/840) sp(758/776) ep(570/588) >
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(814/840) sp(758/776) ep(570/588) >
+[EXPLORE] Starting
+[EXPLORE] Primary: n
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(818/840) sp(760/776) ep(574/588) >
+>>> n
+Glowing wisps float through the air.
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A grand memorial is here.
+A floating moonflower vine (glowing)
+
+hp(818/840) sp(760/776) ep(574/588) >
+>>> kill monster
+There is no monster here.
+hp(818/840) sp(760/776) ep(574/588) >
+>>> kill creature
+There is no creature here.
+hp(818/840) sp(760/776) ep(574/588) >
+>>> kill animal
+There is no animal here.
+hp(818/840) sp(760/776) ep(574/588) >
+[EXPLORE] Loop at On Cloud Road between Gossamer and Titan
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(822/840) sp(762/776) ep(578/588) >
+[EXPLORE] Primary: e
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(822/840) sp(762/776) ep(578/588) >
+>>> e
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large podium. Upon that podium sits Achman, the
+judge. He controls the levels of Islands of Myth, and has the power to create some of the strongest players. He sits in
+a high back chair built into the podium. Talk to him if you wish to advance in your endeavors. 
+
+Achman the Judge
+
+hp(822/840) sp(762/776) ep(578/588) >
+>>> kill monster
+There is no monster here.
+hp(822/840) sp(762/776) ep(578/588) >
+>>> kill creature
+There is no creature here.
+hp(822/840) sp(762/776) ep(578/588) >
+>>> kill animal
+There is no animal here.
+hp(826/840) sp(766/776) ep(580/588) >
+[EXPLORE] Loop at Level Room
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(826/840) sp(766/776) ep(580/588) >
+[EXPLORE] Primary: w
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(826/840) sp(766/776) ep(580/588) >
+>>> w
+Plaque Rooms [exits: east]
+ This large and marbleized room holds the famed plaques of Islands of Myth. Because it is valued among so many
+adventurers, its encasing is grand indeed. The walls are made of a solid white rock, lined with veins of blue. The
+floor is blue quartz. The numerous plaques hang on the walls.
+
+
+Spectra the Snakeman  
+
+hp(826/840) sp(766/776) ep(580/588) >
+[EXPLORE] Found snake at step 0
+[KILL] Attacking snake
+>>> combat silent on
+Combat settings:
+Attacking                     : On
+Defending                     : On
+Tanking                       : On
+Percent                       : Off
+Blocks                        : On
+Reporter                      : On
+Number                        : On
+Silent (generic)              : On
+Silent (start use)            : On
+Silent (finish use)           : On
+Silent (words)                : On
+Silent (skill action)         : Off
+Silent (round)                : On
+Silent (generic other)        : Off
+Silent (start use other)      : Off
+Silent (finish use other)     : Off
+Silent (words other)          : Off
+Silent (skill action other)   : Off
+hp(830/840) sp(768/776) ep(582/588) >
+>>> kill snake
+There is no snake here.
+hp(830/840) sp(768/776) ep(582/588) >
+>>> kill monster
+There is no monster here.
+hp(834/840) sp(772/776) ep(586/588) >
+>>> kill creature
+There is no creature here.
+hp(834/840) sp(772/776) ep(586/588) >
+>>> kill animal
+There is no animal here.
+hp(834/840) sp(772/776) ep(586/588) >
+[EXPLORE] No forward exit
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(834/840) sp(772/776) ep(586/588) >
+[EXPLORE] Primary: ne
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(834/840) sp(772/776) ep(586/588) >
+>>> ne
+You feel fully refreshed.
+Silent room [exits: southwest]
+ This is a silent room where no channels/tells/says can reach you.
+
+
+hp(838/840) sp(774/776) ep(588/588) >
+>>> kill monster
+There is no monster here.
+hp(838/840) sp(774/776) ep(588/588) >
+>>> kill creature
+There is no creature here.
+hp(838/840) sp(774/776) ep(588/588) >
+>>> kill animal
+There is no animal here.
+hp(838/840) sp(774/776) ep(588/588) >
+[EXPLORE] Loop at Silent room
+>>> warp
+You feel fully healed.
+Your body glows with magical energy.
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(840/840) sp(776/776) ep(588/588) >
+[EXPLORE] Primary: nw
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(840/840) sp(776/776) ep(588/588) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(840/840) sp(776/776) ep(588/588) >
+[EXPLORE] Primary: se
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(840/840) sp(776/776) ep(588/588) >
+>>> se
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(840/840) sp(776/776) ep(588/588) >
+>>> kill monster
+There is no monster here.
+hp(840/840) sp(776/776) ep(588/588) >
+>>> kill creature
+There is no creature here.
+hp(840/840) sp(776/776) ep(588/588) >
+>>> kill animal
+There is no animal here.
+hp(840/840) sp(776/776) ep(588/588) >
+[EXPLORE] Loop at Newbie Guild Entrance
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(840/840) sp(776/776) ep(588/588) >
+[EXPLORE] Primary: sw
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(840/840) sp(776/776) ep(588/588) >
+>>> sw
+Portal Room [exits: shifter, abjurer, elemental, woodsman, northeast, martial_artist, lurker, druid, acrobat, weaver,
+evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for the ease and convenience of all
+adventurers.
+
+
+hp(840/840) sp(776/776) ep(588/588) >
+[EXPLORE] Found bat at step 0
+[KILL] Attacking bat
+>>> combat silent on
+Combat settings:
+Attacking                     : On
+Defending                     : On
+Tanking                       : On
+Percent                       : Off
+Blocks                        : On
+Reporter                      : On
+Number                        : On
+Silent (generic)              : On
+Silent (start use)            : On
+Silent (finish use)           : On
+Silent (words)                : On
+Silent (skill action)         : Off
+Silent (round)                : On
+Silent (generic other)        : Off
+Silent (start use other)      : Off
+Silent (finish use other)     : Off
+Silent (words other)          : Off
+Silent (skill action other)   : Off
+hp(840/840) sp(776/776) ep(588/588) >
+>>> kill bat
+There is no bat here.
+hp(840/840) sp(776/776) ep(588/588) >
+>>> kill monster
+There is no monster here.
+hp(840/840) sp(776/776) ep(588/588) >
+>>> kill creature
+There is no creature here.
+hp(840/840) sp(776/776) ep(588/588) >
+>>> kill animal
+There is no animal here.
+hp(840/840) sp(776/776) ep(588/588) >
+[EXPLORE] No forward exit
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(840/840) sp(776/776) ep(588/588) >
+[EXPLORE] Primary: s
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(840/840) sp(776/776) ep(588/588) >
+>>> s
+Myth Room [exits: north]
+ In this room, those who have been honored stand. It is bright and open room, with plenty of light. Statues stand all
+along the walls. Statues of those who have contributed much to this amazing world. 
+
+Statue of Tigran
+Statue of Cebcurg
+Statue of Daneel
+Statue of Marvin
+Statue of Magneto
+Statue of Vor
+Statue of Drabit 
+Statue of Zifnab
+Statue of Friski
+Statue of Nyx
+Statue of Ant
+Statue of Sigwald
+Statue of Khosan
+
+hp(840/840) sp(776/776) ep(588/588) >
+[EXPLORE] Found bee at step 0
+[KILL] Attacking bee
+>>> combat silent on
+Combat settings:
+Attacking                     : On
+Defending                     : On
+Tanking                       : On
+Percent                       : Off
+Blocks                        : On
+Reporter                      : On
+Number                        : On
+Silent (generic)              : On
+Silent (start use)            : On
+Silent (finish use)           : On
+Silent (words)                : On
+Silent (skill action)         : Off
+Silent (round)                : On
+Silent (generic other)        : Off
+Silent (start use other)      : Off
+Silent (finish use other)     : Off
+Silent (words other)          : Off
+Silent (skill action other)   : Off
+hp(840/840) sp(776/776) ep(588/588) >
+>>> kill bee
+There is no bee here.
+hp(840/840) sp(776/776) ep(588/588) >
+>>> kill monster
+A mysterious force stops you.
+hp(840/840) sp(776/776) ep(588/588) >
+>>> kill creature
+There is no creature here.
+hp(840/840) sp(776/776) ep(588/588) >
+>>> kill animal
+There is no animal here.
+hp(840/840) sp(776/776) ep(588/588) >
+[EXPLORE] No forward exit
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(840/840) sp(776/776) ep(588/588) >
+[CYCLE] 2
+>>> score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    2                Open Guild Levels :    0              |
+|                                                                            |
+| Experience     :           1,937     Explored          :  0.22% ( 1.95%)   |
+| Next level     :             103     Rooms Explored    :            39     |
+| Guild Level    :             103     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   35 | Hit Points     :   840 (  840) | AC       : VLow     |
+| Dexterity    :   30 | Spell Points   :   776 (  776) | Size     : 3'6"     |
+| Constitution :   40 | Endurance Pts. :   588 (  588) | Weight   : 77 lb    |
+| Stamina      :   29 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   26 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   27 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   90 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (2)                      | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(840/840) sp(776/776) ep(588/588) >
+[STATUS] Level 2
+[JUDGE] Leveling up
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(840/840) sp(776/776) ep(588/588) >
+>>> e
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large podium. Upon that podium sits Achman, the
+judge. He controls the levels of Islands of Myth, and has the power to create some of the strongest players. He sits in
+a high back chair built into the podium. Talk to him if you wish to advance in your endeavors. 
+
+Achman the Judge
+
+hp(840/840) sp(776/776) ep(588/588) >
+>>> talk to judge
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Adventurers leveling place
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  General information                b)  List level costs              
+  c)  Advance a level                    d)  Advance a level picking a stat
+  e)  Advance several levels             q)  Quit                          
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdeq]
+>>> d
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Picking a special statistic for leveling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  Advance strength         b)  Advance constitution
+  c)  Advance dexterity        d)  Advance stamina     
+  e)  Advance intelligence     f)  Advance wisdom      
+  g)  Advance charisma         h)  Advance hp regen    
+  i)  Advance sp regen         j)  Advance ep regen    
+  m)  Main menu                q)  Quit                
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdefghijmq]
+>>> a
+{death}: Slayn died (Mischievous Conjurer in Training).
+How many times?:
+>>> 1
+You advance one level.
+As you get more powerful, you feel some of the Gods newbie blessing going away.
+Stats: str:+1, dex:+3, con:+1, int:+1, sta:+2, hp_regen:+2, ep_regen:+1,
+       hp_max:+1, ep_max:+1
+You feel like you gained extra str!
+You are now level 3 with 1,834 experience points remaining.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Picking a special statistic for leveling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  Advance strength         b)  Advance constitution
+  c)  Advance dexterity        d)  Advance stamina     
+  e)  Advance intelligence     f)  Advance wisdom      
+  g)  Advance charisma         h)  Advance hp regen    
+  i)  Advance sp regen         j)  Advance ep regen    
+  m)  Main menu                q)  Quit                
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdefghijmq]
+>>> q
+hp(840/828) sp(776/736) ep(588/582) >
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(840/828) sp(776/736) ep(588/582) >
+>>> score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    3                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           1,834     Explored          :  0.22% ( 1.95%)   |
+| Next level     :             289     Rooms Explored    :            39     |
+| Guild Level    :             103     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   35 | Hit Points     :   840 (  828) | AC       : VLow     |
+| Dexterity    :   31 | Spell Points   :   776 (  736) | Size     : 3'6"     |
+| Constitution :   39 | Endurance Pts. :   588 (  582) | Weight   : 77 lb    |
+| Stamina      :   29 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   25 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   88 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (2)                      | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(840/828) sp(776/736) ep(588/582) >
+[LEVEL] Leveled to 3!
+[WARRIOR] Visiting guild
+>>> warp
+You feel fully healed.
+Your body glows with magical energy.
+You feel fully refreshed.
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(828/828) sp(736/736) ep(582/582) >
+>>> sw
+Portal Room [exits: shifter, abjurer, elemental, woodsman, northeast, martial_artist, lurker, druid, acrobat, weaver,
+evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for the ease and convenience of all
+adventurers.
+
+
+hp(828/828) sp(736/736) ep(582/582) >
+>>> warrior
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with training equipment of various sort,
+weapons, armor and of course the huge figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they strive to be better under the master's
+watchful eye.
+
+A huge white marble plaque.
+QuinSyndrius The Great Warlord
+
+hp(828/828) sp(736/736) ep(582/582) >
+>>> advance
+You become more adept in your warrior guild.
+You learn the skill flesh of stone.
+Stats: str:+2, dex:+1, con:+2, wis:+1, sta:+1, hp_regen:+2, sp_regen:+1,
+       ep_regen:+2, hp_max:+2, ep_max:+2, sp_max:+1
+This cost you 103 experience points.
+You feel as though the Gods now take less interest in your well being.
+hp(828/860) sp(736/754) ep(582/602) >
+[WARRIOR] Success: advance
+>>> level
+You just entered something the MUD doesn't understand.
+If you are having trouble, type help
+hp(832/860) sp(738/754) ep(586/602) >
+>>> train
+You just entered something the MUD doesn't understand.
+To say something in a room type: say message
+hp(832/860) sp(738/754) ep(586/602) >
+>>> train skills
+You can't train skills.
+hp(832/860) sp(738/754) ep(586/602) >
+>>> list skills
+.----------------------------------------------------------------------.
+| Skills                           | Lvl |  %  | Max | Exp:   |  $     |
++----------------------------------------------------------------------+
+| attack                           | 1   | 10  | 90  | 367    | 10     |
+| tanking                          | 1   | 10  | 90  | 445    | 12     |
+| weapon skill blunt               | 2   | 10  | 90  | 403    | 11     |
+| flesh of stone                   | 3   | 10  | 90  | 566    | 16     |
++----------------------------------------------------------------------+
+| Total: 4        |
+'-----------------'
+hp(832/860) sp(738/754) ep(586/602) >
+>>> skills
+-=-=-| Warrior |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  attack                       :  24%  |  flesh of stone               :  24%
+  tanking                      :  24%  |  weapon skill blunt           :  24%
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+hp(832/860) sp(738/754) ep(586/602) >
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie at your feet.
+
+hp(834/860) sp(740/754) ep(588/602) >
+[EXPLORE] Starting
+[EXPLORE] Primary: n
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(834/860) sp(740/754) ep(588/602) >
+>>> n
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A grand memorial is here.
+A floating moonflower vine (glowing)
+
+hp(834/860) sp(740/754) ep(588/602) >
+>>> kill monster
+There is no monster here.
+hp(834/860) sp(740/754) ep(588/602) >
+>>> kill creature
+There is no creature here.
+hp(838/860) sp(742/754) ep(590/602) >
+>>> kill animal
+There is no animal here.
+hp(838/860) sp(742/754) ep(590/602) >
+[EXPLORE] Loop at On Cloud Road between Gossamer and Titan
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(838/860) sp(742/754) ep(590/602) >
+[EXPLORE] Primary: e
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie at your feet.
+
+hp(838/860) sp(742/754) ep(590/602) >
+>>> e
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large podium. Upon that podium sits Achman, the
+judge. He controls the levels of Islands of Myth, and has the power to create some of the strongest players. He sits in
+a high back chair built into the podium. Talk to him if you wish to advance in your endeavors. 
+
+Achman the Judge
+
+hp(838/860) sp(742/754) ep(590/602) >
+>>> kill monster
+There is no monster here.
+hp(842/860) sp(746/754) ep(594/602) >
+>>> kill creature
+There is no creature here.
+hp(842/860) sp(746/754) ep(594/602) >
+>>> kill animal
+There is no animal here.
+hp(842/860) sp(746/754) ep(594/602) >
+[EXPLORE] Loop at Level Room
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie at your feet.
+
+hp(842/860) sp(746/754) ep(594/602) >
+[EXPLORE] Primary: w
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(842/860) sp(746/754) ep(594/602) >
+>>> w
+Plaque Rooms [exits: east]
+ This large and marbleized room holds the famed plaques of Islands of Myth. Because it is valued among so many
+adventurers, its encasing is grand indeed. The walls are made of a solid white rock, lined with veins of blue. The
+floor is blue quartz. The numerous plaques hang on the walls.
+
+
+Spectra the Snakeman  
+
+hp(846/860) sp(748/754) ep(598/602) >
+[EXPLORE] Found snake at step 0
+[KILL] Attacking snake
+>>> combat silent on
+Combat settings:
+Attacking                     : On
+Defending                     : On
+Tanking                       : On
+Percent                       : Off
+Blocks                        : On
+Reporter                      : On
+Number                        : On
+Silent (generic)              : On
+Silent (start use)            : On
+Silent (finish use)           : On
+Silent (words)                : On
+Silent (skill action)         : Off
+Silent (round)                : On
+Silent (generic other)        : Off
+Silent (start use other)      : Off
+Silent (finish use other)     : Off
+Silent (words other)          : Off
+Silent (skill action other)   : Off
+hp(846/860) sp(748/754) ep(598/602) >
+>>> kill snake
+There is no snake here.
+hp(846/860) sp(748/754) ep(598/602) >
+>>> kill monster
+There is no monster here.
+hp(850/860) sp(750/754) ep(600/602) >
+>>> kill creature
+There is no creature here.
+hp(850/860) sp(750/754) ep(600/602) >
+>>> kill animal
+There is no animal here.
+hp(850/860) sp(750/754) ep(600/602) >
+[EXPLORE] No forward exit
+>>> warp
+Your body glows with magical energy.
+You feel fully refreshed.
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(854/860) sp(754/754) ep(602/602) >
+[EXPLORE] Primary: ne
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(854/860) sp(754/754) ep(602/602) >
+>>> ne
+Silent room [exits: southwest]
+ This is a silent room where no channels/tells/says can reach you.
+
+
+hp(854/860) sp(754/754) ep(602/602) >
+>>> kill monster
+There is no monster here.
+hp(854/860) sp(754/754) ep(602/602) >
+>>> kill creature
+There is no creature here.
+hp(858/860) sp(754/754) ep(602/602) >
+>>> kill animal
+There is no animal here.
+hp(858/860) sp(754/754) ep(602/602) >
+[EXPLORE] Loop at Silent room
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(858/860) sp(754/754) ep(602/602) >
+[EXPLORE] Primary: nw
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(858/860) sp(754/754) ep(602/602) >
+>>> nw
+You feel fully healed.
+It doesn't seem possible to go that direction.
+hp(860/860) sp(754/754) ep(602/602) >
+[EXPLORE] Primary: se
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(860/860) sp(754/754) ep(602/602) >
+>>> se
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(860/860) sp(754/754) ep(602/602) >
+>>> kill monster
+There is no monster here.
+hp(860/860) sp(754/754) ep(602/602) >
+>>> kill creature
+There is no creature here.
+hp(860/860) sp(754/754) ep(602/602) >
+>>> kill animal
+There is no animal here.
+hp(860/860) sp(754/754) ep(602/602) >
+[EXPLORE] Loop at Newbie Guild Entrance
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie at your feet.
+
+hp(860/860) sp(754/754) ep(602/602) >
+[EXPLORE] Primary: sw
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(860/860) sp(754/754) ep(602/602) >
+>>> sw
+Portal Room [exits: shifter, abjurer, elemental, woodsman, northeast, martial_artist, lurker, druid, acrobat, weaver,
+evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for the ease and convenience of all
+adventurers.
+
+
+hp(860/860) sp(754/754) ep(602/602) >
+[EXPLORE] Found bat at step 0
+[KILL] Attacking bat
+>>> combat silent on
+Combat settings:
+Attacking                     : On
+Defending                     : On
+Tanking                       : On
+Percent                       : Off
+Blocks                        : On
+Reporter                      : On
+Number                        : On
+Silent (generic)              : On
+Silent (start use)            : On
+Silent (finish use)           : On
+Silent (words)                : On
+Silent (skill action)         : Off
+Silent (round)                : On
+Silent (generic other)        : Off
+Silent (start use other)      : Off
+Silent (finish use other)     : Off
+Silent (words other)          : Off
+Silent (skill action other)   : Off
+hp(860/860) sp(754/754) ep(602/602) >
+>>> kill bat
+There is no bat here.
+hp(860/860) sp(754/754) ep(602/602) >
+>>> kill monster
+There is no monster here.
+hp(860/860) sp(754/754) ep(602/602) >
+>>> kill creature
+There is no creature here.
+hp(860/860) sp(754/754) ep(602/602) >
+>>> kill animal
+There is no animal here.
+hp(860/860) sp(754/754) ep(602/602) >
+[EXPLORE] No forward exit
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(860/860) sp(754/754) ep(602/602) >
+[EXPLORE] Primary: s
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie at your feet.
+
+hp(860/860) sp(754/754) ep(602/602) >
+>>> s
+Myth Room [exits: north]
+ In this room, those who have been honored stand. It is bright and open room, with plenty of light. Statues stand all
+along the walls. Statues of those who have contributed much to this amazing world. 
+
+Statue of Tigran
+Statue of Cebcurg
+Statue of Daneel
+Statue of Marvin
+Statue of Magneto
+Statue of Vor
+Statue of Drabit 
+Statue of Zifnab
+Statue of Friski
+Statue of Nyx
+Statue of Ant
+Statue of Sigwald
+Statue of Khosan
+
+hp(860/860) sp(754/754) ep(602/602) >
+[EXPLORE] Found bee at step 0
+[KILL] Attacking bee
+>>> combat silent on
+Combat settings:
+Attacking                     : On
+Defending                     : On
+Tanking                       : On
+Percent                       : Off
+Blocks                        : On
+Reporter                      : On
+Number                        : On
+Silent (generic)              : On
+Silent (start use)            : On
+Silent (finish use)           : On
+Silent (words)                : On
+Silent (skill action)         : Off
+Silent (round)                : On
+Silent (generic other)        : Off
+Silent (start use other)      : Off
+Silent (finish use other)     : Off
+Silent (words other)          : Off
+Silent (skill action other)   : Off
+hp(860/860) sp(754/754) ep(602/602) >
+>>> kill bee
+There is no bee here.
+hp(860/860) sp(754/754) ep(602/602) >
+>>> kill monster
+A mysterious force stops you.
+hp(860/860) sp(754/754) ep(602/602) >
+>>> kill creature
+There is no creature here.
+hp(860/860) sp(754/754) ep(602/602) >
+>>> kill animal
+There is no animal here.
+hp(860/860) sp(754/754) ep(602/602) >
+[EXPLORE] No forward exit
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(860/860) sp(754/754) ep(602/602) >
+[CYCLE] 3
+>>> score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    3                Open Guild Levels :    0              |
+|                                                                            |
+| Experience     :           1,731     Explored          :  0.22% ( 1.95%)   |
+| Next level     :             289     Rooms Explored    :            39     |
+| Guild Level    :             289     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   37 | Hit Points     :   860 (  860) | AC       : VLow     |
+| Dexterity    :   32 | Spell Points   :   754 (  754) | Size     : 3'6"     |
+| Constitution :   42 | Endurance Pts. :   602 (  602) | Weight   : 77 lb    |
+| Stamina      :   30 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   26 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   88 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (3)                      | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(860/860) sp(754/754) ep(602/602) >
+[STATUS] Level 3
+[JUDGE] Leveling up
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(860/860) sp(754/754) ep(602/602) >
+>>> e
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large podium. Upon that podium sits Achman, the
+judge. He controls the levels of Islands of Myth, and has the power to create some of the strongest players. He sits in
+a high back chair built into the podium. Talk to him if you wish to advance in your endeavors. 
+
+Achman the Judge
+
+hp(860/860) sp(754/754) ep(602/602) >
+>>> talk to judge
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Adventurers leveling place
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  General information                b)  List level costs              
+  c)  Advance a level                    d)  Advance a level picking a stat
+  e)  Advance several levels             q)  Quit                          
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdeq]
+>>> d
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Picking a special statistic for leveling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  Advance strength         b)  Advance constitution
+  c)  Advance dexterity        d)  Advance stamina     
+  e)  Advance intelligence     f)  Advance wisdom      
+  g)  Advance charisma         h)  Advance hp regen    
+  i)  Advance sp regen         j)  Advance ep regen    
+  m)  Main menu                q)  Quit                
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdefghijmq]
+>>> a
+How many times?:
+>>> 1
+You advance one level.
+As you get more powerful, you feel some of the Gods newbie blessing going away.
+Stats: str:+1, dex:+2, con:+1, int:+1, sta:+2, hp_regen:+1, ep_regen:+1,
+       hp_max:+1, ep_max:+2
+You feel like you gained extra str!
+You are now level 4 with 1,442 experience points remaining.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Picking a special statistic for leveling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  Advance strength         b)  Advance constitution
+  c)  Advance dexterity        d)  Advance stamina     
+  e)  Advance intelligence     f)  Advance wisdom      
+  g)  Advance charisma         h)  Advance hp regen    
+  i)  Advance sp regen         j)  Advance ep regen    
+  m)  Main menu                q)  Quit                
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdefghijmq]
+>>> q
+hp(860/862) sp(754/736) ep(602/614) >
+>>> warp
+You feel fully healed.
+Your body glows with magical energy.
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Someone has left 2 Formula: Head: Lesser Wisdoms lying on the ground.
+
+hp(862/862) sp(736/736) ep(606/614) >
+>>> score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    4                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           1,442     Explored          :  0.22% ( 1.95%)   |
+| Next level     :             645     Rooms Explored    :            39     |
+| Guild Level    :             289     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   38 | Hit Points     :   862 (  862) | AC       : VLow     |
+| Dexterity    :   33 | Spell Points   :   736 (  736) | Size     : 3'6"     |
+| Constitution :   42 | Endurance Pts. :   606 (  614) | Weight   : 77 lb    |
+| Stamina      :   31 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   25 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   87 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (3)                      | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(862/862) sp(736/736) ep(606/614) >
+[LEVEL] Leveled to 4!
+[WARRIOR] Visiting guild
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(862/862) sp(736/736) ep(606/614) >
+>>> sw
+Portal Room [exits: shifter, abjurer, elemental, woodsman, northeast, martial_artist, lurker, druid, acrobat, weaver,
+evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for the ease and convenience of all
+adventurers.
+
+
+hp(862/862) sp(736/736) ep(606/614) >
+>>> warrior
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with training equipment of various sort,
+weapons, armor and of course the huge figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they strive to be better under the master's
+watchful eye.
+
+A huge white marble plaque.
+QuinSyndrius The Great Warlord
+
+hp(862/862) sp(736/736) ep(606/614) >
+>>> advance
+You become more adept in your warrior guild.
+You learn the skill honor of the gods.
+Stats: str:+1, dex:+2, con:+2, wis:+1, sta:+1, hp_regen:+2, sp_regen:+1,
+       ep_regen:+2, hp_max:+2, ep_max:+1, sp_max:+1
+This cost you 289 experience points.
+You feel as though the Gods now take less interest in your well being.
+hp(862/888) sp(736/754) ep(608/630) >
+[WARRIOR] Success: advance
+>>> level
+You just entered something the MUD doesn't understand.
+Common channels are newbie, chat and myth. Type: on myth.
+hp(862/888) sp(736/754) ep(608/630) >
+>>> train
+You just entered something the MUD doesn't understand.
+Need more help, ask on the newbie channel, type: newbie 'your question.'
+hp(862/888) sp(736/754) ep(608/630) >
+>>> train skills
+You can't train skills.
+hp(862/888) sp(736/754) ep(608/630) >
+>>> list skills
+.----------------------------------------------------------------------.
+| Skills                           | Lvl |  %  | Max | Exp:   |  $     |
++----------------------------------------------------------------------+
+| attack                           | 1   | 10  | 90  | 367    | 10     |
+| tanking                          | 1   | 10  | 90  | 445    | 12     |
+| weapon skill blunt               | 2   | 10  | 90  | 403    | 11     |
+| flesh of stone                   | 3   | 10  | 90  | 566    | 16     |
+| honor of the gods                | 4   | 10  | 90  | 445    | 12     |
++----------------------------------------------------------------------+
+| Total: 5        |
+'-----------------'
+hp(868/888) sp(738/754) ep(612/630) >
+>>> skills
+-=-=-| Warrior |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  attack                       :  23%  |  flesh of stone               :  23%
+  honor of the gods            :  23%  |  tanking                      :  23%
+  weapon skill blunt           :  23%  |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+hp(868/888) sp(738/754) ep(612/630) >
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(868/888) sp(738/754) ep(612/630) >
+[EXPLORE] Starting
+[EXPLORE] Primary: n
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(868/888) sp(738/754) ep(612/630) >
+>>> n
+Glowing wisps float through the air.
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A grand memorial is here.
+A floating moonflower vine (glowing)
+
+hp(868/888) sp(738/754) ep(612/630) >
+>>> kill monster
+There is no monster here.
+hp(870/888) sp(742/754) ep(616/630) >
+>>> kill creature
+There is no creature here.
+hp(870/888) sp(742/754) ep(616/630) >
+>>> kill animal
+There is no animal here.
+hp(870/888) sp(742/754) ep(616/630) >
+[EXPLORE] Loop at On Cloud Road between Gossamer and Titan
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie at your feet.
+
+hp(870/888) sp(742/754) ep(616/630) >
+[EXPLORE] Primary: e
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(876/888) sp(744/754) ep(618/630) >
+>>> e
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large podium. Upon that podium sits Achman, the
+judge. He controls the levels of Islands of Myth, and has the power to create some of the strongest players. He sits in
+a high back chair built into the podium. Talk to him if you wish to advance in your endeavors. 
+
+Achman the Judge
+
+hp(876/888) sp(744/754) ep(618/630) >
+>>> kill monster
+There is no monster here.
+hp(876/888) sp(744/754) ep(618/630) >
+>>> kill creature
+There is no creature here.
+hp(876/888) sp(744/754) ep(618/630) >
+>>> kill animal
+There is no animal here.
+hp(876/888) sp(744/754) ep(618/630) >
+[EXPLORE] Loop at Level Room
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(878/888) sp(746/754) ep(622/630) >
+[EXPLORE] Primary: w
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(878/888) sp(746/754) ep(622/630) >
+>>> w
+Plaque Rooms [exits: east]
+ This large and marbleized room holds the famed plaques of Islands of Myth. Because it is valued among so many
+adventurers, its encasing is grand indeed. The walls are made of a solid white rock, lined with veins of blue. The
+floor is blue quartz. The numerous plaques hang on the walls.
+
+
+Slayn Slyna the Elf  
+Spectra the Snakeman  
+
+hp(878/888) sp(746/754) ep(622/630) >
+[EXPLORE] Found snake at step 0
+[KILL] Attacking snake
+>>> combat silent on
+Combat settings:
+Attacking                     : On
+Defending                     : On
+Tanking                       : On
+Percent                       : Off
+Blocks                        : On
+Reporter                      : On
+Number                        : On
+Silent (generic)              : On
+Silent (start use)            : On
+Silent (finish use)           : On
+Silent (words)                : On
+Silent (skill action)         : Off
+Silent (round)                : On
+Silent (generic other)        : Off
+Silent (start use other)      : Off
+Silent (finish use other)     : Off
+Silent (words other)          : Off
+Silent (skill action other)   : Off
+hp(878/888) sp(746/754) ep(622/630) >
+>>> kill snake
+There is no snake here.
+hp(878/888) sp(746/754) ep(622/630) >
+>>> kill monster
+Slayn examines the top players.
+There is no monster here.
+hp(882/888) sp(748/754) ep(624/630) >
+>>> kill creature
+You feel fully healed.
+There is no creature here.
+hp(888/888) sp(752/754) ep(628/630) >
+>>> kill animal
+There is no animal here.
+hp(888/888) sp(752/754) ep(628/630) >
+[EXPLORE] No forward exit
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(888/888) sp(752/754) ep(628/630) >
+[EXPLORE] Primary: ne
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(888/888) sp(752/754) ep(628/630) >
+>>> ne
+Silent room [exits: southwest]
+ This is a silent room where no channels/tells/says can reach you.
+
+
+hp(888/888) sp(752/754) ep(628/630) > Your body glows with magical energy.
+You feel fully refreshed.
+>>> kill monster
+There is no monster here.
+hp(888/888) sp(754/754) ep(630/630) >
+>>> kill creature
+There is no creature here.
+hp(888/888) sp(754/754) ep(630/630) >
+>>> kill animal
+There is no animal here.
+hp(888/888) sp(754/754) ep(630/630) >
+[EXPLORE] Loop at Silent room
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie at your feet.
+
+hp(888/888) sp(754/754) ep(630/630) >
+[EXPLORE] Primary: nw
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(888/888) sp(754/754) ep(630/630) >
+>>> nw
+It doesn't seem possible to go that direction.
+hp(888/888) sp(754/754) ep(630/630) >
+[EXPLORE] Primary: se
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(888/888) sp(754/754) ep(630/630) >
+>>> se
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(888/888) sp(754/754) ep(630/630) >
+>>> kill monster
+There is no monster here.
+hp(888/888) sp(754/754) ep(630/630) >
+>>> kill creature
+There is no creature here.
+hp(888/888) sp(754/754) ep(630/630) >
+>>> kill animal
+There is no animal here.
+hp(888/888) sp(754/754) ep(630/630) >
+[EXPLORE] Loop at Newbie Guild Entrance
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, abandoned.
+
+hp(888/888) sp(754/754) ep(630/630) >
+[EXPLORE] Primary: sw
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie at your feet.
+
+hp(888/888) sp(754/754) ep(630/630) >
+>>> sw
+Portal Room [exits: shifter, abjurer, elemental, woodsman, northeast, martial_artist, lurker, druid, acrobat, weaver,
+evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for the ease and convenience of all
+adventurers.
+
+
+hp(888/888) sp(754/754) ep(630/630) >
+[EXPLORE] Found bat at step 0
+[KILL] Attacking bat
+>>> combat silent on
+Combat settings:
+Attacking                     : On
+Defending                     : On
+Tanking                       : On
+Percent                       : Off
+Blocks                        : On
+Reporter                      : On
+Number                        : On
+Silent (generic)              : On
+Silent (start use)            : On
+Silent (finish use)           : On
+Silent (words)                : On
+Silent (skill action)         : Off
+Silent (round)                : On
+Silent (generic other)        : Off
+Silent (start use other)      : Off
+Silent (finish use other)     : Off
+Silent (words other)          : Off
+Silent (skill action other)   : Off
+hp(888/888) sp(754/754) ep(630/630) >
+>>> kill bat
+There is no bat here.
+hp(888/888) sp(754/754) ep(630/630) >
+>>> kill monster
+There is no monster here.
+hp(888/888) sp(754/754) ep(630/630) >
+>>> kill creature
+There is no creature here.
+hp(888/888) sp(754/754) ep(630/630) >
+>>> kill animal
+There is no animal here.
+hp(888/888) sp(754/754) ep(630/630) >
+[EXPLORE] No forward exit
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(888/888) sp(754/754) ep(630/630) >
+[EXPLORE] Primary: s
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(888/888) sp(754/754) ep(630/630) >
+>>> s
+Myth Room [exits: north]
+ In this room, those who have been honored stand. It is bright and open room, with plenty of light. Statues stand all
+along the walls. Statues of those who have contributed much to this amazing world. 
+
+Statue of Tigran
+Statue of Cebcurg
+Statue of Daneel
+Statue of Marvin
+Statue of Magneto
+Statue of Vor
+Statue of Drabit 
+Statue of Zifnab
+Statue of Friski
+Statue of Nyx
+Statue of Ant
+Statue of Sigwald
+Statue of Khosan
+
+hp(888/888) sp(754/754) ep(630/630) >
+[EXPLORE] Found bee at step 0
+[KILL] Attacking bee
+>>> combat silent on
+Combat settings:
+Attacking                     : On
+Defending                     : On
+Tanking                       : On
+Percent                       : Off
+Blocks                        : On
+Reporter                      : On
+Number                        : On
+Silent (generic)              : On
+Silent (start use)            : On
+Silent (finish use)           : On
+Silent (words)                : On
+Silent (skill action)         : Off
+Silent (round)                : On
+Silent (generic other)        : Off
+Silent (start use other)      : Off
+Silent (finish use other)     : Off
+Silent (words other)          : Off
+Silent (skill action other)   : Off
+hp(888/888) sp(754/754) ep(630/630) >
+>>> kill bee
+There is no bee here.
+hp(888/888) sp(754/754) ep(630/630) >
+>>> kill monster
+A mysterious force stops you.
+hp(888/888) sp(754/754) ep(630/630) >
+>>> kill creature
+There is no creature here.
+hp(888/888) sp(754/754) ep(630/630) >
+>>> kill animal
+There is no animal here.
+hp(888/888) sp(754/754) ep(630/630) >
+[EXPLORE] No forward exit
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(888/888) sp(754/754) ep(630/630) >
+[CYCLE] 4
+>>> score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    4                Open Guild Levels :    0              |
+|                                                                            |
+| Experience     :           1,153     Explored          :  0.22% ( 1.95%)   |
+| Next level     :             645     Rooms Explored    :            39     |
+| Guild Level    :             645     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   39 | Hit Points     :   888 (  888) | AC       : VLow     |
+| Dexterity    :   35 | Spell Points   :   754 (  754) | Size     : 3'6"     |
+| Constitution :   44 | Endurance Pts. :   630 (  630) | Weight   : 77 lb    |
+| Stamina      :   32 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   26 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   87 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (4)                      | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(888/888) sp(754/754) ep(630/630) >
+[STATUS] Level 4
+[JUDGE] Leveling up
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(888/888) sp(754/754) ep(630/630) >
+>>> e
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large podium. Upon that podium sits Achman, the
+judge. He controls the levels of Islands of Myth, and has the power to create some of the strongest players. He sits in
+a high back chair built into the podium. Talk to him if you wish to advance in your endeavors. 
+
+Achman the Judge
+
+hp(888/888) sp(754/754) ep(630/630) >
+>>> talk to judge
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Adventurers leveling place
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  General information                b)  List level costs              
+  c)  Advance a level                    d)  Advance a level picking a stat
+  e)  Advance several levels             q)  Quit                          
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdeq]
+>>> d
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Picking a special statistic for leveling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  Advance strength         b)  Advance constitution
+  c)  Advance dexterity        d)  Advance stamina     
+  e)  Advance intelligence     f)  Advance wisdom      
+  g)  Advance charisma         h)  Advance hp regen    
+  i)  Advance sp regen         j)  Advance ep regen    
+  m)  Main menu                q)  Quit                
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdefghijmq]
+>>> a
+How many times?:
+>>> 1
+You advance one level.
+As you get more powerful, you feel some of the Gods newbie blessing going away.
+Stats: str:+1, dex:+2, con:+1, int:+1, sta:+2, hp_regen:+2, ep_regen:+2,
+       hp_max:+1, ep_max:+2
+You feel like you gained extra str!
+You are now level 5 with 508 experience points remaining.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Picking a special statistic for leveling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  Advance strength         b)  Advance constitution
+  c)  Advance dexterity        d)  Advance stamina     
+  e)  Advance intelligence     f)  Advance wisdom      
+  g)  Advance charisma         h)  Advance hp regen    
+  i)  Advance sp regen         j)  Advance ep regen    
+  m)  Main menu                q)  Quit                
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdefghijmq]
+>>> q
+hp(888/876) sp(754/714) ep(630/628) >
+>>> warp
+You feel fully healed.
+Your body glows with magical energy.
+You feel fully refreshed.
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(876/876) sp(714/714) ep(628/628) >
+>>> score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    5                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :             508     Explored          :  0.22% ( 1.95%)   |
+| Next level     :           1,232     Rooms Explored    :            39     |
+| Guild Level    :             645     Gold on hand      :         1,000     |
+| To Next Level  :             724     Gold in bank      :             0     |
+| To Guild Level :             137                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   39 | Hit Points     :   876 (  876) | AC       : VLow     |
+| Dexterity    :   35 | Spell Points   :   714 (  714) | Size     : 3'6"     |
+| Constitution :   43 | Endurance Pts. :   628 (  628) | Weight   : 77 lb    |
+| Stamina      :   32 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   24 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   24 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   85 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (4)                      | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(876/876) sp(714/714) ep(628/628) >
+[LEVEL] Leveled to 5!
+[WARRIOR] Visiting guild
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(876/876) sp(714/714) ep(628/628) >
+>>> sw
+Portal Room [exits: shifter, abjurer, elemental, woodsman, northeast, martial_artist, lurker, druid, acrobat, weaver,
+evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for the ease and convenience of all
+adventurers.
+
+
+hp(876/876) sp(714/714) ep(628/628) >
+>>> warrior
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with training equipment of various sort,
+weapons, armor and of course the huge figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they strive to be better under the master's
+watchful eye.
+
+A huge white marble plaque.
+QuinSyndrius The Great Warlord
+
+hp(876/876) sp(714/714) ep(628/628) >
+>>> advance
+You still need 137 more experience to advance.
+QuinSyndrius shakes his head at you.
+hp(876/876) sp(714/714) ep(628/628) >
+>>> level
+You just entered something the MUD doesn't understand.
+To say something in a room type: say message
+hp(876/876) sp(714/714) ep(628/628) >
+>>> train
+You just entered something the MUD doesn't understand.
+Want to try something fun? type: random
+hp(876/876) sp(714/714) ep(628/628) >
+>>> train skills
+You can't train skills.
+hp(876/876) sp(714/714) ep(628/628) >
+>>> list skills
+.----------------------------------------------------------------------.
+| Skills                           | Lvl |  %  | Max | Exp:   |  $     |
++----------------------------------------------------------------------+
+| attack                           | 1   | 10  | 90  | 367    | 10     |
+| tanking                          | 1   | 10  | 90  | 445    | 12     |
+| weapon skill blunt               | 2   | 10  | 90  | 403    | 11     |
+| flesh of stone                   | 3   | 10  | 90  | 566    | 16     |
+| honor of the gods                | 4   | 10  | 90  | 445    | 12     |
++----------------------------------------------------------------------+
+| Total: 5        |
+'-----------------'
+hp(876/876) sp(714/714) ep(628/628) >
+>>> skills
+-=-=-| Warrior |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  attack                       :  21%  |  flesh of stone               :  21%
+  honor of the gods            :  21%  |  tanking                      :  21%
+  weapon skill blunt           :  21%  |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+hp(876/876) sp(714/714) ep(628/628) >
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie at your feet.
+
+hp(876/876) sp(714/714) ep(628/628) >
+>>> score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    5                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :             508     Explored          :  0.22% ( 1.95%)   |
+| Next level     :           1,232     Rooms Explored    :            39     |
+| Guild Level    :             645     Gold on hand      :         1,000     |
+| To Next Level  :             724     Gold in bank      :             0     |
+| To Guild Level :             137                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   39 | Hit Points     :   876 (  876) | AC       : VLow     |
+| Dexterity    :   35 | Spell Points   :   714 (  714) | Size     : 3'6"     |
+| Constitution :   43 | Endurance Pts. :   628 (  628) | Weight   : 77 lb    |
+| Stamina      :   32 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   24 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   24 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   85 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (4)                      | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(876/876) sp(714/714) ep(628/628) >
+>>> skills
+-=-=-| Warrior |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  attack                       :  21%  |  flesh of stone               :  21%
+  honor of the gods            :  21%  |  tanking                      :  21%
+  weapon skill blunt           :  21%  |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+hp(876/876) sp(714/714) ep(628/628) >
+>>> inventory
+You just entered something the MUD doesn't understand.
+If you are having trouble, type help
+hp(876/876) sp(714/714) ep(628/628) >
+>>> quit
+[READ_ERR] telnet connection closed
+Quitting. Please stand by while saving.
+SUMMARY
+Login time: 58m9s  Exp Earned: 0
+________________________________________________________________
+|       Combat Category   |   Today's session | Total to date  |
+'--------------------------------------------------------------'
+|  Experience per minute  |         0         |       18       |
+|   Criticals inflicted   |         0         |        0       |
+|     Criticals taken     |         0         |        0       |
+|     Stuns inflicted     |         0         |        0       |
+|       Stuns taken       |         0         |        0       |
+|     Dodges Performed    |         0         |        0       |
+|         # deaths        |         0         |        0       |
+|         # reincs        |         0         |        0       |
+'--------------------------------------------------------------'
+Closing down.
+ Saving your character.
+[END] 2026-05-17T14:26:24.433966

@@ -1,0 +1,10 @@
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with training equipment of various sort,
+weapons, armor and of course the huge figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they strive to be better under the master's
+watchful eye.
+
+A huge white marble plaque.
+QuinSyndrius The Great Warlord
+
+hp(796/796) sp(772/772) ep(566/566) > 

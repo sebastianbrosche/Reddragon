@@ -1,0 +1,165 @@
+#!/usr/bin/expect -f
+set timeout 30
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/continuous_[exec date +%s].log"
+log_file $logfile
+
+spawn telnet islandsofmyth.org 3000
+
+# Login sequence
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+
+# Wait for prompt
+expect "hp("
+
+# Record initial state
+send "score\r"
+expect "hp("
+sleep 1
+
+send "skills\r"
+expect "hp("
+sleep 1
+
+# Start grinding loop
+set grind_count 0
+
+while {1} {
+    incr grind_count
+    puts "=== GRIND CYCLE $grind_count ==="
+    
+    # Navigate to Yensidland via sisong teleport
+    send "warp\r"
+    expect "hp("
+    sleep 1
+    
+    send "se\r"
+    expect "hp("
+    sleep 1
+    
+    send "e\r"
+    expect "hp("
+    sleep 1
+    
+    # Talk to sisong - navigate menu and teleport to Yensid
+    send "talk sisong\r"
+    sleep 2
+    expect "Newbie Areas"
+    send "2\r"
+    
+    sleep 2
+    expect "Yensid Land"
+    send "9\r"
+    
+    sleep 2
+    expect "Would you like to visit"
+    send "Y\r"
+    
+    # Wait for teleport to complete
+    sleep 3
+    expect "hp("
+    
+    # Now navigate to LobeLands (from Yensid entrance)
+    # The path from Yensid entry to LobeLands
+    send "nw\r"
+    expect "hp("
+    sleep 1
+    
+    # Look at room
+    send "look\r"
+    expect "hp("
+    sleep 1
+    
+    # Kill all earwigs in room 1
+    set killed 0
+    for {set i 0} {$i < 5} {incr i} {
+        send "kill earwig\r"
+        sleep 4
+        expect {
+            "You killed" {
+                incr killed
+                send "get all from corpse\r"
+                sleep 1
+                expect "hp("
+                send "eat corpse\r"
+                sleep 1
+                expect "hp("
+            }
+            "What?" { break }
+            "There is no" { break }
+            "hp(" { sleep 1 }
+            timeout { send "\r"; expect "hp(" }
+        }
+    }
+    
+    # Go north to second LobeLands room
+    send "n\r"
+    expect "hp("
+    sleep 1
+    
+    send "look\r"
+    expect "hp("
+    sleep 1
+    
+    # Kill all earwigs in room 2
+    for {set i 0} {$i < 5} {incr i} {
+        send "kill earwig\r"
+        sleep 4
+        expect {
+            "You killed" {
+                incr killed
+                send "get all from corpse\r"
+                sleep 1
+                expect "hp("
+                send "eat corpse\r"
+                sleep 1
+                expect "hp("
+            }
+            "What?" { break }
+            "There is no" { break }
+            "hp(" { sleep 1 }
+            timeout { send "\r"; expect "hp(" }
+        }
+    }
+    
+    # Go back south
+    send "s\r"
+    expect "hp("
+    sleep 1
+    
+    # Periodic score check every 5 cycles
+    if {$grind_count % 5 == 0} {
+        send "score\r"
+        expect "hp("
+        sleep 1
+    }
+    
+    # Skills check every 10 cycles
+    if {$grind_count % 10 == 0} {
+        send "skills\r"
+        expect "hp("
+        sleep 1
+    }
+    
+    # Heal break every 8 cycles - warp to heal
+    if {$grind_count % 8 == 0} {
+        send "warp\r"
+        expect "hp("
+        sleep 3
+        send "score\r"
+        expect "hp("
+        sleep 1
+    }
+    
+    puts "=== CYCLE $grind_count COMPLETE - Killed: $killed ==="
+    sleep 2
+}
+
+# Cleanup
+send "quit\r"
+expect "Save"
+send "Y\r"
+
+puts "Grinding session ended"

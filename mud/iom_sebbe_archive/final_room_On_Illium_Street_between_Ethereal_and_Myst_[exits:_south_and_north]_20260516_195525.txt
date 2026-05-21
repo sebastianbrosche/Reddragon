@@ -1,0 +1,8 @@
+{
+  "look": "On Illium Street between Ethereal and Myst [exits: south and north]\r\n You stand before Central Square as it lies directly south. To the west you can see the pools of Gossamer through the Lorling trees at\r\nyour side. And to the east, Lorlings stand in a cluster, creating a small forest in the heart of the city. Each side of the street,\r\nLorlings sway and talk among themselves in a language lost to your ears.\r\n\r\nA floating moonflower vine (glowing)\r\n\r\n",
+  "exits": "You notice these exits:\r\n         North :  Intersection of Illium\r\n                  and Ethereal\r\n         South :  Central Square\r\n",
+  "scan": "If you're sick of making typos, check out Islands of Myth's web page.\r\n",
+  "from": "Central Square [exits: south, west, north, east and fountain]",
+  "via": "north",
+  "enter_msg": "Glowing wisps float through the air.\r\nOn Illium Street between Ethereal and Myst [exits: south and north]\r\nA floating moonflower vine (glowing)\r\n\r\n"
+}

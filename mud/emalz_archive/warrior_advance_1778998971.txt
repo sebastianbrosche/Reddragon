@@ -1,0 +1,7 @@
+You become more adept in your warrior guild.
+You learn the skill weapon skill blunt.
+Stats: str:+2, dex:+1, con:+2, int:+1, wis:+1, sta:+1, hp_regen:+2,
+       sp_regen:+1, ep_regen:+1, hp_max:+2, ep_max:+2, sp_max:+1
+This cost you 27 experience points.
+You feel as though the Gods now take less interest in your well being.
+hp(812/840) sp(754/776) ep(568/588) > 

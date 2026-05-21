@@ -1,0 +1,2 @@
+There is no bat here.
+hp(888/888) sp(754/754) ep(630/630) > 

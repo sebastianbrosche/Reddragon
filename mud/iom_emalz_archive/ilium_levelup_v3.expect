@@ -1,0 +1,99 @@
+#!/usr/bin/expect -f
+set timeout 60
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/ilium_levelup_v3.log"
+exec rm -f $logfile
+log_file $logfile
+
+spawn telnet islandsofmyth.org 3000
+
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+expect ">"
+
+# Record state
+send "score\r"
+expect ">"
+
+# Warp to guild
+send "warp\r"
+expect ">"
+
+# Go to Level Room
+send "e\r"
+expect ">"
+
+# Advance level with stat - fixed menu handling
+send "talk achman\r"
+expect "Adventurers leveling place"
+expect "\[abcdeq\]"
+
+# Select d) Advance a level picking a stat
+send "d\r"
+expect "Picking a special statistic for leveling"
+expect "\[abcdefghijmq\]"
+
+# Pick a) Strength
+send "a\r"
+sleep 2
+expect {
+    ">" {}
+    "You do not have enough experience" {
+        sleep 1
+        expect ">"
+    }
+    "What" {
+        send "\r"
+        sleep 1
+        expect ">"
+    }
+    timeout {
+        send "\r"
+        expect ">"
+    }
+}
+
+# Check result
+send "score\r"
+expect ">"
+
+# Try advancing again
+send "talk achman\r"
+expect "Adventurers leveling place"
+expect "\[abcdeq\]"
+send "d\r"
+expect "Picking a special statistic for leveling"
+expect "\[abcdefghijmq\]"
+send "a\r"
+sleep 2
+expect ">"
+
+send "score\r"
+expect ">"
+
+# Try once more
+send "talk achman\r"
+expect "Adventurers leveling place"
+expect "\[abcdeq\]"
+send "d\r"
+expect "Picking a special statistic for leveling"
+expect "\[abcdefghijmq\]"
+send "a\r"
+sleep 2
+expect ">"
+
+send "score\r"
+expect ">"
+
+# Back to guild
+send "w\r"
+expect ">"
+
+# Save and quit
+send "quit\r"
+sleep 3
+expect "Save"
+send "Y\r"
+
+puts "LEVELUP V3 COMPLETE"

@@ -1,0 +1,202 @@
+spawn telnet islandsofmyth.org 3000
+Trying 158.69.5.47...
+Connected to islandsofmyth.org.
+Escape character is '^]'.
+^L
+___                      _               
+ |  _ | _.._  _| _   _ _|_  |\/|  _|_ |_ 
+_|__> |(_|| |(_|_>  (_) |   |  |\/ |_ | |
+                                /        
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 23 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+> emalz
+Password: 
+Last login: Sun May 17 17:42:58 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+hp(880/880) sp(714/714) ep(634/634) > score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    6                Open Guild Levels :    2              |
+|                                                                            |
+| Experience     :           1,276     Explored          :  0.28% ( 2.40%)   |
+| Next level     :           2,118     Rooms Explored    :            48     |
+| Guild Level    :             645     Gold on hand      :         1,000     |
+| To Next Level  :             842     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   42 | Hit Points     :   880 (  880) | AC       : VLow     |
+| Dexterity    :   36 | Spell Points   :   714 (  714) | Size     : 3'6"     |
+| Constitution :   43 | Endurance Pts. :   634 (  634) | Weight   : 77 lb    |
+| Stamina      :   33 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   24 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   24 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   84 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (4)                      | Mail          : 0/0           |
+|                                            | Kills         : 8             |
+`----------------------------------------------------------------------------'
+hp(880/880) sp(714/714) ep(634/634) > skills
+-=-=-| Warrior |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  attack                       :  20%  |  flesh of stone               :  20%
+  honor of the gods            :  20%  |  tanking                      :  20%
+  weapon skill blunt           :  20%  |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+hp(880/880) sp(714/714) ep(634/634) > warp
+The magic fails you.
+hp(880/880) sp(714/714) ep(634/634) > sw
+It doesn't seem possible to go that direction.
+hp(880/880) sp(714/714) ep(634/634) > look
+Detention Facility [exits: none]
+ This facility has been established to uphold a standard of accountability. Within these walls, individuals who engage
+in disruptive and unacceptable behavior find themselves facing the consequences of their actions. Placement in this
+facility is a result of actions such as botting, harassment, sexism, racism, griefing, and excessive spamming, among
+others. It is important to note that this list is not exhaustive, and any behaviors that contravene the principles of
+this realm may lead to confinement within this detention facility. It is worth emphasizing that those who adhere to the
+established norms and guidelines of this realm will never find themselves within these confines. However, failure to do
+so has brought you here.
+
+
+hp(880/880) sp(714/714) ep(634/634) > warrior
+You just entered something the MUD doesn't understand.
+To say something in a room type: say message
+hp(880/880) sp(714/714) ep(634/634) > look
+Detention Facility [exits: none]
+ This facility has been established to uphold a standard of accountability. Within these walls, individuals who engage
+in disruptive and unacceptable behavior find themselves facing the consequences of their actions. Placement in this
+facility is a result of actions such as botting, harassment, sexism, racism, griefing, and excessive spamming, among
+others. It is important to note that this list is not exhaustive, and any behaviors that contravene the principles of
+this realm may lead to confinement within this detention facility. It is worth emphasizing that those who adhere to the
+established norms and guidelines of this realm will never find themselves within these confines. However, failure to do
+so has brought you here.
+
+
+hp(880/880) sp(714/714) ep(634/634) > n
+It doesn't seem possible to go that direction.
+hp(880/880) sp(714/714) ep(634/634) > look
+Detention Facility [exits: none]
+ This facility has been established to uphold a standard of accountability. Within these walls, individuals who engage
+in disruptive and unacceptable behavior find themselves facing the consequences of their actions. Placement in this
+facility is a result of actions such as botting, harassment, sexism, racism, griefing, and excessive spamming, among
+others. It is important to note that this list is not exhaustive, and any behaviors that contravene the principles of
+this realm may lead to confinement within this detention facility. It is worth emphasizing that those who adhere to the
+established norms and guidelines of this realm will never find themselves within these confines. However, failure to do
+so has brought you here.
+
+
+hp(880/880) sp(714/714) ep(634/634) > s
+It doesn't seem possible to go that direction.
+hp(880/880) sp(714/714) ep(634/634) > s
+It doesn't seem possible to go that direction.
+hp(880/880) sp(714/714) ep(634/634) > look
+Detention Facility [exits: none]
+ This facility has been established to uphold a standard of accountability. Within these walls, individuals who engage
+in disruptive and unacceptable behavior find themselves facing the consequences of their actions. Placement in this
+facility is a result of actions such as botting, harassment, sexism, racism, griefing, and excessive spamming, among
+others. It is important to note that this list is not exhaustive, and any behaviors that contravene the principles of
+this realm may lead to confinement within this detention facility. It is worth emphasizing that those who adhere to the
+established norms and guidelines of this realm will never find themselves within these confines. However, failure to do
+so has brought you here.
+
+
+hp(880/880) sp(714/714) ep(634/634) > n
+It doesn't seem possible to go that direction.
+hp(880/880) sp(714/714) ep(634/634) > e
+It doesn't seem possible to go that direction.
+hp(880/880) sp(714/714) ep(634/634) > look
+Detention Facility [exits: none]
+ This facility has been established to uphold a standard of accountability. Within these walls, individuals who engage
+in disruptive and unacceptable behavior find themselves facing the consequences of their actions. Placement in this
+facility is a result of actions such as botting, harassment, sexism, racism, griefing, and excessive spamming, among
+others. It is important to note that this list is not exhaustive, and any behaviors that contravene the principles of
+this realm may lead to confinement within this detention facility. It is worth emphasizing that those who adhere to the
+established norms and guidelines of this realm will never find themselves within these confines. However, failure to do
+so has brought you here.
+
+
+hp(880/880) sp(714/714) ep(634/634) > w
+It doesn't seem possible to go that direction.
+hp(880/880) sp(714/714) ep(634/634) > w
+It doesn't seem possible to go that direction.
+hp(880/880) sp(714/714) ep(634/634) > look
+Detention Facility [exits: none]
+ This facility has been established to uphold a standard of accountability. Within these walls, individuals who engage
+in disruptive and unacceptable behavior find themselves facing the consequences of their actions. Placement in this
+facility is a result of actions such as botting, harassment, sexism, racism, griefing, and excessive spamming, among
+others. It is important to note that this list is not exhaustive, and any behaviors that contravene the principles of
+this realm may lead to confinement within this detention facility. It is worth emphasizing that those who adhere to the
+established norms and guidelines of this realm will never find themselves within these confines. However, failure to do
+so has brought you here.
+
+
+hp(880/880) sp(714/714) ep(634/634) > e
+It doesn't seem possible to go that direction.
+hp(880/880) sp(714/714) ep(634/634) > ne
+It doesn't seem possible to go that direction.
+hp(880/880) sp(714/714) ep(634/634) > look
+Detention Facility [exits: none]
+ This facility has been established to uphold a standard of accountability. Within these walls, individuals who engage
+in disruptive and unacceptable behavior find themselves facing the consequences of their actions. Placement in this
+facility is a result of actions such as botting, harassment, sexism, racism, griefing, and excessive spamming, among
+others. It is important to note that this list is not exhaustive, and any behaviors that contravene the principles of
+this realm may lead to confinement within this detention facility. It is worth emphasizing that those who adhere to the
+established norms and guidelines of this realm will never find themselves within these confines. However, failure to do
+so has brought you here.
+
+
+hp(880/880) sp(714/714) ep(634/634) > sw
+It doesn't seem possible to go that direction.
+hp(880/880) sp(714/714) ep(634/634) > nw
+It doesn't seem possible to go that direction.
+hp(880/880) sp(714/714) ep(634/634) > look
+Detention Facility [exits: none]
+ This facility has been established to uphold a standard of accountability. Within these walls, individuals who engage
+in disruptive and unacceptable behavior find themselves facing the consequences of their actions. Placement in this
+facility is a result of actions such as botting, harassment, sexism, racism, griefing, and excessive spamming, among
+others. It is important to note that this list is not exhaustive, and any behaviors that contravene the principles of
+this realm may lead to confinement within this detention facility. It is worth emphasizing that those who adhere to the
+established norms and guidelines of this realm will never find themselves within these confines. However, failure to do
+so has brought you here.
+
+
+hp(880/880) sp(714/714) ep(634/634) > You are taken over by yourself, or something.
+Connection closed by foreign host.
+se
+send: spawn id exp4 not open
+    while executing
+"send "$dir\r""
+    ("foreach" body line 2)
+    invoked from within
+"foreach dir $wdirs {
+    send "$dir\r"
+    sleep 1
+    expect ">"
+    send "look\r"
+    sleep 1
+    expect ">"
+    switch $dir {
+        "n" { send "s..."
+    (file "/root/.openclaw/workspace/mud/iom_emalz_archive/comprehensive_session.expect" line 40)

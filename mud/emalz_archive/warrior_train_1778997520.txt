@@ -1,0 +1,2 @@
+You can't train skills.
+hp(804/804) sp(772/772) ep(566/566) > 

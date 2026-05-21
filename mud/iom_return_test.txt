@@ -1,0 +1,340 @@
+# Return Path Test
+
+=== LOGIN ===
+Password: 
+
+=== PASSWORD ===
+
+Last login: Wed May 13 18:36:01 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Explorer has reconnected (Human level 1).
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== ENTER PORTAL ===
+There is no portal here.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== LOCATION ===
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== AT GUILD ===
+Warrior Training Center [exits: out]
+ The fabled office of QuinSyndrius turns out to be a large hall filled with
+training equipment of various sort, weapons, armor and of course the huge
+figure of QuinSyndrius himself. Currently the hall is empty but you can almost
+hear the clashing of sword on sword of many warriors, past and present, as they
+strive to be better under the master's watchful eye.
+
+QuinSyndrius The Great Warlord
+A huge white marble plaque.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== PORTAL ROOM ===
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== WARRIOR ===
+You just entered something the MUD doesn't understand.
+Common channels are newbie, chat and myth. Type: on myth.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== AFTER OUT ===
+Outside a small shack [exits: northeast, west, south, southeast, shack,
+northwest, north, east and southwest]
+ffff|ffff There is a curious shack here. It looks quite old. 
+ffff#ffff 
+fff#*#fff 
+bfff#ffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== OUT ROOM LOOK ===
+Outside a small shack [exits: northeast, west, south, southeast, shack,
+northwest, north, east and southwest]
+ffff|ffff There is a curious shack here. It looks quite old. 
+ffff#ffff 
+fff#*#fff 
+bfff#ffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== OUT ROOM EXITS ===
+You notice these exits:
+     Southwest :  Forest
+          East :  Crumbling
+                  Ruins
+         North :  Crumbling
+                  Ruins
+     Northwest :  Forest
+         Shack :  Warrior Training
+                  Center
+     Southeast :  Forest
+         South :  Crumbling
+                  Ruins
+          West :  Crumbling
+                  Ruins
+     Northeast :  Forest
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== TRY IN ===
+You just entered something the MUD doesn't understand.
+Talk to Sisong in the adv hall if you get a chance for more help.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== BACK FROM IN ===
+You just entered something the MUD doesn't understand.
+Want to try something fun? type: random
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== TRY ENTER ===
+You just entered something the MUD doesn't understand.
+Want to try something fun? type: random
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== BACK FROM ENTER ===
+You just entered something the MUD doesn't understand.
+Type who to see who is online.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== TRY NORTH ===
+Crumbling Ruins [exits: northeast, west, south, southeast, northwest, north,
+east and southwest]
+ffff|ffff All around are the shattered walls of ancient buildings. 
+ffff|ffff 
+ffff*ffff 
+fff#?#fff 
+bfff#ffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== BACK FROM NORTH ===
+Outside a small shack [exits: northeast, west, south, southeast, shack,
+northwest, north, east and southwest]
+ffff|ffff There is a curious shack here. It looks quite old. 
+ffff#ffff 
+fff#*#fff 
+bfff#ffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== TRY SOUTH ===
+Crumbling Ruins [exits: northeast, west, south, southeast, northwest, north,
+east and southwest]
+ffff#ffff All around are the shattered walls of ancient buildings. 
+fff#?#fff 
+bfff*ffff 
+fffffffff 
+ffffffff^ 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== BACK FROM SOUTH ===
+Outside a small shack [exits: northeast, west, south, southeast, shack,
+northwest, north, east and southwest]
+ffff|ffff There is a curious shack here. It looks quite old. 
+ffff#ffff 
+fff#*#fff 
+bfff#ffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== TRY EAST ===
+Crumbling Ruins [exits: northeast, west, south, southeast, northwest, north,
+east and southwest]
+fff|fffff All around are the shattered walls of ancient buildings. 
+fff#fffff 
+ff#?*ffff 
+fff#fffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== BACK FROM EAST ===
+Outside a small shack [exits: northeast, west, south, southeast, shack,
+northwest, north, east and southwest]
+ffff|ffff There is a curious shack here. It looks quite old. 
+ffff#ffff 
+fff#*#fff 
+bfff#ffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== TRY WEST ===
+Crumbling Ruins [exits: northeast, west, south, southeast, northwest, north,
+east and southwest]
+?ffff|fff All around are the shattered walls of ancient buildings. 
+fffff#fff 
+bfff*?#ff 
+~bfff#fff 
+bffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== BACK FROM WEST ===
+Outside a small shack [exits: northeast, west, south, southeast, shack,
+northwest, north, east and southwest]
+ffff|ffff There is a curious shack here. It looks quite old. 
+ffff#ffff 
+fff#*#fff 
+bfff#ffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== TRY NORTHEAST ===
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+fff|fffff You are in a forest. Large trees form a canopy overhead. The ground
+fff|fffff is moist and fertile. 
+fff#*ffff 
+ff#?#ffff 
+fff#fffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== BACK FROM NORTHEAST ===
+Outside a small shack [exits: northeast, west, south, southeast, shack,
+northwest, north, east and southwest]
+ffff|ffff There is a curious shack here. It looks quite old. 
+ffff#ffff 
+fff#*#fff 
+bfff#ffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== TRY NORTHWEST ===
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+fffff|fff You are in a forest. Large trees form a canopy overhead. The ground
+?ffff|fff is moist and fertile. 
+ffff*#fff 
+bfff#?#ff 
+~bfff#fff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== BACK FROM NORTHWEST ===
+Outside a small shack [exits: northeast, west, south, southeast, shack,
+northwest, north, east and southwest]
+ffff|ffff There is a curious shack here. It looks quite old. 
+ffff#ffff 
+fff#*#fff 
+bfff#ffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== TRY SOUTHEAST ===
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+fff#fffff You are in a forest. Large trees form a canopy overhead. The ground
+ff#?#ffff is moist and fertile. 
+fff#*ffff 
+fffffffff 
+fffffff^^ 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== BACK FROM SOUTHEAST ===
+Outside a small shack [exits: northeast, west, south, southeast, shack,
+northwest, north, east and southwest]
+ffff|ffff There is a curious shack here. It looks quite old. 
+ffff#ffff 
+fff#*#fff 
+bfff#ffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== TRY SOUTHWEST ===
+Forest [exits: northeast, west, south, southeast, northwest, north, east and
+southwest]
+fffff#fff You are in a forest. Large trees form a canopy overhead. The ground
+bfff#?#ff is moist and fertile. 
+~bff*#fff 
+bffffffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== BACK FROM SOUTHWEST ===
+Outside a small shack [exits: northeast, west, south, southeast, shack,
+northwest, north, east and southwest]
+ffff|ffff There is a curious shack here. It looks quite old. 
+ffff#ffff 
+fff#*#fff 
+bfff#ffff 
+fffffffff 
+
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== TRY PORTAL ===
+You just entered something the MUD doesn't understand.
+To say something in a room type: say message
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== TRY WARRIOR ===
+You just entered something the MUD doesn't understand.
+Type look to see what is in the current room.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+=== QUIT ===
+Quitting. Please stand by while saving.
+SUMMARY
+Login time: 24m4s  Exp Earned: 0
+________________________________________________________________
+|       Combat Category   |   Today's session | Total to date  |
+'--------------------------------------------------------------'
+|  Experience per minute  |         0         |       166      |
+|   Criticals inflicted   |         0         |        0       |
+|     Criticals taken     |         0         |        0       |
+|     Stuns inflicted     |         0         |        0       |
+|       Stuns taken       |         0         |        0       |
+|     Dodges Performed    |         0         |        0       |
+|         # deaths        |         0         |        0       |
+|         # reincs        |         0         |        0       |
+'--------------------------------------------------------------'
+Closing down.
+ Saving your character.
+

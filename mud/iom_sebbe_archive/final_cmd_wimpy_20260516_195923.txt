@@ -1,0 +1,2 @@
+Wimpy is set at 50%
+You will start fleeing when you get to about 1083 hit points.

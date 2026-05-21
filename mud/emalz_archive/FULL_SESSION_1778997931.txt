@@ -1,0 +1,341 @@
+^L
+
+  \_   \___| | __ _ _ __   __| |___    ___  / _|   /\/\  _   _| |_| |__  
+   / /\/ __| |/ _` | '_ \ / _` / __|  / _ \| |_   /    \| | | | __| '_ \ 
+/\/ /_ \__ \ | (_| | | | | (_| \__ \ | (_) |  _| / /\/\ \ |_| | |_| | | |
+\____/ |___/_|\__,_|_| |_|\__,_|___/  \___/|_|   \/    \/\__, |\__|_| |_|
+                                                         |___/          
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 19 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+> Password: 
+Last login: Sun May 17 01:51:29 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Emalz has reconnected (Kobold level 1).
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    0              |
+|                                                                            |
+| Experience     :           1,991     Explored          :  0.22% ( 1.95%)   |
+| Next level     :              27     Rooms Explored    :            39     |
+| Guild Level    :              27     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   32 | Hit Points     :   804 (  804) | AC       : VLow     |
+| Dexterity    :   28 | Spell Points   :   772 (  772) | Size     : 3'4"     |
+| Constitution :   38 | Endurance Pts. :   566 (  566) | Weight   : 73 lb    |
+| Stamina      :   28 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   26 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   26 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (1)                      | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> skills
+-=-=-| Warrior |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  attack                       :  28%  |  tanking                      :  28%
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> se
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> e
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> talk to gnosis
+There is no gnosis here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> look
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill earwig
+There is no earwig here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill insect
+There is no insect here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill bug
+There is no bug here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill monster
+There is no monster here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill creature
+There is no creature here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> n
+Brightly Lit Hallway [exits: south and east]
+ You are wandering down a brightly lit hallway. To the east you can make out the entrance to Maxxis' Newbie Shop and to
+the south is the way back to the entrance of the Newbie Guild.
+
+
+Temuthril the Angel 17.43 -> 22.43
+
+hp(804/804) sp(772/772) ep(566/566) > Autosave.
+
+>>> look
+Brightly Lit Hallway [exits: south and east]
+ You are wandering down a brightly lit hallway. To the east you can make out the entrance to Maxxis' Newbie Shop and to
+the south is the way back to the entrance of the Newbie Guild.
+
+
+Temuthril the Angel 17.43 -> 22.43
+
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill earwig
+There is no earwig here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill insect
+There is no insect here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill bug
+There is no bug here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill monster
+There is no monster here.
+hp(804/804) sp(772/772) ep(566/566) > A fizzball can launches from the bat! Temuthril screams, 'Die can! DIE!!' and pummels said can.
+
+>>> kill creature
+There is no creature here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> n
+It doesn't seem possible to go that direction.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> look
+Brightly Lit Hallway [exits: south and east]
+ You are wandering down a brightly lit hallway. To the east you can make out the entrance to Maxxis' Newbie Shop and to
+the south is the way back to the entrance of the Newbie Guild.
+
+
+Temuthril the Angel 17.43 -> 22.43
+
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill earwig
+There is no earwig here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill insect
+There is no insect here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill bug
+There is no bug here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill monster
+There is no monster here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill creature
+There is no creature here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> n
+It doesn't seem possible to go that direction.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> look
+Brightly Lit Hallway [exits: south and east]
+ You are wandering down a brightly lit hallway. To the east you can make out the entrance to Maxxis' Newbie Shop and to
+the south is the way back to the entrance of the Newbie Guild.
+
+
+Temuthril the Angel 17.43 -> 22.43
+
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill earwig
+There is no earwig here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill insect
+There is no insect here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill bug
+There is no bug here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill monster
+There is no monster here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill creature
+There is no creature here.
+hp(804/804) sp(772/772) ep(566/566) > You receive a heal from the Gods as Zarp prays for your salvation.
+
+>>> n
+It doesn't seem possible to go that direction.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> look
+Brightly Lit Hallway [exits: south and east]
+ You are wandering down a brightly lit hallway. To the east you can make out the entrance to Maxxis' Newbie Shop and to
+the south is the way back to the entrance of the Newbie Guild.
+
+
+Temuthril the Angel 17.43 -> 22.43
+
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill earwig
+There is no earwig here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill insect
+There is no insect here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill bug
+There is no bug here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill monster
+There is no monster here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill creature
+There is no creature here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> n
+It doesn't seem possible to go that direction.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> look
+Brightly Lit Hallway [exits: south and east]
+ You are wandering down a brightly lit hallway. To the east you can make out the entrance to Maxxis' Newbie Shop and to
+the south is the way back to the entrance of the Newbie Guild.
+
+
+Temuthril the Angel 17.43 -> 22.43
+
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill earwig
+There is no earwig here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill insect
+There is no insect here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill bug
+There is no bug here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill monster
+There is no monster here.
+hp(804/804) sp(772/772) ep(566/566) > You receive a heal from the Gods as Zarp prays for your salvation.
+You feel that the awesome power of the prayer also healed your mind and limbs.
+
+>>> kill creature
+There is no creature here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> n
+It doesn't seem possible to go that direction.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> look
+Brightly Lit Hallway [exits: south and east]
+ You are wandering down a brightly lit hallway. To the east you can make out the entrance to Maxxis' Newbie Shop and to
+the south is the way back to the entrance of the Newbie Guild.
+
+
+Temuthril the Angel 17.43 -> 22.43
+
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill earwig
+There is no earwig here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill insect
+There is no insect here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill bug
+There is no bug here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill monster
+There is no monster here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill creature
+There is no creature here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> n
+It doesn't seem possible to go that direction.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> look
+Brightly Lit Hallway [exits: south and east]
+ You are wandering down a brightly lit hallway. To the east you can make out the entrance to Maxxis' Newbie Shop and to
+the south is the way back to the entrance of the Newbie Guild.
+
+
+Temuthril the Angel 17.43 -> 22.43
+
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill earwig
+There is no earwig here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill insect
+There is no insect here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill bug
+There is no bug here.
+hp(804/804) sp(772/772) ep(566/566) > You receive a heal from the Gods as Zarp prays for your salvation.
+
+>>> kill monster
+There is no monster here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> kill creature
+There is no creature here.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> n
+It doesn't seem possible to go that direction.
+hp(804/804) sp(772/772) ep(566/566) > 
+>>> look
+Brightly Lit Hallway [exits: south and east]
+ You are wandering down a brightly lit hallway. To the east you can make out the entrance to Maxxis' Newbie Shop and to
+the south is the way back to the entrance of the Newbie Guild.
+
+
+Temuthril the Angel 17.43 -> 22.43
+
+hp(804/804) sp(772/772) ep(566/566) > You are taken over by yourself, or something.
+
+>>> kill earwig

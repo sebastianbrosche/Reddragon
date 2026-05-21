@@ -1,0 +1,63 @@
+#!/usr/bin/expect -f
+set timeout 30
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/level6_[exec date +%s].log"
+log_file $logfile
+
+spawn telnet islandsofmyth.org 3000
+
+# Login sequence
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+
+# Wait for prompt
+expect "hp("
+
+# Check initial score
+send "score\r"
+expect "hp("
+sleep 1
+
+# Go to judge
+send "warp\r"
+expect "hp("
+sleep 1
+
+send "e\r"
+expect "hp("
+sleep 1
+
+# Talk to Achman - use option d (advance picking stat), then pick a (strength)
+send "talk achman\r"
+sleep 2
+
+expect "Advance a level picking a stat"
+send "d\r"
+
+sleep 2
+
+# Pick strength (option a)
+expect "Advance strength"
+send "a\r"
+
+sleep 3
+expect "hp("
+
+# Confirm level up
+send "score\r"
+expect "hp("
+sleep 1
+
+send "skills\r"
+expect "hp("
+sleep 1
+
+puts "=== LEVEL UP COMPLETE ==="
+
+# Save and quit
+send "quit\r"
+expect "Save"
+send "Y\r"
+
+puts "=== SESSION COMPLETE ==="

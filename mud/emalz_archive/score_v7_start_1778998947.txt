@@ -1,0 +1,22 @@
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    0              |
+|                                                                            |
+| Experience     :           1,991     Explored          :  0.22% ( 1.95%)   |
+| Next level     :              27     Rooms Explored    :            39     |
+| Guild Level    :              27     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   32 | Hit Points     :   812 (  812) | AC       : VLow     |
+| Dexterity    :   28 | Spell Points   :   772 (  772) | Size     : 3'6"     |
+| Constitution :   38 | Endurance Pts. :   566 (  566) | Weight   : 77 lb    |
+| Stamina      :   28 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   26 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   26 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (1)                      | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(812/812) sp(772/772) ep(566/566) > 

@@ -1,0 +1,1 @@
+Weight (in lbs): You[108] + EQ[1] = Total[109], Capacity[0%]

@@ -1,0 +1,5 @@
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) > 

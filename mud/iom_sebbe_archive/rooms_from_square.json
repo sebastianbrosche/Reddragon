@@ -1,0 +1,12 @@
+{
+  "north": "Glowing wisps float through the air.\r\nOn Illium Street between Ethereal and Myst [exits: south and north]\r\nA floating moonflower vine\r\n\r\n",
+  "south": "Something runs through the trees in the east. You hear a splash and it is gone!\r\nOn Illium Street between Myst and Crystal [exits: south and north]\r\nA floating moonflower vine\r\n\r\n",
+  "east": "Glowing wisps float through the air.\r\nOn Myst Avenue between Illium and Gossamer [exits: west and east]\r\nA floating moonflower vine\r\n\r\n",
+  "west": "Glowing wisps float through the air.\r\nOn Myst Avenue between Arcane and Illium [exits: west and east]\r\nA floating moonflower vine\r\n\r\n",
+  "up": "It doesn't seem possible to go that direction.\r\nBlue no longer feels the effects of Mithren's warsong.\r\n",
+  "down": "It doesn't seem possible to go that direction.\r\n",
+  "n": "Crabstick enters.\r\nOn Illium Street between Ethereal and Myst [exits: south and north]\r\nA floating moonflower vine\r\n\r\n",
+  "s": "On Illium Street between Myst and Crystal [exits: south and north]\r\nA floating moonflower vine\r\n\r\nAutosave.\r\n",
+  "e": "On Myst Avenue between Illium and Gossamer [exits: west and east]\r\nA floating moonflower vine\r\n\r\n",
+  "w": "On Myst Avenue between Arcane and Illium [exits: west and east]\r\nA floating moonflower vine\r\n\r\n"
+}

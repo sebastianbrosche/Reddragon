@@ -1,0 +1,8 @@
+{
+  "look": "Intersection of Illium and Ethereal [exits: south, west, north and east]\r\n This intersection is the beginning of the inner sanctum of Central Square. The Lorlings that lined Illium fan out and join those that\r\nsurround the town square. Inside you can hear the sound of water rushing. And directly south the fountain is coming into view.\r\n\r\nA floating moonflower vine (glowing)\r\n\r\n",
+  "exits": "You notice these exits:\r\n          East :  On Ethereal Lane\r\n                  between Illium and\r\n         North :  Intersection of Illium\r\n                  and Cloud\r\n          West :  On Ethereal Lane\r\n                  between Arcane and\r\n         South :  On Illium Street\r\n                  between Ethereal and\r\n",
+  "path": [
+    "north",
+    "north"
+  ]
+}

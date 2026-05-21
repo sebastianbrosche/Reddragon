@@ -1,0 +1,16 @@
+ 27)  Rescue Clara                                              
+ 28)  Newbie Explore                                            
+ 29)  Feline Puzzle (C)               
+ 30)  Help Breeder Bob                                          
+ 31)  Help Farmer Joe (C)             
+ 32)  To slay a God (C)               
+ 33)  Nuvo City Newbie School                                   
+ 34)  Avenge Players Death (C)        
+ 35)  Light the Lighthouse Lamp                                 
+ 36)  Elven Secret                                              
+ 37)  Avert Orc Invasion                                        
+ 38)  Help Miss Cromwell                                        
+ 39)  Retrieve the Shikon Shards                                
+  q)  Quit                                                      
+
+Information for which quest: 

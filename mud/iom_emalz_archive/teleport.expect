@@ -1,0 +1,46 @@
+#!/usr/bin/expect -f
+set timeout 30
+spawn telnet islandsofmyth.org 3000
+
+# Wait for connection
+expect {
+    "Connected" { sleep 1 }
+    timeout { puts "Connection timeout"; exit 1 }
+}
+
+# Wait for login prompt
+expect {
+    "By what name do you wish to be known?" { 
+        send "emalz\r"
+    }
+    "name" { 
+        send "emalz\r"
+    }
+    timeout { puts "No login prompt"; exit 1 }
+}
+
+# Wait for password prompt
+expect {
+    "Password:" { 
+        send "creative\r"
+    }
+    "password" { 
+        send "creative\r"
+    }
+    timeout { puts "No password prompt"; exit 1 }
+}
+
+# Wait for game prompt and log everything
+expect {
+    ">" { 
+        puts "LOGGED IN"
+    }
+    "$" { 
+        puts "LOGGED IN"
+    }
+    timeout { puts "No game prompt"; exit 1 }
+}
+
+# Send command and interact
+send "look\r"
+interact

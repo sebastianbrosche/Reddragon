@@ -1,0 +1,8 @@
+{
+  "look": "Intersection of Gossamer and Myst [exits: south, west, north and east]\r\n This little intersection is the beginning of the inner sanctum of Central Square. North of you, many Lorlings sit; clustered as if\r\nthey were a flock of preternatural beings. West is Central Square! You can see part of the monument through the overhangs of the trees.\r\nSouthwest, more trees stand, but through them, you see a sort of glimmering, like pools. And to the northeast, a large building sits.\r\n\r\nA floating moonflower vine (glowing)\r\n\r\n",
+  "exits": "You notice these exits:\r\n          East :  Intersection of Myst\r\n                  and Enchant\r\n         North :  On Gossamer Street\r\n                  between Ethereal and\r\n          West :  On Myst Avenue between\r\n                  Illium and\r\n         South :  Wishing Pools\r\n",
+  "path": [
+    "east",
+    "east"
+  ]
+}

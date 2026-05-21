@@ -1,0 +1,173 @@
+#!/usr/bin/expect -f
+# Emalz leveling script - get to level 5 fast
+
+set timeout 20
+set archive "/root/.openclaw/workspace/mud/emalz_archive"
+file mkdir $archive
+
+proc save_log {name data} {
+    global archive
+    set f [open "$archive/[clock format [clock seconds] -format %Y%m%d_%H%M%S]_$name.txt" w]
+    puts $f $data
+    close $f
+}
+
+# Connect
+spawn telnet islandsofmyth.org 3000
+expect "Please enter a name or choice"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+expect "hp("
+
+# Get initial score
+send "score\r"
+expect "hp("
+set score $expect_out(buffer)
+save_log "score_start" $score
+
+# Go to warrior guild
+send "warp\r"
+expect "hp("
+send "sw\r"
+expect "hp("
+send "warrior\r"
+expect "hp("
+send "join guild\r"
+expect "hp("
+
+# Get skills
+send "list skills\r"
+expect "hp("
+save_log "skills_initial" $expect_out(buffer)
+
+set level 1
+set kills 0
+
+while {$level < 5} {
+    # Go to Yensidland
+    send "warp\r"
+    expect "hp("
+    send "se\r"
+    expect "hp("
+    send "e\r"
+    expect "hp("
+    send "talk to gnosis\r"
+    expect "hp("
+    
+    # Try to kill earwigs
+    set combat_attempts 0
+    while {$combat_attempts < 10} {
+        incr combat_attempts
+        
+        # Look for monster
+        send "look\r"
+        expect "hp("
+        set look_data $expect_out(buffer)
+        
+        # Try to kill
+        send "kill earwig\r"
+        expect {
+            -timeout 15
+            "You attack" {
+                incr kills
+                # Combat started, wait for it to finish
+                set combat_rounds 0
+                while {$combat_rounds < 20} {
+                    incr combat_rounds
+                    expect {
+                        -timeout 5
+                        "hp(" { break }
+                        timeout { continue }
+                    }
+                }
+                
+                # Loot and eat
+                send "get all\r"
+                expect "hp("
+                send "eat corpse\r"
+                expect "hp("
+                
+                # Check if leveled
+                send "score\r"
+                expect "hp("
+                set new_score $expect_out(buffer)
+                
+                if {[regexp {Level\s+:\s+(\d+)} $new_score match new_level]} {
+                    if {$new_level > $level} {
+                        set level $new_level
+                        save_log "score_level_$level" $new_score
+                        
+                        # Go level up at judge
+                        send "warp\r"
+                        expect "hp("
+                        send "e\r"
+                        expect "hp("
+                        send "talk to judge\r"
+                        expect "[abcdeq]"
+                        send "d\r"
+                        expect "[abcdefghijmq]"
+                        send "a\r"  ;# strength
+                        expect "hp("
+                        
+                        # Advance guild
+                        send "warp\r"
+                        expect "hp("
+                        send "sw\r"
+                        expect "hp("
+                        send "warrior\r"
+                        expect "hp("
+                        send "advance guild level\r"
+                        expect "hp("
+                        send "train skills\r"
+                        expect "hp("
+                        send "list skills\r"
+                        expect "hp("
+                        save_log "skills_level_$level" $expect_out(buffer)
+                        
+                        break ;# break out of combat loop, outer while will check level
+                    }
+                }
+            }
+            "There is no" {
+                # No earwig here, move around
+                send "n\r"
+                expect "hp("
+                continue
+            }
+            "You hit" {
+                # Already in combat
+                incr kills
+                set combat_rounds 0
+                while {$combat_rounds < 20} {
+                    incr combat_rounds
+                    expect {
+                        -timeout 5
+                        "hp(" { break }
+                        timeout { continue }
+                    }
+                }
+                send "get all\r"
+                expect "hp("
+                send "eat corpse\r"
+                expect "hp("
+            }
+            "hp(" {
+                # Something else happened
+                continue
+            }
+        }
+    }
+}
+
+# Final stats
+send "score\r"
+expect "hp("
+save_log "final_score" $expect_out(buffer)
+
+send "skills\r"
+expect "hp("
+save_log "final_skills" $expect_out(buffer)
+
+send "quit\r"
+expect eof

@@ -1,0 +1,25 @@
+#!/usr/bin/expect -f
+set timeout 30
+log_file /root/.openclaw/workspace/mud/iom_emalz_archive/session_20260518.log
+spawn telnet islandsofmyth.org 3000
+
+# Wait for name prompt
+expect "By what name"
+send "emalz\r"
+
+# Wait for password
+expect "Password:"
+send "creative\r"
+
+# Wait for prompt and do initial checks
+expect ">"
+send "look\r"
+expect ">"
+send "score\r"
+expect ">"
+send "skills\r"
+expect ">"
+send "score\r"
+
+# Save state
+interact

@@ -1,0 +1,152 @@
+{
+  "warrior": {
+    "name": "Warrior",
+    "tree": [
+      "Knight",
+      "Berserker",
+      "Traveler",
+      "Dancer",
+      "Master"
+    ],
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nWarrior\nWarrior\n___________ _________|_____________________\n|          |               |              |\nDefender Of\nThe Crown\n|_________|_______________|__________________________\n|         |               |            |             |",
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nWarrior\nWarrior\n___________ _________|_____________________ \n         |          |               |              |\nKnight\nDefender Of\nBerserker\nTraveler\nThe Crown\n|_________|_______________|__________________________ \n         |         |               |            |             |\nBlade\nBarbarian\nShield\nFlogger\nThruster\nDancer\nMaster\n|____________|____________|____________|_____________|\n                                   |\nChampion Of\nThe Crown"
+  },
+  "martialartist": {
+    "name": "Martialartist",
+    "tree": [
+      "Traveler",
+      "Master",
+      "Master",
+      "Master",
+      "Master",
+      "Master"
+    ],
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nMartial artist\nMartial Artist\n_______________|__________________________________\n|               |                 |                |\nDragonfist\nMystic\nFighter\nWarriors",
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nMartial artist\nMartial Artist\n_______________|__________________________________ \n                   |               |                 |                |\nDragonfist\nMystic\nTraveler\nFighter\nWarriors\n|_________________________________| \n          _________________________|_________________________\n         |           |             |             |           |\nToad\nTiger\nCrane\nSnake\nOrder of the\nMaster\nMaster\nMaster\nMaster\nCrescent Moon\n|____________|____________|____________|____________|\n                                   |\nDragon\nMaster"
+  },
+  "acrobat": {
+    "name": "Acrobat",
+    "tree": [
+      "Traveler"
+    ],
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nAcrobat\nAcrobat\n____________|__________________________\n|            |              |           |\nStreet\nJuggler\nBard\nBrawler",
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nAcrobat\nAcrobat\n____________|__________________________\n               |            |              |           |\nStreet\nJuggler\nBard\nTraveler\nBrawler\n|              |              \n               |____________|______________|\n               |            |              |\nMinstrel\nBartender\nBannerman\n|____________|______________|\n                     |             |\nGleeman\nTroubadour"
+  },
+  "abjurer": {
+    "name": "Abjurer",
+    "tree": [
+      "Masters",
+      "Traveler",
+      "Master",
+      "Enchanter",
+      "Master",
+      "Master Of"
+    ],
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nAbjurer\nAbjurer\n____________________|______________________________________________________\n|                    |                         |             |              |\nProtector\nIrrifletta\nNavigator\nOf The Earth",
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nAbjurer\nAbjurer\n____________________|______________________________________________________\n              |                    |                         |             |              |\nProtector\nMasters\nIrrifletta\nNavigator\nTraveler\nOf The Earth\nOf Energy\n|             |\n              |____________________|_________________________|             |\n                    |                      |              |                |\nMaster\nHarbinger\nEnchanter\nMaster\nAbjurer\nOf Anguish\nNavigators\n|______________________|     \n                         |             |\nMaster Of\nGuardians\nDisruption"
+  },
+  "elemental": {
+    "name": "Elemental",
+    "tree": [
+      "Traveler",
+      "Master",
+      "Enchanter"
+    ],
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nElemental\nElemental\n_________________________|________________________________________________\n|            |            |           |        |            |             |\nFire Mage\nEarth Mage\nAir mage\nWater Mage",
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nElemental\nElemental\n_________________________|________________________________________________\n         |            |            |           |        |            |             |\nFire Mage\nEarth Mage\nAir mage\nWater Mage\n|\nNavigator\nTraveler\n|____________|            |___________|        |            | \n               |                         |              |\nMaster\nLava Mage\nMist Mage\nEnchanter\nNavigators\n|_________________________|\n                           |\nNether Mage"
+  },
+  "psychics": {
+    "name": "Psychics",
+    "tree": [
+      "Traveler",
+      "Master",
+      "Watchers Of",
+      "Enchanter"
+    ],
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nPsychics\nPsychics\n____________________|_____________________________________\n|              |                 |            |            |\nMystics\nWitch\nTelekinetics\nNavigator",
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nPsychics\nPsychics\n____________________|_____________________________________\n              |              |                 |            |            |\nMystics\nWitch\nTelekinetics\nTraveler\nNavigator\n______|_____________|__________________|____________              |\n       |           |                |            |          |\nMaster\nCauldron\nOneiromancers\nWatchers Of\nPsionists\nEnchanter\nNavigators\nMagic\n|\nThe Night\n|\n       |_____________|_____________|_____________|\n                            |\nTalisman Magic"
+  },
+  "evoker": {
+    "name": "Evoker",
+    "tree": [
+      "Traveler",
+      "Master",
+      "Enchanter"
+    ],
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nGuilds\nEvoker\n_______________|______________________________________________\n|               |             |                                |\nEvoker Of\nEvoker Of\nNavigator\nElements",
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nGuilds\nEvoker\n_______________|______________________________________________ \n               |               |             |                                |\nEvoker Of\nEvoker Of\nTraveler\nNavigator\nElements\nEther\n|\n    _________|_________________|___________________________________           |\n   |       |       |       |       |       |       |       |       |\nMaster\nMagic\nVacuum\nFlames\nForce\nPoison\nAcid\nLightning\nIce\nEnchanter\nNavigators\n|_______|_______|_______|_______|_______|_______|_______|\n                               |\nSorcerer"
+  },
+  "necromancer": {
+    "name": "Necromancer",
+    "tree": [
+      "Traveler",
+      "Master",
+      "Enchanter"
+    ],
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nNecromancer\nNecromancer\n___________________________|___________________________________________\n|             |             |            |                              |\nNecroscope\nVoodooist\nBone Mage\nNavigator",
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nNecromancer\nNecromancer\n___________________________|___________________________________________\n       |             |             |            |                              |\nTraveler\nNecroscope\nVoodooist\nBone Mage\nNavigator\n______|_____________|____________|_________________             |\n              |             |             |            |          |\nMaster\nStygian Sorcerer\nEmbalmer\nDreadlord\nScourge\nEnchanter\nNavigators\n|_____________|_____________|____________|   \n                        |                     |\nLords of Undeath\nBlood Brother"
+  },
+  "weaver": {
+    "name": "Weaver",
+    "tree": [
+      "Traveler",
+      "Master",
+      "Enchanter"
+    ],
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nWeaver\nWeaver\n____________________|______________________________________________\n|          |                  |                         |           |\nHealer\nMartyr\nConfessor\nNavigator",
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nWeaver\nWeaver\n____________________|______________________________________________ \n              |          |                  |                         |           |\nHealer\nMartyr\nConfessor\nNavigator\nTraveler\n__|__________|__________________|_____________            | \n           |          |           |            |          |\nMaster\nAvatar\nExorcist\nTemplar\nShields\nEnchanter\nNavigators\n|          |           |\nOf Faith\n|__________|___________|__________|\n                            |\nHigh Priest"
+  },
+  "unraveller": {
+    "name": "Unraveller",
+    "tree": [
+      "Traveler",
+      "Enchanter",
+      "Master",
+      "Master",
+      "Enchanter"
+    ],
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nUnraveller\nUnraveller\n____________|______________________________________________________\n|            |            |             |             |             |\nHarmer\nSacrificer\nMagical\n|",
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nUnraveller\nUnraveller\n____________|______________________________________________________ \n               |            |            |             |             |             |\nHarmer\nSacrificer\nMagical\nTraveler\n|\nNavigator\n|            |\nTorturer\n|             |\n     __________|____________|____________|__________                 |             |\n    |               |               |               |                |             |\nServant of\nServant of\nServant of\nServant of\nEnchanter\nMaster\nMordulak\nShirija\nTalakh\nLloth\n|\nNavigator\n|               |               |               |                |\nElder of\nPatriarch of\nSword of\nPrimate of\nMaster\nMordulak\nShirija\nTalakh\nLloth\nEnchanter"
+  },
+  "druid": {
+    "name": "Druid",
+    "tree": [
+      "Weather Watcher",
+      "Animal Tamer",
+      "Traveler",
+      "Adept of the Stones",
+      "Enchanter",
+      "Shaman Of Soil",
+      "Chanter Of"
+    ],
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nDruid\nDruid\n_______________________|__________________________\n|               |                 |                |\nHerbalist\n|_______________|_________________|______\n|               |                |\n|_____________|________________|",
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nDruid\nDruid\n_______________________|__________________________\n            |               |                 |                |\nWeather Watcher\nAnimal Tamer\nHerbalist\nTraveler\n|_______________|_________________|______\n                    |               |                |\nAdept of the Stones\nEnchanter\nShaman Of Soil\n|_____________|________________|\n                                    |\nChanter Of\nDeep Earth"
+  },
+  "shapeshifter": {
+    "name": "Shapeshifter",
+    "tree": [
+      "Animal Tamer",
+      "Traveler"
+    ],
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nShapeshifter\nShapeshifter\n___________________|______________________\n|           |                 |            |\nBestial\nSavager\nSeccedaneum\n|                 |",
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nShapeshifter\nShapeshifter\n___________________|______________________\n              |           |                 |            |\nBestial\nSavager\nAnimal Tamer\nTraveler\nSeccedaneum\n|                 |\n              |___________|_________________|_______\n              |                   |                 |\nAnimal Healer\nAnimal Trainer\nBeast Lord\n|___________________|_________________|\n                                  |\nDragon Lord"
+  },
+  "woodsman": {
+    "name": "Woodsman",
+    "tree": [
+      "Animal Tamer",
+      "Traveler"
+    ],
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nWoodsman\nWoodsman\n____________________________|________________________________\n|              |             |            |                   |\nSylvan Guard\nSylvan Ward\nHerbalist\n|______________|_____________|____________|______",
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nWoodsman\nWoodsman\n____________________________|________________________________\n          |              |             |            |                   |\nSylvan Guard\nSylvan Ward\nAnimal Tamer\nHerbalist\nTraveler\n|______________|_____________|____________|______              \n                  |                                        |\nSylvan Scout\nSylvan Protector\n|________________________________________|\n                                       |\nSylvan Woodlord"
+  },
+  "lurker": {
+    "name": "Lurker",
+    "tree": [
+      "Traveler",
+      "Master"
+    ],
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nLurker\nLurker\n____________|_________________________\n|            |            |            |\nStreet\nPoison\nTrickster\nBrawler",
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nLurker\nLurker\n____________|_________________________\n               |            |            |            |\nStreet\nPoison\nTrickster\nTraveler\nBrawler\nBrewer\n|              \n           /   |            |            |\nAssassin\n|____________|____________|\n               |            |            |\nBartender\nMaster\nDisciple\n|\nAssassin\nof\n|            |\nShadow\n|____________|____________|\n                            |\nSilent Hand"
+  }
+}

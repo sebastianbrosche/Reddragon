@@ -1,0 +1,992 @@
+[SYSTEM] MUD Session Started: 2026-05-17T13:28:08.675872
+[SYSTEM] Target: islandsofmyth.org:3000
+[SYSTEM] Character: emalz
+[SYSTEM] Archive directory: /root/.openclaw/workspace/mud/emalz_archive/
+[SYSTEM] Connecting to islandsofmyth.org:3000...
+[SYSTEM] Connected to islandsofmyth.org:3000
+[SYSTEM] Starting login sequence...
+^L
+
+  _   _   _   _   _   _   _     _   _     _   _   _   _
+ / \ / \ / \ / \ / \ / \ / \   / \ / \   / \ / \ / \ / \
+( I | s | l | a | n | d | s ) ( o | f ) ( M | y | t | h )
+ \_/ \_/ \_/ \_/ \_/ \_/ \_/   \_/ \_/   \_/ \_/ \_/ \_/
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 17 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+>
+[SYSTEM] Initial banner received
+[COMMAND] >>> 
+Sorry, everybody needs a name here.  Please try again.
+
+
+
+----------------------------------------------------------------------------
+The Administrators of Islands of Myth are:
+Zifnab, Marvin, Sigwald, Magneto, Khosan, Ixtlilton, Vor, Daneel and Saryon
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 17 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Your Selection?
+>
+[SYSTEM] Attempting to login as emalz...
+[COMMAND] >>> emalz
+Password:
+[SYSTEM] Password prompt detected. Sending password...
+[COMMAND] >>> creative
+
+Last login: Sat May 16 20:18:49 2026 from: 47.237.80.25 (47.237.80.25)
+
+********************************************************
+               Welcome to Islands of Myth!
++=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+Join us at...
+Discord : https://discord.gg/gSctHJRVvQ
+Facebook: https://www.facebook.com/groups/11655590400/
+
+New Gear & info site from Tomten:
+http://iominfo.vlp.se
+********************************************************
+
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+You enter Islands of Myth.
+Welcome to Islands of Myth!
+hp(716/716) sp(750/750) ep(538/538) >
+[SYSTEM] Login response received
+*Grease waves Hi! to you.
+[SYSTEM] Login sequence complete
+[SYSTEM] Taking initial snapshots...
+[COLLECT] Executing: score -> score
+[COMMAND] >>> score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored          :  0.14% ( 1.20%)   |
+| Next level     :              27     Rooms Explored    :            24     |
+| Guild Level    :               9     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   26 | Hit Points     :   716 (  716) |
+AC       : None     |
+| Dexterity    :   26 | Spell Points   :   750 (  750) | Size     : 3'2"     |
+| Constitution :   26 | Endurance Pts. :   538 (  538) | Weight   : 70 lb    |
+| Stamina      :   26 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   25 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/score_20260517_132829_1778995709.txt
+[COLLECT] Executing: skills -> skills
+[COMMAND] >>> skills
+You don't know any skills.
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/skills_20260517_132831_1778995711.txt
+[COLLECT] Executing: spells -> spells
+[COMMAND] >>> spells
+You don't know any spells.
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/spells_20260517_132832_1778995712.txt
+[SYSTEM] Joining Warrior guild...
+[COLLECT] Executing: warp -> warp_to_warrior
+[COMMAND] >>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/warp_to_warrior_20260517_132834_1778995714.txt
+[COLLECT] Executing: s -> go_south
+[COMMAND] >>> s
+Myth Room [exits: north]
+ In this room, those who have been honored stand. It is bright and open room, with plenty of light. Statues stand all
+along the walls. Statues of those who have contributed much to this amazing world. 
+
+Statue of Khosan
+Statue of Sigwald
+Statue of Ant
+Statue of Nyx
+Statue of Friski
+Statue of Zifnab
+Statue of Drabit 
+Statue of Vor
+Statue of Magneto
+Statue of Marvin
+Statue of Daneel
+Statue of Cebcurg
+Statue of Tigran
+
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/go_south_20260517_132836_1778995716.txt
+[COLLECT] Executing: warrior -> enter_warrior_guild
+[COMMAND] >>> warrior
+You just entered something the MUD doesn't understand.
+Want to try something fun? type: random
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/enter_warrior_guild_20260517_132838_1778995718.txt
+[COLLECT] Executing: join guild -> join_warrior
+[COMMAND] >>> join guild
+There is no guild here.
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/join_warrior_20260517_132840_1778995720.txt
+[SYSTEM] Getting assignment from Gnosis...
+[COLLECT] Executing: warp -> warp_to_gnosis
+[COMMAND] >>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/warp_to_gnosis_20260517_132841_1778995721.txt
+[COLLECT] Executing: se -> go_southeast
+[COMMAND] >>> se
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/go_southeast_20260517_132843_1778995723.txt
+[COLLECT] Executing: e -> go_east
+[COMMAND] >>> e
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+A gold Plaque
+A blue portal, leading to Nuvo City
+Sisong the Newbie Navigator
+
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/go_east_20260517_132845_1778995725.txt
+[COLLECT] Executing: talk to gnosis -> talk_gnosis
+[COMMAND] >>> talk to gnosis
+There is no gnosis here.
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/talk_gnosis_20260517_132847_1778995727.txt
+[COLLECT] Executing: get assignment -> get_assignment
+[COMMAND] >>> get assignment
+There is no assignment here.
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/get_assignment_20260517_132849_1778995729.txt
+[SYSTEM] Starting earwig combat in Yensidland...
+[COLLECT] Executing: warp -> warp_to_yensid
+[COMMAND] >>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventu
+re Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/warp_to_yensid_20260517_132851_1778995731.txt
+[COLLECT] Executing: n -> yensid_n
+[COMMAND] >>> n
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers Guild. It contains some of the most
+helpful things in the world of Islands of Myth. To the east is Titan Street; to the west is Gossamer Street. Small
+trees line the road.
+
+A grand memorial is here.
+A floating moonflower vine (glowing)
+
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/yensid_n_20260517_132852_1778995732.txt
+[COLLECT] Executing: ne -> yensid_ne
+[COMMAND] >>> ne
+It doesn't seem possible to go that direction.
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/yensid_ne_20260517_132854_1778995734.txt
+[COLLECT] Executing: e -> yensid_e
+[COMMAND] >>> e
+A shopkeeper runs by, waving a broom, and chasing a pair of young men.
+Intersection of Cloud and Titan [exits: south, west and north]
+ The edge of the Illium Bazaar here blends into Cloud Road, which heads west towards the Illian Adventurers' Guild. The
+guild is a domed building, visible for blocks - especially over the low stalls of the marketplace. The city cathedral
+lies close by to the south, dominating the landscape for blocks around.
+
+A floating moonflower vine (glowing)
+
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/yensid_e_20260517_132856_1778995736.txt
+[COLLECT] Executing: look -> look_yensid
+[COMMAND] >>> look
+Intersection of Cloud and Titan [exits: south, west and north]
+ The edge of the Illium Bazaar here blends into Cloud Road, which heads west towards the Illian Adventurers' Guild. The
+guild is a domed building, visible for blocks - especially over the low stalls of the marketplace. The city cathedral
+lies close by to the south, dominating the landscape for blocks around.
+
+A floating moonflower vine (glowing)
+
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/look_yensid_20260517_132858_1778995738.txt
+[COMMAND] >>> combat silence
+[COMBAT] Kill attempt 1...
+[COLLECT] Executing: score -> score_pre_kill_0
+[COMMAND] >>> score
+USAGE: combat <arg>
+Possible arguments are:
+	'status'                    - Current settings.
+	'percent'                   - How effective did the hit appear to be.
+	'blocks'                    - Shows 2 color blocks. The first block is
+	                              how damaged the attacker appears to be.
+	                              The latter shows how damaged the target
+	                              appears to be.
+	'number'                    - Numerical indexing of hit strength. The larger
+	                              value, the harder the hit was.
+	'reporter'                  - Report the conditions of you and your target
+	'silent on'                 - Toggle combat spam off.
+	'silent off'                - Toggle combat spam on.
+	'silent generic'            - Toggle most fighter spam.
+	'silent start use'          - Toggle skill/spell start messages.
+	'silent finish use'         - Toggle skill/spell finish messages.
+	'silent words'              - Toggle spell words.
+	'silent skill action'       - Toggle skill/spell action messages.
+	'silent round'              - Toggle 'New Round' messages on and off.
+	'silent generic other'      - Toggle most fighter spam from others.
+	'silent start use other'    - Toggle skill/spell start messages from others.
+	'silent finish use other'   - Toggle skill/spells finish messages from others.
+	'silent words other'        - Toggle spell words from others.
+	'silent skill action other' - Toggle skill/spell action messages from others.
+	'attack'                    - Toggle whether or not you will melee with your target.
+	'defend'                    - Toggle whether or not you will dodge your target.
+	'tank'                      - Toggle whether or not you will tank for those behind you.
+
+hp(716/716) sp(750/750) ep(538/538) > ,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored          :  0.15% ( 1.30%)   |
+| Next level     :              27     Rooms Explored    :            26     |
+| Guild Level    :               9     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   26 | Hit Points     :   716 (  716) | AC       : None     |
+| Dexterity    :   26 | Spell Points   :   750 (  750) | Size     : 3'2"     |
+| Constitution :   26 | Endurance Pts. :   538 (  538) | Weight   : 70 lb    |
+| Stamina      :   26 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   25 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`-----------------------------------------------
+-----------------------------'
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/score_pre_kill_0_20260517_132901_1778995741.txt
+[COMMAND] >>> kill earwig
+There is no earwig here.
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/combat_kill_0_20260517_132924.txt
+[COMMAND] >>> get all corpse
+[COMMAND] >>> eat corpse
+[COLLECT] Executing: score -> score_post_kill_0
+[COMMAND] >>> score
+There is no all corpse here.
+hp(716/716) sp(750/750) ep(538/538) > There is no corpse here.
+hp(716/716) sp(750/750) ep(538/538) > ,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored          :  0.15% ( 1.30%)   |
+| Next level     :              27     Rooms Explored    :            26     |
+| Guild Level    :               9     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   26 | Hit Points     :   716 (  716) | AC       : None     |
+| Dexterity    :   26 | Spell Points   :   750 (  750) | Size     : 3'2"     |
+| Constitution :   26 | Endurance Pts. :   538 (  538) | Weight   : 70 lb    |
+| Stamina      :   26 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   25 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/score_post_kill_0_20260517_132927_1778995767.txt
+[COLLECT] Executing: skills -> skills_post_kill_0
+[COMMAND] >>> skills
+You don't know any skills.
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/skills_post_kill_0_20260517_132928_1778995768.txt
+[COMMAND] >>> rest
+[COMBAT] Kill attempt 2...
+[COLLECT] Executing: score -> score_pre_kill_1
+[COMMAND] >>> score
+You just entered something the MUD doesn't understand.
+If you need help you can try on the channels, type: newbie Can someone help me with (whatever you need help with).
+hp(716/716) sp(750/750) ep(538/538) > ,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored
+   :  0.15% ( 1.30%)   |
+| Next level     :              27     Rooms Explored    :            26     |
+| Guild Level    :               9     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   26 | Hit Points     :   716 (  716) | AC       : None     |
+| Dexterity    :   26 | Spell Points   :   750 (  750) | Size     : 3'2"     |
+| Constitution :   26 | Endurance Pts. :   538 (  538) | Weight   : 70 lb    |
+| Stamina      :   26 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   25 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/score_pre_kill_1_20260517_132933_1778995773.txt
+[COMMAND] >>> kill earwig
+There is no earwig here.
+hp(716/716) sp(750/750) ep(538/538) >
+A shopkeeper runs by, waving a broom, and chasing a pair of young men.
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/combat_kill_1_20260517_132957.txt
+[COMMAND] >>> get all corpse
+[COMMAND] >>> eat corpse
+[COLLECT] Executing: score -> score_post_kill_1
+[COMMAND] >>> score
+There is no all corpse here.
+hp(716/716) sp(750/750) ep(538/538) > There is no corpse here.
+hp(716/716) sp(750/750) ep(538/538) > ,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored          :  0.15% ( 1.30%)   |
+| Next level     :              27     Rooms Explored    :            26     |
+| Guild Level    :               9     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   26 | Hit Points     :   716 (  716) | AC       : None     |
+| Dexterity    :   26 | Spell Points   :   750 (  750) | Size     : 3'2"     |
+| Constitution :   26 | Endurance Pts. :   538 (  538) | Weight   : 70 lb    |
+| Stamina      :   26 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   25 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/score_post_kill_1_20260517_132959_1778995799.txt
+[COLLECT] Executing: skills -> skills_post_kill_1
+[COMMAND] >>> skills
+You don't know any skills.
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/skills_post_kill_1_20260517_133001_1778995801.txt
+[COMMAND] >>> rest
+[COMBAT] Kill attempt 3...
+[COLLECT] Executing: score -> score_pre_kill_2
+[COMMAND] >>> score
+You just entered something the MUD doesn't understand.
+To say something in a room type: say message
+hp(716/716) sp(750/750) ep(538/538) > ,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored          :  0.15% ( 1.30%)   |
+| Next level     :              27     Rooms Explored    :            26     |
+| Guild Level    :               9     Gold on hand      :
+ 1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   26 | Hit Points     :   716 (  716) | AC       : None     |
+| Dexterity    :   26 | Spell Points   :   750 (  750) | Size     : 3'2"     |
+| Constitution :   26 | Endurance Pts. :   538 (  538) | Weight   : 70 lb    |
+| Stamina      :   26 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   25 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/score_pre_kill_2_20260517_133006_1778995806.txt
+[COMMAND] >>> kill earwig
+There is no earwig here.
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/combat_kill_2_20260517_133029.txt
+[COMMAND] >>> get all corpse
+[COMMAND] >>> eat corpse
+[COLLECT] Executing: score -> score_post_kill_2
+[COMMAND] >>> score
+There is no all corpse here.
+hp(716/716) sp(750/750) ep(538/538) > There is no corpse here.
+hp(716/716) sp(750/750) ep(538/538) > ,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored          :  0.15% ( 1.30%)   |
+| Next level     :              27     Rooms Explored    :            26     |
+| Guild Level    :               9     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   26 | Hit Points     :   716 (  716) | AC       : None     |
+| Dexterity    :   26 | Spell Points   :   750 (  750) | Size     : 3'2"     |
+| Constitution :   26 | Endurance Pts. :   538 (  538) | Weight   : 70 lb    |
+| Stamina      :   26 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   25 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/score_post_kill_2_20260517_133032_1778995832.txt
+[COLLECT] Executing: skills -> skills_post_kill_2
+[COMMAND] >>> skills
+You don't know any skills.
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/skills_post_kill_2_20260517_133034_1778995834.txt
+[COMMAND] >>> rest
+[COMBAT] Kill attempt 4...
+[COLLECT] Executing: score -> score_pre_kill_3
+[COMMAND] >>> score
+You just entered something the MUD doesn't understand.
+To tell someone something: type tell <player name> message
+hp(716/716) sp(750/750) ep(538/538) > ,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored          :  0.15% ( 1.30%)   |
+| Next level     :              27     Rooms Explored    :            26     |
+| Guild Level    :               9     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|-------------------------------------------------------
+---------------------|
+| Strength     :   26 | Hit Points     :   716 (  716) | AC       : None     |
+| Dexterity    :   26 | Spell Points   :   750 (  750) | Size     : 3'2"     |
+| Constitution :   26 | Endurance Pts. :   538 (  538) | Weight   : 70 lb    |
+| Stamina      :   26 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   25 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/score_pre_kill_3_20260517_133039_1778995839.txt
+[COMMAND] >>> kill earwig
+There is no earwig here.
+hp(716/716) sp(750/750) ep(538/538) >
+A shopkeeper runs by, waving a broom, and chasing a pair of young men.
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/combat_kill_3_20260517_133102.txt
+[COMMAND] >>> get all corpse
+[COMMAND] >>> eat corpse
+[COLLECT] Executing: score -> score_post_kill_3
+[COMMAND] >>> score
+There is no all corpse here.
+hp(716/716) sp(750/750) ep(538/538) > There is no corpse here.
+hp(716/716) sp(750/750) ep(538/538) > ,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored          :  0.15% ( 1.30%)   |
+| Next level     :              27     Rooms Explored    :            26     |
+| Guild Level    :               9     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   26 | Hit Points     :   716 (  716) | AC       : None     |
+| Dexterity    :   26 | Spell Points   :   750 (  750) | Size     : 3'2"     |
+| Constitution :   26 | Endurance Pts. :   538 (  538) | Weight   : 70 lb    |
+| Stamina      :   26 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   25 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/score_post_kill_3_20260517_133105_1778995865.txt
+[COLLECT] Executing: skills -> skills_post_kill_3
+[COMMAND] >>> skills
+You don't know any skills.
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/skills_post_kill_3_20260517_133107_1778995867.txt
+[COMMAND] >>> rest
+[COMBAT] Kill attempt 5...
+[COLLECT] Executing: score -> score_pre_kill_4
+[COMMAND] >>> score
+You just entered something the MUD doesn't understand.
+To turn on a channel type: on <channel name>
+hp(716/716) sp(750/750) ep(538/538) > ,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored          :  0.15% ( 1.30%)   |
+| Next level     :              27     Rooms Explored    :            26     |
+| Guild Level    :               9     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   26 | Hit Points     :   716 (  716) | AC       : None     |
+| Dexterity    :   26 | Spell Points   :   750 (  750) | Size     :
+3'2"     |
+| Constitution :   26 | Endurance Pts. :   538 (  538) | Weight   : 70 lb    |
+| Stamina      :   26 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   25 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/score_pre_kill_4_20260517_133111_1778995871.txt
+[COMMAND] >>> kill earwig
+There is no earwig here.
+hp(716/716) sp(750/750) ep(538/538) >
+[login]: Sebbe enters Islands of Myth (Snakeman level 157).
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/combat_kill_4_20260517_133135.txt
+[COMMAND] >>> get all corpse
+[COMMAND] >>> eat corpse
+[COLLECT] Executing: score -> score_post_kill_4
+[COMMAND] >>> score
+There is no all corpse here.
+hp(716/716) sp(750/750) ep(538/538) > There is no corpse here.
+hp(716/716) sp(750/750) ep(538/538) > ,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored          :  0.15% ( 1.30%)   |
+| Next level     :              27     Rooms Explored    :            26     |
+| Guild Level    :               9     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   26 | Hit Points     :   716 (  716) | AC       : None     |
+| Dexterity    :   26 | Spell Points   :   750 (  750) | Size     : 3'2"     |
+| Constitution :   26 | Endurance Pts. :   538 (  538) | Weight   : 70 lb    |
+| Stamina      :   26 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   25 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/score_post_kill_4_20260517_133137_1778995897.txt
+[COLLECT] Executing: skills -> skills_post_kill_4
+[COMMAND] >>> skills
+You don't know any skills.
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/skills_post_kill_4_20260517_133139_1778995899.txt
+[SYSTEM] Starting ocean route...
+[COLLECT] Executing: warp -> warp_ocean
+[COMMAND] >>> warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+It seems that someone has left 2 Formula: Head: Lesser Wisdoms lying here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/warp_ocean_20260517_133141_1778995901.txt
+[COLLECT] Executing: shack -> enter_shack
+[COMMAND] >>> shack
+You just entered something the MUD doesn't understand.
+If you are having trouble, type help
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/enter_shack_20260517_133143_1778995903.txt
+[COLLECT] Executing: ask ahab for story -> ahab_story
+[COMMAND] >>> ask ahab for story
+There is no ahab here.
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/ahab_story_20260517_133145_1778995905.txt
+[COLLECT] Executing: wear ring -> wear_ring
+[COMMAND] >>> wear ring
+There is no ring here.
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/wear_ring_20260517_133146_1778995906.txt
+[COLLECT] Executing: out -> leave_shack
+[COMMAND] >>> out
+You just entered something the MUD doesn't understand.
+To turn on a channel type: on <channel name>
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/leave_shack_20260517_133148_1778995908.txt
+[COLLECT] Executing: ocean -> enter_ocean
+[COMMAND] >>> ocean
+You just entered something the MUD doesn't understand.
+If you are having trouble, type 'faq'
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/enter_ocean_20260517_133150_1778995910.txt
+[COMMAND] >>> combat silence
+[COMBAT] Ocean kill attempt 1...
+[COLLECT] Executing: score -> score_pre_ocean_0
+[COMMAND] >>> score
+USAGE: combat <arg>
+Possible arguments are:
+	'status'                    - Current settings.
+	'percent'                   - How effective did the hit appear to be.
+	'blocks'                    - Shows 2 color blocks. The first block is
+	                              how damaged the attacker appears to be.
+	                              The latter shows how damaged the target
+	                              appears to be.
+	'number'                    - Numerical indexing of hit strength. The larger
+	                              value, the harder the hit was.
+	'reporter'                  - Report the conditions of you and your target
+	'silent on'                 - Toggle combat spam off.
+	'silent off'                - Toggle combat spam on.
+	'silent generic'            - Toggle most fighter spam.
+	'silent start use'          - Toggle skill/spell start messages.
+	'silent finish use'         - Toggle skill/spell finish messages.
+	'silent words'              - Toggle spell words.
+	'silent skill action'       - Toggle skill/spell action messages.
+	'silent round'              - Toggle 'New Round' messages on and off.
+	'silent generic other'      - Toggle most fighter spam from others.
+	'silent start use other'    - Toggle skill/spell start messages from others.
+	'silent finish use other'   - Toggle skill/spells finish messages from others.
+	'silent words other'        - Toggle spell words from others.
+	'silent skill action other' - Toggle skill/spell action messages from others.
+	'attack'                    - Toggle whether or not you will melee with your target.
+	'defend'                    - Toggle whether or not you will dodge your target.
+	'tank'                      - Toggle whether or not you will tank for those behind you.
+
+hp(716/716) sp(750/750) ep(538/538) > ,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored          :  0.15% ( 1.30%)   |
+| Next level     :              27     Rooms Explored    :            26     |
+| Guild Level    :               9     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   26 | Hit Points     :   716 (  716) | AC       : None     |
+| Dexterity    :   26 | Spell Points   :   750 (  750) | Size     : 3'2"     |
+| Constitution :   26 | Endurance Pts. :   538 (  538) | Weight   : 70 lb    |
+| Stamina      :   26 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   25 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/score_pre_ocean_0_20260517_133153_1778995913.txt
+[COMMAND] >>> kill guppy
+There is no guppy here.
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/combat_ocean_0_20260517_133216.txt
+[COMMAND] >>> get all corpse
+[COMMAND] >>> eat corpse
+[COLLECT] Executing: score -> score_post_ocean_0
+[COMMAND] >>> score
+There is no all corpse here.
+hp(716/716) sp(750/750) ep(538/538) > There is no corpse here.
+hp(716/716) sp(750/750) ep(538/538) > ,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored          :  0.15% ( 1.30%)   |
+| Next level     :
+            27     Rooms Explored    :            26     |
+| Guild Level    :               9     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   26 | Hit Points     :   716 (  716) | AC       : None     |
+| Dexterity    :   26 | Spell Points   :   750 (  750) | Size     : 3'2"     |
+| Constitution :   26 | Endurance Pts. :   538 (  538) | Weight   : 70 lb    |
+| Stamina      :   26 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   25 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/score_post_ocean_0_20260517_133219_1778995939.txt
+[COMMAND] >>> rest
+[COMBAT] Ocean kill attempt 2...
+[COLLECT] Executing: score -> score_pre_ocean_1
+[COMMAND] >>> score
+You just entered something the MUD doesn't understand.
+Talk to Sisong in the adv hall if you get a chance for more help.
+hp(716/716) sp(750/750) ep(538/538) > ,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored          :  0.15% ( 1.30%)   |
+| Next level     :              27     Rooms Explored    :            26     |
+| Guild Level    :               9     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   26 | Hit Points     :   716 (  716) | AC       : None     |
+| Dexterity    :   26 | Spell Points   :   750 (  750) | Size     : 3'2"     |
+| Constitution :   26 | Endurance Pts. :   538 (  538) | Weight   : 70 lb    |
+| Stamina      :   26 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   25 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/score_pre_ocean_1_20260517_133224_1778995944.txt
+[COMMAND] >>> kill guppy
+There is no guppy here.
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/combat_ocean_1_20260517_133247.txt
+[COMMAND] >>> get all corpse
+[COMMAND] >>> eat corpse
+[COLLECT] Executing: score -> score_post_ocean_1
+[COMMAND] >>> score
+There is no all corpse here.
+hp(716/716) sp(750/750) ep(538/538) > There is no corpse here.
+hp(716/716) sp(750/750) ep(538/538) > ,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored          :  0.15% ( 1.30%)   |
+| Next level     :              27     Rooms Explored    :            26     |
+| Guild Level    :               9     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0
+     |
+|----------------------------------------------------------------------------|
+| Strength     :   26 | Hit Points     :   716 (  716) | AC       : None     |
+| Dexterity    :   26 | Spell Points   :   750 (  750) | Size     : 3'2"     |
+| Constitution :   26 | Endurance Pts. :   538 (  538) | Weight   : 70 lb    |
+| Stamina      :   26 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   25 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/score_post_ocean_1_20260517_133250_1778995970.txt
+[COMMAND] >>> rest
+[COMBAT] Ocean kill attempt 3...
+[COLLECT] Executing: score -> score_pre_ocean_2
+[COMMAND] >>> score
+You just entered something the MUD doesn't understand.
+Talk to Sisong in the adv hall if you get a chance for more help.
+hp(716/716) sp(750/750) ep(538/538) > ,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored          :  0.15% ( 1.30%)   |
+| Next level     :              27     Rooms Explored    :            26     |
+| Guild Level    :               9     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   26 | Hit Points     :   716 (  716) | AC       : None     |
+| Dexterity    :   26 | Spell Points   :   750 (  750) | Size     : 3'2"     |
+| Constitution :   26 | Endurance Pts. :   538 (  538) | Weight   : 70 lb    |
+| Stamina      :   26 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   25 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/score_pre_ocean_2_20260517_133255_1778995975.txt
+[COMMAND] >>> kill guppy
+There is no guppy here.
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/combat_ocean_2_20260517_133318.txt
+[COMMAND] >>> get all corpse
+[COMMAND] >>> eat corpse
+[COLLECT] Executing: score -> score_post_ocean_2
+[COMMAND] >>> score
+There is no all corpse here.
+hp(716/716) sp(750/750) ep(538/538) > There is no corpse here.
+hp(716/716) sp(750/750) ep(538/538) > ,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    1                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,000     Explored          :  0.15% ( 1.30%)   |
+| Next level     :              27     Rooms Explored    :            26     |
+| Guild Level    :               9     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   26 | Hit Points     :   716 (  716) | AC       : None     |
+| Dexterity    :   26 | Spell Points   :   750 (  750) | Size     : 3'2"     |
+| Constitution :   26 | Endurance Pts. :   5
+38 (  538) | Weight   : 70 lb    |
+| Stamina      :   26 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   25 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   25 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   91 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+|                                            | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/score_post_ocean_2_20260517_133321_1778996001.txt
+[COMMAND] >>> rest
+[SYSTEM] Attempting level up...
+[COLLECT] Executing: warp -> warp_judge
+[COMMAND] >>> warp
+You just entered something the MUD doesn't understand.
+Want to try something fun? type: random
+hp(716/716) sp(750/750) ep(538/538) > Sebbe tells you: yo
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+Some luckless fool has left 2 Formula: Head: Lesser Wisdoms here.
+
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/warp_judge_20260517_133326_1778996006.txt
+[COLLECT] Executing: e -> go_east_judge
+[COMMAND] >>> e
+Level Room [exits: west]
+ This room is large, and the ceiling is high. In the center stands a large podium. Upon that podium sits Achman, the
+judge. He controls the levels of Islands of Myth, and has the power to create some of the strongest players. He sits in
+a high back chair built into the podium. Talk to him if you wish to advance in your endeavors. 
+
+Achman the Judge
+
+hp(716/716) sp(750/750) ep(538/538) >
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/go_east_judge_20260517_133327_1778996007.txt
+[COLLECT] Executing: talk to judge -> talk_judge
+[COMMAND] >>> talk to judge
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Adventurers leveling place
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  General information                b)  List level costs              
+  c)  Advance a level                    d)  Advance a level picking a stat
+  e)  Advance several levels             q)  Quit                          
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdeq]
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/talk_judge_20260517_133329_1778996009.txt
+[COLLECT] Executing: advance level -> advance_level
+[COMMAND] >>> advance level
+Invalid selection.
+[abcdeq]
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/advance_level_20260517_133331_1778996011.txt
+[COLLECT] Executing: advance guild level -> advance_guild
+[COMMAND] >>> advance guild level
+Invalid selection.
+[abcdeq]
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/advance_guild_20260517_133333_1778996013.txt
+[COLLECT] Executing: train skills -> train_skills
+[COMMAND] >>> train skills
+Invalid selection.
+[abcdeq]
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/train_skills_20260517_133335_1778996015.txt
+[COLLECT] Executing: score -> score_post_level
+[COMMAND] >>> score
+Invalid selection.
+[abcdeq]
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/score_post_level_20260517_133336_1778996016.txt
+[COLLECT] Executing: skills -> skills_post_level
+[COMMAND] >>> skills
+Invalid selection.
+[abcdeq]
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/skills_post_level_20260517_133338_1778996018.txt
+[SYSTEM] Taking final snapshots...
+[COLLECT] Executing: score -> score_final
+[COMMAND] >>> score
+Invalid selection.
+[abcdeq]
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/score_final_20260517_133340_1778996020.txt
+[COLLECT] Executing: skills -> skills_final
+[COMMAND] >>> skills
+Invalid selection.
+[abcdeq]
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/skills_final_20260517_133342_1778996022.txt
+[COLLECT] Executing: spells -> spells_final
+[COMMAND] >>> spells
+Invalid selection.
+[abcdeq]
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/spells_final_20260517_133344_1778996024.txt
+[COLLECT] Executing: inventory -> inventory_final
+[COMMAND] >>> inventory
+Invalid selection.
+[abcdeq]
+[ARCHIVE] Saved: /root/.openclaw/workspace/mud/emalz_archive/inventory_final_20260517_133346_1778996026.txt
+[COMMAND] >>> quit
+[SYSTEM] MUD Session Complete: 2026-05-17T13:33:49.078106
+[SYSTEM] Total commands sent: 93
+[SYSTEM] Session log: /root/.openclaw/workspace/mud/emalz_archive/SESSION_1778995688.txt

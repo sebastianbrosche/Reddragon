@@ -1,0 +1,154 @@
+#!/usr/bin/expect -f
+set timeout 180
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/grind_final.log"
+set statusfile "/root/.openclaw/workspace/mud/iom_emalz_archive/grind_status.txt"
+
+exec rm -f $logfile
+log_file $logfile
+
+spawn telnet islandsofmyth.org 3000
+
+# Login
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+
+# Wait for prompt
+expect ">"
+
+# Check initial state
+send "score\r"
+expect ">"
+send "skills\r"
+expect ">"
+
+# Navigate to Yensid Land via Sisong
+send "warp\r"
+expect ">"
+send "se\r"
+expect ">"
+send "e\r"
+expect ">"
+send "talk sisong\r"
+expect "Sisong's Newbie Information"
+send "2\r"
+expect "Newbie Areas"
+send "9\r"
+expect "Would you like to visit the Yensid Land?"
+send "Y\r"
+expect ">"
+
+# Enable combat silence
+send "combat silent on\r"
+expect ">"
+
+# Navigate to LobeLands 1 (direct nw from entry)
+send "nw\r"
+expect ">"
+send "look\r"
+expect ">"
+
+# Write status
+set fp [open $statusfile w]
+puts $fp "GRIND_START: [exec date]"
+puts $fp "LOCATION: LobeLands (dual rooms)"
+puts $fp "TARGET: Level 15"
+puts $fp "STRATEGY: Kill all earwigs in room 1, go n to room 2, kill all, go s back"
+close $fp
+
+set cycles 0
+set total_kills 0
+
+while {$cycles < 60} {
+    incr cycles
+    
+    # --- LOBELANDS 1 ---
+    # Kill earwigs repeatedly in room 1 (usually 3 present)
+    send "kill earwig\r"
+    sleep 15
+    expect {
+        ">" {}
+        timeout { send "\r"; sleep 2; expect ">" }
+    }
+    
+    send "kill earwig\r"
+    sleep 12
+    expect {
+        ">" {}
+        timeout { send "\r"; sleep 2; expect ">" }
+    }
+    
+    send "kill earwig\r"
+    sleep 10
+    expect {
+        ">" {}
+        timeout { send "\r"; sleep 2; expect ">" }
+    }
+    
+    # Move to LobeLands 2
+    send "n\r"
+    expect ">"
+    
+    # --- LOBELANDS 2 ---
+    send "kill earwig\r"
+    sleep 15
+    expect {
+        ">" {}
+        timeout { send "\r"; sleep 2; expect ">" }
+    }
+    
+    send "kill earwig\r"
+    sleep 12
+    expect {
+        ">" {}
+        timeout { send "\r"; sleep 2; expect ">" }
+    }
+    
+    send "kill earwig\r"
+    sleep 10
+    expect {
+        ">" {}
+        timeout { send "\r"; sleep 2; expect ">" }
+    }
+    
+    # Return to LobeLands 1
+    send "s\r"
+    expect ">"
+    
+    # Every 5 cycles, check score and rest
+    if {$cycles % 5 == 0} {
+        send "score\r"
+        sleep 2
+        expect ">"
+        send "rest\r"
+        sleep 5
+        expect ">"
+        
+        set fp [open $statusfile a]
+        puts $fp "CYCLE_$cycles: [exec date]"
+        close $fp
+    }
+    
+    # Brief pause for respawn
+    sleep 8
+}
+
+# Final checks
+send "score\r"
+expect ">"
+send "skills\r"
+expect ">"
+
+set fp [open $statusfile a]
+puts $fp "GRIND_END: [exec date]"
+puts $fp "TOTAL_CYCLES: $cycles"
+close $fp
+
+# Save and quit
+send "quit\r"
+sleep 3
+expect "Save"
+send "Y\r"
+
+puts "GRINDING FINAL COMPLETE"

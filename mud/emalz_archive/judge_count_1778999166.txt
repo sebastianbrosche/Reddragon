@@ -1,0 +1,18 @@
+You advance one level.
+As you get more powerful, you feel some of the Gods newbie blessing going away.
+Stats: str:+1, dex:+2, con:+1, int:+1, sta:+2, hp_regen:+2, ep_regen:+2,
+       hp_max:+1, ep_max:+2
+You feel like you gained extra str!
+You are now level 5 with 508 experience points remaining.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Picking a special statistic for leveling
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  a)  Advance strength         b)  Advance constitution
+  c)  Advance dexterity        d)  Advance stamina     
+  e)  Advance intelligence     f)  Advance wisdom      
+  g)  Advance charisma         h)  Advance hp regen    
+  i)  Advance sp regen         j)  Advance ep regen    
+  m)  Main menu                q)  Quit                
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[abcdefghijmq] 

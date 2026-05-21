@@ -1,0 +1,335 @@
+spawn telnet islandsofmyth.org 3000
+Trying 158.69.5.47...
+Connected to islandsofmyth.org.
+Escape character is '^]'.
+^L
+ 
+   _-_,     ,,           |\                /\   /\\,/\\,       , ,,
+     //     ||  _         \\              ||   /| || ||       || ||
+     || _-_,|| < \,\\/\\ / \\ _-_,   /'\\=||=  || || ||'\\/\\=||=||/\\
+    ~||||_. || /-|||| |||| ||||_.   || || ||   ||=|= || || ;' || || ||
+     || ~ ||||(( |||| |||| || ~ ||  || || ||  ~|| || || ||/   || || ||
+   _-_,,-_- \\ \/\\\\ \\ \\/ ,-_-   \\,/  \\,  |, \\,\\,|/    \\,\\ |/
+                                              _-       (           _/
+                                                        -_-
+                              V       ^
+                   ^  ^         V    / \  ^
+                 ^/ \/ \    V       /   \/ \
+              __/ \_/   \          /____/   \        ____
+   __________/           \________/          \______/    \____________
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 22 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+> emalz
+Password: 
+Last login: Sun May 17 17:06:12 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Emalz has reconnected (Kobold level 5).
+hp(876/876) sp(714/714) ep(628/628) > score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    5                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :             508     Explored          :  0.28% ( 2.40%)   |
+| Next level     :           1,232     Rooms Explored    :            48     |
+| Guild Level    :             645     Gold on hand      :         1,000     |
+| To Next Level  :             724     Gold in bank      :             0     |
+| To Guild Level :             137                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   39 | Hit Points     :   876 (  876) | AC       : VLow     |
+| Dexterity    :   35 | Spell Points   :   714 (  714) | Size     : 3'6"     |
+| Constitution :   43 | Endurance Pts. :   628 (  628) | Weight   : 77 lb    |
+| Stamina      :   32 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   24 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   24 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   85 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (4)                      | Mail          : 0/0           |
+|                                            | Kills         : 0             |
+`----------------------------------------------------------------------------'
+hp(876/876) sp(714/714) ep(628/628) > skills
+-=-=-| Warrior |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  attack                       :  21%  |  flesh of stone               :  21%
+  honor of the gods            :  21%  |  tanking                      :  21%
+  weapon skill blunt           :  21%  |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+hp(876/876) sp(714/714) ep(628/628) > warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here.
+
+hp(876/876) sp(714/714) ep(628/628) > se
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(876/876) sp(714/714) ep(628/628) > e
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+Sisong the Newbie Navigator
+A blue portal, leading to Nuvo City
+A gold Plaque
+
+hp(876/876) sp(714/714) ep(628/628) > talk sisong
+Sisong's Newbie Information.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  1)  Misc. Information     2)  Newbie Areas          q)  Quit             
+
+[12q] 2
+9
+Newbie Areas
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  1)  Newbie Garden                     2)  The Valley of New Adventurers
+  3)  Spider Cave                       4)  The Circus                   
+  5)  Monster Daycare                   6)  Church                       
+  7)  Ocean                             8)  Strawberry Fields            
+  9)  Yensid Land                      10)  Fire World                   
+ 11)  Ice World                        12)  Cat World                    
+ 13)  Kobold Village                   14)  Zoo                          
+ 15)  Newbie Forest                    16)  Ancient Tree                 
+ 17)  Animal Nursery                   18)  Swallow Moors                
+ 19)  Bee Hive                          m)  Return to Main Menu          
+  q)  Quit                            
+[12345678910111213141516171819mq] Sisong says, "Yensid Land has monsters of varying levels, some are rather easy, others are tough.  Make sure you map
+    the area for in it lies a secret. Of course I could tell you what it is, but then I'd have to kill you. Ha ha ha,
+    err, only joking."
+Sisong asks, "Would you like to visit the Yensid Land?"
+Please answer Y for yes or N for no: Y
+
+Sisong says, "Well then, off ya go!  Oh, by the way. You can use the portal at the entrance of Yensid Land to return
+    back here. Best of luck!". And with that she grabs you by your shoulders and throws you towards your chosen
+    destination. Hold on, the landing could be a bit bumpy!
+
+Welcome to YENSIDLAND [exits: east, northwest and out]
+ This is such a jolly place!! You think you might just pop out a jolly fart or two just to show everyone how jolly you
+feel about being in the jolliest land in jolly old Islands of Myth!!!
+
+A jolly sign sits beside the path
+A portal to the Newbie Guild.
+
+You appear from thin air.
+hp(876/876) sp(714/714) ep(628/628) > combat silence
+USAGE: combat <arg>
+Possible arguments are:
+	'status'                    - Current settings.
+	'percent'                   - How effective did the hit appear to be.
+	'blocks'                    - Shows 2 color blocks. The first block is
+	                              how damaged the attacker appears to be.
+	                              The latter shows how damaged the target
+	                              appears to be.
+	'number'                    - Numerical indexing of hit strength. The larger
+	                              value, the harder the hit was.
+	'reporter'                  - Report the conditions of you and your target
+	'silent on'                 - Toggle combat spam off.
+	'silent off'                - Toggle combat spam on.
+	'silent generic'            - Toggle most fighter spam.
+	'silent start use'          - Toggle skill/spell start messages.
+	'silent finish use'         - Toggle skill/spell finish messages.
+	'silent words'              - Toggle spell words.
+	'silent skill action'       - Toggle skill/spell action messages.
+	'silent round'              - Toggle 'New Round' messages on and off.
+	'silent generic other'      - Toggle most fighter spam from others.
+	'silent start use other'    - Toggle skill/spell start messages from others.
+	'silent finish use other'   - Toggle skill/spells finish messages from others.
+	'silent words other'        - Toggle spell words from others.
+	'silent skill action other' - Toggle skill/spell ace
+tion messages from others.
+	'attack'                    - Toggle whether or not you will melee with your target.
+	'defend'                    - Toggle whether or not you will dodge your target.
+	'tank'                      - Toggle whether or not you will tank for those behind you.
+
+hp(876/876) sp(714/714) ep(628/628) > ne
+'BurnWorld! [exits: west, northeast and south]
+ Everywhere you look your vision is obstructed by gigantic tufts of bushy hair. The hair makes navigation impossible,
+leaving you with only two options: blunder about wildly or scratch your ass in despair.
+
+A slithering Sideburner coils for a strike 
+
+hp(876/876) sp(714/714) ep(628/628) > n
+'BurnWorld! [exits: east, north and southwest]
+ Everywhere you look your vision is obstructed by gigantic tufts of bushy hair. The hair makes navigation impossible,
+leaving you with only two options: blunder about wildly or scratch your ass in despair.
+
+A slithering Sideburner coils for a strike 
+A slithering Sideburner coils for a strike 
+
+hp(876/876) sp(714/714) ep(628/628) > look
+LobeLands [exits: south and northwest]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+LobeLands [exits: south and northwest]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+
+hp(876/876) sp(714/714) ep(628/628) > You attack Earwig.
+hp(876/876) sp(714/714) ep(628/628) > You hit Earwig 1 time.
+HP: 876|876 SP: 714|714 EP: 628|628
+[Emalz]: is in excellent shape.
+[Earwig]: is somewhat hurt.
+You hit Earwig 1 time.
+Earwig hit You 2 times.
+HP: 872|876 SP: 714|714 EP: 628|628
+[Emalz]: is in good condition.
+[Earwig]: is in bad shape.
+Earwig falls to the ground DEAD!
+You gain boosted exp!
+You receive 250 exp.
+You just set a new personal exp record for a solo kill.
+You feel fully healed.
+You hit Earwig 1 time.
+score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    5                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :             758     Explored          :  0.28% ( 2.40%)   |
+| Next level     :           1,232     Rooms Explored    :            48     |
+| Guild Level    :             645     Gold on hand      :         1,000     |
+| To Next Level  :             474     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   39 | Hit Points     :   876 (  876) | AC       : VLow     |
+| Dexterity    :   35 | Spell Points   :   714 (  714) | Size     : 3'6"     |
+| Constitution :   43 | Endurance Pts. :   628 (  628) | Weight   : 77 lb    |
+| Stamina      :   32 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   24 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   24 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   85 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (4)                      | Mail          : 0/0           |
+|                                            | Kills         : 1             |
+`----------------------------------------------------------------------------'
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+You attack Earwig.
+hp(876/876) sp(714/714) ep(628/628) > You hit Earwig 1 time.
+Earwig hit You 1 time.
+HP: 874|876 SP: 714|714 EP: 628|628
+[Emalz]: is in good condition.
+[Earwig]: has some minor cuts and bruises.
+You feel like you have scored a new best hit!
+You feel fully healed.
+You hit Earwig 1 time.
+HP: 876|876 SP: 714|714 EP: 628|628
+[Emalz]: is in excellent shape.
+[Earwig]: is in very bad shape.
+Earwig falls to the ground DEAD!
+You gain boosted exp!
+You receive 250 exp.
+You hit Earwig 1 time.
+score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    5                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           1,008     Explored          :  0.28% ( 2.40%)   |
+| Next level     :           1,232     Rooms Explored    :            48     |
+| Guild Level    :             645     Gold on hand      :         1,000     |
+| To Next Level  :             224     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   39 | Hit Points     :   876 (  876) | AC       : VLow     |
+| Dexterity    :   35 | Spell Points   :   714 (  714) | Size     : 3'6"     |
+| Constitution :   43 | Endurance Pts. :   628 (  628) | Weight   : 77 lb    |
+| Stamina      :   32 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   24 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   24 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   85 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (4)                      | Mail          : 0/0           |
+|                                            | Kills         : 2             |
+`----------------------------------------------------------------------------'
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    5                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           1,008     Explored          :  0.28% ( 2.40%)   |
+| Next level     :           1,232     Rooms Explored    :            48     |
+| Guild Level    :             645     Gold on hand      :         1,000     |
+| To Next Level  :             224     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   39 | Hit Points     :   876 (  876) | AC       : VLow     |
+| Dexterity    :   35 | Spell Points   :   714 (  714) | Size     : 3'6"     |
+| Constitution :   43 | Endurance Pts. :   628 (  628) | Weight   : 77 lb    |
+| Stamina      :   32 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   24 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   24 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   85 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (4)                      | Mail          : 0/0           |
+|                                            | Kills         : 2             |
+`----------------------------------------------------------------------------'
+hp(876/876) sp(714/714) ep(628/628) > The corpse rots away into nothingness.
+kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > The corpse rots away into nothingness.
+score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    5                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           1,008     Explored          :  0.28% ( 2.40%)   |
+| Next level     :           1,232     Rooms Explored    :            48     |
+| Guild Level    :             645     Gold on hand      :         1,000     |
+| To Next Level  :             224     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   39 | Hit Points     :   876 (  876) | AC       : VLow     |
+| Dexterity    :   35 | Spell Points   :   714 (  714) | Size     : 3'6"     |
+| Constitution :   43 | Endurance Pts. :   628 (  628) | Weight   : 77 lb    |
+| Stamina      :   32 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   24 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   24 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   85 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (4)                      | Mail          : 0/0           |
+|                                            | Kills         : 2             |
+`----------------------------------------------------------------------------'
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > 

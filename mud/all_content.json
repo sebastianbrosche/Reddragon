@@ -1,0 +1,1144 @@
+{
+  "races": {
+    "cromagnon": {
+      "name": "Cromagnon",
+      "description": "Drow Dwarf Elf Ent Faerie Gargoyle Giant Gnome",
+      "stats": {
+        "strength": "Good\nConstitution",
+        "constitution": "Good\nHp",
+        "hp_max": "Average\nHp",
+        "hp_regen": "Above Ave",
+        "dexterity": "Above Ave",
+        "stamina": "Above Ave",
+        "ep_max": "Average\nEp",
+        "ep_regen": "Above Ave",
+        "intelligence": "Bad\nWisdom",
+        "wisdom": "Bad\nSp",
+        "sp_max": "Terrible\nSp",
+        "sp_regen": "Terrible\nThey"
+      },
+      "notes": [
+        "They can train skills up to 90%",
+        "They can study spells up to 70%",
+        "Their experience rate is 106 %",
+        "They are considered to be rather unattractive creatures.",
+        "They learn skills much faster than humans.",
+        "They learn spells slower than humans.",
+        "They are naturally extremely resistant to physical damage.",
+        "They are naturally vulnerable to magical damage."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nC r o m a g n o n\nCromagnons are living relics from the early dawn of humanity. They\nare living ancestors of humans and are thought of as Humans by most.\nActually, they are quite a bit different; Cromagnons lack the ability\nfor magic completely, but they possess a better grasp of basic skills\nand are a bit stronger because of their tougher lifestyle.\nStrength:     Good\nConstitution: Good\nHp Max:       Average\nHp Regen:     Above Ave\nDexterity:    Above Ave\nStamina:      Above Ave\nEp Max:       Average\nEp Regen:     Above Ave\nIntelligence: Bad\nWisdom:       Bad\nSp Max:       Terrible\nSp Regen:     Terrible\nThey can train skills up to 90%\nThey can study spells up to 70%\nTheir experience rate is 106 %\nAverage height: 5 feet 5 inches\nAverage mass: 184\nThey are considered to be rather unattractive creatures.\nThey learn skills much faster than humans.\nThey learn spells slower than humans.\nThey are naturally extremely resistant to physical damage.\nThey are naturally vulnerable to magical damage."
+    },
+    "drow": {
+      "name": "Drow",
+      "description": "Dwarf Elf Ent Faerie Gargoyle Giant Gnome Goblin",
+      "stats": {
+        "strength": "Average\nConstitution",
+        "constitution": "Below Ave",
+        "hp_max": "Average\nHp",
+        "hp_regen": "Below Ave",
+        "dexterity": "Good\nStamina",
+        "stamina": "Below Ave",
+        "ep_max": "Below Ave",
+        "ep_regen": "Average\nIntelligence",
+        "intelligence": "Above Ave",
+        "wisdom": "Good\nSp",
+        "sp_max": "Average\nSp",
+        "sp_regen": "Very Good"
+      },
+      "notes": [
+        "They can train skills up to 95%",
+        "They can study spells up to 100%",
+        "Their experience rate is 84 %",
+        "They are considered to be fascinating creatures.",
+        "They learn skills slower than humans.",
+        "They learn spells about as fast as humans.",
+        "They can see in the dark.",
+        "They only heal in dark places.",
+        "They are naturally extremely vulnerable to holy damage.",
+        "They are naturally resistant to unholy damage.",
+        "They are naturally resistant to magical damage."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nD r o w\nDrow are the Dark Elves of the Underworld - fearless killers who are\nknown for both their spellcasting and fighting ability. Though more\nfrail than humans, they are solid fighters with a great reputation of\nruthlessness and precision. Those who cross a dark elf usually meet a\nswift demise. Drow are tallish elves with indigo skin and white hair,\nand usually have either red or golden eyes.\nStrength:     Average\nConstitution: Below Ave\nHp Max:       Average\nHp Regen:     Below Ave\nDexterity:    Good\nStamina:      Below Ave\nEp Max:       Below Ave\nEp Regen:     Average\nIntelligence: Above Ave\nWisdom:       Good\nSp Max:       Average\nSp Regen:     Very Good\nThey can train skills up to 95%\nThey can study spells up to 100%\nTheir experience rate is 84 %\nAverage height: 5 feet 4 inches\nAverage mass: 133\nThey are considered to be fascinating creatures.\nThey learn skills slower than humans.\nThey learn spells about as fast as humans.\nThey can see in the dark.\nThey only heal in dark places.\nThey are naturally extremely vulnerable to holy damage.\nThey are naturally resistant to unholy damage.\nThey are naturally resistant to magical damage."
+    },
+    "dwarf": {
+      "name": "Dwarf",
+      "description": "Elf Ent Faerie Gargoyle Giant Gnome Goblin Grorrark",
+      "stats": {
+        "strength": "Good\nConstitution",
+        "constitution": "Good\nHp",
+        "hp_max": "Good\nHp",
+        "hp_regen": "Average\nDexterity",
+        "dexterity": "Above Ave",
+        "stamina": "Above Ave",
+        "ep_max": "Average\nEp",
+        "ep_regen": "Above Ave",
+        "intelligence": "Poor\nWisdom",
+        "wisdom": "Above Ave",
+        "sp_max": "Terrible\nSp",
+        "sp_regen": "Poor\nThey"
+      },
+      "notes": [
+        "They can train skills up to 100%",
+        "They can study spells up to 85%",
+        "Their experience rate is 88 %",
+        "They have average charisma.",
+        "They learn skills much faster than humans.",
+        "They learn spells much slower than humans.",
+        "They can see in the dark.",
+        "They are naturally extremely resistant to poison damage.",
+        "They are naturally resistant to physical damage."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nD w a r f\nDwarves are small heavy-set humanoids who usually sport large beards.\nBut never let a Dwarf's size fool you, they are known for their strength\nin character and in battle. They are excellent craftsmen and make the\nbest of weaponsmiths due to their keen abilities in manual labor. Dwarves\nare not adepts of magic, even though they have some limited potential.\nStrength:     Good\nConstitution: Good\nHp Max:       Good\nHp Regen:     Average\nDexterity:    Above Ave\nStamina:      Above Ave\nEp Max:       Average\nEp Regen:     Above Ave\nIntelligence: Poor\nWisdom:       Above Ave\nSp Max:       Terrible\nSp Regen:     Poor\nThey can train skills up to 100%\nThey can study spells up to 85%\nTheir experience rate is 88 %\nAverage height: 4 feet\nAverage mass: 176\nThey have average charisma.\nThey learn skills much faster than humans.\nThey learn spells much slower than humans.\nThey can see in the dark.\nThey are naturally extremely resistant to poison damage.\nThey are naturally resistant to physical damage."
+    },
+    "elf": {
+      "name": "Elf",
+      "description": "Ent Faerie Gargoyle Giant Gnome Goblin Grorrark Halfelf",
+      "stats": {
+        "strength": "Below Ave",
+        "constitution": "Below Ave",
+        "hp_max": "Average\nHp",
+        "hp_regen": "Average\nDexterity",
+        "dexterity": "Above Ave",
+        "stamina": "Poor\nEp",
+        "ep_max": "Poor\nEp",
+        "ep_regen": "Above Ave",
+        "intelligence": "Average\nWisdom",
+        "wisdom": "Very Good",
+        "sp_max": "Average\nSp",
+        "sp_regen": "Very Good"
+      },
+      "notes": [
+        "They can train skills up to 95%",
+        "They can study spells up to 95%",
+        "Their experience rate is 95 %",
+        "They are considered to be fascinating creatures.",
+        "They learn skills much slower than humans.",
+        "They learn spells about as fast as humans.",
+        "They can see in the dark."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nE l f\nElves are slender and graceful humanoids, with fair faces and slightly\npointed ears. Elves are a very ancient and highly advanced race with a\nlong history steeped in mystery and magic. Elves are all long-lived,\nalmost immortal, living through centuries and seeming ageless to humans.\nStrength:     Below Ave\nConstitution: Below Ave\nHp Max:       Average\nHp Regen:     Average\nDexterity:    Above Ave\nStamina:      Poor\nEp Max:       Poor\nEp Regen:     Above Ave\nIntelligence: Average\nWisdom:       Very Good\nSp Max:       Average\nSp Regen:     Very Good\nThey can train skills up to 95%\nThey can study spells up to 95%\nTheir experience rate is 95 %\nAverage height: 5 feet 2 inches\nAverage mass: 113\nThey are considered to be fascinating creatures.\nThey learn skills much slower than humans.\nThey learn spells about as fast as humans.\nThey can see in the dark."
+    },
+    "ent": {
+      "name": "Ent",
+      "description": "Faerie Gargoyle Giant Gnome Goblin Grorrark Halfelf Hobbit",
+      "stats": {
+        "strength": "Above Ave",
+        "constitution": "Good\nHp",
+        "hp_max": "Above Ave",
+        "hp_regen": "Below Ave",
+        "dexterity": "Terrible\nStamina",
+        "stamina": "Bad\nEp",
+        "ep_max": "Bad\nEp",
+        "ep_regen": "Below Ave",
+        "intelligence": "Average\nWisdom",
+        "wisdom": "Excellent\nSp",
+        "sp_max": "Good\nSp",
+        "sp_regen": "Very Good"
+      },
+      "notes": [
+        "They can train skills up to 90%",
+        "They can study spells up to 95%",
+        "Their experience rate is 90 %",
+        "They are considered to be quite attractive creatures.",
+        "They learn skills much slower than humans.",
+        "They learn spells about as fast as humans.",
+        "They can see in the dark.",
+        "They are naturally extremely vulnerable to fire damage.",
+        "They are naturally extremely resistant to physical damage."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nE n t\nFrom the Dawn of Time, they came, an ancient race. Moving among\nthe forests and trees as kin, the Ents govern the growth of the\nForests. Though they have had some relations with Elves, Ents are\nseldom seen adventuring, and are often only known as a legend by\nsome Humans.\nStrength:     Above Ave\nConstitution: Good\nHp Max:       Above Ave\nHp Regen:     Below Ave\nDexterity:    Terrible\nStamina:      Bad\nEp Max:       Bad\nEp Regen:     Below Ave\nIntelligence: Average\nWisdom:       Excellent\nSp Max:       Good\nSp Regen:     Very Good\nThey can train skills up to 90%\nThey can study spells up to 95%\nTheir experience rate is 90 %\nAverage height: 7 feet 8 inches\nAverage mass: 377\nThey are considered to be quite attractive creatures.\nThey learn skills much slower than humans.\nThey learn spells about as fast as humans.\nThey can see in the dark.\nThey are naturally extremely vulnerable to fire damage.\nThey are naturally extremely resistant to physical damage."
+    },
+    "faerie": {
+      "name": "Faerie",
+      "description": "Gargoyle Giant Gnome Goblin Grorrark Halfelf Hobbit Human",
+      "stats": {
+        "strength": "Terrible\nConstitution",
+        "constitution": "Poor\nHp",
+        "hp_max": "Below Ave",
+        "hp_regen": "Below Ave",
+        "dexterity": "Very Good",
+        "stamina": "Poor\nEp",
+        "ep_max": "Below Ave",
+        "ep_regen": "Poor\nIntelligence",
+        "intelligence": "Above Ave",
+        "wisdom": "Very Good",
+        "sp_max": "Very Good",
+        "sp_regen": "Very Good"
+      },
+      "notes": [
+        "They can train skills up to 95%",
+        "They can study spells up to 100%",
+        "Their experience rate is 97 %",
+        "They are considered to be quite attractive creatures.",
+        "They learn skills slower than humans.",
+        "They learn spells much faster than humans.",
+        "They can see in the dark.",
+        "They are naturally resistant to psionic damage.",
+        "They are naturally resistant to magical damage.",
+        "They are naturally vulnerable to physical damage."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nF a e r i e\nFaeries are a race of tiny, mystical creatures. Although they are equipped with a set of insect-like wings, evolution has left them unable to fly. Although they are small and ineffective in physical combat, they are quick learners of spells, and have been known to make very able mages and clerics. Their size and agility also have lead some of them to become thieves.\nStrength:     Terrible\nConstitution: Poor\nHp Max:       Below Ave\nHp Regen:     Below Ave\nDexterity:    Very Good\nStamina:      Poor\nEp Max:       Below Ave\nEp Regen:     Poor\nIntelligence: Above Ave\nWisdom:       Very Good\nSp Max:       Very Good\nSp Regen:     Very Good\nThey can train skills up to 95%\nThey can study spells up to 100%\nTheir experience rate is 97 %\nAverage height: 2 feet 4 inches\nAverage mass: 16\nThey are considered to be quite attractive creatures.\nThey learn skills slower than humans.\nThey learn spells much faster than humans.\nThey can see in the dark.\nThey are naturally resistant to psionic damage.\nThey are naturally resistant to magical damage.\nThey are naturally vulnerable to physical damage."
+    },
+    "gargoyle": {
+      "name": "Gargoyle",
+      "description": "Giant Gnome Goblin Grorrark Halfelf Hobbit Human Kobold",
+      "stats": {
+        "strength": "Below Ave",
+        "constitution": "Good\nHp",
+        "hp_max": "Below Ave",
+        "hp_regen": "Poor\nDexterity",
+        "dexterity": "Poor\nStamina",
+        "stamina": "Poor\nEp",
+        "ep_max": "Poor\nEp",
+        "ep_regen": "Poor\nIntelligence",
+        "intelligence": "Very Good",
+        "wisdom": "Average\nSp",
+        "sp_max": "Very Good",
+        "sp_regen": "Excellent\nThey"
+      },
+      "notes": [
+        "They can train skills up to 90%",
+        "They can study spells up to 95%",
+        "Their experience rate is 90 %",
+        "They are considered to be rather unattractive creatures.",
+        "They learn skills about as fast as humans.",
+        "They learn spells much faster than humans.",
+        "They can see in the dark.",
+        "They are naturally resistant to physical damage."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nG a r g o y l e\nGargoyles are magical creatures that were originally created by a very powerful cleric from stone statues. The first gargoyles were terrible winged stone monsters, designed to protect holy places from evil spirits. Still, during a huge magical battle, their inner being was altered and they became fully conscious creatures that have a very high affinity for magic. After centuries of magical modifications and enhancements, gargoyles are nowadays a very much changed race that is not warlike at all but rely entirely upon magic.\nStrength:     Below Ave\nConstitution: Good\nHp Max:       Below Ave\nHp Regen:     Poor\nDexterity:    Poor\nStamina:      Poor\nEp Max:       Poor\nEp Regen:     Poor\nIntelligence: Very Good\nWisdom:       Average\nSp Max:       Very Good\nSp Regen:     Excellent\nThey can train skills up to 90%\nThey can study spells up to 95%\nTheir experience rate is 90 %\nAverage height: 6 feet 8 inches\nAverage mass: 308\nThey are considered to be rather unattractive creatures.\nThey learn skills about as fast as humans.\nThey learn spells much faster than humans.\nThey can see in the dark.\nThey are naturally resistant to physical damage."
+    },
+    "giant": {
+      "name": "Giant",
+      "description": "Gnome Goblin Grorrark Halfelf Hobbit Human Kobold Leprechaun",
+      "stats": {
+        "strength": "Excellent\nConstitution",
+        "constitution": "Excellent\nHp",
+        "hp_max": "Excellent\nHp",
+        "hp_regen": "Good\nDexterity",
+        "dexterity": "Average\nStamina",
+        "stamina": "Above Ave",
+        "ep_max": "Above Ave",
+        "ep_regen": "Good\nIntelligence",
+        "intelligence": "Bad\nWisdom",
+        "wisdom": "Terrible\nSp",
+        "sp_max": "Terrible\nSp",
+        "sp_regen": "Terrible\nThey"
+      },
+      "notes": [
+        "They are known to get inordinately excited at the prospect of the blood of",
+        "They can train skills up to 95%",
+        "They can study spells up to 20%",
+        "Their experience rate is 85 %",
+        "They are considered to be rather unattractive creatures.",
+        "They learn skills much slower than humans.",
+        "They learn spells MUCH slower than humans.",
+        "They are naturally extremely resistant to physical damage."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nG i a n t\nGiants are huge humanoids. They are non-magical by nature but in a combat\nsituation, their tremendous strength and ability to take damage creates\nchaos among their enemies. Giants are naturally gifted fighters, that make\nfor great party leaders as 'tanks', even though they are not very bright.\nThey are known to get inordinately excited at the prospect of the blood of\nEnglishmun, and when they\nshout Fee, fie, fo, fum!\n, it reminds them of\nsuch blood, occasionally breaking them out of shock.\nStrength:     Excellent\nConstitution: Excellent\nHp Max:       Excellent\nHp Regen:     Good\nDexterity:    Average\nStamina:      Above Ave\nEp Max:       Above Ave\nEp Regen:     Good\nIntelligence: Bad\nWisdom:       Terrible\nSp Max:       Terrible\nSp Regen:     Terrible\nThey can train skills up to 95%\nThey can study spells up to 20%\nTheir experience rate is 85 %\nAverage height: 10 feet\nAverage mass: 519\nThey are considered to be rather unattractive creatures.\nThey learn skills much slower than humans.\nThey learn spells MUCH slower than humans.\nThey are naturally extremely resistant to physical damage."
+    },
+    "gnome": {
+      "name": "Gnome",
+      "description": "Goblin Grorrark Halfelf Hobbit Human Kobold Leprechaun Lizardman",
+      "stats": {
+        "strength": "Poor\nConstitution",
+        "constitution": "Below Ave",
+        "hp_max": "Below Ave",
+        "hp_regen": "Below Ave",
+        "dexterity": "Below Ave",
+        "stamina": "Poor\nEp",
+        "ep_max": "Below Ave",
+        "ep_regen": "Poor\nIntelligence",
+        "intelligence": "Above Ave",
+        "wisdom": "Excellent\nSp",
+        "sp_max": "Very Good",
+        "sp_regen": "Very Good"
+      },
+      "notes": [
+        "They can train skills up to 85%",
+        "They can study spells up to 95%",
+        "Their experience rate is 106 %",
+        "They have average charisma.",
+        "They learn skills slower than humans.",
+        "They learn spells about as fast as humans.",
+        "They can see in the dark.",
+        "They are naturally resistant to magical damage."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nG n o m e\nGnomes are small cousins of the Dwarves, and are often found to be\nhelping someone in need.  They have rich brown skin, white hair,\nand china-blue eyes, both sexes have rounded ears and very large\nnoses. The male gnomes prefer to keep their beards short and\nstylishly-trimmed. They are excellent tinkers, constantly inventing\nsomething to make life easier (or more chaotic if something goes wrong).\nGnomes are a very wise race, well known for their magical abilities;\nthey are sometimes able to freely use minor protective spells on\nthemselves.\nStrength:     Poor\nConstitution: Below Ave\nHp Max:       Below Ave\nHp Regen:     Below Ave\nDexterity:    Below Ave\nStamina:      Poor\nEp Max:       Below Ave\nEp Regen:     Poor\nIntelligence: Above Ave\nWisdom:       Excellent\nSp Max:       Very Good\nSp Regen:     Very Good\nThey can train skills up to 85%\nThey can study spells up to 95%\nTheir experience rate is 106 %\nAverage height: 3 feet 6 inches\nAverage mass: 122\nThey have average charisma.\nThey learn skills slower than humans.\nThey learn spells about as fast as humans.\nThey can see in the dark.\nThey are naturally resistant to magical damage."
+    },
+    "goblin": {
+      "name": "Goblin",
+      "description": "Grorrark Halfelf Hobbit Human Kobold Leprechaun Lizardman Mindflayer",
+      "stats": {
+        "strength": "Average\nConstitution",
+        "constitution": "Below Ave",
+        "hp_max": "Average\nHp",
+        "hp_regen": "Average\nDexterity",
+        "dexterity": "Very Good",
+        "stamina": "Above Ave",
+        "ep_max": "Above Ave",
+        "ep_regen": "Good\nIntelligence",
+        "intelligence": "Poor\nWisdom",
+        "wisdom": "Poor\nSp",
+        "sp_max": "Bad\nSp",
+        "sp_regen": "Bad\nThey"
+      },
+      "notes": [
+        "They lack real strength, and therefore prefer to live in clans,",
+        "They can train skills up to 95%",
+        "They can study spells up to 60%",
+        "Their experience rate is 104 %",
+        "They are considered to be rather unattractive creatures.",
+        "They learn skills about as fast as humans.",
+        "They learn spells MUCH slower than humans.",
+        "They can see in the dark.",
+        "They can eat corpses.",
+        "They are naturally vulnerable to magical damage."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nG o b l i n\nGoblins are a race of mischevious little beings who love to wreak\nhavoc upon others. They are not very intelligent, as the word is\nnormally used, but they are clever little buggers nonetheless.\nThey lack real strength, and therefore prefer to live in clans,\nthough they often fight amongst themselves. Although they are\nrather weak, they are very nimble, and perform the most complicated\nskills with ease. Also, their aptitude for stealthy movement greatly\naides them when they are carrying out their ornery plans.\nStrength:     Average\nConstitution: Below Ave\nHp Max:       Average\nHp Regen:     Average\nDexterity:    Very Good\nStamina:      Above Ave\nEp Max:       Above Ave\nEp Regen:     Good\nIntelligence: Poor\nWisdom:       Poor\nSp Max:       Bad\nSp Regen:     Bad\nThey can train skills up to 95%\nThey can study spells up to 60%\nTheir experience rate is 104 %\nAverage height: 4 feet 8 inches\nAverage mass: 160\nThey are considered to be rather unattractive creatures.\nThey learn skills about as fast as humans.\nThey learn spells MUCH slower than humans.\nThey can see in the dark.\nThey can eat corpses.\nThey are naturally vulnerable to magical damage."
+    },
+    "grorrark": {
+      "name": "Grorrark",
+      "description": "Halfelf Hobbit Human Kobold Leprechaun Lizardman Mindflayer Minotaur",
+      "stats": {
+        "strength": "Good\nConstitution",
+        "constitution": "Good\nHp",
+        "hp_max": "Above Ave",
+        "hp_regen": "Average\nDexterity",
+        "dexterity": "Excellent\nStamina",
+        "stamina": "Above Ave",
+        "ep_max": "Below Ave",
+        "ep_regen": "Above Ave",
+        "intelligence": "Poor\nWisdom",
+        "wisdom": "Poor\nSp",
+        "sp_max": "Bad\nSp",
+        "sp_regen": "Bad\nThey"
+      },
+      "notes": [
+        "They can train skills up to 100%",
+        "They can study spells up to 80%",
+        "Their experience rate is 88 %",
+        "They have average charisma.",
+        "They learn skills faster than humans.",
+        "They learn spells MUCH slower than humans.",
+        "They can see in the dark.",
+        "They can eat corpses.",
+        "They are naturally resistant to cold damage.",
+        "They are naturally extremely vulnerable to fire damage."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nG r o r r a r k\nGrorrarks are the result of an ill-starred breeding between a human and a lion. Although they remain mostly beast, they have retained the ability to reason and learn as a human would. Still, they have kept the ferocity and fierceness of lions, and have an instinctive and natural grasp for learning skills, which allow them to be among the most feared and able fighters.  They are sometimes able to draw on their lion half, and\nroar\n, or\nroar LIV\n.\nStrength:     Good\nConstitution: Good\nHp Max:       Above Ave\nHp Regen:     Average\nDexterity:    Excellent\nStamina:      Above Ave\nEp Max:       Below Ave\nEp Regen:     Above Ave\nIntelligence: Poor\nWisdom:       Poor\nSp Max:       Bad\nSp Regen:     Bad\nThey can train skills up to 100%\nThey can study spells up to 80%\nTheir experience rate is 88 %\nAverage height: 6 feet 8 inches\nAverage mass: 267\nThey have average charisma.\nThey learn skills faster than humans.\nThey learn spells MUCH slower than humans.\nThey can see in the dark.\nThey can eat corpses.\nThey are naturally resistant to cold damage.\nThey are naturally extremely vulnerable to fire damage."
+    },
+    "halfelf": {
+      "name": "Halfelf",
+      "description": "Hobbit Human Kobold Leprechaun Lizardman Mindflayer Minotaur Ogier",
+      "stats": {
+        "strength": "Good\nConstitution",
+        "constitution": "Above Ave",
+        "hp_max": "Average\nHp",
+        "hp_regen": "Average\nDexterity",
+        "dexterity": "Good\nStamina",
+        "stamina": "Below Ave",
+        "ep_max": "Poor\nEp",
+        "ep_regen": "Above Ave",
+        "intelligence": "Average\nWisdom",
+        "wisdom": "Above Ave",
+        "sp_max": "Below Ave",
+        "sp_regen": "Average\nThey"
+      },
+      "notes": [
+        "They can train skills up to 95%",
+        "They can study spells up to 95%",
+        "Their experience rate is 90 %",
+        "They are considered to be quite attractive creatures.",
+        "They learn skills slower than humans.",
+        "They learn spells faster than humans.",
+        "They can see in the dark."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nH a l f e l f\nHalfelves are the offspring of humans and elves. They get a mixed\ncharacteristics from their parents races, keeping humans' all around\nabilities but still keeping some of the elven wisdom and grace.\nStrength:     Good\nConstitution: Above Ave\nHp Max:       Average\nHp Regen:     Average\nDexterity:    Good\nStamina:      Below Ave\nEp Max:       Poor\nEp Regen:     Above Ave\nIntelligence: Average\nWisdom:       Above Ave\nSp Max:       Below Ave\nSp Regen:     Average\nThey can train skills up to 95%\nThey can study spells up to 95%\nTheir experience rate is 90 %\nAverage height: 5 feet 8 inches\nAverage mass: 141\nThey are considered to be quite attractive creatures.\nThey learn skills slower than humans.\nThey learn spells faster than humans.\nThey can see in the dark."
+    },
+    "hobbit": {
+      "name": "Hobbit",
+      "description": "Human Kobold Leprechaun Lizardman Mindflayer Minotaur Ogier Phoenix",
+      "stats": {
+        "strength": "Below Ave",
+        "constitution": "Above Ave",
+        "hp_max": "Average\nHp",
+        "hp_regen": "Below Ave",
+        "dexterity": "Excellent\nStamina",
+        "stamina": "Above Ave",
+        "ep_max": "Above Ave",
+        "ep_regen": "Good\nIntelligence",
+        "intelligence": "Below Ave",
+        "wisdom": "Poor\nSp",
+        "sp_max": "Bad\nSp",
+        "sp_regen": "Bad\nThey"
+      },
+      "notes": [
+        "They can train skills up to 100%",
+        "They can study spells up to 75%",
+        "Their experience rate is 99 %",
+        "They have average charisma.",
+        "They learn skills faster than humans.",
+        "They learn spells much slower than humans.",
+        "They are naturally resistant to poison damage.",
+        "They are naturally resistant to magical damage."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nH o b b i t\nHobbits are very small humanoids, shorter than dwarves. They are about\nthe size of a ten-years old human child, though they tend to be much\nheavier than a child. They are cheerful fellows that enjoy eating and\nsinging. Their politeness and peaceful attitude conceal the fierce\ncourage of this race that can do amazing things when needed. They are\nwell known for their agility and nimbleness.\nStrength:     Below Ave\nConstitution: Above Ave\nHp Max:       Average\nHp Regen:     Below Ave\nDexterity:    Excellent\nStamina:      Above Ave\nEp Max:       Above Ave\nEp Regen:     Good\nIntelligence: Below Ave\nWisdom:       Poor\nSp Max:       Bad\nSp Regen:     Bad\nThey can train skills up to 100%\nThey can study spells up to 75%\nTheir experience rate is 99 %\nAverage height: 3 feet 2 inches\nAverage mass: 81\nThey have average charisma.\nThey learn skills faster than humans.\nThey learn spells much slower than humans.\nThey are naturally resistant to poison damage.\nThey are naturally resistant to magical damage."
+    },
+    "human": {
+      "name": "Human",
+      "description": "Kobold Leprechaun Lizardman Mindflayer Minotaur Ogier Phoenix Snakeman",
+      "stats": {
+        "strength": "Average\nConstitution",
+        "constitution": "Average\nHp",
+        "hp_max": "Average\nHp",
+        "hp_regen": "Average\nDexterity",
+        "dexterity": "Average\nStamina",
+        "stamina": "Average\nEp",
+        "ep_max": "Average\nEp",
+        "ep_regen": "Average\nIntelligence",
+        "intelligence": "Average\nWisdom",
+        "wisdom": "Average\nSp",
+        "sp_max": "Average\nSp",
+        "sp_regen": "Average\nThey"
+      },
+      "notes": [
+        "They can train skills up to 95%",
+        "They can study spells up to 95%",
+        "Their experience rate is 100 %",
+        "They have average charisma."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nH u m a n\nThe humans of Islands of Myth are the most common race, and also the\nmore adaptable one. Though less gifted than other races in a specific\nguild, they are good learners, able to master skills and spells\nequally. They can be both fierce fighters and learned spellcasters.\nStrength:     Average\nConstitution: Average\nHp Max:       Average\nHp Regen:     Average\nDexterity:    Average\nStamina:      Average\nEp Max:       Average\nEp Regen:     Average\nIntelligence: Average\nWisdom:       Average\nSp Max:       Average\nSp Regen:     Average\nThey can train skills up to 95%\nThey can study spells up to 95%\nTheir experience rate is 100 %\nAverage height: 5 feet 8 inches\nAverage mass: 176\nThey have average charisma."
+    },
+    "kobold": {
+      "name": "Kobold",
+      "description": "Leprechaun Lizardman Mindflayer Minotaur Ogier Phoenix Snakeman Thrikhren",
+      "stats": {
+        "strength": "Below Ave",
+        "constitution": "Below Ave",
+        "hp_max": "Below Ave",
+        "hp_regen": "Above Ave",
+        "dexterity": "Good\nStamina",
+        "stamina": "Above Ave",
+        "ep_max": "Average\nEp",
+        "ep_regen": "Above Ave",
+        "intelligence": "Poor\nWisdom",
+        "wisdom": "Poor\nSp",
+        "sp_max": "Bad\nSp",
+        "sp_regen": "Bad\nThey"
+      },
+      "notes": [
+        "They can train skills up to 90%",
+        "They can study spells up to 75%",
+        "Their experience rate is 119 %",
+        "They are considered to be quite repulsive creatures.",
+        "They learn skills about as fast as humans.",
+        "They learn spells slower than humans.",
+        "They can see in the dark.",
+        "They can eat corpses.",
+        "They are naturally vulnerable to asphyxiation damage.",
+        "They are naturally vulnerable to fire damage.",
+        "They are naturally vulnerable to cold damage.",
+        "They are naturally vulnerable to psionic damage.",
+        "They are naturally vulnerable to magical damage.",
+        "They are naturally vulnerable to physical damage."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nK o b o l d\nKobold are small, dog-like humanoids, with very few redeeming qualities. They usually live in large tribes for a lone kobold cannot expect to survive long. Numbers make their strength, since a crowd of kobold can overrun large foes. Kobolds generally live short and violent lives. Most other races shun the kobold. They are such cowardly, craven creatures, used to running away, that they can often flee combat with no ill effects.\nStrength:     Below Ave\nConstitution: Below Ave\nHp Max:       Below Ave\nHp Regen:     Above Ave\nDexterity:    Good\nStamina:      Above Ave\nEp Max:       Average\nEp Regen:     Above Ave\nIntelligence: Poor\nWisdom:       Poor\nSp Max:       Bad\nSp Regen:     Bad\nThey can train skills up to 90%\nThey can study spells up to 75%\nTheir experience rate is 119 %\nAverage height: 3 feet 10 inches\nAverage mass: 85\nThey are considered to be quite repulsive creatures.\nThey learn skills about as fast as humans.\nThey learn spells slower than humans.\nThey can see in the dark.\nThey can eat corpses.\nThey are naturally vulnerable to asphyxiation damage.\nThey are naturally vulnerable to fire damage.\nThey are naturally vulnerable to cold damage.\nThey are naturally vulnerable to psionic damage.\nThey are naturally vulnerable to magical damage.\nThey are naturally vulnerable to physical damage."
+    },
+    "leprechaun": {
+      "name": "Leprechaun",
+      "description": "Lizardman Mindflayer Minotaur Ogier Phoenix Snakeman Thrikhren Troll",
+      "stats": {
+        "strength": "Terrible\nConstitution",
+        "constitution": "Poor\nHp",
+        "hp_max": "Poor\nHp",
+        "hp_regen": "Poor\nDexterity",
+        "dexterity": "Above Ave",
+        "stamina": "Poor\nEp",
+        "ep_max": "Poor\nEp",
+        "ep_regen": "Poor\nIntelligence",
+        "intelligence": "Above Ave",
+        "wisdom": "Good\nSp",
+        "sp_max": "Good\nSp",
+        "sp_regen": "Good\nThey"
+      },
+      "notes": [
+        "They can train skills up to 80%",
+        "They can study spells up to 90%",
+        "Their experience rate is 118 %",
+        "They are considered to be quite attractive creatures.",
+        "They learn skills slower than humans.",
+        "They learn spells much faster than humans.",
+        "They are naturally extremely resistant to magical damage."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nL e p r e c h a u n\nLeprechauns are very small beings that are distantly related\nto hobbits, though both races have gone separate ways a long\ntime ago. Leprechauns are usually playful and cheerful, being\nsometimes mischievous. They are nimble and have a quick mind,\nwhich gives them natural abilities at magic, even though they\nare a bit erratic and sometimes lack proper concentration for\nrituals and enchantments.\nStrength:     Terrible\nConstitution: Poor\nHp Max:       Poor\nHp Regen:     Poor\nDexterity:    Above Ave\nStamina:      Poor\nEp Max:       Poor\nEp Regen:     Poor\nIntelligence: Above Ave\nWisdom:       Good\nSp Max:       Good\nSp Regen:     Good\nThey can train skills up to 80%\nThey can study spells up to 90%\nTheir experience rate is 118 %\nAverage height: 2 feet 10 inches\nAverage mass: 73\nThey are considered to be quite attractive creatures.\nThey learn skills slower than humans.\nThey learn spells much faster than humans.\nThey are naturally extremely resistant to magical damage."
+    },
+    "lizardman": {
+      "name": "Lizardman",
+      "description": "Mindflayer Minotaur Ogier Phoenix Snakeman Thrikhren Troll Vampire",
+      "stats": {
+        "strength": "Above Ave",
+        "constitution": "Above Ave",
+        "hp_max": "Above Ave",
+        "hp_regen": "Below Ave",
+        "dexterity": "Good\nStamina",
+        "stamina": "Average\nEp",
+        "ep_max": "Average\nEp",
+        "ep_regen": "Above Ave",
+        "intelligence": "Poor\nWisdom",
+        "wisdom": "Above Ave",
+        "sp_max": "Bad\nSp",
+        "sp_regen": "Average\nThey"
+      },
+      "notes": [
+        "They can train skills up to 95%",
+        "They can study spells up to 90%",
+        "Their experience rate is 87 %",
+        "They are considered to be quite attractive creatures.",
+        "They learn skills slower than humans.",
+        "They learn spells much slower than humans.",
+        "They can eat corpses."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nL i z a r d m a n\nLizardmen are savage, semi-aquatic, reptilian humanoids that live\nthrough scavenging, raiding, and in less hostile areas, by fishing\nand gathering. Adult lizardmen stand 6-7 feet tall, weighing 200 to\n250 pounds. Skin tones range from dark green to grey and brown. They\nare scaled and have a flecked appearance. Their tails are 3-4 feet\nlong and although not prehensile are quite expressive. Males are\nnearly impossible to distinguish from females without either asking\nor close inspection. About one tribe in ten has evolved to a higher\nstate and it is these lizardmen that are sometimes seen adventuring.\nStrength:     Above Ave\nConstitution: Above Ave\nHp Max:       Above Ave\nHp Regen:     Below Ave\nDexterity:    Good\nStamina:      Average\nEp Max:       Average\nEp Regen:     Above Ave\nIntelligence: Poor\nWisdom:       Above Ave\nSp Max:       Bad\nSp Regen:     Average\nThey can train skills up to 95%\nThey can study spells up to 90%\nTheir experience rate is 87 %\nAverage height: 6 feet 4 inches\nAverage mass: 254\nThey are considered to be quite attractive creatures.\nThey learn skills slower than humans.\nThey learn spells much slower than humans.\nThey can eat corpses."
+    },
+    "mindflayer": {
+      "name": "Mindflayer",
+      "description": "Minotaur Ogier Phoenix Snakeman Thrikhren Troll Vampire Vinnipier",
+      "stats": {
+        "strength": "Poor\nConstitution",
+        "constitution": "Poor\nHp",
+        "hp_max": "Poor\nHp",
+        "hp_regen": "Poor\nDexterity",
+        "dexterity": "Below Ave",
+        "stamina": "Poor\nEp",
+        "ep_max": "Bad\nEp",
+        "ep_regen": "Poor\nIntelligence",
+        "intelligence": "Excellent\nWisdom",
+        "wisdom": "Excellent\nSp",
+        "sp_max": "Excellent\nSp",
+        "sp_regen": "Excellent\nThey"
+      },
+      "notes": [
+        "They can train skills up to 90%",
+        "They can study spells up to 100%",
+        "Their experience rate is 89 %",
+        "They are considered to be totally repulsive creatures.",
+        "They learn skills MUCH slower than humans.",
+        "They learn spells much faster than humans.",
+        "They can see in the dark.",
+        "They can eat corpses.",
+        "They are naturally vulnerable to fire damage.",
+        "They are naturally vulnerable to physical damage.",
+        "They are naturally extremely resistant to psionic damage."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nM i n d f l a y e r\nMindflayers come from the Dark of the Underworld, far from the light\nof the sun. Their tentacled heads contain evil genius unmatched in any\nother of the world's races. Said to feed on the brains of the fallen,\nmindflayers are also reputed to gain psionic power by feeding thus.\nMindflayers are highly magical, and can cast magics unknown to any\nother mortal. They are of average height, but have purplish skin and\nover-large eyes. Where most races have their mouths, mindflayers have\na nest of foot-long tentacles, which they use to eat. Their voices are\nguttural, and they have a hard time pronouncing certain words.\nStrength:     Poor\nConstitution: Poor\nHp Max:       Poor\nHp Regen:     Poor\nDexterity:    Below Ave\nStamina:      Poor\nEp Max:       Bad\nEp Regen:     Poor\nIntelligence: Excellent\nWisdom:       Excellent\nSp Max:       Excellent\nSp Regen:     Excellent\nThey can train skills up to 90%\nThey can study spells up to 100%\nTheir experience rate is 89 %\nAverage height: 5 feet 4 inches\nAverage mass: 100\nThey are considered to be totally repulsive creatures.\nThey learn skills MUCH slower than humans.\nThey learn spells much faster than humans.\nThey can see in the dark.\nThey can eat corpses.\nThey are naturally vulnerable to fire damage.\nThey are naturally vulnerable to physical damage.\nThey are naturally extremely resistant to psionic damage."
+    },
+    "minotaur": {
+      "name": "Minotaur",
+      "description": "Ogier Phoenix Snakeman Thrikhren Troll Vampire Vinnipier Xorn",
+      "stats": {
+        "strength": "Excellent\nConstitution",
+        "constitution": "Excellent\nHp",
+        "hp_max": "Very Good",
+        "hp_regen": "Above Ave",
+        "dexterity": "Good\nStamina",
+        "stamina": "Above Ave",
+        "ep_max": "Average\nEp",
+        "ep_regen": "Above Ave",
+        "intelligence": "Bad\nWisdom",
+        "wisdom": "Bad\nSp",
+        "sp_max": "Terrible\nSp",
+        "sp_regen": "Terrible\nThey"
+      },
+      "notes": [
+        "They are as well known for their simple-mindedness as they are for",
+        "They can train skills up to 100%",
+        "They can study spells up to 50%",
+        "Their experience rate is 92 %",
+        "They are considered to be rather unattractive creatures.",
+        "They learn skills about as fast as humans.",
+        "They learn spells MUCH slower than humans.",
+        "They are naturally extremely vulnerable to psionic damage.",
+        "They are naturally resistant to physical damage."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nM i n o t a u r\nMinotaurs are very large hairy humanoids, with the head and\nhind-quarters of a bull and torso and arms similar to those\nof a human. Horns, hooves and hands together create an effective\noffense in most situations; combined with the Minotaur's naturally\nthick skin, they create fearsome combatant. Strong and robust,\nlarge and powerful, the Minotaur main weakness is their stupidity.\nThey are as well known for their simple-mindedness as they are for\ntheir combat abilities.\nStrength:     Excellent\nConstitution: Excellent\nHp Max:       Very Good\nHp Regen:     Above Ave\nDexterity:    Good\nStamina:      Above Ave\nEp Max:       Average\nEp Regen:     Above Ave\nIntelligence: Bad\nWisdom:       Bad\nSp Max:       Terrible\nSp Regen:     Terrible\nThey can train skills up to 100%\nThey can study spells up to 50%\nTheir experience rate is 92 %\nAverage height: 6 feet 11 inches\nAverage mass: 276\nThey are considered to be rather unattractive creatures.\nThey learn skills about as fast as humans.\nThey learn spells MUCH slower than humans.\nThey are naturally extremely vulnerable to psionic damage.\nThey are naturally resistant to physical damage."
+    },
+    "ogier": {
+      "name": "Ogier",
+      "description": "Phoenix Snakeman Thrikhren Troll Vampire Vinnipier Xorn O g i e r",
+      "stats": {
+        "strength": "Good\nConstitution",
+        "constitution": "Very Good",
+        "hp_max": "Good\nHp",
+        "hp_regen": "Average\nDexterity",
+        "dexterity": "Excellent\nStamina",
+        "stamina": "Above Ave",
+        "ep_max": "Above Ave",
+        "ep_regen": "Above Ave",
+        "intelligence": "Bad\nWisdom",
+        "wisdom": "Poor\nSp",
+        "sp_max": "Bad\nSp",
+        "sp_regen": "Bad\nThey"
+      },
+      "notes": [
+        "Their excellent eye for detail, speed of work and ability to work long hours",
+        "They can train skills up to 95%",
+        "They can study spells up to 60%",
+        "Their experience rate is 87 %",
+        "They have average charisma.",
+        "They learn skills much slower than humans.",
+        "They learn spells MUCH slower than humans.",
+        "They can see in the dark."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nO g i e r\nWidely known as expert stonemasons, the Ogier were first seen in Islands of Myth\nduring the construction of the city, and the mysterious tunnels beneath it.\nTheir excellent eye for detail, speed of work and ability to work long hours\nthroughout the year led them to be much sought after. Known as a pacific\npeople who long for the old ways of tending living and growing thing, the\nOgier were not always this way. They were quick to act and quick on their\nfeet and considered some of the fiercest warriors. Unfortunately, in the ages\nsince the Ogier left their homes,\nthe Stedding, to come to Islands of Myth, they have become withdrawn and lost much\nof their mental capacity, now reputably slow to recover magical energies and\nslow learners of spells and skills. Ogier resemble humans in general build,\nwith long tufted ears and broad, vaguely snoutlike noses. However they are\nmuch larger and much longer lived, and can be most often seen adventuring as\nwoodsmen, rogues and fighters.\nStrength:     Good\nConstitution: Very Good\nHp Max:       Good\nHp Regen:     Average\nDexterity:    Excellent\nStamina:      Above Ave\nEp Max:       Above Ave\nEp Regen:     Above Ave\nIntelligence: Bad\nWisdom:       Poor\nSp Max:       Bad\nSp Regen:     Bad\nThey can train skills up to 95%\nThey can study spells up to 60%\nTheir experience rate is 87 %\nAverage height: 10 feet\nAverage mass: 489\nThey have average charisma.\nThey learn skills much slower than humans.\nThey learn spells MUCH slower than humans.\nThey can see in the dark."
+    },
+    "phoenix": {
+      "name": "Phoenix",
+      "description": "Snakeman Thrikhren Troll Vampire Vinnipier Xorn P h o e n i x The phoenix is a legendary bird of fire, with the ability to return",
+      "stats": {
+        "strength": "Below Ave",
+        "constitution": "Below Ave",
+        "hp_max": "Below Ave",
+        "hp_regen": "Below Ave",
+        "dexterity": "Average\nStamina",
+        "stamina": "Below Ave",
+        "ep_max": "Poor\nEp",
+        "ep_regen": "Poor\nIntelligence",
+        "intelligence": "Good\nWisdom",
+        "wisdom": "Above Ave",
+        "sp_max": "Good\nSp",
+        "sp_regen": "Very Good"
+      },
+      "notes": [
+        "They can train skills up to 90%",
+        "They can study spells up to 95%",
+        "Their experience rate is 102 %",
+        "They are considered to be quite attractive creatures.",
+        "They learn skills much slower than humans.",
+        "They learn spells faster than humans.",
+        "They can see in the dark.",
+        "They can fly.",
+        "They are naturally extremely vulnerable to cold damage.",
+        "They are naturally extremely resistant to fire damage."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nP h o e n i x\nThe phoenix is a legendary bird of fire, with the ability to return\nfrom beyond the grave. They are fierce in combat, but would rather\nuse their great intellect as their weapon. The phoenix are renowned\nfor their abandon in battle. They have been known to charge into combat\nagainst great odds, and with little hope for survival. When their great\nintelligence and fighting spirit are coupled with their magical nature,\nit is easy to see why the phoenix is one of the most feared races on\nIslands of Myth.\nStrength:     Below Ave\nConstitution: Below Ave\nHp Max:       Below Ave\nHp Regen:     Below Ave\nDexterity:    Average\nStamina:      Below Ave\nEp Max:       Poor\nEp Regen:     Poor\nIntelligence: Good\nWisdom:       Above Ave\nSp Max:       Good\nSp Regen:     Very Good\nThey can train skills up to 90%\nThey can study spells up to 95%\nTheir experience rate is 102 %\nAverage height: 5 feet\nAverage mass: 109\nThey are considered to be quite attractive creatures.\nThey learn skills much slower than humans.\nThey learn spells faster than humans.\nThey can see in the dark.\nThey can fly.\nThey are naturally extremely vulnerable to cold damage.\nThey are naturally extremely resistant to fire damage."
+    },
+    "snakeman": {
+      "name": "Snakeman",
+      "description": "Thrikhren Troll Vampire Vinnipier Xorn S n a k e m a n Snakemen are a race of humanoid shaped reptiles. They have most of the features of the snake, with their scaly hide and their cold blood. Snakemen were created a long time ago by magic by a powerful mage that intended to use them as his servants. The experiment was a bit too successful and they proved themselves more intelligent than their creator and eliminated him. Since then, snakemen have always produced some of the best mages of the Isl",
+      "stats": {
+        "strength": "Poor\nConstitution",
+        "constitution": "Poor\nHp",
+        "hp_max": "Poor\nHp",
+        "hp_regen": "Below Ave",
+        "dexterity": "Below Ave",
+        "stamina": "Poor\nEp",
+        "ep_max": "Poor\nEp",
+        "ep_regen": "Below Ave",
+        "intelligence": "Excellent\nWisdom",
+        "wisdom": "Average\nSp",
+        "sp_max": "Very Good",
+        "sp_regen": "Excellent\nThey"
+      },
+      "notes": [
+        "They can train skills up to 95%",
+        "They can study spells up to 100%",
+        "Their experience rate is 98 %",
+        "They are considered to be quite repulsive creatures.",
+        "They learn skills much slower than humans.",
+        "They learn spells much faster than humans.",
+        "They can see in the dark.",
+        "They are naturally resistant to poison damage.",
+        "They are naturally vulnerable to physical damage."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nS n a k e m a n\nSnakemen are a race of humanoid shaped reptiles. They have most of the features of the snake, with their scaly hide and their cold blood. Snakemen were created a long time ago by magic by a powerful mage that intended to use them as his servants. The experiment was a bit too successful and they proved themselves more intelligent than their creator and eliminated him. Since then, snakemen have always produced some of the best mages of the Islands of Myth world.\nStrength:     Poor\nConstitution: Poor\nHp Max:       Poor\nHp Regen:     Below Ave\nDexterity:    Below Ave\nStamina:      Poor\nEp Max:       Poor\nEp Regen:     Below Ave\nIntelligence: Excellent\nWisdom:       Average\nSp Max:       Very Good\nSp Regen:     Excellent\nThey can train skills up to 95%\nThey can study spells up to 100%\nTheir experience rate is 98 %\nAverage height: 4 feet 4 inches\nAverage mass: 109\nThey are considered to be quite repulsive creatures.\nThey learn skills much slower than humans.\nThey learn spells much faster than humans.\nThey can see in the dark.\nThey are naturally resistant to poison damage.\nThey are naturally vulnerable to physical damage."
+    },
+    "thrikhren": {
+      "name": "Thrikhren",
+      "description": "Troll Vampire Vinnipier Xorn T h r i k h r e n Thrikhren are an ancient race of Mantis warriors and are very intelligent insectoids. Thrikhrens are some of the most proficient mages in the world. Their main area of expertise is in the mind; but this doesn't mean their",
+      "stats": {
+        "strength": "Below Ave",
+        "constitution": "Average\nHp",
+        "hp_max": "Average\nHp",
+        "hp_regen": "Poor\nDexterity",
+        "dexterity": "Above Ave",
+        "stamina": "Poor\nEp",
+        "ep_max": "Poor\nEp",
+        "ep_regen": "Poor\nIntelligence",
+        "intelligence": "Excellent\nWisdom",
+        "wisdom": "Above Ave",
+        "sp_max": "Above Ave",
+        "sp_regen": "Very Good"
+      },
+      "notes": [
+        "Their main area of expertise is in the mind; but this doesn't mean their",
+        "They can train skills up to 95%",
+        "They can study spells up to 95%",
+        "Their experience rate is 87 %",
+        "They have average charisma.",
+        "They learn skills slower than humans.",
+        "They learn spells about as fast as humans.",
+        "They can see in the dark.",
+        "They can eat corpses.",
+        "They are naturally resistant to poison damage.",
+        "They are naturally resistant to acid damage.",
+        "They are naturally resistant to physical damage."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nT h r i k h r e n\nThrikhren are an ancient race of Mantis warriors and are very intelligent\ninsectoids. Thrikhrens are some of the most proficient mages in the world.\nTheir main area of expertise is in the mind; but this doesn't mean their\nbodies are lacking. They have strong shells and sharp claws that confer to\nthem natural abilites welcome to any spellcaster.\nStrength:     Below Ave\nConstitution: Average\nHp Max:       Average\nHp Regen:     Poor\nDexterity:    Above Ave\nStamina:      Poor\nEp Max:       Poor\nEp Regen:     Poor\nIntelligence: Excellent\nWisdom:       Above Ave\nSp Max:       Above Ave\nSp Regen:     Very Good\nThey can train skills up to 95%\nThey can study spells up to 95%\nTheir experience rate is 87 %\nAverage height: 4 feet 7 inches\nAverage mass: 114\nThey have average charisma.\nThey learn skills slower than humans.\nThey learn spells about as fast as humans.\nThey can see in the dark.\nThey can eat corpses.\nThey are naturally resistant to poison damage.\nThey are naturally resistant to acid damage.\nThey are naturally resistant to physical damage."
+    },
+    "troll": {
+      "name": "Troll",
+      "description": "Vampire Vinnipier Xorn T r o l l Trolls are tall and huge humanoids, covered with rubbery green skin. they have wiry, blackhair, and dull, black eyes. Trolls skin is thick enough to deflect some attacks, and their regenerative powers are better than any other race. Trolls, however, are very stupid creatures, with",
+      "stats": {
+        "strength": "Excellent\nConstitution",
+        "constitution": "Excellent\nHp",
+        "hp_max": "Very Good",
+        "hp_regen": "Excellent\nDexterity",
+        "dexterity": "Average\nStamina",
+        "stamina": "Above Ave",
+        "ep_max": "Above Ave",
+        "ep_regen": "Good\nIntelligence",
+        "intelligence": "Terrible\nWisdom",
+        "wisdom": "Terrible\nSp",
+        "sp_max": "Terrible\nSp",
+        "sp_regen": "Terrible\nThey"
+      },
+      "notes": [
+        "They can train skills up to 90%",
+        "They can study spells up to 10%",
+        "Their experience rate is 89 %",
+        "They are considered to be quite repulsive creatures.",
+        "They learn skills much slower than humans.",
+        "They learn spells MUCH slower than humans.",
+        "They can see in the dark.",
+        "They can eat corpses.",
+        "They are naturally resistant to physical damage."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nT r o l l\nTrolls are tall and huge humanoids, covered with rubbery green skin.\nthey have wiry, blackhair, and dull, black eyes. Trolls skin is thick\nenough to deflect some attacks, and their regenerative powers are better\nthan any other race. Trolls, however, are very stupid creatures, with\nlittle gift for magic, and who learn very slowly.\nStrength:     Excellent\nConstitution: Excellent\nHp Max:       Very Good\nHp Regen:     Excellent\nDexterity:    Average\nStamina:      Above Ave\nEp Max:       Above Ave\nEp Regen:     Good\nIntelligence: Terrible\nWisdom:       Terrible\nSp Max:       Terrible\nSp Regen:     Terrible\nThey can train skills up to 90%\nThey can study spells up to 10%\nTheir experience rate is 89 %\nAverage height: 8 feet 6 inches\nAverage mass: 443\nThey are considered to be quite repulsive creatures.\nThey learn skills much slower than humans.\nThey learn spells MUCH slower than humans.\nThey can see in the dark.\nThey can eat corpses.\nThey are naturally resistant to physical damage."
+    },
+    "vampire": {
+      "name": "Vampire",
+      "description": "Vinnipier Xorn V a m p i r e Vampires are wrapped in mystery. Very little is known about this race. The only thing known for sure is that they have a definite aversion to light of any type. Another tell tale sign is that of the pointed ears and pale skin. Vampires almost always have a deathly white pallor to their skin.",
+      "stats": {
+        "strength": "Average\nConstitution",
+        "constitution": "Good\nHp",
+        "hp_max": "Average\nHp",
+        "hp_regen": "Below Ave",
+        "dexterity": "Average\nStamina",
+        "stamina": "Below Ave",
+        "ep_max": "Bad\nEp",
+        "ep_regen": "Poor\nIntelligence",
+        "intelligence": "Excellent\nWisdom",
+        "wisdom": "Good\nSp",
+        "sp_max": "Good\nSp",
+        "sp_regen": "Very Good"
+      },
+      "notes": [
+        "They can train skills up to 95%",
+        "They can study spells up to 100%",
+        "Their experience rate is 82 %",
+        "They are considered to be rather unattractive creatures.",
+        "They learn skills slower than humans.",
+        "They learn spells about as fast as humans.",
+        "They can see in the dark.",
+        "They only heal in dark places.",
+        "They are naturally extremely vulnerable to holy damage.",
+        "They are naturally resistant to unholy damage.",
+        "They are naturally resistant to magical damage."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nV a m p i r e\nVampires are wrapped in mystery. Very little is known about this\nrace. The only thing known for sure is that they have a definite\naversion to light of any type. Another tell tale sign is that of\nthe pointed ears and pale skin. Vampires almost always have a deathly\nwhite pallor to their skin.\nStrength:     Average\nConstitution: Good\nHp Max:       Average\nHp Regen:     Below Ave\nDexterity:    Average\nStamina:      Below Ave\nEp Max:       Bad\nEp Regen:     Poor\nIntelligence: Excellent\nWisdom:       Good\nSp Max:       Good\nSp Regen:     Very Good\nThey can train skills up to 95%\nThey can study spells up to 100%\nTheir experience rate is 82 %\nAverage height: 6 feet 3 inches\nAverage mass: 173\nThey are considered to be rather unattractive creatures.\nThey learn skills slower than humans.\nThey learn spells about as fast as humans.\nThey can see in the dark.\nThey only heal in dark places.\nThey are naturally extremely vulnerable to holy damage.\nThey are naturally resistant to unholy damage.\nThey are naturally resistant to magical damage."
+    },
+    "vinnipier": {
+      "name": "Vinnipier",
+      "description": "Xorn V i n n i p i e r Vinnipier are a genetic mistake in an elf offbreed. They have small pointy ears like elves do, but are physically stronger being a race much more warlike than elves. They have small oval shaped blue eyes and an awkward slanted head. They stagger constantly, possibly due to the genetic mistake. This makes them appear to be intoxicated almost constantly.",
+      "stats": {
+        "strength": "Good\nConstitution",
+        "constitution": "Above Ave",
+        "hp_max": "Average\nHp",
+        "hp_regen": "Above Ave",
+        "dexterity": "Very Good",
+        "stamina": "Below Ave",
+        "ep_max": "Average\nEp",
+        "ep_regen": "Above Ave",
+        "intelligence": "Below Ave",
+        "wisdom": "Below Ave",
+        "sp_max": "Bad\nSp",
+        "sp_regen": "Poor\nThey"
+      },
+      "notes": [
+        "They can train skills up to 100%",
+        "They can study spells up to 80%",
+        "Their experience rate is 94 %",
+        "They are considered to be fascinating creatures.",
+        "They learn skills about as fast as humans.",
+        "They learn spells about as fast as humans.",
+        "They are naturally extremely resistant to magical damage."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nV i n n i p i e r\nVinnipier are a genetic mistake in an elf offbreed. They have small\npointy ears like elves do, but are physically stronger being a race\nmuch more warlike than elves. They have small oval shaped blue eyes\nand an awkward slanted head. They stagger constantly, possibly due\nto the genetic mistake. This makes them appear to be intoxicated\nalmost constantly.\nStrength:     Good\nConstitution: Above Ave\nHp Max:       Average\nHp Regen:     Above Ave\nDexterity:    Very Good\nStamina:      Below Ave\nEp Max:       Average\nEp Regen:     Above Ave\nIntelligence: Below Ave\nWisdom:       Below Ave\nSp Max:       Bad\nSp Regen:     Poor\nThey can train skills up to 100%\nThey can study spells up to 80%\nTheir experience rate is 94 %\nAverage height: 5 feet 2 inches\nAverage mass: 129\nThey are considered to be fascinating creatures.\nThey learn skills about as fast as humans.\nThey learn spells about as fast as humans.\nThey are naturally extremely resistant to magical damage."
+    },
+    "xorn": {
+      "name": "Xorn",
+      "description": "X o r n Xorns are wide hulking beasts with thick green scale hide. It is not  very clear where this hardly thinking race came from, but they imposed their presence and power on most battlefields. They are fearsome warriors, that possess incredible strength and impressive dexterity considering their size.  Having a natural affinity for stone, they are known to be able to dig through solid rock to places ( dig to <loc> ). Constitution: Good Hp Max:       Good Hp Regen:     Above Ave Dexterity:    ",
+      "stats": {
+        "strength": "Excellent\nConstitution",
+        "constitution": "Good\nHp",
+        "hp_max": "Good\nHp",
+        "hp_regen": "Above Ave",
+        "dexterity": "Above Ave",
+        "stamina": "Good\nEp",
+        "ep_max": "Above Ave",
+        "ep_regen": "Good\nIntelligence",
+        "intelligence": "Terrible\nWisdom",
+        "wisdom": "Terrible\nSp",
+        "sp_max": "Terrible\nSp",
+        "sp_regen": "Terrible\nThey"
+      },
+      "notes": [
+        "They can train skills up to 90%",
+        "They can study spells up to 25%",
+        "Their experience rate is 94 %",
+        "They are considered to be quite repulsive creatures.",
+        "They learn skills slower than humans.",
+        "They learn spells MUCH slower than humans.",
+        "They can see in the dark.",
+        "They are naturally resistant to cold damage.",
+        "They are naturally resistant to physical damage.",
+        "They are naturally resistant to fire damage."
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nX o r n\nXorns are wide hulking beasts with thick green scale hide. It is not  very clear where this hardly thinking race came from, but they imposed their presence and power on most battlefields. They are fearsome warriors, that possess incredible strength and impressive dexterity considering their size.  Having a natural affinity for stone, they are known to be able to dig through solid rock to places (\ndig to <loc>\n).\nStrength:     Excellent\nConstitution: Good\nHp Max:       Good\nHp Regen:     Above Ave\nDexterity:    Above Ave\nStamina:      Good\nEp Max:       Above Ave\nEp Regen:     Good\nIntelligence: Terrible\nWisdom:       Terrible\nSp Max:       Terrible\nSp Regen:     Terrible\nThey can train skills up to 90%\nThey can study spells up to 25%\nTheir experience rate is 94 %\nAverage height: 8 feet 4 inches\nAverage mass: 434\nThey are considered to be quite repulsive creatures.\nThey learn skills slower than humans.\nThey learn spells MUCH slower than humans.\nThey can see in the dark.\nThey are naturally resistant to cold damage.\nThey are naturally resistant to physical damage.\nThey are naturally resistant to fire damage."
+    }
+  },
+  "guilds": {
+    "warrior": {
+      "name": "Warrior",
+      "tree_ascii": "___________ _________|_____________________\n|          |               |              |\nKnight\nDefender Of\nBerserker\nTraveler\nThe Crown\n|_________|_______________|__________________________\n|         |               |            |             |\nBlade\nBarbarian\nShield\nFlogger\nThruster\nDancer\nMaster\n|____________|____________|____________|_____________|\n|\nChampion Of\nThe Crown",
+      "tree_nodes": [
+        "Warrior",
+        "Knight",
+        "Defender Of",
+        "Berserker",
+        "Traveler",
+        "The Crown",
+        "Blade",
+        "Barbarian",
+        "Shield",
+        "Flogger",
+        "Thruster",
+        "Dancer",
+        "Master",
+        "Champion Of"
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nWarrior\nWarrior\n___________ _________|_____________________\n|          |               |              |\nKnight\nDefender Of\nBerserker\nTraveler\nThe Crown\n|_________|_______________|__________________________\n|         |               |            |             |\nBlade\nBarbarian\nShield\nFlogger\nThruster\nDancer\nMaster\n|____________|____________|____________|_____________|\n|\nChampion Of\nThe Crown"
+    },
+    "martialartist": {
+      "name": "Martialartist",
+      "tree_ascii": "_______________|__________________________________\n|               |                 |                |\nDragonfist\nMystic\nTraveler\nFighter\nWarriors\n|_________________________________|\n_________________________|_________________________\n|           |             |             |           |\nToad\nTiger\nCrane\nSnake\nOrder of the\nMaster\nMaster\nMaster\nMaster\nCrescent Moon\n|____________|____________|____________|____________|\n|\nDragon\nMaster",
+      "tree_nodes": [
+        "Martial Artist",
+        "Dragonfist",
+        "Mystic",
+        "Traveler",
+        "Fighter",
+        "Warriors",
+        "Toad",
+        "Tiger",
+        "Crane",
+        "Snake",
+        "Order of the",
+        "Master",
+        "Crescent Moon",
+        "Dragon"
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nMartial artist\nMartial Artist\n_______________|__________________________________\n|               |                 |                |\nDragonfist\nMystic\nTraveler\nFighter\nWarriors\n|_________________________________|\n_________________________|_________________________\n|           |             |             |           |\nToad\nTiger\nCrane\nSnake\nOrder of the\nMaster\nMaster\nMaster\nMaster\nCrescent Moon\n|____________|____________|____________|____________|\n|\nDragon\nMaster"
+    },
+    "acrobat": {
+      "name": "Acrobat",
+      "tree_ascii": "____________|__________________________\n|            |              |           |\nStreet\nJuggler\nBard\nTraveler\nBrawler\n|              |\n|____________|______________|\n|            |              |\nMinstrel\nBartender\nBannerman\n|____________|______________|\n|             |\nGleeman\nTroubadour",
+      "tree_nodes": [
+        "Acrobat",
+        "Street",
+        "Juggler",
+        "Bard",
+        "Traveler",
+        "Brawler",
+        "Minstrel",
+        "Bartender",
+        "Bannerman",
+        "Gleeman",
+        "Troubadour"
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nAcrobat\nAcrobat\n____________|__________________________\n|            |              |           |\nStreet\nJuggler\nBard\nTraveler\nBrawler\n|              |\n|____________|______________|\n|            |              |\nMinstrel\nBartender\nBannerman\n|____________|______________|\n|             |\nGleeman\nTroubadour"
+    },
+    "abjurer": {
+      "name": "Abjurer",
+      "tree_ascii": "____________________|______________________________________________________\n|                    |                         |             |              |\nProtector\nMasters\nIrrifletta\nNavigator\nTraveler\nOf The Earth\nOf Energy\n|             |\n|____________________|_________________________|             |\n|                      |              |                |\nMaster\nHarbinger\nEnchanter\nMaster\nAbjurer\nOf Anguish\nNavigators\n|______________________|\n|             |\nMaster Of\nGuardians\nDisruption",
+      "tree_nodes": [
+        "Abjurer",
+        "Protector",
+        "Masters",
+        "Irrifletta",
+        "Navigator",
+        "Traveler",
+        "Of The Earth",
+        "Of Energy",
+        "Master",
+        "Harbinger",
+        "Enchanter",
+        "Of Anguish",
+        "Navigators",
+        "Master Of",
+        "Guardians",
+        "Disruption"
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nAbjurer\nAbjurer\n____________________|______________________________________________________\n|                    |                         |             |              |\nProtector\nMasters\nIrrifletta\nNavigator\nTraveler\nOf The Earth\nOf Energy\n|             |\n|____________________|_________________________|             |\n|                      |              |                |\nMaster\nHarbinger\nEnchanter\nMaster\nAbjurer\nOf Anguish\nNavigators\n|______________________|\n|             |\nMaster Of\nGuardians\nDisruption"
+    },
+    "elemental": {
+      "name": "Elemental",
+      "tree_ascii": "_________________________|________________________________________________\n|            |            |           |        |            |             |\nFire Mage\nEarth Mage\nAir mage\nWater Mage\n|\nNavigator\nTraveler\n|____________|            |___________|        |            |\n|                         |              |\nMaster\nLava Mage\nMist Mage\nEnchanter\nNavigators\n|_________________________|\n|\nNether Mage",
+      "tree_nodes": [
+        "Elemental",
+        "Fire Mage",
+        "Earth Mage",
+        "Air mage",
+        "Water Mage",
+        "Navigator",
+        "Traveler",
+        "Master",
+        "Lava Mage",
+        "Mist Mage",
+        "Enchanter",
+        "Navigators",
+        "Nether Mage"
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nElemental\nElemental\n_________________________|________________________________________________\n|            |            |           |        |            |             |\nFire Mage\nEarth Mage\nAir mage\nWater Mage\n|\nNavigator\nTraveler\n|____________|            |___________|        |            |\n|                         |              |\nMaster\nLava Mage\nMist Mage\nEnchanter\nNavigators\n|_________________________|\n|\nNether Mage"
+    },
+    "psychics": {
+      "name": "Psychics",
+      "tree_ascii": "____________________|_____________________________________\n|              |                 |            |            |\nMystics\nWitch\nTelekinetics\nTraveler\nNavigator\n______|_____________|__________________|____________              |\n|           |                |            |          |\nMaster\nCauldron\nOneiromancers\nWatchers Of\nPsionists\nEnchanter\nNavigators\nMagic\n|\nThe Night\n|\n|_____________|_____________|_____________|\n|\nTalisman Magic",
+      "tree_nodes": [
+        "Psychics",
+        "Mystics",
+        "Witch",
+        "Telekinetics",
+        "Traveler",
+        "Navigator",
+        "Master",
+        "Cauldron",
+        "Oneiromancers",
+        "Watchers Of",
+        "Psionists",
+        "Enchanter",
+        "Navigators",
+        "Magic",
+        "The Night",
+        "Talisman Magic"
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nPsychics\nPsychics\n____________________|_____________________________________\n|              |                 |            |            |\nMystics\nWitch\nTelekinetics\nTraveler\nNavigator\n______|_____________|__________________|____________              |\n|           |                |            |          |\nMaster\nCauldron\nOneiromancers\nWatchers Of\nPsionists\nEnchanter\nNavigators\nMagic\n|\nThe Night\n|\n|_____________|_____________|_____________|\n|\nTalisman Magic"
+    },
+    "evoker": {
+      "name": "Evoker",
+      "tree_ascii": "_______________|______________________________________________\n|               |             |                                |\nEvoker Of\nEvoker Of\nTraveler\nNavigator\nElements\nEther\n|\n_________|_________________|___________________________________           |\n|       |       |       |       |       |       |       |       |\nMaster\nMagic\nVacuum\nFlames\nForce\nPoison\nAcid\nLightning\nIce\nEnchanter\nNavigators\n|_______|_______|_______|_______|_______|_______|_______|\n|\nSorcerer",
+      "tree_nodes": [
+        "Evoker",
+        "Evoker Of",
+        "Traveler",
+        "Navigator",
+        "Elements",
+        "Ether",
+        "Master",
+        "Magic",
+        "Vacuum",
+        "Flames",
+        "Force",
+        "Poison",
+        "Acid",
+        "Lightning",
+        "Ice",
+        "Enchanter",
+        "Navigators",
+        "Sorcerer"
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nGuilds\nEvoker\n_______________|______________________________________________\n|               |             |                                |\nEvoker Of\nEvoker Of\nTraveler\nNavigator\nElements\nEther\n|\n_________|_________________|___________________________________           |\n|       |       |       |       |       |       |       |       |\nMaster\nMagic\nVacuum\nFlames\nForce\nPoison\nAcid\nLightning\nIce\nEnchanter\nNavigators\n|_______|_______|_______|_______|_______|_______|_______|\n|\nSorcerer"
+    },
+    "necromancer": {
+      "name": "Necromancer",
+      "tree_ascii": "___________________________|___________________________________________\n|             |             |            |                              |\nTraveler\nNecroscope\nVoodooist\nBone Mage\nNavigator\n______|_____________|____________|_________________             |\n|             |             |            |          |\nMaster\nStygian Sorcerer\nEmbalmer\nDreadlord\nScourge\nEnchanter\nNavigators\n|_____________|_____________|____________|\n|                     |\nLords of Undeath\nBlood Brother",
+      "tree_nodes": [
+        "Necromancer",
+        "Traveler",
+        "Necroscope",
+        "Voodooist",
+        "Bone Mage",
+        "Navigator",
+        "Master",
+        "Stygian Sorcerer",
+        "Embalmer",
+        "Dreadlord",
+        "Scourge",
+        "Enchanter",
+        "Navigators",
+        "Lords of Undeath",
+        "Blood Brother"
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nNecromancer\nNecromancer\n___________________________|___________________________________________\n|             |             |            |                              |\nTraveler\nNecroscope\nVoodooist\nBone Mage\nNavigator\n______|_____________|____________|_________________             |\n|             |             |            |          |\nMaster\nStygian Sorcerer\nEmbalmer\nDreadlord\nScourge\nEnchanter\nNavigators\n|_____________|_____________|____________|\n|                     |\nLords of Undeath\nBlood Brother"
+    },
+    "weaver": {
+      "name": "Weaver",
+      "tree_ascii": "____________________|______________________________________________\n|          |                  |                         |           |\nHealer\nMartyr\nConfessor\nNavigator\nTraveler\n__|__________|__________________|_____________            |\n|          |           |            |          |\nMaster\nAvatar\nExorcist\nTemplar\nShields\nEnchanter\nNavigators\n|          |           |\nOf Faith\n|__________|___________|__________|\n|\nHigh Priest",
+      "tree_nodes": [
+        "Weaver",
+        "Healer",
+        "Martyr",
+        "Confessor",
+        "Navigator",
+        "Traveler",
+        "Master",
+        "Avatar",
+        "Exorcist",
+        "Templar",
+        "Shields",
+        "Enchanter",
+        "Navigators",
+        "Of Faith",
+        "High Priest"
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nWeaver\nWeaver\n____________________|______________________________________________\n|          |                  |                         |           |\nHealer\nMartyr\nConfessor\nNavigator\nTraveler\n__|__________|__________________|_____________            |\n|          |           |            |          |\nMaster\nAvatar\nExorcist\nTemplar\nShields\nEnchanter\nNavigators\n|          |           |\nOf Faith\n|__________|___________|__________|\n|\nHigh Priest"
+    },
+    "unraveller": {
+      "name": "Unraveller",
+      "tree_ascii": "____________|______________________________________________________\n|            |            |             |             |             |\nHarmer\nSacrificer\nMagical\nTraveler\n|\nNavigator\n|            |\nTorturer\n|             |\n__________|____________|____________|__________                 |             |\n|               |               |               |                |             |\nServant of\nServant of\nServant of\nServant of\nEnchanter\nMaster\nMordulak\nShirija\nTalakh\nLloth\n|\nNavigator\n|               |               |               |                |\nElder of\nPatriarch of\nSword of\nPrimate of\nMaster\nMordulak\nShirija\nTalakh\nLloth\nEnchanter",
+      "tree_nodes": [
+        "Unraveller",
+        "Harmer",
+        "Sacrificer",
+        "Magical",
+        "Traveler",
+        "Navigator",
+        "Torturer",
+        "Servant of",
+        "Enchanter",
+        "Master",
+        "Mordulak",
+        "Shirija",
+        "Talakh",
+        "Lloth",
+        "Elder of",
+        "Patriarch of",
+        "Sword of",
+        "Primate of"
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nUnraveller\nUnraveller\n____________|______________________________________________________\n|            |            |             |             |             |\nHarmer\nSacrificer\nMagical\nTraveler\n|\nNavigator\n|            |\nTorturer\n|             |\n__________|____________|____________|__________                 |             |\n|               |               |               |                |             |\nServant of\nServant of\nServant of\nServant of\nEnchanter\nMaster\nMordulak\nShirija\nTalakh\nLloth\n|\nNavigator\n|               |               |               |                |\nElder of\nPatriarch of\nSword of\nPrimate of\nMaster\nMordulak\nShirija\nTalakh\nLloth\nEnchanter"
+    },
+    "druid": {
+      "name": "Druid",
+      "tree_ascii": "_______________________|__________________________\n|               |                 |                |\nWeather Watcher\nAnimal Tamer\nHerbalist\nTraveler\n|_______________|_________________|______\n|               |                |\nAdept of the Stones\nEnchanter\nShaman Of Soil\n|_____________|________________|\n|\nChanter Of\nDeep Earth",
+      "tree_nodes": [
+        "Druid",
+        "Weather Watcher",
+        "Animal Tamer",
+        "Herbalist",
+        "Traveler",
+        "Adept of the Stones",
+        "Enchanter",
+        "Shaman Of Soil",
+        "Chanter Of",
+        "Deep Earth"
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nDruid\nDruid\n_______________________|__________________________\n|               |                 |                |\nWeather Watcher\nAnimal Tamer\nHerbalist\nTraveler\n|_______________|_________________|______\n|               |                |\nAdept of the Stones\nEnchanter\nShaman Of Soil\n|_____________|________________|\n|\nChanter Of\nDeep Earth"
+    },
+    "shapeshifter": {
+      "name": "Shapeshifter",
+      "tree_ascii": "___________________|______________________\n|           |                 |            |\nBestial\nSavager\nAnimal Tamer\nTraveler\nSeccedaneum\n|                 |\n|___________|_________________|_______\n|                   |                 |\nAnimal Healer\nAnimal Trainer\nBeast Lord\n|___________________|_________________|\n|\nDragon Lord",
+      "tree_nodes": [
+        "Shapeshifter",
+        "Bestial",
+        "Savager",
+        "Animal Tamer",
+        "Traveler",
+        "Seccedaneum",
+        "Animal Healer",
+        "Animal Trainer",
+        "Beast Lord",
+        "Dragon Lord"
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nShapeshifter\nShapeshifter\n___________________|______________________\n|           |                 |            |\nBestial\nSavager\nAnimal Tamer\nTraveler\nSeccedaneum\n|                 |\n|___________|_________________|_______\n|                   |                 |\nAnimal Healer\nAnimal Trainer\nBeast Lord\n|___________________|_________________|\n|\nDragon Lord"
+    },
+    "woodsman": {
+      "name": "Woodsman",
+      "tree_ascii": "____________________________|________________________________\n|              |             |            |                   |\nSylvan Guard\nSylvan Ward\nAnimal Tamer\nHerbalist\nTraveler\n|______________|_____________|____________|______\n|                                        |\nSylvan Scout\nSylvan Protector\n|________________________________________|\n|\nSylvan Woodlord",
+      "tree_nodes": [
+        "Woodsman",
+        "Sylvan Guard",
+        "Sylvan Ward",
+        "Animal Tamer",
+        "Herbalist",
+        "Traveler",
+        "Sylvan Scout",
+        "Sylvan Protector",
+        "Sylvan Woodlord"
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nWoodsman\nWoodsman\n____________________________|________________________________\n|              |             |            |                   |\nSylvan Guard\nSylvan Ward\nAnimal Tamer\nHerbalist\nTraveler\n|______________|_____________|____________|______\n|                                        |\nSylvan Scout\nSylvan Protector\n|________________________________________|\n|\nSylvan Woodlord"
+    },
+    "lurker": {
+      "name": "Lurker",
+      "tree_ascii": "____________|_________________________\n|            |            |            |\nStreet\nPoison\nTrickster\nTraveler\nBrawler\nBrewer\n|\n/   |            |            |\nAssassin\n|____________|____________|\n|            |            |\nBartender\nMaster\nDisciple\n|\nAssassin\nof\n|            |\nShadow\n|____________|____________|\n|\nSilent Hand",
+      "tree_nodes": [
+        "Lurker",
+        "Street",
+        "Poison",
+        "Trickster",
+        "Traveler",
+        "Brawler",
+        "Brewer",
+        "Assassin",
+        "Bartender",
+        "Master",
+        "Disciple",
+        "of",
+        "Shadow",
+        "Silent Hand"
+      ],
+      "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nWarrior\nMartial Artist\nAcrobat\nAbjurer\nElemental\nPsychics\nEvoker\nNecromancer\nWeaver\nUnraveller\nDruid\nShapeshifter\nWoodsman\nLurker\nLurker\nLurker\n____________|_________________________\n|            |            |            |\nStreet\nPoison\nTrickster\nTraveler\nBrawler\nBrewer\n|\n/   |            |            |\nAssassin\n|____________|____________|\n|            |            |\nBartender\nMaster\nDisciple\n|\nAssassin\nof\n|            |\nShadow\n|____________|____________|\n|\nSilent Hand"
+    }
+  },
+  "help": {},
+  "other": {
+    "/faq/index.html": {
+      "url": "https://www.islandsofmyth.org/faq/index.html",
+      "raw": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Frameset//EN\">\n<html>\n<head>\n<meta name=\"generator\" content=\"HTML Tidy, see www.w3.org\">\n<link rel=\"stylesheet\" href=\"/style/style_sheet.css\">\n<title>Islands of Myth LPmud FAQ</title>\n</head>\n<frameset cols=\"250,*\">\n<frame name=\"faqleft\" src=\"toc.html\">\n<frame name=\"faqright\" src=\"welcome.html\">\n</frameset>\n</html>\n\n"
+    },
+    "/newbiefaq.html": {
+      "url": "https://www.islandsofmyth.org/newbiefaq.html",
+      "raw": "<!doctype html public \"-//w3c//dtd html 4.0 transitional//en\">\n<html>\n<head>\n   <meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\">\n   <meta name=\"Author\" content=\"Kira Botkin (Moved to IOM's hot by permission)\">\n   <meta name=\"GENERATOR\" content=\"Mozilla/4.75 [en]C-CCK-MCD NSCPCD475  (Win98; U) [Netscape]\">\n<link rel=\"stylesheet\" href=\"style/style_sheet.css\">\n<script language=\"JavaScript1.2\" src=\"subfr.js\"></script>\n   <title>Islands Of Myth Newbie's FAQ</title>\n</head>\n<body>\n<a NAME=\"top\"></a><H1>Newbie FAQ</H1>\n<hr>\n<p><font size=+2>A. <a href=\"#A\">Tour questions</a></font>\n<blockquote><a href=\"#A1\">A1. Should I take the tour?</a>\n<br><a href=\"#A2\">A2. What do I do in the tour, if I do take it?</a>\n<br><a href=\"#A3\">A3. How long does it take?</a>\n<br><a href=\"#A4\">A4. Do I get anything for taking the tour?</a>\n<br><a href=\"#A5\">A5. How does the tour work?</a></blockquote>\n<font size=+2>B. <a href=\"#B\">Race questions</a></font>\n<blockquote><a href=\"#B1\">B1. What's a race?</a>\n<br><a href=\"#B2\">B2. How do I pick my race?</a>\n<br><a href=\"#B3\">B3. What's the best race?</a>\n<br><a href=\"#B4\">B4. What if I don't like my race, or pick the wrong one?</a>\n<br><a href=\"#B5\">B5. What races are best for what guilds?</a>\n<br><a href=\"#B6\">B6. What if I picked a race but didn't have a guild in\nmind?</a></blockquote>\n<font size=+2>C. <a href=\"#C\">Guild questions</a></font>\n<blockquote><a href=\"#C1\">C1. What's a guild?</a>\n<br><a href=\"#C2\">C2. What's the best guild?</a>\n<br><a href=\"#C3\">C3. How do I get into a guild?</a>\n<br><a href=\"#C4\">C4. How many guilds can I be in?</a>\n<br><a href=\"#C5\">C5. What should I study or train?</a>\n<br><a href=\"#C6\">C6. Where are the guilds?</a></blockquote>\n<font size=+2>D. <a href=\"#D\">Armor/weapons questions</a></font>\n<blockquote><a href=\"#D1\">D1. What do armor and weapons do for me?</a>\n<br><a href=\"#D2\">D2. What happens to my eq at a reboot?</a>\n<br><a href=\"#D3\">D3. What's the best armor?</a>\n<br><a href=\"#D4\">D4. Where can I get armor and weapons?</a>\n<br><a href=\"#D5\">D5. How do I tell which armor or weapon is better?</a></blockquote>\n\n<p><br><font size=+2>Chart section</font>\n<blockquote><font color=\"#568AC6\"><a href=\"#tourcommands\">Commands introduced\nin the newbie tour</a></font>\n<br><font color=\"#568AC6\"><a href=\"#poster\">Race poster</a></font>\n<br><font color=\"#568AC6\"><a href=\"#betaguilds\">Locations of beta guilds</a></font></blockquote>\n\n<hr WIDTH=\"100%\">\n<br><font size=+2>A. Tour questions</font>\n<br><a NAME=\"A\"></a><a href=\"#A1\">A1. Should I take the tour?</a>\n<br><a href=\"#A2\">A2. What do I do in the tour, if I do take it?</a>\n<br><a href=\"#A3\">A3. How long does it take?</a>\n<br><a href=\"#A4\">A4. Do I get anything for taking the tour?</a>\n<br><a href=\"#A5\">A5. How does the tour work?</a>\n<p><a NAME=\"A1\"></a>A1. <b>Should I take the tour?</b>\n<br>If you have never before set eyes on a MUD, absolutely take the tour.\nIt really is a very good introduction to the world of Islands Of Myth, and I\nfrankly wish that it were required of all new players.\n<br>If you have played another MUD before, it is still a very good idea\nto take the tour.\n<br>If you have played Islands Of Myth before, I don't understand why you are\nreading this FAQ.\n<p><a NAME=\"A2\"></a>A2. <b>What do I do in the tour, if I do take it?</b>\n<br>You will be guided through the tour by text that appears on the screen,\nand be instructed to do various things that will teach or introduce you\nto many <a href=\"#tourcommands\">commands</a> which are essential for navigation\nin Islands Of Myth. <a href=\"#tourcommands\">Go to list of commands</a>\n<p><a NAME=\"A3\"></a>A3. <b>How long does it take?</b>\n<br>About 20 minutes, give or take. Maybe half an hour. You can quit in\nthe midst of it and return later, at the beginning of the level you were\nat.\n<p><a NAME=\"A4\"></a>A4. <b>Do I get anything for taking the tour?</b>\n<br>Sure do. You get about 100 xp to start with, several rooms explored,\nand 5000 gold. You also (duh) get all the knowledge that is contained within\nit.\n<p><a NAME=\"A5\"></a>A5. <b>How does the tour work?</b>\n<br>What happens, once you have created your character, picked a gender,\nset an email, and entered the tour, is that text will appear to you and\ntell you what to do, or explain things. It will guide you through various\nimportant commands. In order to make sure that you type the correct thing,\nat some places the tour will not let you proceed until you have typed the\ncorrect words, and between levels either 'continue', 'out', or 'back'..\nThere are several levels, each with a specific goal of teaching some commands\nor concept, shown above.\n<p><a href=\"#top\">Back to top</a>\n<p><a NAME=\"B\"></a><font size=+2>B. Race questions</font>\n<br><a href=\"#B1\">B1. What's a race?</a>\n<br><a href=\"#B2\">B2. How do I pick my race?</a>\n<br><a href=\"#B3\">B3. What's the best race?</a>\n<br><a href=\"#B4\">B4. What if I don't like my race, or pick the wrong one?</a>\n<br><a href=\"#B5\">B5. What races are best for what guilds?</a>\n<br><a href=\"#B6\">B6. What if I picked a race but didn't have a guild in\nmind?</a>\n<p><a NAME=\"B1\"></a>B1. <b>What's a race?</b>\n<br>Every person on Islands Of Myth gets to pick what sort of creature they\nwant to be. Some kinds are better adapted for magic, others for fighting,\netc. There are special advantages, such as stats, exp rate, skill/spell\ncost (and disadvantages, such as stats, exp rate, skill/spell cost ) to\neach race, and you pick a race based on what guild you would like to be,\nand what tradeoffs you are willing to make. A good example is the faerie\nrace, which has extremely good caster stats, but virtually no strength,\nso that you can't hardly carry anything. You aren't stuck in this race;\non the contrary, it is quite easy to reincarnate yourself into another\nrace and guild, keeping most of the exp you have earned.\n<p><a NAME=\"B2\"></a>B2. <b>How do I pick my race?</b>\n<br>If you are going to take the newbie tour (a highly recommended idea\nif most of this looks like Greek to you) you will pick your race while\nin the tour. However, if you choose to opt out of the tour, you will be\ntaken to a race selection room, where you can pick what race you would\nlike to be, with the help of a <a href=\"#poster\">very useful poster</a>,\nwhich is both on this page and in the race museum in RDC, should you wish\nto consult it before your next reinc. If you are unhappy with your race\nor guild, you can always reinc, although it may be expensive to do so within\na short time. This time you should pick out a race and guild beforehand,\nthough. I have also compiled a chart that tells which races are suited\nfor which alpha guilds. <a href=\"#chart\">Go to chart</a>\n<p><a NAME=\"B3\"></a>B3. <b>What's the best race?</b>\n<br>This question is asked by EVERY newbie EVER. The trouble is that they\nget the same answer every time: There isn't one best race. Every race has\nits ups and its downs and you must decide what you are willing to trade\noff. Obviously, some races are better suited to certain guilds, or better\nsuited to highbies or newbies, etc, but there is no one perfect race; mostly\nbecause every time one is accidentally created, everyone reincs into it,\nand it immediately gets changed.\n<p><a NAME=\"B4\"></a>B4. <b>What if I don't like my race, or pick the wrong\none?</b>\n<br>If you realize your mistake immediately, ie RIGHT after you have touched\nthe statue in the race selection room, you can go back into the race selection\nroom and pick the right one. If you decide you've picked the wrong one\nafter having played it for a bit, tough luck. You'll need to wait a few\nweeks because if you reinc right away, your reinc tax (which starts at\n20% right after your reinc and goes down to 5% in about a month) will be\nvery high and you will lose a great deal more xp than if you had simply\nwaited for it to go down. You can check how much exp you would have left\nafter a reinc by getting an estimate worth spell cast on you by a healer.\n<p><a NAME=\"B5\"></a>B5. <b>What races are best for what guilds?</b>\n<br>At the bottom is the very handy dandy <a href=\"#poster\">poster</a>\nthat you can find in the race museum. Here are the 5 alpha guild tallies,\nwhich is the list of races that had an average score of more than 3 for\nthe betas below each alpha. <a href=\"#poster\">Go to poster</a>\n<br>&nbsp;\n<table BORDER=3 CELLSPACING=3 COLS=5 WIDTH=\"100%\" >\n<tr VALIGN=TOP>\n<td><b>Rogue</b></td>\n\n<td><b>Fighter</b></td>\n\n<td><b>Animist</b></td>\n\n<td WIDTH=\"20%\"><b>Cleric</b></td>\n\n<td WIDTH=\"20%\"><b>Mage</b></td>\n</tr>\n\n<tr>\n<td VALIGN=TOP WIDTH=\"20%\">Cromagnon\n<br>Drow\n<br>Dwarf\n<br>Elf\n<br>Goblin\n<br>Grorrark\n<br>Halfelf\n<br>Hobbit\n<br>Human\n<br>Lizardman\n<br>Ogier\n<br>Vinnipier</td>\n\n<td WIDTH=\"20%\">Cromagnon\n<br>Dwarf\n<br>Giant\n<br>Goblin\n<br>Grorrark\n<br>Halfelf\n<br>Hobbit\n<br>Human\n<br>Lizardman\n<br>Minotaur\n<br>Ogier\n<br>Troll\n<br>Vinnipier\n<br>Xorn</td>\n\n<td VALIGN=TOP WIDTH=\"20%\">Drow\n<br>Dwarf\n<br>Elf\n<br>Ent\n<br>Faerie\n<br>Gnome\n<br>Halfelf\n<br>Human\n<br>Lizardman\n<br>Mindflayer\n<br>Phoenix\n<br>Thrikhren\n<br>Vampire</td>\n\n<td VALIGN=TOP>Drow\n<br>Dwarf\n<br>Ent\n<br>Faerie\n<br>Gnome\n<br>Human\n<br>Mindflayer\n<br>Phoenix\n<br>Thrikhren\n<br>Vampire</td>\n\n<td VALIGN=TOP>Drow\n<br>Ent\n<br>Faerie\n<br>Gargoyle\n<br>Human\n<br>Mindflayer\n<br>Phoenix\n<br>Snakeman\n<br>Thrikhren\n<br>Vampire</td>\n</tr>\n</table>\n\n<p><a NAME=\"B6\"></a>B6.<b> What if I picked a race but didn't have a guild\nin mind?</b>\n<br>Bad planning or inexperience on your part then. You should always have\na guild in mind and pick the race according to what you want for the guild.\n(Even if minotaur or troll or what have you sounds really cool, keep in\nmind that no one really cares what race you are. At all.) If your character\nis less than a day old, you can use the reinc mirror in the newbie guild\n(warp, e, s, s) to reinc for free and also go through the tour.\n<p><a href=\"#top\">Back to top</a>\n<p><a NAME=\"C\"></a><font size=+2>C. Guild questions</font>\n<br><a href=\"#C1\">C1. What's a guild?</a>\n<br><a href=\"#C2\">C2. What's the best guild?</a>\n<br><a href=\"#C3\">C3. How do I get into a guild?</a>\n<br><a href=\"#C4\">C4. How many guilds can I be in?</a>\n<br><a href=\"#C5\">C5. What should I study or train?</a>\n<br><a href=\"#C6\">C6. Where are the guilds?</a>\n<p><a NAME=\"C1\"></a>C1. <b>What's a guild?</b>\n<br>What guild you are in dictates what job you will perform. Each guild\non Islands Of Myth gives you a unique set of spells and skills that give you\na specialized function. As you gain more exp, you can advance in your guild\nand learn more spells and skills and become more powerful, and train your\nspells and skills so that they will be more powerful and fail less often.\nAlso, every time you advance in your guild, you will get stat bonuses specifically\ntailored to what you'll need to be successful at that guild. We have 5\n\"alpha\" guilds (see the score page for more details) which each have many\nguilds under them.\n<p><a NAME=\"C2\"></a>C2. <b>What's the best guild?</b>\n<br>The question on everyone's tongue! Really, there isn't one. Different\nguilds are hailed as the best xp-machines from time to time, but really\nyou can't have a party with everyone being a lava mage or a martial artist\nor what have you. Try out different guilds and see which one you like;\nmost people change guilds a few times a year, once their tax goes down,\nor if you are a legend in your own time like Lu or Tektor, you will change\nit more often than your underwear. Do what makes you happy! Here are basic\ndescriptions of the 5 alpha guilds and recommendations for newbies. Clicking\non the guild name will take you to the guild page of that guild on the\nIslands Of Myth website, which has everything you'd want to know about the guild.\n<p><b><u><a href=\"http://www.islandsofmyth.org/3k/cgi/guildtree.c?name=rogue\" target=blablabla>Rogue:</a></u></b>\nThese are the thieves and acrobats. They can't take much damage, but can\ndeal it out well.\n<br><font color=\"#568AC6\">Recommended betas for newbies?</font> Not recommended\nas it takes a great deal of exp to be good.\n<br><font color=\"#568AC6\">Important spells/skills</font>: attack, punch,\nweapon skill piercing, honor of the gods\n<p><b><u><a href=\"http://www.islandsofmyth.org/3k/cgi/guildtree.c?name=cleric\" target=blablabla>Cleric:</a></u></b>\nHealers in the weaver beta, harmers in the inquisitor beta. This is a rather\nsplit branch, as the weavers are good and the inquisitors evil. The weavers\nheal hp and sp, and can do other assorted services such as removing scars\nor bringing people back from Hell, while the inquisitors deal damage to\nmonsters and are not very serviceable to other players.\n<br><font color=\"#568AC6\">Recommended betas for newbies?</font> Weaver\nis a good guild for newbies, inquisitor is harder but can be done.\n<br><font color=\"#568AC6\">Important spells/skills</font>: hand of balance,\nattack, cure light wounds, weapon skill blunt, arrow of light, magical\neconomy, honor of the gods\n<p><b><u><a href=\"http://www.islandsofmyth.org/3k/cgi/guildtree.c?name=fighter\" target=blablabla>Fighter:</a></u></b>\nOften called 'tanks', fighters are at the forefront of parties and can\ntake damage very well. They are also pretty good at dealing out damage\nto monsters as well. They get every kind of weapon skill and can use any\nweapon, depending on which one you train.\n<br><font color=\"#568AC6\">Recommended betas for newbies? </font>Martial\nartist is not recommended for newbies, but the warrior guild is.\n<br><font color=\"#568AC6\">Important spells/skills</font>: attack, weapon\nskill blunt, flesh of stone, weapon skill piercing, punch, weapon skill\nslashing, weapon skill whipping, honor of the gods\n<p><b><u><a href=\"http://www.islandsofmyth.org/3k/cgi/guildtree.c?name=animist\" target=blablabla>Animist:</a></u></b>\nThese are a little bit of everything. They have a small heal spell (in\ndruid), like weavers, and many damage spells, like mages. A good newbie\nguild. Also, they get to summon creatures to help them, in the 20's levels.\nWord to the wise: Pick either rock rain or spirit wind, don't train both\nof them.\n<br><font color=\"#568AC6\">Recommended betas for newbies? </font><font color=\"#000000\">Druid\nis better for newbies since you get a heal spell, woodsman is harder but\ncan be done.</font>\n<br><font color=\"#568AC6\">Important spells/skills</font>: attack, weapon\nskill blunt, spirit wind, scavenge wood, fire building, spirit blessing,\nrock rain, herb gathering, honor of the gods\n<p><b><u><font color=\"#568AC6\"><a href=\"http://www.islandsofmyth.org/3k/cgi/guildtree.c?name=mage\" target=blablabla>Mage:</a></font></u></b>\nThere are more mage guilds than any other alpha, because mages can specialize\ninto many different jobs, such as different types of damage, protection\nspells, information collection, etc.\n<br><font color=\"#568AC6\">Recommended betas for newbies? </font>Evoker\nand elementalist are suited for newbies but psychic and abjurer are definitely\nnot.\n<br><font color=\"#568AC6\">Important spells/skills</font>: magic dart, spectral\npush, magical economy, magic blast, honor of the gods\n<p><a NAME=\"C3\"></a>C3. <b>How do I get into a guild?</b>\n<br>You pay me admission fees. No, just joking, you can either join your\nguild during the newbie tour, or you can just walk into the guild and type\n'join guild'. You can also do it by typing 'talk to &lt;name of guild master\nhere>' and using the menu. You must however meet all the criteria of the\nguild, for guilds beta and up, and for alpha you cannot belong to any other\nguild. Check&nbsp; or For each guild level, you must have an extra regular\nlevel, which you can check by looking at the 'Open Guild Levels' number\nin score. You can look up the criteria for the guild either by going to\nthe guild and talking to the guild master and using the menu, or by looking\nat 'Guilds' on the <a href=\"http://www.islandsofmyth.org\">Islands Of Myth web page</a>,\nor 'guildtree &lt;mage/animist/fighter/cleric/rogue>'.\n<p><a NAME=\"C4\"></a>C4. <b>How many guilds can I be in?</b>\n<br>It all depends on what kind of guild you want to join. For alpha guilds,\nyou can only join one, until your 71st level where you can join another.\nFor beta guilds, you can't join more than one as well. But for gamma, bravo,\nand omicron, often you are required to have or max out more than one to\nget into another level of your guild. Each guild has between 5 and 15 levels\nin it, but the majority have ten. To advance to your next beta and gamma,\nyou must have all ten alpha or beta levels, but after that the regulations\nwill vary extensively by guild.\n<p><a NAME=\"C5\"></a>C5. <b>What should I study or train?</b>\n<br>In every guild there are some important spells or skills.. and some\nnot so important ones. Briefly listed here are the most important and most\nused spells or skills in each guild.\n<br>&nbsp;\n<br>&nbsp;\n<table BORDER=3 CELLSPACING=3 COLS=5 WIDTH=\"100%\" >\n<tr>\n<td><b><font size=+2>Rogue</font></b></td>\n\n<td><b><font size=+2>Cleric</font></b></td>\n\n<td><b><font size=+2>Mage</font></b></td>\n\n<td><b><font size=+2>Fighter</font></b></td>\n\n<td><b><font size=+2>Animist</font></b></td>\n</tr>\n\n<tr>\n<td VALIGN=TOP><u>Attack</u>\n<br>Useful all around. Should be trained up well.\n<p><u>Punch</u>\n<br>The only real attack skill in the first 10 levels.\n<p><u>Weapon skill piercing</u>\n<br>Should have a weapon skill trained up and buy an appropriate weapon.\n<p><u>Honor of the gods</u>\n<br>Helps you regen by +10 each time. Good for newbies.</td>\n\n<td VALIGN=TOP><u>Hand of balance</u>\n<br>An attack spell. Decent.\n<p><u>Attack</u>\n<br>Helps you hit harder. If you intend on soloing, it is worth training.\n<p><u>Cure light wounds</u>\n<br>A necessity, at least until you get into weaver guild and get cure\nserious.\n<p><u>Arrow of light</u>\n<br>A cheap, quick attack spell. Good for small things.\n<p><u>Magical economy</u>\n<br>Great for newbies. This skill helps you save spell points when you\nfail a spell.\n<p><u>Honor of the gods</u>\n<br>Helps you regen. Good for newbies, but don't prioritize its training\nabove your spells.</td>\n\n<td VALIGN=TOP><u>Magic dart</u>\n<br>The first attack spell learned. Low cost but long casting time.\n<p><u>Spectral push</u>\n<br>More powerful and slightly cheaper than magic dart.\n<p><u>Magic blast</u>\n<br>The last spell learned. Costs more than dart, but does a good deal\nmore damage.\n<p><u>Magical economy</u>\n<br>Great for newbies. This skill helps you save spell points when you\nfail a spell.\n<p><u>Honor of the gods</u>\n<br>Helps you regen by +10 each time. Good for newbies, but don't prioritize\nits training above your spells.</td>\n\n<td VALIGN=TOP><u>Attack</u>\n<br>Extremely useful to fighters. This should be your most highly trained\nskill, as it will affect how hard you hit, even with weapons.\n<p><u>Honor of the gods</u>\n<br>Helps you regen by +10 each time. Train attack before you spend a lot\non it though.\n<p><u>Weapon skills</u>\n<br>Pick one and train it. Make sure you get a weapon that matches it.\nWhipping and piercing are harder to find weapons for, slashing is easiest.\n<p><u>Flesh of stone</u>\n<br>Helps to protect you against damage.\n<p><u>Punch</u>\n<br>A damage skill. The ony one you get in the first 10 levels.</td>\n\n<td VALIGN=TOP><u>Spirit wind</u>\n<br>Blasting spell, pretty effective, works indoors and out. Cheap, much\nmore useful when highly trained.\n<p><u>Rock rain</u>\n<br>Very high damage spell, pretty cheap, but only works outdoors. The\nbest blast spell an animist gets.\n<p><u>Herb gathering</u>\n<br>You find herbs that can heal hp/sp/ep/all 3. Long casting time, must\nbe used outdoors.\n<p><u>Spirit blessing</u>\n<br>Protection against a random element. Stronger if used outdoors, higher\ntrained makes the protection last longer, stack more.\n<p><u>Attack</u>\n<br>Useful all around. Should be trained well.\n<p><u>Honor of the gods</u>\n<br>Helps you regen by +10 each time. Good for newbies.\n<p><u>Weapon skill blunt</u>\n<br>Useful if you plan on soloing. Woodsmen will also get slashing.\n<p><u>Fire building</u>\n<br>Quite useful. Don't train if you want to go woodsman as they have a\nbetter fire skill. Only works outdoors.\n<p><u>Scavenge wood</u>\n<br>Necessary for fires.</td>\n</tr>\n</table>\n\n<br>&nbsp;\n<table BORDER COLS=2 WIDTH=\"100%\" >\n<tr>\n<td><font color=\"#568AC6\"><font size=+1>Spells and skills you should not\nreally bother with:</font></font>\n<br>Light\n<br>Darkness\n<br>Ceremony\n<br>Sleight of hand\n<br>Mind sponge\n<br>Minor cleric staff</td>\n\n<td VALIGN=TOP><font color=\"#568AC6\"><font size=+1>Spells and skills not\nuseful presently but may be as a higher level:</font></font>\n<br>Herb preservation</font>\n<br>Essence eye</font>\n<br>Know alignment</font>\n<br>Armor of faith</font>\n<br>Weapon skill whipping\n<br>Magical growth</td>\n</tr>\n</table>\n\n<p><a NAME=\"C6\"></a>C6. <b>Where are the guilds?</b>\n<br>Funny you should ask that. The wizzes of Islands Of Myth have been so kind\nas to provide a general outline for where the guilds are, which is in 'help\nopen_guilds'. All of the alpha guilds are located in Islands Of Myth City and\nare on the map, but can also be reached by going south from warp and picking\nwhat exit you want. The beta guilds are listed at the bottom of the page.\n<a href=\"#betaguilds\">Go\nto beta guild chart</a>\n<p><a href=\"#top\">Back to top</a>\n<p><a NAME=\"D\"></a><font size=+2>D. Armor/weapons questions</font>\n<br><a href=\"#D1\">D1. What do armor and weapons do for me?</a>\n<br><a href=\"#D2\">D2. What happens to my eq at a reboot?</a>\n<br><a href=\"#D3\">D3. What's the best armor?</a>\n<br><a href=\"#D4\">D4. Where can I get armor and weapons?</a>\n<br><a href=\"#D5\">D5. How do I tell which armor or weapon is better?</a>\n<br>&nbsp;\n<p><a NAME=\"D1\"></a>D1. <b>What do armor and weapons do for me?</b>\n<br>Lots of things. Armor and weapons can raise your stats, protect you\nfrom blows and other kinds of damage, raise your hit strength, etc etc.\nThey can be a great help in getting bigger, as good eq can sometimes make\nup a third your regen and a fourth of your stats.\n<p><a NAME=\"D2\"></a>D2.<b> What happens to my eq at a reboot?</b>\n<br>They stay on your body. Same as over a quit. If you have too much eq,\nyou can put it in a locker, or buy a castle (rather expensive) to store\nit in. You can however just carry it, as long as you use the 'keep' command\nand don't accidentally sell it to a shop.\n<p><a NAME=\"D3\"></a>D3. <b>What's the best armor?</b>\n<br>Whatever you can afford. It is however better to have a whole set of\ndecent newbie eq, than one or two really nice pieces, as well as cheaper.\nThe best method is to get a whole set of lowbie eq, and then work your\nway up to midbie piece by piece, and then to highbie piece by piece.\n<p><a NAME=\"D4\"></a>D4. <b>Where can I get armor and weapons?</b>\n<br>You can get basic newbie battle armor and a weapon from the machine\nin the newbie guild (warp, e, e) or there may be some free eq in the newbie\nshop (warp, e, n, e). You can also buy eq from the armor shop or weapon\nshop in Islands Of Myth City (you can find these shops by warping, going west,\nand typing 'map'.) The place that higher-end equipment is sold is the sales\nchannel, which you can get on by typing 'on sales'. It is best really to\nhave this channel on long before you need to buy anything on it, so that\nyou can listen to other people selling and buying, and can learn about\nthe different eq items. Occasionally newbie items are sold on it, in the\nunder-25k range.\n<p><a NAME=\"D5\"></a>D5. <b>How do I tell which armor or weapon is better?</b>\n<br>Try them both and see which one appears better. There is no direct\ncomparison tool; however, keep in mind that a lot of newbie armors and\nweapons are pretty much equal. If you see it in the shop, it's definitely\na newbie item. For higher end items, you can look at an eq page which will\nhave stats of most midbie and highbie items. For some items, you can ask\non newbie channel and someone will tell you.\n<br>&nbsp;\n<p>\n<hr WIDTH=\"100%\">\n<br><a NAME=\"tourcommands\"></a><font color=\"#568AC6\"><font size=+2>Commands\nintroduced in the newbie tour:</font></font>\n<p><u>Level 1:</u>\n<blockquote>ansi on/off\n<br>look\n<br>look at &lt;object></blockquote>\n<u>Level 2:</u>\n<blockquote>who\n<br>finger &lt;player>\n<br>who</blockquote>\n<u>Level 3:</u>\n<blockquote>tell &lt;player> &lt;message>\n<br>say &lt;message>\n<br>on &lt;channel name>\n<br>&lt;channel name> &lt;message></blockquote>\n<u>Level 4:</u>\n<blockquote>score\n<br>wimpy &lt;#></blockquote>\n<u>Level 5:</u>\n<blockquote>all races\n<br>touch &lt;object>\n<br>get &lt;object>\n<br>wield &lt;object>\n<br>wear &lt;object></blockquote>\n<u>Level 6:</u>\n<blockquote>i\n<br>eq\n<br>consider &lt;monster>\n<br>kill &lt;monster>\n<br>get all from &lt;object>\n<br>dig grave\n<br>join guild\n<br>list skills/spells all\n<br>help skill &lt;skill name>\n<br>help spell &lt;spell name></blockquote>\n<u>Level 8:</u>\n<blockquote>list skills/spells\n<br>train &lt;skill name>\n<br>study &lt;spell name></blockquote>\n<u>Level 9:</u>\n<blockquote>help &lt;subject>\n<br>faq\n<br>guides\n<br>warp</blockquote>\n<a NAME=\"poster\"></a><font color=\"#568AC6\"><font size=+2>Race poster</font></font>\n<br>This race poster was thoughtfully compiled by the wizzes of Islands Of Myth\n<p><tt>-+ This Poster gives a few hints about Races and Guilds +-</tt>\n<br><tt>-+ It associates some recommended races to Beta gilds&nbsp;&nbsp;\n+-</tt>\n<p><tt>&nbsp;&nbsp; 1 - Not recommended</tt>\n<br><tt>&nbsp;&nbsp; 2 - Poor fit</tt>\n<br><tt>&nbsp;&nbsp; 3 - Decent fit</tt>\n<br><tt>&nbsp;&nbsp; 4 - Good fit (recommended)</tt>\n<p><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Warrior\nMartial Druid Woodsman Weaver Inquis</tt>\n<br><tt>--------------------------------------------------------</tt>\n<br><tt>Cromagnon&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>Drow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4</tt>\n<br><tt>Dwarf&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2</tt>\n<br><tt>Elf&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n4</tt>\n<br><tt>Ent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n4</tt>\n<br><tt>Faerie&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4</tt>\n<br><tt>Gargoyle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2</tt>\n<br><tt>Giant&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>Gnome&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4</tt>\n<br><tt>Goblin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>Grorrark&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>Halfelf&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2</tt>\n<br><tt>Hobbit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>Human&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3</tt>\n<br><tt>Kobold&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>Leprechaun&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2</tt>\n<br><tt>Lizardman&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2</tt>\n<br><tt>Mindflayer&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4</tt>\n<br><tt>Minotaur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>Ogier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>Phoenix&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3</tt>\n<br><tt>Snakeman&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2</tt>\n<br><tt>Thrikhren&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3</tt>\n<br><tt>Troll&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>Vampire&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3</tt>\n<br><tt>Vinnipier&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>Xorn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>--------------------------------------------------------</tt>\n<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nAcrobat Thief Element Evoker Abjurer Psychics</tt>\n<br><tt>--------------------------------------------------------</tt>\n<br><tt>Cromagnon&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>Drow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3</tt>\n<br><tt>Dwarf&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>Elf&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2</tt>\n<br><tt>Ent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3</tt>\n<br><tt>Faerie&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3</tt>\n<br><tt>Gargoyle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4</tt>\n<br><tt>Giant&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>Gnome&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2</tt>\n<br><tt>Goblin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>Grorrark&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>Halfelf&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2</tt>\n<br><tt>Hobbit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>Human&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3</tt>\n<br><tt>Kobold&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>Leprechaun&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2</tt>\n<br><tt>Lizardman&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>Mindflayer&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4</tt>\n<br><tt>Minotaur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>Ogier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>Phoenix&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4</tt>\n<br><tt>Snakeman&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4</tt>\n<br><tt>Thrikhren&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4</tt>\n<br><tt>Troll&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>Vampire&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4</tt>\n<br><tt>Vinnipier&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<br><tt>Xorn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</tt>\n<p><br>\n<a NAME=\"betaguilds\"></a><font color=\"#568AC6\"><font size=+2>Locations\nof beta guilds</font></font>\n<hr>\n<br><font color=\"#568AC6\"><font size=+2>Cleric</font></font>\n<br>Inquisitor - Islands Of Myth Cathedral (same place as cleric guild)\n<br>Weaver - Islands Of Myth Cathedral\n<p><font color=\"#568AC6\"><font size=+2>Fighter</font></font>\n<br>Martial artist - Islands Of Myth Island (one of the ?s on the map)\n<br>Warrior - Blackavar City\n<p><font color=\"#568AC6\"><font size=+2>Mage</font></font>\n<br>Evoker - Mage guild complex\n<br>Elemental&nbsp; - Mage guild complex\n<br>Abjurer - Mage guild complex\n<br>Psychic - Mage guild complex\n<p><font color=\"#568AC6\"><font size=+2>Rogue</font></font>\n<br>Thief - Near Greecy Spoon, in Islands Of Myth City\n<br>Acrobat - In the undercity, Acrobat's Alley\n<p><font color=\"#568AC6\"><font size=+2>Animist</font></font>\n<br>Druid - Sacred Grove, Islands Of Myth Island, on the map\n<br>Woodsman - Islands Of Myth Island\n<p><a href=\"#top\">Back to top</a>\n<br>\n<br>\n<div align=\"right\"><b><font size=\"2\" color=\"#568AC6\">&copy 2001-2002 by Kira Botkin \"Kazulanth\"\n</body>\n</html>\n"
+    },
+    "/scorehelp.html": {
+      "url": "https://www.islandsofmyth.org/scorehelp.html",
+      "raw": "ERROR: 404 Client Error: Not Found for url: https://www.islandsofmyth.org/scorehelp.html"
+    },
+    "/help/": {
+      "url": "https://www.islandsofmyth.org/help/",
+      "raw": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html>\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\">\n\t\t<title>Islands of Myth</title>\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/iom.css\">\n\t</head>\n\t<body>\n\n\t\t<div id=\"dragon\"><img src=\"/dragon.jpg\" alt=\"\"></div>\n\t\t<div id=\"top\"><img src=\"/top.jpg\" alt=\"\"></div>\n<div id=\"topmenu\">\n<a href=\"/themud/\">The Mud</a><a href=\"/guild/\">Guilds</a><a href=\"/races/\">Races</a><a href=\"/help/\">Help</a><a href=\"/connect/\">Connect</a><a href=\"/links/\">Links</a><a href=\"/gameinfo/\">Game Info</a>\n</div>\n\n<div id=\"leftmenu\">\n<a href=\"/help/\">Help</a>\n<a href=\"/faq/index.html\">FAQ</a>\n<a href=\"newbiefaq.html\">Newbie FAQ</a>\n<a href=\"scorehelp.html\">Score Help</a>\n</div>\n\n<div id=\"main\">\n<html>\n<head>\n<link rel=\"stylesheet\" href=\"/style/style_sheet.css\">\n<script language=\"JavaScript1.2\" src=\"/subfr.js\"></script>\n</HEAD>\n<title>Islands of Myth</title>\n<BODY>\n<H1>Islands Of Myth Online Help<hr></H1>\n<form action=\"/3k/cgi/help.c\" METHOD=\"get\">\n<font size=\"2\">Enter something you need help on.<br>\nEnter 'topics' for a list.\n<p>\n<input type=\"text\" name=\"helpfor\" size=15>\n<input type=\"submit\" value=\"send data\">\n</p>\n</body>\n</html>\n\n</div>\n\t\t<script src=\"http://www.google-analytics.com/urchin.js\" type=\"text/javascript\"></script>\n\t\t<script type=\"text/javascript\">_uacct = \"UA-2115448-1\";urchinTracker();</script>\n\t</body>\n</html>\n\n"
+    },
+    "/connect/": {
+      "url": "https://www.islandsofmyth.org/connect/",
+      "raw": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html>\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\">\n\t\t<title>Islands of Myth</title>\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/iom.css\">\n\t</head>\n\t<body>\n\n\t\t<div id=\"dragon\"><img src=\"/dragon.jpg\" alt=\"\"></div>\n\t\t<div id=\"top\"><img src=\"/top.jpg\" alt=\"\"></div>\n<div id=\"topmenu\">\n<a href=\"/themud/\">The Mud</a><a href=\"/guild/\">Guilds</a><a href=\"/races/\">Races</a><a href=\"/help/\">Help</a><a href=\"/connect/\">Connect</a><a href=\"/links/\">Links</a><a href=\"/gameinfo/\">Game Info</a>\n</div>\n\n<div id=\"leftmenu\">\n<a href=\"connect.html\">Intro</a>\n<a href=\"http://islandsofmyth.org/java1.html\">Start playing</a>\n<a href=\"/imud.jnlp\">Download java client</a>\n</div>\n\n<div id=\"main\">\n<h1>Connect</h1>\n<hr>\nYou need a mud client to connect to the mud. Several can be found using the\nLinks menu. Connect to the address \"islandsofmyth.org\" port 3000.\n<br><br>\nFor the technically inclined, you can also use an <a href=\"encrypt.html\">encrypted connection.</a>\n<br><br>\nYou may also use our java based mud client by clicking the intro menu on the\nleft.\n</div>\n\t\t<script src=\"http://www.google-analytics.com/urchin.js\" type=\"text/javascript\"></script>\n\t\t<script type=\"text/javascript\">_uacct = \"UA-2115448-1\";urchinTracker();</script>\n\t</body>\n</html>\n\n"
+    },
+    "/links/": {
+      "url": "https://www.islandsofmyth.org/links/",
+      "raw": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html>\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\">\n\t\t<title>Islands of Myth</title>\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/iom.css\">\n\t</head>\n\t<body>\n\n\t\t<div id=\"dragon\"><img src=\"/dragon.jpg\" alt=\"\"></div>\n\t\t<div id=\"top\"><img src=\"/top.jpg\" alt=\"\"></div>\n<div id=\"topmenu\">\n<a href=\"/themud/\">The Mud</a><a href=\"/guild/\">Guilds</a><a href=\"/races/\">Races</a><a href=\"/help/\">Help</a><a href=\"/connect/\">Connect</a><a href=\"/links/\">Links</a><a href=\"/gameinfo/\">Game Info</a>\n</div>\n\n<div id=\"leftmenu\">\n</div>\n\n<div id=\"main\">\n<h1>Links</h1>\n<hr>\n<h2>Clients</h2>\n<a href=\"http://www.gameaxle.com\">Portal</a><br>\n<a href=\"http://muq.org/~hawkeye/tf/\">TinyFugue</a><br>\n<a href=\"http://hem.passagen.se/golte/programs/goltemud.html\">GolteMUD</a><br>\n<a href=\"http://www.zuggsoft.com\">zMUD</a><br>\n\n<h2>MCCP</h2>\n<a href=\"http://islandsofmyth.org/clients/mccp.html\">MCCP</a><br>\n\n</div>\n\t\t<script src=\"http://www.google-analytics.com/urchin.js\" type=\"text/javascript\"></script>\n\t\t<script type=\"text/javascript\">_uacct = \"UA-2115448-1\";urchinTracker();</script>\n\t</body>\n</html>\n\n"
+    },
+    "/gameinfo/": {
+      "url": "https://www.islandsofmyth.org/gameinfo/",
+      "raw": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html>\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\">\n\t\t<title>Islands of Myth</title>\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/iom.css\">\n\t</head>\n\t<body>\n\n\t\t<div id=\"dragon\"><img src=\"/dragon.jpg\" alt=\"\"></div>\n\t\t<div id=\"top\"><img src=\"/top.jpg\" alt=\"\"></div>\n<div id=\"topmenu\">\n<a href=\"/themud/\">The Mud</a><a href=\"/guild/\">Guilds</a><a href=\"/races/\">Races</a><a href=\"/help/\">Help</a><a href=\"/connect/\">Connect</a><a href=\"/links/\">Links</a><a href=\"/gameinfo/\">Game Info</a>\n</div>\n\n<div id=\"leftmenu\">\n<a href=\"/3k/cgi/who.c\">Who</a>\n<a href=\"/3k/cgi/status.c\">Game Status</a>\n<a href=\"/3k/cgi/players.c\">Player Graph</a>\n<a href=\"/3k/playerpages.html\">Player Pages</a>\n<a href=\"/3k/fingeruser.html\">Finger</a>\n<a href=\"/3k/scgi/news/list.c\">News</a>\n<a href=\"/3k/scgi/webmail.c\">Mudmail</a>\n<a href=\"/mudcons\">Mudcons</a>\n<a href=\"/3k/cgi/poll.c\">Polls</a>\n<a href=\"/3k/plaque.html\">Top Plaque</a>\n<a href=\"/3k/weekly_plaque.html\">Weekly Top Plaque</a>\n<a href=\"/old_plaques/old_plaques.php\">Old Exp Plaques</a>\n<a href=\"/old_plaques/explist.php\">Compare old Plaques</a>\n<a href=\"/old_plaques/graph_selection.php?view=graph&graph=solo\">Exp Growth Graphs</a>\n<a href=\"/3k/cgi/castle_map.c\">Castle Area Map</a>\n<a href=\"wiz.html\">Wizard Documents</a>\n<a href=\"/3k/builderapp.html\">Builder Application</a>\n<a href=\"RDMP.html\">RDMP Info</a>\n<a href=\"/3k/scgi/bug_page.c\">Bug Reports</a>\n</div>\n\n<div id=\"main\">\n<h1>Game Info</h1>\n<hr>\n</div>\n\t\t<script src=\"http://www.google-analytics.com/urchin.js\" type=\"text/javascript\"></script>\n\t\t<script type=\"text/javascript\">_uacct = \"UA-2115448-1\";urchinTracker();</script>\n\t</body>\n</html>\n\n"
+    },
+    "/3k/cgi/castle_map.c": {
+      "url": "https://www.islandsofmyth.org/3k/cgi/castle_map.c",
+      "raw": "\r\n<HTML><HEAD>\r\n<LINK REL=stylesheet href=\"/style/style_sheet.css\" type=text/css>\r\n<script language=\"JavaScript1.2\" src=\"/subfr.js\"></script>\r\n</HEAD><H1>Map of the castle area<HR></H1><TABLE BORDER=1><TR><TD>blackthorne</TD><TD>seer</TD><TD>naugol</TD><TD>zamorra</TD><TD>rosencrantz</TD><TD>caliban</TD><TD>melly</TD><TD>hp</TD><TD>tuenek</TD><TD>ian</TD><TD>shara</TD><TD>tawnos</TD><TD>alvin</TD><TD>blackfear</TD><TD>ironspud</TD><TD>kadgar</TD><TD>baer</TD><TD>syntolk</TD><TD>guilor</TD><TD>hrung</TD><TD>mitsurugi</TD><TD>bot</TD><TD>dizkantir</TD><TD>artea</TD><TD>ogg</TD><TD>zeet</TD><TD>centaur</TD><TD>evan</TD><TD>arnold</TD><TD>wimar</TD><TD>lokie</TD></TR><TR><TD>wildchild</TD><TD>Slint</TD><TD>rodo</TD><TD>Jenkin</TD><TD>laochi</TD><TD> </TD><TD>blanchefleur</TD><TD> </TD><TD>gyrick</TD><TD> </TD><TD>tatra</TD><TD> </TD><TD>zarp</TD><TD> </TD><TD>sirk</TD><TD> </TD><TD>io</TD><TD> </TD><TD>jazaman</TD><TD> </TD><TD>lyrion</TD><TD> </TD><TD>zoox</TD><TD> </TD><TD>hermod</TD><TD> </TD><TD>heavenly</TD><TD> </TD><TD>zeemagx</TD><TD> </TD><TD>koromyr</TD></TR><TR><TD>dorion</TD><TD>cloud</TD><TD>debacle</TD><TD>gereint</TD><TD>turin</TD><TD>hierokliff</TD><TD>ralanthalas</TD><TD>telum</TD><TD>jas</TD><TD>drutt</TD><TD>hands</TD><TD>erigon</TD><TD>marelion</TD><TD>kazulanth</TD><TD>jest</TD><TD>blackjack</TD><TD>whatever</TD><TD>miramoto</TD><TD>erec</TD><TD>haleth</TD><TD>exxon</TD><TD>luno</TD><TD>harnag</TD><TD>shroom</TD><TD>justus</TD><TD>frodo</TD><TD>helphyre</TD><TD>monkman</TD><TD>onyx</TD><TD>liovette</TD><TD>emit</TD></TR><TR><TD>shy</TD><TD>Grimtooth</TD><TD>amrog</TD><TD> </TD><TD>dasefar</TD><TD> </TD><TD>gerrik</TD><TD> </TD><TD>mello</TD><TD> </TD><TD>guivret</TD><TD> </TD><TD>sinister</TD><TD> </TD><TD>anarchangel</TD><TD> </TD><TD>purgatori</TD><TD> </TD><TD>drake</TD><TD> </TD><TD>zuperb</TD><TD> </TD><TD>maxtor</TD><TD> </TD><TD>foxpaws</TD><TD> </TD><TD>slayn</TD><TD> </TD><TD>sigwald</TD><TD> </TD><TD>slammer</TD></TR><TR><TD>xphere</TD><TD>racklanim</TD><TD>elsdreck</TD><TD>ani</TD><TD>miraxas</TD><TD>druid</TD><TD>despair</TD><TD>bors</TD><TD>vinterjacka</TD><TD>elderin</TD><TD>kaeber</TD><TD>grendel</TD><TD>gateau</TD><TD>grasfer</TD><TD>abneon</TD><TD>janri</TD><TD>gltamate</TD><TD>nezmaniac</TD><TD>chivas</TD><TD>tarquin</TD><TD>zyz</TD><TD>stellerex</TD><TD>kjara</TD><TD>shifta</TD><TD>escense</TD><TD>silvereyes</TD><TD>roirraw</TD><TD>knox</TD><TD>shaady</TD><TD>dritthil</TD><TD>triunah</TD></TR><TR><TD>java</TD><TD> </TD><TD>moonstreak</TD><TD> </TD><TD>marconus</TD><TD> </TD><TD>tomten</TD><TD> </TD><TD>nightfall</TD><TD> </TD><TD>lord</TD><TD> </TD><TD>teego</TD><TD> </TD><TD>kalon</TD><TD> </TD><TD>asasin</TD><TD> </TD><TD>pure</TD><TD> </TD><TD>malifix</TD><TD> </TD><TD>will</TD><TD> </TD><TD>baloo</TD><TD> </TD><TD>fjunix</TD><TD> </TD><TD>warrowarr</TD><TD> </TD><TD>ronin</TD></TR><TR><TD>puffdaddy</TD><TD>locke</TD><TD>skan</TD><TD>ada</TD><TD>biorn</TD><TD>makimo</TD><TD>scarlet</TD><TD>eyespy</TD><TD>halaster</TD><TD>axis</TD><TD>romanak</TD><TD>anacondor</TD><TD>comrade</TD><TD>qwantom</TD><TD>enide</TD><TD>daeva</TD><TD>quillz</TD><TD>dfalt</TD><TD>genjuro</TD><TD>lu</TD><TD>wagro</TD><TD>shadowspawn</TD><TD>scone</TD><TD>bartimus</TD><TD>loluka</TD><TD>alotacod</TD><TD>tamuli</TD><TD>rhiella</TD><TD>kelyr</TD><TD>pulse</TD><TD>wox</TD></TR><TR><TD>sheikah</TD><TD> </TD><TD>denis</TD><TD> </TD><TD>nitemare</TD><TD> </TD><TD>tarantulas</TD><TD> </TD><TD>ref</TD><TD> </TD><TD>zanthos</TD><TD> </TD><TD>brackston</TD><TD> </TD><TD>xada</TD><TD> </TD><TD>garraty</TD><TD> </TD><TD>ganther</TD><TD> </TD><TD>trax</TD><TD> </TD><TD>mandos</TD><TD> </TD><TD>blitzkrieg</TD><TD> </TD><TD>zerro</TD><TD> </TD><TD>roxer</TD><TD> </TD><TD>dr</TD></TR><TR><TD>tex</TD><TD>rann</TD><TD>cue</TD><TD>chevar</TD><TD>barkley</TD><TD>origon</TD><TD>drelnza</TD><TD>smiley</TD><TD>phox</TD><TD>thaliard</TD><TD>wyrm</TD><TD>antiochus</TD><TD>phire</TD><TD>zaxxon</TD><TD>aphrael</TD><TD>sudix</TD><TD>klon</TD><TD>shiris</TD><TD>fezzick</TD><TD>lostego</TD><TD>jits</TD><TD>zavier</TD><TD>alacor</TD><TD>hymn</TD><TD>white</TD><TD>levi</TD><TD>catseye</TD><TD>darkness</TD><TD>nightmare</TD><TD>dank</TD><TD>roxis</TD></TR><TR><TD>gringo</TD><TD> </TD><TD>jomo</TD><TD> </TD><TD>krypt</TD><TD> </TD><TD>arnoth</TD><TD> </TD><TD>chemosh</TD><TD> </TD><TD>daran</TD><TD> </TD><TD>lost</TD><TD> </TD><TD>cazhmere</TD><TD> </TD><TD>urquan</TD><TD> </TD><TD>roseille</TD><TD> </TD><TD>tahnval</TD><TD> </TD><TD>stinky</TD><TD> </TD><TD>erotica</TD><TD> </TD><TD>lorric</TD><TD> </TD><TD>prophet</TD><TD> </TD><TD>vishoro</TD></TR><TR><TD>xgameez</TD><TD>jiann</TD><TD>cort</TD><TD>triangle</TD><TD>apathy</TD><TD>phoenix</TD><TD>zaedrax</TD><TD>osgar</TD><TD>mirrim</TD><TD>asidonhopo</TD><TD>hakra</TD><TD>silverquick</TD><TD>wassi</TD><TD>faidra</TD><TD>azagthot</TD><TD>fishbert</TD><TD>tektor</TD><TD>smog</TD><TD>athena</TD><TD>dreadshoot</TD><TD>bajumbo</TD><TD>wyrn</TD><TD>evicta</TD><TD>nevyn</TD><TD>ryt</TD><TD>evalic</TD><TD>zepfu</TD><TD>einar</TD><TD>sanvaldor</TD><TD>valkyrie</TD><TD>lamir</TD></TR><TR><TD>impulse</TD><TD> </TD><TD>pasqualli</TD><TD> </TD><TD>charm</TD><TD> </TD><TD>spirum</TD><TD> </TD><TD>chunli</TD><TD> </TD><TD>aethyr</TD><TD> </TD><TD>balinor</TD><TD> </TD><TD>lasher</TD><TD> </TD><TD>calel</TD><TD> </TD><TD>zax</TD><TD> </TD><TD>noel</TD><TD> </TD><TD>bupu</TD><TD> </TD><TD>whip</TD><TD> </TD><TD>gallahad</TD><TD> </TD><TD>sootika</TD><TD> </TD><TD>saruman</TD></TR><TR><TD>izabella</TD><TD>holyman</TD><TD>astarte</TD><TD>koma</TD><TD>talvilx</TD><TD>reykemias</TD><TD>warchief</TD><TD>hoel</TD><TD>demon</TD><TD>kriton</TD><TD>jaws</TD><TD>spear</TD><TD>abishai</TD><TD>jimth</TD><TD>areu</TD><TD>tistoo</TD><TD>falcore</TD><TD>mjukis</TD><TD>vudu</TD><TD>xarlok</TD><TD>battousai</TD><TD>doobie</TD><TD>gen</TD><TD>bloody</TD><TD>kovu</TD><TD>poofy</TD><TD>alynia</TD><TD>randal</TD><TD>arcon</TD><TD>crabstick</TD><TD>argoroth</TD></TR><TR><TD>gtdyno</TD><TD> </TD><TD>taliph</TD><TD> </TD><TD>claw</TD><TD> </TD><TD>fisherman</TD><TD> </TD><TD>nahtyr</TD><TD> </TD><TD>akasha</TD><TD> </TD><TD>grease</TD><TD> </TD><TD>binkley</TD><TD> </TD><TD>calindor</TD><TD> </TD><TD>tennea</TD><TD> </TD><TD>snowmanice</TD><TD> </TD><TD>keffe</TD><TD> </TD><TD>ulath</TD><TD> </TD><TD>mowgli</TD><TD> </TD><TD>tigger</TD><TD> </TD><TD>drakemane</TD></TR><TR><TD>wraith</TD><TD>stratos</TD><TD>vitreous</TD><TD>mikul</TD><TD>smee</TD><TD>jordali</TD><TD>snoop</TD><TD>elenduriel</TD><TD>benji</TD><TD>broccoli</TD><TD>valandir</TD><TD>aden</TD><TD>mahler</TD><TD>ertai</TD><TD>astakinthos</TD><TD>daimon</TD><TD>clorox</TD><TD>rockman</TD><TD>maduo</TD><TD>flame</TD><TD>vectro</TD><TD>rizzly</TD><TD>corbag</TD><TD>nudas</TD><TD>bandobras</TD><TD>jehran</TD><TD>monkey</TD><TD>piglet</TD><TD>switchblade</TD><TD> </TD><TD>fnuggtoch</TD></TR><TR><TD>expandrew</TD><TD> </TD><TD>frogmann</TD><TD> </TD><TD>moose</TD><TD> </TD><TD>venegar</TD><TD> </TD><TD>malison</TD><TD> </TD><TD>squrttle</TD><TD> </TD><TD>balth</TD><TD> </TD><TD>open</TD><TD> </TD><TD>goldman</TD><TD> </TD><TD>napht</TD><TD> </TD><TD>ashtoreth</TD><TD> </TD><TD>dmitri</TD><TD> </TD><TD>brien</TD><TD> </TD><TD>viper</TD><TD> </TD><TD>eomer</TD><TD> </TD><TD>vargh</TD></TR><TR><TD>denel</TD><TD>katerina</TD><TD>darnyte</TD><TD>klimax</TD><TD>markelause</TD><TD>mfate</TD><TD>prospero</TD><TD>zu</TD><TD>temma</TD><TD>warsong</TD><TD>reamus</TD><TD>rufflove</TD><TD>asee</TD><TD>sartael</TD><TD>gassy</TD><TD>bigglesworth</TD><TD>venetian</TD><TD>tsunatsu</TD><TD>miciaih</TD><TD>talgore</TD><TD>taric</TD><TD>doc</TD><TD>darktooth</TD><TD>wazup</TD><TD>eliphas</TD><TD>shikoba</TD><TD>lurch</TD><TD>howdy</TD><TD>september</TD><TD>fraziw</TD><TD>ulrich</TD></TR><TR><TD>paleo</TD><TD> </TD><TD>locastion</TD><TD> </TD><TD>oz</TD><TD> </TD><TD>killaaz</TD><TD> </TD><TD>orestes</TD><TD> </TD><TD>kirath</TD><TD> </TD><TD>skillz</TD><TD> </TD><TD>grimfist</TD><TD> </TD><TD>ty</TD><TD> </TD><TD>nol</TD><TD> </TD><TD>neytiri</TD><TD> </TD><TD>cam</TD><TD> </TD><TD>dryss</TD><TD> </TD><TD> </TD><TD> </TD><TD>wimwam</TD><TD> </TD><TD>aone</TD></TR><TR><TD>knom</TD><TD>shiranai</TD><TD>binx</TD><TD>illusions</TD><TD>yugo</TD><TD>cleo</TD><TD>loke</TD><TD>silverarc</TD><TD>graxon</TD><TD>modus</TD><TD>korthrun</TD><TD>blonk</TD><TD>mikkiz</TD><TD>bows</TD><TD>chronos</TD><TD>mamoru</TD><TD>seth</TD><TD>killerdude</TD><TD>sirc</TD><TD> </TD><TD>atrus</TD><TD>kaynn</TD><TD>dass</TD><TD>camel</TD><TD>whisper</TD><TD>zigario</TD><TD>kurosh</TD><TD>tritan</TD><TD>pyromaniac</TD><TD> </TD><TD>zlink</TD></TR><TR><TD>bloodlust</TD><TD> </TD><TD>tesabner</TD><TD> </TD><TD>urg</TD><TD> </TD><TD>adjudicator</TD><TD> </TD><TD>nagash</TD><TD> </TD><TD>donovan</TD><TD> </TD><TD>bahgtru</TD><TD> </TD><TD>trunks</TD><TD> </TD><TD>kaos</TD><TD> </TD><TD>tank</TD><TD> </TD><TD>ringmaster</TD><TD> </TD><TD>sefi</TD><TD> </TD><TD>rayven</TD><TD> </TD><TD>maskbeast</TD><TD> </TD><TD>laslo</TD><TD> </TD><TD>remes</TD></TR><TR><TD>yurei</TD><TD>drizzt</TD><TD>energystar</TD><TD>buliwyf</TD><TD>manannan</TD><TD>tranquil</TD><TD>armond</TD><TD>gwen</TD><TD>bonbon</TD><TD>sarrik</TD><TD>regan</TD><TD>tigerwolf</TD><TD>tigeress</TD><TD>nax</TD><TD>pedron</TD><TD>grnbud</TD><TD>morigarth</TD><TD>damona</TD><TD>paraqlitos</TD><TD>arkangyle</TD><TD>denim</TD><TD>palmascay</TD><TD>lotus</TD><TD>occult</TD><TD>glonk</TD><TD>ondo</TD><TD>vegetto</TD><TD>darque</TD><TD>russell</TD><TD>vicious</TD><TD>reborn</TD></TR><TR><TD>sleet</TD><TD> </TD><TD>petra</TD><TD> </TD><TD>flick</TD><TD> </TD><TD>flamestar</TD><TD> </TD><TD>darkfox</TD><TD> </TD><TD>kacroo</TD><TD> </TD><TD>balthazar</TD><TD> </TD><TD>zag</TD><TD> </TD><TD>bo</TD><TD> </TD><TD>ike</TD><TD> </TD><TD>panacea</TD><TD> </TD><TD>lucian</TD><TD> </TD><TD>xa</TD><TD> </TD><TD>sequoia</TD><TD> </TD><TD>corky</TD><TD> </TD><TD>blue</TD></TR><TR><TD>bluemoon</TD><TD>terminator</TD><TD>paw</TD><TD>falgor</TD><TD>chewba</TD><TD>falstaff</TD><TD>moren</TD><TD>midget</TD><TD>blake</TD><TD>nick</TD><TD>andros</TD><TD>illujun</TD><TD>kezef</TD><TD>jensa</TD><TD>ronan</TD><TD>valina</TD><TD>lebrand</TD><TD>woolhat</TD><TD>uno</TD><TD>makar</TD><TD>baalzamon</TD><TD>haimer</TD><TD>inside</TD><TD>quiet</TD><TD>temuthril</TD><TD>talstar</TD><TD>qvandor</TD><TD>helios</TD><TD>drost</TD><TD> </TD><TD> </TD></TR><TR><TD>eponine</TD><TD> </TD><TD>lagduf</TD><TD> </TD><TD>oxolotl</TD><TD> </TD><TD>mantrovant</TD><TD> </TD><TD>fegler</TD><TD> </TD><TD>rhino</TD><TD> </TD><TD>kuron</TD><TD> </TD><TD>zepher</TD><TD> </TD><TD>tamaritha</TD><TD> </TD><TD>jhonka</TD><TD> </TD><TD>highpriest</TD><TD> </TD><TD>trance</TD><TD> </TD><TD>khelekloth</TD><TD> </TD><TD>blooje</TD><TD> </TD><TD>sleip</TD><TD> </TD><TD>aquaduck</TD></TR><TR><TD>sleep</TD><TD>goroharahad</TD><TD>ligea</TD><TD>wumpus</TD><TD>ca</TD><TD>ghost</TD><TD>boo</TD><TD>iedee</TD><TD>blizz</TD><TD>eru</TD><TD>soulleech</TD><TD>gwydian</TD><TD>zuchema</TD><TD>estrella</TD><TD>parcival</TD><TD>boof</TD><TD>jimerson</TD><TD>sykiro</TD><TD>avia</TD><TD>boomir</TD><TD>flamekrayt</TD><TD>miraculix</TD><TD>maxy</TD><TD>booger</TD><TD>mandelbrot</TD><TD>phil</TD><TD>proxima</TD><TD>gyntry</TD><TD>raw</TD><TD> </TD><TD>braer</TD></TR><TR><TD>spoof</TD><TD> </TD><TD>snoffen</TD><TD> </TD><TD>owain</TD><TD> </TD><TD>nugxz</TD><TD> </TD><TD>deadnaught</TD><TD> </TD><TD>elisha</TD><TD> </TD><TD>elvis</TD><TD> </TD><TD>numlock</TD><TD> </TD><TD>mor</TD><TD> </TD><TD>spiritmoon</TD><TD> </TD><TD>byllk</TD><TD> </TD><TD>tec</TD><TD> </TD><TD>esclados</TD><TD> </TD><TD>firelord</TD><TD> </TD><TD>griffy</TD><TD> </TD><TD>knight</TD></TR><TR><TD>atreau</TD><TD>afkaserious</TD><TD>forscythe</TD><TD>jsardy</TD><TD>gogol</TD><TD>medic</TD><TD>oceanmist</TD><TD>jant</TD><TD>skitzo</TD><TD>calderon</TD><TD>cholas</TD><TD>dionysus</TD><TD>requiem</TD><TD>sweeterevil</TD><TD>amaranth</TD><TD>des</TD><TD>kalma</TD><TD>kiliana</TD><TD>ellipsoid</TD><TD>guacamole</TD><TD>elthar</TD><TD>zord</TD><TD>kurwin</TD><TD>zilpen</TD><TD>nailman</TD><TD>sephiroth</TD><TD>matt</TD><TD>modred</TD><TD>goat</TD><TD> </TD><TD>atles</TD></TR><TR><TD>chrono</TD><TD> </TD><TD>vampirella</TD><TD> </TD><TD>nefardec</TD><TD> </TD><TD>dorkboy</TD><TD> </TD><TD>bremen</TD><TD> </TD><TD>silk</TD><TD> </TD><TD>sakke</TD><TD> </TD><TD>beranis</TD><TD> </TD><TD>ranja</TD><TD> </TD><TD>remdar</TD><TD> </TD><TD>charity</TD><TD> </TD><TD>cowboy</TD><TD> </TD><TD>moridin</TD><TD> </TD><TD>tzikas</TD><TD> </TD><TD>inkor</TD><TD> </TD><TD>mars</TD></TR><TR><TD>pteppic</TD><TD>belgarion</TD><TD>mai</TD><TD>tiyet</TD><TD>jarel</TD><TD>rossano</TD><TD>shenshen</TD><TD>ormus</TD><TD>aphrodite</TD><TD>kane</TD><TD>lucifer</TD><TD>darc</TD><TD>spiraldancer</TD><TD>saria</TD><TD>shadowmage</TD><TD>one</TD><TD>evermore</TD><TD>rancor</TD><TD>krankok</TD><TD>stiltzkin</TD><TD>egar</TD><TD>tak</TD><TD>celine</TD><TD>greeder</TD><TD>gabriel</TD><TD>salamandra</TD><TD>querulo</TD><TD>cai</TD><TD>netolu</TD><TD>smiles</TD><TD>elaps</TD></TR><TR><TD>chop</TD><TD> </TD><TD>qrall</TD><TD> </TD><TD>loco</TD><TD> </TD><TD>cobija</TD><TD> </TD><TD>samael</TD><TD> </TD><TD>coronach</TD><TD> </TD><TD>blossom</TD><TD> </TD><TD>hayden</TD><TD> </TD><TD>rhaegar</TD><TD> </TD><TD>john</TD><TD> </TD><TD>adolf</TD><TD> </TD><TD> </TD><TD> </TD><TD> </TD><TD> </TD><TD>glipadon</TD><TD> </TD><TD>obama</TD><TD> </TD><TD>breeze</TD></TR><TR><TD>zendor</TD><TD>papi</TD><TD>zeke</TD><TD>supmuw</TD><TD>naruto</TD><TD>itoen</TD><TD>zazu</TD><TD>acan</TD><TD>nevermere</TD><TD>jyrlis</TD><TD>genesis</TD><TD>blackrose</TD><TD>syn</TD><TD>ralys</TD><TD>keiji</TD><TD>lilither</TD><TD>yawi</TD><TD>ashara</TD><TD>zombiebm</TD><TD>gothos</TD><TD>yellowhappy</TD><TD>nomz</TD><TD>ryaku</TD><TD>dalmeir</TD><TD>hadez</TD><TD>astra</TD><TD>nerice</TD><TD>trentos</TD><TD>crokahn</TD><TD>jarlaxle</TD><TD>dox</TD></TR></TABLE></BODY></HTML>"
+    },
+    "/themud/": {
+      "url": "https://www.islandsofmyth.org/themud/",
+      "raw": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html>\n\t<head>\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\">\n\t\t<title>Islands of Myth</title>\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/iom.css\">\n\t</head>\n\t<body>\n\n\t\t<div id=\"dragon\"><img src=\"/dragon.jpg\" alt=\"\"></div>\n\t\t<div id=\"top\"><img src=\"/top.jpg\" alt=\"\"></div>\n<div id=\"topmenu\">\n<a href=\"/themud/\">The Mud</a><a href=\"/guild/\">Guilds</a><a href=\"/races/\">Races</a><a href=\"/help/\">Help</a><a href=\"/connect/\">Connect</a><a href=\"/links/\">Links</a><a href=\"/gameinfo/\">Game Info</a>\n</div>\n\n<div id=\"leftmenu\">\n<a href=\"intro.html\">Intro</a>\n<a href=\"timeline.html\">Timeline</a>\n<p>Maps:</p>\n<a href=\"gossamer.html\">Gossamer</a>\n<a href=\"blackavar.html\">Blackavar</a>\n<a href=\"misty.html\">Misty</a>\n<a href=\"emerald.html\">Emerald</a>\n<a href=\"hyboria.html\">Hyboria</a>\n<a href=\"everrest.html\">Everrest</a>\n<a href=\"oddworld.html\">OddWorld</a>\n<a href=\"sombre.html\">Sombre Isles</a>\n<a href=\"twin_islands.html\">Twin Islands</a>\n<a href=\"southcape.html\">Southcape</a>\n</div>\n\n<div id=\"main\">\n<h1>Welcome!</h1>\n<hr>\nIslands of Myth has something for everyone. An extensive\nsystem of guilds allows players to be just about anything\nthey want. A large player base makes for fun parties, or \nif soloing is your thing, that is available too. The wizards\nare active, and always trying to improve and modify the\ngame to keep everyone on their toes and still have fun. \nNew areas are frequently added by a large \"staff\" of\nmortal and wizard builders. Special events happen\nfrequently to spice things up a bit as well. \nIslands of Myth is definitely a place built for fun.\n</div>\n\t\t<script src=\"http://www.google-analytics.com/urchin.js\" type=\"text/javascript\"></script>\n\t\t<script type=\"text/javascript\">_uacct = \"UA-2115448-1\";urchinTracker();</script>\n\t</body>\n</html>\n\n"
+    }
+  }
+}

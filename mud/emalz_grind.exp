@@ -1,0 +1,149 @@
+#!/usr/bin/expect -f
+set timeout 30
+set timestamp [clock format [clock seconds] -format "%Y%m%d_%H%M%S"]
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/session_${timestamp}.log"
+log_file $logfile
+
+spawn telnet islandsofmyth.org 3000
+expect "login:"
+send "emalz\r"
+expect "password:"
+send "creative\r"
+
+# Wait for login to complete
+set timeout 10
+expect -re {
+    "Hp:.*> " { }
+    "Do you want ANSI" { send "y\r"; expect -re "Hp:.*> " }
+    timeout { puts "Timeout waiting for prompt"; exit 1 }
+}
+
+# Check score
+send "score\r"
+expect -re "Hp:.*> "
+
+# Check if we need to level up (0 XP to next level)
+send "warp\r"
+expect -re "Hp:.*> "
+
+# Try to level up at judge
+send "e\r"
+expect -re "Hp:.*> "
+send "talk achman\r"
+expect -re {
+    "What can I do for you\?" { }
+    "Hp:.*> " { puts "Judge not found, continuing..." }
+    timeout { puts "Timeout talking to judge"; send "warp\r"; expect -re "Hp:.*> " }
+}
+
+send "d\r"
+expect -re {
+    "Which stat" { }
+    "you are not ready" { puts "Not ready to level"; send "warp\r"; expect -re "Hp:.*> " }
+    "Hp:.*> " { }
+    timeout { puts "Timeout at stat selection"; send "warp\r"; expect -re "Hp:.*> " }
+}
+
+# Pick strength for warrior
+send "strength\r"
+expect -re "Hp:.*> "
+
+# Verify level up
+send "score\r"
+expect -re "Hp:.*> "
+
+# Now go explore and grind - let's check newbie areas via Sisong
+send "warp\r"
+expect -re "Hp:.*> "
+
+send "talk sisong\r"
+expect -re {
+    "What can I do for you\?" { }
+    "Hp:.*> " { puts "Sisong not found"; send "warp\r"; expect -re "Hp:.*> " }
+    timeout { puts "Timeout talking to sisong"; send "warp\r"; expect -re "Hp:.*> " }
+}
+
+# Option 2: Go somewhere
+send "2\r"
+expect -re {
+    "Where would you like to go\?" { }
+    "Hp:.*> " { }
+    timeout { puts "Timeout at travel menu"; send "warp\r"; expect -re "Hp:.*> " }
+}
+
+# Let's try different newbie areas. Try Newbie Garden (1)
+send "1\r"
+expect -re {
+    "Are you sure you want to go" { send "y\r"; expect -re "Hp:.*> " }
+    "Hp:.*> " { }
+    timeout { puts "Timeout at confirm"; send "warp\r"; expect -re "Hp:.*> " }
+}
+
+# Look around
+send "look\r"
+expect -re "Hp:.*> "
+
+# Explore the area
+send "n\r"
+expect -re "Hp:.*> "
+send "look\r"
+expect -re "Hp:.*> "
+
+send "s\r"
+expect -re "Hp:.*> "
+send "look\r"
+expect -re "Hp:.*> "
+
+send "e\r"
+expect -re "Hp:.*> "
+send "look\r"
+expect -re "Hp:.*> "
+
+send "w\r"
+expect -re "Hp:.*> "
+send "look\r"
+expect -re "Hp:.*> "
+
+# Check for monsters and kill them
+send "look\r"
+expect -re "Hp:.*> "
+
+# Try to find monsters - look for any creatures
+# If we see monsters, kill them
+# Check score periodically
+send "score\r"
+expect -re "Hp:.*> "
+
+# Keep exploring in a loop
+set explore_count 0
+while {$explore_count < 20} {
+    incr explore_count
+    
+    # Random movement
+    set directions {n s e w ne nw se sw}
+    set dir [lindex $directions [expr {int(rand()*8)}]]
+    
+    send "$dir\r"
+    expect -re "Hp:.*> "
+    
+    send "look\r"
+    expect -re "Hp:.*> "
+    
+    # Check if there are monsters
+    send "score\r"
+    expect -re "Hp:.*> "
+    
+    # If HP is low, heal
+    # Try to eat corpse or rest
+}
+
+# Final score check
+send "score\r"
+expect -re "Hp:.*> "
+
+send "quit\r"
+expect "quit"
+send "y\r"
+
+puts "Session complete. Log saved to $logfile"
+exit 0

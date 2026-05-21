@@ -1,0 +1,7 @@
+You become more adept in your warrior guild.
+You learn the skill flesh of stone.
+Stats: str:+2, dex:+1, con:+2, wis:+1, sta:+1, hp_regen:+2, sp_regen:+1,
+       ep_regen:+2, hp_max:+2, ep_max:+2, sp_max:+1
+This cost you 103 experience points.
+You feel as though the Gods now take less interest in your well being.
+hp(828/860) sp(736/754) ep(582/602) > 

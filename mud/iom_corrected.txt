@@ -1,0 +1,524 @@
+# Islands of Myth — Corrected Central Square + Warrior Guild
+# 2026-05-14 06:28:27
+
+
+======================================================================
+=== LOGIN ===
+======================================================================
+Password: 
+
+======================================================================
+=== PASSWORD ===
+======================================================================
+
+Last login: Wed May 13 18:27:57 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Explorer has reconnected (Human level 1).
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== ENTER PORTAL ===
+======================================================================
+There is no portal here.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== STEP 1: NORTH ===
+======================================================================
+Intersection of Cloud and Titan [exits: south, west and north]
+ The edge of the Illium Bazaar here blends into Cloud Road, which heads west
+towards the Illian Adventurers' Guild. The guild is a domed building, visible
+for blocks - especially over the low stalls of the marketplace. The city
+cathedral lies close by to the south, dominating the landscape for blocks
+around.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== STEP 2: WEST ===
+======================================================================
+Glowing wisps float through the air.
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers
+Guild. It contains some of the most helpful things in the world of Islands of
+Myth. To the east is Titan Street; to the west is Gossamer Street. Small trees
+line the road.
+
+A floating moonflower vine
+A grand memorial is here.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== STEP 3: WEST ===
+======================================================================
+You are jostled as people pass by, heading for the large blue structure.
+Intersection of Gossamer and Cloud [exits: south, west, north and east]
+ This busy intersection is the crossroads for Gossamer and Cloud. East of where
+you stand, a large dome structure sits. West is Illium Street, full of citizens
+and wisps. Heading north takes you further into the city. All along here small
+flowers grow among strange trees!
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== STEP 4: WEST ===
+======================================================================
+On Cloud Road between Illium and Gossamer [exits: west and east]
+ Upon Cloud Road, you cannot help but notice the trees! You see how this little
+road got its name! To the north of you sits a small building, not enterable
+from here. To the west is a large domed structure. Many people seem in a hurry
+to get there.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== STEP 5: WEST (ILLIUM/CLOUD) ===
+======================================================================
+Intersection of Illium and Cloud [exits: south, north and east]
+ Upon this delightful little intersection, you can see the Gossamer Aqueduct to
+the west, flowing south into Central Square. To the east runs Cloud Avenue.
+Lined with small, strange trees, you cannot help but see where it got its name.
+To the south is Central Square. A monument stands in the middle. And all along
+this street Lorlings stand tall, with wisps darting in and out of their
+branches.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== SOUTH TO CENTRAL SQUARE ===
+======================================================================
+Wisps glide from treetop to treetop.
+Intersection of Illium and Ethereal [exits: south, west, north and east]
+ This intersection is the beginning of the inner sanctum of Central Square. The
+Lorlings that lined Illium fan out and join those that surround the town
+square. Inside you can hear the sound of water rushing. And directly south the
+fountain is coming into view.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK CENTRAL SQUARE ===
+======================================================================
+Intersection of Illium and Ethereal [exits: south, west, north and east]
+ This intersection is the beginning of the inner sanctum of Central Square. The
+Lorlings that lined Illium fan out and join those that surround the town
+square. Inside you can hear the sound of water rushing. And directly south the
+fountain is coming into view.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== EXITS CENTRAL SQUARE ===
+======================================================================
+You notice these exits:
+          East :  On Ethereal Lane
+                  between Illium and
+         North :  Intersection of Illium
+                  and Cloud
+          West :  On Ethereal Lane
+                  between Arcane and
+         South :  On Illium Street
+                  between Ethereal and
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== CENTRAL: NORTH ===
+======================================================================
+Intersection of Illium and Cloud [exits: south, north and east]
+ Upon this delightful little intersection, you can see the Gossamer Aqueduct to
+the west, flowing south into Central Square. To the east runs Cloud Avenue.
+Lined with small, strange trees, you cannot help but see where it got its name.
+To the south is Central Square. A monument stands in the middle. And all along
+this street Lorlings stand tall, with wisps darting in and out of their
+branches.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK NORTH ===
+======================================================================
+Intersection of Illium and Cloud [exits: south, north and east]
+ Upon this delightful little intersection, you can see the Gossamer Aqueduct to
+the west, flowing south into Central Square. To the east runs Cloud Avenue.
+Lined with small, strange trees, you cannot help but see where it got its name.
+To the south is Central Square. A monument stands in the middle. And all along
+this street Lorlings stand tall, with wisps darting in and out of their
+branches.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== BACK FROM NORTH ===
+======================================================================
+Intersection of Illium and Ethereal [exits: south, west, north and east]
+ This intersection is the beginning of the inner sanctum of Central Square. The
+Lorlings that lined Illium fan out and join those that surround the town
+square. Inside you can hear the sound of water rushing. And directly south the
+fountain is coming into view.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== CENTRAL: SOUTH ===
+======================================================================
+Glowing wisps float through the air.
+On Illium Street between Ethereal and Myst [exits: south and north]
+ You stand before Central Square as it lies directly south. To the west you can
+see the pools of Gossamer through the Lorling trees at your side. And to the
+east, Lorlings stand in a cluster, creating a small forest in the heart of the
+city. Each side of the street, Lorlings sway and talk among themselves in a
+language lost to your ears.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK SOUTH ===
+======================================================================
+On Illium Street between Ethereal and Myst [exits: south and north]
+ You stand before Central Square as it lies directly south. To the west you can
+see the pools of Gossamer through the Lorling trees at your side. And to the
+east, Lorlings stand in a cluster, creating a small forest in the heart of the
+city. Each side of the street, Lorlings sway and talk among themselves in a
+language lost to your ears.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== BACK FROM SOUTH ===
+======================================================================
+Intersection of Illium and Ethereal [exits: south, west, north and east]
+ This intersection is the beginning of the inner sanctum of Central Square. The
+Lorlings that lined Illium fan out and join those that surround the town
+square. Inside you can hear the sound of water rushing. And directly south the
+fountain is coming into view.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== CENTRAL: EAST ===
+======================================================================
+Glowing wisps float through the air.
+On Ethereal Lane between Illium and Gossamer [exits: west and east]
+ This peaceful street is part of the outer square of Central Square. To the
+south, numerous trees stand, wisps glide lazily through them. To the east you
+see a large dome, blue and white in appearance. Tendrils of mist crawl along
+the road.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK EAST ===
+======================================================================
+On Ethereal Lane between Illium and Gossamer [exits: west and east]
+ This peaceful street is part of the outer square of Central Square. To the
+south, numerous trees stand, wisps glide lazily through them. To the east you
+see a large dome, blue and white in appearance. Tendrils of mist crawl along
+the road.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== BACK FROM EAST ===
+======================================================================
+Intersection of Illium and Ethereal [exits: south, west, north and east]
+ This intersection is the beginning of the inner sanctum of Central Square. The
+Lorlings that lined Illium fan out and join those that surround the town
+square. Inside you can hear the sound of water rushing. And directly south the
+fountain is coming into view.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== CENTRAL: WEST ===
+======================================================================
+Glowing wisps float through the air.
+On Ethereal Lane between Arcane and Illium [exits: west and east]
+ You stand upon a majestic bridge! It arcs up and over the aqueduct that leads
+into the pools. Below you are the Pools of Illium! They glitter and splash down
+the rocks and embankment. To the west there appears to be an overlook of the
+city. Mists creep along the bridge.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK WEST ===
+======================================================================
+On Ethereal Lane between Arcane and Illium [exits: west and east]
+ You stand upon a majestic bridge! It arcs up and over the aqueduct that leads
+into the pools. Below you are the Pools of Illium! They glitter and splash down
+the rocks and embankment. To the west there appears to be an overlook of the
+city. Mists creep along the bridge.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== BACK FROM WEST ===
+======================================================================
+Intersection of Illium and Ethereal [exits: south, west, north and east]
+ This intersection is the beginning of the inner sanctum of Central Square. The
+Lorlings that lined Illium fan out and join those that surround the town
+square. Inside you can hear the sound of water rushing. And directly south the
+fountain is coming into view.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== CENTRAL: NORTHEAST ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== CENTRAL: NORTHWEST ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== CENTRAL: SOUTHEAST ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== CENTRAL: SOUTHWEST ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== BACK NORTH ===
+======================================================================
+Intersection of Illium and Cloud [exits: south, north and east]
+ Upon this delightful little intersection, you can see the Gossamer Aqueduct to
+the west, flowing south into Central Square. To the east runs Cloud Avenue.
+Lined with small, strange trees, you cannot help but see where it got its name.
+To the south is Central Square. A monument stands in the middle. And all along
+this street Lorlings stand tall, with wisps darting in and out of their
+branches.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== BACK EAST 1 ===
+======================================================================
+On Cloud Road between Illium and Gossamer [exits: west and east]
+ Upon Cloud Road, you cannot help but notice the trees! You see how this little
+road got its name! To the north of you sits a small building, not enterable
+from here. To the west is a large domed structure. Many people seem in a hurry
+to get there.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== BACK EAST 2 ===
+======================================================================
+Intersection of Gossamer and Cloud [exits: south, west, north and east]
+ This busy intersection is the crossroads for Gossamer and Cloud. East of where
+you stand, a large dome structure sits. West is Illium Street, full of citizens
+and wisps. Heading north takes you further into the city. All along here small
+flowers grow among strange trees!
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== BACK EAST 3 ===
+======================================================================
+On Cloud Road between Gossamer and Titan [exits: south, west and east]
+ You stand on Cloud Road before a mighty structure! Here stands the Adventurers
+Guild. It contains some of the most helpful things in the world of Islands of
+Myth. To the east is Titan Street; to the west is Gossamer Street. Small trees
+line the road.
+
+A floating moonflower vine
+A grand memorial is here.
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== BACK EAST 4 ===
+======================================================================
+A charwoman wanders by with a bucket of ashes.
+Intersection of Cloud and Titan [exits: south, west and north]
+ The edge of the Illium Bazaar here blends into Cloud Road, which heads west
+towards the Illian Adventurers' Guild. The guild is a domed building, visible
+for blocks - especially over the low stalls of the marketplace. The city
+cathedral lies close by to the south, dominating the landscape for blocks
+around.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== BACK TO GUILD ===
+======================================================================
+On Titan street [exits: south and north]
+ The road extends below you as you walk through the eastern section of Illium
+City. A cathedral rests in the center of the eastern side of Illium, standing
+magnificiently against the horizon.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== VERIFY GUILD ===
+======================================================================
+On Titan street [exits: south and north]
+ The road extends below you as you walk through the eastern section of Illium
+City. A cathedral rests in the center of the eastern side of Illium, standing
+magnificiently against the horizon.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== PORTAL ROOM ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== WARRIOR GUILD ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Want to try something fun? type: random
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LOOK WARRIOR ===
+======================================================================
+On Titan street [exits: south and north]
+ The road extends below you as you walk through the eastern section of Illium
+City. A cathedral rests in the center of the eastern side of Illium, standing
+magnificiently against the horizon.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== EXITS WARRIOR ===
+======================================================================
+You notice these exits:
+         North :  Intersection of Cloud
+                  and Titan
+         South :  On Titan
+                  street
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== LIST ===
+======================================================================
+There is nothing here to list.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== COSTS ===
+======================================================================
+You just entered something the MUD doesn't understand.
+Want to try something fun? type: random
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== INFO ===
+======================================================================
+There is nothing here to get information from.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== BACK PORTAL ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== BACK TO GUILD ===
+======================================================================
+It doesn't seem possible to go that direction.
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== FINAL LOOK ===
+======================================================================
+On Titan street [exits: south and north]
+ The road extends below you as you walk through the eastern section of Illium
+City. A cathedral rests in the center of the eastern side of Illium, standing
+magnificiently against the horizon.
+
+A floating moonflower vine
+
+hp(792/792) sp(772/772) ep(538/538) > 
+
+======================================================================
+=== QUIT ===
+======================================================================
+Quitting. Please stand by while saving.
+SUMMARY
+Login time: 16m12s  Exp Earned: 0
+________________________________________________________________
+|       Combat Category   |   Today's session | Total to date  |
+'--------------------------------------------------------------'
+|  Experience per minute  |         0         |       222      |
+|   Criticals inflicted   |         0         |        0       |
+|     Criticals taken     |         0         |        0       |
+|     Stuns inflicted     |         0         |        0       |
+|       Stuns taken       |         0         |        0       |
+|     Dodges Performed    |         0         |        0       |
+|         # deaths        |         0         |        0       |
+|         # reincs        |         0         |        0       |
+'--------------------------------------------------------------'
+Closing down.
+ Saving your character.
+

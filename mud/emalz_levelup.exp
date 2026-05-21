@@ -1,0 +1,200 @@
+#!/usr/bin/expect -f
+
+set timeout 30
+set timestamp [clock format [clock seconds] -format "%Y%m%d_%H%M%S"]
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/levelup_${timestamp}.log"
+log_file $logfile
+
+puts "Starting level-up session at $timestamp"
+
+spawn telnet islandsofmyth.org 3000
+
+expect {
+    "login:" { send "emalz\r" }
+    "Please enter a name" { send "emalz\r" }
+    timeout { puts "Timeout at login"; exit 1 }
+}
+
+expect {
+    "password:" { send "creative\r" }
+    "Password:" { send "creative\r" }
+    timeout { puts "Timeout at password"; exit 1 }
+}
+
+# Wait for game prompt
+expect {
+    "hp(" { expect "> " }
+    "Do you want ANSI" { send "y\r"; expect "hp("; expect "> " }
+    timeout { puts "Timeout waiting for prompt"; exit 1 }
+}
+
+puts "Logged in. Current state:"
+send "score\r"
+expect "hp(" 
+expect "> "
+
+# Go to judge
+send "warp\r"
+expect "hp("
+expect "> "
+
+send "e\r"
+expect "hp("
+expect "> "
+
+# Talk to judge
+send "talk achman\r"
+expect "\[abcdeq\]"
+
+# Pick d (advance picking stat)
+send "d\r"
+expect {
+    "Which stat" { }
+    "How many times" { }
+    "hp(" { expect "> " }
+    timeout { puts "Timeout at stat menu"; exit 1 }
+}
+
+# Pick 'a' for strength
+send "a\r"
+expect {
+    "How many times" { }
+    "hp(" { expect "> " }
+    timeout { puts "Timeout at times question"; exit 1 }
+}
+
+# Pick 1 time
+send "1\r"
+expect "hp("
+expect "> "
+
+puts "Level up attempted!"
+send "score\r"
+expect "hp("
+expect "> "
+
+# Warp out
+send "warp\r"
+expect "hp("
+expect "> "
+
+puts "Back at guild. Exploring..."
+
+# Try west first (new area)
+send "w\r"
+expect "hp("
+expect "> "
+
+send "look\r"
+expect "hp("
+expect "> "
+
+# Try north
+send "n\r"
+expect "hp("
+expect "> "
+
+send "look\r"
+expect "hp("
+expect "> "
+
+# Check score
+send "score\r"
+expect "hp("
+expect "> "
+
+# Try northeast
+send "ne\r"
+expect "hp("
+expect "> "
+
+send "look\r"
+expect "hp("
+expect "> "
+
+# Try southwest
+send "sw\r"
+expect "hp("
+expect "> "
+
+send "look\r"
+expect "hp("
+expect "> "
+
+# Map a bit more
+send "w\r"
+expect "hp("
+expect "> "
+send "look\r"
+expect "hp("
+expect "> "
+
+send "nw\r"
+expect "hp("
+expect "> "
+send "look\r"
+expect "hp("
+expect "> "
+
+# Score check
+send "score\r"
+expect "hp("
+expect "> "
+
+# Look for monsters and try to kill
+send "look\r"
+expect "hp("
+expect "> "
+
+# Try various directions from guild
+send "warp\r"
+expect "hp("
+expect "> "
+
+send "s\r"
+expect "hp("
+expect "> "
+send "look\r"
+expect "hp("
+expect "> "
+
+send "se\r"
+expect "hp("
+expect "> "
+send "look\r"
+expect "hp("
+expect "> "
+
+# Try up/down
+send "warp\r"
+expect "hp("
+expect "> "
+
+send "up\r"
+expect "hp("
+expect "> "
+send "look\r"
+expect "hp("
+expect "> "
+
+send "down\r"
+expect "hp("
+expect "> "
+send "look\r"
+expect "hp("
+expect "> "
+
+# Final score
+send "score\r"
+expect "hp("
+expect "> "
+
+# Save and exit
+send "quit\r"
+expect {
+    "quit" { send "y\r" }
+    "hp(" { expect "> "; send "quit\r"; expect "quit"; send "y\r" }
+}
+
+puts "Session complete! Log: $logfile"
+exit 0

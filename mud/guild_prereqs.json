@@ -1,0 +1,159 @@
+{
+  "warrior": [
+    ": None",
+    ": 20 levels in Warrior",
+    ": 20 levels in Warrior",
+    ": 20 levels in Warrior",
+    ": 10 levels in Berserker & 10 levels in -either- Defender Of The Crown OR Knight",
+    ": 10 levels in Knight & 10 levels in -either- Berserker OR Defender Of The Crown",
+    ": 10 levels in Berserker & 10 levels in -either- Defender Of The Crown OR Knight",
+    ": 10 levels in Defender Of The Crown & 10 levels in -either- Berserker OR Knight",
+    ": 10 levels in Knight & 10 levels in -either- Berserker OR Defender Of The Crown",
+    ": 10 levels in -any- 3 of 5 warrior bravo guilds each"
+  ],
+  "martialartist": [
+    ": None",
+    ": 20 levels in Martial Artist",
+    ": 20 levels in Martial Artist",
+    ": 10 levels in Dragonfist Fighter",
+    ": 10 levels in Dragonfist Fighter",
+    ": 10 levels in Dragonfist Fighter",
+    ": 10 levels in Dragonfist Fighter",
+    ": 10 levels in Mystic Warriors",
+    ": 10 levels in Crane Master, 10 levels in Snake Master, 10 levels in Tiger Master, 10 levels in Toad Master & ? lvls in Mystic Warriors"
+  ],
+  "weaver": [
+    ": None",
+    ": 20 levels in Weaver",
+    ": 20 levels in Weaver",
+    ": 20 levels in Weaver",
+    ": 10 levels in Healer & 10 levels in -either- Confessor OR Martyr",
+    ": 10 levels in Martyr & 10 levels in -either- Confessor OR Martyr",
+    ": 10 levels in Martyr & 10 levels in -either- Confessor OR Martyr",
+    ": 10 levels in Confessor & 10 levels in Healer",
+    ": 10 levels in -any- 3 of 4 weaver bravo guilds each"
+  ],
+  "unraveller": [
+    ": None",
+    ": 20 levels in Unraveller",
+    ": 20 levels in Unraveller",
+    ": 20 levels in Unraveller",
+    ": 10 levels in Harmer & 10 levels in Magical Torturer",
+    ": 10 levels in Harmer & 10 levels in Sacrificer",
+    ": 10 levels in Magical Torturer & 10 levels in Sacrificer",
+    ": 10 levels in Harmer & 10 levels in Magical Torturer",
+    ": 10 levels in Servant Of Lloth, 10 levels in Servant Of Mordulak, 10 levels in Servant Of Shirija, & 10 levels in Servant Of Talakh",
+    ": 10 levels in Servant Of Lloth, 10 levels in Servant Of Mordulak, 10 levels in Servant Of Shirija, & 10 levels in Servant Of Talakh",
+    ": 10 levels in Servant Of Lloth, 10 levels in Servant Of Mordulak, 10 levels in Servant Of Shirija, & 10 levels in Servant Of Talakh",
+    ": 10 levels in Servant Of Lloth, 10 levels in Servant Of Mordulak, 10 levels in Servant Of Shirija, & 10 levels in Servant Of Talakh"
+  ],
+  "abjurer": [
+    ": None",
+    ": coming soon"
+  ],
+  "elemental": [
+    ": None",
+    ": 20 levels in Elemental",
+    ": 20 levels in Elemental",
+    ": 20 levels in Elemental",
+    ": 20 levels in Elemental",
+    ": 10 levels in Earth Mage & 10 levels in Fire Mage",
+    ": 10 levels in Air Mage & 10 levels in Water Mage",
+    ": 10 levels in Lava Mage & 10 levels in Mist Mage"
+  ],
+  "evoker": [
+    ": None",
+    ": 20 levels in Evoker",
+    ": 20 levels in Evoker",
+    ": 10 levels in Evoker Of Elements & 10 levels in Evoker Of Ether",
+    ": 10 levels in Evoker Of Elements & 10 levels in Evoker Of Ether",
+    ": 10 levels in Evoker Of Elements & 10 levels in Evoker Of Ether",
+    ": 10 levels in Evoker Of Elements & 10 levels in Evoker Of Ether",
+    ": 10 levels in Evoker Of Elements & 10 levels in Evoker Of Ether",
+    ": 10 levels in Evoker Of Elements & 10 levels in Evoker Of Ether",
+    ": 10 levels in Evoker Of Elements & 10 levels in Evoker Of Ether",
+    ": 10 levels in Evoker Of Elementsamp; & 10 levels in Evoker Of Ether",
+    ":",
+    "1 Level in Sorcerer:",
+    "4 Levels in Sorcerer:",
+    "7 Levels in Sorcerer:",
+    "10 Levels in Sorcerer:",
+    "13 Levels in Sorcerer:",
+    "15 Level in Sorcerer:"
+  ],
+  "necromancer": [
+    ": None",
+    ": 20 levels in Necromancer",
+    ": 20 levels in Necromancer",
+    ": 20 levels in Necromancer",
+    ": 10 levels in Bone Mage & 10 levels in Voodooist",
+    ": 10 levels in Necroscope & 10 levels in Voodooist",
+    ": ?",
+    ": 10 levels in Bone Mage & 10 levels in Necroscope",
+    ": ?",
+    ": 7 levels in Dreadlord, 7 levels in Embalmer, 9 levels in Scourge & 7 levels in Stygian Sorcerer"
+  ],
+  "psychics": [
+    ": None",
+    ": 20 levels in Psychics",
+    ": 20 levels in Psychics",
+    ": 20 levels in Psychics",
+    ": 10 levels in Witch & 10 levels in -either- Mystics OR Telekinetics",
+    ": 10 levels in Mystics & 10 levels in -either- Telekinetics OR Witch",
+    ": 10 levels in -any- 2 of 3 psychics gamma guilds each",
+    ": 10 levels in Telekinetics & 10 levels in -either- Mystics OR Witch",
+    ": 10 levels in -any- 3 of 4 psychics bravo guilds each"
+  ],
+  "acrobat": [
+    ": None",
+    ": 20 levels in Acrobat",
+    ": 20 levels in Acrobat",
+    ": 20 levels in Acrobat",
+    ": 10 levels in Bard & 10 levels in -either- Street Brawler OR Juggler",
+    ": 10 levels in Street Brawler & 10 levels in Juggler",
+    ": 10 levels in Street Brawler & 10 levels in Bard",
+    ": 10 levels in Bannerman, 10 levels in Bartender & 10 levels in Minstrel",
+    ": 10 levels in Bannerman, 10 levels in Bartender & 10 levels in Minstrel"
+  ],
+  "lurker": [
+    ": None",
+    ": 20 levels in Lurker",
+    ": 20 levels in Lurker",
+    ": 20 levels in Lurker",
+    ": 20 levels in Lurker",
+    ": 10 levels in Street Brawler & 10 levels in Trickster",
+    ": ?",
+    ": ?",
+    ": ?"
+  ],
+  "druid": [
+    ": None",
+    ": 20 levels in Druid",
+    ": 20 levels in Druid",
+    ": 20 levels in Druid",
+    ": 10 levels in Animal Tamer & 10 levels in Weather Watcher",
+    ": 10 levels in Animal Tamer & 10 levels in Herbalist",
+    ": 10 levels in Adept of The Stones & 10 levels in Shaman Of Soil"
+  ],
+  "woodsman": [
+    ": None",
+    ": 20 levels in Woodsman",
+    ": 20 levels in Woodsman",
+    ": 20 levels in Woodsman",
+    ": 20 levels in Woodsman",
+    ": 10 levels in Herbalist & 10 levels in Sylvan Ward",
+    ": 10 levels in Animal Tamer & 10 levels in Sylvan Guard",
+    ": 10 levels in Animal Tamer & 10 levels in Herbalist",
+    ": 10 levels in Sylvan Protector & 10 levels in Sylvan Scout"
+  ],
+  "shapeshifter": [
+    ": None",
+    ": 20 levels in Shapeshifter",
+    ": 20 levels in Shapeshifter",
+    ": 20 levels in Shapeshifter",
+    ": 10 levels in Animal Tamer & levels in Bestial seccedaneum",
+    ": 10 levels in Animal Tamer & 10 levels in -either- Bestial seccedaneum OR Savager",
+    ": 10 levels in Bestial seccedaneum & 10 levels in Savager",
+    ": 10 levels in Animal Healer, 10 levels in Animal Trainer & 10 levels in Beast Lord"
+  ]
+}

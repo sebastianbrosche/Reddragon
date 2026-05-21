@@ -1,0 +1,392 @@
+# Islands of Myth — Psychics Guild
+# Character: scoutgnda
+# 2026-05-14 06:47:33
+
+
+======================================================================
+=== NAME ENTRY 1 ===
+======================================================================
+
+Nobody around with that name. If you want to create a new
+character, please enter 'c'.
+
+
+
+----------------------------------------------------------------------------
+The Administrators of Islands of Myth are:
+Zifnab, Marvin, Sigwald, Magneto, Khosan, Ixtlilton, Vor, Daneel and Saryon
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 11 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Your Selection?
+> 
+
+======================================================================
+=== CREATE ===
+======================================================================
+
+Great, a new player!
+Welcome to Islands of myth.
+
+
+You need to choose a name for your character. It should be a
+fantasy name that is not already in use on the mud.
+
+New character name: 
+
+======================================================================
+=== NAME ENTRY 2 ===
+======================================================================
+Is 'Scoutgnda' correct? 
+
+======================================================================
+=== NAME CONFIRM ===
+======================================================================
+
+Ok, now you need to select a password.
+Password: 
+
+======================================================================
+=== PASSWORD 1 ===
+======================================================================
+
+Please enter it again to confirm: 
+
+======================================================================
+=== PASSWORD 2 ===
+======================================================================
+
+Are you male or female? 
+
+======================================================================
+=== GENDER ===
+======================================================================
+
+Please enter an email address below. This is
+ required if you ever lose your password.  We only
+ mail passwords to the provided email address. If you wish
+to keep your email address private put a # in front of it
+Example: #zifnab@foo.org
+
+Enter your email address: 
+
+======================================================================
+=== EMAIL ===
+======================================================================
+
+In order to help understand how new players are finding out about the mud we
+would like to ask you to enter a brief description of how you heard about the
+mud. Examples: Mud Connector, Top Mud Sites, A friend etc.
+
+How did you hear about us?: 
+
+======================================================================
+=== REFERRAL ===
+======================================================================
+Thank you.
++=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+Welcome to Islands of Myth. If you need any help while 
+visiting us. Please type the word guides and hit enter.
+That will provide you with a list of people to ask questions.
+You can also use the newbie channel.
+
++=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+Welcome to Islands of Myth!!!  We hope you find the mud enjoyable.
+
+This is the starting room.  In this room are 2 exits race-select, and tour.
+
+If you are new to mudding, or new to Islands of Myth, and wish to take the tour
+    please type tour.  This will take approximately 15-30 minutes, but is well
+    worth the time, particularly if you have not played this type of mud
+    before.  It will guide you through character creation, as well as choosing
+    a guild.
+
+If you have played here, or another mud before, you may type race-select to go
+    right to the character creation process.
+Welcome to Islands of Myth! [exits: tour and north]
+
+
+
+Welcome to Islands of Myth!
+
+
+======================================================================
+=== SKIP TUTORIAL ===
+======================================================================
+You exclaim, "YES!"
+hp(3/10) sp(3/706) ep(3/498) > 
+
+======================================================================
+=== RACE SELECT ===
+======================================================================
+Hall of Races [exits: south and north]
+This is the Hall of Races in the space outside the world.  The only way out of
+this void is to select the race you wish to represent in the world of Islands
+of Myth. In this hall, every race has a statue, and you feel that you can do
+these things: 
+-------------------------------------------------------------------------
+      TYPE THIS    : TO RECEIVE
+-------------------------------------------------------------------------
+      all races    : To get a list of available races
+      touch <race> : To touch the statue of <race> and enter the world
+      la <race>    : To examine <race>'s statue and learn more info
+      read poster  : To see which races are best for which guilds
+      read sign    : You're lost and need additional help
+-------------------------------------------------------------------------
+
+An interesting looking poster.
+
+An important sign stands here.
+
+hp(5/10) sp(5/706) ep(5/498) > 
+
+======================================================================
+=== TOUCH HUMAN ===
+======================================================================
+You enter Islands of Myth in a fresh body.
+Turning on channel 'newbie'.
+Turning on channel 'chat'.
+Turning on channel 'death'.
+Turning on channel 'myth'.
+Turning on channel 'login'.
+You are now a human.
+At the Gates of Islands of Myth [exits: none]
+ This room lies on the borders of the world of Islands of Myth. When you are
+ready to enter the world of Islands of Myth, 'enter portal'. To choose another
+race, 'enter mirror' to return to the previous room.
+
+A gaping portal dominates the west wall.
+A VERY important sign that must be read!!!!
+A large mirror hangs on the east wall.
+
+You feel yourself dissolving and reappearing somewhere else.
+hp(7/796) sp(7/772) ep(7/538) > 
+
+======================================================================
+=== READ SIGN ===
+======================================================================
+
+* What next?
+   See below as to what to do next.  For further information
+   on Islands of Myth try using the 'faq' command.
+
+  * What do I do in this room?
+
+   +  If you want to change your race selection, you can enter
+      the mirror and do so at no penalty.
+      
+   +  If you are satisfied with your race choice,  you may enter 
+      the portal and begin your journey into the lands of Islands of
+      Myth. After entering the portal you will be in what is known as the
+      'adventurer guild' in Illium City, or 'adv guild' for short.
+      Please read the below before you do that.  
+      
+   +  At this point it is probably a good time to decide what 'guild' your
+      character is going to play.  To get help on guilds after entering
+      the portal you can type help guilds.  At this point there are 13
+      alpha guilds you can select from (listed under help guilds).  Those 
+      'alpha' guilds will expand out into more guilds as your level 
+      progresses, see help guild_tree for more information on those.  
+
+   +  Once you get a feel for what guild you would like to play it is time
+      to advance your levels. The Gods of Islands of Myth have given you
+      2k of free exp. It is suggested that you use this to advance your
+--More--(54%) [?]: 
+
+======================================================================
+=== FAQ EXIT ===
+======================================================================
+
+Sorry, there is no help on that topic (try: topics or faq)
+
+hp(9/796) sp(9/772) ep(9/538) > 
+
+======================================================================
+=== ENTER PORTAL ===
+======================================================================
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north,
+southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its
+architecture, the guild houses a vast amount of help for the new adventurers
+and the old. Its high domed ceiling swirls with blue and whites, like the sky
+on a very windy day. Because it is domed and there are windows all along the
+wall, the room seems very open and very friendly.
+
+Formula: Head: Lesser Wisdom lies at your feet.
+It seems that someone has left Formula: Feet: Lesser Dexterity lying here.
+
+[login]: Scoutgnda enters Islands of Myth.
+Using the 'start here' command to set your starting location.
+Ok, you now start at: Adventurer Guild Entrance.
+Giving you a little gold to get you started.
+You find a handbook in your pocket, type 'look at handbook' to see it.
+hp(411/784) sp(411/772) ep(411/538) > 
+
+======================================================================
+=== LOCATION ===
+======================================================================
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north,
+southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its
+architecture, the guild houses a vast amount of help for the new adventurers
+and the old. Its high domed ceiling swirls with blue and whites, like the sky
+on a very windy day. Because it is domed and there are windows all along the
+wall, the room seems very open and very friendly.
+
+Formula: Head: Lesser Wisdom lies here, abandoned.
+Formula: Feet: Lesser Dexterity lies here.
+
+hp(415/784) sp(415/772) ep(415/538) > 
+
+======================================================================
+=== PORTAL ROOM ===
+======================================================================
+Portal Room [exits: abjurer, elemental, woodsman, northeast, shifter,
+martial_artist, lurker, druid, acrobat, weaver, evoker, unraveller, psychics and warrior]
+ This small room houses the portals to the alpha guilds of Islands of Myth for
+the ease and convenience of all adventurers.
+
+
+hp(417/784) sp(417/772) ep(417/538) > 
+
+======================================================================
+=== PSYCHICS GUILD ===
+======================================================================
+Under a Colossal Tree [exits: west]
+ This is the reason why the magic school was built here. This tree is believed
+to be as old as Gossamer Island and contains outstanding magical powers which a
+well trained mage could draw upon. The tree is sealed for the well-being of the
+people of the island, but it could be used to enhance spells greatly. Under the
+tree, a teacher has brought his class to do their work outside.
+
+Kenny, Leader of the Psychics
+
+hp(417/784) sp(417/772) ep(417/538) > 
+
+======================================================================
+=== LOOK PSYCHICS ===
+======================================================================
+Under a Colossal Tree [exits: west]
+ This is the reason why the magic school was built here. This tree is believed
+to be as old as Gossamer Island and contains outstanding magical powers which a
+well trained mage could draw upon. The tree is sealed for the well-being of the
+people of the island, but it could be used to enhance spells greatly. Under the
+tree, a teacher has brought his class to do their work outside.
+
+Kenny, Leader of the Psychics
+
+hp(417/784) sp(417/772) ep(417/538) > 
+
+======================================================================
+=== EXITS PSYCHICS ===
+======================================================================
+You notice these exits:
+          West :  Courtyard
+                  Corner
+hp(419/784) sp(419/772) ep(419/538) > 
+
+======================================================================
+=== INFO PSYCHICS ===
+======================================================================
+   ------------------------------------------------------------------------   
+   |        Guild info on psychics. A alpha level psychics guild.         |   
+   |            ---------------------------------------------             |   
+   |                              [Level 01]                              |   
+   |                    New Spells: light and darkness                    |   
+   |                              [Level 02]                              |   
+   |                        New Spells: magic dart                        |   
+   |                              [Level 03]                              |   
+   |                         New Skills: ceremony                         |   
+   |                              [Level 04]                              |   
+   |                       New Spells: mind sponge                        |   
+   |                              [Level 05]                              |   
+   |                       New Skills: essence eye                        |   
+   |                              [Level 06]                              |   
+   |                      New Spells: spectral push                       |   
+   |                              [Level 08]                              |   
+   |                     New Skills: magical economy                      |   
+   |                              [Level 09]                              |   
+   |                    New Skills: honor of the gods                     |   
+   |                              [Level 10]                              |   
+   |                       New Spells: magic blast                        |   
+   |                              [Level 11]                              |   
+   |                       New Spells: psychic fury                       |   
+   |                              [Level 13]                              |   
+   |       New Spells: transfer object and create psychic container       |   
+---- (1-25-62%)[h]: 
+
+======================================================================
+=== PAGER QUIT ===
+======================================================================
+hp(423/784) sp(423/772) ep(423/538) > 
+
+======================================================================
+=== AFTER OUT ===
+======================================================================
+You just entered something the MUD doesn't understand.
+If you need help you can try on the channels, type: newbie Can someone help me
+with (whatever you need help with).
+hp(425/784) sp(425/772) ep(425/538) > 
+
+======================================================================
+=== OUT LOOK ===
+======================================================================
+Under a Colossal Tree [exits: west]
+ This is the reason why the magic school was built here. This tree is believed
+to be as old as Gossamer Island and contains outstanding magical powers which a
+well trained mage could draw upon. The tree is sealed for the well-being of the
+people of the island, but it could be used to enhance spells greatly. Under the
+tree, a teacher has brought his class to do their work outside.
+
+Kenny, Leader of the Psychics
+
+hp(425/784) sp(425/772) ep(425/538) > 
+
+======================================================================
+=== OUT EXITS ===
+======================================================================
+You notice these exits:
+          West :  Courtyard
+                  Corner
+hp(425/784) sp(425/772) ep(425/538) > 
+
+======================================================================
+=== QUIT ===
+======================================================================
+Quitting. Please stand by while saving.
+SUMMARY
+Login time: 25s  Exp Earned: 0
+________________________________________________________________
+|       Combat Category   |   Today's session | Total to date  |
+'--------------------------------------------------------------'
+|  Experience per minute  |         0         |        0       |
+|   Criticals inflicted   |         0         |        0       |
+|     Criticals taken     |         0         |        0       |
+|     Stuns inflicted     |         0         |        0       |
+|       Stuns taken       |         0         |        0       |
+|     Dodges Performed    |         0         |        0       |
+|         # deaths        |         0         |        0       |
+|         # reincs        |         0         |        0       |
+'--------------------------------------------------------------'
+Closing down.
+ Saving your character.
+

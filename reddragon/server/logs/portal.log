@@ -1,0 +1,149 @@
+|Portal| 2026-05-17 23:11:07 [..] Loaded.
+|Portal| 2026-05-17 23:11:04 [..] Loading /root/evennia_venv/lib/python3.12/site-packages/evennia/server/portal/portal.py...
+|Portal| 2026-05-17 23:11:07 [EE] Could not find file-help module world.help_entries (skipping).
+|Portal| 2026-05-17 23:11:07 [..] Loaded.
+|Portal| 2026-05-17 23:11:07 [..] twistd 24.11.0 (/root/evennia_venv/bin/python3 3.12.3) starting up.
+|Portal| 2026-05-17 23:11:07 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+|Portal| 2026-05-17 23:11:07 [EE] Traceback (most recent call last):
+|Portal| 2026-05-17 23:11:07 [EE]   File "/root/evennia_venv/bin/twistd", line 8, in <module>
+|Portal| 2026-05-17 23:11:07 [EE]     sys.exit(run())
+|Portal| 2026-05-17 23:11:07 [EE]              ^^^^^
+|Portal| 2026-05-17 23:11:07 [EE]   File "/root/evennia_venv/lib/python3.12/site-packages/twisted/scripts/twistd.py", line 35, in run
+|Portal| 2026-05-17 23:11:07 [EE]     app.run(runApp, ServerOptions)
+|Portal| 2026-05-17 23:11:07 [EE]   File "/root/evennia_venv/lib/python3.12/site-packages/twisted/application/app.py", line 673, in run
+|Portal| 2026-05-17 23:11:07 [EE]     runApp(config)
+|Portal| 2026-05-17 23:11:07 [EE]   File "/root/evennia_venv/lib/python3.12/site-packages/twisted/scripts/twistd.py", line 29, in runApp
+|Portal| 2026-05-17 23:11:07 [EE]     runner.run()
+|Portal| 2026-05-17 23:11:07 [EE]   File "/root/evennia_venv/lib/python3.12/site-packages/twisted/application/app.py", line 374, in run
+|Portal| 2026-05-17 23:11:07 [EE]     self.postApplication()
+|Portal| 2026-05-17 23:11:07 [EE]   File "/root/evennia_venv/lib/python3.12/site-packages/twisted/scripts/_twistd_unix.py", line 254, in postApplication
+|Portal| 2026-05-17 23:11:07 [EE]     self.startApplication(self.application)
+|Portal| 2026-05-17 23:11:07 [EE]   File "/root/evennia_venv/lib/python3.12/site-packages/twisted/scripts/_twistd_unix.py", line 444, in startApplication
+|Portal| 2026-05-17 23:11:07 [EE]     service.IService(application).privilegedStartService()
+|Portal| 2026-05-17 23:11:07 [EE]   File "/root/evennia_venv/lib/python3.12/site-packages/twisted/application/service.py", line 271, in privilegedStartService
+|Portal| 2026-05-17 23:11:07 [EE]     service.privilegedStartService()
+|Portal| 2026-05-17 23:11:07 [EE]   File "/root/evennia_venv/lib/python3.12/site-packages/evennia/server/portal/service.py", line 95, in privilegedStartService
+|Portal| 2026-05-17 23:11:07 [EE]     self.register_plugins()
+|Portal| 2026-05-17 23:11:07 [EE]   File "/root/evennia_venv/lib/python3.12/site-packages/evennia/server/portal/service.py", line 106, in register_plugins
+|Portal| 2026-05-17 23:11:07 [EE]     plugin_module.start_plugin_services(self)
+|Portal| 2026-05-17 23:11:07 [EE]     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+|Portal| 2026-05-17 23:11:07 [EE] AttributeError: module 'server.conf.portal_services_plugins' has no attribute 'start_plugin_services'
+|Portal| 2026-05-17 23:12:09 [..] Loaded.
+|Portal| 2026-05-17 23:12:06 [..] Loading /root/evennia_venv/lib/python3.12/site-packages/evennia/server/portal/portal.py...
+|Portal| 2026-05-17 23:12:09 [EE] Could not find file-help module world.help_entries (skipping).
+|Portal| 2026-05-17 23:12:09 [..] Loaded.
+|Portal| 2026-05-17 23:12:09 [..] twistd 24.11.0 (/root/evennia_venv/bin/python3 3.12.3) starting up.
+|Portal| 2026-05-17 23:12:09 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+|Portal| 2026-05-17 23:12:09 [..] AMP starting on 5000
+|Portal| 2026-05-17 23:12:09 [..] Telnet starting on 3000
+|Portal| 2026-05-17 23:12:09 [..] Websocket starting on 4002
+|Portal| 2026-05-17 23:12:09 [..] Webserver-proxy starting on 8000
+|Portal| 2026-05-17 23:12:10 [..] Portal starting server ... 
+|Portal| 2026-05-17 23:14:00 [..] (TCP Port 8000 Closed)
+|Portal| 2026-05-17 23:14:00 [..] (TCP Port 4002 Closed)
+|Portal| 2026-05-17 23:14:00 [..] (TCP Port 3000 Closed)
+|Portal| 2026-05-17 23:14:00 [..] (TCP Port 5000 Closed)
+|Portal| 2026-05-17 23:14:00 [..] Main loop terminated.
+|Portal| 2026-05-17 23:14:00 [..] Server Shut Down.
+|Portal| 2026-05-17 23:14:11 [..] Loaded.
+|Portal| 2026-05-17 23:14:09 [..] Loading /root/evennia_venv/lib/python3.12/site-packages/evennia/server/portal/portal.py...
+|Portal| 2026-05-17 23:14:11 [EE] Could not find file-help module world.help_entries (skipping).
+|Portal| 2026-05-17 23:14:11 [..] Loaded.
+|Portal| 2026-05-17 23:14:11 [..] twistd 24.11.0 (/root/evennia_venv/bin/python3 3.12.3) starting up.
+|Portal| 2026-05-17 23:14:11 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+|Portal| 2026-05-17 23:14:12 [..] AMP starting on 5000
+|Portal| 2026-05-17 23:14:12 [..] Telnet starting on 3000
+|Portal| 2026-05-17 23:14:12 [..] Websocket starting on 4002
+|Portal| 2026-05-17 23:14:12 [..] Webserver-proxy starting on 8000
+|Portal| 2026-05-17 23:14:12 [..] Portal starting server ... 
+|Portal| 2026-05-17 23:14:17 [..] (TCP Port 8000 Closed)
+|Portal| 2026-05-17 23:14:17 [..] (TCP Port 4002 Closed)
+|Portal| 2026-05-17 23:14:17 [..] (TCP Port 3000 Closed)
+|Portal| 2026-05-17 23:14:17 [..] (TCP Port 5000 Closed)
+|Portal| 2026-05-17 23:14:17 [..] Main loop terminated.
+|Portal| 2026-05-17 23:14:17 [..] Server Shut Down.
+|Portal| 2026-05-17 23:17:48 [..] Loaded.
+|Portal| 2026-05-17 23:17:46 [..] Loading /root/evennia_venv/lib/python3.12/site-packages/evennia/server/portal/portal.py...
+|Portal| 2026-05-17 23:17:48 [EE] Could not find file-help module world.help_entries (skipping).
+|Portal| 2026-05-17 23:17:48 [..] Loaded.
+|Portal| 2026-05-17 23:17:48 [..] twistd 24.11.0 (/root/evennia_venv/bin/python3 3.12.3) starting up.
+|Portal| 2026-05-17 23:17:48 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+|Portal| 2026-05-17 23:17:49 [..] AMP starting on 5000
+|Portal| 2026-05-17 23:17:49 [..] Telnet starting on 3000
+|Portal| 2026-05-17 23:17:49 [..] Websocket starting on 4002
+|Portal| 2026-05-17 23:17:49 [..] Webserver-proxy starting on 8000
+|Portal| 2026-05-17 23:17:49 [..] Portal starting server ... 
+|Portal| 2026-05-17 23:17:53 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-05-17 23:17:53 [EE] Failure: builtins.Exception: Cannot assign "'Adventurer Guild Entrance'": "Room.db_home" must be a "ObjectDB" instance. (error logged on other side)
+|Portal| 2026-05-17 23:17:53 [EE]  Cannot assign "'Adventurer Guild Entrance'": "Room.db_home" must be a "ObjectDB" instance. (error logged on other side)
+|Portal| 2026-05-17 23:17:54 [..] Portal starting server ... 
+|Portal| 2026-05-17 23:17:57 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-05-17 23:17:57 [EE] Failure: builtins.Exception: Cannot assign "'Adventurer Guild Entrance'": "Room.db_home" must be a "ObjectDB" instance. (error logged on other side)
+|Portal| 2026-05-17 23:17:57 [EE]  Cannot assign "'Adventurer Guild Entrance'": "Room.db_home" must be a "ObjectDB" instance. (error logged on other side)
+|Portal| 2026-05-17 23:18:38 [..] (TCP Port 8000 Closed)
+|Portal| 2026-05-17 23:18:38 [..] (TCP Port 4002 Closed)
+|Portal| 2026-05-17 23:18:38 [..] (TCP Port 3000 Closed)
+|Portal| 2026-05-17 23:18:38 [..] (TCP Port 5000 Closed)
+|Portal| 2026-05-17 23:18:38 [..] Main loop terminated.
+|Portal| 2026-05-17 23:18:38 [..] Server Shut Down.
+|Portal| 2026-05-17 23:19:30 [..] Loaded.
+|Portal| 2026-05-17 23:19:28 [..] Loading /root/evennia_venv/lib/python3.12/site-packages/evennia/server/portal/portal.py...
+|Portal| 2026-05-17 23:19:30 [EE] Could not find file-help module world.help_entries (skipping).
+|Portal| 2026-05-17 23:19:30 [..] Loaded.
+|Portal| 2026-05-17 23:19:30 [..] twistd 24.11.0 (/root/evennia_venv/bin/python3 3.12.3) starting up.
+|Portal| 2026-05-17 23:19:30 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+|Portal| 2026-05-17 23:19:30 [..] AMP starting on 5000
+|Portal| 2026-05-17 23:19:30 [..] Telnet starting on 3000
+|Portal| 2026-05-17 23:19:30 [..] Websocket starting on 4002
+|Portal| 2026-05-17 23:19:30 [..] Webserver-proxy starting on 8000
+|Portal| 2026-05-17 23:19:31 [..] Portal starting server ... 
+|Portal| 2026-05-17 23:19:36 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-05-17 23:19:36 [EE] Failure: builtins.Exception: object of type 'Room' has no len() (error logged on other side)
+|Portal| 2026-05-17 23:19:36 [EE]  object of type 'Room' has no len() (error logged on other side)
+|Portal| 2026-05-17 23:19:37 [..] Portal starting server ... 
+|Portal| 2026-05-17 23:20:37 [..] (TCP Port 8000 Closed)
+|Portal| 2026-05-17 23:20:37 [..] (TCP Port 4002 Closed)
+|Portal| 2026-05-17 23:20:37 [..] (TCP Port 3000 Closed)
+|Portal| 2026-05-17 23:20:37 [..] (TCP Port 5000 Closed)
+|Portal| 2026-05-17 23:20:37 [..] Main loop terminated.
+|Portal| 2026-05-17 23:20:37 [..] Server Shut Down.
+|Portal| 2026-05-17 23:21:05 [..] Loaded.
+|Portal| 2026-05-17 23:21:03 [..] Loading /root/evennia_venv/lib/python3.12/site-packages/evennia/server/portal/portal.py...
+|Portal| 2026-05-17 23:21:05 [EE] Could not find file-help module world.help_entries (skipping).
+|Portal| 2026-05-17 23:21:05 [..] Loaded.
+|Portal| 2026-05-17 23:21:05 [..] twistd 24.11.0 (/root/evennia_venv/bin/python3 3.12.3) starting up.
+|Portal| 2026-05-17 23:21:05 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+|Portal| 2026-05-17 23:21:06 [..] AMP starting on 5000
+|Portal| 2026-05-17 23:21:06 [..] Telnet starting on 3000
+|Portal| 2026-05-17 23:21:06 [..] Websocket starting on 4002
+|Portal| 2026-05-17 23:21:06 [..] Webserver-proxy starting on 8000
+|Portal| 2026-05-17 23:21:06 [..] Portal starting server ... 
+|Portal| 2026-05-17 23:21:16 [..] Portal starting server ... 
+|Portal| 2026-05-17 23:23:03 [..] Portal starting server ... 
+|Portal| 2026-05-17 23:23:57 [..] Portal starting server ... 
+|Portal| 2026-05-17 23:25:15 [..] Portal starting server ... 
+|Portal| 2026-05-17 23:26:11 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-05-17 23:26:11 [EE] Failure: builtins.Exception: Account.at_disconnect() takes 1 positional argument but 2 were given (error logged on other side)
+|Portal| 2026-05-17 23:26:11 [EE]  Account.at_disconnect() takes 1 positional argument but 2 were given (error logged on other side)
+|Portal| 2026-05-17 23:26:45 [..] Portal starting server ... 
+|Portal| 2026-05-17 23:29:20 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-05-17 23:29:20 [EE] Failure: builtins.Exception: Account.at_disconnect() takes 1 positional argument but 2 were given (error logged on other side)
+|Portal| 2026-05-17 23:29:20 [EE]  Account.at_disconnect() takes 1 positional argument but 2 were given (error logged on other side)
+|Portal| 2026-05-20 20:59:33 [..] Received SIGTERM, shutting down.
+|Portal| 2026-05-20 20:59:33 [..] (TCP Port 8000 Closed)
+|Portal| 2026-05-20 20:59:33 [..] (TCP Port 4002 Closed)
+|Portal| 2026-05-20 20:59:33 [..] (TCP Port 3000 Closed)
+|Portal| 2026-05-20 20:59:33 [..] (TCP Port 5000 Closed)
+|Portal| 2026-05-20 20:59:33 [..] Main loop terminated.
+|Portal| 2026-05-20 20:59:33 [..] Server Shut Down.
+|Portal| 2026-05-20 21:21:30 [..] Loaded.
+|Portal| 2026-05-20 21:21:27 [..] Loading /root/evennia_venv/lib/python3.12/site-packages/evennia/server/portal/portal.py...
+|Portal| 2026-05-20 21:21:30 [EE] Could not find file-help module world.help_entries (skipping).
+|Portal| 2026-05-20 21:21:30 [..] Loaded.
+|Portal| 2026-05-20 21:21:30 [..] twistd 24.11.0 (/root/evennia_venv/bin/python3 3.12.3) starting up.
+|Portal| 2026-05-20 21:21:30 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+|Portal| 2026-05-20 21:21:30 [..] AMP starting on 5000
+|Portal| 2026-05-20 21:21:30 [..] Telnet starting on 3000
+|Portal| 2026-05-20 21:21:30 [..] Websocket starting on 4002
+|Portal| 2026-05-20 21:21:30 [..] Webserver-proxy starting on 8000
+|Portal| 2026-05-20 21:21:31 [..] Portal starting server ... 

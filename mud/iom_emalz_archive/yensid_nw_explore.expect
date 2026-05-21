@@ -1,0 +1,108 @@
+#!/usr/bin/expect -f
+set timeout 60
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/yensid_nw_explore.log"
+exec rm -f $logfile
+log_file $logfile
+
+spawn telnet islandsofmyth.org 3000
+
+# Login
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+
+# Wait for prompt
+expect ">"
+
+# Teleport to Yensid
+send "warp\r"
+expect ">"
+send "se\r"
+expect ">"
+send "e\r"
+expect ">"
+send "talk sisong\r"
+expect "Sisong's Newbie Information"
+send "2\r"
+expect "Newbie Areas"
+send "9\r"
+expect "Would you like to visit the Yensid Land?"
+send "Y\r"
+expect ">"
+
+# Explore northwest path from entry
+send "look\r"
+expect ">"
+send "nw\r"
+expect ">"
+send "look\r"
+expect ">"
+
+# Try all directions from there
+send "n\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+send "e\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+send "w\r"
+sleep 1
+expect ">"
+send "w\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+send "e\r"
+sleep 1
+expect ">"
+
+send "s\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+# From nw room, try more directions
+send "nw\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+send "ne\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+send "sw\r"
+sleep 1
+expect ">"
+send "sw\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+# Search for earwigs
+send "kill earwig\r"
+sleep 3
+expect ">"
+
+# Final score
+send "score\r"
+expect ">"
+
+send "quit\r"
+sleep 3
+
+puts "NW EXPLORATION COMPLETE"

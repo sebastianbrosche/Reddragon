@@ -1,0 +1,184 @@
+#!/usr/bin/expect -f
+set timeout 60
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/ilium_levelup_v2.log"
+exec rm -f $logfile
+log_file $logfile
+
+spawn telnet islandsofmyth.org 3000
+
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+expect ">"
+
+# Record state
+send "score\r"
+expect ">"
+
+# Warp to guild
+send "warp\r"
+expect ">"
+
+# Go to Level Room
+send "e\r"
+expect ">"
+
+# Function to advance one level with stat
+proc advance_level {} {
+    send "talk achman\r"
+    expect "Adventurers leveling place"
+    expect "\[abcdeq\]"
+    
+    # Select d) Advance a level picking a stat
+    send "d\r"
+    sleep 1
+    expect {
+        "What stat would you like to raise?" {
+            send "strength\r"
+            sleep 2
+            expect ">"
+        }
+        ">" {}
+        "You do not have enough experience" {
+            sleep 1
+            expect ">"
+        }
+        timeout {
+            send "\r"
+            expect ">"
+        }
+    }
+}
+
+# Try advancing up to 5 times
+for {set i 0} {$i < 5} {incr i} {
+    advance_level
+    send "score\r"
+    expect ">"
+}
+
+# Back to guild
+send "w\r"
+expect ">"
+
+# Explore Portal Room and warrior portal
+send "sw\r"
+expect ">"
+send "look\r"
+expect ">"
+
+send "warrior\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+# Explore warrior guild interior
+set dirs {n s e w ne nw se sw up down}
+foreach dir $dirs {
+    send "$dir\r"
+    sleep 1
+    expect ">"
+    send "look\r"
+    sleep 1
+    expect ">"
+    
+    # Return
+    switch $dir {
+        "n" { send "s\r" }
+        "s" { send "n\r" }
+        "e" { send "w\r" }
+        "w" { send "e\r" }
+        "ne" { send "sw\r" }
+        "nw" { send "se\r" }
+        "se" { send "nw\r" }
+        "sw" { send "ne\r" }
+        "up" { send "down\r" }
+        "down" { send "up\r" }
+    }
+    sleep 1
+    expect ">"
+}
+
+# Exit warrior guild
+send "out\r"
+sleep 1
+expect ">"
+
+# Back to adventurer guild
+send "ne\r"
+expect ">"
+
+# Go to Cloud Road and explore streets
+send "n\r"
+expect ">"
+send "look\r"
+expect ">"
+
+# Explore Titan Street (east)
+send "e\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+for {set i 0} {$i < 4} {incr i} {
+    send "e\r"
+    sleep 1
+    expect ">"
+    send "look\r"
+    sleep 1
+    expect ">"
+}
+
+# Return west
+for {set i 0} {$i < 4} {incr i} {
+    send "w\r"
+    sleep 1
+    expect ">"
+}
+send "w\r"
+expect ">"
+
+# Explore Gossamer Street (west)
+send "w\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+for {set i 0} {$i < 4} {incr i} {
+    send "w\r"
+    sleep 1
+    expect ">"
+    send "look\r"
+    sleep 1
+    expect ">"
+}
+
+# Return east
+for {set i 0} {$i < 4} {incr i} {
+    send "e\r"
+    sleep 1
+    expect ">"
+}
+send "e\r"
+expect ">"
+
+# Back to guild
+send "s\r"
+expect ">"
+
+# Final score
+send "score\r"
+expect ">"
+send "skills\r"
+expect ">"
+
+send "quit\r"
+sleep 3
+expect "Save"
+send "Y\r"
+
+puts "LEVELUP V2 AND MAPPING COMPLETE"

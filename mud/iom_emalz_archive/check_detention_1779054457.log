@@ -1,0 +1,112 @@
+spawn telnet islandsofmyth.org 3000
+Trying 158.69.5.47...
+Connected to islandsofmyth.org.
+Escape character is '^]'.
+^L
+    _____     _                 _              __   __  __       _   _
+   |_   _|   | |               | |            / _| |  \/  |     | | | |
+     | |  ___| | __ _ _ __   __| |___    ___ | |_  | \  / |_   _| |_| |__
+     | | / __| |/ _` | '_ \ / _` / __|  / _ \|  _| | |\/| | | | | __| '_ \
+    _| |_\__ \ | (_| | | | | (_| \__ \ | (_) | |   | |  | | |_| | |_| | | |
+   |_____|___/_|\__,_|_| |_|\__,_|___/  \___/|_|   |_|  |_|\__, |\__|_| |_|
+                                                            __/ |
+                                                           |___/
+
+
+                 _______                                   _______
+                .;;;;;;;;;.                               .;;;;;;;;;.
+               ///////\\\\\\                             ///////\\\\\\
+              ( //~///~\\\~\\                           //~///~\\\~\\^)
+              \`  ///_ / \\`\                           /`// \ -\\\  ~/
+                 / / -/  ^\                               /^  \- \ \
+                  / -/                                         \- \
+                 / -/                                           \- \
+                (- (                 /~~~~~~~~~\                 )_ )
+                 \ -\               /-----------\               /_ /
+                  \ -\              :====(@)====:              /- /
+                   \ _\             |-----------|             /- /
+                   _\ -\@___________|___________|________@___/- /_
+                  / @  @                                     @    \
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 23 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+> emalz
+Password: 
+Last login: Sun May 17 17:42:58 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+hp(880/880) sp(714/714) ep(634/634) > score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    6                Open Guild Levels :    2              |
+|                                                                            |
+| Experience     :           1,276     Explored          :  0.28% ( 2.40%)   |
+| Next level     :           2,118     Rooms Explored    :            48     |
+| Guild Level    :             645     Gold on hand      :         1,000     |
+| To Next Level  :             842     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   42 | Hit Points     :   880 (  880) | AC       : VLow     |
+| Dexterity    :   36 | Spell Points   :   714 (  714) | Size     : 3'6"     |
+| Constitution :   43 | Endurance Pts. :   634 (  634) | Weight   : 77 lb    |
+| Stamina      :   33 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   24 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   24 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   84 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (4)                      | Mail          : 0/0           |
+|                                            | Kills         : 8             |
+`----------------------------------------------------------------------------'
+hp(880/880) sp(714/714) ep(634/634) > quit
+Quitting. Please stand by while saving.
+SUMMARY
+Login time: 47m45s  Exp Earned: 2000
+________________________________________________________________
+|       Combat Category   |   Today's session | Total to date  |
+'--------------------------------------------------------------'
+|  Experience per minute  |         42        |       26       |
+|   Criticals inflicted   |         3         |        3       |
+|     Criticals taken     |         1         |        1       |
+|     Stuns inflicted     |         0         |        0       |
+|       Stuns taken       |         0         |        0       |
+|     Dodges Performed    |         6         |        6       |
+|         # deaths        |         0         |        0       |
+|         # reincs        |         0         |        0       |
+'--------------------------------------------------------------'
+Closing down.
+ Saving your character.
+Connection closed by foreign host.
+send: spawn id exp4 not open
+    while executing
+"send "Y\r""
+    invoked from within
+"expect {
+    "Detention Facility" {
+        puts "=== STILL IN DETENTION ==="
+        send "look\r"
+        sleep 2
+        send "who\r"
+        sleep..."
+    (file "check_detention.expect" line 18)

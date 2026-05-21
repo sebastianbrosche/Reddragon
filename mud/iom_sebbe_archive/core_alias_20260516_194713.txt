@@ -1,0 +1,30 @@
+Alias      : Expansion
+Ali        : alias
+Dis        : disciples
+Il         : me
+Lego       : lostego
+Pl         : party say last
+Valk       : valkyrie
+dal        : dalmeir
+disc       : disciples
+duck       : aquaduck
+emb        : embark
+enli       : use hymn of enlightenment
+figner     : finger
+fittan     : zlame
+gar        : garkhan
+hoe        : use hymn of enlightenment on
+hora       : hammer of rullande aska
+ld         : last disciples
+lim        : use limber up
+limb       : use limber up
+ll         : bluemoon
+ll.        : soulfire
+lo         : lostego
+los        : use legend of sear on
+losear     : use legend of sear on
+mal        : malinac
+mam        : mamoru
+mand       : manderlay
+mao        : map
+---- (1-29-52%)[h]: 

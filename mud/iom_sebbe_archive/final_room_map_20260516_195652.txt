@@ -1,0 +1,51 @@
+{
+  "Central Square [exits: south, west, north, east and fountain]": {
+    "look": "Central Square [exits: south, west, north, east and fountain]\r\n The heart of Illium, Central Square. Life bustles all around you, even if no other beings but the Lorlings are present. Surrounded on\r\nall sides by the trees, you feel as though you are in the middle of an enchanted forest, or a lost world. In the exact center, Illium's\r\nHeart stands. The fountain is a monument of sorts, erected by the gods of this world. Inside the trees, you can see pools of water,\r\npart of the Gossamer River captured as homes to water beings and as wishing pools. Water surrounds the fountain, and two huge windows,\r\ncreated by the water flowing from the top, cover an inner haven to the fountain.\r\n\r\n3 minor mana potions lie here, abandoned.\r\nIt seems that someone has left 2 minor intelligence potions lying here.\r\nYou notice a lesser strength potion lying on the ground here.\r\nA minor strength potion lies here, abandoned.\r\nSomeone has left a minor wisdom potion lying on the ground.\r\nIt seems that someone has left a minor dexterity potion lying here.\r\n2 pyroclasts lie at your feet.\r\nA lesser mana potion lies here, discarded.\r\nA large fountain sits in the center of the square.\r\nThe Lockdown Machine\r\nA Birthday Machine\r\nA floating moonflower vine (glowing)\r\n\r\n",
+    "exits": "You notice these exits:\r\n      Fountain :  Heart of\r\n                  Illium\r\n          East :  On Myst Avenue between\r\n                  Illium and\r\n         North :  On Illium Street\r\n                  between Ethereal and\r\n          West :  On Myst Avenue between\r\n                  Arcane and Illium\r\n         South :  On Illium Street\r\n                  between Myst and\r\n",
+    "scan": "You have entered a typo. Input discarded.\r\n"
+  },
+  "On Illium Street between Ethereal and Myst [exits: south and north]": {
+    "look": "On Illium Street between Ethereal and Myst [exits: south and north]\r\n You stand before Central Square as it lies directly south. To the west you can see the pools of Gossamer through the Lorling trees at\r\nyour side. And to the east, Lorlings stand in a cluster, creating a small forest in the heart of the city. Each side of the street,\r\nLorlings sway and talk among themselves in a language lost to your ears.\r\n\r\nA floating moonflower vine (glowing)\r\n\r\n",
+    "exits": "You notice these exits:\r\n         North :  Intersection of Illium\r\n                  and Ethereal\r\n         South :  Central Square\r\n",
+    "scan": "If you're sick of making typos, check out Islands of Myth's web page.\r\n",
+    "from": "Central Square [exits: south, west, north, east and fountain]",
+    "via": "north",
+    "enter_msg": "Glowing wisps float through the air.\r\nOn Illium Street between Ethereal and Myst [exits: south and north]\r\nA floating moonflower vine (glowing)\r\n\r\n"
+  },
+  "On Illium Street between Myst and Crystal [exits: south and north]": {
+    "look": "On Illium Street between Myst and Crystal [exits: south and north]\r\n You stand before Central Square as it lies directly north. To the east you can see the wishing pools of Gossamer through the Lorling\r\ntrees at your side. And to the west, Lorlings stand in a cluster, creating a small forest in the heart of the city. Each side of the\r\nstreet, Lorlings sway and talk among themselves in a language lost to your ears.\r\n\r\nA floating moonflower vine (glowing)\r\n\r\n",
+    "exits": "You notice these exits:\r\n         North :  Central Square\r\n         South :  Intersection of Illium\r\n                  and Crystal\r\n",
+    "scan": "Typo.\r\n",
+    "from": "Central Square [exits: south, west, north, east and fountain]",
+    "via": "south",
+    "enter_msg": "On Illium Street between Myst and Crystal [exits: south and north]\r\nA floating moonflower vine (glowing)\r\n\r\n"
+  },
+  "On Myst Avenue between Illium and Gossamer [exits: west and east]": {
+    "look": "On Myst Avenue between Illium and Gossamer [exits: west and east]\r\n Standing in the inner sanctum of Central Square, the fountain there can be seen through the trees. North and south of you lay more of\r\nthe large trees, and their guardian wisps. Though through the trunks to the south, you can see the glittering of pools.\r\n\r\nA floating moonflower vine (glowing)\r\n\r\n",
+    "exits": "You notice these exits:\r\n          East :  Intersection of\r\n                  Gossamer and Myst\r\n          West :  Central Square\r\n",
+    "scan": "opyt typo or something. Yes you just Typoed!\r\n",
+    "from": "Central Square [exits: south, west, north, east and fountain]",
+    "via": "east",
+    "enter_msg": "Several large wisps buzz your head in play.\r\nOn Myst Avenue between Illium and Gossamer [exits: west and east]\r\nA floating moonflower vine (glowing)\r\n\r\n"
+  },
+  "On Myst Avenue between Arcane and Illium [exits: west and east]": {
+    "look": "On Myst Avenue between Arcane and Illium [exits: west and east]\r\n Standing in the inner sanctum of Central Square, the fountain there can be seen through the trees. North and south of you lay more of\r\nthe large trees, and their guardian wisps. Though through the trunks to the north, you can see the glittering of pools.\r\n\r\nA floating moonflower vine (glowing)\r\n\r\n",
+    "exits": "You notice these exits:\r\n          East :  Central Square\r\n          West :  Intersection of Myst\r\n                  and Arcane\r\n",
+    "scan": "Magneto says 'Nice typo' and adds it to his collection.\r\n",
+    "from": "Central Square [exits: south, west, north, east and fountain]",
+    "via": "west",
+    "enter_msg": "A Lorling creaks and groans as it moves slightly to the right of where it was.\r\nOn Myst Avenue between Arcane and Illium [exits: west and east]\r\nA floating moonflower vine (glowing)\r\n\r\n"
+  },
+  "Central Square [exits: south, west, north, east and fountain]_blocked_up": "It doesn't seem possible to go that direction.\r\n",
+  "Central Square [exits: south, west, north, east and fountain]_blocked_down": "It doesn't seem possible to go that direction.\r\n",
+  "Central Square [exits: south, west, north, east and fountain]_blocked_northeast": "It doesn't seem possible to go that direction.\r\n",
+  "Central Square [exits: south, west, north, east and fountain]_blocked_northwest": "It doesn't seem possible to go that direction.\r\n",
+  "Central Square [exits: south, west, north, east and fountain]_blocked_southeast": "It doesn't seem possible to go that direction.\r\n",
+  "Central Square [exits: south, west, north, east and fountain]_blocked_southwest": "It doesn't seem possible to go that direction.\r\n",
+  "Central Square [exits: south, west, north, east and fountain]_blocked_u": "It doesn't seem possible to go that direction.\r\n",
+  "Central Square [exits: south, west, north, east and fountain]_blocked_d": "It doesn't seem possible to go that direction.\r\n",
+  "Central Square [exits: south, west, north, east and fountain]_blocked_ne": "It doesn't seem possible to go that direction.\r\n",
+  "Central Square [exits: south, west, north, east and fountain]_blocked_nw": "It doesn't seem possible to go that direction.\r\n",
+  "Central Square [exits: south, west, north, east and fountain]_blocked_se": "It doesn't seem possible to go that direction.\r\n",
+  "Central Square [exits: south, west, north, east and fountain]_blocked_sw": "It doesn't seem possible to go that direction.\r\n"
+}

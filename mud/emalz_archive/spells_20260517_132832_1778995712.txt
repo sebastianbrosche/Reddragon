@@ -1,0 +1,2 @@
+You don't know any spells.
+hp(716/716) sp(750/750) ep(538/538) > 

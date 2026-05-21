@@ -1,0 +1,115 @@
+#!/usr/bin/expect -f
+set timeout 300
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/grind_only.log"
+exec rm -f $logfile
+log_file $logfile
+
+puts "Starting earwig grinding session..."
+
+spawn telnet islandsofmyth.org 3000
+
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+expect ">"
+
+# Record initial state
+send "score\r"
+expect ">"
+send "skills\r"
+expect ">"
+
+# Warp to guild
+send "warp\r"
+expect ">"
+
+# Go to Yensidland via Sisong
+send "se\r"
+expect ">"
+send "e\r"
+expect ">"
+send "talk sisong\r"
+sleep 2
+expect ">"
+send "yensidland\r"
+sleep 2
+expect ">"
+send "look\r"
+expect ">"
+
+# Enter LobeLands
+send "nw\r"
+sleep 1
+expect ">"
+send "look\r"
+expect ">"
+
+# Enable combat silence
+send "combat silence\r"
+expect ">"
+
+set total_kills 0
+
+# Main grinding loop - 90 iterations (~20-30 minutes)
+for {set i 0} {$i < 90} {incr i} {
+    # Look for earwigs
+    send "look\r"
+    sleep 1
+    expect ">"
+    
+    # Try to kill earwig
+    send "kill earwig\r"
+    sleep 8
+    expect {
+        ">" {}
+        timeout { send "look\r"; expect ">" }
+    }
+    
+    # Check HP and status every 5 cycles
+    if {$i % 5 == 0} {
+        send "hp\r"
+        expect ">"
+    }
+    
+    # Score check every 10 cycles
+    if {$i % 10 == 0} {
+        send "score\r"
+        expect ">"
+    }
+    
+    # Rest every 15 cycles
+    if {$i % 15 == 0} {
+        send "rest\r"
+        sleep 3
+        expect ">"
+    }
+    
+    # Alternate between the two LobeLands rooms
+    if {$i % 2 == 0} {
+        send "n\r"
+        sleep 1
+        expect ">"
+    } else {
+        send "s\r"
+        sleep 1
+        expect ">"
+    }
+    
+    incr total_kills
+}
+
+# Final state
+send "score\r"
+expect ">"
+send "skills\r"
+expect ">"
+
+# Clean quit - let TCP close naturally
+send "quit\r"
+sleep 3
+expect "Save"
+send "Y\r"
+sleep 5
+
+puts "GRINDING COMPLETE - Total cycles: $total_kills"

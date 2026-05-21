@@ -1,0 +1,77 @@
+#!/usr/bin/expect -f
+set timeout 120
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/direct_level_test.log"
+exec rm -f $logfile
+log_file $logfile
+
+spawn telnet islandsofmyth.org 3000
+
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+expect ">"
+
+# Check score
+send "score\r"
+expect ">"
+
+# Warp to guild
+send "warp\r"
+expect ">"
+
+# Try direct commands
+send "e\r"
+expect ">"
+
+# Try direct advance command
+send "advance\r"
+sleep 3
+expect ">"
+
+send "level\r"
+sleep 3
+expect ">"
+
+send "train\r"
+sleep 3
+expect ">"
+
+# Try menu with VERY long delays (10 seconds between each step)
+send "talk achman\r"
+expect "Adventurers leveling place"
+expect "\[abcdeq\]"
+sleep 10
+send "d\r"
+expect "Picking a special statistic for leveling"
+expect "\[abcdefghijmq\]"
+sleep 10
+send "a\r"
+sleep 15
+expect {
+    "How many" {
+        sleep 10
+        send "1\r"
+        sleep 15
+        expect {
+            "You have advanced" { sleep 2; expect ">" }
+            "You do not have enough" { sleep 2; expect ">" }
+            ">" {}
+            timeout { send "\r"; expect ">" }
+        }
+    }
+    "You have advanced" { sleep 2; expect ">" }
+    "You do not have enough" { sleep 2; expect ">" }
+    ">" {}
+    timeout { send "\r"; expect ">" }
+}
+
+send "score\r"
+expect ">"
+
+send "quit\r"
+sleep 3
+expect "Save"
+send "Y\r"
+
+puts "DIRECT LEVEL TEST COMPLETE"

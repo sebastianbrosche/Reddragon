@@ -1,0 +1,542 @@
+spawn telnet islandsofmyth.org 3000
+Trying 158.69.5.47...
+Connected to islandsofmyth.org.
+Escape character is '^]'.
+^L
+ooooo          oooo                              .o8           
+`888'          `888                             "888           
+ 888   .oooo.o  888   .oooo.   ooo. .oo.    .oooo888   .oooo.o 
+ 888  d88(  "8  888  `P  )88b  `888P"Y88b  d88' `888  d88(  "8 
+ 888  `"Y88b.   888   .oP"888   888   888  888   888  `"Y88b.  
+ 888  o.  )88b  888  d8(  888   888   888  888   888  o.  )88b 
+o888o 8""888P' o888o `Y888""8o o888o o888o `Y8bod88P" 8""888P' 
+                                                               
+                                                               
+                                                               
+           .o88o.    ooo        ooooo                 .   oooo        
+           888 `"    `88.       .888'               .o8   `888        
+ .ooooo.  o888oo      888b     d'888  oooo    ooo .o888oo  888 .oo.   
+d88' `88b  888        8 Y88. .P  888   `88.  .8'    888    888P"Y88b  
+888   888  888        8  `888'   888    `88..8'     888    888   888  
+888   888  888        8    Y     888     `888'      888 .  888   888  
+`Y8bod8P' o888o      o8o        o888o     .8'       "888" o888o o888o 
+                                      .o..P'                          
+                                      `Y8P'                   
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 22 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+> emalz
+Password: 
+Last login: Sun May 17 17:12:47 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+MCCP - Mud Client Compression Protocol Supported
+MXP - Mud Extension Protocol Supported
+A dark, sucking portal appears. You fall from it!
+Welcome back!
+[login]: Emalz has reconnected (Kobold level 5).
+hp(872/876) sp(714/714) ep(628/628) > score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    5                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           1,008     Explored          :  0.28% ( 2.40%)   |
+| Next level     :           1,232     Rooms Explored    :            48     |
+| Guild Level    :             645     Gold on hand      :         1,000     |
+| To Next Level  :             224     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   39 | Hit Points     :   872 (  876) | AC       : VLow     |
+| Dexterity    :   35 | Spell Points   :   714 (  714) | Size     : 3'6"     |
+| Constitution :   43 | Endurance Pts. :   628 (  628) | Weight   : 77 lb    |
+| Stamina      :   32 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   24 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   24 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   85 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (4)                      | Mail          : 0/0           |
+|                                            | Kills         : 2             |
+`----------------------------------------------------------------------------'
+hp(872/876) sp(714/714) ep(628/628) > skills
+-=-=-| Warrior |-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  attack                       :  21%  |  flesh of stone               :  21%
+  honor of the gods            :  21%  |  tanking                      :  21%
+  weapon skill blunt           :  21%  |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+hp(872/876) sp(714/714) ep(628/628) > warp
+You warp, bend and fold into a small dot which disappears!
+You arrive at the Adventure Guild.
+Adventurer Guild Entrance [exits: west, south, southeast, northeast, north, southwest and east]
+ This large room is the Adventurers guild. Truly breathtaking in its architecture, the guild houses a vast amount of
+help for the new adventurers and the old. Its high domed ceiling swirls with blue and whites, like the sky on a very
+windy day. Because it is domed and there are windows all along the wall, the room seems very open and very friendly.
+
+2 Formula: Head: Lesser Wisdoms lie here, discarded.
+
+hp(872/876) sp(714/714) ep(628/628) > se
+Newbie Guild Entrance [exits: northwest and east]
+ This room is large, and the ceiling is high. To the northwest is another room, while to the east is the Newbie Guild.
+
+
+hp(872/876) sp(714/714) ep(628/628) > e
+
+Sisong sings, "Welcome Emalz, I am here to help you begin your adventure in these the great Islands of Myth. To speak with me, just enter 'talk to sisong'. Otherwise good-luck, and may the gods ever guide you on your journey!"
+
+Entrance to the Newbie Guild [exits: west, south, east and north]
+ Welcome Newbies! This is where you can find all sorts of great information to help start you off on your adventures
+here at Islands of Myth. For lots of advice on getting started you should begin by speaking with Sisong. She's here especially
+to help you out.
+
+A gold Plaque
+A blue portal, leading to Nuvo City
+Sisong the Newbie Navigator
+
+hp(872/876) sp(714/714) ep(628/628) > talk sisong
+You feel fully healed.
+Sisong's Newbie Information.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  1)  Misc. Information     2)  Newbie Areas          q)  Quit             
+
+[12q] 2
+9
+Newbie Areas
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  1)  Newbie Garden                     2)  The Valley of New Adventurers
+  3)  Spider Cave                       4)  The Circus                   
+  5)  Monster Daycare                   6)  Church                       
+  7)  Ocean                             8)  Strawberry Fields            
+  9)  Yensid Land                      10)  Fire World                   
+ 11)  Ice World                        12)  Cat World                    
+ 13)  Kobold Village                   14)  Zoo                          
+ 15)  Newbie Forest                    16)  Ancient Tree                 
+ 17)  Animal Nursery                   18)  Swallow Moors                
+ 19)  Bee Hive                          m)  Return to Main Menu          
+  q)  Quit                            
+[12345678910111213141516171819mq] Sisong says, "Yensid Land has monsters of varying levels, some are rather easy, others are tough.  Make sure you map
+    the area for in it lies a secret. Of course I could tell you what it is, but then I'd have to kill you. Ha ha ha,
+    err, only joking."
+Sisong asks, "Would you like to visit the Yensid Land?"
+Please answer Y for yes or N for no: Y
+
+Sisong says, "Well then, off ya go!  Oh, by the way. You can use the portal at the entrance of Yensid Land to return
+    back here. Best of luck!". And with that she grabs you by your shoulders and throws you towards your chosen
+    destination. Hold on, the landing could be a bit bumpy!
+
+Welcome to YENSIDLAND [exits: east, northwest and out]
+ This is such a jolly place!! You think you might just pop out a jolly fart or two just to show everyone how jolly you
+feel about being in the jolliest land in jolly old Islands of Myth!!!
+
+A portal to the Newbie Guild.
+A jolly sign sits beside the path
+
+You appear from thin air.
+hp(876/876) sp(714/714) ep(628/628) > combat silent on
+Combat settings:
+Attacking                     : On
+Defending                     : On
+Tanking                       : On
+Percent                       : Off
+Blocks                        : On
+Reporter                      : On
+Number                        : On
+Silent (generic)              : On
+Silent (start use)            : On
+Silent (finish use)           : On
+Silent (words)                : On
+Silent (skill action)         : Off
+Silent (round)                : On
+Silent (generic other)        : Off
+Silent (start use other)      : Off
+Silent (finish use other)     : Off
+Silent (words other)          : Off
+Silent (skill action other)   : Off
+hp(876/876) sp(714/714) ep(628/628) > nw
+Earwig notices the scars it inflicted on Emalz and gets ready for battle.
+LobeLands [exits: southeast and north]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+A notorious Earwig picks at some wax  (wounded)
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+
+hp(874/876) sp(714/714) ep(628/628) > look
+LobeLands [exits: southeast and north]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+A notorious Earwig picks at some wax  (wounded)
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+
+hp(874/876) sp(714/714) ep(628/628) > kill earwig
+You attack Earwig.
+hp(874/876) sp(714/714) ep(628/628) > You feel fully healed.
+You hit Earwig 1 time.
+Earwig hit You 3 times.
+HP: 872|876 SP: 714|714 EP: 628|628
+[Emalz]: is in good condition.
+[Earwig]: is somewhat hurt.
+You feel like you have scored a new best hit!
+Earwig falls to the ground DEAD!
+You gain boosted exp!
+You receive 250 exp.
+You feel fully healed.
+You hit Earwig 1 time.
+kill earwig
+You attack Earwig.
+hp(876/876) sp(714/714) ep(628/628) > HP: 876|876 SP: 714|714 EP: 628|628
+[Emalz]: is in excellent shape.
+[Earwig]: is in excellent shape.
+HP: 876|876 SP: 714|714 EP: 628|628
+[Emalz]: is in excellent shape.
+[Earwig]: is in excellent shape.
+You hit Earwig 1 time.
+Earwig hit You 1 time.
+HP: 874|876 SP: 714|714 EP: 628|628
+[Emalz]: is in good condition.
+[Earwig]: has some minor cuts and bruises.
+You feel fully healed.
+You hit Earwig 1 time.
+Earwig hit You 1 time.
+HP: 874|876 SP: 714|714 EP: 628|628
+[Emalz]: is in good condition.
+[Earwig]: is not in good shape.
+kill earwig
+You attack Earwig.
+hp(874/876) sp(714/714) ep(628/628) > You feel fully healed.
+You hit Earwig 1 time.
+HP: 876|876 SP: 714|714 EP: 628|628
+[Emalz]: is in excellent shape.
+[Earwig]: is in very bad shape.
+Earwig falls to the ground DEAD!
+You gain boosted exp!
+You receive 250 exp.
+You hit Earwig 1 time.
+n
+LobeLands [exits: northeast and south]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+A notorious Earwig picks at some wax 
+
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+You attack Earwig.
+hp(876/876) sp(714/714) ep(628/628) > You hit Earwig 1 time.
+Earwig hit You 1 time.
+HP: 874|876 SP: 714|714 EP: 628|628
+[Emalz]: is in good condition.
+[Earwig]: is somewhat hurt.
+You feel fully healed.
+Earwig hits You 1 time.
+HP: 874|876 SP: 714|714 EP: 628|628
+[Emalz]: is in good condition.
+[Earwig]: has some minor cuts and bruises.
+You feel fully healed.
+You hit Earwig 1 time.
+Earwig hit You 2 times.
+HP: 872|876 SP: 714|714 EP: 628|628
+[Emalz]: is in good condition.
+[Earwig]: is not in good shape.
+You feel fully healed.
+You hit Earwig 1 time.
+Earwig hit You 1 time.
+HP: 874|876 SP: 714|714 EP: 628|628
+[Emalz]: is in good condition.
+[Earwig]: is in awful condition.
+Earwig falls to the ground DEAD!
+You gain boosted exp!
+You receive 250 exp.
+You feel fully healed.
+You hit Earwig 1 time.
+kill earwig
+You attack Earwig.
+hp(876/876) sp(714/714) ep(628/628) > Earwig hits You 1 time.
+HP: 874|876 SP: 714|714 EP: 628|628
+[Emalz]: is in good condition.
+[Earwig]: is in excellent shape.
+You feel fully healed.
+You hit Earwig 1 time.
+Earwig hit You 1 time.
+HP: 874|876 SP: 714|714 EP: 628|628
+[Emalz]: is in good condition.
+[Earwig]: has some minor cuts and bruises.
+You feel fully healed.
+You hit Earwig 1 time.
+Earwig hit You 2 times.
+HP: 872|876 SP: 714|714 EP: 628|628
+[Emalz]: is in good condition.
+[Earwig]: is not in good shape.
+You feel fully healed.
+You hit Earwig 1 time.
+Earwig hit You 2 times.
+HP: 872|876 SP: 714|714 EP: 628|628
+[Emalz]: is in good condition.
+[Earwig]: is in awful condition.
+kill earwig
+You attack Earwig.
+hp(872/876) sp(714/714) ep(628/628) > You feel fully healed.
+HP: 876|876 SP: 714|714 EP: 628|628
+[Emalz]: is in excellent shape.
+[Earwig]: is in very bad shape.
+Earwig falls to the ground DEAD!
+You gain boosted exp!
+You receive 250 exp.
+You hit Earwig 1 time.
+s
+LobeLands [exits: southeast and north]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+140 gold coins.
+A notorious Earwig picks at some wax 
+
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+You attack Earwig.
+hp(876/876) sp(714/714) ep(628/628) > Earwig hits You 2 times.
+HP: 872|876 SP: 714|714 EP: 628|628
+[Emalz]: is in good condition.
+[Earwig]: is in excellent shape.
+You feel fully healed.
+You hit Earwig 1 time.
+Earwig hit You 1 time.
+HP: 874|876 SP: 714|714 EP: 628|628
+[Emalz]: is in good condition.
+[Earwig]: has some minor cuts and bruises.
+You feel fully healed.
+You hit Earwig 1 time.
+Earwig hit You 1 time.
+HP: 874|876 SP: 714|714 EP: 628|628
+[Emalz]: is in good condition.
+[Earwig]: is not in good shape.
+You feel fully healed.
+You hit Earwig 1 time.
+Earwig hit You 2 times.
+HP: 872|876 SP: 714|714 EP: 628|628
+[Emalz]: is in good condition.
+[Earwig]: is in very bad shape.
+Earwig falls to the ground DEAD!
+You gain boosted exp!
+You receive 250 exp.
+You feel fully healed.
+You hit Earwig 1 time.
+kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > n
+LobeLands [exits: northeast and south]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+140 gold coins.
+A notorious Earwig picks at some wax 
+
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+You attack Earwig.
+hp(876/876) sp(714/714) ep(628/628) > You hit Earwig 1 time.
+Earwig hit You 2 times.
+HP: 872|876 SP: 714|714 EP: 628|628
+[Emalz]: is in good condition.
+[Earwig]: has some minor cuts and bruises.
+You feel fully healed.
+Earwig hits You 2 times.
+HP: 872|876 SP: 714|714 EP: 628|628
+[Emalz]: is in good condition.
+[Earwig]: has some minor cuts and bruises.
+You feel fully healed.
+You hit Earwig 1 time.
+Earwig hit You 1 time.
+HP: 874|876 SP: 714|714 EP: 628|628
+[Emalz]: is in good condition.
+[Earwig]: is not in good shape.
+You feel fully healed.
+Earwig hits You 2 times.
+HP: 872|876 SP: 714|714 EP: 628|628
+[Emalz]: is in good condition.
+[Earwig]: is not in good shape.
+You hit Earwig 1 time.
+Earwig hit You 1 time.
+HP: 872|876 SP: 714|714 EP: 628|628
+[Emalz]: is in good condition.
+[Earwig]: is in very bad shape.
+kill earwig
+You attack Earwig.
+hp(872/876) sp(714/714) ep(628/628) > Earwig falls to the ground DEAD!
+You gain boosted exp!
+You receive 250 exp.
+You feel fully healed.
+You hit Earwig 1 time.
+kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > The corpse rots away into nothingness.
+s
+LobeLands [exits: southeast and north]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+210 gold coins.
+
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > n
+LobeLands [exits: northeast and south]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+210 gold coins.
+
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > s
+LobeLands [exits: southeast and north]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+210 gold coins.
+
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > n
+LobeLands [exits: northeast and south]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+210 gold coins.
+
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > s
+LobeLands [exits: southeast and north]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+210 gold coins.
+
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > n
+LobeLands [exits: northeast and south]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+210 gold coins.
+
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > s
+LobeLands [exits: southeast and north]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+210 gold coins.
+
+hp(876/876) sp(714/714) ep(628/628) > score
+,----------------------------------------------------------------------------.
+| Emalz the Kobold                                                           |
+| Level          :    5                Open Guild Levels :    1              |
+|                                                                            |
+| Experience     :           2,508     Explored          :  0.28% ( 2.40%)   |
+| Next level     :           1,232     Rooms Explored    :            48     |
+| Guild Level    :             645     Gold on hand      :         1,000     |
+| To Next Level  :               0     Gold in bank      :             0     |
+| To Guild Level :               0                                           |
+|----------------------------------------------------------------------------|
+| Strength     :   39 | Hit Points     :   876 (  876) | AC       : VLow     |
+| Dexterity    :   35 | Spell Points   :   714 (  714) | Size     : 3'6"     |
+| Constitution :   43 | Endurance Pts. :   628 (  628) | Weight   : 77 lb    |
+| Stamina      :   32 | Hunger         : Stuffed       | Stealth  : 15%      |
+| Intelligence :   24 | Wimpy          : 0%            | Hiding   : No       |
+| Wisdom       :   24 | Growth         : Growing       | Poisoned : No       |
+| Charisma     :   85 | Alignment      : Neutral       | TaskPts. : 0        |
+|----------------------------------------------------------------------------|
+| alpha   : warrior (4)                      | Mail          : 0/0           |
+|                                            | Kills         : 8             |
+`----------------------------------------------------------------------------'
+hp(876/876) sp(714/714) ep(628/628) > rest
+You just entered something the MUD doesn't understand.
+Need more help, ask on the newbie channel, type: newbie 'your question.'
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > n
+LobeLands [exits: northeast and south]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+210 gold coins.
+
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > s
+LobeLands [exits: southeast and north]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+210 gold coins.
+
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > kill earwig
+There is no earwig here.
+hp(876/876) sp(714/714) ep(628/628) > n
+LobeLands [exits: northeast and south]
+ The terrain around you is completely black. The ground beneath your feet is soft and flexible, and seems to quiver
+with every sound you make. Huge piles of waxy buildup lie before you.
+
+210 gold coins.
+
+hp(876/876) sp(714/714) ep(628/628) > 

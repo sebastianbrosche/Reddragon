@@ -1,0 +1,9 @@
+A shopkeeper runs by, waving a broom, and chasing a pair of young men.
+Intersection of Cloud and Titan [exits: south, west and north]
+ The edge of the Illium Bazaar here blends into Cloud Road, which heads west towards the Illian Adventurers' Guild. The
+guild is a domed building, visible for blocks - especially over the low stalls of the marketplace. The city cathedral
+lies close by to the south, dominating the landscape for blocks around.
+
+A floating moonflower vine (glowing)
+
+hp(716/716) sp(750/750) ep(538/538) > 

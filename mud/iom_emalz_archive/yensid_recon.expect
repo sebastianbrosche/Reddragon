@@ -1,0 +1,101 @@
+#!/usr/bin/expect -f
+set timeout 30
+set logfile "/root/.openclaw/workspace/mud/iom_emalz_archive/yensid_recon.log"
+exec rm -f $logfile
+log_file $logfile
+
+spawn telnet islandsofmyth.org 3000
+
+# Login
+expect "Please enter a name"
+send "emalz\r"
+expect "Password:"
+send "creative\r"
+
+# Wait for prompt
+expect ">"
+
+# Navigate to Sisong  
+send "warp\r"
+expect ">"
+send "se\r"
+expect ">"
+send "e\r"
+expect ">"
+
+# Talk to Sisong
+send "talk sisong\r"
+expect "Sisong's Newbie Information"
+send "2\r"
+expect "Newbie Areas"
+send "9\r"
+expect "Would you like to visit the Yensid Land?"
+send "Y\r"
+
+# Arrive at Yensid Land - look around
+expect ">"
+sleep 2
+send "look\r"
+expect ">"
+
+# Map the immediate area by moving in all directions and looking
+# Let's do a quick 3x3 grid exploration
+send "n\r"
+expect ">"
+send "look\r"
+expect ">"
+
+send "n\r"
+expect ">"
+send "look\r"
+expect ">"
+
+send "s\r"
+expect ">"
+send "s\r"
+expect ">"
+
+send "s\r"
+expect ">"
+send "look\r"
+expect ">"
+
+send "n\r"
+expect ">"
+send "e\r"
+expect ">"
+send "look\r"
+expect ">"
+
+send "e\r"
+expect ">"
+send "look\r"
+expect ">"
+
+send "w\r"
+expect ">"
+send "w\r"
+expect ">"
+
+send "w\r"
+expect ">"
+send "look\r"
+expect ">"
+
+send "e\r"
+expect ">"
+
+# Try to find and kill an earwig for testing
+send "kill earwig\r"
+sleep 10
+expect ">"
+
+send "score\r"
+expect ">"
+
+# Save and quit
+send "quit\r"
+expect "Save"
+send "Y\r"
+
+puts "RECON COMPLETE"

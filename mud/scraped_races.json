@@ -1,0 +1,718 @@
+{
+  "cromagnon": {
+    "name": "Cromagnon",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nC r o m a g n o n\nCromagnons are living relics from the early dawn of humanity. They\nare living ancestors of humans and are thought of as Humans by most.\nActually, they are quite a bit different; Cromagnons lack the ability\nand are a bit stronger because of their tougher lifestyle.",
+    "stats": {
+      "strength": "Good",
+      "constitution": "Good",
+      "hp_max": "Average",
+      "hp_regen": "Above Ave",
+      "dexterity": "Above Ave",
+      "stamina": "Above Ave",
+      "ep_max": "Average",
+      "ep_regen": "Above Ave",
+      "intelligence": "Bad",
+      "wisdom": "Bad",
+      "sp_max": "Terrible",
+      "sp_regen": "Terrible",
+      "average_height": "5 feet 5 inches",
+      "average_mass": "184",
+      "notes": [
+        "They are considered to be rather unattractive creatures.",
+        "They are naturally extremely resistant to physical damage.",
+        "They are naturally vulnerable to magical damage."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nC r o m a g n o n\nCromagnons are living relics from the early dawn of humanity. They \r\nare living ancestors of humans and are thought of as Humans by most. \r\nActually, they are quite a bit different; Cromagnons lack the ability \r\nfor magic completely, but they possess a better grasp of basic skills \r\nand are a bit stronger because of their tougher lifestyle.\nStrength:     Good\nConstitution: Good\nHp Max:       Average\nHp Regen:     Above Ave\nDexterity:    Above Ave\nStamina:      Above Ave\nEp Max:       Average\nEp Regen:     Above Ave\nIntelligence: Bad\nWisdom:       Bad\nSp Max:       Terrible\nSp Regen:     Terrible\nThey can train skills up to 90%\nThey can study spells up to 70%\nTheir experience rate is 106 %\nAverage height: 5 feet 5 inches\nAverage mass: 184\nThey are considered to be rather unattractive creatures.\nThey learn skills much faster than humans.\nThey learn spells slower than humans.\nThey are naturally extremely resistant to physical damage.\nThey are naturally vulnerable to magical damage."
+  },
+  "drow": {
+    "name": "Drow",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nD r o w\nDrow are the Dark Elves of the Underworld - fearless killers who are\nfrail than humans, they are solid fighters with a great reputation of\nruthlessness and precision. Those who cross a dark elf usually meet a\nswift demise. Drow are tallish elves with indigo skin and white hair,\nand usually have either red or golden eyes.",
+    "stats": {
+      "strength": "Average",
+      "constitution": "Below Ave",
+      "hp_max": "Average",
+      "hp_regen": "Below Ave",
+      "dexterity": "Good",
+      "stamina": "Below Ave",
+      "ep_max": "Below Ave",
+      "ep_regen": "Average",
+      "intelligence": "Above Ave",
+      "wisdom": "Good",
+      "sp_max": "Average",
+      "sp_regen": "Very Good",
+      "average_height": "5 feet 4 inches",
+      "average_mass": "133",
+      "notes": [
+        "They are considered to be fascinating creatures.",
+        "They can see in the dark.",
+        "They only heal in dark places.",
+        "They are naturally extremely vulnerable to holy damage.",
+        "They are naturally resistant to unholy damage.",
+        "They are naturally resistant to magical damage."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nD r o w\nDrow are the Dark Elves of the Underworld - fearless killers who are \r\nknown for both their spellcasting and fighting ability. Though more\r\nfrail than humans, they are solid fighters with a great reputation of\r\nruthlessness and precision. Those who cross a dark elf usually meet a \r\nswift demise. Drow are tallish elves with indigo skin and white hair, \r\nand usually have either red or golden eyes.\nStrength:     Average\nConstitution: Below Ave\nHp Max:       Average\nHp Regen:     Below Ave\nDexterity:    Good\nStamina:      Below Ave\nEp Max:       Below Ave\nEp Regen:     Average\nIntelligence: Above Ave\nWisdom:       Good\nSp Max:       Average\nSp Regen:     Very Good\nThey can train skills up to 95%\nThey can study spells up to 100%\nTheir experience rate is 84 %\nAverage height: 5 feet 4 inches\nAverage mass: 133\nThey are considered to be fascinating creatures.\nThey learn skills slower than humans.\nThey learn spells about as fast as humans.\nThey can see in the dark.\nThey only heal in dark places.\nThey are naturally extremely vulnerable to holy damage.\nThey are naturally resistant to unholy damage.\nThey are naturally resistant to magical damage."
+  },
+  "dwarf": {
+    "name": "Dwarf",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nD w a r f\nDwarves are small heavy-set humanoids who usually sport large beards.\nin character and in battle. They are excellent craftsmen and make the\nbest of weaponsmiths due to their keen abilities in manual labor. Dwarves\nare not adepts of magic, even though they have some limited potential.",
+    "stats": {
+      "strength": "Good",
+      "constitution": "Good",
+      "hp_max": "Good",
+      "hp_regen": "Average",
+      "dexterity": "Above Ave",
+      "stamina": "Above Ave",
+      "ep_max": "Average",
+      "ep_regen": "Above Ave",
+      "intelligence": "Poor",
+      "wisdom": "Above Ave",
+      "sp_max": "Terrible",
+      "sp_regen": "Poor",
+      "average_height": "4 feet",
+      "average_mass": "176",
+      "notes": [
+        "They can see in the dark.",
+        "They are naturally extremely resistant to poison damage.",
+        "They are naturally resistant to physical damage."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nD w a r f\nDwarves are small heavy-set humanoids who usually sport large beards. \r\nBut never let a Dwarf's size fool you, they are known for their strength \r\nin character and in battle. They are excellent craftsmen and make the \r\nbest of weaponsmiths due to their keen abilities in manual labor. Dwarves \r\nare not adepts of magic, even though they have some limited potential.\nStrength:     Good\nConstitution: Good\nHp Max:       Good\nHp Regen:     Average\nDexterity:    Above Ave\nStamina:      Above Ave\nEp Max:       Average\nEp Regen:     Above Ave\nIntelligence: Poor\nWisdom:       Above Ave\nSp Max:       Terrible\nSp Regen:     Poor\nThey can train skills up to 100%\nThey can study spells up to 85%\nTheir experience rate is 88 %\nAverage height: 4 feet\nAverage mass: 176\nThey have average charisma.\nThey learn skills much faster than humans.\nThey learn spells much slower than humans.\nThey can see in the dark.\nThey are naturally extremely resistant to poison damage.\nThey are naturally resistant to physical damage."
+  },
+  "elf": {
+    "name": "Elf",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nE l f\nElves are slender and graceful humanoids, with fair faces and slightly\npointed ears. Elves are a very ancient and highly advanced race with a\nlong history steeped in mystery and magic. Elves are all long-lived,\nalmost immortal, living through centuries and seeming ageless to humans.",
+    "stats": {
+      "strength": "Below Ave",
+      "constitution": "Below Ave",
+      "hp_max": "Average",
+      "hp_regen": "Average",
+      "dexterity": "Above Ave",
+      "stamina": "Poor",
+      "ep_max": "Poor",
+      "ep_regen": "Above Ave",
+      "intelligence": "Average",
+      "wisdom": "Very Good",
+      "sp_max": "Average",
+      "sp_regen": "Very Good",
+      "average_height": "5 feet 2 inches",
+      "average_mass": "113",
+      "notes": [
+        "They are considered to be fascinating creatures.",
+        "They can see in the dark."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nE l f\nElves are slender and graceful humanoids, with fair faces and slightly \r\npointed ears. Elves are a very ancient and highly advanced race with a \r\nlong history steeped in mystery and magic. Elves are all long-lived, \r\nalmost immortal, living through centuries and seeming ageless to humans.\nStrength:     Below Ave\nConstitution: Below Ave\nHp Max:       Average\nHp Regen:     Average\nDexterity:    Above Ave\nStamina:      Poor\nEp Max:       Poor\nEp Regen:     Above Ave\nIntelligence: Average\nWisdom:       Very Good\nSp Max:       Average\nSp Regen:     Very Good\nThey can train skills up to 95%\nThey can study spells up to 95%\nTheir experience rate is 95 %\nAverage height: 5 feet 2 inches\nAverage mass: 113\nThey are considered to be fascinating creatures.\nThey learn skills much slower than humans.\nThey learn spells about as fast as humans.\nThey can see in the dark."
+  },
+  "ent": {
+    "name": "Ent",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nE n t\nFrom the Dawn of Time, they came, an ancient race. Moving among\nthe forests and trees as kin, the Ents govern the growth of the\nForests. Though they have had some relations with Elves, Ents are\nseldom seen adventuring, and are often only known as a legend by\nsome Humans.",
+    "stats": {
+      "strength": "Above Ave",
+      "constitution": "Good",
+      "hp_max": "Above Ave",
+      "hp_regen": "Below Ave",
+      "dexterity": "Terrible",
+      "stamina": "Bad",
+      "ep_max": "Bad",
+      "ep_regen": "Below Ave",
+      "intelligence": "Average",
+      "wisdom": "Excellent",
+      "sp_max": "Good",
+      "sp_regen": "Very Good",
+      "average_height": "7 feet 8 inches",
+      "average_mass": "377",
+      "notes": [
+        "They are considered to be quite attractive creatures.",
+        "They can see in the dark.",
+        "They are naturally extremely vulnerable to fire damage.",
+        "They are naturally extremely resistant to physical damage."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nE n t\nFrom the Dawn of Time, they came, an ancient race. Moving among \r\nthe forests and trees as kin, the Ents govern the growth of the\r\nForests. Though they have had some relations with Elves, Ents are\r\nseldom seen adventuring, and are often only known as a legend by\r\nsome Humans.\nStrength:     Above Ave\nConstitution: Good\nHp Max:       Above Ave\nHp Regen:     Below Ave\nDexterity:    Terrible\nStamina:      Bad\nEp Max:       Bad\nEp Regen:     Below Ave\nIntelligence: Average\nWisdom:       Excellent\nSp Max:       Good\nSp Regen:     Very Good\nThey can train skills up to 90%\nThey can study spells up to 95%\nTheir experience rate is 90 %\nAverage height: 7 feet 8 inches\nAverage mass: 377\nThey are considered to be quite attractive creatures.\nThey learn skills much slower than humans.\nThey learn spells about as fast as humans.\nThey can see in the dark.\nThey are naturally extremely vulnerable to fire damage.\nThey are naturally extremely resistant to physical damage."
+  },
+  "faerie": {
+    "name": "Faerie",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nF a e r i e",
+    "stats": {
+      "strength": "Terrible",
+      "constitution": "Poor",
+      "hp_max": "Below Ave",
+      "hp_regen": "Below Ave",
+      "dexterity": "Very Good",
+      "stamina": "Poor",
+      "ep_max": "Below Ave",
+      "ep_regen": "Poor",
+      "intelligence": "Above Ave",
+      "wisdom": "Very Good",
+      "sp_max": "Very Good",
+      "sp_regen": "Very Good",
+      "average_height": "2 feet 4 inches",
+      "average_mass": "16",
+      "notes": [
+        "They are considered to be quite attractive creatures.",
+        "They can see in the dark.",
+        "They are naturally resistant to psionic damage.",
+        "They are naturally resistant to magical damage.",
+        "They are naturally vulnerable to physical damage."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nF a e r i e\nFaeries are a race of tiny, mystical creatures. Although they are equipped with a set of insect-like wings, evolution has left them unable to fly. Although they are small and ineffective in physical combat, they are quick learners of spells, and have been known to make very able mages and clerics. Their size and agility also have lead some of them to become thieves.\nStrength:     Terrible\nConstitution: Poor\nHp Max:       Below Ave\nHp Regen:     Below Ave\nDexterity:    Very Good\nStamina:      Poor\nEp Max:       Below Ave\nEp Regen:     Poor\nIntelligence: Above Ave\nWisdom:       Very Good\nSp Max:       Very Good\nSp Regen:     Very Good\nThey can train skills up to 95%\nThey can study spells up to 100%\nTheir experience rate is 97 %\nAverage height: 2 feet 4 inches\nAverage mass: 16\nThey are considered to be quite attractive creatures.\nThey learn skills slower than humans.\nThey learn spells much faster than humans.\nThey can see in the dark.\nThey are naturally resistant to psionic damage.\nThey are naturally resistant to magical damage.\nThey are naturally vulnerable to physical damage."
+  },
+  "gargoyle": {
+    "name": "Gargoyle",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nG a r g o y l e\nGargoyles are magical creatures that were originally created by a very powerful cleric from stone statues. The first gargoyles were terrible winged stone monsters, designed to protect holy places from evil spirits. Still, during a huge magical battle, their inner being was altered and they became fully conscious creatures that have a very high affinity for magic. After centuries of magical modifications and enhancements, gargoyles are nowadays a very much changed race that is not warlike at all but rely entirely upon magic.",
+    "stats": {
+      "strength": "Below Ave",
+      "constitution": "Good",
+      "hp_max": "Below Ave",
+      "hp_regen": "Poor",
+      "dexterity": "Poor",
+      "stamina": "Poor",
+      "ep_max": "Poor",
+      "ep_regen": "Poor",
+      "intelligence": "Very Good",
+      "wisdom": "Average",
+      "sp_max": "Very Good",
+      "sp_regen": "Excellent",
+      "average_height": "6 feet 8 inches",
+      "average_mass": "308",
+      "notes": [
+        "They are considered to be rather unattractive creatures.",
+        "They can see in the dark.",
+        "They are naturally resistant to physical damage."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nG a r g o y l e\nGargoyles are magical creatures that were originally created by a very powerful cleric from stone statues. The first gargoyles were terrible winged stone monsters, designed to protect holy places from evil spirits. Still, during a huge magical battle, their inner being was altered and they became fully conscious creatures that have a very high affinity for magic. After centuries of magical modifications and enhancements, gargoyles are nowadays a very much changed race that is not warlike at all but rely entirely upon magic.\nStrength:     Below Ave\nConstitution: Good\nHp Max:       Below Ave\nHp Regen:     Poor\nDexterity:    Poor\nStamina:      Poor\nEp Max:       Poor\nEp Regen:     Poor\nIntelligence: Very Good\nWisdom:       Average\nSp Max:       Very Good\nSp Regen:     Excellent\nThey can train skills up to 90%\nThey can study spells up to 95%\nTheir experience rate is 90 %\nAverage height: 6 feet 8 inches\nAverage mass: 308\nThey are considered to be rather unattractive creatures.\nThey learn skills about as fast as humans.\nThey learn spells much faster than humans.\nThey can see in the dark.\nThey are naturally resistant to physical damage."
+  },
+  "giant": {
+    "name": "Giant",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nG i a n t\nGiants are huge humanoids. They are non-magical by nature but in a combat\nchaos among their enemies. Giants are naturally gifted fighters, that make\nfor great party leaders as 'tanks', even though they are not very bright.\nEnglishmun, and when they\nshout Fee, fie, fo, fum!\n, it reminds them of\nsuch blood, occasionally breaking them out of shock.",
+    "stats": {
+      "notes": [
+        "They are known to get inordinately excited at the prospect of the blood of",
+        "They are considered to be rather unattractive creatures.",
+        "They are naturally extremely resistant to physical damage."
+      ],
+      "strength": "Excellent",
+      "constitution": "Excellent",
+      "hp_max": "Excellent",
+      "hp_regen": "Good",
+      "dexterity": "Average",
+      "stamina": "Above Ave",
+      "ep_max": "Above Ave",
+      "ep_regen": "Good",
+      "intelligence": "Bad",
+      "wisdom": "Terrible",
+      "sp_max": "Terrible",
+      "sp_regen": "Terrible",
+      "average_height": "10 feet",
+      "average_mass": "519"
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nG i a n t\nGiants are huge humanoids. They are non-magical by nature but in a combat\r\nsituation, their tremendous strength and ability to take damage creates\r\nchaos among their enemies. Giants are naturally gifted fighters, that make \r\nfor great party leaders as 'tanks', even though they are not very bright.\r\nThey are known to get inordinately excited at the prospect of the blood of\r\nEnglishmun, and when they\nshout Fee, fie, fo, fum!\n, it reminds them of\r\nsuch blood, occasionally breaking them out of shock.\nStrength:     Excellent\nConstitution: Excellent\nHp Max:       Excellent\nHp Regen:     Good\nDexterity:    Average\nStamina:      Above Ave\nEp Max:       Above Ave\nEp Regen:     Good\nIntelligence: Bad\nWisdom:       Terrible\nSp Max:       Terrible\nSp Regen:     Terrible\nThey can train skills up to 95%\nThey can study spells up to 20%\nTheir experience rate is 85 %\nAverage height: 10 feet\nAverage mass: 519\nThey are considered to be rather unattractive creatures.\nThey learn skills much slower than humans.\nThey learn spells MUCH slower than humans.\nThey are naturally extremely resistant to physical damage."
+  },
+  "gnome": {
+    "name": "Gnome",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nG n o m e\nGnomes are small cousins of the Dwarves, and are often found to be\nhelping someone in need.  They have rich brown skin, white hair,\nand china-blue eyes, both sexes have rounded ears and very large\nnoses. The male gnomes prefer to keep their beards short and\nstylishly-trimmed. They are excellent tinkers, constantly inventing\nsomething to make life easier (or more chaotic if something goes wrong).\nGnomes are a very wise race, well known for their magical abilities;\nthemselves.",
+    "stats": {
+      "strength": "Poor",
+      "constitution": "Below Ave",
+      "hp_max": "Below Ave",
+      "hp_regen": "Below Ave",
+      "dexterity": "Below Ave",
+      "stamina": "Poor",
+      "ep_max": "Below Ave",
+      "ep_regen": "Poor",
+      "intelligence": "Above Ave",
+      "wisdom": "Excellent",
+      "sp_max": "Very Good",
+      "sp_regen": "Very Good",
+      "average_height": "3 feet 6 inches",
+      "average_mass": "122",
+      "notes": [
+        "They can see in the dark.",
+        "They are naturally resistant to magical damage."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nG n o m e\nGnomes are small cousins of the Dwarves, and are often found to be \r\nhelping someone in need.  They have rich brown skin, white hair, \r\nand china-blue eyes, both sexes have rounded ears and very large \r\nnoses. The male gnomes prefer to keep their beards short and \r\nstylishly-trimmed. They are excellent tinkers, constantly inventing \r\nsomething to make life easier (or more chaotic if something goes wrong).  \r\nGnomes are a very wise race, well known for their magical abilities; \r\nthey are sometimes able to freely use minor protective spells on \r\nthemselves.\nStrength:     Poor\nConstitution: Below Ave\nHp Max:       Below Ave\nHp Regen:     Below Ave\nDexterity:    Below Ave\nStamina:      Poor\nEp Max:       Below Ave\nEp Regen:     Poor\nIntelligence: Above Ave\nWisdom:       Excellent\nSp Max:       Very Good\nSp Regen:     Very Good\nThey can train skills up to 85%\nThey can study spells up to 95%\nTheir experience rate is 106 %\nAverage height: 3 feet 6 inches\nAverage mass: 122\nThey have average charisma.\nThey learn skills slower than humans.\nThey learn spells about as fast as humans.\nThey can see in the dark.\nThey are naturally resistant to magical damage."
+  },
+  "goblin": {
+    "name": "Goblin",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nG o b l i n\nGoblins are a race of mischevious little beings who love to wreak\nhavoc upon others. They are not very intelligent, as the word is\nnormally used, but they are clever little buggers nonetheless.\nthough they often fight amongst themselves. Although they are\nrather weak, they are very nimble, and perform the most complicated\naides them when they are carrying out their ornery plans.",
+    "stats": {
+      "strength": "Average",
+      "constitution": "Below Ave",
+      "hp_max": "Average",
+      "hp_regen": "Average",
+      "dexterity": "Very Good",
+      "stamina": "Above Ave",
+      "ep_max": "Above Ave",
+      "ep_regen": "Good",
+      "intelligence": "Poor",
+      "wisdom": "Poor",
+      "sp_max": "Bad",
+      "sp_regen": "Bad",
+      "average_height": "4 feet 8 inches",
+      "average_mass": "160",
+      "notes": [
+        "They are considered to be rather unattractive creatures.",
+        "They can see in the dark.",
+        "They can eat corpses.",
+        "They are naturally vulnerable to magical damage."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nG o b l i n\nGoblins are a race of mischevious little beings who love to wreak\r\nhavoc upon others. They are not very intelligent, as the word is\r\nnormally used, but they are clever little buggers nonetheless.\r\nThey lack real strength, and therefore prefer to live in clans,\r\nthough they often fight amongst themselves. Although they are\r\nrather weak, they are very nimble, and perform the most complicated\r\nskills with ease. Also, their aptitude for stealthy movement greatly\r\naides them when they are carrying out their ornery plans.\nStrength:     Average\nConstitution: Below Ave\nHp Max:       Average\nHp Regen:     Average\nDexterity:    Very Good\nStamina:      Above Ave\nEp Max:       Above Ave\nEp Regen:     Good\nIntelligence: Poor\nWisdom:       Poor\nSp Max:       Bad\nSp Regen:     Bad\nThey can train skills up to 95%\nThey can study spells up to 60%\nTheir experience rate is 104 %\nAverage height: 4 feet 8 inches\nAverage mass: 160\nThey are considered to be rather unattractive creatures.\nThey learn skills about as fast as humans.\nThey learn spells MUCH slower than humans.\nThey can see in the dark.\nThey can eat corpses.\nThey are naturally vulnerable to magical damage."
+  },
+  "grorrark": {
+    "name": "Grorrark",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nG r o r r a r k\nroar\n, or\nroar LIV\n.",
+    "stats": {
+      "strength": "Good",
+      "constitution": "Good",
+      "hp_max": "Above Ave",
+      "hp_regen": "Average",
+      "dexterity": "Excellent",
+      "stamina": "Above Ave",
+      "ep_max": "Below Ave",
+      "ep_regen": "Above Ave",
+      "intelligence": "Poor",
+      "wisdom": "Poor",
+      "sp_max": "Bad",
+      "sp_regen": "Bad",
+      "average_height": "6 feet 8 inches",
+      "average_mass": "267",
+      "notes": [
+        "They can see in the dark.",
+        "They can eat corpses.",
+        "They are naturally resistant to cold damage.",
+        "They are naturally extremely vulnerable to fire damage."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nG r o r r a r k\nGrorrarks are the result of an ill-starred breeding between a human and a lion. Although they remain mostly beast, they have retained the ability to reason and learn as a human would. Still, they have kept the ferocity and fierceness of lions, and have an instinctive and natural grasp for learning skills, which allow them to be among the most feared and able fighters.  They are sometimes able to draw on their lion half, and\nroar\n, or\nroar LIV\n.\nStrength:     Good\nConstitution: Good\nHp Max:       Above Ave\nHp Regen:     Average\nDexterity:    Excellent\nStamina:      Above Ave\nEp Max:       Below Ave\nEp Regen:     Above Ave\nIntelligence: Poor\nWisdom:       Poor\nSp Max:       Bad\nSp Regen:     Bad\nThey can train skills up to 100%\nThey can study spells up to 80%\nTheir experience rate is 88 %\nAverage height: 6 feet 8 inches\nAverage mass: 267\nThey have average charisma.\nThey learn skills faster than humans.\nThey learn spells MUCH slower than humans.\nThey can see in the dark.\nThey can eat corpses.\nThey are naturally resistant to cold damage.\nThey are naturally extremely vulnerable to fire damage."
+  },
+  "halfelf": {
+    "name": "Halfelf",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nH a l f e l f\nHalfelves are the offspring of humans and elves. They get a mixed\ncharacteristics from their parents races, keeping humans' all around",
+    "stats": {
+      "strength": "Good",
+      "constitution": "Above Ave",
+      "hp_max": "Average",
+      "hp_regen": "Average",
+      "dexterity": "Good",
+      "stamina": "Below Ave",
+      "ep_max": "Poor",
+      "ep_regen": "Above Ave",
+      "intelligence": "Average",
+      "wisdom": "Above Ave",
+      "sp_max": "Below Ave",
+      "sp_regen": "Average",
+      "average_height": "5 feet 8 inches",
+      "average_mass": "141",
+      "notes": [
+        "They are considered to be quite attractive creatures.",
+        "They can see in the dark."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nH a l f e l f\nHalfelves are the offspring of humans and elves. They get a mixed \r\ncharacteristics from their parents races, keeping humans' all around \r\nabilities but still keeping some of the elven wisdom and grace.\nStrength:     Good\nConstitution: Above Ave\nHp Max:       Average\nHp Regen:     Average\nDexterity:    Good\nStamina:      Below Ave\nEp Max:       Poor\nEp Regen:     Above Ave\nIntelligence: Average\nWisdom:       Above Ave\nSp Max:       Below Ave\nSp Regen:     Average\nThey can train skills up to 95%\nThey can study spells up to 95%\nTheir experience rate is 90 %\nAverage height: 5 feet 8 inches\nAverage mass: 141\nThey are considered to be quite attractive creatures.\nThey learn skills slower than humans.\nThey learn spells faster than humans.\nThey can see in the dark."
+  },
+  "hobbit": {
+    "name": "Hobbit",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nH o b b i t\nHobbits are very small humanoids, shorter than dwarves. They are about\nthe size of a ten-years old human child, though they tend to be much\nheavier than a child. They are cheerful fellows that enjoy eating and\nsinging. Their politeness and peaceful attitude conceal the fierce\ncourage of this race that can do amazing things when needed. They are\nwell known for their agility and nimbleness.",
+    "stats": {
+      "strength": "Below Ave",
+      "constitution": "Above Ave",
+      "hp_max": "Average",
+      "hp_regen": "Below Ave",
+      "dexterity": "Excellent",
+      "stamina": "Above Ave",
+      "ep_max": "Above Ave",
+      "ep_regen": "Good",
+      "intelligence": "Below Ave",
+      "wisdom": "Poor",
+      "sp_max": "Bad",
+      "sp_regen": "Bad",
+      "average_height": "3 feet 2 inches",
+      "average_mass": "81",
+      "notes": [
+        "They are naturally resistant to poison damage.",
+        "They are naturally resistant to magical damage."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nH o b b i t\nHobbits are very small humanoids, shorter than dwarves. They are about\r\nthe size of a ten-years old human child, though they tend to be much\r\nheavier than a child. They are cheerful fellows that enjoy eating and\r\nsinging. Their politeness and peaceful attitude conceal the fierce\r\ncourage of this race that can do amazing things when needed. They are\r\nwell known for their agility and nimbleness.\nStrength:     Below Ave\nConstitution: Above Ave\nHp Max:       Average\nHp Regen:     Below Ave\nDexterity:    Excellent\nStamina:      Above Ave\nEp Max:       Above Ave\nEp Regen:     Good\nIntelligence: Below Ave\nWisdom:       Poor\nSp Max:       Bad\nSp Regen:     Bad\nThey can train skills up to 100%\nThey can study spells up to 75%\nTheir experience rate is 99 %\nAverage height: 3 feet 2 inches\nAverage mass: 81\nThey have average charisma.\nThey learn skills faster than humans.\nThey learn spells much slower than humans.\nThey are naturally resistant to poison damage.\nThey are naturally resistant to magical damage."
+  },
+  "human": {
+    "name": "Human",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nH u m a n\nThe humans of Islands of Myth are the most common race, and also the\nmore adaptable one. Though less gifted than other races in a specific",
+    "stats": {
+      "strength": "Average",
+      "constitution": "Average",
+      "hp_max": "Average",
+      "hp_regen": "Average",
+      "dexterity": "Average",
+      "stamina": "Average",
+      "ep_max": "Average",
+      "ep_regen": "Average",
+      "intelligence": "Average",
+      "wisdom": "Average",
+      "sp_max": "Average",
+      "sp_regen": "Average",
+      "average_height": "5 feet 8 inches",
+      "average_mass": "176"
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nH u m a n\nThe humans of Islands of Myth are the most common race, and also the \r\nmore adaptable one. Though less gifted than other races in a specific \r\nguild, they are good learners, able to master skills and spells \r\nequally. They can be both fierce fighters and learned spellcasters.\nStrength:     Average\nConstitution: Average\nHp Max:       Average\nHp Regen:     Average\nDexterity:    Average\nStamina:      Average\nEp Max:       Average\nEp Regen:     Average\nIntelligence: Average\nWisdom:       Average\nSp Max:       Average\nSp Regen:     Average\nThey can train skills up to 95%\nThey can study spells up to 95%\nTheir experience rate is 100 %\nAverage height: 5 feet 8 inches\nAverage mass: 176\nThey have average charisma."
+  },
+  "kobold": {
+    "name": "Kobold",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nK o b o l d",
+    "stats": {
+      "strength": "Below Ave",
+      "constitution": "Below Ave",
+      "hp_max": "Below Ave",
+      "hp_regen": "Above Ave",
+      "dexterity": "Good",
+      "stamina": "Above Ave",
+      "ep_max": "Average",
+      "ep_regen": "Above Ave",
+      "intelligence": "Poor",
+      "wisdom": "Poor",
+      "sp_max": "Bad",
+      "sp_regen": "Bad",
+      "average_height": "3 feet 10 inches",
+      "average_mass": "85",
+      "notes": [
+        "They are considered to be quite repulsive creatures.",
+        "They can see in the dark.",
+        "They can eat corpses.",
+        "They are naturally vulnerable to asphyxiation damage.",
+        "They are naturally vulnerable to fire damage.",
+        "They are naturally vulnerable to cold damage.",
+        "They are naturally vulnerable to psionic damage.",
+        "They are naturally vulnerable to magical damage.",
+        "They are naturally vulnerable to physical damage."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nK o b o l d\nKobold are small, dog-like humanoids, with very few redeeming qualities. They usually live in large tribes for a lone kobold cannot expect to survive long. Numbers make their strength, since a crowd of kobold can overrun large foes. Kobolds generally live short and violent lives. Most other races shun the kobold. They are such cowardly, craven creatures, used to running away, that they can often flee combat with no ill effects.\nStrength:     Below Ave\nConstitution: Below Ave\nHp Max:       Below Ave\nHp Regen:     Above Ave\nDexterity:    Good\nStamina:      Above Ave\nEp Max:       Average\nEp Regen:     Above Ave\nIntelligence: Poor\nWisdom:       Poor\nSp Max:       Bad\nSp Regen:     Bad\nThey can train skills up to 90%\nThey can study spells up to 75%\nTheir experience rate is 119 %\nAverage height: 3 feet 10 inches\nAverage mass: 85\nThey are considered to be quite repulsive creatures.\nThey learn skills about as fast as humans.\nThey learn spells slower than humans.\nThey can see in the dark.\nThey can eat corpses.\nThey are naturally vulnerable to asphyxiation damage.\nThey are naturally vulnerable to fire damage.\nThey are naturally vulnerable to cold damage.\nThey are naturally vulnerable to psionic damage.\nThey are naturally vulnerable to magical damage.\nThey are naturally vulnerable to physical damage."
+  },
+  "leprechaun": {
+    "name": "Leprechaun",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nL e p r e c h a u n\nLeprechauns are very small beings that are distantly related\nto hobbits, though both races have gone separate ways a long\ntime ago. Leprechauns are usually playful and cheerful, being\nsometimes mischievous. They are nimble and have a quick mind,\nwhich gives them natural abilities at magic, even though they\nare a bit erratic and sometimes lack proper concentration for\nrituals and enchantments.",
+    "stats": {
+      "strength": "Terrible",
+      "constitution": "Poor",
+      "hp_max": "Poor",
+      "hp_regen": "Poor",
+      "dexterity": "Above Ave",
+      "stamina": "Poor",
+      "ep_max": "Poor",
+      "ep_regen": "Poor",
+      "intelligence": "Above Ave",
+      "wisdom": "Good",
+      "sp_max": "Good",
+      "sp_regen": "Good",
+      "average_height": "2 feet 10 inches",
+      "average_mass": "73",
+      "notes": [
+        "They are considered to be quite attractive creatures.",
+        "They are naturally extremely resistant to magical damage."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nL e p r e c h a u n\nLeprechauns are very small beings that are distantly related \r\nto hobbits, though both races have gone separate ways a long \r\ntime ago. Leprechauns are usually playful and cheerful, being \r\nsometimes mischievous. They are nimble and have a quick mind, \r\nwhich gives them natural abilities at magic, even though they \r\nare a bit erratic and sometimes lack proper concentration for \r\nrituals and enchantments.\nStrength:     Terrible\nConstitution: Poor\nHp Max:       Poor\nHp Regen:     Poor\nDexterity:    Above Ave\nStamina:      Poor\nEp Max:       Poor\nEp Regen:     Poor\nIntelligence: Above Ave\nWisdom:       Good\nSp Max:       Good\nSp Regen:     Good\nThey can train skills up to 80%\nThey can study spells up to 90%\nTheir experience rate is 118 %\nAverage height: 2 feet 10 inches\nAverage mass: 73\nThey are considered to be quite attractive creatures.\nThey learn skills slower than humans.\nThey learn spells much faster than humans.\nThey are naturally extremely resistant to magical damage."
+  },
+  "lizardman": {
+    "name": "Lizardman",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nL i z a r d m a n\nLizardmen are savage, semi-aquatic, reptilian humanoids that live\nthrough scavenging, raiding, and in less hostile areas, by fishing\nand gathering. Adult lizardmen stand 6-7 feet tall, weighing 200 to\n250 pounds. Skin tones range from dark green to grey and brown. They\nare scaled and have a flecked appearance. Their tails are 3-4 feet\nlong and although not prehensile are quite expressive. Males are\nnearly impossible to distinguish from females without either asking\nor close inspection. About one tribe in ten has evolved to a higher\nstate and it is these lizardmen that are sometimes seen adventuring.",
+    "stats": {
+      "strength": "Above Ave",
+      "constitution": "Above Ave",
+      "hp_max": "Above Ave",
+      "hp_regen": "Below Ave",
+      "dexterity": "Good",
+      "stamina": "Average",
+      "ep_max": "Average",
+      "ep_regen": "Above Ave",
+      "intelligence": "Poor",
+      "wisdom": "Above Ave",
+      "sp_max": "Bad",
+      "sp_regen": "Average",
+      "average_height": "6 feet 4 inches",
+      "average_mass": "254",
+      "notes": [
+        "They are considered to be quite attractive creatures.",
+        "They can eat corpses."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nL i z a r d m a n\nLizardmen are savage, semi-aquatic, reptilian humanoids that live\r\nthrough scavenging, raiding, and in less hostile areas, by fishing\r\nand gathering. Adult lizardmen stand 6-7 feet tall, weighing 200 to\r\n250 pounds. Skin tones range from dark green to grey and brown. They\r\nare scaled and have a flecked appearance. Their tails are 3-4 feet\r\nlong and although not prehensile are quite expressive. Males are\r\nnearly impossible to distinguish from females without either asking\r\nor close inspection. About one tribe in ten has evolved to a higher\r\nstate and it is these lizardmen that are sometimes seen adventuring.\nStrength:     Above Ave\nConstitution: Above Ave\nHp Max:       Above Ave\nHp Regen:     Below Ave\nDexterity:    Good\nStamina:      Average\nEp Max:       Average\nEp Regen:     Above Ave\nIntelligence: Poor\nWisdom:       Above Ave\nSp Max:       Bad\nSp Regen:     Average\nThey can train skills up to 95%\nThey can study spells up to 90%\nTheir experience rate is 87 %\nAverage height: 6 feet 4 inches\nAverage mass: 254\nThey are considered to be quite attractive creatures.\nThey learn skills slower than humans.\nThey learn spells much slower than humans.\nThey can eat corpses."
+  },
+  "mindflayer": {
+    "name": "Mindflayer",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nM i n d f l a y e r\nMindflayers come from the Dark of the Underworld, far from the light\nof the sun. Their tentacled heads contain evil genius unmatched in any\nother of the world's races. Said to feed on the brains of the fallen,\nmindflayers are also reputed to gain psionic power by feeding thus.\nMindflayers are highly magical, and can cast magics unknown to any\nover-large eyes. Where most races have their mouths, mindflayers have\na nest of foot-long tentacles, which they use to eat. Their voices are\nguttural, and they have a hard time pronouncing certain words.",
+    "stats": {
+      "strength": "Poor",
+      "constitution": "Poor",
+      "hp_max": "Poor",
+      "hp_regen": "Poor",
+      "dexterity": "Below Ave",
+      "stamina": "Poor",
+      "ep_max": "Bad",
+      "ep_regen": "Poor",
+      "intelligence": "Excellent",
+      "wisdom": "Excellent",
+      "sp_max": "Excellent",
+      "sp_regen": "Excellent",
+      "average_height": "5 feet 4 inches",
+      "average_mass": "100",
+      "notes": [
+        "They are considered to be totally repulsive creatures.",
+        "They can see in the dark.",
+        "They can eat corpses.",
+        "They are naturally vulnerable to fire damage.",
+        "They are naturally vulnerable to physical damage.",
+        "They are naturally extremely resistant to psionic damage."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nM i n d f l a y e r\nMindflayers come from the Dark of the Underworld, far from the light \r\nof the sun. Their tentacled heads contain evil genius unmatched in any \r\nother of the world's races. Said to feed on the brains of the fallen, \r\nmindflayers are also reputed to gain psionic power by feeding thus. \r\nMindflayers are highly magical, and can cast magics unknown to any \r\nother mortal. They are of average height, but have purplish skin and\r\nover-large eyes. Where most races have their mouths, mindflayers have \r\na nest of foot-long tentacles, which they use to eat. Their voices are\r\nguttural, and they have a hard time pronouncing certain words.\nStrength:     Poor\nConstitution: Poor\nHp Max:       Poor\nHp Regen:     Poor\nDexterity:    Below Ave\nStamina:      Poor\nEp Max:       Bad\nEp Regen:     Poor\nIntelligence: Excellent\nWisdom:       Excellent\nSp Max:       Excellent\nSp Regen:     Excellent\nThey can train skills up to 90%\nThey can study spells up to 100%\nTheir experience rate is 89 %\nAverage height: 5 feet 4 inches\nAverage mass: 100\nThey are considered to be totally repulsive creatures.\nThey learn skills MUCH slower than humans.\nThey learn spells much faster than humans.\nThey can see in the dark.\nThey can eat corpses.\nThey are naturally vulnerable to fire damage.\nThey are naturally vulnerable to physical damage.\nThey are naturally extremely resistant to psionic damage."
+  },
+  "minotaur": {
+    "name": "Minotaur",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nM i n o t a u r\nMinotaurs are very large hairy humanoids, with the head and\nhind-quarters of a bull and torso and arms similar to those\nof a human. Horns, hooves and hands together create an effective\noffense in most situations; combined with the Minotaur's naturally\nthick skin, they create fearsome combatant. Strong and robust,\nlarge and powerful, the Minotaur main weakness is their stupidity.\nThey are as well known for their simple-mindedness as they are for\ntheir combat abilities.",
+    "stats": {
+      "strength": "Excellent",
+      "constitution": "Excellent",
+      "hp_max": "Very Good",
+      "hp_regen": "Above Ave",
+      "dexterity": "Good",
+      "stamina": "Above Ave",
+      "ep_max": "Average",
+      "ep_regen": "Above Ave",
+      "intelligence": "Bad",
+      "wisdom": "Bad",
+      "sp_max": "Terrible",
+      "sp_regen": "Terrible",
+      "average_height": "6 feet 11 inches",
+      "average_mass": "276",
+      "notes": [
+        "They are considered to be rather unattractive creatures.",
+        "They are naturally extremely vulnerable to psionic damage.",
+        "They are naturally resistant to physical damage."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nM i n o t a u r\nMinotaurs are very large hairy humanoids, with the head and \r\nhind-quarters of a bull and torso and arms similar to those \r\nof a human. Horns, hooves and hands together create an effective \r\noffense in most situations; combined with the Minotaur's naturally \r\nthick skin, they create fearsome combatant. Strong and robust, \r\nlarge and powerful, the Minotaur main weakness is their stupidity.\r\nThey are as well known for their simple-mindedness as they are for \r\ntheir combat abilities.\nStrength:     Excellent\nConstitution: Excellent\nHp Max:       Very Good\nHp Regen:     Above Ave\nDexterity:    Good\nStamina:      Above Ave\nEp Max:       Average\nEp Regen:     Above Ave\nIntelligence: Bad\nWisdom:       Bad\nSp Max:       Terrible\nSp Regen:     Terrible\nThey can train skills up to 100%\nThey can study spells up to 50%\nTheir experience rate is 92 %\nAverage height: 6 feet 11 inches\nAverage mass: 276\nThey are considered to be rather unattractive creatures.\nThey learn skills about as fast as humans.\nThey learn spells MUCH slower than humans.\nThey are naturally extremely vulnerable to psionic damage.\nThey are naturally resistant to physical damage."
+  },
+  "ogier": {
+    "name": "Ogier",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nO g i e r\nWidely known as expert stonemasons, the Ogier were first seen in Islands of Myth\nduring the construction of the city, and the mysterious tunnels beneath it.\nTheir excellent eye for detail, speed of work and ability to work long hours\nthroughout the year led them to be much sought after. Known as a pacific\npeople who long for the old ways of tending living and growing thing, the\nOgier were not always this way. They were quick to act and quick on their\nfeet and considered some of the fiercest warriors. Unfortunately, in the ages\nsince the Ogier left their homes,\nthe Stedding, to come to Islands of Myth, they have become withdrawn and lost much\nof their mental capacity, now reputably slow to recover magical energies and\nwith long tufted ears and broad, vaguely snoutlike noses. However they are\nmuch larger and much longer lived, and can be most often seen adventuring as\nwoodsmen, rogues and fighters.",
+    "stats": {
+      "strength": "Good",
+      "constitution": "Very Good",
+      "hp_max": "Good",
+      "hp_regen": "Average",
+      "dexterity": "Excellent",
+      "stamina": "Above Ave",
+      "ep_max": "Above Ave",
+      "ep_regen": "Above Ave",
+      "intelligence": "Bad",
+      "wisdom": "Poor",
+      "sp_max": "Bad",
+      "sp_regen": "Bad",
+      "average_height": "10 feet",
+      "average_mass": "489",
+      "notes": [
+        "They can see in the dark."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nO g i e r\nWidely known as expert stonemasons, the Ogier were first seen in Islands of Myth  \r\nduring the construction of the city, and the mysterious tunnels beneath it.  \r\nTheir excellent eye for detail, speed of work and ability to work long hours \r\nthroughout the year led them to be much sought after. Known as a pacific     \r\npeople who long for the old ways of tending living and growing thing, the    \r\nOgier were not always this way. They were quick to act and quick on their    \r\nfeet and considered some of the fiercest warriors. Unfortunately, in the ages\r\nsince the Ogier left their homes,\r\nthe Stedding, to come to Islands of Myth, they have become withdrawn and lost much\r\nof their mental capacity, now reputably slow to recover magical energies and \r\nslow learners of spells and skills. Ogier resemble humans in general build,  \r\nwith long tufted ears and broad, vaguely snoutlike noses. However they are  \r\nmuch larger and much longer lived, and can be most often seen adventuring as\r\nwoodsmen, rogues and fighters.\nStrength:     Good\nConstitution: Very Good\nHp Max:       Good\nHp Regen:     Average\nDexterity:    Excellent\nStamina:      Above Ave\nEp Max:       Above Ave\nEp Regen:     Above Ave\nIntelligence: Bad\nWisdom:       Poor\nSp Max:       Bad\nSp Regen:     Bad\nThey can train skills up to 95%\nThey can study spells up to 60%\nTheir experience rate is 87 %\nAverage height: 10 feet\nAverage mass: 489\nThey have average charisma.\nThey learn skills much slower than humans.\nThey learn spells MUCH slower than humans.\nThey can see in the dark."
+  },
+  "phoenix": {
+    "name": "Phoenix",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nP h o e n i x\nThe phoenix is a legendary bird of fire, with the ability to return\nfrom beyond the grave. They are fierce in combat, but would rather\nuse their great intellect as their weapon. The phoenix are renowned\nfor their abandon in battle. They have been known to charge into combat\nagainst great odds, and with little hope for survival. When their great\nit is easy to see why the phoenix is one of the most feared races on\nIslands of Myth.",
+    "stats": {
+      "strength": "Below Ave",
+      "constitution": "Below Ave",
+      "hp_max": "Below Ave",
+      "hp_regen": "Below Ave",
+      "dexterity": "Average",
+      "stamina": "Below Ave",
+      "ep_max": "Poor",
+      "ep_regen": "Poor",
+      "intelligence": "Good",
+      "wisdom": "Above Ave",
+      "sp_max": "Good",
+      "sp_regen": "Very Good",
+      "average_height": "5 feet",
+      "average_mass": "109",
+      "notes": [
+        "They are considered to be quite attractive creatures.",
+        "They can see in the dark.",
+        "They can fly.",
+        "They are naturally extremely vulnerable to cold damage.",
+        "They are naturally extremely resistant to fire damage."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nP h o e n i x\nThe phoenix is a legendary bird of fire, with the ability to return\r\nfrom beyond the grave. They are fierce in combat, but would rather\r\nuse their great intellect as their weapon. The phoenix are renowned\r\nfor their abandon in battle. They have been known to charge into combat \r\nagainst great odds, and with little hope for survival. When their great \r\nintelligence and fighting spirit are coupled with their magical nature, \r\nit is easy to see why the phoenix is one of the most feared races on \r\nIslands of Myth.\nStrength:     Below Ave\nConstitution: Below Ave\nHp Max:       Below Ave\nHp Regen:     Below Ave\nDexterity:    Average\nStamina:      Below Ave\nEp Max:       Poor\nEp Regen:     Poor\nIntelligence: Good\nWisdom:       Above Ave\nSp Max:       Good\nSp Regen:     Very Good\nThey can train skills up to 90%\nThey can study spells up to 95%\nTheir experience rate is 102 %\nAverage height: 5 feet\nAverage mass: 109\nThey are considered to be quite attractive creatures.\nThey learn skills much slower than humans.\nThey learn spells faster than humans.\nThey can see in the dark.\nThey can fly.\nThey are naturally extremely vulnerable to cold damage.\nThey are naturally extremely resistant to fire damage."
+  },
+  "snakeman": {
+    "name": "Snakeman",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nS n a k e m a n\nSnakemen are a race of humanoid shaped reptiles. They have most of the features of the snake, with their scaly hide and their cold blood. Snakemen were created a long time ago by magic by a powerful mage that intended to use them as his servants. The experiment was a bit too successful and they proved themselves more intelligent than their creator and eliminated him. Since then, snakemen have always produced some of the best mages of the Islands of Myth world.",
+    "stats": {
+      "strength": "Poor",
+      "constitution": "Poor",
+      "hp_max": "Poor",
+      "hp_regen": "Below Ave",
+      "dexterity": "Below Ave",
+      "stamina": "Poor",
+      "ep_max": "Poor",
+      "ep_regen": "Below Ave",
+      "intelligence": "Excellent",
+      "wisdom": "Average",
+      "sp_max": "Very Good",
+      "sp_regen": "Excellent",
+      "average_height": "4 feet 4 inches",
+      "average_mass": "109",
+      "notes": [
+        "They are considered to be quite repulsive creatures.",
+        "They can see in the dark.",
+        "They are naturally resistant to poison damage.",
+        "They are naturally vulnerable to physical damage."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nS n a k e m a n\nSnakemen are a race of humanoid shaped reptiles. They have most of the features of the snake, with their scaly hide and their cold blood. Snakemen were created a long time ago by magic by a powerful mage that intended to use them as his servants. The experiment was a bit too successful and they proved themselves more intelligent than their creator and eliminated him. Since then, snakemen have always produced some of the best mages of the Islands of Myth world.\nStrength:     Poor\nConstitution: Poor\nHp Max:       Poor\nHp Regen:     Below Ave\nDexterity:    Below Ave\nStamina:      Poor\nEp Max:       Poor\nEp Regen:     Below Ave\nIntelligence: Excellent\nWisdom:       Average\nSp Max:       Very Good\nSp Regen:     Excellent\nThey can train skills up to 95%\nThey can study spells up to 100%\nTheir experience rate is 98 %\nAverage height: 4 feet 4 inches\nAverage mass: 109\nThey are considered to be quite repulsive creatures.\nThey learn skills much slower than humans.\nThey learn spells much faster than humans.\nThey can see in the dark.\nThey are naturally resistant to poison damage.\nThey are naturally vulnerable to physical damage."
+  },
+  "thrikhren": {
+    "name": "Thrikhren",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nT h r i k h r e n\nThrikhren are an ancient race of Mantis warriors and are very intelligent\ninsectoids. Thrikhrens are some of the most proficient mages in the world.\nTheir main area of expertise is in the mind; but this doesn't mean their\nbodies are lacking. They have strong shells and sharp claws that confer to",
+    "stats": {
+      "strength": "Below Ave",
+      "constitution": "Average",
+      "hp_max": "Average",
+      "hp_regen": "Poor",
+      "dexterity": "Above Ave",
+      "stamina": "Poor",
+      "ep_max": "Poor",
+      "ep_regen": "Poor",
+      "intelligence": "Excellent",
+      "wisdom": "Above Ave",
+      "sp_max": "Above Ave",
+      "sp_regen": "Very Good",
+      "average_height": "4 feet 7 inches",
+      "average_mass": "114",
+      "notes": [
+        "They can see in the dark.",
+        "They can eat corpses.",
+        "They are naturally resistant to poison damage.",
+        "They are naturally resistant to acid damage.",
+        "They are naturally resistant to physical damage."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nT h r i k h r e n\nThrikhren are an ancient race of Mantis warriors and are very intelligent \r\ninsectoids. Thrikhrens are some of the most proficient mages in the world.\r\nTheir main area of expertise is in the mind; but this doesn't mean their\r\nbodies are lacking. They have strong shells and sharp claws that confer to\r\nthem natural abilites welcome to any spellcaster.\nStrength:     Below Ave\nConstitution: Average\nHp Max:       Average\nHp Regen:     Poor\nDexterity:    Above Ave\nStamina:      Poor\nEp Max:       Poor\nEp Regen:     Poor\nIntelligence: Excellent\nWisdom:       Above Ave\nSp Max:       Above Ave\nSp Regen:     Very Good\nThey can train skills up to 95%\nThey can study spells up to 95%\nTheir experience rate is 87 %\nAverage height: 4 feet 7 inches\nAverage mass: 114\nThey have average charisma.\nThey learn skills slower than humans.\nThey learn spells about as fast as humans.\nThey can see in the dark.\nThey can eat corpses.\nThey are naturally resistant to poison damage.\nThey are naturally resistant to acid damage.\nThey are naturally resistant to physical damage."
+  },
+  "troll": {
+    "name": "Troll",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nT r o l l\nTrolls are tall and huge humanoids, covered with rubbery green skin.\nthey have wiry, blackhair, and dull, black eyes. Trolls skin is thick\nenough to deflect some attacks, and their regenerative powers are better\nthan any other race. Trolls, however, are very stupid creatures, with\nlittle gift for magic, and who learn very slowly.",
+    "stats": {
+      "strength": "Excellent",
+      "constitution": "Excellent",
+      "hp_max": "Very Good",
+      "hp_regen": "Excellent",
+      "dexterity": "Average",
+      "stamina": "Above Ave",
+      "ep_max": "Above Ave",
+      "ep_regen": "Good",
+      "intelligence": "Terrible",
+      "wisdom": "Terrible",
+      "sp_max": "Terrible",
+      "sp_regen": "Terrible",
+      "average_height": "8 feet 6 inches",
+      "average_mass": "443",
+      "notes": [
+        "They are considered to be quite repulsive creatures.",
+        "They can see in the dark.",
+        "They can eat corpses.",
+        "They are naturally resistant to physical damage."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nT r o l l\nTrolls are tall and huge humanoids, covered with rubbery green skin.\r\nthey have wiry, blackhair, and dull, black eyes. Trolls skin is thick \r\nenough to deflect some attacks, and their regenerative powers are better \r\nthan any other race. Trolls, however, are very stupid creatures, with\r\nlittle gift for magic, and who learn very slowly.\nStrength:     Excellent\nConstitution: Excellent\nHp Max:       Very Good\nHp Regen:     Excellent\nDexterity:    Average\nStamina:      Above Ave\nEp Max:       Above Ave\nEp Regen:     Good\nIntelligence: Terrible\nWisdom:       Terrible\nSp Max:       Terrible\nSp Regen:     Terrible\nThey can train skills up to 90%\nThey can study spells up to 10%\nTheir experience rate is 89 %\nAverage height: 8 feet 6 inches\nAverage mass: 443\nThey are considered to be quite repulsive creatures.\nThey learn skills much slower than humans.\nThey learn spells MUCH slower than humans.\nThey can see in the dark.\nThey can eat corpses.\nThey are naturally resistant to physical damage."
+  },
+  "vampire": {
+    "name": "Vampire",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nV a m p i r e\nVampires are wrapped in mystery. Very little is known about this\nrace. The only thing known for sure is that they have a definite\naversion to light of any type. Another tell tale sign is that of\nthe pointed ears and pale skin. Vampires almost always have a deathly\nwhite pallor to their skin.",
+    "stats": {
+      "strength": "Average",
+      "constitution": "Good",
+      "hp_max": "Average",
+      "hp_regen": "Below Ave",
+      "dexterity": "Average",
+      "stamina": "Below Ave",
+      "ep_max": "Bad",
+      "ep_regen": "Poor",
+      "intelligence": "Excellent",
+      "wisdom": "Good",
+      "sp_max": "Good",
+      "sp_regen": "Very Good",
+      "average_height": "6 feet 3 inches",
+      "average_mass": "173",
+      "notes": [
+        "They are considered to be rather unattractive creatures.",
+        "They can see in the dark.",
+        "They only heal in dark places.",
+        "They are naturally extremely vulnerable to holy damage.",
+        "They are naturally resistant to unholy damage.",
+        "They are naturally resistant to magical damage."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nV a m p i r e\nVampires are wrapped in mystery. Very little is known about this \r\nrace. The only thing known for sure is that they have a definite\r\naversion to light of any type. Another tell tale sign is that of\r\nthe pointed ears and pale skin. Vampires almost always have a deathly\r\nwhite pallor to their skin.\nStrength:     Average\nConstitution: Good\nHp Max:       Average\nHp Regen:     Below Ave\nDexterity:    Average\nStamina:      Below Ave\nEp Max:       Bad\nEp Regen:     Poor\nIntelligence: Excellent\nWisdom:       Good\nSp Max:       Good\nSp Regen:     Very Good\nThey can train skills up to 95%\nThey can study spells up to 100%\nTheir experience rate is 82 %\nAverage height: 6 feet 3 inches\nAverage mass: 173\nThey are considered to be rather unattractive creatures.\nThey learn skills slower than humans.\nThey learn spells about as fast as humans.\nThey can see in the dark.\nThey only heal in dark places.\nThey are naturally extremely vulnerable to holy damage.\nThey are naturally resistant to unholy damage.\nThey are naturally resistant to magical damage."
+  },
+  "vinnipier": {
+    "name": "Vinnipier",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nV i n n i p i e r\nVinnipier are a genetic mistake in an elf offbreed. They have small\npointy ears like elves do, but are physically stronger being a race\nmuch more warlike than elves. They have small oval shaped blue eyes\nand an awkward slanted head. They stagger constantly, possibly due\nto the genetic mistake. This makes them appear to be intoxicated\nalmost constantly.",
+    "stats": {
+      "strength": "Good",
+      "constitution": "Above Ave",
+      "hp_max": "Average",
+      "hp_regen": "Above Ave",
+      "dexterity": "Very Good",
+      "stamina": "Below Ave",
+      "ep_max": "Average",
+      "ep_regen": "Above Ave",
+      "intelligence": "Below Ave",
+      "wisdom": "Below Ave",
+      "sp_max": "Bad",
+      "sp_regen": "Poor",
+      "average_height": "5 feet 2 inches",
+      "average_mass": "129",
+      "notes": [
+        "They are considered to be fascinating creatures.",
+        "They are naturally extremely resistant to magical damage."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nV i n n i p i e r\nVinnipier are a genetic mistake in an elf offbreed. They have small \r\npointy ears like elves do, but are physically stronger being a race \r\nmuch more warlike than elves. They have small oval shaped blue eyes \r\nand an awkward slanted head. They stagger constantly, possibly due \r\nto the genetic mistake. This makes them appear to be intoxicated \r\nalmost constantly.\nStrength:     Good\nConstitution: Above Ave\nHp Max:       Average\nHp Regen:     Above Ave\nDexterity:    Very Good\nStamina:      Below Ave\nEp Max:       Average\nEp Regen:     Above Ave\nIntelligence: Below Ave\nWisdom:       Below Ave\nSp Max:       Bad\nSp Regen:     Poor\nThey can train skills up to 100%\nThey can study spells up to 80%\nTheir experience rate is 94 %\nAverage height: 5 feet 2 inches\nAverage mass: 129\nThey are considered to be fascinating creatures.\nThey learn skills about as fast as humans.\nThey learn spells about as fast as humans.\nThey are naturally extremely resistant to magical damage."
+  },
+  "xorn": {
+    "name": "Xorn",
+    "description": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nX o r n\ndig to <loc>\n).",
+    "stats": {
+      "strength": "Excellent",
+      "constitution": "Good",
+      "hp_max": "Good",
+      "hp_regen": "Above Ave",
+      "dexterity": "Above Ave",
+      "stamina": "Good",
+      "ep_max": "Above Ave",
+      "ep_regen": "Good",
+      "intelligence": "Terrible",
+      "wisdom": "Terrible",
+      "sp_max": "Terrible",
+      "sp_regen": "Terrible",
+      "average_height": "8 feet 4 inches",
+      "average_mass": "434",
+      "notes": [
+        "They are considered to be quite repulsive creatures.",
+        "They can see in the dark.",
+        "They are naturally resistant to cold damage.",
+        "They are naturally resistant to physical damage.",
+        "They are naturally resistant to fire damage."
+      ]
+    },
+    "raw": "Islands of Myth\nThe Mud\nGuilds\nRaces\nHelp\nConnect\nLinks\nGame Info\nCromagnon\nDrow\nDwarf\nElf\nEnt\nFaerie\nGargoyle\nGiant\nGnome\nGoblin\nGrorrark\nHalfelf\nHobbit\nHuman\nKobold\nLeprechaun\nLizardman\nMindflayer\nMinotaur\nOgier\nPhoenix\nSnakeman\nThrikhren\nTroll\nVampire\nVinnipier\nXorn\nX o r n\nXorns are wide hulking beasts with thick green scale hide. It is not  very clear where this hardly thinking race came from, but they imposed their presence and power on most battlefields. They are fearsome warriors, that possess incredible strength and impressive dexterity considering their size.  Having a natural affinity for stone, they are known to be able to dig through solid rock to places (\ndig to <loc>\n).\nStrength:     Excellent\nConstitution: Good\nHp Max:       Good\nHp Regen:     Above Ave\nDexterity:    Above Ave\nStamina:      Good\nEp Max:       Above Ave\nEp Regen:     Good\nIntelligence: Terrible\nWisdom:       Terrible\nSp Max:       Terrible\nSp Regen:     Terrible\nThey can train skills up to 90%\nThey can study spells up to 25%\nTheir experience rate is 94 %\nAverage height: 8 feet 4 inches\nAverage mass: 434\nThey are considered to be quite repulsive creatures.\nThey learn skills slower than humans.\nThey learn spells MUCH slower than humans.\nThey can see in the dark.\nThey are naturally resistant to cold damage.\nThey are naturally resistant to physical damage.\nThey are naturally resistant to fire damage."
+  }
+}

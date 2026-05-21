@@ -1,0 +1,8 @@
+name = "iom-relay"
+main = "iom-relay.js"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[kv_namespaces]]
+binding = "IOM_LOGS"
+id = "b3e5c14bebda4fae9446e468e8968025"

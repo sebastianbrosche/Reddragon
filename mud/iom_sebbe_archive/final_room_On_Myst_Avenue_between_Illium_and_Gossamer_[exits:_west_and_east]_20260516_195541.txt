@@ -1,0 +1,8 @@
+{
+  "look": "On Myst Avenue between Illium and Gossamer [exits: west and east]\r\n Standing in the inner sanctum of Central Square, the fountain there can be seen through the trees. North and south of you lay more of\r\nthe large trees, and their guardian wisps. Though through the trunks to the south, you can see the glittering of pools.\r\n\r\nA floating moonflower vine (glowing)\r\n\r\n",
+  "exits": "You notice these exits:\r\n          East :  Intersection of\r\n                  Gossamer and Myst\r\n          West :  Central Square\r\n",
+  "scan": "opyt typo or something. Yes you just Typoed!\r\n",
+  "from": "Central Square [exits: south, west, north, east and fountain]",
+  "via": "east",
+  "enter_msg": "Several large wisps buzz your head in play.\r\nOn Myst Avenue between Illium and Gossamer [exits: west and east]\r\nA floating moonflower vine (glowing)\r\n\r\n"
+}

@@ -1,0 +1,11 @@
+Heart of Illium [exits: out]
+ You stand inside the Fountain of Illium, in the very heart of the city. The white marble floor, though covered in water, is not
+slippery. Water rushes down the walls and splashes into a small channel at the floor base. The walls are made of gold and lined with
+silver. Two windows are on each side of you. They are made from the water running over the arches to the rooms. While they look like
+glass, you see people walking through them, just as you did to enter here. Lights glitter and glow behind them, and words and colors
+flow within them. Type 'la <first/second> window' to read what they say.
+
+A blue tome sitting on a marble pedestal.
+
+
+Crabstick [myth]: Yeah that's what I'm tossing up 

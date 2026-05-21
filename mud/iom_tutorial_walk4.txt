@@ -1,0 +1,26 @@
+# Islands of Myth — Tutorial Walk-Through v4
+# 2026-05-14 06:04:18
+
+
+======================================================================
+=== LOGIN ===
+======================================================================
+
+Last login: Wed May 13 18:03:10 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+[0mMCCP - Mud Client Compression Protocol Supported
+[0mMXP - Mud Extension Protocol Supported
+[0mA dark, sucking portal appears. You fall from it!
+[0mWelcome back!
+[0m>[0mWelcome back, Chronicler! Restarting the guide for you......
+[0m
+MUDs are multi-player games. Many people from all over the world log into this
+    game at the same time. To find out who is logged in at any point in time,
+    type 'who'. Type 'who' right now to see who is logged in.
+>[0m
+MUDs are multi-player games. Many people from all over the world log into this
+    game at the same time. To find out who is logged in at any point in time,
+    type 'who'. Type 'who' right now to see who is logged in.
+>[0m

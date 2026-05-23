@@ -42,15 +42,37 @@ class Room(DefaultRoom):
     def return_appearance(self, looker, **kwargs):
         """
         Return room appearance (IOM-style formatting).
+        
+        Format:
+          Room Name [exits: west, south, ...]
+          Description text...
         """
         from evennia.utils.utils import list_to_string
         
-        # Get room name and description
+        # Get room name
         name = self.get_display_name(looker, **kwargs)
-        desc = self.db.desc or "You see nothing special."
         
-        # Build appearance
-        appearance = f"{name}\n{desc}\n"
+        # Build exits line in magenta (IOM style)
+        exits = [ex for ex in self.exits if ex.access(looker, "traverse")]
+        if exits:
+            exit_names = [ex.key for ex in exits]
+            # Format like "west, south, southeast, northeast, north, southwest and east"
+            if len(exit_names) == 1:
+                exit_str = exit_names[0]
+            elif len(exit_names) == 2:
+                exit_str = f"{exit_names[0]} and {exit_names[1]}"
+            else:
+                exit_str = ", ".join(exit_names[:-1]) + f" and {exit_names[-1]}"
+            exits_line = f"|m[exits: {exit_str}]|n"
+        else:
+            exits_line = "|m[exits: none]|n"
+        
+        # Room name + exits on same line or adjacent
+        appearance = f"{name}\n{exits_line}\n"
+        
+        # Description
+        desc = self.db.desc or "You see nothing special."
+        appearance += f"  {desc}\n"
         
         # Add atmosphere
         if self.db.smell:
@@ -60,7 +82,7 @@ class Room(DefaultRoom):
         
         # List objects
         objects = [obj for obj in self.contents 
-                   if obj != looker and not hasattr(obj.db, 'is_mob')]
+                   if obj != looker and not hasattr(obj.db, 'is_mob') and not obj.destination]
         if objects:
             object_names = []
             for obj in objects:
@@ -70,18 +92,12 @@ class Room(DefaultRoom):
                     object_names.append(obj.key)
             appearance += f"\n{list_to_string(object_names)}.\n"
         
-        # List characters
+        # List characters / mobs
         characters = [char for char in self.contents 
                      if char != looker and hasattr(char.db, 'is_mob') and char.db.is_mob]
         if characters:
             char_names = [char.key for char in characters]
             appearance += f"\n{list_to_string(char_names)} is here.\n"
-        
-        # List exits
-        exits = [ex for ex in self.exits if ex.access(looker, "traverse")]
-        if exits:
-            exit_names = [ex.key for ex in exits]
-            appearance += f"\n[Obvious exits: {', '.join(exit_names)}]\n"
         
         return appearance
     

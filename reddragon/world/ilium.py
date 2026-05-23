@@ -181,7 +181,7 @@ def create_ilium_adventurers_guild():
     create_exit(level_room, maxxis_shop, "east", "west")
     
     # -------------------------------------------------------------------------
-    # CLOUD ROAD (north of Silent Room / outside the guild)
+    # CLOUD ROAD (north of guild entrance — IOM shows @ has 'north' exit)
     # -------------------------------------------------------------------------
     cloud_road = create_object("typeclasses.rooms.Room", key="On Cloud Road between Gossamer and Titan")
     cloud_road.db.desc = (
@@ -204,7 +204,8 @@ def create_ilium_adventurers_guild():
                              location=cloud_road)
     memorial.db.desc = "A grand memorial stands here, commemorating the founding of the guild."
     
-    create_exit(silent_room, cloud_road, "north", "south")
+    # @ north → Cloud Road; Cloud Road south → @
+    create_exit(guild_entrance, cloud_road, "north", "south")
     
     # -------------------------------------------------------------------------
     # INTERSECTION OF CLOUD AND TITAN (east of cloud road)
@@ -297,7 +298,16 @@ def create_ilium_adventurers_guild():
     formula2.db.formula_name = "Lesser Wisdoms"
     formula2.db.desc = "A mysterious formula that can be used to create headgear."
     
-    return guild_entrance
+    return {
+        "entrance": guild_entrance,
+        "level_room": level_room,
+        "silent_room": silent_room,
+        "plaque_room": plaque_room,
+        "portal_room": portal_room,
+        "myth_room": myth_room,
+        "maxxis_shop": maxxis_shop,
+        "cloud_road": cloud_road,
+    }
 
 
 # =============================================================================
@@ -401,13 +411,19 @@ def create_newbie_guild():
 
 def build_ilium_city():
     """Build the complete Ilium City area."""
-    guild = create_ilium_adventurers_guild()
+    guild_area = create_ilium_adventurers_guild()
     newbie_guild = create_newbie_guild()
     
+    guild_entrance = guild_area["entrance"]
+    level_room = guild_area["level_room"]
+    
     # Connect newbie guild to adventurer guild (southeast from hub, northwest from newbie)
-    create_exit(guild, newbie_guild, "southeast", "northwest")
+    create_exit(guild_entrance, newbie_guild, "southeast", "northwest")
+    
+    # Map shows 5 (Newbie Guild) is also south of 2 (Level Room)
+    create_exit(level_room, newbie_guild, "south", "north")
     
     # TODO: As the subagent maps more rooms, expand this function
     # to connect additional streets, buildings, and landmarks.
     
-    return guild
+    return guild_entrance

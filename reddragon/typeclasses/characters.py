@@ -119,6 +119,10 @@ class Character(DefaultCharacter):
         """
         super().at_post_puppet(**kwargs)
         
+        # Initialize session statistics
+        from commands.summary import init_session_stats
+        init_session_stats(self)
+        
         # Show score on login
         self.msg(self.get_score_display())
         

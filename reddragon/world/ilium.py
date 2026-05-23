@@ -153,14 +153,35 @@ def create_ilium_adventurers_guild():
     portal_room = create_object("typeclasses.rooms.Room", key="Portal Room")
     portal_room.db.desc = (
         "This small room houses the portals to the alpha guilds of Islands of Myth "
-        "for the ease and convenience of all adventurers. A shimmering gateway "
-        "stands in each direction, leading to the various guild headquarters."
+        "for the ease and convenience of all adventurers."
     )
     portal_room.db.area = "Ilium City"
     portal_room.db.danger_level = 0
     portal_room.db.is_outdoors = False
     
     create_exit(guild_entrance, portal_room, "southwest", "northeast")
+    
+    # Guild portal exits (lead to guild headquarters - currently loop back as placeholders)
+    guilds = [
+        "shifter", "abjurer", "elemental", "woodsman", "martial_artist",
+        "lurker", "druid", "acrobat", "weaver", "evoker", "unraveller",
+        "psychics", "warrior"
+    ]
+    
+    for guild in guilds:
+        # Create a placeholder destination room for each guild
+        guild_room = create_object("typeclasses.rooms.Room", key=f"{guild.capitalize()} Guild")
+        guild_room.db.desc = f"The {guild.capitalize()} Guild headquarters. A place of training and power."
+        guild_room.db.area = "Ilium City"
+        guild_room.db.danger_level = 0
+        guild_room.db.is_outdoors = False
+        
+        # Portal exit from portal room to guild (one-way portal)
+        portal_exit = create_object("typeclasses.exits.Exit", key=guild,
+                                     location=portal_room, destination=guild_room)
+        # Return exit from guild back to portal room
+        return_exit = create_object("typeclasses.exits.Exit", key="portal",
+                                     location=guild_room, destination=portal_room)
     
     # -------------------------------------------------------------------------
     # 4: MYTH ROOM (south of hub)

@@ -8,6 +8,7 @@ from evennia import CmdSet
 from evennia.utils import search
 from commands.economy import CmdBuy, CmdSell, CmdList, CmdDeposit, CmdWithdraw, CmdBalance
 from commands.who import CmdWho
+from commands.summary import CmdSummary, init_session_stats
 
 class CmdKill(Command):
     """
@@ -439,6 +440,9 @@ class CmdMove(Command):
             caller.msg(f"You can't go {direction}.")
 
 
+from commands.summary import CmdSummary, init_session_stats
+
+
 class CombatCmdSet(CmdSet):
     """
     Holds all combat commands.
@@ -457,6 +461,7 @@ class CombatCmdSet(CmdSet):
         self.add(CmdWimpy)
         self.add(CmdMove)
         self.add(CmdWho)
+        self.add(CmdSummary)
         # Economy commands
         self.add(CmdBuy)
         self.add(CmdSell)

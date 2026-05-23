@@ -60,6 +60,9 @@ CMDSET_CHARACTER = "commands.combat.CombatCmdSet"
 # Account command set (login/register commands)
 CMDSET_ACCOUNT = "commands.account.AccountCmdSet"
 
+# Unlogged-in command set (custom IOM-style login flow)
+CMDSET_UNLOGGEDIN = "commands.unloggedin.UnloggedinCmdSet"
+
 ######################################################################
 # Starting Location
 ######################################################################
@@ -79,7 +82,8 @@ START_LOCATION = "#2"
 # Connection Screen
 ######################################################################
 
-CONNECTION_SCREEN_MODULE = "server.conf.connection_screens"
+# Our custom unloggedin module provides the connection screen
+CONNECTION_SCREEN_MODULE = "commands.unloggedin"
 
 ######################################################################
 # Permissions
@@ -117,6 +121,10 @@ IDLE_TIMEOUT = 3600
 
 # Max simultaneous sessions per account
 MAX_NR_SIMULTANEOUS_LOGIN = 3
+
+# Auto-puppet settings - we handle puppeting manually in our custom login flow
+AUTO_PUPPET = False
+AUTO_CREATE_CHARACTER_WITH_ACCOUNT = False
 
 ######################################################################
 # Database (SQLite for dev)

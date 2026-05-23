@@ -440,37 +440,29 @@ def _post_login(session, account):
 # ---------------------------------------------------------------------------
 
 def _get_login_screen():
-    """Return the main login screen."""
+    """Return the main login screen in IOM box format."""
     from evennia.utils.utils import get_evennia_version
     try:
         nplayers = SESSIONS.account_count()
-        online_text = f"|y  Players currently online: {nplayers}|n" if nplayers else "|y  No players currently online.|n"
     except:
-        online_text = ""
+        nplayers = 0
     
-    return f"""
-|b___________________________________________________________________________|n
-|b|n
-|b  _____             _               _   _                 _|n
-|b |  __ \\           | |             | | | |               | ||n
-|b | |  | | __ _ _ __| | _____  _   _| |_| |__   __ _ _ __ | |__   ___ _ __|n
-|b | |  | |/ _` | '__| |/ / _ \\| | | | __| '_ \\ / _` | '_ \\| '_ \\ / _ \\ '__||n
-|b | |__| | (_| | |  |   <  __/| |_| | |_| | | | (_| | | | | | | |  __/ |   |n
-|b |_____/ \\__,_|_|  |_|\\_\\___| \\__, |\\__|_| |_|\\__,_|_| |_|_| |_|\\___|_|   |n
-|b                               __/ |                                      |n
-|b                              |___/                                       |n
-|b___________________________________________________________________________|n|n
-|g  Based on the classic 1995 MUD "Red Dragon" - now reborn as Darkstaff|n
-|g  A heavily modified LIMA mudlib running on Evennia (Python)|n
-|b___________________________________________________________________________|n|n
-  [|gn|n] - Enter your name to log in
-  [|gc|n] - Create a new character
-  [|gw|n] - See who is currently playing
-  [|gs|n] - Server status
-  [|gd|n] - Disconnect
-
-{online_text}
-|b___________________________________________________________________________|n|n
+    return f"""|n
+|c----------------------------------------------------------------------------|n
+|gMyth of Islands|n is running an |yEvennia|n base, heavily modified.
+|c----------------------------------------------------------------------------|n
+ |w______________________________________________________________|n
+ |                                                              |
+ | |yCurrently there are {nplayers} player{"'s" if nplayers != 1 else ""} playing.|n                              |__
+ |w______________________________________________________________|n |
+ |                                                                |
+ |  [|gn|n] - Enter the game as [name]                              |
+ |  [|gd|n] - Disconnect.                                         |
+ |  [|gs|n] - Status of the game.                                  |
+ |  [|gw|n] - Who is currently playing.                             |
+ |  [|gc|n] - Create a new character.                              |
+ |w________________________________________________________________|n
+|yPlease enter a name or choice from the above menu.|n
 """
 
 
@@ -481,7 +473,7 @@ def _get_new_player_screen():
 |b|n
 |b  Welcome, Adventurer!|n
 |b___________________________________________________________________________|n|n
-  You are about to enter the world of Darkstaff, a realm of magic,
+  You are about to enter the world of Myth of Islands, a realm of magic,
   monsters, and mystery. Choose your race wisely, for it will shape
   your destiny.
 

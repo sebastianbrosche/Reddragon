@@ -26,13 +26,39 @@ def create_exit(origin, destination, exit_name, return_name=None):
 # =============================================================================
 
 def create_ilium_adventurers_guild():
-    """Create the Adventurers' Guild area of Ilium City."""
+    r"""Create the Adventurers' Guild area of Ilium City.
+    
+    Map layout (from IOM):
+    
+        | 0        [Cloud Road is north of 0]
+        |/
+    1-@-2 +-6
+     /|\  |
+    3 4 +-5-7
+        |
+        +-8
+        |
+        9
+    
+    0 = Silent Room
+    1 = Plaque Room
+    2 = Level Advance (Level Room)
+    3 = Portal room
+    4 = Myth room
+    5 = Newbie guild
+    6 = Maxxis' shop
+    7 = Equipment Machine
+    8 = Tree of Life
+    9 = Reinc portal
+    
+    @ = Adventurer Guild Entrance (hub)
+    """
     
     # -------------------------------------------------------------------------
-    # ADVENTURER GUILD ENTRANCE (hub room)
+    # HUB: ADVENTURER GUILD ENTRANCE (@ on map)
     # -------------------------------------------------------------------------
-    adventurer_guild = create_object("typeclasses.rooms.Room", key="Adventurer Guild Entrance")
-    adventurer_guild.db.desc = (
+    guild_entrance = create_object("typeclasses.rooms.Room", key="Adventurer Guild Entrance")
+    guild_entrance.db.desc = (
         "This large room is the Adventurers guild. Truly breathtaking in its "
         "architecture, the guild houses a vast amount of help for the new "
         "adventurers and the old. Its high domed ceiling swirls with blue and "
@@ -40,20 +66,52 @@ def create_ilium_adventurers_guild():
         "there are windows all along the wall, the room seems very open and "
         "very friendly."
     )
-    adventurer_guild.db.area = "Ilium City"
-    adventurer_guild.db.room_type = "guild"
-    adventurer_guild.db.has_guild = True
-    adventurer_guild.db.danger_level = 0
-    adventurer_guild.db.is_outdoors = False
+    guild_entrance.db.area = "Ilium City"
+    guild_entrance.db.room_type = "guild"
+    guild_entrance.db.has_guild = True
+    guild_entrance.db.danger_level = 0
+    guild_entrance.db.is_outdoors = False
     
     # -------------------------------------------------------------------------
-    # LEVEL ROOM / JUDGE ROOM (east of guild entrance)
+    # 0: SILENT ROOM (north of hub, via northeast from hub)
     # -------------------------------------------------------------------------
-    level_room = create_object("typeclasses.rooms.Room", key="Adventurers Leveling Place")
+    silent_room = create_object("typeclasses.rooms.Room", key="Silent Room")
+    silent_room.db.desc = (
+        "This is a silent room where no channels/tells/says can reach you."
+    )
+    silent_room.db.area = "Ilium City"
+    silent_room.db.danger_level = 0
+    silent_room.db.is_outdoors = False
+    silent_room.db.ambient_msgs = [
+        (0.05, "The silence presses against your ears like a physical weight.")
+    ]
+    
+    create_exit(guild_entrance, silent_room, "northeast", "southwest")
+    
+    # -------------------------------------------------------------------------
+    # 1: PLAQUE ROOM (west of hub)
+    # -------------------------------------------------------------------------
+    plaque_room = create_object("typeclasses.rooms.Room", key="Plaque Rooms")
+    plaque_room.db.desc = (
+        "This large and marbleized room holds the famed plaques of Islands of Myth. "
+        "Because it is valued among so many adventurers, its encasing is grand indeed. "
+        "The walls are made of a solid white rock, lined with veins of blue. The floor "
+        "is blue quartz. The numerous plaques hang on the walls."
+    )
+    plaque_room.db.area = "Ilium City"
+    plaque_room.db.danger_level = 0
+    plaque_room.db.is_outdoors = False
+    
+    create_exit(guild_entrance, plaque_room, "west", "east")
+    
+    # -------------------------------------------------------------------------
+    # 2: LEVEL ROOM / JUDGE ROOM (east of hub)
+    # -------------------------------------------------------------------------
+    level_room = create_object("typeclasses.rooms.Room", key="Level Room")
     level_room.db.desc = (
         "This room is large, and the ceiling is high. In the center stands a "
         "large podium. Upon that podium sits Achman, the judge. He controls the "
-        "levels of Red Dragon, and has the power to create some of the strongest "
+        "levels of Islands of Myth, and has the power to create some of the strongest "
         "players. He sits in a high back chair built into the podium. Talk to him "
         "if you wish to advance in your endeavors."
     )
@@ -65,10 +123,25 @@ def create_ilium_adventurers_guild():
     achman = create_object("typeclasses.npcs.JudgeAchman", key="Achman the Judge",
                            location=level_room)
     
-    create_exit(adventurer_guild, level_room, "east", "west")
+    create_exit(guild_entrance, level_room, "east", "west")
     
     # -------------------------------------------------------------------------
-    # MYTH ROOM (south of guild entrance)
+    # 3: PORTAL ROOM (southwest of hub)
+    # -------------------------------------------------------------------------
+    portal_room = create_object("typeclasses.rooms.Room", key="Portal Room")
+    portal_room.db.desc = (
+        "This small room houses the portals to the alpha guilds of Islands of Myth "
+        "for the ease and convenience of all adventurers. A shimmering gateway "
+        "stands in each direction, leading to the various guild headquarters."
+    )
+    portal_room.db.area = "Ilium City"
+    portal_room.db.danger_level = 0
+    portal_room.db.is_outdoors = False
+    
+    create_exit(guild_entrance, portal_room, "southwest", "northeast")
+    
+    # -------------------------------------------------------------------------
+    # 4: MYTH ROOM (south of hub)
     # -------------------------------------------------------------------------
     myth_room = create_object("typeclasses.rooms.Room", key="Myth Room")
     myth_room.db.desc = (
@@ -80,67 +153,41 @@ def create_ilium_adventurers_guild():
     myth_room.db.danger_level = 0
     myth_room.db.is_outdoors = False
     
-    create_exit(adventurer_guild, myth_room, "south", "north")
+    create_exit(guild_entrance, myth_room, "south", "north")
     
     # -------------------------------------------------------------------------
-    # SILENT ROOM (northeast of guild entrance)
+    # 6: MAXXIS' SHOP (northeast of Level Room / east of hub area)
     # -------------------------------------------------------------------------
-    silent_room = create_object("typeclasses.rooms.Room", key="Silent Room")
-    silent_room.db.desc = (
-        "This is a silent room where no channels, tells, or says can reach you. "
-        "The air feels thick and muffled, as if sound itself has been drained "
-        "from the space. It is a place of refuge for those who need absolute "
-        "quiet from the chatter of the world."
+    maxxis_shop = create_object("typeclasses.rooms.ShopRoom", key="Maxxis' Shop")
+    maxxis_shop.db.desc = (
+        "Shelves line every wall of this cozy shop, packed with goods for the "
+        "traveling adventurer. The smell of leather, oil, and dried herbs fills "
+        "the air. Maxxis, the shopkeeper, watches over his wares with a keen eye."
     )
-    silent_room.db.area = "Ilium City"
-    silent_room.db.danger_level = 0
-    silent_room.db.is_outdoors = False
-    silent_room.db.ambient_msgs = [
-        (0.05, "The silence presses against your ears like a physical weight.")
-    ]
+    maxxis_shop.db.area = "Ilium City"
+    maxxis_shop.db.danger_level = 0
+    maxxis_shop.db.is_outdoors = False
     
-    create_exit(adventurer_guild, silent_room, "northeast", "southwest")
+    # Create shopkeeper NPC
+    maxxis = create_object("typeclasses.shops.Shopkeeper", key="Maxxis the Shopkeeper",
+                           location=maxxis_shop)
+    maxxis.db.items_for_sale = {
+        "a torch": {"price": 10, "stock": 50},
+        "a healing potion": {"price": 50, "stock": 20},
+        "a bread roll": {"price": 5, "stock": 100},
+        "a waterskin": {"price": 15, "stock": 30},
+    }
     
-    # -------------------------------------------------------------------------
-    # PLAQUE ROOMS (west of guild entrance)
-    # -------------------------------------------------------------------------
-    plaque_rooms = create_object("typeclasses.rooms.Room", key="Plaque Rooms")
-    plaque_rooms.db.desc = (
-        "This large and marbleized room holds the famed plaques of Red Dragon. "
-        "Because it is valued among so many adventurers, its encasing is grand "
-        "indeed. The walls are made of a solid white rock, lined with veins of "
-        "blue. The floor is blue quartz. The numerous plaques hang on the walls, "
-        "each one commemorating a great deed or legendary adventurer."
-    )
-    plaque_rooms.db.area = "Ilium City"
-    plaque_rooms.db.danger_level = 0
-    plaque_rooms.db.is_outdoors = False
-    
-    create_exit(adventurer_guild, plaque_rooms, "west", "east")
+    create_exit(level_room, maxxis_shop, "east", "west")
     
     # -------------------------------------------------------------------------
-    # PORTAL ROOM (southwest of guild entrance)
-    # -------------------------------------------------------------------------
-    portal_room = create_object("typeclasses.rooms.Room", key="Portal Room")
-    portal_room.db.desc = (
-        "This small room houses the portals to the alpha guilds of Red Dragon "
-        "for the ease and convenience of all adventurers. A shimmering gateway "
-        "stands in each direction, leading to the various guild headquarters."
-    )
-    portal_room.db.area = "Ilium City"
-    portal_room.db.danger_level = 0
-    portal_room.db.is_outdoors = False
-    
-    create_exit(adventurer_guild, portal_room, "southwest", "northeast")
-    
-    # -------------------------------------------------------------------------
-    # CLOUD ROAD BETWEEN GOSSAMER AND TITAN (north of guild entrance)
+    # CLOUD ROAD (north of Silent Room / outside the guild)
     # -------------------------------------------------------------------------
     cloud_road = create_object("typeclasses.rooms.Room", key="On Cloud Road between Gossamer and Titan")
     cloud_road.db.desc = (
         "You stand on Cloud Road before a mighty structure! Here stands the "
         "Adventurers Guild. It contains some of the most helpful things in the "
-        "world of Red Dragon. To the east is Titan Street; to the west is "
+        "world of Islands of Myth. To the east is Titan Street; to the west is "
         "Gossamer Street. Small trees line the road, their leaves whispering "
         "in the breeze."
     )
@@ -152,12 +199,12 @@ def create_ilium_adventurers_guild():
         (0.05, "A floating moonflower vine drifts by, glowing softly.")
     ]
     
-    # Add objects
-    memorial = create_object("typeclasses.objects.Object", key="a grand memorial", 
+    # Add memorial object
+    memorial = create_object("typeclasses.objects.Object", key="a grand memorial",
                              location=cloud_road)
     memorial.db.desc = "A grand memorial stands here, commemorating the founding of the guild."
     
-    create_exit(adventurer_guild, cloud_road, "north", "south")
+    create_exit(silent_room, cloud_road, "north", "south")
     
     # -------------------------------------------------------------------------
     # INTERSECTION OF CLOUD AND TITAN (east of cloud road)
@@ -201,7 +248,7 @@ def create_ilium_adventurers_guild():
     create_exit(cloud_titan_intersection, titan_street, "north", "south")
     
     # -------------------------------------------------------------------------
-    # GOSSAMER STREET (west of cloud road - placeholder for expansion)
+    # GOSSAMER STREET (west of cloud road)
     # -------------------------------------------------------------------------
     gossamer_street = create_object("typeclasses.rooms.Room", key="On Gossamer Street")
     gossamer_street.db.desc = (
@@ -215,23 +262,6 @@ def create_ilium_adventurers_guild():
     gossamer_street.db.is_outdoors = True
     
     create_exit(cloud_road, gossamer_street, "west", "east")
-    
-    # Create Judge Achman NPC in Level Room
-    achman = create_object("typeclasses.npcs.JudgeAchman", key="Achman the Judge",
-                            location=level_room)
-    
-    # Create formula items on floor (based on IOM)
-    formula1 = create_object("typeclasses.objects.Formula", key="Formula: Head: Lesser Wisdoms",
-                            location=adventurer_guild)
-    formula1.db.formula_type = "head"
-    formula1.db.formula_name = "Lesser Wisdoms"
-    formula1.db.desc = "A mysterious formula that can be used to create headgear."
-    
-    formula2 = create_object("typeclasses.objects.Formula", key="Formula: Head: Lesser Wisdoms",
-                            location=adventurer_guild)
-    formula2.db.formula_type = "head"
-    formula2.db.formula_name = "Lesser Wisdoms"
-    formula2.db.desc = "A mysterious formula that can be used to create headgear."
     
     # -------------------------------------------------------------------------
     # BANK OF ILLIUM (north of titan street)
@@ -254,32 +284,20 @@ def create_ilium_adventurers_guild():
     
     create_exit(titan_street, bank_room, "north", "south")
     
-    # -------------------------------------------------------------------------
-    # GENERAL STORE (east of titan street)
-    # -------------------------------------------------------------------------
-    shop_room = create_object("typeclasses.rooms.ShopRoom", key="Maxxis General Store")
-    shop_room.db.desc = (
-        "Shelves line every wall of this cozy shop, packed with goods for the "
-        "traveling adventurer. The smell of leather, oil, and dried herbs fills "
-        "the air. Maxxis, the shopkeeper, watches over his wares with a keen eye."
-    )
-    shop_room.db.area = "Ilium City"
-    shop_room.db.danger_level = 0
-    shop_room.db.is_outdoors = False
+    # Create formula items on floor (based on IOM)
+    formula1 = create_object("typeclasses.objects.Formula", key="Formula: Head: Lesser Wisdoms",
+                            location=guild_entrance)
+    formula1.db.formula_type = "head"
+    formula1.db.formula_name = "Lesser Wisdoms"
+    formula1.db.desc = "A mysterious formula that can be used to create headgear."
     
-    # Create shopkeeper NPC
-    shopkeeper = create_object("typeclasses.shops.Shopkeeper", key="Maxxis the Shopkeeper",
-                               location=shop_room)
-    shopkeeper.db.items_for_sale = {
-        "a torch": {"price": 10, "stock": 50},
-        "a healing potion": {"price": 50, "stock": 20},
-        "a bread roll": {"price": 5, "stock": 100},
-        "a waterskin": {"price": 15, "stock": 30},
-    }
+    formula2 = create_object("typeclasses.objects.Formula", key="Formula: Head: Lesser Wisdoms",
+                            location=guild_entrance)
+    formula2.db.formula_type = "head"
+    formula2.db.formula_name = "Lesser Wisdoms"
+    formula2.db.desc = "A mysterious formula that can be used to create headgear."
     
-    create_exit(titan_street, shop_room, "east", "west")
-    
-    return adventurer_guild
+    return guild_entrance
 
 
 # =============================================================================
@@ -287,28 +305,23 @@ def create_ilium_adventurers_guild():
 # =============================================================================
 
 def create_newbie_guild():
-    """Create the Newbie Guild area connected to Adventurers' Guild."""
+    r"""Create the Newbie Guild area connected to Adventurers' Guild.
+    
+    Map layout (from IOM, positions 5-9):
+        5 = Newbie guild (southeast from hub)
+        7 = Equipment Machine (east of 5)
+        8 = Tree of Life (south of 5)
+        9 = Reinc portal (south of 8)
+    """
     
     # -------------------------------------------------------------------------
-    # NEWBIE GUILD ENTRANCE
+    # 5: NEWBIE GUILD ENTRANCE (southeast of main guild hub)
     # -------------------------------------------------------------------------
-    newbie_guild_entrance = create_object("typeclasses.rooms.Room", key="Newbie Guild Entrance")
-    newbie_guild_entrance.db.desc = (
-        "This room is large, and the ceiling is high. To the northwest is "
-        "another room, while to the east is the Newbie Guild."
-    )
-    newbie_guild_entrance.db.area = "Ilium City"
-    newbie_guild_entrance.db.danger_level = 0
-    newbie_guild_entrance.db.is_outdoors = False
-    
-    # -------------------------------------------------------------------------
-    # ENTRANCE TO THE NEWBIE GUILD
-    # -------------------------------------------------------------------------
-    newbie_guild = create_object("typeclasses.rooms.Room", key="Entrance to the Newbie Guild")
+    newbie_guild = create_object("typeclasses.rooms.Room", key="Newbie Guild")
     newbie_guild.db.desc = (
         "Welcome Newbies! This is where you can find all sorts of great "
-        "information to help start you off on your adventures here at Red "
-        "Dragon. For lots of advice on getting started you should begin by "
+        "information to help start you off on your adventures here at Islands of "
+        "Myth. For lots of advice on getting started you should begin by "
         "speaking with Sisong. She's here especially to help you out."
     )
     newbie_guild.db.area = "Ilium City"
@@ -320,7 +333,7 @@ def create_newbie_guild():
                            location=newbie_guild)
     
     # Create portal to Nuvo City
-    nuvo_portal = create_object("typeclasses.objects.Object", key="a blue portal", 
+    nuvo_portal = create_object("typeclasses.objects.Object", key="a blue portal",
                                 location=newbie_guild)
     nuvo_portal.db.desc = "A shimmering blue portal that leads to Nuvo City."
     
@@ -329,27 +342,10 @@ def create_newbie_guild():
                            location=newbie_guild)
     plaque.db.desc = "A gleaming gold plaque with helpful information for newbies."
     
-    create_exit(newbie_guild_entrance, newbie_guild, "east", "west")
-    
     # -------------------------------------------------------------------------
-    # BRIGHTLY LIT HALLWAY (north/south from newbie guild)
+    # 7: EQUIPMENT MACHINE (east of newbie guild)
     # -------------------------------------------------------------------------
-    hallway = create_object("typeclasses.rooms.Room", key="Brightly Lit Hallway")
-    hallway.db.desc = (
-        "You are wandering down a brightly lit hallway. To the east you can make "
-        "out the entrance to Maxxis' Newbie Shop and to the south is the way back "
-        "to the entrance of the Newbie Guild."
-    )
-    hallway.db.area = "Ilium City"
-    hallway.db.danger_level = 0
-    hallway.db.is_outdoors = False
-    
-    create_exit(newbie_guild, hallway, "north", "south")
-    
-    # -------------------------------------------------------------------------
-    # USED EQUIPMENT STORAGE ROOM (east from newbie guild)
-    # -------------------------------------------------------------------------
-    equipment_room = create_object("typeclasses.rooms.Room", key="Used Equipment Storage Room")
+    equipment_room = create_object("typeclasses.rooms.Room", key="Equipment Machine")
     equipment_room.db.desc = (
         "This simple room is virtually empty, apart from the conspicuous machine "
         "situated in the middle of the room and humming quietly to itself. "
@@ -364,16 +360,52 @@ def create_newbie_guild():
     
     create_exit(newbie_guild, equipment_room, "east", "west")
     
-    return newbie_guild_entrance
+    # -------------------------------------------------------------------------
+    # 8: TREE OF LIFE (south of newbie guild)
+    # -------------------------------------------------------------------------
+    tree_room = create_object("typeclasses.rooms.Room", key="Tree of Life")
+    tree_room.db.desc = (
+        "A massive tree dominates this chamber, its branches spreading out in all "
+        "directions and filling the room with a gentle, warm light. The bark is "
+        "smooth and silver, and small glowing motes drift lazily through the air. "
+        "It is said that those who touch the tree may find new beginnings."
+    )
+    tree_room.db.area = "Ilium City"
+    tree_room.db.danger_level = 0
+    tree_room.db.is_outdoors = False
+    tree_room.db.ambient_msgs = [
+        (0.05, "The tree's leaves rustle softly, though there is no wind."),
+        (0.03, "A glowing mote drifts past your face, warm and gentle.")
+    ]
+    
+    create_exit(newbie_guild, tree_room, "south", "north")
+    
+    # -------------------------------------------------------------------------
+    # 9: REINC PORTAL (south of Tree of Life)
+    # -------------------------------------------------------------------------
+    reinc_room = create_object("typeclasses.rooms.Room", key="Reinc Portal")
+    reinc_room.db.desc = (
+        "A single stone archway stands in the center of this otherwise empty room. "
+        "Within the arch, a swirling vortex of silver and gold energy pulses with a "
+        "rhythm like a heartbeat. The air tastes of ozone and possibility. This is "
+        "the portal of reincarnation, where adventurers may begin anew."
+    )
+    reinc_room.db.area = "Ilium City"
+    reinc_room.db.danger_level = 0
+    reinc_room.db.is_outdoors = False
+    
+    create_exit(tree_room, reinc_room, "south", "north")
+    
+    return newbie_guild
 
 
 def build_ilium_city():
     """Build the complete Ilium City area."""
     guild = create_ilium_adventurers_guild()
-    newbie_entrance = create_newbie_guild()
+    newbie_guild = create_newbie_guild()
     
-    # Connect newbie guild to adventurer guild (southeast from guild, northwest from newbie)
-    create_exit(guild, newbie_entrance, "southeast", "northwest")
+    # Connect newbie guild to adventurer guild (southeast from hub, northwest from newbie)
+    create_exit(guild, newbie_guild, "southeast", "northwest")
     
     # TODO: As the subagent maps more rooms, expand this function
     # to connect additional streets, buildings, and landmarks.

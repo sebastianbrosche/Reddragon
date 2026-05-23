@@ -7,6 +7,7 @@ from evennia import Command
 from evennia import CmdSet
 from evennia.utils import search
 from commands.economy import CmdBuy, CmdSell, CmdList, CmdDeposit, CmdWithdraw, CmdBalance
+from commands.who import CmdWho
 
 class CmdKill(Command):
     """
@@ -370,38 +371,6 @@ class CmdWimpy(Command):
             caller.msg(f"Wimpy set to {pct}%.")
         except ValueError:
             caller.msg("Usage: wimpy <0-100>")
-
-
-class CmdWho(Command):
-    """
-    List who is currently playing.
-    
-    Usage:
-        who
-    """
-    key = "who"
-    locks = "cmd:all()"
-    
-    def func(self):
-        from evennia import search_object
-        
-        players = [obj for obj in search_object("*") 
-                    if hasattr(obj, 'db') and hasattr(obj.db, 'level')]
-        
-        output = "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n"
-        output += "  Players currently online:\n"
-        output += "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n"
-        
-        for player in players:
-            if hasattr(player, 'sessions') and player.sessions.count() > 0:
-                level = getattr(player.db, 'level', 1)
-                race = getattr(player.db, 'race', 'Unknown')
-                guild = getattr(player.db, 'guild', None)
-                guild_str = f" ({guild})" if guild else ""
-                output += f"  {player.key:15} - Level {level:3} {race}{guild_str}\n"
-                
-        output += "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n"
-        self.caller.msg(output)
 
 
 class CombatCmdSet(CmdSet):

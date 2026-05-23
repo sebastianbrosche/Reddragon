@@ -106,6 +106,9 @@ def _server_status(session):
 # Commands
 # ---------------------------------------------------------------------------
 
+from commands.who import CmdWhoUnloggedin as CmdWho
+
+
 class CmdDisconnect(Command):
     """
     Disconnect from the server.
@@ -117,19 +120,6 @@ class CmdDisconnect(Command):
     def func(self):
         self.caller.msg("|gGoodbye!|n")
         self.caller.sessionhandler.disconnect(self.caller)
-
-
-class CmdWho(Command):
-    """
-    See who is online.
-    Usage: w
-    """
-    key = "w"
-    aliases = ["who"]
-    locks = "cmd:all()"
-    
-    def func(self):
-        _who_list(self.caller)
 
 
 class CmdServerStatus(Command):

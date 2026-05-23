@@ -6,18 +6,40 @@ Area: Ilium City - The central hub of the world
 
 from evennia import create_object
 
+DIRECTION_ALIASES = {
+    "north": ["n"],
+    "south": ["s"],
+    "east": ["e"],
+    "west": ["w"],
+    "northeast": ["ne"],
+    "northwest": ["nw"],
+    "southeast": ["se"],
+    "southwest": ["sw"],
+    "up": ["u"],
+    "down": ["d"],
+}
+
 def create_exit(origin, destination, exit_name, return_name=None):
-    """Helper to create bidirectional exits."""
+    """Helper to create bidirectional exits with standard aliases."""
     from evennia import create_object
     
     # Create forward exit
     forward = create_object("typeclasses.exits.Exit", key=exit_name, 
                            location=origin, destination=destination)
     
+    # Add aliases (n, s, e, w, ne, nw, se, sw, u, d)
+    aliases = DIRECTION_ALIASES.get(exit_name.lower(), [])
+    for alias in aliases:
+        forward.aliases.add(alias)
+    
     # Create return exit if requested
     if return_name:
         backward = create_object("typeclasses.exits.Exit", key=return_name,
                                   location=destination, destination=origin)
+        # Add aliases for return direction too
+        return_aliases = DIRECTION_ALIASES.get(return_name.lower(), [])
+        for alias in return_aliases:
+            backward.aliases.add(alias)
     
     return forward
 

@@ -373,6 +373,72 @@ class CmdWimpy(Command):
             caller.msg("Usage: wimpy <0-100>")
 
 
+class CmdMove(Command):
+    """
+    Move in a direction.
+    
+    Usage:
+        n, s, e, w, ne, nw, se, sw, u, d
+        north, south, east, west, northeast, northwest, southeast, southwest, up, down
+    """
+    key = "move"
+    aliases = ["n", "s", "e", "w", "ne", "nw", "se", "sw", "u", "d",
+               "north", "south", "east", "west", 
+               "northeast", "northwest", "southeast", "southwest",
+               "up", "down"]
+    locks = "cmd:all()"
+    
+    def func(self):
+        caller = self.caller
+        location = caller.location
+        
+        if not location:
+            caller.msg("You are nowhere.")
+            return
+        
+        # Normalize direction
+        direction = self.cmdstring.lower()
+        
+        # Map aliases to full names for matching
+        alias_map = {
+            "n": "north", "s": "south", "e": "east", "w": "west",
+            "ne": "northeast", "nw": "northwest", "se": "southeast", "sw": "southwest",
+            "u": "up", "d": "down",
+        }
+        
+        # Check if the typed command is an alias - search for both
+        search_names = [direction]
+        if direction in alias_map:
+            search_names.append(alias_map[direction])
+        
+        # Find matching exit
+        found_exit = None
+        for exit_obj in location.exits:
+            exit_key = exit_obj.key.lower()
+            exit_aliases = [a.lower() for a in exit_obj.aliases.all()]
+            
+            if direction in (exit_key, *exit_aliases):
+                found_exit = exit_obj
+                break
+            # Also check if the full name matches any alias or key
+            for search_name in search_names:
+                if search_name in (exit_key, *exit_aliases):
+                    found_exit = exit_obj
+                    break
+            if found_exit:
+                break
+        
+        if not found_exit:
+            caller.msg(f"You can't go {direction}.")
+            return
+        
+        # Try to traverse
+        if found_exit.access(caller, "traverse"):
+            found_exit.at_traverse(caller, found_exit.destination)
+        else:
+            caller.msg(f"You can't go {direction}.")
+
+
 class CombatCmdSet(CmdSet):
     """
     Holds all combat commands.
@@ -389,6 +455,7 @@ class CombatCmdSet(CmdSet):
         self.add(CmdCombatSilence)
         self.add(CmdGetAll)
         self.add(CmdWimpy)
+        self.add(CmdMove)
         self.add(CmdWho)
         # Economy commands
         self.add(CmdBuy)

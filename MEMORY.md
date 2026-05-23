@@ -101,7 +101,41 @@ Successfully captured all 27 race descriptions from the live Islands of Myth MUD
 
 **Cloudflare:** Token fixed and working. Pages:Edit permission now active.
 
-## MudOS/LPC Documentation Discovery (2026-05-18)
+## Gossamer Map Exploration — IN PROGRESS (2026-05-22)
+
+**Status:** Autopilot actively exploring from southeast corner.
+
+### Rooms Documented So Far:
+
+1. **Sandy Beach** (start)
+   - Exits: northeast, west, northwest, north
+   - Desc: "You are on a long sandy beach. Waves gently lap at the sand, covering the footprints that you are making."
+
+2. **Ghastly Swamp** (north of Sandy Beach)
+   - Exits: northeast, west, south, southeast, northwest, north, east, southwest
+   - Desc: "Your footsteps squish as you struggle through this ghastly swamp. The odor is hideous."
+
+### Exploration Pattern:
+- Systematic snaking grid from SE corner
+- 384 commands queued (`move` → `look` → `map` cycle)
+- Human-like delays between commands (relay v2)
+- `Q` prepended to exit any stuck menus
+
+### Rules Enforced:
+- STAY on main Gossamer map only
+- DO NOT enter sub-areas (oddworld, mists, thieves network, etc.)
+- Only `look`, `map`, movement, and `Q` for menus
+- Document all room names, descriptions, and exits
+
+### Next Steps:
+1. Let autopilot complete current queue
+2. Parse session logs for all room data
+3. Build Evennia rooms from parsed data
+4. Create gossamer.py build script
+
+---
+
+*Still exploring...*
 
 Found the original MudOS documentation at lysator.liu.se - this is the EXACT driver documentation for the system IOM runs on.
 
@@ -193,3 +227,14 @@ When move_object() moves object A into object B:
 - **Handoff:** User types anything → autopilot pauses 120s. 'resume' to restart. 'bot stop' to halt.
 - **Architecture:** Browser → cloudflared tunnel → Python relay v2 → IOM telnet
 - **Files:** rcp/mud-relay-v2.py, rcp/website/mud-client.html
+
+
+---
+
+## IOM Skills & Spells Archive — CAPTURED (2026-05-22)
+- **File:** `mud/iom_skills_spells_archive.md`
+- **Source:** Character sebbe (Lv157 Snakeman Evoker)
+- **Captured:** 12 guilds, 9 skills, 43 spells with full detail
+- Guild hierarchy documented: Evoker base → elemental specializations
+- Skill stats captured: SP/EP costs, casting time, affecting stats, base XP
+

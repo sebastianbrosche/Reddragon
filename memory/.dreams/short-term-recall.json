@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-20T21:18:14.991Z",
+  "updatedAt": "2026-05-21T21:58:26.814Z",
   "entries": {
     "memory:memory/2026-05-14.md:1:30": {
       "key": "memory:memory/2026-05-14.md:1:30",
@@ -76,19 +76,21 @@
       "endLine": 103,
       "source": "memory",
       "snippet": "### Infrastructure - Only port 22 open externally on KI server - SSH tunnel needed: `ssh -L 3001:localhost:3001 root@47.237.80.25` - Evennia on localhost:3001, web on 3000 - Alibaba Cloud needs TCP 3001 inbound rule for external access ### Immediate TODOs 1. Fix expect script to exit judge menu with `q` when leveling fails 2. Resolve emalz freeze (contact admins or wait) 3. Rename \"Red Dragon\" to \"Darkstaff\" throughout codebase 4. Create D&D ASCII art for login screen 5. Continue building Gossamer Island content (priority before player access) 6. Make Miha uber wizard character 7. Map more Ilium City streets and buildings from manual exploration 8. Add all 27 race typeclasses with exact IOM",
-      "recallCount": 2,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.7889407873153687,
+      "totalScore": 1.1441365003585815,
       "maxScore": 0.4229175984859466,
       "firstRecalledAt": "2026-05-20T21:18:05.738Z",
-      "lastRecalledAt": "2026-05-20T21:18:14.991Z",
+      "lastRecalledAt": "2026-05-21T21:58:26.814Z",
       "queryHashes": [
         "47fe81007e9d",
-        "b7250cc60b34"
+        "b7250cc60b34",
+        "727f3263fe28"
       ],
       "recallDays": [
-        "2026-05-21"
+        "2026-05-21",
+        "2026-05-22"
       ],
       "conceptTags": [
         "47.237.80.25",
@@ -195,6 +197,68 @@
         "openclaw/workspace/mud/content",
         "stopped",
         "server"
+      ]
+    },
+    "memory:memory/2026-05-21.md:58:102": {
+      "key": "memory:memory/2026-05-21.md:58:102",
+      "path": "memory/2026-05-21.md",
+      "startLine": 58,
+      "endLine": 102,
+      "source": "memory",
+      "snippet": "**WebSocket Relay:** wss://tone-staffing-fred-reducing.trycloudflare.com **Features:** - Real-time MUD output display - Command input (Enter to send) - Quick buttons: look, score, inventory, who, help, n/s/e/w, warp - Auto-reconnect on disconnect - Sidebar with command reference - Miha can read session log to see what Sebastian sees **How it works:** 1. Browser connects to relay via WebSocket 2. Relay connects to islandsofmyth.org:3000 via telnet 3. Everything IOM sends is forwarded to browser AND logged to file 4. Sebastian types commands, they go straight to IOM 5. Miha reads `/tmp/iom-session.log` to observe **Note:** Cloudflared tunnel URL is temporary (changes on restart). For perman",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.35709228515624997,
+      "maxScore": 0.35709228515624997,
+      "firstRecalledAt": "2026-05-21T21:58:26.814Z",
+      "lastRecalledAt": "2026-05-21T21:58:26.814Z",
+      "queryHashes": [
+        "727f3263fe28"
+      ],
+      "recallDays": [
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "real-time",
+        "n/s/e/w",
+        "auto-reconnect",
+        "islandsofmyth.org",
+        "tmp/iom-session.log",
+        "websocket",
+        "relay",
+        "wss"
+      ]
+    },
+    "memory:memory/2026-05-16.md:108:131": {
+      "key": "memory:memory/2026-05-16.md:108:131",
+      "path": "memory/2026-05-16.md",
+      "startLine": 108,
+      "endLine": 131,
+      "source": "memory",
+      "snippet": "- **Screenshot reviewed by Sebastian and Miha:** Pricing page mockup for Yoga for BJJ - **Sebastian's feedback:** $8 pricing misleading, remove checkout text, no green, fix URLs - **Miha's critique sent to group chat:** 6 specific issues flagged — red on Lifetime (dark pattern), \"BEST VALUE\" badge wrong, bait-and-switch text, math contradiction, CTA mismatch, missing plan features - **Status:** Sarah fixing in her topic, will repost for Miha review --- ## 19:30 — Islands of Myth MUD Archive Mission **Character:** Sebbe the Snakeman, Disciples guild, Level 157 **Server:** islandsofmyth.org:3000 (LIMA mudlib) **Archive:** /root/.openclaw/workspace/mud/iom_sebbe_archive/ — 247 files, 1.2MB *",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.35531508326530453,
+      "maxScore": 0.35531508326530453,
+      "firstRecalledAt": "2026-05-21T21:58:26.814Z",
+      "lastRecalledAt": "2026-05-21T21:58:26.814Z",
+      "queryHashes": [
+        "727f3263fe28"
+      ],
+      "recallDays": [
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "bait-and-switch",
+        "islandsofmyth.org",
+        "1.2mb",
+        "screenshot",
+        "reviewed",
+        "sebastian",
+        "miha",
+        "pricing"
       ]
     }
   }

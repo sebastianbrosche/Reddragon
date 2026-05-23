@@ -32,12 +32,27 @@ from evennia.settings_default import *
 ######################################################################
 
 # This is the name of your game. Make it catchy!
-SERVERNAME = "Red Dragon"
+SERVERNAME = "Myth of Islands"
 
 # Port overrides — running on 3000 range
 TELNET_PORTS = [3001]
 WEBSERVER_PORTS = [(3000, 4005)]
 WEBSOCKET_CLIENT_PORT = 3002
+
+# Web client websocket URL for external access through tunnel
+WEBSOCKET_CLIENT_URL = "wss://enabling-male-involve-impressive.trycloudflare.com/ws"
+
+# CSRF trusted origins for the tunnel domain
+CSRF_TRUSTED_ORIGINS = ['https://enabling-male-involve-impressive.trycloudflare.com']
+
+# No password restrictions — allow any password
+AUTH_PASSWORD_VALIDATORS = []
+
+# Idle timeout: 1 hour (3600 seconds)
+IDLE_TIMEOUT = 3600
+
+# Default home for new characters — Adventurer's Guild of Illium
+DEFAULT_HOME = "#1937"
 
 ######################################################################
 # Settings given in secret_settings.py override those in this file.

@@ -384,3 +384,7 @@ None2026-05-17 23:26:10 [EE] Error encountered for cmdset at path 'commands.defa
 2026-05-20 21:21:34 [..] Webserver starting on 8001
 2026-05-20 21:21:34 [..] Evennia Server successfully started.
 2026-05-20 21:21:34 [..] Darkstaff MUD - World already exists, skipping build.
+2026-05-22 14:52:50 [..] Received SIGTERM, shutting down.
+2026-05-22 14:52:50 [..] Server disconnected from the portal.
+2026-05-22 14:52:50 [..] Main loop terminated.
+2026-05-22 14:52:50 [..] Server Shut Down.

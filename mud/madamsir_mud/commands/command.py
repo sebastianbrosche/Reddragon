@@ -33,6 +33,32 @@ class Command(BaseCommand):
     pass
 
 
+class CmdReboot(BaseCommand):
+    """
+    Reboot the game server and reload all code changes.
+
+    Usage:
+      reboot
+
+    This restarts the server while keeping all connections alive.
+    You will be automatically logged back in after the restart.
+    """
+    key = "reboot"
+    locks = "cmd:all()"
+    help_category = "System"
+
+    def func(self):
+        from evennia import SESSION_HANDLER
+        caller = self.caller
+        # Store character name on all sessions for auto-relogin
+        for sess in caller.sessions.all():
+            sess.db.auto_character = caller.key
+        
+        caller.msg("{yRebooting server... code changes will apply in a few seconds.{n")
+        SESSION_HANDLER.announce_all(" Server rebooting... please wait.")
+        SESSION_HANDLER.portal_restart_server()
+
+
 # -------------------------------------------------------------
 #
 # The default commands inherit from

@@ -57,6 +57,9 @@ BASE_SCRIPT_TYPECLASS = "typeclasses.scripts.Script"
 # Character command set (includes combat, economy, etc.)
 CMDSET_CHARACTER = "commands.combat.CombatCmdSet"
 
+# Divine command set (AI Dungeon Master)
+CMDSET_DIVINE = "commands.ai_dm_commands.DivineCmdSet"
+
 # Account command set (login/register commands)
 CMDSET_ACCOUNT = "commands.account.AccountCmdSet"
 

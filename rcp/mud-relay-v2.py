@@ -62,6 +62,41 @@ class IOMRelay:
             return False
         return datetime.now() < self.user_active_until
     
+    def is_autopilot_enabled(self):
+        """Check if autopilot should be enabled (reads from status file)"""
+        if not self.autopilot_enabled:
+            return False
+        # Check persistent status file
+        if PAUSE_UNTIL_FILE.exists():
+            try:
+                data = json.loads(PAUSE_UNTIL_FILE.read_text())
+                enabled = data.get('enabled', True)
+                if not enabled:
+                    self.autopilot_enabled = False
+                    return False
+            except Exception:
+                pass
+        return True
+    
+    def set_autopilot_enabled(self, enabled):
+        """Persistently enable/disable autopilot"""
+        self.autopilot_enabled = enabled
+        PAUSE_UNTIL_FILE.parent.mkdir(parents=True, exist_ok=True)
+        PAUSE_UNTIL_FILE.write_text(json.dumps({
+            'enabled': enabled,
+            'timestamp': datetime.now().isoformat()
+        }))
+        
+    def stop_autopilot(self):
+        """Stop autopilot and clear queue"""
+        self.set_autopilot_enabled(False)
+        self.user_active_until = None
+        if QUEUE_FILE.exists():
+            QUEUE_FILE.unlink()
+            logger.info("Autopilot stopped and queue cleared")
+        else:
+            logger.info("Autopilot stopped")
+
     def pause_autopilot(self, seconds=120):
         """Pause autopilot for N seconds after user command"""
         self.user_active_until = datetime.now() + timedelta(seconds=seconds)
@@ -110,7 +145,15 @@ class IOMRelay:
         while True:
             await asyncio.sleep(random.uniform(1.5, 3.5))  # Random delay, human-like
             
-            if not self.connected or not self.autopilot_enabled:
+            if not self.connected:
+                continue
+            
+            # Check if autopilot is enabled (reads persistent state)
+            if not self.is_autopilot_enabled():
+                # Clear any stale queue commands when disabled
+                if QUEUE_FILE.exists() and QUEUE_FILE.stat().st_size > 0:
+                    QUEUE_FILE.unlink()
+                    logger.info("Autopilot disabled - queue cleared")
                 continue
             
             # Check if user is active
@@ -202,6 +245,12 @@ class IOMRelay:
                 "msg": "Connected to relay" + (" (IOM connected)" if self.connected else " (IOM connecting...)")
             }))
             
+            # Send autopilot state to client
+            await websocket.send(json.dumps({
+                "type": "autopilot_state",
+                "enabled": self.is_autopilot_enabled()
+            }))
+            
             async for message in websocket:
                 try:
                     data = json.loads(message)
@@ -212,8 +261,8 @@ class IOMRelay:
                         
                         # Handle special commands
                         if text.lower() == 'resume':
+                            self.set_autopilot_enabled(True)
                             self.user_active_until = None
-                            self.autopilot_enabled = True
                             await websocket.send(json.dumps({
                                 "type": "status",
                                 "msg": "Autopilot resumed"
@@ -222,8 +271,8 @@ class IOMRelay:
                             continue
                         
                         if text.lower() == 'bot stop':
-                            self.autopilot_enabled = False
-                            self.user_active_until = None
+                            self.set_autopilot_enabled(False)
+                            self.stop_autopilot()
                             await websocket.send(json.dumps({
                                 "type": "status",
                                 "msg": "Autopilot stopped. Type 'resume' to restart"
@@ -233,7 +282,7 @@ class IOMRelay:
                         
                         # Normal user command - send to IOM and pause autopilot
                         await self.send_to_iom(text, source="user")
-                        self.pause_autopilot(120)  # Pause 2 minutes
+                        self.pause_autopilot(0)  # No pause - autopilot resumes immediately
                         
                         # Echo locally
                         await self.broadcast({
@@ -269,6 +318,12 @@ class IOMRelay:
             LOG_FILE.unlink()
         if QUEUE_FILE.exists():
             QUEUE_FILE.unlink()
+        
+        # Check persistent autopilot state
+        if self.is_autopilot_enabled():
+            logger.info("Autopilot enabled (from persistent state)")
+        else:
+            logger.info("Autopilot disabled (from persistent state)")
         
         # Start background tasks
         asyncio.create_task(self.handle_telnet())

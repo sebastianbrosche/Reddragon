@@ -22,8 +22,9 @@ class Room(DefaultRoom):
     def return_appearance(self, looker, **kwargs):
         """Show island info in room description."""
         text = super().return_appearance(looker, **kwargs)
-        if self.db.island != "unknown" and self.db.island != "illium":
-            text += f"\n{{y[Island: {self.db.island.title()}]{{n"
+        island = self.db.island
+        if island and island not in ("unknown", "illium"):
+            text += f"\n{{y[Island: {island.title()}]{{n"
         if self.db.dangers:
             text += f"\n{{rDangers: {', '.join(self.db.dangers)}{{n"
         return text

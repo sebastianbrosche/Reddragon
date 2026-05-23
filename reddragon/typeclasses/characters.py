@@ -112,6 +112,12 @@ class Character(DefaultCharacter):
         """Called just before puppeting."""
         pass
         
+        # AI DM divine achievements
+        self.db.titles = []
+        
+        # Chat toggle
+        self.db.chat_enabled = True
+    
     def at_post_puppet(self, **kwargs):
         """
         Called just after puppeting (after account has connected).
@@ -119,9 +125,17 @@ class Character(DefaultCharacter):
         """
         super().at_post_puppet(**kwargs)
         
+        # Show version info
+        from commands.utility import VERSION
+        self.msg(f"|bWelcome to {VERSION['name']}|n |y(v{VERSION['version']})|n")
+        
         # Initialize session statistics
         from commands.summary import init_session_stats
         init_session_stats(self)
+        
+        # Initialize AI DM if not already running
+        from typeclasses.scripts.ai_dm import get_ai_dm
+        get_ai_dm()
         
         # Show score on login
         self.msg(self.get_score_display())

@@ -147,3 +147,10 @@
 |Portal| 2026-05-20 21:21:30 [..] Websocket starting on 4002
 |Portal| 2026-05-20 21:21:30 [..] Webserver-proxy starting on 8000
 |Portal| 2026-05-20 21:21:31 [..] Portal starting server ... 
+|Portal| 2026-05-22 14:52:50 [..] Received SIGTERM, shutting down.
+|Portal| 2026-05-22 14:52:50 [..] (TCP Port 8000 Closed)
+|Portal| 2026-05-22 14:52:50 [..] (TCP Port 4002 Closed)
+|Portal| 2026-05-22 14:52:50 [..] (TCP Port 3000 Closed)
+|Portal| 2026-05-22 14:52:50 [..] (TCP Port 5000 Closed)
+|Portal| 2026-05-22 14:52:50 [..] Main loop terminated.
+|Portal| 2026-05-22 14:52:50 [..] Server Shut Down.

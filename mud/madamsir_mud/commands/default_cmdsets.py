@@ -15,10 +15,33 @@ own cmdsets by inheriting from them or directly from `evennia.CmdSet`.
 """
 
 from evennia import default_cmds
-from commands.raceguild_cmds import CmdRace, CmdGuild, CmdCombatProfile, CmdMastery, CmdScore
-from commands.combat_cmds import CombatCmdSet
-from commands.system_cmds import CmdDamageTypes, CmdCondition, CmdAlignment, CmdHunger, CmdLodestone, CmdWorld, CmdSuperRace, CmdQuest
-from commands.system_cmds_part2 import CmdLevel, CmdHeal, CmdEquipment, CmdBuildWorld
+from commands.command import CmdReboot
+
+# Wrap optional imports in try/except so cmdset loading never fails
+try:
+    from commands.raceguild_cmds import CmdRace, CmdGuild, CmdCombatProfile, CmdMastery, CmdScore
+except Exception:
+    CmdRace = CmdGuild = CmdCombatProfile = CmdMastery = CmdScore = None
+
+try:
+    from commands.combat_cmds import CombatCmdSet
+except Exception:
+    CombatCmdSet = None
+
+try:
+    from commands.system_cmds import CmdDamageTypes, CmdCondition, CmdAlignment, CmdHunger, CmdLodestone, CmdWorld, CmdSuperRace, CmdQuest
+except Exception:
+    CmdDamageTypes = CmdCondition = CmdAlignment = CmdHunger = CmdLodestone = CmdWorld = CmdSuperRace = CmdQuest = None
+
+try:
+    from commands.system_cmds_part2 import CmdLevel, CmdHeal, CmdEquipment, CmdBuildWorld
+except Exception:
+    CmdLevel = CmdHeal = CmdEquipment = CmdBuildWorld = None
+
+try:
+    from commands.cmd_roll import CmdRoll
+except Exception:
+    CmdRoll = None
 
 
 class CharacterCmdSet(default_cmds.CharacterCmdSet):
@@ -35,34 +58,30 @@ class CharacterCmdSet(default_cmds.CharacterCmdSet):
         Populates the cmdset
         """
         super().at_cmdset_creation()
-        #
-        # any commands you add below will overload the default ones.
-        #
-        # Red Dragon MUD commands
-        self.add(CmdRace)
-        self.add(CmdGuild)
-        self.add(CmdCombatProfile)
-        self.add(CmdMastery)
-        self.add(CmdScore)
-        # Combat commands
-        combat_set = CombatCmdSet()
-        for cmd in combat_set.commands:
-            self.add(cmd)
-        # System commands
-        self.add(CmdDamageTypes)
-        self.add(CmdCondition)
-        self.add(CmdAlignment)
-        self.add(CmdHunger)
-        self.add(CmdLodestone)
-        self.add(CmdWorld)
-        self.add(CmdSuperRace)
-        self.add(CmdQuest)
-        # System commands (part 2)
-        self.add(CmdLevel)
-        self.add(CmdHeal)
-        self.add(CmdEquipment)
-        # Admin commands
-        self.add(CmdBuildWorld)
+        # Add commands only if imports succeeded
+        if CmdRace: self.add(CmdRace)
+        if CmdGuild: self.add(CmdGuild)
+        if CmdCombatProfile: self.add(CmdCombatProfile)
+        if CmdMastery: self.add(CmdMastery)
+        if CmdScore: self.add(CmdScore)
+        if CombatCmdSet:
+            combat_set = CombatCmdSet()
+            for cmd in combat_set.commands:
+                self.add(cmd)
+        if CmdDamageTypes: self.add(CmdDamageTypes)
+        if CmdCondition: self.add(CmdCondition)
+        if CmdAlignment: self.add(CmdAlignment)
+        if CmdHunger: self.add(CmdHunger)
+        if CmdLodestone: self.add(CmdLodestone)
+        if CmdWorld: self.add(CmdWorld)
+        if CmdSuperRace: self.add(CmdSuperRace)
+        if CmdQuest: self.add(CmdQuest)
+        if CmdLevel: self.add(CmdLevel)
+        if CmdHeal: self.add(CmdHeal)
+        if CmdEquipment: self.add(CmdEquipment)
+        if CmdBuildWorld: self.add(CmdBuildWorld)
+        if CmdRoll: self.add(CmdRoll)
+        self.add(CmdReboot)
 
 
 class AccountCmdSet(default_cmds.AccountCmdSet):
@@ -98,9 +117,26 @@ class UnloggedinCmdSet(default_cmds.UnloggedinCmdSet):
         Populates the cmdset
         """
         super().at_cmdset_creation()
-        #
-        # any commands you add below will overload the default ones.
-        #
+        # Remove default connect/create by key string (safe, no import needed)
+        self.remove("connect")
+        self.remove("create")
+        from evennia.commands.cmdhandler import CMD_LOGINSTART
+        self.remove(CMD_LOGINSTART)
+        self.remove("help")
+        self.remove("quit")
+        # Add IOM-style login commands
+        try:
+            from commands.iom_login import CmdIOMConnect, CmdIOMCreate, CmdIOMLook, CmdIOMHelp, CmdIOMQuit
+            self.add(CmdIOMConnect)
+            self.add(CmdIOMCreate)
+            self.add(CmdIOMLook)
+            self.add(CmdIOMHelp)
+            self.add(CmdIOMQuit)
+        except Exception as e:
+            import logging
+            logger = logging.getLogger("evennia")
+            logger.error(f"IOM login commands failed to load: {e}")
+            pass
 
 
 class SessionCmdSet(default_cmds.SessionCmdSet):

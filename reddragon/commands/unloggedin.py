@@ -454,6 +454,7 @@ def _get_login_screen():
  |w______________________________________________________________|n
  |                                                              |
  | |yCurrently there are {nplayers} player{"'s" if nplayers != 1 else ""} playing.|n                              |__
+ | |bDarkstaff MUD v0.4.0 |n- AI Dungeon Master, Chat, Full City|n         |
  |w______________________________________________________________|n |
  |                                                                |
  |  [|gn|n] - Enter the game as [name]                              |

@@ -13,19 +13,40 @@ Things like:
 - Device nicknames
 - Anything environment-specific
 
+## Cloudflare Tokens — PERMANENT FIX (2026-05-23 18:50)
+
+**Working Token (DNS, Zones, Workers, Pages, Billing):**
+`cfut_Q4dyJHm7d7kMmMuvASPwOR9z0Cv0xjNpSlbHAO71ab9ecb69`
+- Expires: 2027-07-01
+- **CANNOT create other tokens** (Cloudflare security policy: sub-tokens can't manage tokens)
+- **Use for:** All deploys, DNS, Pages, Workers operations
+
+**Token Management Token (User-level only):**
+`cfut_NTG40QlJ3aZ6YynVU10lbosP5FyN0QhsmqBXm3Xecd79fda2`
+- Name: "Create Additional Tokens"
+- Expires: 2027-06-03
+- Has "API Tokens Write" but only for USER-level resources
+- **CANNOT create account-level tokens** (no zone/account access)
+
+**To create tokens programmatically, Sebastian needs:**
+A SUPER token with BOTH:
+1. Account → Account → Read
+2. Account → API Tokens → Edit (at account level, not user level)
+
+**Until then:** Sebastian pastes tokens, I save them. No more asking.
+
+---
+
 ## Heat Lagos API Keys (Miha manages)
 - SerpAPI key stored in group doc: `kimi-group-chat/bots/Heat Lagos - API & Access Keys.md`
 - Key doc is canonical. ONE doc, updated in place, never duplicated.
 - I back it up after every update.
 - Missing: Shelly API, bsport login credentials
 
-### Cloudflare Tokens (rolling)
-- **Account API (v3, 2026-05-16):** `cfat_gZPIL52Ki9lcyFid6No89Vf8Wj2h2YJixAdm4Dmp90016b9b` — Zone ID: `cb8ab13b857925cdb9b3c0fd9d4ec4bf` — **TESTED: Works** for DNS, Pages, zone management
-- **Worker API (v1, 2026-05-16):** `cfut_FWdCjiaC5zFf1rKDt67IQijs7G29pft97GF8dZL4857eec98` — **TESTED: Works** for Workers, KV, Durable Objects, R2
-- **Worker API (v2, 2026-05-21):** `cfut_YKTQuAMClyldwvmASE2dtBZ3z0LzDOvrfemTdH7V21836a51` — NEW token for RCP Pages deployment
-- **Previous Account (v2, 2026-05-15):** `cfut_zOCov9RQdnKGXndhoWB0TKhHQ5SyLOBQ1HnAwdeZ65e01d72` — Pages:Edit fixed after Sebastian hit save
-- **Deprecated:** All previous tokens marked deprecated in group doc
-- Sebastian wants all bots to have Cloudflare access
+### Cloudflare Tokens — WORKING (2026-05-23)
+- **Pages deploy token:** `cfut_Q4dyJHm7d7kMmMuvASPwOR9z0Cv0xjNpSlbHAO71ab9ecb69` — **WORKING for Pages deploys**
+- **Old v4 token INVALID:** `cfut_ukOJ2c79nvP3dbljXXRRGOiGhokkLDTCHpSzhXQ05ad4b93d` returns 9109 — do not use for deploys
+- **User directive:** Do NOT ask for token refresh. v4 token is the permanent one.
 
 ## File Rules (enforced by Miha)
 - Read others' folders, NEVER edit them

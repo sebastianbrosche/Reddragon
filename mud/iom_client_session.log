@@ -1,0 +1,507 @@
+
+=== Session started 2026-05-22 22:24:55.278870 ===
+^L
+.::        .::                        .::                      .::
+.::        .::                        .::                    .:   
+.:: .::::  .::   .::    .:: .::       .:: .::::     .::    .:.: .:
+.::.::     .:: .::  .::  .::  .:: .:: .::.::      .::  .::   .::  
+.::  .:::  .::.::   .::  .::  .::.:   .::  .:::  .::    .::  .::  
+.::    .:: .::.::   .::  .::  .::.:   .::    .::  .::  .::   .::  
+.::.:: .::.:::  .:: .:::.:::  .:: .:: .::.:: .::    .::      .::  
+                                                                  
+.::       .::           .::          
+.: .::   .:::           .::  .::     
+.:: .:: . .::.::   .::.:.: .:.::     
+.::  .::  .:: .:: .::   .::  .: .:   
+.::   .:  .::   .:::    .::  .::  .::
+.::       .::    .::    .::  .:   .::
+.::       .::   .::      .:: .::  .::
+              .::                    
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 16 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+> 
+=== Session started 2026-05-22 22:26:08.503043 ===
+^L
+$$$$ ,$$$$ $$     ,$$.  $$. $$ $$$$$. ,$$$$
+ $$  $$�   $$    $$�`$$ $$$.$$ $$ `$$ $$�
+ $$  `$$$. $$    $$$$$$ $$$$$$ $$  $$ `$$$.
+ $$    `$$ $$    $$  $$ $$`$$$ $$ ,$$   `$$
+$$$$ $$$$� $$$$$ $$  $$ $$ `$$ $$$$$� $$$$�
+
+,$$$$. $$$$$$   $    $ $$  $$ $$$$$$ $$  $$
+$$�`$$ $$       $$  $$ $$  $$   $$   $$  $$
+$$  $$ $$$$     $$$$$$ `$$$$�   $$   $$$$$$
+$$.,$$ $$       $$  $$  `$$�    $$   $$  $$
+`$$$$� $$       $$  $$   $$     $$   $$  $$
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 16 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+> Password: 
+Last login: Fri May 22 09:25:48 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+[0mMCCP - Mud Client Compression Protocol Supported
+[0mMXP - Mud Extension Protocol Supported
+[0mA dark, sucking portal appears. You fall from it!
+[0mWelcome back!
+[0m[[32mlogin[0m]: Sebbe has reconnected (Snakeman level 157).
+[0m[0mLevel Room[0m [exits: [35mwest[0m[0m]
+[0mAchman the Judge
+
+[0m[0mLevel Room[0m [exits: [35mwest[0m[0m]
+[0m This room is large, and the ceiling is high. In the center stands a large
+podium. Upon that podium sits Achman, the judge. He controls the levels of
+Islands of Myth, and has the power to create some of the strongest players. He
+sits in a high back chair built into the podium. Talk to him if you wish to
+advance in your endeavors. 
+
+Achman the Judge
+
+[0m[0mAdventurer Guild Entrance[0m [exits: [35mwest, south, southeast, northeast, north,
+southwest and east[0m[0m]
+[0m
+[0m[0mAdventurer Guild Entrance[0m [exits: [35mwest, south, southeast, northeast, north,
+southwest and east[0m[0m]
+[0m This large room is the Adventurers guild. Truly breathtaking in its
+architecture, the guild houses a vast amount of help for the new adventurers
+and the old. Its high domed ceiling swirls with blue and whites, like the sky
+on a very windy day. Because it is domed and there are windows all along the
+wall, the room seems very open and very friendly.
+
+
+[0m[0m
+=== Session started 2026-05-22 22:45:00.757790 ===
+^L
+    _____     _                 _              __   __  __       _   _
+   |_   _|   | |               | |            / _| |  \/  |     | | | |
+     | |  ___| | __ _ _ __   __| |___    ___ | |_  | \  / |_   _| |_| |__
+     | | / __| |/ _` | '_ \ / _` / __|  / _ \|  _| | |\/| | | | | __| '_ \
+    _| |_\__ \ | (_| | | | | (_| \__ \ | (_) | |   | |  | | |_| | |_| | | |
+   |_____|___/_|\__,_|_| |_|\__,_|___/  \___/|_|   |_|  |_|\__, |\__|_| |_|
+                                                            __/ |
+                                                           |___/
+
+
+                 _______                                   _______
+                .;;;;;;;;;.                               .;;;;;;;;;.
+               ///////\\\\\\                             ///////\\\\\\
+              ( //~///~\\\~\\                           //~///~\\\~\\^)
+              \`  ///_ / \\`\                           /`// \ -\\\  ~/
+                 / / -/  ^\                               /^  \- \ \
+                  / -/                                         \- \
+                 / -/                                           \- \
+                (- (                 /~~~~~~~~~\                 )_ )
+                 \ -\               /-----------\               /_ /
+                  \ -\              :====(@)====:              /- /
+                   \ _\             |-----------|             /- /
+                   _\ -\@___________|___________|________@___/- /_
+                  / @  @                                     @    \
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 15 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+> Password: 
+Last login: Fri May 22 10:26:20 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+[0mMCCP - Mud Client Compression Protocol Supported
+[0mMXP - Mud Extension Protocol Supported
+[0mA dark, sucking portal appears. You fall from it!
+[0mWelcome back!
+[0m[[32mlogin[0m]: Sebbe has reconnected (Snakeman level 157).
+[0m[0mLevel Room[0m [exits: [35mwest[0m[0m]
+[0mAchman the Judge
+
+[0m[0mAdventurer Guild Entrance[0m [exits: [35mwest, south, southeast, northeast, north,
+southwest and east[0m[0m]
+[0m
+[0m[0mAdventurer Guild Entrance[0m [exits: [35mwest, south, southeast, northeast, north,
+southwest and east[0m[0m]
+[0m This large room is the Adventurers guild. Truly breathtaking in its
+architecture, the guild houses a vast amount of help for the new adventurers
+and the old. Its high domed ceiling swirls with blue and whites, like the sky
+on a very windy day. Because it is domed and there are windows all along the
+wall, the room seems very open and very friendly.
+
+
+[0m[0m
+=== Session started 2026-05-22 22:49:07.761192 ===
+^L
+.::        .::                        .::                      .::
+.::        .::                        .::                    .:   
+.:: .::::  .::   .::    .:: .::       .:: .::::     .::    .:.: .:
+.::.::     .:: .::  .::  .::  .:: .:: .::.::      .::  .::   .::  
+.::  .:::  .::.::   .::  .::  .::.:   .::  .:::  .::    .::  .::  
+.::    .:: .::.::   .::  .::  .::.:   .::    .::  .::  .::   .::  
+.::.:: .::.:::  .:: .:::.:::  .:: .:: .::.:: .::    .::      .::  
+                                                                  
+.::       .::           .::          
+.: .::   .:::           .::  .::     
+.:: .:: . .::.::   .::.:.: .:.::     
+.::  .::  .:: .:: .::   .::  .: .:   
+.::   .:  .::   .:::    .::  .::  .::
+.::       .::    .::    .::  .:   .::
+.::       .::   .::      .:: .::  .::
+              .::                    
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 15 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+> Password: 
+Last login: Fri May 22 10:46:54 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+[0mMCCP - Mud Client Compression Protocol Supported
+[0mMXP - Mud Extension Protocol Supported
+[0mA dark, sucking portal appears. You fall from it!
+[0mWelcome back!
+[0m[[32mlogin[0m]: Sebbe has reconnected (Snakeman level 157).
+[0m[0mIt doesn't seem possible to go that direction.
+[0m[0mLevel Room[0m [exits: [35mwest[0m[0m]
+[0m This room is large, and the ceiling is high. In the center stands a large
+podium. Upon that podium sits Achman, the judge. He controls the levels of
+Islands of Myth, and has the power to create some of the strongest players. He
+sits in a high back chair built into the podium. Talk to him if you wish to
+advance in your endeavors. 
+
+Achman the Judge
+
+[0m[0mAdventurer Guild Entrance[0m [exits: [35mwest, south, southeast, northeast, north,
+southwest and east[0m[0m]
+[0m
+[0m[0mAdventurer Guild Entrance[0m [exits: [35mwest, south, southeast, northeast, north,
+southwest and east[0m[0m]
+[0m This large room is the Adventurers guild. Truly breathtaking in its
+architecture, the guild houses a vast amount of help for the new adventurers
+and the old. Its high domed ceiling swirls with blue and whites, like the sky
+on a very windy day. Because it is domed and there are windows all along the
+wall, the room seems very open and very friendly.
+
+
+[0m[0m
+=== Session started 2026-05-22 22:50:57.504043 ===
+^L
+'||'        '||                        '||                      .'|. 
+ ||   ....   ||   ....   .. ...      .. ||   ....       ...   .||.   
+ ||  ||. '   ||  '' .||   ||  ||   .'  '||  ||. '     .|  '|.  ||    
+ ||  . '|..  ||  .|' ||   ||  ||   |.   ||  . '|..    ||   ||  ||    
+.||. |'..|' .||. '|..'|' .||. ||.  '|..'||. |'..|'     '|..|' .||.   
+                                                                     
+                                                                     
+'||    ||'            .   '||      
+ |||  |||  .... ... .||.   || ..   
+ |'|..'||   '|.  |   ||    ||' ||  
+ | '|' ||    '|.|    ||    ||  ||  
+.|. | .||.    '|     '|.' .||. ||. 
+           .. |                    
+            ''                     
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 15 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+> Password: 
+Last login: Fri May 22 10:49:22 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+[0mMCCP - Mud Client Compression Protocol Supported
+[0mMXP - Mud Extension Protocol Supported
+[0mA dark, sucking portal appears. You fall from it!
+[0mWelcome back!
+[0m[[32mlogin[0m]: Sebbe has reconnected (Snakeman level 157).
+[0m[0mLevel Room[0m [exits: [35mwest[0m[0m]
+[0mAchman the Judge
+
+[0m[0mLevel Room[0m [exits: [35mwest[0m[0m]
+[0m This room is large, and the ceiling is high. In the center stands a large
+podium. Upon that podium sits Achman, the judge. He controls the levels of
+Islands of Myth, and has the power to create some of the strongest players. He
+sits in a high back chair built into the podium. Talk to him if you wish to
+advance in your endeavors. 
+
+Achman the Judge
+
+[0m[0m
+=== Session started 2026-05-22 23:41:33.766364 ===
+^L
+    _____     _                 _              __   __  __       _   _
+   |_   _|   | |               | |            / _| |  \/  |     | | | |
+     | |  ___| | __ _ _ __   __| |___    ___ | |_  | \  / |_   _| |_| |__
+     | | / __| |/ _` | '_ \ / _` / __|  / _ \|  _| | |\/| | | | | __| '_ \
+    _| |_\__ \ | (_| | | | | (_| \__ \ | (_) | |   | |  | | |_| | |_| | | |
+   |_____|___/_|\__,_|_| |_|\__,_|___/  \___/|_|   |_|  |_|\__, |\__|_| |_|
+                                                            __/ |
+                                                           |___/
+
+
+                 _______                                   _______
+                .;;;;;;;;;.                               .;;;;;;;;;.
+               ///////\\\\\\                             ///////\\\\\\
+              ( //~///~\\\~\\                           //~///~\\\~\\^)
+              \`  ///_ / \\`\                           /`// \ -\\\  ~/
+                 / / -/  ^\                               /^  \- \ \
+                  / -/                                         \- \
+                 / -/                                           \- \
+                (- (                 /~~~~~~~~~\                 )_ )
+                 \ -\               /-----------\               /_ /
+                  \ -\              :====(@)====:              /- /
+                   \ _\             |-----------|             /- /
+                   _\ -\@___________|___________|________@___/- /_
+                  / @  @                                     @    \
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 15 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+> Password: 
+Last login: Fri May 22 10:51:08 2026 from: 47.237.80.25 (47.237.80.25)
+
+********************************************************
+               Welcome to Islands of Myth!
++=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+Join us at...
+Discord : https://discord.gg/gSctHJRVvQ
+Facebook: https://www.facebook.com/groups/11655590400/
+
+New Gear & info site from Tomten:
+http://iominfo.vlp.se
+********************************************************
+
+
+   ------------------------------------------------------------------------   
+   |                     #<># You have NEW mail! #<>#                     |   
+   ------------------------------------------------------------------------   
+[0mYou wear prismatic amulet.
+[0mYour brain pulses.
+[0mYou feel witty.
+[0mYour brain feels like a sponge.
+[0mYou feel resistant.
+[0m
+
+RDMP - Red Dragon Mud Protocol supported
+[0mMCCP - Mud Client Compression Protocol Supported
+[0mYou enter Islands of Myth.
+[0m[0m[32mClan TOTD: Duh, Wazzup?.[0m
+[0mWelcome to Islands of Myth!
+[0m[0mYou feel Starved.
+[0mIt doesn't seem possible to go that direction.
+[0m[0mLevel Room[0m [exits: [35mwest[0m[0m]
+[0m This room is large, and the ceiling is high. In the center stands a large
+podium. Upon that podium sits Achman, the judge. He controls the levels of
+Islands of Myth, and has the power to create some of the strongest players. He
+sits in a high back chair built into the podium. Talk to him if you wish to
+advance in your endeavors. 
+
+Achman the Judge
+
+[0m[0m
+=== Session started 2026-05-22 23:43:28.009352 ===
+^L
+        _________   ________________   ____
+       / / ___/ /  / __  / __  / __ |/ ___/
+      / /__  / /__/ __  / / / / /_/ /__  /
+     /_/____/____/_/ /_/_/ /_/_____/____/
+      ___________  ________  ___________  __
+     / __  / ___/ /     / /_/ /__  __/ /_/ /
+    / /_/ / __/  / /_/ /___  /  / / / __  /
+   /_____/_/    /_/ /_/   /_/  /_/ /_/ /_/
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 15 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+> Password: 
+Last login: Fri May 22 11:41:44 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+[0mMCCP - Mud Client Compression Protocol Supported
+[0mMXP - Mud Extension Protocol Supported
+[0mA dark, sucking portal appears. You fall from it!
+[0mWelcome back!
+[0m[[32mlogin[0m]: Sebbe has reconnected (Snakeman level 157).
+[0m[0mIt doesn't seem possible to go that direction.
+[0m[0mLevel Room[0m [exits: [35mwest[0m[0m]
+[0m This room is large, and the ceiling is high. In the center stands a large
+podium. Upon that podium sits Achman, the judge. He controls the levels of
+Islands of Myth, and has the power to create some of the strongest players. He
+sits in a high back chair built into the podium. Talk to him if you wish to
+advance in your endeavors. 
+
+Achman the Judge
+
+[0m[0m
+=== Session started 2026-05-22 23:50:02.759018 ===
+^L
+  ###                                                                    
+   #      ####   #         ##    #    #  #####    ####        ####   ######
+   #     #       #        #  #   ##   #  #    #  #           #    #  #  
+   #      ####   #       #    #  # #  #  #    #   ####       #    #  #####
+   #          #  #       ######  #  # #  #    #       #      #    #  #
+   #     #    #  #       #    #  #   ##  #    #  #    #      #    #  #
+  ###     ####   ######  #    #  #    #  #####    ####        ####   #
+
+                      #     # 
+                      ##   ##   #   #   #####  #    # 
+                      # # # #    # #      #    #    # 
+                      #  #  #     #       #    ###### 
+                      #     #     #       #    #    # 
+                      #     #     #       #    #    # 
+                      #     #     #       #    #    # 
+
+
+
+----------------------------------------------------------------------------
+Islands of Myth is running a LIMA mudlib base, heavily modified.
+----------------------------------------------------------------------------
+             __________________________________________________
+            |                                                  |
+            |Email: mud@islandsofmyth.org                      |
+            |      Currently there are 15 players playing.     |__
+            |__________________________________________________|  |
+              |                                                   |
+              |          [name]  - Enter the game as [name]       |
+              |          [d]     - Disconnect.                    |
+              |          [s]     - Status of the game.            |
+              |          [w]     - Who is currently playing.      |
+              |          [c]     - Create a new character.        |
+              |___________________________________________________|
+
+Please enter a name or choice from the above menu.
+> Password: 
+Last login: Fri May 22 11:43:38 2026 from: 47.237.80.25 (47.237.80.25)
+
+
+RDMP - Red Dragon Mud Protocol supported
+[0mMCCP - Mud Client Compression Protocol Supported
+[0mMXP - Mud Extension Protocol Supported
+[0mA dark, sucking portal appears. You fall from it!
+[0mWelcome back!
+[0m[[32mlogin[0m]: Sebbe has reconnected (Snakeman level 157).
+[0m[0mIt doesn't seem possible to go that direction.
+[0m[0mLevel Room[0m [exits: [35mwest[0m[0m]
+[0m This room is large, and the ceiling is high. In the center stands a large
+podium. Upon that podium sits Achman, the judge. He controls the levels of
+Islands of Myth, and has the power to create some of the strongest players. He
+sits in a high back chair built into the podium. Talk to him if you wish to
+advance in your endeavors. 
+
+Achman the Judge
+
+[0m[0m

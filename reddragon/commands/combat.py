@@ -6,9 +6,11 @@ Based on Islands of Myth combat system
 from evennia import Command
 from evennia import CmdSet
 from evennia.utils import search
-from commands.economy import CmdBuy, CmdSell, CmdList, CmdDeposit, CmdWithdraw, CmdBalance
-from commands.who import CmdWho
-from commands.summary import CmdSummary, init_session_stats
+from commands.utility import CmdVersion, CmdChat, CmdToggleChat
+from commands.ai_dm_commands import (
+    CmdDivineStatus, CmdPray, CmdAchievements, CmdDivineLog,
+    CmdForceDivine, CmdSetDivinePersonality
+)
 
 class CmdKill(Command):
     """
@@ -462,6 +464,18 @@ class CombatCmdSet(CmdSet):
         self.add(CmdMove)
         self.add(CmdWho)
         self.add(CmdSummary)
+        # Version
+        self.add(CmdVersion)
+        # Chat
+        self.add(CmdChat)
+        self.add(CmdToggleChat)
+        # Divine / AI DM
+        self.add(CmdDivineStatus)
+        self.add(CmdPray)
+        self.add(CmdAchievements)
+        self.add(CmdDivineLog)
+        self.add(CmdForceDivine)
+        self.add(CmdSetDivinePersonality)
         # Economy commands
         self.add(CmdBuy)
         self.add(CmdSell)

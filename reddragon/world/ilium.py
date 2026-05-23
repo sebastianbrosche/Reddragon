@@ -466,7 +466,8 @@ def build_ilium_city():
     # Map shows 5 (Newbie Guild) is also south of 2 (Level Room)
     create_exit(level_room, newbie_guild, "south", "north")
     
-    # TODO: As the subagent maps more rooms, expand this function
-    # to connect additional streets, buildings, and landmarks.
+    # Build extended city grid (Central Square, streets, shops, landmarks)
+    from world.illium_extended import create_illium_extended_grid
+    create_illium_extended_grid(guild_entrance)
     
     return guild_entrance

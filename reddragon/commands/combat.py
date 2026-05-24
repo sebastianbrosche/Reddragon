@@ -22,6 +22,7 @@ from evennia.contrib.rpg.health_bar.health_bar import display_meter
 from evennia.contrib.game_systems.clothing.clothing import ClothedCharacterCmdSet
 from evennia.contrib.game_systems.barter.barter import CmdOffer, CmdAccept, CmdDecline, CmdEvaluate, CmdStatus
 from evennia.contrib.game_systems.crafting.crafting import CraftingCmdSet
+from evennia.contrib.base_systems.ingame_reports.reports import ReportsCmdSet
 from world.buffs import IOM_BUFFS, apply_buff, remove_buff
 
 class CmdKill(Command):
@@ -560,6 +561,8 @@ class CombatCmdSet(CmdSet):
         # Storage (store, retrieve, list in storage rooms)
         from evennia.contrib.game_systems.storage.storage import StorageCmdSet
         self.add(StorageCmdSet())
+        # In-Game Reports (bug, idea, player reports)
+        self.add(ReportsCmdSet())
         self.add(CmdBuy)
         self.add(CmdSell)
         self.add(CmdList)

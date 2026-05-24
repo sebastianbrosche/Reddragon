@@ -167,6 +167,11 @@ class Character(ContribRPCharacter):
         self.db.mail_count = 0
         self.db.mail_unread = 0
 
+        # Race selection flag
+        self.db.needs_race_selection = True
+        self.db.race = "Human"
+        self.db.race_key = "human"
+
         # Spawn location
         from evennia.utils import search
         start_room = search.search_object("Adventurer Guild Entrance", typeclass="typeclasses.rooms.Room")

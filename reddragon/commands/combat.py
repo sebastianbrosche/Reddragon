@@ -633,6 +633,9 @@ class CombatCmdSet(CmdSet):
         # LLM NPC talk command (requires LLM server config)
         from evennia.contrib.rpg.llm.llm_npc import CmdLLMTalk
         self.add(CmdLLMTalk())
+        # Ferry system (sail between islands)
+        from typeclasses.ferry import FerryCmdSet
+        self.add(FerryCmdSet())
         self.add(CmdBuy)
         self.add(CmdSell)
         self.add(CmdList)

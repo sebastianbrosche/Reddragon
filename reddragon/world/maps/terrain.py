@@ -221,7 +221,15 @@ def build_water(x, y, **kwargs):
     return build_room(x, y, "water", **kwargs)
 
 def build_beach(x, y, **kwargs):
-    return build_room(x, y, "beach", **kwargs)
+    """Build a beach room - may become a dock if adjacent to water."""
+    room = build_room(x, y, "beach", **kwargs)
+    
+    # Check if this beach is a potential dock location
+    # Docks are at beach locations that face open water
+    room.db.is_dock = True
+    room.db.dock_name = f"{room.key} Dock"
+    
+    return room
 
 def build_forest(x, y, **kwargs):
     return build_room(x, y, "forest", **kwargs)

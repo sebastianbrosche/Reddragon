@@ -271,6 +271,9 @@ TIME_UNITS = {
     "year": 60 * 60 * 24 * 30 * 12,
 }
 
+# Character Creator menu
+CHARGEN_MENU = "world.chargen_menu"
+
 ######################################################################
 # Secret Settings Override
 ######################################################################

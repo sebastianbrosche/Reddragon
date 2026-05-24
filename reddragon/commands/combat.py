@@ -24,6 +24,7 @@ from evennia.contrib.game_systems.barter.barter import CmdOffer, CmdAccept, CmdD
 from evennia.contrib.game_systems.crafting.crafting import CraftingCmdSet
 from evennia.contrib.base_systems.ingame_reports.reports import ReportsCmdSet
 from evennia.contrib.game_systems.multidescer.multidescer import CmdMultiDesc
+from evennia.contrib.rpg.character_creator.character_creator import ContribCmdCharCreate
 from world.buffs import IOM_BUFFS, apply_buff, remove_buff
 
 class CmdKill(Command):
@@ -618,6 +619,8 @@ class CombatCmdSet(CmdSet):
         self.add(ReportsCmdSet())
         # Multi-Describer (+desc command for multiple character descriptions)
         self.add(CmdMultiDesc())
+        # Character Creator (interactive chargen menu)
+        self.add(ContribCmdCharCreate())
         self.add(CmdBuy)
         self.add(CmdSell)
         self.add(CmdList)

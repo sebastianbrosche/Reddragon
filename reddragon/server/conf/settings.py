@@ -274,6 +274,9 @@ TIME_UNITS = {
 # Character Creator menu
 CHARGEN_MENU = "world.chargen_menu"
 
+# In-Game Map Display
+BASIC_MAP_SIZE = 5
+
 ######################################################################
 # Secret Settings Override
 ######################################################################

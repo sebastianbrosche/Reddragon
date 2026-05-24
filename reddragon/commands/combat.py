@@ -621,6 +621,12 @@ class CombatCmdSet(CmdSet):
         self.add(CmdMultiDesc())
         # Character Creator (interactive chargen menu)
         self.add(ContribCmdCharCreate())
+        # Slow Exit (setspeed, stop commands)
+        from evennia.contrib.grid.slow_exit.slow_exit import SlowExitCmdSet
+        self.add(SlowExitCmdSet())
+        # In-Game Map Display (ascii map command)
+        from evennia.contrib.grid.ingame_map_display.ingame_map_display import MapDisplayCmdSet
+        self.add(MapDisplayCmdSet())
         self.add(CmdBuy)
         self.add(CmdSell)
         self.add(CmdList)

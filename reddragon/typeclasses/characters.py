@@ -46,6 +46,11 @@ class Character(ContribRPCharacter):
     def buffs(self):
         return BuffHandler(self)
 
+    @lazy_property
+    def cooldowns(self):
+        from evennia.contrib.game_systems.cooldowns.cooldowns import CooldownHandler
+        return CooldownHandler(self)
+
     def _setup_traits(self):
         """Initialize all IOM traits for this character."""
         race = getattr(self.db, "race", "Human")

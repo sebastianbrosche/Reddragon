@@ -16,6 +16,7 @@ from evennia.contrib.rpg.rpsystem.rpsystem import RPSystemCmdSet
 from evennia.contrib.grid.extended_room.extended_room import ExtendedRoomCmdSet
 from evennia.contrib.grid.simpledoor.simpledoor import SimpleDoorCmdSet
 from evennia.contrib.base_systems.ingame_python.commands import CmdCallback
+from evennia.contrib.rpg.dice.dice import CmdDice
 from world.buffs import IOM_BUFFS, apply_buff, remove_buff
 
 class CmdKill(Command):
@@ -534,6 +535,8 @@ class CombatCmdSet(CmdSet):
         self.add(SimpleDoorCmdSet())
         # In-game Python (event callbacks)
         self.add(CmdCallback())
+        # Dice roller (1d20 + 5, etc)
+        self.add(CmdDice())
         self.add(CmdBuy)
         self.add(CmdSell)
         self.add(CmdList)

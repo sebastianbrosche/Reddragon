@@ -110,7 +110,7 @@ class CmdRoll(MuxCommand):
         roll reroll
         roll accept
         
-    Rolls random stats for your character. You can reroll up to 3 times.
+    Rolls random stats for your character. Unlimited rerolls.
     Once you accept, stats are permanent.
     """
     
@@ -142,21 +142,13 @@ class CmdRoll(MuxCommand):
             self._apply_to_traits()
             return
         
-        # Handle reroll count
+        # Handle reroll count - UNLIMITED REROLLS
         reroll_count = getattr(self.caller.db, 'reroll_count', 0)
-        max_rerolls = 3
         
         if self.cmdstring == "reroll" or "reroll" in self.switches:
-            if reroll_count >= max_rerolls:
-                self.caller.msg(f"|rYou have used all {max_rerolls} rerolls.|n")
-                self.caller.msg("|yType 'accept' to keep your current stats.|n")
-                return
             reroll_count += 1
         elif reroll_count == 0 and hasattr(self.caller.db, 'current_roll'):
             # First time but already has stats - they're trying to reroll without saying so
-            if reroll_count >= max_rerolls:
-                self.caller.msg(f"|rYou have used all {max_rerolls} rerolls.|n")
-                return
             reroll_count += 1
         
         # Roll new stats
@@ -171,11 +163,8 @@ class CmdRoll(MuxCommand):
         # Display
         self.caller.msg(format_stats_for_display(stats, exp_rate))
         
-        rerolls_left = max_rerolls - reroll_count
-        self.caller.msg(f"\n|wRerolls remaining: {rerolls_left}|n")
-        
-        if rerolls_left > 0:
-            self.caller.msg("|yType 'roll' or 'reroll' to roll again.|n")
+        self.caller.msg(f"\n|wRoll number: {reroll_count}|n")
+        self.caller.msg("|yType 'roll' or 'reroll' to roll again (unlimited).|n")
         self.caller.msg("|gType 'accept' to keep these stats.|n")
     
     def _apply_to_traits(self):
@@ -240,4 +229,4 @@ def setup_rolling_for_character(character):
     
     character.msg("|cWelcome to character creation!|n")
     character.msg("|wType 'roll' to generate your character's stats.|n")
-    character.msg("|wYou can reroll up to 3 times.|n")
+    character.msg("|wUnlimited rerolls - keep rolling until you're happy!|n")

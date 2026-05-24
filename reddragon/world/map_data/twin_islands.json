@@ -408,7 +408,9 @@
         "row": 7,
         "col": 4,
         "name": "- out",
-        "exits": {},
+        "exits": {
+          "south": 1
+        },
         "is_entry": false,
         "is_exit": true,
         "has_portal": false
@@ -417,7 +419,9 @@
         "row": 9,
         "col": 4,
         "name": "Savlo",
-        "exits": {},
+        "exits": {
+          "north": 0
+        },
         "is_entry": false,
         "is_exit": true,
         "has_portal": false
@@ -1035,7 +1039,8 @@
         "name": "Released after",
         "exits": {
           "north": 27,
-          "south": 59
+          "south": 59,
+          "southeast": 45
         },
         "is_entry": false,
         "is_exit": false,
@@ -1045,7 +1050,9 @@
         "row": 22,
         "col": 121,
         "name": "Room_22_121",
-        "exits": {},
+        "exits": {
+          "northwest": 44
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -1056,7 +1063,8 @@
         "name": "out   Training",
         "exits": {
           "north": 35,
-          "northeast": 29
+          "northeast": 29,
+          "south": 179
         },
         "is_entry": false,
         "is_exit": true,
@@ -1085,7 +1093,8 @@
           "west": 47,
           "east": 49,
           "northwest": 29,
-          "northeast": 31
+          "northeast": 31,
+          "south": 72
         },
         "is_entry": false,
         "is_exit": false,
@@ -1343,7 +1352,8 @@
         "exits": {
           "north": 62,
           "west": 67,
-          "east": 69
+          "east": 69,
+          "south": 71
         },
         "is_entry": false,
         "is_exit": false,
@@ -1367,7 +1377,8 @@
         "name": "Housing Section",
         "exits": {
           "north": 63,
-          "west": 69
+          "west": 69,
+          "southeast": 146
         },
         "is_entry": false,
         "is_exit": false,
@@ -1378,7 +1389,8 @@
         "col": 48,
         "name": "Room_32_48",
         "exits": {
-          "southwest": 83
+          "southwest": 83,
+          "north": 68
         },
         "is_entry": false,
         "is_exit": false,
@@ -1391,7 +1403,8 @@
         "exits": {
           "south": 81,
           "southwest": 98,
-          "southeast": 100
+          "southeast": 100,
+          "north": 48
         },
         "is_entry": false,
         "is_exit": false,
@@ -1740,7 +1753,9 @@
         "row": 36,
         "col": 139,
         "name": "Immalinga",
-        "exits": {},
+        "exits": {
+          "northwest": 70
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -2302,7 +2317,9 @@
         "row": 40,
         "col": 128,
         "name": "Room_40_128",
-        "exits": {},
+        "exits": {
+          "northwest": 70
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -2404,7 +2421,8 @@
         "exits": {
           "south": 150,
           "east": 147,
-          "southeast": 154
+          "southeast": 154,
+          "northwest": 70
         },
         "is_entry": false,
         "is_exit": false,
@@ -2472,7 +2490,9 @@
         "row": 44,
         "col": 136,
         "name": "Room_44_136",
-        "exits": {},
+        "exits": {
+          "northwest": 70
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -2560,7 +2580,8 @@
         "exits": {
           "west": 158,
           "east": 160,
-          "southwest": 175
+          "southwest": 175,
+          "north": 68
         },
         "is_entry": false,
         "is_exit": false,
@@ -2811,7 +2832,9 @@
         "row": 61,
         "col": 4,
         "name": "One house has a vase",
-        "exits": {},
+        "exits": {
+          "north": 46
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -2971,7 +2994,9 @@
         "row": 9,
         "col": 146,
         "name": "font color",
-        "exits": {},
+        "exits": {
+          "southwest": 3
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -2980,7 +3005,9 @@
         "row": 13,
         "col": 200,
         "name": "FF",
-        "exits": {},
+        "exits": {
+          "southwest": 3
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -3003,7 +3030,8 @@
         "name": "Lvl",
         "exits": {
           "south": 7,
-          "southwest": 14
+          "southwest": 14,
+          "northeast": 0
         },
         "is_entry": false,
         "is_exit": false,
@@ -3052,7 +3080,8 @@
         "exits": {
           "north": 3,
           "south": 15,
-          "southwest": 23
+          "southwest": 23,
+          "east": 8
         },
         "is_entry": false,
         "is_exit": false,
@@ -3065,7 +3094,8 @@
         "exits": {
           "north": 4,
           "south": 16,
-          "east": 9
+          "east": 9,
+          "west": 7
         },
         "is_entry": false,
         "is_exit": false,
@@ -3086,7 +3116,9 @@
         "row": 23,
         "col": 108,
         "name": "Room_23_108",
-        "exits": {},
+        "exits": {
+          "west": 7
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -3269,7 +3301,8 @@
         "exits": {
           "north": 15,
           "south": 70,
-          "west": 23
+          "west": 23,
+          "east": 25
         },
         "is_entry": false,
         "is_exit": false,
@@ -3279,7 +3312,9 @@
         "row": 27,
         "col": 88,
         "name": "Room_27_88",
-        "exits": {},
+        "exits": {
+          "west": 24
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -4139,7 +4174,8 @@
         "col": 16,
         "name": "Room_39_16",
         "exits": {
-          "east": 84
+          "east": 84,
+          "south": 90
         },
         "is_entry": false,
         "is_exit": true,
@@ -4235,7 +4271,8 @@
         "exits": {
           "south": 104,
           "west": 89,
-          "southwest": 103
+          "southwest": 103,
+          "north": 83
         },
         "is_entry": false,
         "is_exit": false,
@@ -4747,7 +4784,9 @@
         "row": 11,
         "col": 8,
         "name": "D - U - D",
-        "exits": {},
+        "exits": {
+          "south": 3
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -4756,7 +4795,9 @@
         "row": 13,
         "col": 8,
         "name": "Room_13_8",
-        "exits": {},
+        "exits": {
+          "south": 3
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -4781,7 +4822,8 @@
         "exits": {
           "south": 8,
           "west": 2,
-          "southeast": 17
+          "southeast": 17,
+          "north": 0
         },
         "is_entry": false,
         "is_exit": false,
@@ -4928,7 +4970,8 @@
         "name": "Room_21_112",
         "exits": {
           "north": 6,
-          "east": 15
+          "east": 15,
+          "southwest": 42
         },
         "is_entry": false,
         "is_exit": false,
@@ -5050,7 +5093,8 @@
           "west": 22,
           "east": 24,
           "northwest": 4,
-          "northeast": 5
+          "northeast": 5,
+          "south": 51
         },
         "is_entry": false,
         "is_exit": false,
@@ -5306,7 +5350,8 @@
         "col": 104,
         "name": "Room_25_104",
         "exits": {
-          "west": 41
+          "west": 41,
+          "northeast": 14
         },
         "is_entry": false,
         "is_exit": false,
@@ -5430,7 +5475,9 @@
         "row": 27,
         "col": 72,
         "name": "Room_27_72",
-        "exits": {},
+        "exits": {
+          "north": 23
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -5585,7 +5632,8 @@
         "col": 177,
         "name": "out -",
         "exits": {
-          "east": 1
+          "east": 1,
+          "southwest": 28
         },
         "is_entry": false,
         "is_exit": false,
@@ -5620,7 +5668,8 @@
         "col": 263,
         "name": "Room_11_263",
         "exits": {
-          "east": 4
+          "east": 4,
+          "southwest": 28
         },
         "is_entry": false,
         "is_exit": false,
@@ -5664,7 +5713,9 @@
         "row": 13,
         "col": 185,
         "name": "span class",
-        "exits": {},
+        "exits": {
+          "southwest": 28
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -5673,7 +5724,9 @@
         "row": 13,
         "col": 209,
         "name": "span",
-        "exits": {},
+        "exits": {
+          "southwest": 28
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -5684,7 +5737,8 @@
         "name": "Room_13_213",
         "exits": {
           "east": 10,
-          "northeast": 2
+          "northeast": 2,
+          "southwest": 28
         },
         "is_entry": false,
         "is_exit": false,
@@ -5719,7 +5773,9 @@
         "row": 13,
         "col": 225,
         "name": "Room_13_225",
-        "exits": {},
+        "exits": {
+          "southwest": 28
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -5728,7 +5784,9 @@
         "row": 15,
         "col": 135,
         "name": "U -",
-        "exits": {},
+        "exits": {
+          "southwest": 28
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -5737,7 +5795,9 @@
         "row": 15,
         "col": 139,
         "name": "bre",
-        "exits": {},
+        "exits": {
+          "southwest": 28
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -5796,7 +5856,9 @@
         "row": 17,
         "col": 127,
         "name": "U -",
-        "exits": {},
+        "exits": {
+          "southwest": 28
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -5807,7 +5869,8 @@
         "name": "span class",
         "exits": {
           "north": 15,
-          "east": 21
+          "east": 21,
+          "southwest": 28
         },
         "is_entry": false,
         "is_exit": false,
@@ -5910,7 +5973,8 @@
         "col": 68,
         "name": "D      U",
         "exits": {
-          "west": 27
+          "west": 27,
+          "northeast": 20
         },
         "is_entry": false,
         "is_exit": false,
@@ -5920,7 +5984,9 @@
         "row": 35,
         "col": 32,
         "name": "out -",
-        "exits": {},
+        "exits": {
+          "east": 30
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -5930,7 +5996,10 @@
         "col": 40,
         "name": "vmap",
         "exits": {
-          "east": 31
+          "east": 31,
+          "southwest": 51,
+          "west": 29,
+          "south": 57
         },
         "is_entry": false,
         "is_exit": false,
@@ -6069,7 +6138,9 @@
         "row": 43,
         "col": 15,
         "name": "U An old thief",
-        "exits": {},
+        "exits": {
+          "northeast": 30
+        },
         "is_entry": false,
         "is_exit": true,
         "has_portal": false
@@ -6210,7 +6281,8 @@
         "exits": {
           "south": 56,
           "west": 50,
-          "southwest": 59
+          "southwest": 59,
+          "northeast": 30
         },
         "is_entry": false,
         "is_exit": false,
@@ -6290,7 +6362,9 @@
         "row": 51,
         "col": 40,
         "name": "out -",
-        "exits": {},
+        "exits": {
+          "north": 30
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -6403,7 +6477,8 @@
         "name": "Level",
         "exits": {
           "north": 1,
-          "west": 4
+          "west": 4,
+          "south": 12
         },
         "is_entry": false,
         "is_exit": false,
@@ -6437,7 +6512,9 @@
         "row": 13,
         "col": 32,
         "name": "Level",
-        "exits": {},
+        "exits": {
+          "south": 9
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -6448,7 +6525,8 @@
         "name": "outside",
         "exits": {
           "south": 14,
-          "east": 10
+          "east": 10,
+          "north": 8
         },
         "is_entry": false,
         "is_exit": false,
@@ -6487,7 +6565,8 @@
           "south": 28,
           "west": 11,
           "east": 13,
-          "southeast": 26
+          "southeast": 26,
+          "north": 5
         },
         "is_entry": false,
         "is_exit": false,
@@ -6752,7 +6831,8 @@
         "col": 12,
         "name": "D - D      out",
         "exits": {
-          "west": 1
+          "west": 1,
+          "east": 3
         },
         "is_entry": false,
         "is_exit": false,
@@ -6763,7 +6843,8 @@
         "col": 16,
         "name": "D - D      out",
         "exits": {
-          "east": 4
+          "east": 4,
+          "west": 2
         },
         "is_entry": false,
         "is_exit": false,
@@ -6775,7 +6856,8 @@
         "name": "D - D      out",
         "exits": {
           "west": 3,
-          "east": 5
+          "east": 5,
+          "south": 11
         },
         "is_entry": false,
         "is_exit": true,
@@ -6856,7 +6938,8 @@
         "col": 20,
         "name": "Room_15_20",
         "exits": {
-          "west": 10
+          "west": 10,
+          "north": 4
         },
         "is_entry": false,
         "is_exit": false,
@@ -7300,7 +7383,8 @@
         "col": 75,
         "name": "guards block D",
         "exits": {
-          "north": 11
+          "north": 11,
+          "southwest": 20
         },
         "is_entry": false,
         "is_exit": false,
@@ -7311,7 +7395,8 @@
         "col": 79,
         "name": "guards block D",
         "exits": {
-          "north": 12
+          "north": 12,
+          "southwest": 20
         },
         "is_entry": false,
         "is_exit": false,
@@ -7396,7 +7481,8 @@
         "name": "Room_13_40",
         "exits": {
           "north": 4,
-          "west": 19
+          "west": 19,
+          "northeast": 13
         },
         "is_entry": false,
         "is_exit": false,
@@ -7723,7 +7809,8 @@
         "col": 8,
         "name": "Room_9_8",
         "exits": {
-          "east": 1
+          "east": 1,
+          "southwest": 2
         },
         "is_entry": false,
         "is_exit": true,
@@ -7744,7 +7831,9 @@
         "row": 11,
         "col": 4,
         "name": "'climb ladder'",
-        "exits": {},
+        "exits": {
+          "northeast": 0
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -7765,7 +7854,9 @@
         "row": 11,
         "col": 4,
         "name": "Room_11_4",
-        "exits": {},
+        "exits": {
+          "southeast": 1
+        },
         "is_entry": false,
         "is_exit": true,
         "has_portal": false
@@ -7774,7 +7865,9 @@
         "row": 13,
         "col": 116,
         "name": "Room_13_116",
-        "exits": {},
+        "exits": {
+          "northwest": 0
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -7795,7 +7888,12 @@
         "row": 9,
         "col": 12,
         "name": "Tower",
-        "exits": {},
+        "exits": {
+          "east": 1,
+          "southwest": 2,
+          "south": 3,
+          "southeast": 4
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -7804,7 +7902,9 @@
         "row": 9,
         "col": 32,
         "name": "Xillion",
-        "exits": {},
+        "exits": {
+          "west": 0
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -7813,7 +7913,9 @@
         "row": 11,
         "col": 8,
         "name": "out -",
-        "exits": {},
+        "exits": {
+          "northeast": 0
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -7822,7 +7924,9 @@
         "row": 13,
         "col": 12,
         "name": "Room_13_12",
-        "exits": {},
+        "exits": {
+          "north": 0
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -7831,7 +7935,9 @@
         "row": 13,
         "col": 16,
         "name": "Room_13_16",
-        "exits": {},
+        "exits": {
+          "northwest": 0
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -7840,7 +7946,9 @@
         "row": 13,
         "col": 32,
         "name": "Room_13_32",
-        "exits": {},
+        "exits": {
+          "northwest": 0
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -7849,7 +7957,9 @@
         "row": 15,
         "col": 32,
         "name": "out d",
-        "exits": {},
+        "exits": {
+          "northwest": 0
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -7858,7 +7968,9 @@
         "row": 17,
         "col": 32,
         "name": "out d",
-        "exits": {},
+        "exits": {
+          "northwest": 0
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false

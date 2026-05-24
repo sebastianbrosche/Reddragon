@@ -313,7 +313,8 @@
         "col": 97,
         "name": "Room_15_97",
         "exits": {
-          "east": 22
+          "east": 22,
+          "southwest": 54
         },
         "is_entry": false,
         "is_exit": false,
@@ -395,7 +396,8 @@
         "col": 137,
         "name": "Room_15_137",
         "exits": {
-          "east": 29
+          "east": 29,
+          "southwest": 54
         },
         "is_entry": false,
         "is_exit": false,
@@ -592,7 +594,8 @@
         "name": "Room_17_92",
         "exits": {
           "east": 43,
-          "northeast": 4
+          "northeast": 4,
+          "southwest": 54
         },
         "is_entry": false,
         "is_exit": false,
@@ -758,7 +761,8 @@
         "col": 64,
         "name": "Room_19_64",
         "exits": {
-          "west": 53
+          "west": 53,
+          "northeast": 42
         },
         "is_entry": false,
         "is_exit": false,
@@ -1228,7 +1232,9 @@
         "row": 11,
         "col": 8,
         "name": "to A",
-        "exits": {},
+        "exits": {
+          "southeast": 29
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -1237,7 +1243,9 @@
         "row": 11,
         "col": 20,
         "name": "to A",
-        "exits": {},
+        "exits": {
+          "south": 33
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -1283,7 +1291,8 @@
         "name": "to A",
         "exits": {
           "west": 7,
-          "southwest": 25
+          "southwest": 25,
+          "south": 29
         },
         "is_entry": false,
         "is_exit": false,
@@ -1406,7 +1415,9 @@
         "row": 17,
         "col": 47,
         "name": "- U -",
-        "exits": {},
+        "exits": {
+          "southwest": 30
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -1417,7 +1428,8 @@
         "name": "- U -",
         "exits": {
           "east": 20,
-          "northeast": 1
+          "northeast": 1,
+          "south": 96
         },
         "is_entry": false,
         "is_exit": false,
@@ -1505,7 +1517,8 @@
         "name": "Kanubeye Cavern",
         "exits": {
           "north": 23,
-          "east": 27
+          "east": 27,
+          "southwest": 30
         },
         "is_entry": false,
         "is_exit": false,
@@ -1527,7 +1540,9 @@
         "row": 23,
         "col": 12,
         "name": "Kanubeye Cavern",
-        "exits": {},
+        "exits": {
+          "southeast": 29
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -1537,7 +1552,9 @@
         "col": 16,
         "name": "Kanubeye Cavern",
         "exits": {
-          "east": 30
+          "east": 30,
+          "north": 8,
+          "northwest": 3
         },
         "is_entry": false,
         "is_exit": false,
@@ -1549,7 +1566,8 @@
         "name": "Kanubeye Cavern",
         "exits": {
           "south": 34,
-          "west": 29
+          "west": 29,
+          "northeast": 26
         },
         "is_entry": false,
         "is_exit": false,
@@ -1587,7 +1605,8 @@
         "col": 20,
         "name": "Room_27_20",
         "exits": {
-          "east": 34
+          "east": 34,
+          "north": 4
         },
         "is_entry": false,
         "is_exit": false,
@@ -1951,7 +1970,8 @@
         "col": 75,
         "name": "Room_33_75",
         "exits": {
-          "west": 59
+          "west": 59,
+          "south": 99
         },
         "is_entry": false,
         "is_exit": false,
@@ -2082,7 +2102,8 @@
         "name": "Room_37_75",
         "exits": {
           "north": 64,
-          "west": 69
+          "west": 69,
+          "south": 99
         },
         "is_entry": false,
         "is_exit": false,
@@ -2476,7 +2497,8 @@
           "south": 106,
           "west": 95,
           "east": 97,
-          "southeast": 112
+          "southeast": 112,
+          "north": 19
         },
         "is_entry": false,
         "is_exit": false,
@@ -2511,7 +2533,8 @@
         "col": 75,
         "name": "Room_49_75",
         "exits": {
-          "west": 98
+          "west": 98,
+          "north": 70
         },
         "is_entry": false,
         "is_exit": false,
@@ -4552,7 +4575,8 @@
         "exits": {
           "north": 11,
           "east": 17,
-          "northeast": 1
+          "northeast": 1,
+          "south": 24
         },
         "is_entry": false,
         "is_exit": false,
@@ -4658,7 +4682,9 @@
         "row": 19,
         "col": 16,
         "name": "- U -",
-        "exits": {},
+        "exits": {
+          "north": 16
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -4760,7 +4786,8 @@
         "exits": {
           "north": 3,
           "west": 5,
-          "northwest": 0
+          "northwest": 0,
+          "south": 9
         },
         "is_entry": false,
         "is_exit": false,
@@ -4796,7 +4823,9 @@
         "row": 13,
         "col": 24,
         "name": "U -",
-        "exits": {},
+        "exits": {
+          "north": 6
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -5546,7 +5575,9 @@
         "col": 32,
         "name": "- D",
         "exits": {
-          "west": 5
+          "west": 5,
+          "southeast": 25,
+          "east": 7
         },
         "is_entry": false,
         "is_exit": false,
@@ -5557,7 +5588,8 @@
         "col": 44,
         "name": "- D",
         "exits": {
-          "south": 12
+          "south": 12,
+          "west": 6
         },
         "is_entry": false,
         "is_exit": false,
@@ -5796,7 +5828,8 @@
         "col": 68,
         "name": "Room_15_68",
         "exits": {
-          "east": 26
+          "east": 26,
+          "northwest": 6
         },
         "is_entry": false,
         "is_exit": false,
@@ -5892,7 +5925,8 @@
         "col": 88,
         "name": "- U -",
         "exits": {
-          "east": 34
+          "east": 34,
+          "northwest": 6
         },
         "is_entry": false,
         "is_exit": false,
@@ -6009,7 +6043,8 @@
         "col": 84,
         "name": "Dirt Path",
         "exits": {
-          "west": 4
+          "west": 4,
+          "east": 6
         },
         "is_entry": false,
         "is_exit": true,
@@ -6019,7 +6054,9 @@
         "row": 34,
         "col": 88,
         "name": "Dirt Path",
-        "exits": {},
+        "exits": {
+          "west": 5
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -6028,7 +6065,9 @@
         "row": 36,
         "col": 4,
         "name": "out -",
-        "exits": {},
+        "exits": {
+          "east": 8
+        },
         "is_entry": false,
         "is_exit": true,
         "has_portal": false
@@ -6040,7 +6079,9 @@
         "exits": {
           "south": 24,
           "east": 9,
-          "southeast": 25
+          "southeast": 25,
+          "southwest": 13,
+          "west": 7
         },
         "is_entry": false,
         "is_exit": true,
@@ -6101,7 +6142,8 @@
         "col": 8,
         "name": "out -",
         "exits": {
-          "northwest": 0
+          "northwest": 0,
+          "northeast": 8
         },
         "is_entry": false,
         "is_exit": false,
@@ -6227,7 +6269,9 @@
         "row": 38,
         "col": 72,
         "name": "Room_38_72",
-        "exits": {},
+        "exits": {
+          "south": 30
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -6239,7 +6283,8 @@
         "exits": {
           "north": 8,
           "east": 25,
-          "northeast": 9
+          "northeast": 9,
+          "southwest": 46
         },
         "is_entry": false,
         "is_exit": true,
@@ -6252,7 +6297,9 @@
         "exits": {
           "north": 14,
           "west": 24,
-          "northwest": 8
+          "northwest": 8,
+          "southwest": 37,
+          "southeast": 58
         },
         "is_entry": false,
         "is_exit": false,
@@ -6263,7 +6310,8 @@
         "col": 40,
         "name": "Room_40_40",
         "exits": {
-          "north": 18
+          "north": 18,
+          "southwest": 57
         },
         "is_entry": false,
         "is_exit": false,
@@ -6275,7 +6323,8 @@
         "name": "out -",
         "exits": {
           "north": 19,
-          "east": 28
+          "east": 28,
+          "southeast": 34
         },
         "is_entry": false,
         "is_exit": false,
@@ -6315,7 +6364,8 @@
         "col": 72,
         "name": "Nimrodel",
         "exits": {
-          "west": 29
+          "west": 29,
+          "north": 23
         },
         "is_entry": false,
         "is_exit": false,
@@ -6366,7 +6416,8 @@
         "col": 48,
         "name": "Galadriel",
         "exits": {
-          "south": 36
+          "south": 36,
+          "northwest": 27
         },
         "is_entry": false,
         "is_exit": false,
@@ -6403,7 +6454,8 @@
         "exits": {
           "south": 43,
           "east": 38,
-          "southeast": 44
+          "southeast": 44,
+          "northeast": 25
         },
         "is_entry": false,
         "is_exit": false,
@@ -6517,7 +6569,9 @@
         "row": 66,
         "col": 4,
         "name": "--'         L",
-        "exits": {},
+        "exits": {
+          "northeast": 24
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -6567,7 +6621,9 @@
         "row": 67,
         "col": 11,
         "name": "--'         L",
-        "exits": {},
+        "exits": {
+          "northeast": 24
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -6653,7 +6709,9 @@
         "row": 72,
         "col": 37,
         "name": "city",
-        "exits": {},
+        "exits": {
+          "northeast": 26
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -6663,7 +6721,8 @@
         "col": 19,
         "name": "Room_74_19",
         "exits": {
-          "south": 59
+          "south": 59,
+          "northwest": 25
         },
         "is_entry": false,
         "is_exit": false,
@@ -6696,7 +6755,9 @@
         "row": 9,
         "col": 4,
         "name": "span class",
-        "exits": {},
+        "exits": {
+          "southeast": 76
+        },
         "is_entry": false,
         "is_exit": true,
         "has_portal": false
@@ -7874,7 +7935,8 @@
         "col": 8,
         "name": "Room_53_8",
         "exits": {
-          "south": 84
+          "south": 84,
+          "northwest": 0
         },
         "is_entry": false,
         "is_exit": false,
@@ -10037,7 +10099,8 @@
         "name": "U -",
         "exits": {
           "west": 37,
-          "northwest": 16
+          "northwest": 16,
+          "east": 39
         },
         "is_entry": false,
         "is_exit": false,
@@ -10050,7 +10113,9 @@
         "exits": {
           "north": 17,
           "east": 40,
-          "northeast": 18
+          "northeast": 18,
+          "west": 38,
+          "southwest": 48
         },
         "is_entry": false,
         "is_exit": false,
@@ -10178,7 +10243,9 @@
         "row": 19,
         "col": 16,
         "name": "Room_19_16",
-        "exits": {},
+        "exits": {
+          "northeast": 39
+        },
         "is_entry": false,
         "is_exit": true,
         "has_portal": false
@@ -11150,7 +11217,8 @@
         "col": 60,
         "name": "out - D",
         "exits": {
-          "west": 29
+          "west": 29,
+          "south": 45
         },
         "is_entry": false,
         "is_exit": false,
@@ -11383,7 +11451,9 @@
         "row": 17,
         "col": 60,
         "name": "out - D",
-        "exits": {},
+        "exits": {
+          "north": 30
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -13164,7 +13234,8 @@
           "north": 19,
           "west": 37,
           "northwest": 17,
-          "northeast": 32
+          "northeast": 32,
+          "south": 41
         },
         "is_entry": false,
         "is_exit": false,
@@ -13198,7 +13269,9 @@
         "row": 28,
         "col": 41,
         "name": "- D -",
-        "exits": {},
+        "exits": {
+          "north": 38
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -13230,7 +13303,9 @@
         "row": 7,
         "col": 68,
         "name": "Veldt",
-        "exits": {},
+        "exits": {
+          "south": 68
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -13499,7 +13574,8 @@
           "north": 12,
           "west": 19,
           "east": 21,
-          "northeast": 6
+          "northeast": 6,
+          "south": 38
         },
         "is_entry": false,
         "is_exit": false,
@@ -13537,7 +13613,9 @@
         "row": 17,
         "col": 24,
         "name": "- W",
-        "exits": {},
+        "exits": {
+          "south": 37
+        },
         "is_entry": false,
         "is_exit": true,
         "has_portal": false
@@ -13647,7 +13725,9 @@
         "row": 26,
         "col": 68,
         "name": "Ooze",
-        "exits": {},
+        "exits": {
+          "south": 68
+        },
         "is_entry": false,
         "is_exit": false,
         "has_portal": false
@@ -13742,7 +13822,8 @@
           "south": 48,
           "west": 36,
           "east": 38,
-          "southwest": 60
+          "southwest": 60,
+          "north": 23
         },
         "is_entry": false,
         "is_exit": false,
@@ -13755,7 +13836,8 @@
         "exits": {
           "south": 51,
           "west": 37,
-          "east": 39
+          "east": 39,
+          "north": 20
         },
         "is_entry": false,
         "is_exit": false,
@@ -14183,7 +14265,8 @@
         "col": 68,
         "name": "T-Rex",
         "exits": {
-          "west": 67
+          "west": 67,
+          "north": 0
         },
         "is_entry": false,
         "is_exit": false,

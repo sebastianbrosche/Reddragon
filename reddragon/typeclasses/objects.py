@@ -1,11 +1,13 @@
 """
 Red Dragon MUD - Object Typeclasses
 Items, containers, portals, and other objects
+Uses Evennia's RP system for poses and sdescs.
 """
 
 from evennia import DefaultObject
+from evennia.contrib.rpg.rpsystem.rpsystem import ContribRPObject
 
-class Object(DefaultObject):
+class Object(ContribRPObject):
     """
     Generic object with IOM-style properties.
     """

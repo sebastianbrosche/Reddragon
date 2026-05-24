@@ -1,12 +1,14 @@
 """
 Red Dragon MUD - Character Typeclass
 Based on Islands of Myth reverse-engineering
+Uses Evennia's TraitHandler, BuffHandler, and RP system.
 """
 
 from evennia import DefaultCharacter
 from evennia.utils import lazy_property
 from evennia.contrib.rpg.traits import TraitHandler
 from evennia.contrib.rpg.buffs import BuffHandler
+from evennia.contrib.rpg.rpsystem.rpsystem import ContribRPCharacter
 
 # Stat tier mapping from IOM data
 STAT_TIERS = {
@@ -29,10 +31,11 @@ RACE_STAT_BASES = {
     "Kobold": {"str": 30, "dex": 60, "con": 35, "sta": 40, "int": 45, "wis": 40, "cha": 30},
 }
 
-class Character(DefaultCharacter):
+class Character(ContribRPCharacter):
     """
     Custom character typeclass for Red Dragon.
-    Uses Evennia's TraitHandler for stats and BuffHandler for effects.
+    Uses Evennia's TraitHandler for stats, BuffHandler for effects,
+    and RP system for sdescs, poses, and recognition.
     """
 
     @lazy_property
@@ -76,6 +79,11 @@ class Character(DefaultCharacter):
 
     def at_object_creation(self):
         super().at_object_creation()
+
+        # Set up RP sdesc based on race
+        race = getattr(self.db, "race", "Human")
+        if hasattr(self, 'sdesc'):
+            self.sdesc.add(f"a {race.lower()} adventurer")
 
         # Set up traits via Evennia's TraitHandler
         self._setup_traits()

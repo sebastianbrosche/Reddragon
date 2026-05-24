@@ -12,6 +12,10 @@ from commands.ai_dm_commands import (
     CmdForceDivine, CmdSetDivinePersonality
 )
 from evennia.contrib.game_systems.mail import mail
+from evennia.contrib.rpg.rpsystem.rpsystem import RPSystemCmdSet
+from evennia.contrib.grid.extended_room.extended_room import ExtendedRoomCmdSet
+from evennia.contrib.grid.simpledoor.simpledoor import SimpleDoorCmdSet
+from evennia.contrib.base_systems.ingame_python.commands import CmdCallback
 from world.buffs import IOM_BUFFS, apply_buff, remove_buff
 
 class CmdKill(Command):
@@ -512,7 +516,8 @@ class CombatCmdSet(CmdSet):
         # Chat
         self.add(CmdChat)
         self.add(CmdToggleChat)
-        # Divine / AI DM
+        # RP System (sdescs, poses, recog, emotes)
+        self.add(RPSystemCmdSet())
         self.add(CmdDivineStatus)
         self.add(CmdPray)
         self.add(CmdAchievements)
@@ -523,7 +528,12 @@ class CombatCmdSet(CmdSet):
         self.add(mail.CmdMail())
         # Buffs
         self.add(CmdBuffs)
-        # Economy commands
+        # Extended Room (weather, time-of-day, details)
+        self.add(ExtendedRoomCmdSet())
+        # Simple Door (open/close/lock doors)
+        self.add(SimpleDoorCmdSet())
+        # In-game Python (event callbacks)
+        self.add(CmdCallback())
         self.add(CmdBuy)
         self.add(CmdSell)
         self.add(CmdList)

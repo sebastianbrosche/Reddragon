@@ -677,3 +677,6 @@ class CombatCmdSet(CmdSet):
         from commands.taskpoints import CmdWish, CmdTaskPoints
         self.add(CmdWish)
         self.add(CmdTaskPoints)
+        # Bot admin commands
+        from commands.bots import CmdBots
+        self.add(CmdBots)

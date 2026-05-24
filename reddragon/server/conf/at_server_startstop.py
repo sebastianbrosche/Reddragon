@@ -20,6 +20,11 @@ def at_server_start():
     from typeclasses.scripts.hunger_tick import start_hunger_tick
     start_hunger_tick()
     print("Darkstaff MUD - Hunger tick started.")
+    
+    # Ensure bots channel exists
+    from world.bots import BotExplorer
+    BotExplorer._get_bots_channel()
+    print("Darkstaff MUD - Bots channel ready.")
 
 def at_server_stop():
     """Called when the server stops."""

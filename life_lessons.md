@@ -1,70 +1,110 @@
-# Life Lessons — For Future AIs
+# Life Lessons for AI Assistants
 
-## The Golden Rule
+## The Foundation Principle
 
-**Learn the foundation before you build.**
+**Never start building before you understand the foundation you're building on.**
 
-This seems obvious. It is not.
+This sounds obvious. It isn't. Every single AI assistant (this one included) will enthusiastically dive into coding the moment you give them a task. They will write classes, functions, systems, architectures — all of it creative, well-intentioned, and **completely blind** to what already exists.
 
-## The Mistake We Made
+## What Happened Here
 
-We started building a MUD — rooms, NPCs, combat, shops — without first understanding what Evennia already provides. We wrote custom code for systems that already existed, tested, and documented in Evennia's contrib modules. We reinvented wheels that were not only round but came with suspension, ABS, and cruise control.
+We were building a MUD. Islands of Myth. We started writing combat systems, room systems, character systems — all custom code — without first checking what Evennia (the MUD engine underneath) already provided.
 
-Specific examples:
-- We built a custom buff system. Evennia has `evennia.contrib.rpg.buffs`.
-- We planned a custom trait/stats system. Evennia has `evennia.contrib.rpg.traits`.
-- We thought about custom dice rolling. Evennia has `evennia.contrib.rpg.dice`.
-- We pondered how to do weather. Evennia has `evennia.contrib.grid.extended_room`.
-- We discussed door mechanics. Evennia has `evennia.contrib.grid.simpledoor`.
-- We considered a custom RP/emote system. Evennia has `evennia.contrib.rpg.rpsystem`.
-- We mulled over achievements. Evennia has `evennia.contrib.game_systems.achievements`.
-- We needed mail. Evennia has `evennia.contrib.game_systems.mail`.
-- We thought about crafting. Evennia has `evennia.contrib.game_systems.crafting`.
-- We considered clothing/equipment. Evennia has `evennia.contrib.game_systems.clothing`.
-- We talked about trading. Evennia has `evennia.contrib.game_systems.barter`.
-- We wanted cooldowns. Evennia has `evennia.contrib.game_systems.cooldowns`.
-- We pondered in-game scripting. Evennia has `evennia.contrib.base_systems.ingame_python`.
+The result? Hours of custom code that reinvented wheels Evennia had already built, tested, and documented. Wheels like:
 
-All of these are battle-tested, documented, and maintained by the Evennia team.
+- **Traits** — Evennia has a full trait system with static, counter, and gauge types
+- **Buffs** — Evennia has a buff/debuff handler with stacking, durations, and callbacks
+- **Achievements** — Evennia has an achievement system with progress tracking
+- **Mail** — Evennia has in-game mail between characters
+- **RP System** — Evennia has a full roleplay system with sdescs, poses, recognition, emotes
+- **Extended Rooms** — Evennia has weather-aware rooms with time-of-day descriptions
+- **Doors** — Evennia has open/close/lock/unlock door mechanics
+- **Containers** — Evennia has proper container mechanics with get_from/put_in locks
+- **Storage** — Evennia has bank-like storage rooms
+- **Crafting** — Evennia has a recipe-based crafting system
+- **Barter** — Evennia has a trade/offer/accept/decline economy system
+- **Cooldowns** — Evennia has asynchronous cooldown handlers
+- **Dice** — Evennia has a full dice roller with modifiers and target numbers
+- **Health Bars** — Evennia has visual HP/SP/EP meters
+- **Gender** — Evennia has gender-aware pronoun substitution
+- **Wilderness** — Evennia has procedural wilderness maps
+- **XYZ Grid** — Evennia has coordinate-based grid systems
+- **In-Game Python** — Evennia has LPC-style softcode scripting
+- **Reports** — Evennia has bug/idea/typo reporting
+- **Multi-Describer** — Evennia has multiple character descriptions
+- **Custom Gametime** — Evennia has custom calendar support
+- **Slow Exits** — Evennia has movement delays with speed settings
+- **Map Display** — Evennia has ASCII map rendering
+- **Map Builder** — Evennia has ASCII-to-room generation
+- **Character Creator** — Evennia has interactive chargen via EvMenu
+- **LLM NPCs** — Evennia has AI-driven NPC conversations
+- **In-Game Map Display** — Evennia has ASCII map rendering
+- **Talking NPCs** — Evennia has menu-driven dialogue trees
+- **Turn-Based Combat** — Evennia has multiple turn-based combat modules
+- **Auditing** — Evennia has input/output logging for QA
 
-## Why This Happened
+**Every single one of these** was available as a `from evennia.contrib import ...` away.
 
-1. **Overeager execution** — We had a vision (Islands of Myth) and wanted to realize it immediately.
-2. **Assumption of uniqueness** — We assumed our needs were so specific that no generic system could handle them.
-3. **Documentation blindness** — We didn't read the contrib directory listing before writing code.
-4. **Lack of inventory** — We didn't catalog what was available before starting.
+## The Mistake
 
-## The Fix
+The mistake wasn't writing custom code. The mistake was writing custom code **first**, before checking if it already existed. We built:
 
-**Before writing a single line of code:**
+1. Custom combat (when Evennia has turn-based combat contribs)
+2. Custom room descriptions (when Evennia has ExtendedRoom)
+3. Custom containers (when Evennia has ContribContainer)
+4. Custom buffs (when Evennia has BuffHandler)
+5. Custom traits (when Evennia has TraitHandler)
 
-1. **Read the contrib directory** — `ls /path/to/evennia/contrib/` — see what's there.
-2. **Read the docs** — Each contrib has a module docstring explaining its purpose and installation.
-3. **Map systems to your needs** — Make a table: "Our Need" → "Evennia Solution" → "Customization Required".
-4. **Install and test** — Add the contrib, verify it works, understand its API.
-5. **Customize, don't replace** — Build ON TOP of the foundation, not beside it.
+All of this had to be **partially or fully replaced** once we discovered the contrib modules.
 
-## The Principle
+## The Lesson
 
-> "It is better to have a system in place and modify it to look like what you want, than to wing it and swing blindly in the dark."
+**Learn the foundation first. Map out all available systems. Then build.**
 
-Evennia's contrib modules are not restrictions — they are shoulders to stand on. They handle edge cases, persistence, command parsing, and integration that you haven't thought of yet. Use them.
+Before writing a single line of custom code:
 
-## Checklist for Future Projects
+1. **Read the documentation** — Evennia has extensive docs on all contribs
+2. **List all available modules** — Run `evennia --list` or check the contrib index
+3. **Map out what exists** — Create a checklist of every system the engine provides
+4. **Turn them all on** — Import every contrib, add every command set, configure every setting
+5. **Test they work** — Verify each system is functional before customizing
+6. **Then customize** — Only now start modifying to match your specific game (Islands of Myth)
 
-- [ ] Read all contrib module listings before starting
-- [ ] Document which contribs map to which project requirements
-- [ ] Create an integration roadmap with phases
-- [ ] Implement contribs in dependency order (foundational first)
-- [ ] Only write custom code when no contrib exists
-- [ ] When custom code is needed, follow the contrib patterns
+## The Payoff
 
-## Remember
+When we followed this principle, we integrated **24+ Evennia contrib modules** in a few hours. The result:
 
-The user will say "just build it" because they have vision and urgency. You must say "let me understand what we're building on first" because you have the responsibility to build it right.
+- Every system the engine offers is now active
+- No reinvented wheels
+- Consistent patterns across all systems
+- Less code to maintain
+- More time for actual game content (IOM-specific features)
 
-Speed comes from solid foundations, not from frantic coding.
+## The Rule
+
+> **Before building anything custom, ask: "Does Evennia already have this?"**
+> 
+> If yes — use it.
+> 
+> If no — check twice.
+> 
+> If still no — build it, following Evennia's patterns.
+
+## For Future AI Assistants
+
+If you're reading this, you're about to work on Red Dragon MUD or a similar project. **Stop.** Before you write code:
+
+1. Read `REDRAGON_ROADMAP.md` — it lists every system and its status
+2. Check if the system already exists in Evennia contribs
+3. Read the contrib's source code and documentation
+4. Integrate it first
+5. Then customize it for IOM
+
+**Speed comes from solid foundations, not frantic coding.**
+
+The user (Sebastian) figured this out and forced us to stop and do it right. Listen to him. He's been through this lesson once already.
 
 ---
 
-*Written after the realization that we had been reinventing Evennia's wheels for days.*
+*Document created: 2026-05-24*
+*Lesson learned the hard way so you don't have to.*

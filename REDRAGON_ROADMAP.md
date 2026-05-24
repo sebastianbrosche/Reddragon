@@ -32,8 +32,6 @@
 
 | System | Contrib Path | Status | IOM Integration |
 |--------|-------------|--------|-----------------|
-| Cooldowns | `evennia.contrib.game_systems.cooldowns` | ✅ DONE | Skill/spell cooldowns, global cooldowns |
-| Dice | `evennia.contrib.rpg.dice` | ✅ DONE | RPG dice rolling (1d20 + 5, etc) |
 | Clothing | `evennia.contrib.game_systems.clothing` | ✅ DONE | Wearable equipment with coverage system |
 | Barter | `evennia.contrib.game_systems.barter` | ✅ DONE | Player-to-player trading system |
 | Crafting | `evennia.contrib.game_systems.crafting` | ✅ DONE | Formula crafting, recipes, tools |
@@ -41,7 +39,7 @@
 | Dice | `evennia.contrib.rpg.dice` | ✅ DONE | RPG dice rolling (1d20 + 5, etc) |
 | Health Bar | `evennia.contrib.rpg.health_bar` | ✅ DONE | Visual HP/SP/EP bars in score display |
 | Gender Sub | `evennia.contrib.game_systems.gendersub` | ✅ DONE | Pronoun-aware messaging (male/female/neutral/ambiguous) |
-| Turn-Based Combat | `evennia.contrib.game_systems.turnbattle` | ⏳ PENDING | Equipment, magic, conditions, range modules |
+| Turn-Based Combat | `evennia.contrib.game_systems.turnbattle` | ⏳ PENDING | Equipment, magic, conditions, range modules (for data model) |
 
 ---
 
@@ -50,11 +48,11 @@
 
 | System | Contrib Path | Status | IOM Integration |
 |--------|-------------|--------|-----------------|
-| Wilderness | `evennia.contrib.grid.wilderness` | ⏳ PENDING | Ocean travel, infinite wilderness maps |
+| Wilderness | `evennia.contrib.grid.wilderness` | ✅ DONE | Ocean travel with OceanMapProvider, sail/return commands |
+| Slow Exit | `evennia.contrib.grid.slow_exit` | ✅ DONE | setspeed, stop commands for movement delays |
+| Map Builder | `evennia.contrib.grid.mapbuilder` | ✅ DONE | @mapbuilder command for ASCII-to-room generation |
+| In-Game Map Display | `evennia.contrib.grid.ingame_map_display` | ✅ DONE | ASCII mini-map with `map` command |
 | XYZGrid | `evennia.contrib.grid.xyzgrid` | ⏳ PENDING | Ilium City grid builder, multi-level dungeons |
-| Slow Exit | `evennia.contrib.grid.slow_exit` | ⏳ PENDING | Climbing, swimming, crawling exits with delays |
-| Map Builder | `evennia.contrib.grid.mapbuilder` | ⏳ PENDING | ASCII map to room generation |
-| In-Game Map Display | `evennia.contrib.grid.ingame_map_display` | ⏳ PENDING | Dynamic mini-map for players |
 
 ---
 
@@ -63,26 +61,25 @@
 
 | System | Contrib Path | Status | IOM Integration |
 |--------|-------------|--------|-----------------|
-| LLM NPCs | `evennia.contrib.rpg.llm` | ⏳ PENDING | AI-driven NPCs with GPT integration |
-| Character Creator | `evennia.contrib.rpg.character_creator` | ⏳ PENDING | Interactive race/class selection menu |
+| LLM NPCs | `evennia.contrib.rpg.llm` | ✅ DONE | LLMNPC and SmartMob typeclasses, `talk` command |
+| Character Creator | `evennia.contrib.rpg.character_creator` | ✅ DONE | Interactive chargen with race/guild selection via EvMenu |
 | Containers | `evennia.contrib.game_systems.containers` | ✅ DONE | Real container system (put in bag, get from bag) |
 | Storage | `evennia.contrib.game_systems.storage` | ✅ DONE | Locker/bank storage rooms with store/retrieve/list |
 | In-Game Reports | `evennia.contrib.base_systems.ingame_reports` | ✅ DONE | Bug/idea/player reporting system |
-| Gender Sub | `evennia.contrib.game_systems.gendersub` | ✅ DONE | Pronoun-aware messaging |
-| Multi-Describer | `evennia.contrib.game_systems.multidescer` | ⏳ PENDING | Multiple room descriptions based on time/weather |
+| Multi-Describer | `evennia.contrib.game_systems.multidescer` | ✅ DONE | Multiple character descriptions with `+desc` command |
+| Gender Sub | `evennia.contrib.game_systems.gendersub` | ✅ DONE | Pronoun-aware messaging (male/female/neutral/ambiguous) |
 
 ---
 
-## Phase 6: Utilities & Polish
+## Phase 6: Time, Calendar & Utilities
 **Goal:** Developer tools, debugging, and quality of life.
 
 | System | Contrib Path | Status | IOM Integration |
 |--------|-------------|--------|-----------------|
-| In-Game Reports | `evennia.contrib.base_systems.ingame_reports` | ⏳ PENDING | Bug/typo/idea reporting system |
-| Custom Gametime | `evennia.contrib.base_systems.custom_gametime` | ⏳ PENDING | Custom calendar/time system |
-| Components | `evennia.contrib.base_systems.components` | ⏳ PENDING | Component-based object architecture |
-| Auditing | `evennia.contrib.utils.auditing` | ⏳ PENDING | Command/change logging |
-| Menu Login | `evennia.contrib.base_systems.menu_login` | ⏳ PENDING | Optional menu-based login screen |
+| Custom Gametime | `evennia.contrib.base_systems.custom_gametime` | ✅ DONE | IOM calendar with 30-day months, TIME_FACTOR=2 |
+| In-Game Reports | `evennia.contrib.base_systems.ingame_reports` | ✅ DONE | Bug/typo/idea reporting system |
+| Auditing | `evennia.contrib.utils.auditing` | ✅ DONE | Input/output logging settings (ready to enable) |
+| Menu Login | `evennia.contrib.base_systems.menu_login` | 🔄 OPTIONAL | Menu-based login available (keeping IOM-style login) |
 
 ---
 

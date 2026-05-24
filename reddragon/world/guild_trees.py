@@ -76,7 +76,7 @@ GUILDS = {
         "parent": None,
         "children": ["knight", "defender_of_the_crown", "berserker", "traveler"],
     },
-    
+
     "knight": {
         "name": "Knight",
         "level": "gamma",
@@ -95,7 +95,7 @@ GUILDS = {
         "parent": "warrior",
         "children": ["blade_dancer", "barbarian"],
     },
-    
+
     "defender_of_the_crown": {
         "name": "Defender Of The Crown",
         "level": "gamma",
@@ -114,7 +114,7 @@ GUILDS = {
         "parent": "warrior",
         "children": ["shield_master"],
     },
-    
+
     "berserker": {
         "name": "Berserker",
         "level": "gamma",
@@ -133,7 +133,7 @@ GUILDS = {
         "parent": "warrior",
         "children": ["barbarian", "flogger", "thruster"],
     },
-    
+
     "traveler": {
         "name": "Traveler",
         "level": "gamma",
@@ -154,7 +154,7 @@ GUILDS = {
         "parent": "warrior",
         "children": ["thruster"],
     },
-    
+
     "blade_dancer": {
         "name": "Blade Dancer",
         "level": "bravo",
@@ -173,7 +173,7 @@ GUILDS = {
         "parent": "knight",
         "children": [],
     },
-    
+
     "barbarian": {
         "name": "Barbarian",
         "level": "bravo",
@@ -192,7 +192,7 @@ GUILDS = {
         "parent": "knight",
         "children": [],
     },
-    
+
     "shield_master": {
         "name": "Shield Master",
         "level": "bravo",
@@ -211,7 +211,7 @@ GUILDS = {
         "parent": "defender_of_the_crown",
         "children": [],
     },
-    
+
     "flogger": {
         "name": "Flogger",
         "level": "bravo",
@@ -232,7 +232,7 @@ GUILDS = {
         "parent": "berserker",
         "children": [],
     },
-    
+
     "thruster": {
         "name": "Thruster",
         "level": "bravo",
@@ -252,7 +252,7 @@ GUILDS = {
         "parent": "berserker",
         "children": [],
     },
-    
+
     "champion_of_the_crown": {
         "name": "Champion Of The Crown",
         "level": "omicron",
@@ -267,7 +267,7 @@ GUILDS = {
             6: [("charge", "Attack", 3656), ("champion_lore", "Mastery", 2570)],
             8: [("champion_trance", "Protection", 2640)],
         },
-        "parent": "berserker",
+        "parent": "knight",
         "children": [],
     },
 }
@@ -1031,20 +1031,70 @@ SKILL_DATABASE = {
         "name": "Champion Lore",
         "type": "Mastery",
         "cost": 2570,
-        "description": "Secret techniques affecting champion skill execution.",
+        "description": "Champion lore is filled with secret techniques that affects how well a champion will be able to execute the skills of the guild.",
         "creator": "Sigwald",
+        "training_caps": {2: 20, 3: 40, 4: 60, 5: 80, 6: 100},
     },
     "champion_trance": {
         "name": "Champion Trance",
         "type": "Protection",
         "cost": 2640,
-        "description": "Enter trance to partly ignore magical attacks.",
+        "description": "By entering a special trance, the Champion can focus his will power to create a special state of mind that will allow him to partly ignore magical attacks. This skill is known to be very difficult to control and therefore can have very varying effects.",
+        "protection_category": "General",
         "duration": "High",
+        "stacks": 1,
         "sp_cost": 98,
         "ep_cost": 396,
         "using_time": "6 rounds",
+        "affecting_skills": ["champion_lore"],
         "affecting_stats": ["sta", "wis"],
         "creator": "Sigwald",
+    },
+    "crippling_blow": {
+        "name": "Crippling Blow",
+        "type": "Combat",
+        "cost": 2405,
+        "description": "Champions learn secret techniques to deliver powerful blows that greatly enhance the power of critical hits.",
+        "creator": "Sigwald",
+        "training_caps": {2: 15, 3: 30, 4: 45, 5: 60, 6: 80, 7: 100},
+    },
+    "strike_weakness": {
+        "name": "Strike Weakness",
+        "type": "Combat",
+        "cost": 2213,
+        "description": "Trained champions learn to strike their opponents with terrible precision, thus allowing themselves to score more numerous critical hits.",
+        "creator": "Sigwald",
+        "training_caps": {3: 15, 4: 30, 5: 45, 6: 60, 7: 80, 8: 100},
+    },
+    "weapon_maneuvers": {
+        "name": "Weapon Maneuvers",
+        "type": "Mastery",
+        "cost": 3740,
+        "description": "Champions of the crown are elite warriors that are taught the best techniques in weapon handling. Trained to use any kind of weapon, from dagger to halberd, they are extremly efficient in all kind of attack skill that uses a weapon, and can deliver much more damage than other warriors, even expert ones.",
+        "creator": "Sigwald",
+        "training_caps": {4: 15, 5: 30, 6: 45, 7: 60, 8: 80, 9: 100},
+    },
+    "stun_resistance": {
+        "name": "Stun Resistance",
+        "type": "Combat",
+        "cost": 2501,
+        "description": "Champions usually have mastered their willpower and are now and then able to avoid stunning hits. Anyhow, no one can really rely only on his willpower to avoid being stunned and therefore champions train intensely to reduce the effects of stuns and to shake off the groggyness faster. With great training, champions are able to reduce dramatically the length of stuns inflicted to them.",
+        "creator": "Sigwald",
+        "training_caps": {5: 20, 6: 40, 7: 60, 8: 80, 9: 100},
+    },
+    "charge": {
+        "name": "Charge",
+        "type": "Attack",
+        "cost": 3656,
+        "description": "This skill allow the Champion to start a fight by charging his opponent. Using his momentum, he can deliver a terrible blow at his opponent, which can sometimes incapacitate his opponent for a while. Trained champions have been known to cut their opponent to ribbons before they could react after a successful charge.",
+        "damage": "Extremely high",
+        "damage_type": "Physical",
+        "ep_cost": 276,
+        "using_time": "2 rounds",
+        "affecting_skills": ["champion_lore"],
+        "affecting_stats": ["str"],
+        "creator": "Sigwald",
+        "training_caps": {6: 20, 7: 40, 8: 60, 9: 80, 10: 100},
     },
 }
 
@@ -1064,7 +1114,7 @@ def get_guild_skills(guild_id):
     guild = GUILDS.get(guild_id)
     if not guild:
         return {}
-    
+
     skills = {}
     for level, skill_list in guild["skills"].items():
         for skill_id, skill_type, cost in skill_list:
@@ -1076,7 +1126,7 @@ def get_guild_skills(guild_id):
                     "cost": cost,
                     **skill_data,
                 }
-    
+
     return skills
 
 
@@ -1085,7 +1135,7 @@ def get_full_guild_tree(guild_id, depth=0):
     guild = GUILDS.get(guild_id)
     if not guild:
         return None
-    
+
     result = {
         "id": guild_id,
         "name": guild["name"],
@@ -1094,12 +1144,12 @@ def get_full_guild_tree(guild_id, depth=0):
         "skills": get_guild_skills(guild_id),
         "children": [],
     }
-    
+
     for child_id in guild.get("children", []):
         child_tree = get_full_guild_tree(child_id, depth + 1)
         if child_tree:
             result["children"].append(child_tree)
-    
+
     return result
 
 
@@ -1113,10 +1163,10 @@ def get_guild_prerequisites(guild_id):
     guild = GUILDS.get(guild_id)
     if not guild:
         return []
-    
+
     prereqs = guild.get("prerequisites", [])
     parent = guild.get("parent")
     if parent and parent not in prereqs:
         prereqs.append(parent)
-    
+
     return prereqs

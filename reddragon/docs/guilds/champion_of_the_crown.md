@@ -1,10 +1,109 @@
-<HTML><HEAD>
-<LINK REL=stylesheet
-href="https://www.islandsofmyth.org/style/style_sheet.css">
-</HEAD>
-<TITLE>Guild Tree</TITLE>
-<pre><TT>
-<h3>Unable to find guild</h3><p>
-<h3>This is a list of all the guilds in Islands of Myth</h3>
+# Champion of the Crown
 
-<table border=1><tr><td><a href="guildtree.c?name=abjurer">Abjurer</a></td><td><a href="guildtree.c?name=abysmal+lord">Abysmal lord</a></td><td><a href="guildtree.c?name=acrobat">Acrobat</a></td><td><a href="guildtree.c?name=adept+of+the+stones">Adept of the stones</a></td><td><a href="guildtree.c?name=adept+of+water">Adept of water</a></td></tr><tr><td><a href="guildtree.c?name=air+mage">Air mage</a></td><td><a href="guildtree.c?name=animal+healer">Animal healer</a></td><td><a href="guildtree.c?name=animal+tamer">Animal tamer</a></td><td><a href="guildtree.c?name=animal+trainer">Animal trainer</a></td><td><a href="guildtree.c?name=assassin">Assassin</a></td></tr><tr><td><a href="guildtree.c?name=avatar">Avatar</a></td><td><a href="guildtree.c?name=bannerman">Bannerman</a></td><td><a href="guildtree.c?name=barbarian">Barbarian</a></td><td><a href="guildtree.c?name=bard">Bard</a></td><td><a href="guildtree.c?name=bartender">Bartender</a></td></tr><tr><td><a href="guildtree.c?name=beast+lord">Beast lord</a></td><td><a href="guildtree.c?name=berserker">Berserker</a></td><td><a href="guildtree.c?name=bestial+seccedaneum">Bestial seccedaneum</a></td><td><a href="guildtree.c?name=blacksmith">Blacksmith</a></td><td><a href="guildtree.c?name=blade+dancer">Blade dancer</a></td></tr><tr><td><a href="guildtree.c?name=blood+brother">Blood brother</a></td><td><a href="guildtree.c?name=bone+mage">Bone mage</a></td><td><a href="guildtree.c?name=brother+of+fire">Brother of fire</a></td><td><a href="guildtree.c?name=brotherhood+of+bolts">Brotherhood of bolts</a></td><td><a href="guildtree.c?name=cauldron+magic">Cauldron magic</a></td></tr><tr><td><a href="guildtree.c?name=champion+of+the+crown">Champion of the crown</a></td><td><a href="guildtree.c?name=chanter+of+deep+earth">Chanter of deep earth</a></td><td><a href="guildtree.c?name=confessor">Confessor</a></td><td><a href="guildtree.c?name=covenant+of+eve">Covenant of eve</a></td><td><a href="guildtree.c?name=crane+master">Crane master</a></td></tr><tr><td><a href="guildtree.c?name=defender+of+the+crown">Defender of the crown</a></td><td><a href="guildtree.c?name=disciple+of+shadow">Disciple of shadow</a></td><td><a href="guildtree.c?name=dragon+lord">Dragon lord</a></td><td><a href="guildtree.c?name=dragon+master">Dragon master</a></td><td><a href="guildtree.c?name=dragonfist+fighter">Dragonfist fighter</a></td></tr><tr><td><a href="guildtree.c?name=dreadlord">Dreadlord</a></td><td><a href="guildtree.c?name=druid">Druid</a></td><td><a href="guildtree.c?name=earth+conjuror">Earth conjuror</a></td><td><a href="guildtree.c?name=earth+mage">Earth mage</a></td><td><a href="guildtree.c?name=elder+of+mordulak">Elder of mordulak</a></td></tr><tr><td><a href="guildtree.c?name=elemental">Elemental</a></td><td><a href="guildtree.c?name=embalmer">Embalmer</a></td><td><a href="guildtree.c?name=enchanter">Enchanter</a></td><td><a href="guildtree.c?name=evoker">Evoker</a></td><td><a href="guildtree.c?name=evoker+of+acid">Evoker of acid</a></td></tr><tr><td><a href="guildtree.c?name=evoker+of+elements">Evoker of elements</a></td><td><a href="guildtree.c?name=evoker+of+ether">Evoker of ether</a></td><td><a href="guildtree.c?name=evoker+of+flames">Evoker of flames</a></td><td><a href="guildtree.c?name=evoker+of+force">Evoker of force</a></td><td><a href="guildtree.c?name=evoker+of+ice">Evoker of ice</a></td></tr><tr><td><a href="guildtree.c?name=evoker+of+lightning">Evoker of lightning</a></td><td><a href="guildtree.c?name=evoker+of+magic">Evoker of magic</a></td><td><a href="guildtree.c?name=evoker+of+poison">Evoker of poison</a></td><td><a href="guildtree.c?name=evoker+of+vacuum">Evoker of vacuum</a></td><td><a href="guildtree.c?name=exorcist">Exorcist</a></td></tr><tr><td><a href="guildtree.c?name=fire+mage">Fire mage</a></td><td><a href="guildtree.c?name=flogger">Flogger</a></td><td><a href="guildtree.c?name=gleeman">Gleeman</a></td><td><a href="guildtree.c?name=grand+summoner">Grand summoner</a></td><td><a href="guildtree.c?name=guardians">Guardians</a></td></tr><tr><td><a href="guildtree.c?name=harbinger+of+anguish">Harbinger of anguish</a></td><td><a href="guildtree.c?name=harmer">Harmer</a></td><td><a href="guildtree.c?name=healer">Healer</a></td><td><a href="guildtree.c?name=heavenly+seer">Heavenly seer</a></td><td><a href="guildtree.c?name=herbalist">Herbalist</a></td></tr><tr><td><a href="guildtree.c?name=high+priest">High priest</a></td><td><a href="guildtree.c?name=high+summoner">High summoner</a></td><td><a href="guildtree.c?name=ice+disciple">Ice disciple</a></td><td><a href="guildtree.c?name=irrifletta">Irrifletta</a></td><td><a href="guildtree.c?name=juggler">Juggler</a></td></tr><tr><td><a href="guildtree.c?name=knight">Knight</a></td><td><a href="guildtree.c?name=lava+mage">Lava mage</a></td><td><a href="guildtree.c?name=lords+of+undeath">Lords of undeath</a></td><td><a href="guildtree.c?name=lurker">Lurker</a></td><td><a href="guildtree.c?name=magical+torturer">Magical torturer</a></td></tr><tr><td><a href="guildtree.c?name=martial+artist">Martial artist</a></td><td><a href="guildtree.c?name=martyr">Martyr</a></td><td><a href="guildtree.c?name=master+abjurer">Master abjurer</a></td><td><a href="guildtree.c?name=master+assassin">Master assassin</a></td><td><a href="guildtree.c?name=master+enchanter">Master enchanter</a></td></tr><tr><td><a href="guildtree.c?name=master+navigators">Master navigators</a></td><td><a href="guildtree.c?name=master+of+disruption">Master of disruption</a></td><td><a href="guildtree.c?name=masters+of+energy">Masters of energy</a></td><td><a href="guildtree.c?name=minstrel">Minstrel</a></td><td><a href="guildtree.c?name=mist+mage">Mist mage</a></td></tr><tr><td><a href="guildtree.c?name=mystic+warriors">Mystic warriors</a></td><td><a href="guildtree.c?name=mystics">Mystics</a></td><td><a href="guildtree.c?name=navigator">Navigator</a></td><td><a href="guildtree.c?name=necromancer">Necromancer</a></td><td><a href="guildtree.c?name=necroscope">Necroscope</a></td></tr><tr><td><a href="guildtree.c?name=nether+mage">Nether mage</a></td><td><a href="guildtree.c?name=oneiromancers">Oneiromancers</a></td><td><a href="guildtree.c?name=order+of+the+crescent+moon">Order of the crescent moon</a></td><td><a href="guildtree.c?name=patriarch+of+shirija">Patriarch of shirija</a></td><td><a href="guildtree.c?name=poison+brewer">Poison brewer</a></td></tr><tr><td><a href="guildtree.c?name=primate+of+lloth">Primate of lloth</a></td><td><a href="guildtree.c?name=protector+of+the+earth">Protector of the earth</a></td><td><a href="guildtree.c?name=psionists">Psionists</a></td><td><a href="guildtree.c?name=psychics">Psychics</a></td><td><a href="guildtree.c?name=sacrificer">Sacrificer</a></td></tr><tr><td><a href="guildtree.c?name=savager">Savager</a></td><td><a href="guildtree.c?name=scourge">Scourge</a></td><td><a href="guildtree.c?name=servant+of+lloth">Servant of lloth</a></td><td><a href="guildtree.c?name=servant+of+mordulak">Servant of mordulak</a></td><td><a href="guildtree.c?name=servant+of+shirija">Servant of shirija</a></td></tr><tr><td><a href="guildtree.c?name=servant+of+talakh">Servant of talakh</a></td><td><a href="guildtree.c?name=shaman+of+soil">Shaman of soil</a></td><td><a href="guildtree.c?name=shapeshifter">Shapeshifter</a></td><td><a href="guildtree.c?name=shield+master">Shield master</a></td><td><a href="guildtree.c?name=shields+of+faith">Shields of faith</a></td></tr><tr><td><a href="guildtree.c?name=silent+hand">Silent hand</a></td><td><a href="guildtree.c?name=snake+master">Snake master</a></td><td><a href="guildtree.c?name=sorcerer">Sorcerer</a></td><td><a href="guildtree.c?name=star+searcher">Star searcher</a></td><td><a href="guildtree.c?name=street+brawler">Street brawler</a></td></tr><tr><td><a href="guildtree.c?name=stygian+sorcerer">Stygian sorcerer</a></td><td><a href="guildtree.c?name=summoner">Summoner</a></td><td><a href="guildtree.c?name=sword+of+talakh">Sword of talakh</a></td><td><a href="guildtree.c?name=sylvan+guard">Sylvan guard</a></td><td><a href="guildtree.c?name=sylvan+protector">Sylvan protector</a></td></tr><tr><td><a href="guildtree.c?name=sylvan+scout">Sylvan scout</a></td><td><a href="guildtree.c?name=sylvan+ward">Sylvan ward</a></td><td><a href="guildtree.c?name=sylvan+woodlord">Sylvan woodlord</a></td><td><a href="guildtree.c?name=talisman+magic">Talisman magic</a></td><td><a href="guildtree.c?name=telekinetics">Telekinetics</a></td></tr><tr><td><a href="guildtree.c?name=templar">Templar</a></td><td><a href="guildtree.c?name=thruster">Thruster</a></td><td><a href="guildtree.c?name=tiger+master">Tiger master</a></td><td><a href="guildtree.c?name=toad+master">Toad master</a></td><td><a href="guildtree.c?name=traveler">Traveler</a></td></tr><tr><td><a href="guildtree.c?name=trickster">Trickster</a></td><td><a href="guildtree.c?name=troubadour">Troubadour</a></td><td><a href="guildtree.c?name=unraveller">Unraveller</a></td><td><a href="guildtree.c?name=voodooist">Voodooist</a></td><td><a href="guildtree.c?name=warrior">Warrior</a></td></tr><tr><td><a href="guildtree.c?name=watchers+of+the+night">Watchers of the night</a></td><td><a href="guildtree.c?name=water+mage">Water mage</a></td><td><a href="guildtree.c?name=weather+watcher">Weather watcher</a></td><td><a href="guildtree.c?name=weaver">Weaver</a></td><td><a href="guildtree.c?name=wind+whisperer">Wind whisperer</a></td></tr><tr><td><a href="guildtree.c?name=witch">Witch</a></td><td><a href="guildtree.c?name=woodsman">Woodsman</a></td><td><a href="guildtree.c?name=zerkala+maga">Zerkala maga</a></td></tr></table></tt></pre></BODY>
+## Guild Overview
+| Property | Value |
+|----------|-------|
+| **Name** | Champion of the Crown |
+| **Tier** | Omicron |
+| **Type** | Warrior |
+| **Description** | Elite warriors taught the secrets of turning a warrior into a true champion in combat. They learn to perfect the strength of their blows and wield any weapon with expertise, while resisting stuns and magical attacks. |
+| **Prerequisites** | Maxxed in **Defender of the Crown**, **Berserker**, and **Knight** (all three Warrior bravo guilds) |
+| **Progression** | Requires completion of three warrior bravo guilds |
+
+## Guild Tree Structure
+```
+champion_of_the_crown
+├── warrior (base)
+├── knight (bravo)
+├── defender_of_the_crown (bravo)
+├── berserker (bravo)
+└── champion_of_the_crown (omicron)
+```
+
+## Skills
+
+### Crippling Blow
+| Property | Value |
+|----------|-------|
+| Guild Level | Omicron 2 |
+| Type | Combat |
+| Base XP Cost | 2405 |
+| Description | Secret techniques to deliver powerful blows that greatly enhance the power of critical hits. |
+| Created By | Sigwald |
+| Training Caps | L2: 15% · L3: 30% · L4: 45% · L5: 60% · L6: 80% · L7: 100% |
+
+### Strike Weakness
+| Property | Value |
+|----------|-------|
+| Guild Level | Omicron 3 |
+| Type | Combat |
+| Base XP Cost | 2213 |
+| Description | Trained champions learn to strike with terrible precision, allowing more numerous critical hits. |
+| Created By | Sigwald |
+| Training Caps | L3: 15% · L4: 30% · L5: 45% · L6: 60% · L7: 80% · L8: 100% |
+
+### Weapon Maneuvers
+| Property | Value |
+|----------|-------|
+| Guild Level | Omicron 4 |
+| Type | Mastery |
+| Base XP Cost | 3740 |
+| Description | Elite warriors taught the best techniques in weapon handling. Trained to use any weapon from dagger to halberd, extremely efficient in all weapon attack skills, delivering more damage than other warriors. |
+| Created By | Sigwald |
+| Training Caps | L4: 15% · L5: 30% · L6: 45% · L7: 60% · L8: 80% · L9: 100% |
+
+### Stun Resistance
+| Property | Value |
+|----------|-------|
+| Guild Level | Omicron 5 |
+| Type | Combat |
+| Base XP Cost | 2501 |
+| Description | Champions train to resist stunning hits, reduce effects of stuns, and shake off grogginess faster. With great training, dramatically reduce the length of stuns inflicted. |
+| Created By | Sigwald |
+| Training Caps | L5: 20% · L6: 40% · L7: 60% · L8: 80% · L9: 100% |
+
+### Charge
+| Property | Value |
+|----------|-------|
+| Guild Level | Omicron 6 |
+| Type | Attack |
+| Average Damage | Extremely high |
+| Damage Type | Physical |
+| EP Cost | 276 |
+| Using Time | 2 rounds |
+| Affecting Skills | Champion lore |
+| Affecting Stats | STR |
+| Base XP Cost | 3656 |
+| Description | The Champion starts a fight by charging his opponent, using momentum to deliver a terrible blow that can sometimes incapacitate the opponent for a while. Trained champions have been known to cut opponents to ribbons before they can react after a successful charge. |
+| Created By | Sigwald |
+| Training Caps | L6: 20% · L7: 40% · L8: 60% · L9: 80% · L10: 100% |
+
+### Champion Lore
+| Property | Value |
+|----------|-------|
+| Guild Level | Omicron 6 |
+| Type | Mastery |
+| Base XP Cost | 2570 |
+| Description | Secret techniques affecting how well a champion executes guild skills. |
+| Created By | Sigwald |
+| Training Caps | L6: 20% · L7: 40% · L8: 60% · L9: 80% · L10: 100% |
+
+### Champion Trance
+| Property | Value |
+|----------|-------|
+| Guild Level | Omicron 8 |
+| Type | Protection |
+| Protection Category | General |
+| Average Duration | High |
+| Number of Stacks | 1 |
+| SP Cost | 98 |
+| EP Cost | 396 |
+| Using Time | 6 rounds |
+| Affecting Skills | Champion lore |
+| Affecting Stats | STA, WIS |
+| Base XP Cost | 2640 |
+| Description | By entering a special trance, the Champion focuses his willpower to partly ignore magical attacks. Very difficult to control with varying effects. |
+| Created By | Sigwald |
+
+---
+*Data extracted from Islands of Myth in-game skill help system (2026-05-24)*

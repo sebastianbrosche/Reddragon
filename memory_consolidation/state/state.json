@@ -1,21 +1,22 @@
 {
   "diary": {
-    "count": 20,
-    "last_ts": "2026-05-24T03:48:28.741434",
-    "last_day": 6,
-    "last_sessions": 2,
-    "last_messages": 5,
-    "last_filename": "day6-2026-05-18-kobold_intern_logs_everything.md",
-    "last_latency_s": 11.6,
-    "last_skip": "no_sessions_today"
+    "count": 22,
+    "last_ts": "2026-05-25T03:43:14.932768",
+    "last_day": 13,
+    "last_sessions": 3,
+    "last_messages": 13,
+    "last_filename": "day13-2026-05-25-the_day_i_became_a_data_grave.md",
+    "last_latency_s": 13.7,
+    "last_skip": "no_sessions_today",
+    "last_error": "The read operation timed out"
   },
   "compact": {
-    "count": 20,
-    "last_ts": "2026-05-24T03:48:42.220604",
-    "last_invoke": 9,
-    "last_sessions": 92,
-    "last_messages": 2776,
-    "last_latency_s": 10.1,
+    "count": 22,
+    "last_ts": "2026-05-25T03:43:19.359819",
+    "last_invoke": 11,
+    "last_sessions": 117,
+    "last_messages": 3904,
+    "last_latency_s": 12.1,
     "last_model": "k2p6",
     "last_skip": "stm_hash_unchanged"
   },

@@ -14,12 +14,12 @@ class BotTickScript(DefaultScript):
     
     key = "bot_tick"
     desc = "Periodically runs bot exploration"
-    interval = 15  # Every 15 seconds (bots move at human-like pace)
+    interval = 5  # Every 5 seconds
     persistent = True
     
     def at_script_creation(self):
         """Initialize."""
-        self.interval = 15
+        self.interval = 5
         self.repeats = -1  # Infinite repeats
         self.persistent = True
         
@@ -51,7 +51,7 @@ def start_bot_tick():
     return create_script(
         "typeclasses.scripts.bot_tick.BotTickScript", 
         key="bot_tick", 
-        interval=15, 
+        interval=5, 
         repeats=-1, 
         persistent=True,
         start_delay=False,

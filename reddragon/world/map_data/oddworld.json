@@ -1,0 +1,5526 @@
+{
+  "asylum": {
+    "area_name": "Asylum",
+    "island": "Oddworld",
+    "coder": "Waz",
+    "rooms": {
+      "7,8": {
+        "row": 7,
+        "col": 8,
+        "name": "Waz",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "7,12": {
+        "row": 7,
+        "col": 12,
+        "name": "Stairs",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "7,16": {
+        "row": 7,
+        "col": 16,
+        "name": "Stairs",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "7,20": {
+        "row": 7,
+        "col": 20,
+        "name": "Stairs",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "11,8": {
+        "row": 11,
+        "col": 8,
+        "name": "Stairs",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "11,12": {
+        "row": 11,
+        "col": 12,
+        "name": "Stairs",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "11,16": {
+        "row": 11,
+        "col": 16,
+        "name": "Stairs",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "11,20": {
+        "row": 11,
+        "col": 20,
+        "name": "Stairs",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "11,24": {
+        "row": 11,
+        "col": 24,
+        "name": "Room_11_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "11,28": {
+        "row": 11,
+        "col": 28,
+        "name": "Room_11_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "11,32": {
+        "row": 11,
+        "col": 32,
+        "name": "Room_11_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "11,36": {
+        "row": 11,
+        "col": 36,
+        "name": "Room_11_36",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,8": {
+        "row": 13,
+        "col": 8,
+        "name": "Room_13_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": true,
+        "has_portal": false
+      },
+      "13,12": {
+        "row": 13,
+        "col": 12,
+        "name": "Room_13_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,16": {
+        "row": 13,
+        "col": 16,
+        "name": "Room_13_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,20": {
+        "row": 13,
+        "col": 20,
+        "name": "Room_13_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,24": {
+        "row": 13,
+        "col": 24,
+        "name": "Room_13_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,28": {
+        "row": 13,
+        "col": 28,
+        "name": "Room_13_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,32": {
+        "row": 13,
+        "col": 32,
+        "name": "Room_13_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,36": {
+        "row": 13,
+        "col": 36,
+        "name": "Room_13_36",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,40": {
+        "row": 13,
+        "col": 40,
+        "name": "Room_13_40",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,12": {
+        "row": 15,
+        "col": 12,
+        "name": "Room_15_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,16": {
+        "row": 15,
+        "col": 16,
+        "name": "Room_15_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,20": {
+        "row": 15,
+        "col": 20,
+        "name": "Room_15_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,24": {
+        "row": 15,
+        "col": 24,
+        "name": "Room_15_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,28": {
+        "row": 15,
+        "col": 28,
+        "name": "Room_15_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,32": {
+        "row": 15,
+        "col": 32,
+        "name": "Room_15_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,36": {
+        "row": 15,
+        "col": 36,
+        "name": "Room_15_36",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,40": {
+        "row": 15,
+        "col": 40,
+        "name": "Room_15_40",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      }
+    },
+    "grid_lines": 4
+  },
+  "beaver_pond": {
+    "area_name": "Beaver Pond",
+    "island": "Oddworld",
+    "coder": "Execution",
+    "rooms": {
+      "8,8": {
+        "row": 8,
+        "col": 8,
+        "name": "Out -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "8,12": {
+        "row": 8,
+        "col": 12,
+        "name": "Out -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "8,16": {
+        "row": 8,
+        "col": 16,
+        "name": "Room_8_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "8,20": {
+        "row": 8,
+        "col": 20,
+        "name": "Room_8_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "8,24": {
+        "row": 8,
+        "col": 24,
+        "name": "Room_8_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "8,28": {
+        "row": 8,
+        "col": 28,
+        "name": "Room_8_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "8,32": {
+        "row": 8,
+        "col": 32,
+        "name": "Room_8_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "8,36": {
+        "row": 8,
+        "col": 36,
+        "name": "Room_8_36",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "8,40": {
+        "row": 8,
+        "col": 40,
+        "name": "Room_8_40",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "10,20": {
+        "row": 10,
+        "col": 20,
+        "name": "Room_10_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "10,24": {
+        "row": 10,
+        "col": 24,
+        "name": "V   V",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "10,28": {
+        "row": 10,
+        "col": 28,
+        "name": "V   V",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "10,32": {
+        "row": 10,
+        "col": 32,
+        "name": "V   V",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "10,36": {
+        "row": 10,
+        "col": 36,
+        "name": "V   V",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "10,40": {
+        "row": 10,
+        "col": 40,
+        "name": "V   V",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "10,44": {
+        "row": 10,
+        "col": 44,
+        "name": "V   V",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "12,20": {
+        "row": 12,
+        "col": 20,
+        "name": "Room_12_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "12,24": {
+        "row": 12,
+        "col": 24,
+        "name": "V   V",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "12,28": {
+        "row": 12,
+        "col": 28,
+        "name": "V   V",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "12,32": {
+        "row": 12,
+        "col": 32,
+        "name": "V   V",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "12,36": {
+        "row": 12,
+        "col": 36,
+        "name": "V   V",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "12,40": {
+        "row": 12,
+        "col": 40,
+        "name": "V   V",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "20,8": {
+        "row": 20,
+        "col": 8,
+        "name": "King",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "20,12": {
+        "row": 20,
+        "col": 12,
+        "name": "King",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "20,16": {
+        "row": 20,
+        "col": 16,
+        "name": "King",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "20,28": {
+        "row": 20,
+        "col": 28,
+        "name": "Beaver",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "20,32": {
+        "row": 20,
+        "col": 32,
+        "name": "- D -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "20,40": {
+        "row": 20,
+        "col": 40,
+        "name": "- D -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "20,44": {
+        "row": 20,
+        "col": 44,
+        "name": "- D -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "20,48": {
+        "row": 20,
+        "col": 48,
+        "name": "Room_20_48",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "22,4": {
+        "row": 22,
+        "col": 4,
+        "name": "King",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": true,
+        "has_portal": false
+      },
+      "22,8": {
+        "row": 22,
+        "col": 8,
+        "name": "King",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "22,16": {
+        "row": 22,
+        "col": 16,
+        "name": "King",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "24,4": {
+        "row": 24,
+        "col": 4,
+        "name": "D                           U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "24,8": {
+        "row": 24,
+        "col": 8,
+        "name": "D                           U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      }
+    },
+    "grid_lines": 6
+  },
+  "chessboard": {
+    "area_name": "Chessboard",
+    "island": "Oddworld",
+    "coder": "Waz",
+    "rooms": {
+      "13,8": {
+        "row": 13,
+        "col": 8,
+        "name": "Room_13_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,12": {
+        "row": 13,
+        "col": 12,
+        "name": "Room_13_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,16": {
+        "row": 13,
+        "col": 16,
+        "name": "Room_13_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,20": {
+        "row": 13,
+        "col": 20,
+        "name": "Room_13_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,24": {
+        "row": 13,
+        "col": 24,
+        "name": "Room_13_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,28": {
+        "row": 13,
+        "col": 28,
+        "name": "- U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,32": {
+        "row": 13,
+        "col": 32,
+        "name": "- U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,4": {
+        "row": 15,
+        "col": 4,
+        "name": "Room_15_4",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,8": {
+        "row": 15,
+        "col": 8,
+        "name": "Room_15_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,12": {
+        "row": 15,
+        "col": 12,
+        "name": "Room_15_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,16": {
+        "row": 15,
+        "col": 16,
+        "name": "Room_15_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,20": {
+        "row": 15,
+        "col": 20,
+        "name": "Room_15_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,24": {
+        "row": 15,
+        "col": 24,
+        "name": "Room_15_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,28": {
+        "row": 15,
+        "col": 28,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,32": {
+        "row": 15,
+        "col": 32,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,4": {
+        "row": 17,
+        "col": 4,
+        "name": "Room_17_4",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,8": {
+        "row": 17,
+        "col": 8,
+        "name": "Room_17_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,12": {
+        "row": 17,
+        "col": 12,
+        "name": "Room_17_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,16": {
+        "row": 17,
+        "col": 16,
+        "name": "Room_17_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,20": {
+        "row": 17,
+        "col": 20,
+        "name": "Room_17_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,24": {
+        "row": 17,
+        "col": 24,
+        "name": "Room_17_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,28": {
+        "row": 17,
+        "col": 28,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,32": {
+        "row": 17,
+        "col": 32,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,36": {
+        "row": 17,
+        "col": 36,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,4": {
+        "row": 19,
+        "col": 4,
+        "name": "Room_19_4",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,8": {
+        "row": 19,
+        "col": 8,
+        "name": "Room_19_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,12": {
+        "row": 19,
+        "col": 12,
+        "name": "Room_19_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,16": {
+        "row": 19,
+        "col": 16,
+        "name": "Room_19_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,20": {
+        "row": 19,
+        "col": 20,
+        "name": "Room_19_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,24": {
+        "row": 19,
+        "col": 24,
+        "name": "Room_19_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,28": {
+        "row": 19,
+        "col": 28,
+        "name": "Room_19_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,32": {
+        "row": 19,
+        "col": 32,
+        "name": "Room_19_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,36": {
+        "row": 19,
+        "col": 36,
+        "name": "Room_19_36",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,4": {
+        "row": 21,
+        "col": 4,
+        "name": "Room_21_4",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,8": {
+        "row": 21,
+        "col": 8,
+        "name": "Room_21_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,12": {
+        "row": 21,
+        "col": 12,
+        "name": "Room_21_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,16": {
+        "row": 21,
+        "col": 16,
+        "name": "Room_21_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,20": {
+        "row": 21,
+        "col": 20,
+        "name": "Room_21_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,24": {
+        "row": 21,
+        "col": 24,
+        "name": "Room_21_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,28": {
+        "row": 21,
+        "col": 28,
+        "name": "Room_21_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,32": {
+        "row": 21,
+        "col": 32,
+        "name": "Room_21_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,36": {
+        "row": 21,
+        "col": 36,
+        "name": "Room_21_36",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,4": {
+        "row": 23,
+        "col": 4,
+        "name": "Room_23_4",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,8": {
+        "row": 23,
+        "col": 8,
+        "name": "Room_23_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,12": {
+        "row": 23,
+        "col": 12,
+        "name": "Room_23_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,16": {
+        "row": 23,
+        "col": 16,
+        "name": "Room_23_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,20": {
+        "row": 23,
+        "col": 20,
+        "name": "Room_23_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,24": {
+        "row": 23,
+        "col": 24,
+        "name": "Room_23_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,28": {
+        "row": 23,
+        "col": 28,
+        "name": "Room_23_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,32": {
+        "row": 23,
+        "col": 32,
+        "name": "Room_23_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,36": {
+        "row": 23,
+        "col": 36,
+        "name": "Room_23_36",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,4": {
+        "row": 25,
+        "col": 4,
+        "name": "Room_25_4",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,8": {
+        "row": 25,
+        "col": 8,
+        "name": "Room_25_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,12": {
+        "row": 25,
+        "col": 12,
+        "name": "Room_25_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,16": {
+        "row": 25,
+        "col": 16,
+        "name": "Room_25_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,20": {
+        "row": 25,
+        "col": 20,
+        "name": "Room_25_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,24": {
+        "row": 25,
+        "col": 24,
+        "name": "Room_25_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,28": {
+        "row": 25,
+        "col": 28,
+        "name": "Room_25_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,32": {
+        "row": 25,
+        "col": 32,
+        "name": "Room_25_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,36": {
+        "row": 25,
+        "col": 36,
+        "name": "Room_25_36",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,4": {
+        "row": 27,
+        "col": 4,
+        "name": "D -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,8": {
+        "row": 27,
+        "col": 8,
+        "name": "D -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,12": {
+        "row": 27,
+        "col": 12,
+        "name": "D -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,16": {
+        "row": 27,
+        "col": 16,
+        "name": "D -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,20": {
+        "row": 27,
+        "col": 20,
+        "name": "Room_27_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,24": {
+        "row": 27,
+        "col": 24,
+        "name": "Room_27_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,28": {
+        "row": 27,
+        "col": 28,
+        "name": "Room_27_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,32": {
+        "row": 27,
+        "col": 32,
+        "name": "Room_27_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,36": {
+        "row": 27,
+        "col": 36,
+        "name": "Room_27_36",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,12": {
+        "row": 29,
+        "col": 12,
+        "name": "D -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,16": {
+        "row": 29,
+        "col": 16,
+        "name": "V 'Stairs'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,20": {
+        "row": 29,
+        "col": 20,
+        "name": "V 'Stairs'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,24": {
+        "row": 29,
+        "col": 24,
+        "name": "V 'Stairs'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,28": {
+        "row": 29,
+        "col": 28,
+        "name": "V 'Stairs'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,32": {
+        "row": 29,
+        "col": 32,
+        "name": "V 'Stairs'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,36": {
+        "row": 29,
+        "col": 36,
+        "name": "V 'Stairs'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      }
+    },
+    "grid_lines": 9
+  },
+  "demon_motel": {
+    "area_name": "Demon Motel",
+    "island": "Oddworld",
+    "coder": "Toreth",
+    "rooms": {
+      "13,6": {
+        "row": 13,
+        "col": 6,
+        "name": "Demons",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,10": {
+        "row": 13,
+        "col": 10,
+        "name": "Demons",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,14": {
+        "row": 13,
+        "col": 14,
+        "name": "Demons",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,6": {
+        "row": 17,
+        "col": 6,
+        "name": "Room_17_6",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,10": {
+        "row": 17,
+        "col": 10,
+        "name": "Room_17_10",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,14": {
+        "row": 17,
+        "col": 14,
+        "name": "Room_17_14",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,18": {
+        "row": 17,
+        "col": 18,
+        "name": "'Stairs'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,10": {
+        "row": 21,
+        "col": 10,
+        "name": "Room_21_10",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,10": {
+        "row": 23,
+        "col": 10,
+        "name": "Room_23_10",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": true,
+        "has_portal": false
+      },
+      "25,14": {
+        "row": 25,
+        "col": 14,
+        "name": "Room_25_14",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,18": {
+        "row": 25,
+        "col": 18,
+        "name": "Room_25_18",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,22": {
+        "row": 25,
+        "col": 22,
+        "name": "Room_25_22",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,34": {
+        "row": 25,
+        "col": 34,
+        "name": "Room_25_34",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,38": {
+        "row": 25,
+        "col": 38,
+        "name": "Hive Mother",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,42": {
+        "row": 25,
+        "col": 42,
+        "name": "Hive Mother",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,14": {
+        "row": 27,
+        "col": 14,
+        "name": "Room_27_14",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,18": {
+        "row": 27,
+        "col": 18,
+        "name": "Room_27_18",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,22": {
+        "row": 27,
+        "col": 22,
+        "name": "Room_27_22",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,26": {
+        "row": 27,
+        "col": 26,
+        "name": "Room_27_26",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,30": {
+        "row": 27,
+        "col": 30,
+        "name": "Room_27_30",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,34": {
+        "row": 27,
+        "col": 34,
+        "name": "Room_27_34",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,38": {
+        "row": 27,
+        "col": 38,
+        "name": "Hive Mother",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,42": {
+        "row": 27,
+        "col": 42,
+        "name": "Hive Mother",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,18": {
+        "row": 29,
+        "col": 18,
+        "name": "H-",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,26": {
+        "row": 29,
+        "col": 26,
+        "name": "Beholders",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,34": {
+        "row": 29,
+        "col": 34,
+        "name": "Beholders",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,38": {
+        "row": 29,
+        "col": 38,
+        "name": "Beholders",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,42": {
+        "row": 29,
+        "col": 42,
+        "name": "Hive Mother",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,10": {
+        "row": 31,
+        "col": 10,
+        "name": "U -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,14": {
+        "row": 31,
+        "col": 14,
+        "name": "H-",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,18": {
+        "row": 31,
+        "col": 18,
+        "name": "H-",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,22": {
+        "row": 31,
+        "col": 22,
+        "name": "H-",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,26": {
+        "row": 31,
+        "col": 26,
+        "name": "Beholders",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,30": {
+        "row": 31,
+        "col": 30,
+        "name": "Beholders",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "33,10": {
+        "row": 33,
+        "col": 10,
+        "name": "U -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "33,14": {
+        "row": 33,
+        "col": 14,
+        "name": "U -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "33,18": {
+        "row": 33,
+        "col": 18,
+        "name": "H-",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "33,26": {
+        "row": 33,
+        "col": 26,
+        "name": "Beholders",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      }
+    },
+    "grid_lines": 9
+  },
+  "dig_site": {
+    "area_name": "Dig Site",
+    "island": "Oddworld",
+    "coder": "Uncle",
+    "rooms": {
+      "13,72": {
+        "row": 13,
+        "col": 72,
+        "name": "Room_13_72",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,12": {
+        "row": 15,
+        "col": 12,
+        "name": "Room_15_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,48": {
+        "row": 15,
+        "col": 48,
+        "name": "Room_15_48",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,72": {
+        "row": 15,
+        "col": 72,
+        "name": "Room_15_72",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,8": {
+        "row": 17,
+        "col": 8,
+        "name": "Room_17_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,12": {
+        "row": 17,
+        "col": 12,
+        "name": "Room_17_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,16": {
+        "row": 17,
+        "col": 16,
+        "name": "----- U -----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,20": {
+        "row": 17,
+        "col": 20,
+        "name": "----- U -----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,36": {
+        "row": 17,
+        "col": 36,
+        "name": "----- U -----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,40": {
+        "row": 17,
+        "col": 40,
+        "name": "----- U -----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,44": {
+        "row": 17,
+        "col": 44,
+        "name": "Room_17_44",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,48": {
+        "row": 17,
+        "col": 48,
+        "name": "Room_17_48",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,52": {
+        "row": 17,
+        "col": 52,
+        "name": "Room_17_52",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,56": {
+        "row": 17,
+        "col": 56,
+        "name": "Room_17_56",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,60": {
+        "row": 17,
+        "col": 60,
+        "name": "Room_17_60",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,64": {
+        "row": 17,
+        "col": 64,
+        "name": "Room_17_64",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,72": {
+        "row": 17,
+        "col": 72,
+        "name": "Room_17_72",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,8": {
+        "row": 19,
+        "col": 8,
+        "name": "Room_19_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,12": {
+        "row": 19,
+        "col": 12,
+        "name": "Room_19_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,16": {
+        "row": 19,
+        "col": 16,
+        "name": "----- U -----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,20": {
+        "row": 19,
+        "col": 20,
+        "name": "----- U -----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,32": {
+        "row": 19,
+        "col": 32,
+        "name": "----- U -----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,36": {
+        "row": 19,
+        "col": 36,
+        "name": "----- U -----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,40": {
+        "row": 19,
+        "col": 40,
+        "name": "----- U -----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,44": {
+        "row": 19,
+        "col": 44,
+        "name": "Room_19_44",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,48": {
+        "row": 19,
+        "col": 48,
+        "name": "Room_19_48",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,56": {
+        "row": 19,
+        "col": 56,
+        "name": "Room_19_56",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,60": {
+        "row": 19,
+        "col": 60,
+        "name": "Room_19_60",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,64": {
+        "row": 19,
+        "col": 64,
+        "name": "Room_19_64",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,68": {
+        "row": 19,
+        "col": 68,
+        "name": "Room_19_68",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,72": {
+        "row": 19,
+        "col": 72,
+        "name": "Room_19_72",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,12": {
+        "row": 21,
+        "col": 12,
+        "name": "Room_21_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,16": {
+        "row": 21,
+        "col": 16,
+        "name": "Room_21_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,20": {
+        "row": 21,
+        "col": 20,
+        "name": "Room_21_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,24": {
+        "row": 21,
+        "col": 24,
+        "name": "Room_21_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,32": {
+        "row": 21,
+        "col": 32,
+        "name": "Room_21_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,36": {
+        "row": 21,
+        "col": 36,
+        "name": "Room_21_36",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,40": {
+        "row": 21,
+        "col": 40,
+        "name": "Room_21_40",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,44": {
+        "row": 21,
+        "col": 44,
+        "name": "Room_21_44",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,48": {
+        "row": 21,
+        "col": 48,
+        "name": "Room_21_48",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,56": {
+        "row": 21,
+        "col": 56,
+        "name": "Room_21_56",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,60": {
+        "row": 21,
+        "col": 60,
+        "name": "Room_21_60",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,68": {
+        "row": 21,
+        "col": 68,
+        "name": "Room_21_68",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,72": {
+        "row": 21,
+        "col": 72,
+        "name": "Room_21_72",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,8": {
+        "row": 23,
+        "col": 8,
+        "name": "Room_23_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,12": {
+        "row": 23,
+        "col": 12,
+        "name": "Room_23_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,32": {
+        "row": 23,
+        "col": 32,
+        "name": "Room_23_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,36": {
+        "row": 23,
+        "col": 36,
+        "name": "Room_23_36",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,40": {
+        "row": 23,
+        "col": 40,
+        "name": "Room_23_40",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,44": {
+        "row": 23,
+        "col": 44,
+        "name": "Room_23_44",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,48": {
+        "row": 23,
+        "col": 48,
+        "name": "Room_23_48",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,56": {
+        "row": 23,
+        "col": 56,
+        "name": "Room_23_56",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,60": {
+        "row": 23,
+        "col": 60,
+        "name": "Room_23_60",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,68": {
+        "row": 23,
+        "col": 68,
+        "name": "Room_23_68",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,72": {
+        "row": 23,
+        "col": 72,
+        "name": "Room_23_72",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,76": {
+        "row": 23,
+        "col": 76,
+        "name": "Room_23_76",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,8": {
+        "row": 25,
+        "col": 8,
+        "name": "Room_25_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,12": {
+        "row": 25,
+        "col": 12,
+        "name": "Room_25_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,16": {
+        "row": 25,
+        "col": 16,
+        "name": "Room_25_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,32": {
+        "row": 25,
+        "col": 32,
+        "name": "Room_25_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,36": {
+        "row": 25,
+        "col": 36,
+        "name": "Room_25_36",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,40": {
+        "row": 25,
+        "col": 40,
+        "name": "Room_25_40",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,44": {
+        "row": 25,
+        "col": 44,
+        "name": "Room_25_44",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,48": {
+        "row": 25,
+        "col": 48,
+        "name": "Room_25_48",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,56": {
+        "row": 25,
+        "col": 56,
+        "name": "Room_25_56",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,60": {
+        "row": 25,
+        "col": 60,
+        "name": "Room_25_60",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,64": {
+        "row": 25,
+        "col": 64,
+        "name": "Room_25_64",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,68": {
+        "row": 25,
+        "col": 68,
+        "name": "Room_25_68",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,76": {
+        "row": 25,
+        "col": 76,
+        "name": "Room_25_76",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,80": {
+        "row": 25,
+        "col": 80,
+        "name": "Room_25_80",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,4": {
+        "row": 27,
+        "col": 4,
+        "name": "Room_27_4",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,8": {
+        "row": 27,
+        "col": 8,
+        "name": "Room_27_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,12": {
+        "row": 27,
+        "col": 12,
+        "name": "Room_27_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,16": {
+        "row": 27,
+        "col": 16,
+        "name": "Room_27_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,32": {
+        "row": 27,
+        "col": 32,
+        "name": "Room_27_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,36": {
+        "row": 27,
+        "col": 36,
+        "name": "Room_27_36",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,40": {
+        "row": 27,
+        "col": 40,
+        "name": "Room_27_40",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,44": {
+        "row": 27,
+        "col": 44,
+        "name": "Room_27_44",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,48": {
+        "row": 27,
+        "col": 48,
+        "name": "Room_27_48",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,60": {
+        "row": 27,
+        "col": 60,
+        "name": "Room_27_60",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,64": {
+        "row": 27,
+        "col": 64,
+        "name": "Room_27_64",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,68": {
+        "row": 27,
+        "col": 68,
+        "name": "Room_27_68",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,80": {
+        "row": 27,
+        "col": 80,
+        "name": "Room_27_80",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,4": {
+        "row": 29,
+        "col": 4,
+        "name": "Room_29_4",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,8": {
+        "row": 29,
+        "col": 8,
+        "name": "Room_29_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,12": {
+        "row": 29,
+        "col": 12,
+        "name": "Room_29_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,32": {
+        "row": 29,
+        "col": 32,
+        "name": "Room_29_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,36": {
+        "row": 29,
+        "col": 36,
+        "name": "Room_29_36",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,40": {
+        "row": 29,
+        "col": 40,
+        "name": "Room_29_40",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,44": {
+        "row": 29,
+        "col": 44,
+        "name": "Room_29_44",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,48": {
+        "row": 29,
+        "col": 48,
+        "name": "Room_29_48",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,52": {
+        "row": 29,
+        "col": 52,
+        "name": "Room_29_52",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,56": {
+        "row": 29,
+        "col": 56,
+        "name": "Room_29_56",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,60": {
+        "row": 29,
+        "col": 60,
+        "name": "Room_29_60",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,64": {
+        "row": 29,
+        "col": 64,
+        "name": "Room_29_64",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,68": {
+        "row": 29,
+        "col": 68,
+        "name": "Room_29_68",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,80": {
+        "row": 29,
+        "col": 80,
+        "name": "Room_29_80",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,12": {
+        "row": 31,
+        "col": 12,
+        "name": "Room_31_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,16": {
+        "row": 31,
+        "col": 16,
+        "name": "Room_31_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,32": {
+        "row": 31,
+        "col": 32,
+        "name": "Room_31_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,36": {
+        "row": 31,
+        "col": 36,
+        "name": "Room_31_36",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,40": {
+        "row": 31,
+        "col": 40,
+        "name": "Room_31_40",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,44": {
+        "row": 31,
+        "col": 44,
+        "name": "Room_31_44",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,48": {
+        "row": 31,
+        "col": 48,
+        "name": "Room_31_48",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,56": {
+        "row": 31,
+        "col": 56,
+        "name": "Room_31_56",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,64": {
+        "row": 31,
+        "col": 64,
+        "name": "Room_31_64",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,68": {
+        "row": 31,
+        "col": 68,
+        "name": "Room_31_68",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,80": {
+        "row": 31,
+        "col": 80,
+        "name": "Room_31_80",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "33,4": {
+        "row": 33,
+        "col": 4,
+        "name": "Room_33_4",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "33,8": {
+        "row": 33,
+        "col": 8,
+        "name": "Room_33_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "33,12": {
+        "row": 33,
+        "col": 12,
+        "name": "Room_33_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "33,16": {
+        "row": 33,
+        "col": 16,
+        "name": "Room_33_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "33,80": {
+        "row": 33,
+        "col": 80,
+        "name": "Room_33_80",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "35,4": {
+        "row": 35,
+        "col": 4,
+        "name": "Emperor",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "35,8": {
+        "row": 35,
+        "col": 8,
+        "name": "Emperor",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "35,12": {
+        "row": 35,
+        "col": 12,
+        "name": "Emperor",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "35,16": {
+        "row": 35,
+        "col": 16,
+        "name": "Emperor",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "35,80": {
+        "row": 35,
+        "col": 80,
+        "name": "Emperor",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      }
+    },
+    "grid_lines": 12
+  },
+  "hoppy_tunnels": {
+    "area_name": "Hoppy Tunnels",
+    "island": "Oddworld",
+    "coder": "Evilned",
+    "rooms": {
+      "15,12": {
+        "row": 15,
+        "col": 12,
+        "name": "Room_15_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,16": {
+        "row": 15,
+        "col": 16,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,32": {
+        "row": 15,
+        "col": 32,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,36": {
+        "row": 15,
+        "col": 36,
+        "name": "Room_15_36",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,40": {
+        "row": 15,
+        "col": 40,
+        "name": "Room_15_40",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,44": {
+        "row": 15,
+        "col": 44,
+        "name": "Room_15_44",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,8": {
+        "row": 17,
+        "col": 8,
+        "name": "Room_17_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,12": {
+        "row": 17,
+        "col": 12,
+        "name": "Room_17_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,16": {
+        "row": 17,
+        "col": 16,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,20": {
+        "row": 17,
+        "col": 20,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,32": {
+        "row": 17,
+        "col": 32,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,44": {
+        "row": 17,
+        "col": 44,
+        "name": "Room_17_44",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,16": {
+        "row": 19,
+        "col": 16,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,20": {
+        "row": 19,
+        "col": 20,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,24": {
+        "row": 19,
+        "col": 24,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,28": {
+        "row": 19,
+        "col": 28,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,32": {
+        "row": 19,
+        "col": 32,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,40": {
+        "row": 19,
+        "col": 40,
+        "name": "Room_19_40",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,44": {
+        "row": 19,
+        "col": 44,
+        "name": "Room_19_44",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,12": {
+        "row": 21,
+        "col": 12,
+        "name": "Room_21_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,40": {
+        "row": 21,
+        "col": 40,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,44": {
+        "row": 21,
+        "col": 44,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,12": {
+        "row": 23,
+        "col": 12,
+        "name": "Room_23_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,32": {
+        "row": 23,
+        "col": 32,
+        "name": "Room_23_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,36": {
+        "row": 23,
+        "col": 36,
+        "name": "Room_23_36",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,40": {
+        "row": 23,
+        "col": 40,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,44": {
+        "row": 23,
+        "col": 44,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,12": {
+        "row": 25,
+        "col": 12,
+        "name": "Room_25_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,16": {
+        "row": 25,
+        "col": 16,
+        "name": "Room_25_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,20": {
+        "row": 25,
+        "col": 20,
+        "name": "Room_25_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,24": {
+        "row": 25,
+        "col": 24,
+        "name": "Room_25_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,28": {
+        "row": 25,
+        "col": 28,
+        "name": "Room_25_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,32": {
+        "row": 25,
+        "col": 32,
+        "name": "Room_25_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,36": {
+        "row": 25,
+        "col": 36,
+        "name": "Room_25_36",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,40": {
+        "row": 25,
+        "col": 40,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,52": {
+        "row": 25,
+        "col": 52,
+        "name": "D-",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      }
+    },
+    "grid_lines": 6
+  },
+  "obelisk": {
+    "area_name": "Obelisk",
+    "island": "Oddworld",
+    "coder": "Wyrn",
+    "rooms": {
+      "9,20": {
+        "row": 9,
+        "col": 20,
+        "name": "St Floor",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "9,24": {
+        "row": 9,
+        "col": 24,
+        "name": "Nd Floor",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "9,28": {
+        "row": 9,
+        "col": 28,
+        "name": "Nd Floor",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "11,20": {
+        "row": 11,
+        "col": 20,
+        "name": "Room_11_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "11,24": {
+        "row": 11,
+        "col": 24,
+        "name": "Room_11_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "11,28": {
+        "row": 11,
+        "col": 28,
+        "name": "Room_11_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "11,40": {
+        "row": 11,
+        "col": 40,
+        "name": "Room_11_40",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "11,52": {
+        "row": 11,
+        "col": 52,
+        "name": "Room_11_52",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "11,60": {
+        "row": 11,
+        "col": 60,
+        "name": "Room_11_60",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,8": {
+        "row": 13,
+        "col": 8,
+        "name": "- U -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,20": {
+        "row": 13,
+        "col": 20,
+        "name": "Room_13_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,24": {
+        "row": 13,
+        "col": 24,
+        "name": "Room_13_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,28": {
+        "row": 13,
+        "col": 28,
+        "name": "Room_13_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,36": {
+        "row": 13,
+        "col": 36,
+        "name": "-U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,40": {
+        "row": 13,
+        "col": 40,
+        "name": "-U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,44": {
+        "row": 13,
+        "col": 44,
+        "name": "D-",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "13,56": {
+        "row": 13,
+        "col": 56,
+        "name": "Room_13_56",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,4": {
+        "row": 15,
+        "col": 4,
+        "name": "- U -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,12": {
+        "row": 15,
+        "col": 12,
+        "name": "- U -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,36": {
+        "row": 15,
+        "col": 36,
+        "name": "-U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,44": {
+        "row": 15,
+        "col": 44,
+        "name": "D-",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,8": {
+        "row": 17,
+        "col": 8,
+        "name": "- U -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,20": {
+        "row": 17,
+        "col": 20,
+        "name": "Room_17_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,24": {
+        "row": 17,
+        "col": 24,
+        "name": "Room_17_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,28": {
+        "row": 17,
+        "col": 28,
+        "name": "Room_17_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,36": {
+        "row": 17,
+        "col": 36,
+        "name": "-U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,40": {
+        "row": 17,
+        "col": 40,
+        "name": "-U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,44": {
+        "row": 17,
+        "col": 44,
+        "name": "D-",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,56": {
+        "row": 17,
+        "col": 56,
+        "name": "Room_17_56",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,8": {
+        "row": 19,
+        "col": 8,
+        "name": "Room_19_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,20": {
+        "row": 19,
+        "col": 20,
+        "name": "Room_19_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,24": {
+        "row": 19,
+        "col": 24,
+        "name": "Room_19_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,28": {
+        "row": 19,
+        "col": 28,
+        "name": "Room_19_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,40": {
+        "row": 19,
+        "col": 40,
+        "name": "Room_19_40",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,52": {
+        "row": 19,
+        "col": 52,
+        "name": "Room_19_52",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,60": {
+        "row": 19,
+        "col": 60,
+        "name": "Room_19_60",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,8": {
+        "row": 21,
+        "col": 8,
+        "name": "Room_21_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": true,
+        "has_portal": false
+      },
+      "21,20": {
+        "row": 21,
+        "col": 20,
+        "name": "Room_21_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,24": {
+        "row": 21,
+        "col": 24,
+        "name": "Room_21_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,28": {
+        "row": 21,
+        "col": 28,
+        "name": "Room_21_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      }
+    },
+    "grid_lines": 7
+  },
+  "oddworld_harbor": {
+    "area_name": "Oddworld Harbor",
+    "island": "Oddworld",
+    "coder": "?",
+    "rooms": {
+      "9,12": {
+        "row": 9,
+        "col": 12,
+        "name": "Embark -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": true
+      }
+    },
+    "grid_lines": 1
+  },
+  "pouch": {
+    "area_name": "Pouch",
+    "island": "Oddworld",
+    "coder": "Uncle",
+    "rooms": {
+      "15,4": {
+        "row": 15,
+        "col": 4,
+        "name": "-----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,12": {
+        "row": 15,
+        "col": 12,
+        "name": "-----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,16": {
+        "row": 15,
+        "col": 16,
+        "name": "-----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,20": {
+        "row": 15,
+        "col": 20,
+        "name": "Room_15_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,24": {
+        "row": 15,
+        "col": 24,
+        "name": "Room_15_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,28": {
+        "row": 15,
+        "col": 28,
+        "name": "Room_15_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,32": {
+        "row": 15,
+        "col": 32,
+        "name": "Room_15_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,36": {
+        "row": 15,
+        "col": 36,
+        "name": "Room_15_36",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,40": {
+        "row": 15,
+        "col": 40,
+        "name": "Room_15_40",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,44": {
+        "row": 15,
+        "col": 44,
+        "name": "Room_15_44",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,48": {
+        "row": 15,
+        "col": 48,
+        "name": "Room_15_48",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,52": {
+        "row": 15,
+        "col": 52,
+        "name": "'Climb Vine'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,8": {
+        "row": 17,
+        "col": 8,
+        "name": "-----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,12": {
+        "row": 17,
+        "col": 12,
+        "name": "-----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,16": {
+        "row": 17,
+        "col": 16,
+        "name": "-----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,24": {
+        "row": 17,
+        "col": 24,
+        "name": "Room_17_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,52": {
+        "row": 17,
+        "col": 52,
+        "name": "Woggle",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,4": {
+        "row": 19,
+        "col": 4,
+        "name": "Room_19_4",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,8": {
+        "row": 19,
+        "col": 8,
+        "name": "Room_19_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,12": {
+        "row": 19,
+        "col": 12,
+        "name": "Room_19_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,16": {
+        "row": 19,
+        "col": 16,
+        "name": "Room_19_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,20": {
+        "row": 19,
+        "col": 20,
+        "name": "Room_19_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,24": {
+        "row": 19,
+        "col": 24,
+        "name": "Room_19_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,28": {
+        "row": 19,
+        "col": 28,
+        "name": "Room_19_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,32": {
+        "row": 19,
+        "col": 32,
+        "name": "Room_19_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "19,52": {
+        "row": 19,
+        "col": 52,
+        "name": "Woggle",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,4": {
+        "row": 21,
+        "col": 4,
+        "name": "Room_21_4",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,8": {
+        "row": 21,
+        "col": 8,
+        "name": "Room_21_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,12": {
+        "row": 21,
+        "col": 12,
+        "name": "Room_21_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,16": {
+        "row": 21,
+        "col": 16,
+        "name": "Room_21_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,20": {
+        "row": 21,
+        "col": 20,
+        "name": "Room_21_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,24": {
+        "row": 21,
+        "col": 24,
+        "name": "Room_21_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,28": {
+        "row": 21,
+        "col": 28,
+        "name": "Room_21_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,32": {
+        "row": 21,
+        "col": 32,
+        "name": "Room_21_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,40": {
+        "row": 21,
+        "col": 40,
+        "name": "Room_21_40",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,44": {
+        "row": 21,
+        "col": 44,
+        "name": "Room_21_44",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,48": {
+        "row": 21,
+        "col": 48,
+        "name": "Room_21_48",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,52": {
+        "row": 21,
+        "col": 52,
+        "name": "Room_21_52",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,4": {
+        "row": 23,
+        "col": 4,
+        "name": "Room_23_4",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,8": {
+        "row": 23,
+        "col": 8,
+        "name": "Room_23_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,12": {
+        "row": 23,
+        "col": 12,
+        "name": "Room_23_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,16": {
+        "row": 23,
+        "col": 16,
+        "name": "Room_23_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,20": {
+        "row": 23,
+        "col": 20,
+        "name": "Room_23_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,24": {
+        "row": 23,
+        "col": 24,
+        "name": "Room_23_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,28": {
+        "row": 23,
+        "col": 28,
+        "name": "Room_23_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,32": {
+        "row": 23,
+        "col": 32,
+        "name": "Room_23_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,36": {
+        "row": 23,
+        "col": 36,
+        "name": "Room_23_36",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,40": {
+        "row": 23,
+        "col": 40,
+        "name": "Room_23_40",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,44": {
+        "row": 23,
+        "col": 44,
+        "name": "Room_23_44",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,48": {
+        "row": 23,
+        "col": 48,
+        "name": "Room_23_48",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,52": {
+        "row": 23,
+        "col": 52,
+        "name": "Room_23_52",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,4": {
+        "row": 25,
+        "col": 4,
+        "name": "Room_25_4",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,8": {
+        "row": 25,
+        "col": 8,
+        "name": "Room_25_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,12": {
+        "row": 25,
+        "col": 12,
+        "name": "Room_25_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,16": {
+        "row": 25,
+        "col": 16,
+        "name": "Room_25_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,20": {
+        "row": 25,
+        "col": 20,
+        "name": "Room_25_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,28": {
+        "row": 25,
+        "col": 28,
+        "name": "Room_25_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,36": {
+        "row": 25,
+        "col": 36,
+        "name": "Room_25_36",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,40": {
+        "row": 25,
+        "col": 40,
+        "name": "Room_25_40",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,44": {
+        "row": 25,
+        "col": 44,
+        "name": "Room_25_44",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "25,52": {
+        "row": 25,
+        "col": 52,
+        "name": "Room_25_52",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,4": {
+        "row": 29,
+        "col": 4,
+        "name": "-----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,12": {
+        "row": 29,
+        "col": 12,
+        "name": "-----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,16": {
+        "row": 29,
+        "col": 16,
+        "name": "-----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,20": {
+        "row": 29,
+        "col": 20,
+        "name": "Room_29_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,24": {
+        "row": 29,
+        "col": 24,
+        "name": "Room_29_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": true,
+        "has_portal": false
+      },
+      "29,28": {
+        "row": 29,
+        "col": 28,
+        "name": "Room_29_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": true,
+        "has_portal": false
+      },
+      "29,32": {
+        "row": 29,
+        "col": 32,
+        "name": "Room_29_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,36": {
+        "row": 29,
+        "col": 36,
+        "name": "Room_29_36",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,40": {
+        "row": 29,
+        "col": 40,
+        "name": "Room_29_40",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,44": {
+        "row": 29,
+        "col": 44,
+        "name": "Room_29_44",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      }
+    },
+    "grid_lines": 7
+  },
+  "stargate_pyramids": {
+    "area_name": "Stargate Pyramids",
+    "island": "Oddworld",
+    "coder": "Uncle",
+    "rooms": {
+      "10,104": {
+        "row": 10,
+        "col": 104,
+        "name": "Stargate'                                                                       D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "10,108": {
+        "row": 10,
+        "col": 108,
+        "name": "Stargate'                                                                       D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "10,112": {
+        "row": 10,
+        "col": 112,
+        "name": "Room_10_112",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "12,44": {
+        "row": 12,
+        "col": 44,
+        "name": "D  Out",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "12,100": {
+        "row": 12,
+        "col": 100,
+        "name": "Seth",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "12,104": {
+        "row": 12,
+        "col": 104,
+        "name": "Seth",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "12,112": {
+        "row": 12,
+        "col": 112,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "12,116": {
+        "row": 12,
+        "col": 116,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "14,20": {
+        "row": 14,
+        "col": 20,
+        "name": "D  Out",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": true,
+        "has_portal": false
+      },
+      "14,44": {
+        "row": 14,
+        "col": 44,
+        "name": "- U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "14,48": {
+        "row": 14,
+        "col": 48,
+        "name": "- D                                  Isis",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "14,92": {
+        "row": 14,
+        "col": 92,
+        "name": "- D                                  Isis",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "14,96": {
+        "row": 14,
+        "col": 96,
+        "name": "Seth",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "14,100": {
+        "row": 14,
+        "col": 100,
+        "name": "Seth",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "14,104": {
+        "row": 14,
+        "col": 104,
+        "name": "'Enter                                     V",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "14,116": {
+        "row": 14,
+        "col": 116,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "16,8": {
+        "row": 16,
+        "col": 8,
+        "name": "-U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "16,12": {
+        "row": 16,
+        "col": 12,
+        "name": "-U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "16,20": {
+        "row": 16,
+        "col": 20,
+        "name": "D-",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "16,24": {
+        "row": 16,
+        "col": 24,
+        "name": "D-",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "16,40": {
+        "row": 16,
+        "col": 40,
+        "name": "- U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "16,108": {
+        "row": 16,
+        "col": 108,
+        "name": "'Enter                                     V",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "16,116": {
+        "row": 16,
+        "col": 116,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "18,4": {
+        "row": 18,
+        "col": 4,
+        "name": "Room_18_4",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "18,8": {
+        "row": 18,
+        "col": 8,
+        "name": "-U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "18,12": {
+        "row": 18,
+        "col": 12,
+        "name": "-U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "18,20": {
+        "row": 18,
+        "col": 20,
+        "name": "D-",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "18,24": {
+        "row": 18,
+        "col": 24,
+        "name": "D-",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "18,28": {
+        "row": 18,
+        "col": 28,
+        "name": "Room_18_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "18,104": {
+        "row": 18,
+        "col": 104,
+        "name": "'Enter                                     V",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "18,108": {
+        "row": 18,
+        "col": 108,
+        "name": "'Enter                                     V",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "18,112": {
+        "row": 18,
+        "col": 112,
+        "name": "-U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "18,116": {
+        "row": 18,
+        "col": 116,
+        "name": "-U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "18,124": {
+        "row": 18,
+        "col": 124,
+        "name": "D-",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "20,4": {
+        "row": 20,
+        "col": 4,
+        "name": "Room_20_4",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "20,8": {
+        "row": 20,
+        "col": 8,
+        "name": "- U -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "20,12": {
+        "row": 20,
+        "col": 12,
+        "name": "- U -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "20,20": {
+        "row": 20,
+        "col": 20,
+        "name": "- U -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "20,24": {
+        "row": 20,
+        "col": 24,
+        "name": "- U -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "20,28": {
+        "row": 20,
+        "col": 28,
+        "name": "Room_20_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "20,32": {
+        "row": 20,
+        "col": 32,
+        "name": "Room_20_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "20,56": {
+        "row": 20,
+        "col": 56,
+        "name": "U -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": true,
+        "has_portal": false
+      },
+      "20,72": {
+        "row": 20,
+        "col": 72,
+        "name": "D      Stargate'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "20,76": {
+        "row": 20,
+        "col": 76,
+        "name": "D      Stargate'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "20,80": {
+        "row": 20,
+        "col": 80,
+        "name": "Sekhmet",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "20,104": {
+        "row": 20,
+        "col": 104,
+        "name": "Sekhmet",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "20,112": {
+        "row": 20,
+        "col": 112,
+        "name": "Out -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "22,60": {
+        "row": 22,
+        "col": 60,
+        "name": "----- U -----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "22,72": {
+        "row": 22,
+        "col": 72,
+        "name": "----- U -----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "22,76": {
+        "row": 22,
+        "col": 76,
+        "name": "-----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "22,80": {
+        "row": 22,
+        "col": 80,
+        "name": "Out -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "22,112": {
+        "row": 22,
+        "col": 112,
+        "name": "Out -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "24,48": {
+        "row": 24,
+        "col": 48,
+        "name": "-----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "24,56": {
+        "row": 24,
+        "col": 56,
+        "name": "-----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": true,
+        "has_portal": false
+      },
+      "24,72": {
+        "row": 24,
+        "col": 72,
+        "name": "----- U -----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "24,80": {
+        "row": 24,
+        "col": 80,
+        "name": "-----",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "26,108": {
+        "row": 26,
+        "col": 108,
+        "name": "Horus",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "26,112": {
+        "row": 26,
+        "col": 112,
+        "name": "Horus",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "26,116": {
+        "row": 26,
+        "col": 116,
+        "name": "- U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "28,100": {
+        "row": 28,
+        "col": 100,
+        "name": "Nefertiti",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "28,104": {
+        "row": 28,
+        "col": 104,
+        "name": "Nefertiti",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "28,108": {
+        "row": 28,
+        "col": 108,
+        "name": "Room_28_108",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      }
+    },
+    "grid_lines": 10
+  },
+  "wonderland": {
+    "area_name": "Wonderland",
+    "island": "Oddworld",
+    "coder": "Fizgig, Mintorus",
+    "rooms": {
+      "9,20": {
+        "row": 9,
+        "col": 20,
+        "name": "Queen Of Hearts",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "9,24": {
+        "row": 9,
+        "col": 24,
+        "name": "Queen Of Hearts",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "9,28": {
+        "row": 9,
+        "col": 28,
+        "name": "Queen Of Hearts",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "11,16": {
+        "row": 11,
+        "col": 16,
+        "name": "Room_11_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "11,20": {
+        "row": 11,
+        "col": 20,
+        "name": "Room_11_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "11,24": {
+        "row": 11,
+        "col": 24,
+        "name": "Room_11_24",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "11,28": {
+        "row": 11,
+        "col": 28,
+        "name": "Room_11_28",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "11,32": {
+        "row": 11,
+        "col": 32,
+        "name": "Room_11_32",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,16": {
+        "row": 15,
+        "col": 16,
+        "name": "D -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,20": {
+        "row": 15,
+        "col": 20,
+        "name": "Room_15_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,24": {
+        "row": 15,
+        "col": 24,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "15,28": {
+        "row": 15,
+        "col": 28,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,12": {
+        "row": 17,
+        "col": 12,
+        "name": "D -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,16": {
+        "row": 17,
+        "col": 16,
+        "name": "D -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,20": {
+        "row": 17,
+        "col": 20,
+        "name": "Room_17_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,24": {
+        "row": 17,
+        "col": 24,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,40": {
+        "row": 17,
+        "col": 40,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,44": {
+        "row": 17,
+        "col": 44,
+        "name": "Room_17_44",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,48": {
+        "row": 17,
+        "col": 48,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "17,52": {
+        "row": 17,
+        "col": 52,
+        "name": "- D",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,8": {
+        "row": 21,
+        "col": 8,
+        "name": "U -------------------------",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,12": {
+        "row": 21,
+        "col": 12,
+        "name": "U -------------------------",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,16": {
+        "row": 21,
+        "col": 16,
+        "name": "U -------------------------",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,20": {
+        "row": 21,
+        "col": 20,
+        "name": "U -------------------------",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,24": {
+        "row": 21,
+        "col": 24,
+        "name": "U -------------------------",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,36": {
+        "row": 21,
+        "col": 36,
+        "name": "------------------------- U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,40": {
+        "row": 21,
+        "col": 40,
+        "name": "------------------------- U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,44": {
+        "row": 21,
+        "col": 44,
+        "name": "------------------------- U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,48": {
+        "row": 21,
+        "col": 48,
+        "name": "------------------------- U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,52": {
+        "row": 21,
+        "col": 52,
+        "name": "------------------------- U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "21,56": {
+        "row": 21,
+        "col": 56,
+        "name": "------------------------- U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "23,32": {
+        "row": 23,
+        "col": 32,
+        "name": "U -------------------------",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,4": {
+        "row": 27,
+        "col": 4,
+        "name": "Room_27_4",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,8": {
+        "row": 27,
+        "col": 8,
+        "name": "Room_27_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,12": {
+        "row": 27,
+        "col": 12,
+        "name": "Room_27_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,16": {
+        "row": 27,
+        "col": 16,
+        "name": "Room_27_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "27,20": {
+        "row": 27,
+        "col": 20,
+        "name": "Room_27_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,4": {
+        "row": 29,
+        "col": 4,
+        "name": "Room_29_4",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,8": {
+        "row": 29,
+        "col": 8,
+        "name": "Room_29_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,12": {
+        "row": 29,
+        "col": 12,
+        "name": "Room_29_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,16": {
+        "row": 29,
+        "col": 16,
+        "name": "U -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "29,20": {
+        "row": 29,
+        "col": 20,
+        "name": "U -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,4": {
+        "row": 31,
+        "col": 4,
+        "name": "Room_31_4",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,8": {
+        "row": 31,
+        "col": 8,
+        "name": "Room_31_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,12": {
+        "row": 31,
+        "col": 12,
+        "name": "Room_31_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,16": {
+        "row": 31,
+        "col": 16,
+        "name": "U -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,20": {
+        "row": 31,
+        "col": 20,
+        "name": "U -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,28": {
+        "row": 31,
+        "col": 28,
+        "name": "U -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,32": {
+        "row": 31,
+        "col": 32,
+        "name": "U -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "31,36": {
+        "row": 31,
+        "col": 36,
+        "name": "- U",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "33,4": {
+        "row": 33,
+        "col": 4,
+        "name": "Room_33_4",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "33,8": {
+        "row": 33,
+        "col": 8,
+        "name": "Room_33_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "33,12": {
+        "row": 33,
+        "col": 12,
+        "name": "Room_33_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "33,16": {
+        "row": 33,
+        "col": 16,
+        "name": "U -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "33,20": {
+        "row": 33,
+        "col": 20,
+        "name": "U -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "33,24": {
+        "row": 33,
+        "col": 24,
+        "name": "U -",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "35,8": {
+        "row": 35,
+        "col": 8,
+        "name": "'Enter",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "35,12": {
+        "row": 35,
+        "col": 12,
+        "name": "'Enter",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "35,16": {
+        "row": 35,
+        "col": 16,
+        "name": "'Enter",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "35,32": {
+        "row": 35,
+        "col": 32,
+        "name": "'Enter",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "37,12": {
+        "row": 37,
+        "col": 12,
+        "name": "'Enter",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "39,12": {
+        "row": 39,
+        "col": 12,
+        "name": "'Enter",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "39,13": {
+        "row": 39,
+        "col": 13,
+        "name": "'Enter",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "39,25": {
+        "row": 39,
+        "col": 25,
+        "name": "Cavern'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "39,29": {
+        "row": 39,
+        "col": 29,
+        "name": "Cavern'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "39,33": {
+        "row": 39,
+        "col": 33,
+        "name": "Mary Jane",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "39,57": {
+        "row": 39,
+        "col": 57,
+        "name": "Mary Jane",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "41,4": {
+        "row": 41,
+        "col": 4,
+        "name": "Room_41_4",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "41,8": {
+        "row": 41,
+        "col": 8,
+        "name": "Cavern'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "41,12": {
+        "row": 41,
+        "col": 12,
+        "name": "Cavern'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "41,16": {
+        "row": 41,
+        "col": 16,
+        "name": "Cavern'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "41,20": {
+        "row": 41,
+        "col": 20,
+        "name": "Cavern'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "41,52": {
+        "row": 41,
+        "col": 52,
+        "name": "'Enter",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "41,56": {
+        "row": 41,
+        "col": 56,
+        "name": "Mary Jane",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "41,60": {
+        "row": 41,
+        "col": 60,
+        "name": "Mary Jane",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "43,4": {
+        "row": 43,
+        "col": 4,
+        "name": "Room_43_4",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "43,8": {
+        "row": 43,
+        "col": 8,
+        "name": "Room_43_8",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "43,12": {
+        "row": 43,
+        "col": 12,
+        "name": "Room_43_12",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "43,16": {
+        "row": 43,
+        "col": 16,
+        "name": "Room_43_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "43,20": {
+        "row": 43,
+        "col": 20,
+        "name": "Room_43_20",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "43,32": {
+        "row": 43,
+        "col": 32,
+        "name": "Tunnel'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "43,52": {
+        "row": 43,
+        "col": 52,
+        "name": "Tunnel'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "43,56": {
+        "row": 43,
+        "col": 56,
+        "name": "Tunnel'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "45,16": {
+        "row": 45,
+        "col": 16,
+        "name": "Room_45_16",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "45,44": {
+        "row": 45,
+        "col": 44,
+        "name": "Tunnel'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "45,52": {
+        "row": 45,
+        "col": 52,
+        "name": "Tunnel'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "45,56": {
+        "row": 45,
+        "col": 56,
+        "name": "Tunnel'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "47,12": {
+        "row": 47,
+        "col": 12,
+        "name": "Hole'",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "47,16": {
+        "row": 47,
+        "col": 16,
+        "name": "'Enter",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "47,20": {
+        "row": 47,
+        "col": 20,
+        "name": "'Enter",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "47,24": {
+        "row": 47,
+        "col": 24,
+        "name": "'Enter",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "47,28": {
+        "row": 47,
+        "col": 28,
+        "name": "'Enter",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "47,32": {
+        "row": 47,
+        "col": 32,
+        "name": "'Enter",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "47,36": {
+        "row": 47,
+        "col": 36,
+        "name": "'Enter",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "47,40": {
+        "row": 47,
+        "col": 40,
+        "name": "Room_47_40",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "47,44": {
+        "row": 47,
+        "col": 44,
+        "name": "Room_47_44",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "47,48": {
+        "row": 47,
+        "col": 48,
+        "name": "Room_47_48",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      },
+      "47,52": {
+        "row": 47,
+        "col": 52,
+        "name": "Room_47_52",
+        "exits": {},
+        "is_entry": false,
+        "is_exit": false,
+        "has_portal": false
+      }
+    },
+    "grid_lines": 17
+  }
+}

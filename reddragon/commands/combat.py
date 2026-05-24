@@ -17,6 +17,9 @@ from evennia.contrib.grid.extended_room.extended_room import ExtendedRoomCmdSet
 from evennia.contrib.grid.simpledoor.simpledoor import SimpleDoorCmdSet
 from evennia.contrib.base_systems.ingame_python.commands import CmdCallback
 from evennia.contrib.rpg.dice.dice import CmdDice
+from evennia.contrib.game_systems.clothing.clothing import ClothedCharacterCmdSet
+from evennia.contrib.game_systems.barter.barter import CmdOffer, CmdAccept, CmdDecline, CmdEvaluate, CmdStatus
+from evennia.contrib.game_systems.crafting.crafting import CraftingCmdSet
 from world.buffs import IOM_BUFFS, apply_buff, remove_buff
 
 class CmdKill(Command):
@@ -537,6 +540,16 @@ class CombatCmdSet(CmdSet):
         self.add(CmdCallback())
         # Dice roller (1d20 + 5, etc)
         self.add(CmdDice())
+        # Clothing (wear, remove, cover, uncover)
+        self.add(ClothedCharacterCmdSet())
+        # Barter (trade, offer, accept, decline, evaluate, status)
+        self.add(CmdOffer())
+        self.add(CmdAccept())
+        self.add(CmdDecline())
+        self.add(CmdEvaluate())
+        self.add(CmdStatus())
+        # Crafting
+        self.add(CraftingCmdSet())
         self.add(CmdBuy)
         self.add(CmdSell)
         self.add(CmdList)

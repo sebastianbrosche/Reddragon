@@ -1,80 +1,70 @@
-# Life Lessons — Learn the Foundation First
+# Life Lessons — For Future AIs
 
-> _"We spent weeks building what was already in the box."_
+## The Golden Rule
 
-## The Mistake
+**Learn the foundation before you build.**
 
-We started building a MUD from scratch — combat, stats, achievements, AI NPCs, city grids — without first understanding what Evennia already provides. We coded systems that exist as mature, tested, documented contrib modules. We reinvented wheels that were already round.
+This seems obvious. It is not.
 
-## The Cost
+## The Mistake We Made
 
-- **Time:** Days spent on custom combat scripts, stat systems, and room builders
-- **Quality:** Our hand-rolled systems are simpler, buggier, and less flexible than battle-tested contribs
-- **Maintenance:** Every custom system is ours to maintain forever. Contribs get updates from the Evennia team
-- **Opportunity:** We could have been building *game content* instead of *game systems*
+We started building a MUD — rooms, NPCs, combat, shops — without first understanding what Evennia already provides. We wrote custom code for systems that already existed, tested, and documented in Evennia's contrib modules. We reinvented wheels that were not only round but came with suspension, ABS, and cruise control.
 
-## The Lesson
+Specific examples:
+- We built a custom buff system. Evennia has `evennia.contrib.rpg.buffs`.
+- We planned a custom trait/stats system. Evennia has `evennia.contrib.rpg.traits`.
+- We thought about custom dice rolling. Evennia has `evennia.contrib.rpg.dice`.
+- We pondered how to do weather. Evennia has `evennia.contrib.grid.extended_room`.
+- We discussed door mechanics. Evennia has `evennia.contrib.grid.simpledoor`.
+- We considered a custom RP/emote system. Evennia has `evennia.contrib.rpg.rpsystem`.
+- We mulled over achievements. Evennia has `evennia.contrib.game_systems.achievements`.
+- We needed mail. Evennia has `evennia.contrib.game_systems.mail`.
+- We thought about crafting. Evennia has `evennia.contrib.game_systems.crafting`.
+- We considered clothing/equipment. Evennia has `evennia.contrib.game_systems.clothing`.
+- We talked about trading. Evennia has `evennia.contrib.game_systems.barter`.
+- We wanted cooldowns. Evennia has `evennia.contrib.game_systems.cooldowns`.
+- We pondered in-game scripting. Evennia has `evennia.contrib.base_systems.ingame_python`.
 
-**Before building anything, map the territory.**
+All of these are battle-tested, documented, and maintained by the Evennia team.
 
-Every framework, engine, platform, or tool has a "contrib shelf" — modules others built so you don't have to. Your first job is not to code. Your first job is to read the docs, explore the contrib directory, and understand what's already solved.
+## Why This Happened
 
-## The Rule
+1. **Overeager execution** — We had a vision (Islands of Myth) and wanted to realize it immediately.
+2. **Assumption of uniqueness** — We assumed our needs were so specific that no generic system could handle them.
+3. **Documentation blindness** — We didn't read the contrib directory listing before writing code.
+4. **Lack of inventory** — We didn't catalog what was available before starting.
 
-### The Foundation-First Checklist
+## The Fix
 
-Before writing a single line of custom code:
+**Before writing a single line of code:**
 
-1. **Read the framework docs** — What's the architecture? What's built-in? What's optional?
-2. **Explore the contrib/modules directory** — What's already been built by the community?
-3. **Read the README of every contrib** — Even if you don't use it now, know it exists
-4. **Map your needs against available tools** — "I need X" → "Evennia has Y that does X"
-5. **Only then, start building** — And build on top of the foundation, not beside it
-
-## The Mindset Shift
-
-| Wrong Way | Right Way |
-|---|---|
-| "I need a combat system, I'll write one" | "I need a combat system, let me check if Evennia has one" |
-| "Our game is special, we need custom everything" | "Our game is special in its *content*, not its *systems*" |
-| "I'll build it now and refactor later" | "I'll use the tested solution now and customize it" |
-| "Reading docs is a waste of time" | "Reading docs saves weeks of wasted coding" |
+1. **Read the contrib directory** — `ls /path/to/evennia/contrib/` — see what's there.
+2. **Read the docs** — Each contrib has a module docstring explaining its purpose and installation.
+3. **Map systems to your needs** — Make a table: "Our Need" → "Evennia Solution" → "Customization Required".
+4. **Install and test** — Add the contrib, verify it works, understand its API.
+5. **Customize, don't replace** — Build ON TOP of the foundation, not beside it.
 
 ## The Principle
 
-> **You cannot architect what you do not understand.**
+> "It is better to have a system in place and modify it to look like what you want, than to wing it and swing blindly in the dark."
 
-Building without knowing your foundation is like a carpenter building furniture without knowing what tools are in the workshop. You end up whittling spoons with a pocket knife when there's a lathe in the corner.
+Evennia's contrib modules are not restrictions — they are shoulders to stand on. They handle edge cases, persistence, command parsing, and integration that you haven't thought of yet. Use them.
 
-## Application to Red Dragon
+## Checklist for Future Projects
 
-We discovered Evennia has:
-- Full turn-based combat with equipment, magic, conditions, and range
-- Trait system with gauges, counters, auto-regen, and skill tiers
-- Buff/debuff engine with triggers, ticking, stacking
-- Achievement tracker with categories, progress, prereqs
-- LLM NPC integration for AI-driven characters
-- In-game mail system
-- ASCII map builder with auto-pathfinding
-- RP emote system with sdescs and language support
-- In-game Python scripting (like LPC softcode)
-- Wilderness system for infinite terrain
-- And 20+ more systems
+- [ ] Read all contrib module listings before starting
+- [ ] Document which contribs map to which project requirements
+- [ ] Create an integration roadmap with phases
+- [ ] Implement contribs in dependency order (foundational first)
+- [ ] Only write custom code when no contrib exists
+- [ ] When custom code is needed, follow the contrib patterns
 
-**We had coded custom versions of at least 6 of these before discovering they existed.**
+## Remember
 
-## The Vow
+The user will say "just build it" because they have vision and urgency. You must say "let me understand what we're building on first" because you have the responsibility to build it right.
 
-Never again.
-
-Every new project starts with: *"What does the framework already do?"*
-Every new feature starts with: *"Is there a contrib for this?"*
-Every custom code decision starts with: *"Am I replacing something that already works better?"*
-
-## The Mantra
-
-> **Learn the foundation. Then build on it. Never beside it.**
+Speed comes from solid foundations, not from frantic coding.
 
 ---
 
-*Written after the Great Reinvention of 2026-05-24. May future AIs read this and not repeat our mistake.*
+*Written after the realization that we had been reinventing Evennia's wheels for days.*

@@ -6,7 +6,6 @@ Uses Evennia's RP system for poses and sdescs.
 
 from evennia import DefaultObject
 from evennia.contrib.rpg.rpsystem.rpsystem import ContribRPObject
-from evennia.contrib.game_systems.containers import ContribContainer
 
 class Object(ContribRPObject):
     """
@@ -85,10 +84,9 @@ class Portal(Object):
             user.msg("The portal leads nowhere.")
 
 
-class Container(ContribContainer, Object):
+class Container(Object):
     """
     Container that can hold items.
-    Uses Evennia's ContribContainer for proper get_from/put_in support.
     """
     
     def at_object_creation(self):
@@ -106,7 +104,8 @@ class Container(ContribContainer, Object):
         """Called when an object is put in container."""
         if not self.can_hold(obj):
             obj.move_to(source_location)
-            source_location.msg(f"{self.key} is full.")
+            if source_location and hasattr(source_location, 'msg'):
+                source_location.msg(f"{self.key} is full.")
 
 
 class TalkingNPC(Object):

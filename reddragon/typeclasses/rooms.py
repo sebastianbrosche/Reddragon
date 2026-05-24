@@ -85,7 +85,7 @@ class IOMRoom(Room):
         self.db.area = "Unknown"
 
 
-class ExtendedRoom(ContribExtendedRoom):
+class WeatherRoom(ContribExtendedRoom):
     """
     Extended room with time-of-day, season, and weather descriptions.
     For outdoor areas that should feel alive.

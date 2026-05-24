@@ -388,3 +388,14 @@ None2026-05-17 23:26:10 [EE] Error encountered for cmdset at path 'commands.defa
 2026-05-22 14:52:50 [..] Server disconnected from the portal.
 2026-05-22 14:52:50 [..] Main loop terminated.
 2026-05-22 14:52:50 [..] Server Shut Down.
+2026-05-24 19:10:24 [..] Loaded.
+2026-05-24 19:10:22 [..] Loading /root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/server/server.py...
+2026-05-24 19:10:24 [EE] Could not find file-help module world.help_entries (skipping).
+2026-05-24 19:10:24 [..] Loaded.
+2026-05-24 19:10:24 [..] twistd 24.11.0 (/root/.openclaw/workspace/mud/evenv/bin/python3 3.12.3) starting up.
+2026-05-24 19:10:24 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-05-24 19:10:25 [..] Webserver starting on 8001
+2026-05-24 19:10:25 [..] Evennia Server successfully started.
+2026-05-24 19:10:25 [..] Darkstaff MUD - World already exists, skipping build.
+2026-05-24 19:10:25 [..] Darkstaff MUD - Hunger tick started.
+2026-05-24 19:10:25 [..] Darkstaff MUD - Bots channel ready.

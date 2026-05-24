@@ -102,7 +102,7 @@ class CmdCreate(CmdUnconnectedCreate):
         
         # Create account using Evennia's native method - NO password restrictions
         account, errors = AccountDB.objects.create_account(
-            username=name,
+            key=name,
             email=None,
             password=password,
             typeclass=settings.BASE_ACCOUNT_TYPECLASS,

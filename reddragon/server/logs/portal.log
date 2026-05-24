@@ -154,3 +154,14 @@
 |Portal| 2026-05-22 14:52:50 [..] (TCP Port 5000 Closed)
 |Portal| 2026-05-22 14:52:50 [..] Main loop terminated.
 |Portal| 2026-05-22 14:52:50 [..] Server Shut Down.
+|Portal| 2026-05-24 19:10:20 [..] Loaded.
+|Portal| 2026-05-24 19:10:18 [..] Loading /root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/server/portal/portal.py...
+|Portal| 2026-05-24 19:10:20 [EE] Could not find file-help module world.help_entries (skipping).
+|Portal| 2026-05-24 19:10:20 [..] Loaded.
+|Portal| 2026-05-24 19:10:20 [..] twistd 24.11.0 (/root/.openclaw/workspace/mud/evenv/bin/python3 3.12.3) starting up.
+|Portal| 2026-05-24 19:10:20 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+|Portal| 2026-05-24 19:10:21 [..] AMP starting on 5000
+|Portal| 2026-05-24 19:10:21 [..] Telnet starting on 3000
+|Portal| 2026-05-24 19:10:21 [..] Websocket starting on 4002
+|Portal| 2026-05-24 19:10:21 [..] Webserver-proxy starting on 8000
+|Portal| 2026-05-24 19:10:21 [..] Portal starting server ... 

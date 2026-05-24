@@ -74,8 +74,13 @@ DISCOVERY_MESSAGES = [
 # BOT CREATION
 # =============================================================================
 
-def create_bot(name=None, password="bot"):
+def create_bot(name=None, password=None):
     """Create a bot account and character."""
+    if not password:
+        # Generate random password to bypass Django validation
+        import secrets
+        password = secrets.token_urlsafe(16)
+    
     if not name:
         # Find unused name
         used = set(AccountDB.objects.values_list('username', flat=True))
@@ -95,24 +100,25 @@ def create_bot(name=None, password="bot"):
     from django.conf import settings
     from evennia.utils.utils import class_from_module
     
-    account, errors = AccountDB.objects.create_account(
-        username=name,
-        email=None,
-        password=password,
-        typeclass=settings.BASE_ACCOUNT_TYPECLASS,
-    )
-    if errors:
-        return None, f"Account creation failed: {errors}"
+    try:
+        account = AccountDB.objects.create_account(
+            key=name,
+            email=None,
+            password=password,
+            typeclass=settings.BASE_ACCOUNT_TYPECLASS,
+        )
+    except Exception as e:
+        return None, f"Account creation failed: {e}"
     
     # Create character
     char_typeclass = class_from_module(settings.BASE_CHARACTER_TYPECLASS)
     
     # Find start location
+    from evennia.objects.models import ObjectDB
     start = search_object("Adventurer Guild Entrance")
     if start:
         start_loc = start[0]
     else:
-        from evennia.objects.models import ObjectDB
         start_loc = ObjectDB.objects.get_id(settings.DEFAULT_HOME)
     
     default_home = ObjectDB.objects.get_id(settings.DEFAULT_HOME)

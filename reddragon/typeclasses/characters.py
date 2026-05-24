@@ -281,8 +281,8 @@ class Character(ContribRPCharacter):
         super().at_object_creation()
 
         # Set up RP sdesc based on race
-        race = getattr(self.db, "race", "Human")
-        if hasattr(self, 'sdesc'):
+        race = getattr(self.db, "race", None) or "Human"
+        if hasattr(self, 'sdesc') and self.sdesc:
             self.sdesc.add(f"a {race.lower()} adventurer")
 
         # Set up traits via Evennia's TraitHandler
@@ -421,7 +421,7 @@ class Character(ContribRPCharacter):
     def recalculate_stats(self):
         """Recalculate all derived stats using real IOM formulas from stats.py."""
         from world.stats import STAT_EFFECTS
-        from world.hunger import get_hunger_penalty
+        from world.hunger import get_regen_multiplier
 
         # Get current stat values
         str_val = self.traits.str.value if hasattr(self, 'traits') else getattr(self.db, 'strength', 50)
@@ -445,7 +445,7 @@ class Character(ContribRPCharacter):
                      (sta_val * STAT_EFFECTS['sta']['ep_bonus']))
 
         # Apply hunger penalty
-        hunger_penalty = get_hunger_penalty(self)
+        hunger_penalty = get_regen_multiplier(getattr(self.db, 'hunger_pct', None) or 50)
         if hunger_penalty < 1.0:
             hp_max = int(hp_max * hunger_penalty)
             sp_max = int(sp_max * hunger_penalty)

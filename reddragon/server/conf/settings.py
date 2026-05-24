@@ -277,6 +277,14 @@ CHARGEN_MENU = "world.chargen_menu"
 # In-Game Map Display
 BASIC_MAP_SIZE = 5
 
+# LLM NPC settings (optional - configure endpoint for AI NPCs)
+# LLM_SERVER_API_URL = "https://api.openai.com/v1/chat/completions"
+# LLM_SERVER_API_KEY = "your-api-key"
+# LLM_PROMPT_PREFIX = "You are roleplaying as {name}, a {desc} in {location}. Answer with short sentences."
+
+# Auditing - log all input/output for QA/debugging
+# To enable, uncomment: AUDIT_CALLBACK = "evennia.contrib.utils.auditing.outputs.to_file"
+
 ######################################################################
 # Secret Settings Override
 ######################################################################

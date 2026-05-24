@@ -639,6 +639,9 @@ class CombatCmdSet(CmdSet):
         # Character stat rolling system
         from commands.chargen_roll import RollCmdSet
         self.add(RollCmdSet())
+        # Quest system
+        from commands.quests import QuestCmdSet
+        self.add(QuestCmdSet())
         self.add(CmdBuy)
         self.add(CmdSell)
         self.add(CmdList)

@@ -642,6 +642,9 @@ class CombatCmdSet(CmdSet):
         # Quest system
         from commands.quests import QuestCmdSet
         self.add(QuestCmdSet())
+        # Monster system
+        from commands.monsters import MonsterCmdSet
+        self.add(MonsterCmdSet())
         self.add(CmdBuy)
         self.add(CmdSell)
         self.add(CmdList)

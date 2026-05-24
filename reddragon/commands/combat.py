@@ -627,6 +627,12 @@ class CombatCmdSet(CmdSet):
         # In-Game Map Display (ascii map command)
         from evennia.contrib.grid.ingame_map_display.ingame_map_display import MapDisplayCmdSet
         self.add(MapDisplayCmdSet())
+        # Map Builder (@mapbuilder command for builders)
+        from evennia.contrib.grid.mapbuilder.mapbuilder import CmdMapBuilder
+        self.add(CmdMapBuilder())
+        # LLM NPC talk command (requires LLM server config)
+        from evennia.contrib.rpg.llm.llm_npc import CmdLLMTalk
+        self.add(CmdLLMTalk())
         self.add(CmdBuy)
         self.add(CmdSell)
         self.add(CmdList)

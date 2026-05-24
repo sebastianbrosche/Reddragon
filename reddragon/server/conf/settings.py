@@ -251,6 +251,27 @@ EVENTFUNCS_LOCATIONS = ["world.eventfuncs"]
 CRAFT_RECIPE_MODULES = ["world.recipes"]
 
 ######################################################################
+# Custom Gametime (IOM Calendar)
+######################################################################
+
+# Real seconds = game seconds / TIME_FACTOR
+# TIME_FACTOR = 2 means 1 real second = 2 game seconds
+TIME_FACTOR = 2
+
+# IOM custom calendar
+TIME_UNITS = {
+    "sec": 1,
+    "min": 60,
+    "hr": 60 * 60,
+    "hour": 60 * 60,
+    "day": 60 * 60 * 24,
+    "week": 60 * 60 * 24 * 7,
+    "month": 60 * 60 * 24 * 30,
+    "yr": 60 * 60 * 24 * 30 * 12,
+    "year": 60 * 60 * 24 * 30 * 12,
+}
+
+######################################################################
 # Secret Settings Override
 ######################################################################
 

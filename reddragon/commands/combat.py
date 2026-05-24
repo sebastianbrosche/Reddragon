@@ -23,6 +23,7 @@ from evennia.contrib.game_systems.clothing.clothing import ClothedCharacterCmdSe
 from evennia.contrib.game_systems.barter.barter import CmdOffer, CmdAccept, CmdDecline, CmdEvaluate, CmdStatus
 from evennia.contrib.game_systems.crafting.crafting import CraftingCmdSet
 from evennia.contrib.base_systems.ingame_reports.reports import ReportsCmdSet
+from evennia.contrib.game_systems.multidescer.multidescer import CmdMultiDesc
 from world.buffs import IOM_BUFFS, apply_buff, remove_buff
 
 class CmdKill(Command):
@@ -563,6 +564,8 @@ class CombatCmdSet(CmdSet):
         self.add(StorageCmdSet())
         # In-Game Reports (bug, idea, player reports)
         self.add(ReportsCmdSet())
+        # Multi-Describer (+desc command for multiple character descriptions)
+        self.add(CmdMultiDesc())
         self.add(CmdBuy)
         self.add(CmdSell)
         self.add(CmdList)

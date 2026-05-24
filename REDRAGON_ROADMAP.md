@@ -34,11 +34,14 @@
 |--------|-------------|--------|-----------------|
 | Cooldowns | `evennia.contrib.game_systems.cooldowns` | ✅ DONE | Skill/spell cooldowns, global cooldowns |
 | Dice | `evennia.contrib.rpg.dice` | ✅ DONE | RPG dice rolling (1d20 + 5, etc) |
-| Clothing | `evennia.contrib.game_systems.clothing` | 🔄 IN PROGRESS | Wearable equipment with coverage system |
-| Barter | `evennia.contrib.game_systems.barter` | 🔄 IN PROGRESS | Player-to-player trading system |
-| Crafting | `evennia.contrib.game_systems.crafting` | 🔄 IN PROGRESS | Formula crafting, recipes, tools |
+| Clothing | `evennia.contrib.game_systems.clothing` | ✅ DONE | Wearable equipment with coverage system |
+| Barter | `evennia.contrib.game_systems.barter` | ✅ DONE | Player-to-player trading system |
+| Crafting | `evennia.contrib.game_systems.crafting` | ✅ DONE | Formula crafting, recipes, tools |
+| Cooldowns | `evennia.contrib.game_systems.cooldowns` | ✅ DONE | Skill/spell cooldowns, global cooldowns |
+| Dice | `evennia.contrib.rpg.dice` | ✅ DONE | RPG dice rolling (1d20 + 5, etc) |
+| Health Bar | `evennia.contrib.rpg.health_bar` | ✅ DONE | Visual HP/SP/EP bars in score display |
+| Gender Sub | `evennia.contrib.game_systems.gendersub` | ✅ DONE | Pronoun-aware messaging (male/female/neutral/ambiguous) |
 | Turn-Based Combat | `evennia.contrib.game_systems.turnbattle` | ⏳ PENDING | Equipment, magic, conditions, range modules |
-| Health Bar | `evennia.contrib.rpg.health_bar` | ⏳ PENDING | Visual health/status bars in combat |
 
 ---
 
@@ -62,9 +65,10 @@
 |--------|-------------|--------|-----------------|
 | LLM NPCs | `evennia.contrib.rpg.llm` | ⏳ PENDING | AI-driven NPCs with GPT integration |
 | Character Creator | `evennia.contrib.rpg.character_creator` | ⏳ PENDING | Interactive race/class selection menu |
-| Containers | `evennia.contrib.game_systems.containers` | ⏳ PENDING | Real container system (put in bag, etc) |
-| Storage | `evennia.contrib.game_systems.storage` | ⏳ PENDING | Locker/bank storage systems |
-| Gender Sub | `evennia.contrib.game_systems.gendersub` | ⏳ PENDING | Pronoun-aware messaging |
+| Containers | `evennia.contrib.game_systems.containers` | ✅ DONE | Real container system (put in bag, get from bag) |
+| Storage | `evennia.contrib.game_systems.storage` | ✅ DONE | Locker/bank storage rooms with store/retrieve/list |
+| In-Game Reports | `evennia.contrib.base_systems.ingame_reports` | ✅ DONE | Bug/idea/player reporting system |
+| Gender Sub | `evennia.contrib.game_systems.gendersub` | ✅ DONE | Pronoun-aware messaging |
 | Multi-Describer | `evennia.contrib.game_systems.multidescer` | ⏳ PENDING | Multiple room descriptions based on time/weather |
 
 ---

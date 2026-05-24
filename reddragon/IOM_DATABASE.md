@@ -219,20 +219,52 @@ All islands connected via ferry system:
 
 ## Quests {#quests}
 
-### Known Quests
+**File:** `world/quests.py`, `commands/quests.py`
 
-| Quest | Giver | Location | Description |
-|-------|-------|----------|-------------|
-| Sisong's Tour | Sisong | Yensid Land | Teleport to 19 newbie areas |
+### Quest System Features
 
-### Quest System Notes
+| Feature | Status |
+|---------|--------|
+| Quest definitions | ✅ 10 starter quests |
+| Progress tracking | ✅ Per-objective tracking |
+| Reward system | ✅ Exp, gold, guild rank, items |
+| Prerequisites | ✅ Quest chain support |
+| Guild requirements | ✅ Guild-specific quests |
+| Level requirements | ✅ Level-gated quests |
+| Exp rate modifier | ✅ Applied to all quest rewards |
+| Quest giver NPCs | ✅ Setup function |
+| Player commands | ✅ quest, quest start |
+| Quest log display | ✅ Active/completed/summary views |
 
-- IOM uses a guild-based quest system
-- Some quests require specific guild ranks
-- Quest items are typically guild equipment
-- Quests may involve killing specific monsters, finding items, or visiting locations
+### Available Quests
 
-**Need more sources for complete quest database.**
+| Quest ID | Title | Type | Level | Guild | Rewards |
+|----------|-------|------|-------|-------|---------|
+| newbie_tour | Tour of the Islands | explore | 1 | any | 500 XP, 100g |
+| kill_earwigs | Pest Control | kill | 1 | any | 300 XP, 50g, healing_potion |
+| first_blood | First Blood | kill | 1 | any | 200 XP, 25g, leather_armor |
+| warrior_initiation | Warrior's Path | guild | 5 | warrior | 1000 XP, 200g, warrior_belt |
+| mage_apprentice | Apprentice Mage | fetch | 5 | mage | 1000 XP, 200g, mage_robe |
+| rogue_stealth | Test of Stealth | explore | 5 | rogue | 1000 XP, 200g, thief_tools |
+| druid_nature | Harmony with Nature | explore | 5 | druid | 1000 XP, 200g, druid_staff |
+| blackavar_explorer | Explorer of Blackavar | explore | 15 | any | 5000 XP, 1000g, explorer_map |
+| dragon_slayer | Dragon Slayer | kill | 25 | any | 10000 XP, 5000g, dragon_scale_armor |
+| deliver_message | Urgent Delivery | deliver | 2 | any | 400 XP, 75g |
+| potion_ingredients | Potion Ingredients | fetch | 3 | any | 600 XP, 120g, health_potion |
+
+### Commands
+
+| Command | Usage | Description |
+|---------|-------|-------------|
+| quest | quest [log/active/completed] | View quest log |
+| quest start | quest start <name> | Accept a quest |
+
+### Quest Giver Setup
+
+```python
+from commands.quests import setup_quest_giver
+setup_quest_giver(npc, "quest_id")
+```
 
 ---
 

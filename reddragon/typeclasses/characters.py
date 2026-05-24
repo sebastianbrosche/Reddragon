@@ -247,11 +247,24 @@ class Character(ContribRPCharacter):
         self.traits.add("wis", "Wisdom", trait_type="static", base=bases["wis"], mod=0)
         self.traits.add("cha", "Charisma", trait_type="static", base=bases["cha"], mod=0)
 
-        # Gauge traits: HP, SP, EP
-        con_bonus = self.traits.con.value // 10
-        self.traits.add("hp", "Hit Points", trait_type="gauge", base=100 + con_bonus * 5, mod=0)
-        self.traits.add("sp", "Spell Points", trait_type="gauge", base=100, mod=0)
-        self.traits.add("ep", "Endurance Points", trait_type="gauge", base=100, mod=0)
+        # Gauge traits: HP, SP, EP using real IOM formulas
+        from world.stats import STAT_EFFECTS
+
+        # HP = base + CON bonus + STR bonus
+        hp_base = int(50 + (bases["con"] * STAT_EFFECTS['con']['hp_bonus']) +
+                     (bases["str"] * STAT_EFFECTS['str']['hp_bonus']))
+
+        # SP = base + INT bonus + WIS bonus
+        sp_base = int(50 + (bases["int"] * STAT_EFFECTS['int']['sp_bonus']) +
+                     (bases["wis"] * STAT_EFFECTS['wis']['sp_bonus']))
+
+        # EP = base + DEX bonus + STA bonus
+        ep_base = int(50 + (bases["dex"] * STAT_EFFECTS['dex']['ep_bonus']) +
+                     (bases["sta"] * STAT_EFFECTS['sta']['ep_bonus']))
+
+        self.traits.add("hp", "Hit Points", trait_type="gauge", base=hp_base, mod=0)
+        self.traits.add("sp", "Spell Points", trait_type="gauge", base=sp_base, mod=0)
+        self.traits.add("ep", "Endurance Points", trait_type="gauge", base=ep_base, mod=0)
 
         # Counter traits: guild skills
         self.traits.add("warrior", "Warrior Skill", trait_type="counter", base=0, mod=0, min=0, max=100)
@@ -363,70 +376,137 @@ class Character(ContribRPCharacter):
         # AI DM data
         self.db.titles = []
         self.db.chat_enabled = True
-    
+
+        # Ensure HP/SP/EP are calculated from real IOM stat formulas
+        self.recalculate_stats()
+        
     def at_post_puppet(self, **kwargs):
         """
         Called just after puppeting (after account has connected).
         IOM-style greeting.
         """
         super().at_post_puppet(**kwargs)
-        
+
         # Show version info
         from commands.utility import VERSION
         self.msg(f"|bWelcome to {VERSION['name']}|n |y(v{VERSION['version']})|n")
-        
+
         # Initialize session statistics
         from commands.summary import init_session_stats
         init_session_stats(self)
-        
+
         # Initialize AI DM if not already running
         from typeclasses.scripts.ai_dm import get_ai_dm
         get_ai_dm()
-        
+
         # Show score on login
         self.msg(self.get_score_display())
-        
+
         # Show room description
         if self.location:
             self.msg(self.location.return_appearance(self))
-            
+
     def at_post_unpuppet(self, account=None, **kwargs):
         """Called just after un-puppeting."""
         super().at_post_unpuppet(**kwargs)
-        
-        
+
+
     def get_stat_modifier(self, stat_name):
         """Return stat value as modifier for calculations."""
         trait = self.traits.get(stat_name.lower(), None)
         if trait:
             return trait.value
         return getattr(self.db, stat_name, 50)
-        
+
+    def recalculate_stats(self):
+        """Recalculate all derived stats using real IOM formulas from stats.py."""
+        from world.stats import STAT_EFFECTS
+        from world.hunger import get_hunger_penalty
+
+        # Get current stat values
+        str_val = self.traits.str.value if hasattr(self, 'traits') else getattr(self.db, 'strength', 50)
+        dex_val = self.traits.dex.value if hasattr(self, 'traits') else getattr(self.db, 'dexterity', 50)
+        con_val = self.traits.con.value if hasattr(self, 'traits') else getattr(self.db, 'constitution', 50)
+        sta_val = self.traits.sta.value if hasattr(self, 'traits') else getattr(self.db, 'stamina', 50)
+        int_val = self.traits.int.value if hasattr(self, 'traits') else getattr(self.db, 'intelligence', 50)
+        wis_val = self.traits.wis.value if hasattr(self, 'traits') else getattr(self.db, 'wisdom', 50)
+        cha_val = self.traits.cha.value if hasattr(self, 'traits') else getattr(self.db, 'charisma', 50)
+
+        # Calculate HP: base 50 + CON*2.5 + STR*0.5
+        hp_max = int(50 + (con_val * STAT_EFFECTS['con']['hp_bonus']) +
+                     (str_val * STAT_EFFECTS['str']['hp_bonus']))
+
+        # Calculate SP: base 50 + INT*2 + WIS*2
+        sp_max = int(50 + (int_val * STAT_EFFECTS['int']['sp_bonus']) +
+                     (wis_val * STAT_EFFECTS['wis']['sp_bonus']))
+
+        # Calculate EP: base 50 + DEX*0.5 + STA*2.5
+        ep_max = int(50 + (dex_val * STAT_EFFECTS['dex']['ep_bonus']) +
+                     (sta_val * STAT_EFFECTS['sta']['ep_bonus']))
+
+        # Apply hunger penalty
+        hunger_penalty = get_hunger_penalty(self)
+        if hunger_penalty < 1.0:
+            hp_max = int(hp_max * hunger_penalty)
+            sp_max = int(sp_max * hunger_penalty)
+            ep_max = int(ep_max * hunger_penalty)
+
+        # Apply form modifiers if shapeshifted
+        current_form = getattr(self.db, 'current_form', None)
+        if current_form:
+            from world.guilds.shapeshifter import PLAYER_FORMS
+            form_data = PLAYER_FORMS.get(current_form, {})
+            for stat, bonus in form_data.get('stat_bonuses', {}).items():
+                pass  # Already applied to base stats, recalculate handles it
+            for stat, penalty in form_data.get('stat_penalties', {}).items():
+                pass  # Already applied to base stats, recalculate handles it
+
+        # Update traits if available
+        if hasattr(self, 'traits'):
+            self.traits.hp.base = hp_max
+            self.traits.sp.base = sp_max
+            self.traits.ep.base = ep_max
+
+        # Update legacy db attributes
+        self.db.hp_max = hp_max
+        self.db.sp_max = sp_max
+        self.db.ep_max = ep_max
+
+        # Ensure current resources don't exceed new max
+        self.db.hp = min(getattr(self.db, 'hp', hp_max), hp_max)
+        self.db.sp = min(getattr(self.db, 'sp', sp_max), sp_max)
+        self.db.ep = min(getattr(self.db, 'ep', ep_max), ep_max)
+
+        return hp_max, sp_max, ep_max
+
     def modify_stat(self, stat, delta):
-        """Adjust a stat by delta, bounded 1-100."""
+        """Adjust a stat by delta, bounded 1-100, and recalculate derived stats."""
         trait = self.traits.get(stat.lower(), None)
         if trait:
             trait.base = max(1, min(100, trait.base + delta))
             # Sync legacy db for backward compat
-            stat_map = {"str": "strength", "dex": "dexterity", "con": "constitution", 
+            stat_map = {"str": "strength", "dex": "dexterity", "con": "constitution",
                        "sta": "stamina", "int": "intelligence", "wis": "wisdom", "cha": "charisma",
                        "hp": "hp", "sp": "sp", "ep": "ep"}
             db_key = stat_map.get(stat.lower())
             if db_key:
                 setattr(self.db, db_key, trait.value)
+            # Recalculate HP/SP/EP maxes after any stat change
+            if hasattr(self, 'recalculate_stats'):
+                self.recalculate_stats()
             return trait.value
         return getattr(self.db, stat, 50)
-        
+
     def add_experience(self, amount):
         """Add XP and check for level up."""
         self.db.experience += amount
         if self.db.experience >= self.db.next_level:
             self.level_up()
-            
+
     def level_up(self):
         """Handle level advancement (IOM formula) using traits."""
         self.db.level += 1
-        
+
         # IOM stat gains per level - modify traits
         self.modify_stat("str", 2)
         self.modify_stat("dex", 2)
@@ -434,24 +514,24 @@ class Character(ContribRPCharacter):
         self.modify_stat("int", 1)
         self.modify_stat("wis", 1)
         self.modify_stat("sta", 2)
-        
+
         # Regeneration increases
         self.db.hp_regen = getattr(self.db, 'hp_regen', 10) + 2
         self.db.sp_regen = getattr(self.db, 'sp_regen', 5) + 1
         self.db.ep_regen = getattr(self.db, 'ep_regen', 5) + 1
-        
+
         # Increase max resources based on CON/STA via traits
         con_bonus = self.traits.con.value // 10
         sta_bonus = self.traits.sta.value // 10
         self.traits.hp.base += 20 + con_bonus * 5
         self.traits.ep.base += 15 + sta_bonus * 3
         self.traits.sp.base += 10 + (self.traits.int.value // 10) * 3
-        
+
         # Sync legacy db attributes
         self.db.hp_max = self.traits.hp.base
         self.db.ep_max = self.traits.ep.base
         self.db.sp_max = self.traits.sp.base
-        
+
         # Full heal on level up
         self.traits.hp.current = self.traits.hp.base
         self.traits.ep.current = self.traits.ep.base
@@ -459,29 +539,29 @@ class Character(ContribRPCharacter):
         self.db.hp = self.traits.hp.value
         self.db.ep = self.traits.ep.value
         self.db.sp = self.traits.sp.value
-        
+
         # Increase next level threshold (exponential)
         self.db.next_level = int(self.db.next_level * 1.5)
-        
+
         self.msg(f"You have advanced to level {self.db.level}!")
-        
+
     def explore_room(self, room):
         """Mark a room as explored."""
         if room.id not in self.db.rooms_explored:
             self.db.rooms_explored.add(room.id)
             return True
         return False
-        
+
     def get_score_display(self):
         """Return formatted score sheet (IOM-style) using traits."""
         race_name = self.db.race if hasattr(self.db, "race") else "Unknown"
         guild_name = self.db.guild if self.db.guild else "None"
         guild_lvl = self.db.guild_level
-        
+
         total_rooms = 17750
         explored = len(self.db.rooms_explored)
         pct = (explored / total_rooms) * 100 if total_rooms > 0 else 0
-        
+
         # Pull values from traits (fallback to db for backward compat)
         str_val = getattr(self.traits, 'str', None) and self.traits.str.value or self.db.strength
         dex_val = getattr(self.traits, 'dex', None) and self.traits.dex.value or self.db.dexterity
@@ -496,7 +576,7 @@ class Character(ContribRPCharacter):
         sp_max = getattr(self.traits, 'sp', None) and self.traits.sp.base or self.db.sp_max
         ep_cur = getattr(self.traits, 'ep', None) and self.traits.ep.value or self.db.ep
         ep_max = getattr(self.traits, 'ep', None) and self.traits.ep.base or self.db.ep_max
-        
+
         return f"""
 ,----------------------------------------------------------------------------.
 | {self.key} the {race_name}
@@ -514,7 +594,7 @@ class Character(ContribRPCharacter):
 | Stamina      : {sta_val:>3} | Hunger         : {self.db.hunger}       | Stealth  : {self.db.stealth}%
 | Intelligence : {int_val:>3} | Wimpy          : {self.db.wimpy}%            | Hiding   : {'Yes' if self.db.hiding else 'No'}
 | Wisdom       : {wis_val:>3} | Alignment      : {self.db.alignment}       | Poisoned : {'Yes' if self.db.poisoned else 'No'}
-| Charisma     : {cha_val:>3} | TaskPts. : {self.db.task_points}        
+| Charisma     : {cha_val:>3} | TaskPts. : {self.db.task_points}
 |----------------------------------------------------------------------------|
 | HP  : {display_meter(hp_cur, hp_max, length=30, pre_text='HP  ')} |
 | SP  : {display_meter(sp_cur, sp_max, length=30, pre_text='SP  ', fill_color=['B','C','W'])} |

@@ -74,7 +74,7 @@ class CombatTickScript(DefaultScript):
         self.check_wimpy(target)
         
     def combat_hit(self, attacker, defender):
-        """One combatant hits another."""
+        """One combatant hits another with armor class mitigation."""
         silence = getattr(attacker.db, 'combat_silence', False)
         
         # Calculate hit chance
@@ -88,7 +88,7 @@ class CombatTickScript(DefaultScript):
                 defender.msg(f"{attacker.key} misses you.")
             return
             
-        # Calculate damage
+        # Calculate base damage
         str_bonus = getattr(attacker.db, 'strength', 50) // 20
         weapon_dmg = getattr(attacker.db, 'weapon_dmg', (1, 5))
         
@@ -98,6 +98,14 @@ class CombatTickScript(DefaultScript):
             dmg_min, dmg_max = 1, 5
             
         damage = random.randint(dmg_min + str_bonus, dmg_max + str_bonus)
+        
+        # Apply armor class mitigation
+        from world.combat import ARMOR_CLASS_RATINGS
+        ac_name = getattr(defender.db, 'ac', 'None')
+        if ac_name in ARMOR_CLASS_RATINGS:
+            mitigation = ARMOR_CLASS_RATINGS[ac_name].get('mitigation', 0)
+            damage = int(damage * (1 - mitigation))
+            damage = max(1, damage)  # Minimum 1 damage
         
         # Apply damage
         if hasattr(defender.db, 'hp'):

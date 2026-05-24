@@ -651,3 +651,29 @@ class CombatCmdSet(CmdSet):
         self.add(CmdDeposit)
         self.add(CmdWithdraw)
         self.add(CmdBalance)
+        # Guild commands (join, train, guilds)
+        from commands.guild import CmdJoinGuild, CmdGuilds, CmdTrain
+        self.add(CmdJoinGuild)
+        self.add(CmdGuilds)
+        self.add(CmdTrain)
+        # Shapeshifter commands
+        from commands.shapeshifter import (
+            CmdShapeShift, CmdReverseTransformation, CmdMigrate,
+            CmdBite, CmdClaw, CmdHerbGathering, CmdMagicalGrowth, CmdScavengeWood
+        )
+        self.add(CmdShapeShift)
+        self.add(CmdReverseTransformation)
+        self.add(CmdMigrate)
+        self.add(CmdBite)
+        self.add(CmdClaw)
+        self.add(CmdHerbGathering)
+        self.add(CmdMagicalGrowth)
+        self.add(CmdScavengeWood)
+        # Reincarnation commands
+        from commands.reincarnation import CmdSacrifice, CmdReincarnate
+        self.add(CmdSacrifice)
+        self.add(CmdReincarnate)
+        # Task points commands
+        from commands.taskpoints import CmdWish, CmdTaskPoints
+        self.add(CmdWish)
+        self.add(CmdTaskPoints)

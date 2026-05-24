@@ -1,0 +1,466 @@
+2026-05-17 23:12:13 [..] Loaded.
+2026-05-17 23:12:10 [..] Loading /root/evennia_venv/lib/python3.12/site-packages/evennia/server/server.py...
+2026-05-17 23:12:13 [EE] Could not find file-help module world.help_entries (skipping).
+2026-05-17 23:12:13 [..] Loaded.
+2026-05-17 23:12:13 [..] twistd 24.11.0 (/root/evennia_venv/bin/python3 3.12.3) starting up.
+2026-05-17 23:12:13 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-05-17 23:12:13 [EE] Traceback (most recent call last):
+2026-05-17 23:12:13 [EE]   File "/root/evennia_venv/bin/twistd", line 8, in <module>
+2026-05-17 23:12:13 [EE]     sys.exit(run())
+2026-05-17 23:12:13 [EE]              ^^^^^
+2026-05-17 23:12:13 [EE]   File "/root/evennia_venv/lib/python3.12/site-packages/twisted/scripts/twistd.py", line 35, in run
+2026-05-17 23:12:13 [EE]     app.run(runApp, ServerOptions)
+2026-05-17 23:12:13 [EE]   File "/root/evennia_venv/lib/python3.12/site-packages/twisted/application/app.py", line 673, in run
+2026-05-17 23:12:13 [EE]     runApp(config)
+2026-05-17 23:12:13 [EE]   File "/root/evennia_venv/lib/python3.12/site-packages/twisted/scripts/twistd.py", line 29, in runApp
+2026-05-17 23:12:13 [EE]     runner.run()
+2026-05-17 23:12:13 [EE]   File "/root/evennia_venv/lib/python3.12/site-packages/twisted/application/app.py", line 374, in run
+2026-05-17 23:12:13 [EE]     self.postApplication()
+2026-05-17 23:12:13 [EE]   File "/root/evennia_venv/lib/python3.12/site-packages/twisted/scripts/_twistd_unix.py", line 254, in postApplication
+2026-05-17 23:12:13 [EE]     self.startApplication(self.application)
+2026-05-17 23:12:13 [EE]   File "/root/evennia_venv/lib/python3.12/site-packages/twisted/scripts/_twistd_unix.py", line 444, in startApplication
+2026-05-17 23:12:13 [EE]     service.IService(application).privilegedStartService()
+2026-05-17 23:12:13 [EE]   File "/root/evennia_venv/lib/python3.12/site-packages/twisted/application/service.py", line 271, in privilegedStartService
+2026-05-17 23:12:13 [EE]     service.privilegedStartService()
+2026-05-17 23:12:13 [EE]   File "/root/evennia_venv/lib/python3.12/site-packages/evennia/server/service.py", line 160, in privilegedStartService
+2026-05-17 23:12:13 [EE]     self.register_webserver()
+2026-05-17 23:12:13 [EE]   File "/root/evennia_venv/lib/python3.12/site-packages/evennia/server/service.py", line 258, in register_webserver
+2026-05-17 23:12:13 [EE]     web_root = WEB_PLUGINS_MODULE.at_webserver_root_creation(web_root)
+2026-05-17 23:12:13 [EE]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-05-17 23:12:13 [EE] AttributeError: module 'server.conf.web_plugins' has no attribute 'at_webserver_root_creation'
+2026-05-17 23:14:15 [..] Loaded.
+2026-05-17 23:14:12 [..] Loading /root/evennia_venv/lib/python3.12/site-packages/evennia/server/server.py...
+2026-05-17 23:14:15 [EE] Could not find file-help module world.help_entries (skipping).
+2026-05-17 23:14:15 [..] Loaded.
+2026-05-17 23:14:15 [..] twistd 24.11.0 (/root/evennia_venv/bin/python3 3.12.3) starting up.
+2026-05-17 23:14:15 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-05-17 23:14:15 [..] Webserver starting on 8001
+2026-05-17 23:14:15 [..] Initial setup: Creating objects (Account #1 and Limbo room) ...
+2026-05-17 23:14:15 [SS] Character Created: darkstaff (Caller: darkstaff(account 1), IP: None).
+2026-05-17 23:14:16 [..] Initial setup: Running at_initial_setup() hook.
+2026-05-17 23:14:16 [..] Darkstaff MUD - Initial World Setup...
+2026-05-17 23:14:16 [..] Traceback (most recent call last):
+2026-05-17 23:14:16 [..]   File "/root/evennia_venv/lib/python3.12/site-packages/evennia/server/service.py", line 396, in run_initial_setup
+2026-05-17 23:14:16 [..]     initial_setup.handle_setup()
+2026-05-17 23:14:16 [..]   File "/root/evennia_venv/lib/python3.12/site-packages/evennia/server/initial_setup.py", line 217, in handle_setup
+2026-05-17 23:14:16 [..]     setup_sequence[stepname]()
+2026-05-17 23:14:16 [..]   File "/root/evennia_venv/lib/python3.12/site-packages/evennia/server/initial_setup.py", line 154, in at_initial_setup
+2026-05-17 23:14:16 [..]     mod.at_initial_setup()
+2026-05-17 23:14:16 [..]   File "/root/.openclaw/workspace/reddragon/server/conf/at_initial_setup.py", line 16, in at_initial_setup
+2026-05-17 23:14:16 [..]     from world.builder import build_world
+2026-05-17 23:14:16 [..]   File "/root/.openclaw/workspace/reddragon/world/builder.py", line 6, in <module>
+2026-05-17 23:14:16 [..]     from world.ilium import create_ilium_adventurers_guild
+2026-05-17 23:14:16 [..]   File "/root/.openclaw/workspace/reddragon/world/ilium.py", line 8, in <module>
+2026-05-17 23:14:16 [..]     from typeclasses.rooms import Room, GuildRoom, ShopRoom
+2026-05-17 23:14:16 [..] ImportError: cannot import name 'GuildRoom' from 'typeclasses.rooms' (/root/.openclaw/workspace/reddragon/typeclasses/rooms.py)
+None2026-05-17 23:14:16 [..] Error in initial setup. Stopping Server + Portal.
+2026-05-17 23:14:16 [..] Evennia Server successfully started.
+2026-05-17 23:14:17 [..] Server disconnected from the portal.
+2026-05-17 23:14:17 [..] Main loop terminated.
+2026-05-17 23:14:17 [..] Server Shut Down.
+2026-05-17 23:17:52 [..] Loaded.
+2026-05-17 23:17:49 [..] Loading /root/evennia_venv/lib/python3.12/site-packages/evennia/server/server.py...
+2026-05-17 23:17:52 [EE] Could not find file-help module world.help_entries (skipping).
+2026-05-17 23:17:52 [..] Loaded.
+2026-05-17 23:17:52 [..] twistd 24.11.0 (/root/evennia_venv/bin/python3 3.12.3) starting up.
+2026-05-17 23:17:52 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-05-17 23:17:52 [..] Webserver starting on 8001
+2026-05-17 23:17:52 [..] Initial setup: Creating objects (Account #1 and Limbo room) ...
+2026-05-17 23:17:52 [SS] Character Created: darkstaff (Caller: darkstaff(account 1), IP: None).
+2026-05-17 23:17:52 [..] Initial setup: Running at_initial_setup() hook.
+2026-05-17 23:17:52 [..] Darkstaff MUD - Initial setup complete. World will be built on first server start.
+2026-05-17 23:17:52 [..] Initial setup: Gathering static resources using 'collectstatic'
+None2026-05-17 23:17:52 [..] 0 static files copied to '/root/.openclaw/workspace/reddragon/server/.static', 200 unmodified.
+2026-05-17 23:17:52 [..] Initial setup complete. Restarting Server once.
+2026-05-17 23:17:53 [..] Evennia Server successfully started.
+2026-05-17 23:17:53 [..] Darkstaff MUD - Building world for the first time...
+2026-05-17 23:17:53 [..] Building Red Dragon world...
+2026-05-17 23:17:53 [EE] AMP caught exception (Cannot assign "'Adventurer Guild Entrance'": "Room.db_home" must be a "ObjectDB" instance. (error logged on other side)):
+2026-05-17 23:17:53 [EE] Code<EXCEPTION> (local): Cannot assign "'Adventurer Guild Entrance'": "Room.db_home" must be a "ObjectDB" instance.
+2026-05-17 23:17:53 [EE] Traceback: <class 'ValueError'>: Cannot assign "'Adventurer Guild Entrance'": "Room.db_home" must be a "ObjectDB" instance.
+2026-05-17 23:17:53 [EE] /root/evennia_venv/lib/python3.12/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-05-17 23:17:53 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/server/amp_client.py:233:server_receive_adminportal2server
+2026-05-17 23:17:53 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/server/service.py:483:run_init_hooks
+2026-05-17 23:17:53 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/server/service.py:618:at_server_start
+2026-05-17 23:17:53 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/server/service.py:604:_call_start_stop
+2026-05-17 23:17:53 [EE] /root/.openclaw/workspace/reddragon/server/conf/at_server_startstop.py:14:at_server_start
+2026-05-17 23:17:53 [EE] /root/.openclaw/workspace/reddragon/world/builder.py:26:build_world
+2026-05-17 23:17:53 [EE] /root/.openclaw/workspace/reddragon/world/ilium.py:34:create_ilium_adventurers_guild
+2026-05-17 23:17:53 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/utils/create.py:117:create_object
+2026-05-17 23:17:53 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/objects/manager.py:708:create_object
+2026-05-17 23:17:53 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/utils/idmapper/models.py:71:__call__
+2026-05-17 23:17:53 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/utils/idmapper/models.py:65:new_instance
+2026-05-17 23:17:53 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/typeclasses/models.py:343:__init__
+2026-05-17 23:17:53 [EE] /root/evennia_venv/lib/python3.12/site-packages/django/db/models/base.py:566:__init__
+2026-05-17 23:17:53 [EE] /root/evennia_venv/lib/python3.12/site-packages/django/db/models/fields/related_descriptors.py:287:__set__
+2026-05-17 23:17:54 [..] Server disconnected from the portal.
+2026-05-17 23:17:54 [..] Main loop terminated.
+2026-05-17 23:17:54 [..] Server Shut Down.
+2026-05-17 23:17:57 [..] Loaded.
+2026-05-17 23:17:54 [..] Loading /root/evennia_venv/lib/python3.12/site-packages/evennia/server/server.py...
+2026-05-17 23:17:57 [EE] Could not find file-help module world.help_entries (skipping).
+2026-05-17 23:17:57 [..] Loaded.
+2026-05-17 23:17:57 [..] twistd 24.11.0 (/root/evennia_venv/bin/python3 3.12.3) starting up.
+2026-05-17 23:17:57 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-05-17 23:17:57 [..] Webserver starting on 8001
+2026-05-17 23:17:57 [..] Evennia Server successfully restarted in 'reset' mode.
+2026-05-17 23:17:57 [..] Darkstaff MUD - Building world for the first time...
+2026-05-17 23:17:57 [..] Building Red Dragon world...
+2026-05-17 23:17:57 [EE] AMP caught exception (Cannot assign "'Adventurer Guild Entrance'": "Room.db_home" must be a "ObjectDB" instance. (error logged on other side)):
+2026-05-17 23:17:57 [EE] Code<EXCEPTION> (local): Cannot assign "'Adventurer Guild Entrance'": "Room.db_home" must be a "ObjectDB" instance.
+2026-05-17 23:17:57 [EE] Traceback: <class 'ValueError'>: Cannot assign "'Adventurer Guild Entrance'": "Room.db_home" must be a "ObjectDB" instance.
+2026-05-17 23:17:57 [EE] /root/evennia_venv/lib/python3.12/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-05-17 23:17:57 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/server/amp_client.py:233:server_receive_adminportal2server
+2026-05-17 23:17:57 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/server/service.py:483:run_init_hooks
+2026-05-17 23:17:57 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/server/service.py:618:at_server_start
+2026-05-17 23:17:57 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/server/service.py:604:_call_start_stop
+2026-05-17 23:17:57 [EE] /root/.openclaw/workspace/reddragon/server/conf/at_server_startstop.py:14:at_server_start
+2026-05-17 23:17:57 [EE] /root/.openclaw/workspace/reddragon/world/builder.py:26:build_world
+2026-05-17 23:17:57 [EE] /root/.openclaw/workspace/reddragon/world/ilium.py:34:create_ilium_adventurers_guild
+2026-05-17 23:17:57 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/utils/create.py:117:create_object
+2026-05-17 23:17:57 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/objects/manager.py:708:create_object
+2026-05-17 23:17:57 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/utils/idmapper/models.py:71:__call__
+2026-05-17 23:17:57 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/utils/idmapper/models.py:65:new_instance
+2026-05-17 23:17:57 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/typeclasses/models.py:343:__init__
+2026-05-17 23:17:57 [EE] /root/evennia_venv/lib/python3.12/site-packages/django/db/models/base.py:566:__init__
+2026-05-17 23:17:57 [EE] /root/evennia_venv/lib/python3.12/site-packages/django/db/models/fields/related_descriptors.py:287:__set__
+2026-05-17 23:18:38 [..] Server disconnected from the portal.
+2026-05-17 23:18:38 [..] Main loop terminated.
+2026-05-17 23:18:38 [..] Server Shut Down.
+2026-05-17 23:19:34 [..] Loaded.
+2026-05-17 23:19:31 [..] Loading /root/evennia_venv/lib/python3.12/site-packages/evennia/server/server.py...
+2026-05-17 23:19:34 [EE] Could not find file-help module world.help_entries (skipping).
+2026-05-17 23:19:34 [..] Loaded.
+2026-05-17 23:19:34 [..] twistd 24.11.0 (/root/evennia_venv/bin/python3 3.12.3) starting up.
+2026-05-17 23:19:34 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-05-17 23:19:34 [..] Webserver starting on 8001
+2026-05-17 23:19:34 [..] Initial setup: Creating objects (Account #1 and Limbo room) ...
+2026-05-17 23:19:34 [SS] Character Created: darkstaff (Caller: darkstaff(account 1), IP: None).
+2026-05-17 23:19:34 [..] Initial setup: Running at_initial_setup() hook.
+2026-05-17 23:19:34 [..] Darkstaff MUD - Initial setup complete. World will be built on first server start.
+2026-05-17 23:19:34 [..] Initial setup: Gathering static resources using 'collectstatic'
+None2026-05-17 23:19:34 [..] 0 static files copied to '/root/.openclaw/workspace/reddragon/server/.static', 200 unmodified.
+2026-05-17 23:19:34 [..] Initial setup complete. Restarting Server once.
+2026-05-17 23:19:34 [..] Evennia Server successfully started.
+2026-05-17 23:19:34 [..] Darkstaff MUD - Building world for the first time...
+2026-05-17 23:19:34 [..] Building Red Dragon world...
+2026-05-17 23:19:36 [EE] AMP caught exception (object of type 'Room' has no len() (error logged on other side)):
+2026-05-17 23:19:36 [EE] Code<EXCEPTION> (local): object of type 'Room' has no len()
+2026-05-17 23:19:36 [EE] Traceback: <class 'TypeError'>: object of type 'Room' has no len()
+2026-05-17 23:19:36 [EE] /root/evennia_venv/lib/python3.12/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-05-17 23:19:36 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/server/amp_client.py:233:server_receive_adminportal2server
+2026-05-17 23:19:36 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/server/service.py:483:run_init_hooks
+2026-05-17 23:19:36 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/server/service.py:618:at_server_start
+2026-05-17 23:19:36 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/server/service.py:604:_call_start_stop
+2026-05-17 23:19:36 [EE] /root/.openclaw/workspace/reddragon/server/conf/at_server_startstop.py:14:at_server_start
+2026-05-17 23:19:36 [EE] /root/.openclaw/workspace/reddragon/world/builder.py:27:build_world
+2026-05-17 23:19:37 [..] Server disconnected from the portal.
+2026-05-17 23:19:37 [..] Main loop terminated.
+2026-05-17 23:19:37 [..] Server Shut Down.
+2026-05-17 23:19:41 [..] Loaded.
+2026-05-17 23:19:38 [..] Loading /root/evennia_venv/lib/python3.12/site-packages/evennia/server/server.py...
+2026-05-17 23:19:41 [EE] Could not find file-help module world.help_entries (skipping).
+2026-05-17 23:19:41 [..] Loaded.
+2026-05-17 23:19:41 [..] twistd 24.11.0 (/root/evennia_venv/bin/python3 3.12.3) starting up.
+2026-05-17 23:19:41 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-05-17 23:19:41 [..] Webserver starting on 8001
+2026-05-17 23:19:41 [..] Evennia Server successfully restarted in 'reset' mode.
+2026-05-17 23:19:41 [..] Darkstaff MUD - World already exists, skipping build.
+2026-05-17 23:20:37 [..] Server disconnected from the portal.
+2026-05-17 23:20:37 [..] Main loop terminated.
+2026-05-17 23:20:37 [..] Server Shut Down.
+2026-05-17 23:21:09 [..] Loaded.
+2026-05-17 23:21:06 [..] Loading /root/evennia_venv/lib/python3.12/site-packages/evennia/server/server.py...
+2026-05-17 23:21:09 [EE] Could not find file-help module world.help_entries (skipping).
+2026-05-17 23:21:09 [..] Loaded.
+2026-05-17 23:21:09 [..] twistd 24.11.0 (/root/evennia_venv/bin/python3 3.12.3) starting up.
+2026-05-17 23:21:09 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-05-17 23:21:09 [..] Webserver starting on 8001
+2026-05-17 23:21:09 [..] Initial setup: Creating objects (Account #1 and Limbo room) ...
+2026-05-17 23:21:10 [SS] Character Created: darkstaff (Caller: darkstaff(account 1), IP: None).
+2026-05-17 23:21:10 [..] Initial setup: Running at_initial_setup() hook.
+2026-05-17 23:21:10 [..] Darkstaff MUD - Initial setup complete. World will be built on first server start.
+2026-05-17 23:21:10 [..] Initial setup: Gathering static resources using 'collectstatic'
+None2026-05-17 23:21:10 [..] 0 static files copied to '/root/.openclaw/workspace/reddragon/server/.static', 200 unmodified.
+2026-05-17 23:21:10 [..] Initial setup complete. Restarting Server once.
+2026-05-17 23:21:10 [..] Evennia Server successfully started.
+2026-05-17 23:21:10 [..] Darkstaff MUD - Building world for the first time...
+2026-05-17 23:21:10 [..] Building Red Dragon world...
+2026-05-17 23:21:12 [..] Created Ilium City: 1 rooms
+2026-05-17 23:21:14 [..] Created Yensid Land: 1 rooms
+2026-05-17 23:21:15 [..] Created 18 newbie areas
+2026-05-17 23:21:15 [..] Created Detention Facility
+2026-05-17 23:21:15 [..] Red Dragon world build complete!
+2026-05-17 23:21:15 [..] Darkstaff MUD - World building complete!
+2026-05-17 23:21:16 [..] Server disconnected from the portal.
+2026-05-17 23:21:16 [..] Main loop terminated.
+2026-05-17 23:21:16 [..] Server Shut Down.
+2026-05-17 23:21:19 [..] Loaded.
+2026-05-17 23:21:17 [..] Loading /root/evennia_venv/lib/python3.12/site-packages/evennia/server/server.py...
+2026-05-17 23:21:19 [EE] Could not find file-help module world.help_entries (skipping).
+2026-05-17 23:21:19 [..] Loaded.
+2026-05-17 23:21:19 [..] twistd 24.11.0 (/root/evennia_venv/bin/python3 3.12.3) starting up.
+2026-05-17 23:21:19 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-05-17 23:21:19 [..] Webserver starting on 8001
+2026-05-17 23:21:20 [..] Evennia Server successfully restarted in 'reset' mode.
+2026-05-17 23:21:20 [..] Darkstaff MUD - World already exists, skipping build.
+2026-05-17 23:22:35 [!!] Traceback (most recent call last):
+2026-05-17 23:22:35 [!!]   File "/root/evennia_venv/lib/python3.12/site-packages/evennia/commands/cmdsethandler.py", line 186, in import_cmdset
+2026-05-17 23:22:35 [!!]     raise exc.with_traceback(tb)
+2026-05-17 23:22:35 [!!]   File "/root/evennia_venv/lib/python3.12/site-packages/evennia/commands/cmdsethandler.py", line 181, in import_cmdset
+2026-05-17 23:22:35 [!!]     module = import_module(modpath, package="evennia")
+2026-05-17 23:22:35 [!!]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-05-17 23:22:35 [!!]   File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+2026-05-17 23:22:35 [!!]     return _bootstrap._gcd_import(name[level:], package, level)
+2026-05-17 23:22:35 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-05-17 23:22:35 [!!]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2026-05-17 23:22:35 [!!]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2026-05-17 23:22:35 [!!]   File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+2026-05-17 23:22:35 [!!] ModuleNotFoundError: No module named 'commands.default_cmdsets'
+2026-05-17 23:22:35 [EE] Traceback (most recent call last):
+2026-05-17 23:22:35 [EE]   File "/root/evennia_venv/lib/python3.12/site-packages/evennia/commands/cmdsethandler.py", line 186, in import_cmdset
+2026-05-17 23:22:35 [EE]     raise exc.with_traceback(tb)
+2026-05-17 23:22:35 [EE]   File "/root/evennia_venv/lib/python3.12/site-packages/evennia/commands/cmdsethandler.py", line 181, in import_cmdset
+2026-05-17 23:22:35 [EE]     module = import_module(modpath, package="evennia")
+2026-05-17 23:22:35 [EE]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-05-17 23:22:35 [EE]   File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+2026-05-17 23:22:35 [EE]     return _bootstrap._gcd_import(name[level:], package, level)
+2026-05-17 23:22:35 [EE]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-05-17 23:22:35 [EE]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2026-05-17 23:22:35 [EE]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2026-05-17 23:22:35 [EE]   File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+2026-05-17 23:22:35 [EE] ModuleNotFoundError: No module named 'commands.default_cmdsets'
+None2026-05-17 23:22:35 [EE] Error loading cmdset 'commands.default_cmdsets.UnloggedinCmdSet'
+2026-05-17 23:22:35 [EE] (Traceback was logged 26-05-17 23:22:35)
+None2026-05-17 23:22:35 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.UnloggedinCmdSet'.
+2026-05-17 23:22:35 [EE] Replacing with fallback 'evennia.commands.default.cmdset_unloggedin.UnloggedinCmdSet'.
+2026-05-17 23:23:03 [..] Server disconnected from the portal.
+2026-05-17 23:23:03 [..] Main loop terminated.
+2026-05-17 23:23:03 [..] Server Shut Down.
+2026-05-17 23:23:06 [..] Loaded.
+2026-05-17 23:23:03 [..] Loading /root/evennia_venv/lib/python3.12/site-packages/evennia/server/server.py...
+2026-05-17 23:23:06 [EE] Could not find file-help module world.help_entries (skipping).
+2026-05-17 23:23:06 [..] Loaded.
+2026-05-17 23:23:06 [..] twistd 24.11.0 (/root/evennia_venv/bin/python3 3.12.3) starting up.
+2026-05-17 23:23:06 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-05-17 23:23:06 [..] Webserver starting on 8001
+2026-05-17 23:23:06 [..] Server successfully reloaded.
+2026-05-17 23:23:06 [..] Darkstaff MUD - World already exists, skipping build.
+2026-05-17 23:23:57 [..] Server disconnected from the portal.
+2026-05-17 23:23:57 [..] Main loop terminated.
+2026-05-17 23:23:57 [..] Server Shut Down.
+2026-05-17 23:24:00 [..] Loaded.
+2026-05-17 23:23:57 [..] Loading /root/evennia_venv/lib/python3.12/site-packages/evennia/server/server.py...
+2026-05-17 23:24:00 [EE] Could not find file-help module world.help_entries (skipping).
+2026-05-17 23:24:00 [..] Loaded.
+2026-05-17 23:24:00 [..] twistd 24.11.0 (/root/evennia_venv/bin/python3 3.12.3) starting up.
+2026-05-17 23:24:00 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-05-17 23:24:00 [..] Webserver starting on 8001
+2026-05-17 23:24:00 [..] Server successfully reloaded.
+2026-05-17 23:24:00 [..] Darkstaff MUD - World already exists, skipping build.
+2026-05-17 23:25:15 [..] Server disconnected from the portal.
+2026-05-17 23:25:15 [..] Main loop terminated.
+2026-05-17 23:25:15 [..] Server Shut Down.
+2026-05-17 23:25:19 [..] Loaded.
+2026-05-17 23:25:16 [..] Loading /root/evennia_venv/lib/python3.12/site-packages/evennia/server/server.py...
+2026-05-17 23:25:19 [EE] Could not find file-help module world.help_entries (skipping).
+2026-05-17 23:25:19 [..] Loaded.
+2026-05-17 23:25:19 [..] twistd 24.11.0 (/root/evennia_venv/bin/python3 3.12.3) starting up.
+2026-05-17 23:25:19 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-05-17 23:25:19 [..] Webserver starting on 8001
+2026-05-17 23:25:19 [..] Server successfully reloaded.
+2026-05-17 23:25:19 [..] Darkstaff MUD - World already exists, skipping build.
+2026-05-17 23:26:03 [SS] Password successfully changed for testchar2(account None).
+2026-05-17 23:26:03 [SS] Account Created: testchar2(account 2) (IP: 127.0.0.1).
+2026-05-17 23:26:03 [WW] db_location direct save triggered contents_cache.init() for all objects!
+2026-05-17 23:26:03 [SS] Character Created: testchar2 (Caller: testchar2(account 2), IP: 127.0.0.1).
+2026-05-17 23:26:10 [SS] Authentication Success: testchar2(account 2) (IP: 127.0.0.1).
+2026-05-17 23:26:10 [!!] Traceback (most recent call last):
+2026-05-17 23:26:10 [!!]   File "/root/evennia_venv/lib/python3.12/site-packages/evennia/commands/cmdsethandler.py", line 186, in import_cmdset
+2026-05-17 23:26:10 [!!]     raise exc.with_traceback(tb)
+2026-05-17 23:26:10 [!!]   File "/root/evennia_venv/lib/python3.12/site-packages/evennia/commands/cmdsethandler.py", line 181, in import_cmdset
+2026-05-17 23:26:10 [!!]     module = import_module(modpath, package="evennia")
+2026-05-17 23:26:10 [!!]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-05-17 23:26:10 [!!]   File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+2026-05-17 23:26:10 [!!]     return _bootstrap._gcd_import(name[level:], package, level)
+2026-05-17 23:26:10 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-05-17 23:26:10 [!!]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2026-05-17 23:26:10 [!!]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2026-05-17 23:26:10 [!!]   File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+2026-05-17 23:26:10 [!!] ModuleNotFoundError: No module named 'evennia.commands.default_cmdsets'
+2026-05-17 23:26:10 [EE] (Unsuccessfully tried 'commands.default_cmdsets.SessionCmdSet').Traceback (most recent call last):
+2026-05-17 23:26:10 [EE]   File "/root/evennia_venv/lib/python3.12/site-packages/evennia/commands/cmdsethandler.py", line 186, in import_cmdset
+2026-05-17 23:26:10 [EE]     raise exc.with_traceback(tb)
+2026-05-17 23:26:10 [EE]   File "/root/evennia_venv/lib/python3.12/site-packages/evennia/commands/cmdsethandler.py", line 181, in import_cmdset
+2026-05-17 23:26:10 [EE]     module = import_module(modpath, package="evennia")
+2026-05-17 23:26:10 [EE]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-05-17 23:26:10 [EE]   File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+2026-05-17 23:26:10 [EE]     return _bootstrap._gcd_import(name[level:], package, level)
+2026-05-17 23:26:10 [EE]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-05-17 23:26:10 [EE]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2026-05-17 23:26:10 [EE]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2026-05-17 23:26:10 [EE]   File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+2026-05-17 23:26:10 [EE] ModuleNotFoundError: No module named 'evennia.commands.default_cmdsets'
+None2026-05-17 23:26:10 [EE] Error loading cmdset 'evennia.commands.default_cmdsets.SessionCmdSet'
+2026-05-17 23:26:10 [EE] (Traceback was logged 26-05-17 23:26:10)
+None2026-05-17 23:26:10 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.SessionCmdSet'.
+2026-05-17 23:26:10 [EE] Replacing with fallback 'evennia.commands.default.cmdset_session.SessionCmdSet'.
+2026-05-17 23:26:10 [..] Logged in: testchar2(account 2) 127.0.0.1 (1 session(s) total)
+2026-05-17 23:26:10 [!!] Traceback (most recent call last):
+2026-05-17 23:26:10 [!!]   File "/root/evennia_venv/lib/python3.12/site-packages/evennia/commands/cmdhandler.py", line 629, in _run_command
+2026-05-17 23:26:10 [!!]     ret = cmd.func()
+2026-05-17 23:26:10 [!!]           ^^^^^^^^^^
+2026-05-17 23:26:10 [!!]   File "/root/evennia_venv/lib/python3.12/site-packages/evennia/commands/default/unloggedin.py", line 153, in func
+2026-05-17 23:26:10 [!!]     session.sessionhandler.login(session, account)
+2026-05-17 23:26:10 [!!]   File "/root/evennia_venv/lib/python3.12/site-packages/evennia/server/sessionhandler.py", line 550, in login
+2026-05-17 23:26:10 [!!]     account.at_post_login(session=session)
+2026-05-17 23:26:10 [!!]   File "/root/.openclaw/workspace/reddragon/typeclasses/accounts.py", line 38, in at_post_login
+2026-05-17 23:26:10 [!!]     super().at_post_login(session=session, **kwargs)
+2026-05-17 23:26:10 [!!]   File "/root/evennia_venv/lib/python3.12/site-packages/evennia/accounts/accounts.py", line 1738, in at_post_login
+2026-05-17 23:26:10 [!!]     self.puppet_object(session, self.db._last_puppet)
+2026-05-17 23:26:10 [!!]   File "/root/evennia_venv/lib/python3.12/site-packages/evennia/accounts/accounts.py", line 541, in puppet_object
+2026-05-17 23:26:10 [!!]     obj.at_pre_puppet(self, session=session)
+2026-05-17 23:26:10 [!!] TypeError: Character.at_pre_puppet() takes 1 positional argument but 2 were given
+2026-05-17 23:26:10 [EE] User input was: 'connect testchar2 ***********
+2026-05-17 23:26:10 [EE] '.
+2026-05-17 23:26:11 [..] Logged out: testchar2(account 2) 127.0.0.1 (0 sessions(s) remaining)
+2026-05-17 23:26:11 [EE] AMP caught exception (Account.at_disconnect() takes 1 positional argument but 2 were given (error logged on other side)):
+2026-05-17 23:26:11 [EE] Code<EXCEPTION> (local): Account.at_disconnect() takes 1 positional argument but 2 were given
+2026-05-17 23:26:11 [EE] Traceback: <class 'TypeError'>: Account.at_disconnect() takes 1 positional argument but 2 were given
+2026-05-17 23:26:11 [EE] /root/evennia_venv/lib/python3.12/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-05-17 23:26:11 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/server/amp_client.py:223:server_receive_adminportal2server
+2026-05-17 23:26:11 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/server/sessionhandler.py:431:portal_disconnect
+2026-05-17 23:26:11 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/server/sessionhandler.py:585:disconnect
+2026-05-17 23:26:11 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/server/serversession.py:165:at_disconnect
+2026-05-17 23:26:45 [..] Server disconnected from the portal.
+2026-05-17 23:26:45 [..] Main loop terminated.
+2026-05-17 23:26:45 [..] Server Shut Down.
+2026-05-17 23:26:49 [..] Loaded.
+2026-05-17 23:26:46 [..] Loading /root/evennia_venv/lib/python3.12/site-packages/evennia/server/server.py...
+2026-05-17 23:26:49 [EE] Could not find file-help module world.help_entries (skipping).
+2026-05-17 23:26:49 [..] Loaded.
+2026-05-17 23:26:49 [..] twistd 24.11.0 (/root/evennia_venv/bin/python3 3.12.3) starting up.
+2026-05-17 23:26:49 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-05-17 23:26:49 [..] Webserver starting on 8001
+2026-05-17 23:26:49 [..] Server successfully reloaded.
+2026-05-17 23:26:49 [..] Darkstaff MUD - World already exists, skipping build.
+2026-05-17 23:29:19 [SS] Authentication Success: testchar2(account 2) (IP: 127.0.0.1).
+2026-05-17 23:29:19 [..] Logged in: testchar2(account 2) 127.0.0.1 (1 session(s) total)
+2026-05-17 23:29:20 [..] Logged out: testchar2(account 2) 127.0.0.1 (0 sessions(s) remaining)
+2026-05-17 23:29:20 [EE] AMP caught exception (Account.at_disconnect() takes 1 positional argument but 2 were given (error logged on other side)):
+2026-05-17 23:29:20 [EE] Code<EXCEPTION> (local): Account.at_disconnect() takes 1 positional argument but 2 were given
+2026-05-17 23:29:20 [EE] Traceback: <class 'TypeError'>: Account.at_disconnect() takes 1 positional argument but 2 were given
+2026-05-17 23:29:20 [EE] /root/evennia_venv/lib/python3.12/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-05-17 23:29:20 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/server/amp_client.py:223:server_receive_adminportal2server
+2026-05-17 23:29:20 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/server/sessionhandler.py:431:portal_disconnect
+2026-05-17 23:29:20 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/server/sessionhandler.py:585:disconnect
+2026-05-17 23:29:20 [EE] /root/evennia_venv/lib/python3.12/site-packages/evennia/server/serversession.py:165:at_disconnect
+2026-05-18 00:29:49 [..] Logged out: testchar2(account 2) 127.0.0.1 (0 sessions(s) remaining) (idle timeout exceeded)
+2026-05-18 00:29:49 [!!] Unhandled error in Deferred:
+2026-05-18 00:29:49 [!!] 
+	Traceback (most recent call last):
+	  File "/root/evennia_venv/lib/python3.12/site-packages/twisted/internet/defer.py", line 216, in maybeDeferred
+	    result = f(*args, **kwargs)
+	  File "/root/evennia_venv/lib/python3.12/site-packages/evennia/server/service.py", line 112, in server_maintenance
+	    self.process_idle_timeouts()
+	  File "/root/evennia_venv/lib/python3.12/site-packages/evennia/server/service.py", line 145, in process_idle_timeouts
+	    evennia.SESSION_HANDLER.disconnect(session, reason=reason)
+	  File "/root/evennia_venv/lib/python3.12/site-packages/evennia/server/sessionhandler.py", line 585, in disconnect
+	    session.at_disconnect(reason)
+	  File "/root/evennia_venv/lib/python3.12/site-packages/evennia/server/serversession.py", line 165, in at_disconnect
+	    account.at_disconnect(reason)
+	builtins.TypeError: Account.at_disconnect() takes 1 positional argument but 2 were given
+	
+2026-05-20 20:59:33 [..] Received SIGTERM, shutting down.
+2026-05-20 20:59:33 [..] Server disconnected from the portal.
+2026-05-20 20:59:33 [..] Main loop terminated.
+2026-05-20 20:59:33 [..] Server Shut Down.
+2026-05-20 21:21:34 [..] Loaded.
+2026-05-20 21:21:31 [..] Loading /root/evennia_venv/lib/python3.12/site-packages/evennia/server/server.py...
+2026-05-20 21:21:34 [EE] Could not find file-help module world.help_entries (skipping).
+2026-05-20 21:21:34 [..] Loaded.
+2026-05-20 21:21:34 [..] twistd 24.11.0 (/root/evennia_venv/bin/python3 3.12.3) starting up.
+2026-05-20 21:21:34 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-05-20 21:21:34 [..] Webserver starting on 8001
+2026-05-20 21:21:34 [..] Evennia Server successfully started.
+2026-05-20 21:21:34 [..] Darkstaff MUD - World already exists, skipping build.
+2026-05-22 14:52:50 [..] Received SIGTERM, shutting down.
+2026-05-22 14:52:50 [..] Server disconnected from the portal.
+2026-05-22 14:52:50 [..] Main loop terminated.
+2026-05-22 14:52:50 [..] Server Shut Down.
+2026-05-24 19:10:24 [..] Loaded.
+2026-05-24 19:10:22 [..] Loading /root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/server/server.py...
+2026-05-24 19:10:24 [EE] Could not find file-help module world.help_entries (skipping).
+2026-05-24 19:10:24 [..] Loaded.
+2026-05-24 19:10:24 [..] twistd 24.11.0 (/root/.openclaw/workspace/mud/evenv/bin/python3 3.12.3) starting up.
+2026-05-24 19:10:24 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-05-24 19:10:25 [..] Webserver starting on 8001
+2026-05-24 19:10:25 [..] Evennia Server successfully started.
+2026-05-24 19:10:25 [..] Darkstaff MUD - World already exists, skipping build.
+2026-05-24 19:10:25 [..] Darkstaff MUD - Hunger tick started.
+2026-05-24 19:10:25 [..] Darkstaff MUD - Bots channel ready.
+2026-05-24 20:04:10 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-05-24 20:07:24 [EE] Internal Server Error: /webclient/
+2026-05-24 20:07:24 [EE] Traceback (most recent call last):
+2026-05-24 20:07:24 [EE]   File "/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+2026-05-24 20:07:24 [EE]     response = get_response(request)
+2026-05-24 20:07:24 [EE]                ^^^^^^^^^^^^^^^^^^^^^
+2026-05-24 20:07:24 [EE]   File "/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/django/core/handlers/base.py", line 198, in _get_response
+2026-05-24 20:07:24 [EE]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+2026-05-24 20:07:24 [EE]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-05-24 20:07:24 [EE]   File "/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/web/webclient/views.py", line 30, in webclient
+2026-05-24 20:07:24 [EE]     return render(request, "webclient.html", pagevars)
+2026-05-24 20:07:24 [EE]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-05-24 20:07:24 [EE]   File "/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+2026-05-24 20:07:24 [EE]     content = loader.render_to_string(template_name, context, request, using=using)
+2026-05-24 20:07:24 [EE]               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-05-24 20:07:24 [EE]   File "/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+2026-05-24 20:07:24 [EE]     template = get_template(template_name, using=using)
+2026-05-24 20:07:24 [EE]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-05-24 20:07:24 [EE]   File "/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+2026-05-24 20:07:24 [EE]     raise TemplateDoesNotExist(template_name, chain=chain)
+2026-05-24 20:07:24 [EE] django.template.exceptions.TemplateDoesNotExist: webclient.html
+2026-05-24 20:09:04 [..] Server disconnected from the portal.
+2026-05-24 20:09:04 [..] Main loop terminated.
+2026-05-24 20:09:04 [..] Server Shut Down.
+2026-05-24 20:10:33 [..] Loaded.
+2026-05-24 20:10:30 [..] Loading /root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/server/server.py...
+2026-05-24 20:10:33 [EE] Could not find file-help module world.help_entries (skipping).
+2026-05-24 20:10:33 [..] Loaded.
+2026-05-24 20:10:33 [..] twistd 24.11.0 (/root/.openclaw/workspace/mud/evenv/bin/python3 3.12.3) starting up.
+2026-05-24 20:10:33 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-05-24 20:10:33 [..] Webserver starting on 8001
+2026-05-24 20:10:33 [..] Evennia Server successfully started.
+2026-05-24 20:10:33 [..] Darkstaff MUD - World already exists, skipping build.
+2026-05-24 20:10:33 [..] Darkstaff MUD - Hunger tick started.
+2026-05-24 20:10:33 [..] Darkstaff MUD - Bots channel ready.
+2026-05-24 20:27:02 [!!] Traceback (most recent call last):
+2026-05-24 20:27:02 [!!]   File "/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/commands/cmdhandler.py", line 629, in _run_command
+2026-05-24 20:27:02 [!!]     ret = cmd.func()
+2026-05-24 20:27:02 [!!]           ^^^^^^^^^^
+2026-05-24 20:27:02 [!!]   File "/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/commands/default/unloggedin.py", line 293, in func
+2026-05-24 20:27:02 [!!]     connection_screen = utils.random_string_from_module(CONNECTION_SCREEN_MODULE)
+2026-05-24 20:27:02 [!!]                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-05-24 20:27:02 [!!]   File "/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/utils/utils.py", line 1575, in random_string_from_module
+2026-05-24 20:27:02 [!!]     return random.choice(string_from_module(module))
+2026-05-24 20:27:02 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-05-24 20:27:02 [!!]   File "/usr/lib/python3.12/random.py", line 346, in choice
+2026-05-24 20:27:02 [!!]     if not len(seq):
+2026-05-24 20:27:02 [!!]            ^^^^^^^^
+2026-05-24 20:27:02 [!!] TypeError: object of type 'NoneType' has no len()
+2026-05-24 20:27:02 [EE] User input was: 'look'.
+2026-05-24 20:27:45 [..] Server disconnected from the portal.
+2026-05-24 20:27:45 [..] Main loop terminated.
+2026-05-24 20:27:45 [..] Server Shut Down.
+2026-05-24 20:28:00 [..] Loaded.
+2026-05-24 20:27:57 [..] Loading /root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/server/server.py...
+2026-05-24 20:28:00 [EE] Could not find file-help module world.help_entries (skipping).
+2026-05-24 20:28:00 [..] Loaded.
+2026-05-24 20:28:00 [..] twistd 24.11.0 (/root/.openclaw/workspace/mud/evenv/bin/python3 3.12.3) starting up.
+2026-05-24 20:28:00 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-05-24 20:28:00 [..] Webserver starting on 8001
+2026-05-24 20:28:00 [..] Evennia Server successfully started.
+2026-05-24 20:28:00 [..] Darkstaff MUD - World already exists, skipping build.
+2026-05-24 20:28:00 [..] Darkstaff MUD - Hunger tick started.
+2026-05-24 20:28:00 [..] Darkstaff MUD - Bots channel ready.
+2026-05-24 20:37:00 [WW] Warning: Idmapper flush called more than once in 5.0 min interval. Check memory usage.

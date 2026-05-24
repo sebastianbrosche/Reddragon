@@ -1,0 +1,255 @@
+<HTML><HEAD>
+<LINK REL=stylesheet
+href="https://www.islandsofmyth.org/style/style_sheet.css">
+</HEAD>
+<TITLE>Guild Tree</TITLE>
+<pre><TT>
+
+   ------------------------------------------------------------------------   
+   |  Guild info on servant of shirija. A bravo level unraveller guild.   |   
+   |            ---------------------------------------------             |   
+   |                              [Level 01]                              |   
+   |                    New Skills: <a href="#worship of shirija">worship of shirija</a>                    |   
+   |                              [Level 02]                              |   
+   |                      New Spells: <a href="#summon undead">summon undead</a>                       |   
+   |                              [Level 03]                              |   
+   |                      New Spells: <a href="#imprison soul">imprison soul</a>                       |   
+   |                              [Level 04]                              |   
+   |                        New Spells: <a href="#soul drain">soul drain</a>                        |   
+   |                              [Level 05]                              |   
+   |                   New Spells: <a href="#sacrifice to shirija">sacrifice to shirija</a>                   |   
+   |                              [Level 06]                              |   
+   |                     New Spells: <a href="#stench of death">stench of death</a>                      |   
+   |                              [Level 07]                              |   
+   |                      New Spells: <a href="#exchange soul">exchange soul</a>                       |   
+   |                              [Level 08]                              |   
+   |                New Spells: <a href="#appoint acolyte of shirija">appoint acolyte of shirija</a>                |   
+   |                              [Level 09]                              |   
+   |                      New Spells: <a href="#corpse speech">corpse speech</a>                       |   
+   |                              [Level 10]                              |   
+   |                    New Spells: <a href="#avatar of shirija">avatar of shirija</a>                     |   
+   |                                                                      |   
+   |            ---------------------------------------------             |   
+   |              Required guilds needed to join this guild:              |   
+   |                        Maxxed in sacrificer.                         |   
+   |                     Maxxed in magical torturer.                      |   
+   ------------------------------------------------------------------------   
+
+
+</pre><p>
+There is currently no description for this guild.</p><p></p><pre>
+
+
+<a name="worship of shirija">==============================================================================
+Help on skill          :  Worship of shirija
+Guild Level            :  Bravo
+Skill type             :  Mastery
+Base Experience Cost   :  1878
+==============================================================================
+The worship of Shirija involves all sorts of unspeakable acts, mostly involving
+corpses of one kind or another.  Knowledge of all her requirements is indicated
+by this skill.
+==============================================================================
+Created By             :  Daneel
+==============================================================================
+It can be trained up to 10 percent of your skill max at level 1.
+It can be trained up to 20 percent of your skill max at level 2.
+It can be trained up to 30 percent of your skill max at level 3.
+It can be trained up to 40 percent of your skill max at level 4.
+It can be trained up to 50 percent of your skill max at level 5.
+It can be trained up to 60 percent of your skill max at level 6.
+It can be trained up to 70 percent of your skill max at level 7.
+It can be trained up to 80 percent of your skill max at level 8.
+It can be trained up to 90 percent of your skill max at level 9.
+It can be trained up to 100 percent of your skill max at level 10.
+==============================================================================
+
+
+<a name="summon undead">==============================================================================
+Help on spell          :  Summon undead
+Guild Level            :  Bravo
+Spell type             :  Special
+Sp Cost                :  468
+Casting time           :  8 rounds
+Affecting skills       :  worship of shirija
+Base Experience Cost   :  845
+==============================================================================
+This spell summons one of shirija's children to fight for the caster.  Her
+children are moderately decent fighters, but ot-nay oo-tay ight-bray, if you
+know what I mean - don't expect them to be very fast to do anything.  For
+instance, if you leave the room, it might take them a few moments to even
+notice, let alone figure out where you went.
+==============================================================================
+Created By             :  Daneel
+==============================================================================
+
+
+<a name="imprison soul">==============================================================================
+Help on spell          :  Imprison soul
+Guild Level            :  Bravo
+Spell type             :  Special
+Sp Cost                :  396
+Casting time           :  3 rounds
+Base Experience Cost   :  845
+==============================================================================
+Most spells Shirija grants her followers require a soul to work.  Of course,
+occasionally, one can use the soul of the target, and Shirija would always
+accept that of the caster, but from the priests point of view, it's best to use
+a pre-imprisonned soul, all canned up and ready to torture.
+==============================================================================
+Created By             :  Daneel
+==============================================================================
+
+
+<a name="soul drain">==============================================================================
+Help on spell          :  Soul drain
+Guild Level            :  Bravo
+Spell type             :  Attack
+Average damage         :  Under average
+Damage type            :  Varies
+Sp Cost                :  94
+Casting time           :  4 rounds
+Affecting skills       :  dark ritual
+Affecting stats        :  wis
+Base Experience Cost   :  845
+==============================================================================
+Priests of shirija learn how to drain much more out of an opponent than mere
+life.  This spell drains all the energies of an opponent somewhat, revitalizing
+the priest or his blood brothers.
+
+No matter the place in the heirarchy of the priest casting this spell, Shirija
+is behind its effectiveness; Therefore, being in her good graces will make this
+spell more effective.
+==============================================================================
+Created By             :  Daneel
+==============================================================================
+
+
+<a name="sacrifice to shirija">==============================================================================
+Help on spell          :  Sacrifice to shirija
+Guild Level            :  Bravo
+Spell type             :  Special
+Sp Cost                :  468
+Casting time           :  10 rounds
+Affecting skills       :  worship of shirija
+Base Experience Cost   :  718
+==============================================================================
+Shirija demands periodic sacrifices in order to keep her happy; in return, she
+bestows minor healing blessings at the direction of her priests.  Sacrifices
+must be of imprisoned souls, and must be made on behalf of a player (though that
+player may be the priest himself); the prayer is targetted at the person on
+whose behalf the sacrifice is made.
+==============================================================================
+Created By             :  Daneel
+==============================================================================
+
+
+<a name="stench of death">==============================================================================
+Help on spell          :  Stench of death
+Guild Level            :  Bravo
+Spell type             :  Attack
+Average damage         :  High
+Damage type            :  Unholy
+Sp Cost                :  170
+Casting time           :  4 rounds
+Affecting skills       :  worship of shirija
+Affecting stats        :  wis
+Base Experience Cost   :  845
+==============================================================================
+Shirija teaches her worshippers how to accelerate the rotting process of a
+corpse, concentrating the very idea of death and destruction in a victims mind,
+so as to make them lose all hope in this world. This isn't a fast process; the
+ideas must sink in before despair truely wins out.
+==============================================================================
+Created By             :  Daneel
+==============================================================================
+
+
+<a name="exchange soul">==============================================================================
+Help on spell          :  Exchange soul
+Guild Level            :  Bravo
+Spell type             :  Special
+Sp Cost                :  514
+Casting time           :  15 rounds
+Affecting skills       :  worship of shirija
+Base Experience Cost   :  1056
+==============================================================================
+Shirija is unlikely to let her total stock of souls decrease.  However, for her
+particularly faithful, she will allow an exchange of souls - one dead for one
+live.  She is unlikely to do this, though, without sufficient expectation that
+she will gain more souls in return at the hand of that released.
+
+For those of her priests who are themselves dead, but have a soul to exchange
+for their own, praying to Shirija at her altar in hell has been known to result
+in her granting such an exchange.
+==============================================================================
+Created By             :  Daneel
+==============================================================================
+
+
+<a name="appoint acolyte of shirija">==============================================================================
+Help on spell          :  Appoint acolyte of shirija
+Guild Level            :  Bravo
+Spell type             :  Special
+Sp Cost                :  468
+Casting time           :  1 round
+Affecting skills       :  worship of shirija
+Base Experience Cost   :  1014
+==============================================================================
+A priest of shirija can appoint acolytes from the general (non-priestly)
+population.  Acolytes of shirija gain special magical powers when evil - but are
+similarly punished when good.  Once appointed, an acolyte may not change his or
+her affiliation without changing his very body.
+
+Acolytes who are in favor with the Godess gain some ability to avoid death; for
+the most favored of acolytes, She may even take their opponent instead of them.
+
+However, those who are out of favor will find death gradually creeping up on
+them, stalking them, and generally making a pest of itself.
+
+As weavers and unravellers have already advanced past the acolyte stage, they
+obviously cannot be appointed acolytes.
+==============================================================================
+Created By             :  Daneel
+==============================================================================
+
+
+<a name="corpse speech">==============================================================================
+Help on spell          :  Corpse speech
+Guild Level            :  Bravo
+Spell type             :  Special
+Sp Cost                :  468
+Casting time           :  2 rounds
+Base Experience Cost   :  802
+==============================================================================
+This spell allows the caster to speak, and hear, through the mouth and ears (or
+whatever it had once used) of a new corpse.
+==============================================================================
+Created By             :  Daneel
+==============================================================================
+
+
+<a name="avatar of shirija">==============================================================================
+Help on spell          :  Avatar of shirija
+Guild Level            :  Bravo
+Spell type             :  Protection
+Sp Cost                :  1170
+Casting time           :  1 round
+Protection category    :  General
+Average duration       :  Average
+Number of stacks       :  1
+Affecting skills       :  worship of shirija
+Base Experience Cost   :  1267
+==============================================================================
+With this prayer, a worshipper of Shirija can plead with her personally to
+invest them with her worldly presence.  They become, in all ways that count,
+Shirija herself - at least for a time.
+
+Of course, since they are incarnating Shirija herself, only one person can have
+this cast at a time - Shirija is the goddess of death, not of Space-Time!
+
+When this spell falls, it leaves the priest very weak. Very weak indeed.
+==============================================================================
+Created By             :  Daneel
+==============================================================================
+</tt></pre></BODY>

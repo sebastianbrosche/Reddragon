@@ -500,6 +500,56 @@ class CmdBuffs(Command):
         caller.msg("\n".join(lines))
 
 
+class CmdSail(Command):
+    """
+    Set sail into the ocean wilderness.
+    
+    Usage:
+        sail
+        
+    Enters the ocean wilderness map for sailing between islands.
+    """
+    key = "sail"
+    locks = "cmd:all()"
+    
+    def func(self):
+        caller = self.caller
+        
+        # Check if at a port or dock
+        if not (hasattr(caller.location, 'db') and getattr(caller.location.db, 'is_port', False)):
+            caller.msg("You need to be at a port or dock to sail.")
+            return
+        
+        caller.msg("You cast off and set sail into the open ocean...")
+        from world.wilderness_maps import enter_ocean_wilderness
+        enter_ocean_wilderness(caller)
+
+
+class CmdReturn(Command):
+    """
+    Return from the wilderness to the nearest port.
+    
+    Usage:
+        return
+        dock
+    """
+    key = "return"
+    aliases = ["dock"]
+    locks = "cmd:all()"
+    
+    def func(self):
+        caller = self.caller
+        
+        # Check if in wilderness
+        from evennia.contrib.grid import wilderness
+        if not wilderness.get_wilderness_script(caller):
+            caller.msg("You are not at sea.")
+            return
+        
+        caller.msg("You sail back to the nearest port...")
+        wilderness.leave_wilderness(caller)
+
+
 class CombatCmdSet(CmdSet):
     """
     Holds all combat commands.
@@ -517,6 +567,8 @@ class CombatCmdSet(CmdSet):
         self.add(CmdGetAll)
         self.add(CmdWimpy)
         self.add(CmdMove)
+        self.add(CmdSail)
+        self.add(CmdReturn)
         self.add(CmdWho)
         self.add(CmdSummary)
         # Version

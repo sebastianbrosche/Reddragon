@@ -11,6 +11,8 @@ from commands.ai_dm_commands import (
     CmdDivineStatus, CmdPray, CmdAchievements, CmdDivineLog,
     CmdForceDivine, CmdSetDivinePersonality
 )
+from evennia.contrib.game_systems.mail import mail
+from world.buffs import IOM_BUFFS, apply_buff, remove_buff
 
 class CmdKill(Command):
     """
@@ -445,6 +447,47 @@ class CmdMove(Command):
 from commands.summary import CmdSummary, init_session_stats
 
 
+class CmdBuffs(Command):
+    """
+    View and manage active buffs and debuffs.
+    
+    Usage:
+        buffs
+        affects
+    """
+    key = "buffs"
+    aliases = ["affects", "aff", "buff"]
+    locks = "cmd:all()"
+    
+    def func(self):
+        caller = self.caller
+        
+        if not hasattr(caller, 'buffs') or not caller.buffs.all:
+            caller.msg("You have no active buffs or debuffs.")
+            return
+        
+        lines = []
+        lines.append("|wActive Buffs & Debuffs:|n")
+        lines.append("-" * 40)
+        
+        for buff in caller.buffs.all:
+            name = buff.name
+            duration = buff.timeleft
+            stacks = buff.stacks
+            flava = buff.flava
+            
+            if duration < 0:
+                dur_str = "Permanent"
+            else:
+                dur_str = f"{duration:.0f}s"
+            
+            stack_str = f" x{stacks}" if stacks > 1 else ""
+            lines.append(f"|y{name}{stack_str}|n ({dur_str})")
+            lines.append(f"  {flava}")
+        
+        caller.msg("\n".join(lines))
+
+
 class CombatCmdSet(CmdSet):
     """
     Holds all combat commands.
@@ -476,6 +519,10 @@ class CombatCmdSet(CmdSet):
         self.add(CmdDivineLog)
         self.add(CmdForceDivine)
         self.add(CmdSetDivinePersonality)
+        # Mail
+        self.add(mail.CmdMail())
+        # Buffs
+        self.add(CmdBuffs)
         # Economy commands
         self.add(CmdBuy)
         self.add(CmdSell)

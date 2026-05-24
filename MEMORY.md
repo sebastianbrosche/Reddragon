@@ -207,6 +207,19 @@ When move_object() moves object A into object B:
 
 ---
 
+## Miha Backup System (2026-05-24 05:49)
+**User Instruction:** When user types "good night", Miha must always back herself up to Google Drive.
+- **Folder:** KIMIMIHA (create if doesn't exist)
+- **Script:** `/root/.openclaw/workspace/backup_miha.sh`
+- **Setup:** `/root/.openclaw/workspace/setup_gdrive_backup.sh` (run once to configure rclone)
+- **Contents:** Full reddragon MUD project (code, not database/logs)
+- **Retention:** Keep last 10 backups on Google Drive, clean old ones automatically
+- **Trigger phrase:** "good night" (case insensitive)
+
+**rclone config name:** `gdrive` (must be named exactly this for backup script to work)
+
+---
+
 *Nothing else worth keeping yet. This file will grow.*
 
 ---

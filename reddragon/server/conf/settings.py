@@ -9,6 +9,51 @@ from evennia.settings_default import *
 import os
 
 ######################################################################
+# Evennia Contrib Modules
+######################################################################
+
+# Traits system (rpg.traits)
+# No extra settings needed - uses lazy_property on typeclass
+
+# Buffs system (rpg.buffs)
+# No extra settings needed - uses lazy_property on typeclass
+
+# Mail system (game_systems.mail)
+# Enables in-game mail between accounts/characters
+# Add to command sets: commands.default_cmdsets.CharacterCmdSet
+MAIL_CHARACTER_MODEL = "typeclasses.characters.Character"
+
+# Achievements system (game_systems.achievements)
+# Path to achievement module definitions
+ACHIEVEMENT_CONTRIB_MODULES = ["world.achievements"]
+
+# In-game Python scripting (base_systems.ingame_python)
+# Enables builders to write Python callbacks on objects in-game
+# Inherit EventCharacter, EventRoom, EventObject, EventExit
+# Add CmdCallback to command sets
+
+# LLM integration (rpg.llm)
+# Requires LLM server endpoint configuration
+# LLM_URL = "http://localhost:8000/v1/chat/completions"
+# LLM_HEADERS = {"Authorization": "Bearer YOUR_KEY"}
+# LLM_PROMPT_PREFIX = "You are an NPC in a fantasy MUD world..."
+
+# RP System (rpg.rpsystem)
+# Adds sdescs, poses, recognition, language support
+# Inherit ContribRPCharacter, ContribRPRoom, ContribRPObject
+# Add RPSystemCmdSet to command sets
+
+# Extended Room (grid.extended_room)
+# Adds weather, season, time-of-day descriptions
+# BASE_ROOM_TYPECLASS = "evennia.contrib.grid.extended_room.ExtendedRoom"
+
+# XYZ Grid (grid.xyzgrid)
+# Build world from ASCII maps with pathfinding
+# Requires: evennia xyzgrid init
+# Requires: evennia xyzgrid build
+# Requires: evennia xyzgrid list
+
+######################################################################
 # Game Info
 ######################################################################
 

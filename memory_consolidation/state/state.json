@@ -20,10 +20,10 @@
     "last_skip": "stm_hash_unchanged"
   },
   "stm": {
-    "count": 21,
-    "last_ts": "2026-05-25T00:07:27.297063",
-    "last_sessions": 111,
-    "last_messages": 3468,
-    "last_chars": 50530
+    "count": 22,
+    "last_ts": "2026-05-25T02:26:04.031957",
+    "last_sessions": 113,
+    "last_messages": 3573,
+    "last_chars": 47580
   }
 }

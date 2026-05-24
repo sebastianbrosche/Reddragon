@@ -636,6 +636,9 @@ class CombatCmdSet(CmdSet):
         # Ferry system (sail between islands)
         from typeclasses.ferry import FerryCmdSet
         self.add(FerryCmdSet())
+        # Character stat rolling system
+        from commands.chargen_roll import RollCmdSet
+        self.add(RollCmdSet())
         self.add(CmdBuy)
         self.add(CmdSell)
         self.add(CmdList)

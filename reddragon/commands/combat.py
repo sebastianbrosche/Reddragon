@@ -17,6 +17,8 @@ from evennia.contrib.grid.extended_room.extended_room import ExtendedRoomCmdSet
 from evennia.contrib.grid.simpledoor.simpledoor import SimpleDoorCmdSet
 from evennia.contrib.base_systems.ingame_python.commands import CmdCallback
 from evennia.contrib.rpg.dice.dice import CmdDice
+from evennia.contrib.game_systems.gendersub.gendersub import SetGender
+from evennia.contrib.rpg.health_bar.health_bar import display_meter
 from evennia.contrib.game_systems.clothing.clothing import ClothedCharacterCmdSet
 from evennia.contrib.game_systems.barter.barter import CmdOffer, CmdAccept, CmdDecline, CmdEvaluate, CmdStatus
 from evennia.contrib.game_systems.crafting.crafting import CraftingCmdSet
@@ -550,6 +552,8 @@ class CombatCmdSet(CmdSet):
         self.add(CmdStatus())
         # Crafting
         self.add(CraftingCmdSet())
+        # Gender setting
+        self.add(SetGender())
         self.add(CmdBuy)
         self.add(CmdSell)
         self.add(CmdList)

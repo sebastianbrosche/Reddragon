@@ -9,6 +9,7 @@ from evennia.utils import lazy_property
 from evennia.contrib.rpg.traits import TraitHandler
 from evennia.contrib.rpg.buffs import BuffHandler
 from evennia.contrib.rpg.rpsystem.rpsystem import ContribRPCharacter
+from evennia.contrib.rpg.health_bar.health_bar import display_meter
 
 # Stat tier mapping from IOM data
 STAT_TIERS = {
@@ -146,6 +147,7 @@ class Character(ContribRPCharacter):
         # Economy
         self.db.gold = 100
         self.db.bank_gold = 0
+        self.db.gender = "ambiguous"
 
         # Legacy skills dict (will migrate to traits)
         self.db.skills = {
@@ -327,6 +329,10 @@ class Character(ContribRPCharacter):
 | Intelligence : {int_val:>3} | Wimpy          : {self.db.wimpy}%            | Hiding   : {'Yes' if self.db.hiding else 'No'}
 | Wisdom       : {wis_val:>3} | Alignment      : {self.db.alignment}       | Poisoned : {'Yes' if self.db.poisoned else 'No'}
 | Charisma     : {cha_val:>3} | TaskPts. : {self.db.task_points}        
+|----------------------------------------------------------------------------|
+| HP  : {display_meter(hp_cur, hp_max, length=30, pre_text='HP  ')} |
+| SP  : {display_meter(sp_cur, sp_max, length=30, pre_text='SP  ', fill_color=['B','C','W'])} |
+| EP  : {display_meter(ep_cur, ep_max, length=30, pre_text='EP  ', fill_color=['Y','G','G'])} |
 |----------------------------------------------------------------------------|
 | alpha   : {guild_name} ({guild_lvl})                      | Mail          : {self.db.mail_unread}/{self.db.mail_count}           |
 |                                            | Kills         : {self.db.kills}             |

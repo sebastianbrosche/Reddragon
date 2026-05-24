@@ -6,6 +6,7 @@ Uses Evennia's RP system for poses and sdescs.
 
 from evennia import DefaultObject
 from evennia.contrib.rpg.rpsystem.rpsystem import ContribRPObject
+from evennia.contrib.game_systems.containers import ContribContainer
 
 class Object(ContribRPObject):
     """
@@ -84,9 +85,10 @@ class Portal(Object):
             user.msg("The portal leads nowhere.")
             
 
-class Container(Object):
+class Container(ContribContainer, Object):
     """
     Container that can hold items.
+    Uses Evennia's ContribContainer for proper get_from/put_in support.
     """
     
     def at_object_creation(self):

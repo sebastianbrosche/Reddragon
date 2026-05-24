@@ -554,6 +554,12 @@ class CombatCmdSet(CmdSet):
         self.add(CraftingCmdSet())
         # Gender setting
         self.add(SetGender())
+        # Containers (put, get from containers)
+        from evennia.contrib.game_systems.containers import ContainerCmdSet
+        self.add(ContainerCmdSet())
+        # Storage (store, retrieve, list in storage rooms)
+        from evennia.contrib.game_systems.storage.storage import StorageCmdSet
+        self.add(StorageCmdSet())
         self.add(CmdBuy)
         self.add(CmdSell)
         self.add(CmdList)

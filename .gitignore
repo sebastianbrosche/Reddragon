@@ -1,0 +1,19 @@
+# Evennia runtime files
+server/evennia.db3
+server/logs/
+server/*.pid
+server/*.lock
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+evenv/
+env/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

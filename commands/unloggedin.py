@@ -64,8 +64,9 @@ class CmdConnect(CmdUnconnectedConnect):
         # Use Evennia's native authentication
         from evennia.commands.default.unloggedin import create_normal_account
         
-        # Try to authenticate
-        account = AccountDB.objects.authenticate(username=name, password=password)
+        # Try to authenticate using Evennia's authentication helper
+        from evennia.utils.create import authenticate
+        account = authenticate(name, password)
         
         if not account:
             session.msg("|rIncorrect username or password.|n")

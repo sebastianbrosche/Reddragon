@@ -211,3 +211,9 @@
 |Portal| 2026-05-25 18:49:34 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
 |Portal| 2026-05-25 18:49:34 [EE] Failure: builtins.Exception: Account.at_disconnect() takes 1 positional argument but 2 were given (error logged on other side)
 |Portal| 2026-05-25 18:49:34 [EE]  Account.at_disconnect() takes 1 positional argument but 2 were given (error logged on other side)
+|Portal| 2026-05-25 18:56:50 [..] Portal starting server ... 
+|Portal| 2026-05-25 18:57:27 [..] Portal starting server ... 
+|Portal| 2026-05-25 18:58:09 [..] Portal starting server ... 
+|Portal| 2026-05-25 18:58:21 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-05-25 18:58:21 [EE] Failure: builtins.Exception: Account.at_disconnect() takes 1 positional argument but 2 were given (error logged on other side)
+|Portal| 2026-05-25 18:58:21 [EE]  Account.at_disconnect() takes 1 positional argument but 2 were given (error logged on other side)

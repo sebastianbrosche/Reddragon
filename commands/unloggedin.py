@@ -69,12 +69,6 @@ class CmdQuit(CmdUnconnectedQuit):
     aliases = ["q", "disconnect", "dc"]
 
 
-class CmdLook(CmdUnconnectedLook):
-    """Look at the login screen."""
-    key = "look"
-    aliases = ["l", "ls"]
-
-
 class CmdHelp(CmdUnconnectedHelp):
     """Get help."""
     key = "help"
@@ -221,7 +215,7 @@ class UnloggedinCmdSet(CmdSet):
         self.add(CmdConnect)
         self.add(CmdCreate)
         self.add(CmdQuit)
-        self.add(CmdLook)
+        self.add(CmdUnconnectedLook)
         self.add(CmdHelp)
         self.add(CmdWhoUnlogged)
         self.add(CmdServerStatusUnlogged)

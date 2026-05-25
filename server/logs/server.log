@@ -654,3 +654,150 @@ None2026-05-25 18:49:27 [EE] Error loading cmdset 'commands.combat.CombatCmdSet'
 2026-05-25 18:49:34 [EE] /root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/server/sessionhandler.py:431:portal_disconnect
 2026-05-25 18:49:34 [EE] /root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/server/sessionhandler.py:585:disconnect
 2026-05-25 18:49:34 [EE] /root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/server/serversession.py:165:at_disconnect
+2026-05-25 18:56:50 [..] Server disconnected from the portal.
+2026-05-25 18:56:50 [..] Main loop terminated.
+2026-05-25 18:56:50 [..] Server Shut Down.
+2026-05-25 18:56:53 [..] Loaded.
+2026-05-25 18:56:51 [..] Loading /root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/server/server.py...
+2026-05-25 18:56:53 [EE] Could not find file-help module world.help_entries (skipping).
+2026-05-25 18:56:53 [..] Loaded.
+2026-05-25 18:56:53 [..] twistd 24.11.0 (/root/.openclaw/workspace/mud/evenv/bin/python3 3.12.3) starting up.
+2026-05-25 18:56:53 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-05-25 18:56:53 [..] Webserver starting on 8001
+2026-05-25 18:56:54 [..] Server successfully reloaded.
+2026-05-25 18:56:54 [..] Darkstaff MUD - World already exists, skipping build.
+2026-05-25 18:56:54 [..] Darkstaff MUD - Hunger tick started.
+2026-05-25 18:56:54 [..] Darkstaff MUD - Bots channel ready.
+2026-05-25 18:56:54 [..] AI DM Personality selected: lawful
+2026-05-25 18:56:57 [!!] Traceback (most recent call last):
+2026-05-25 18:56:57 [!!]   File "/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/commands/cmdsethandler.py", line 209, in import_cmdset
+2026-05-25 18:56:57 [!!]     cmdsetclass = cmdsetclass(cmdsetobj)
+2026-05-25 18:56:57 [!!]                   ^^^^^^^^^^^^^^^^^^^^^^
+2026-05-25 18:56:57 [!!]   File "/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/commands/cmdset.py", line 225, in __init__
+2026-05-25 18:56:57 [!!]     self.at_cmdset_creation()
+2026-05-25 18:56:57 [!!]   File "/root/.openclaw/workspace/reddragon/commands/unloggedin.py", line 224, in at_cmdset_creation
+2026-05-25 18:56:57 [!!]     self.add(CmdLook)
+2026-05-25 18:56:57 [!!]              ^^^^^^^
+2026-05-25 18:56:57 [!!] NameError: name 'CmdLook' is not defined
+2026-05-25 18:56:57 [EE] Traceback (most recent call last):
+2026-05-25 18:56:57 [EE]   File "/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/commands/cmdsethandler.py", line 209, in import_cmdset
+2026-05-25 18:56:57 [EE]     cmdsetclass = cmdsetclass(cmdsetobj)
+2026-05-25 18:56:57 [EE]                   ^^^^^^^^^^^^^^^^^^^^^^
+2026-05-25 18:56:57 [EE]   File "/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/commands/cmdset.py", line 225, in __init__
+2026-05-25 18:56:57 [EE]     self.at_cmdset_creation()
+2026-05-25 18:56:57 [EE]   File "/root/.openclaw/workspace/reddragon/commands/unloggedin.py", line 224, in at_cmdset_creation
+2026-05-25 18:56:57 [EE]     self.add(CmdLook)
+2026-05-25 18:56:57 [EE]              ^^^^^^^
+2026-05-25 18:56:57 [EE] NameError: name 'CmdLook' is not defined
+None2026-05-25 18:56:57 [EE] Compile/Run error when loading cmdset 'commands.unloggedin.UnloggedinCmdSet'.
+2026-05-25 18:56:57 [EE] (Traceback was logged 26-05-25 18:56:57)
+2026-05-25 18:57:27 [..] Server disconnected from the portal.
+2026-05-25 18:57:27 [..] Main loop terminated.
+2026-05-25 18:57:27 [..] Server Shut Down.
+2026-05-25 18:57:30 [..] Loaded.
+2026-05-25 18:57:27 [..] Loading /root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/server/server.py...
+2026-05-25 18:57:30 [EE] Could not find file-help module world.help_entries (skipping).
+2026-05-25 18:57:30 [..] Loaded.
+2026-05-25 18:57:30 [..] twistd 24.11.0 (/root/.openclaw/workspace/mud/evenv/bin/python3 3.12.3) starting up.
+2026-05-25 18:57:30 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-05-25 18:57:30 [..] Webserver starting on 8001
+2026-05-25 18:57:30 [..] Server successfully reloaded.
+2026-05-25 18:57:30 [..] Darkstaff MUD - World already exists, skipping build.
+2026-05-25 18:57:30 [..] Darkstaff MUD - Hunger tick started.
+2026-05-25 18:57:30 [..] Darkstaff MUD - Bots channel ready.
+2026-05-25 18:57:30 [..] AI DM Personality selected: benevolent
+2026-05-25 18:57:34 [!!] Traceback (most recent call last):
+2026-05-25 18:57:34 [!!]   File "/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/commands/cmdsethandler.py", line 209, in import_cmdset
+2026-05-25 18:57:34 [!!]     cmdsetclass = cmdsetclass(cmdsetobj)
+2026-05-25 18:57:34 [!!]                   ^^^^^^^^^^^^^^^^^^^^^^
+2026-05-25 18:57:34 [!!]   File "/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/commands/cmdset.py", line 225, in __init__
+2026-05-25 18:57:34 [!!]     self.at_cmdset_creation()
+2026-05-25 18:57:34 [!!]   File "/root/.openclaw/workspace/reddragon/commands/unloggedin.py", line 218, in at_cmdset_creation
+2026-05-25 18:57:34 [!!]     self.add(CmdLook)
+2026-05-25 18:57:34 [!!]              ^^^^^^^
+2026-05-25 18:57:34 [!!] NameError: name 'CmdLook' is not defined
+2026-05-25 18:57:34 [EE] Traceback (most recent call last):
+2026-05-25 18:57:34 [EE]   File "/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/commands/cmdsethandler.py", line 209, in import_cmdset
+2026-05-25 18:57:34 [EE]     cmdsetclass = cmdsetclass(cmdsetobj)
+2026-05-25 18:57:34 [EE]                   ^^^^^^^^^^^^^^^^^^^^^^
+2026-05-25 18:57:34 [EE]   File "/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/commands/cmdset.py", line 225, in __init__
+2026-05-25 18:57:34 [EE]     self.at_cmdset_creation()
+2026-05-25 18:57:34 [EE]   File "/root/.openclaw/workspace/reddragon/commands/unloggedin.py", line 218, in at_cmdset_creation
+2026-05-25 18:57:34 [EE]     self.add(CmdLook)
+2026-05-25 18:57:34 [EE]              ^^^^^^^
+2026-05-25 18:57:34 [EE] NameError: name 'CmdLook' is not defined
+None2026-05-25 18:57:34 [EE] Compile/Run error when loading cmdset 'commands.unloggedin.UnloggedinCmdSet'.
+2026-05-25 18:57:34 [EE] (Traceback was logged 26-05-25 18:57:34)
+2026-05-25 18:58:09 [..] Server disconnected from the portal.
+2026-05-25 18:58:09 [..] Main loop terminated.
+2026-05-25 18:58:09 [..] Server Shut Down.
+2026-05-25 18:58:12 [..] Loaded.
+2026-05-25 18:58:10 [..] Loading /root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/server/server.py...
+2026-05-25 18:58:12 [EE] Could not find file-help module world.help_entries (skipping).
+2026-05-25 18:58:12 [..] Loaded.
+2026-05-25 18:58:12 [..] twistd 24.11.0 (/root/.openclaw/workspace/mud/evenv/bin/python3 3.12.3) starting up.
+2026-05-25 18:58:12 [..] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-05-25 18:58:13 [..] Webserver starting on 8001
+2026-05-25 18:58:13 [..] Server successfully reloaded.
+2026-05-25 18:58:13 [..] Darkstaff MUD - World already exists, skipping build.
+2026-05-25 18:58:13 [..] Darkstaff MUD - Hunger tick started.
+2026-05-25 18:58:13 [..] Darkstaff MUD - Bots channel ready.
+2026-05-25 18:58:13 [..] AI DM Personality selected: benevolent
+2026-05-25 18:58:20 [SS] Password successfully changed for testflow2(account None).
+2026-05-25 18:58:20 [SS] Account Created: testflow2(account 28) (IP: 127.0.0.1).
+2026-05-25 18:58:20 [!!] Traceback (most recent call last):
+2026-05-25 18:58:20 [!!]   File "/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/commands/cmdsethandler.py", line 186, in import_cmdset
+2026-05-25 18:58:20 [!!]     raise exc.with_traceback(tb)
+2026-05-25 18:58:20 [!!]   File "/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/commands/cmdsethandler.py", line 181, in import_cmdset
+2026-05-25 18:58:20 [!!]     module = import_module(modpath, package="evennia")
+2026-05-25 18:58:20 [!!]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-05-25 18:58:20 [!!]   File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+2026-05-25 18:58:20 [!!]     return _bootstrap._gcd_import(name[level:], package, level)
+2026-05-25 18:58:20 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-05-25 18:58:20 [!!]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2026-05-25 18:58:20 [!!]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2026-05-25 18:58:20 [!!]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+2026-05-25 18:58:20 [!!]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+2026-05-25 18:58:20 [!!]   File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+2026-05-25 18:58:20 [!!]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+2026-05-25 18:58:20 [!!]   File "/root/.openclaw/workspace/reddragon/commands/combat.py", line 28, in <module>
+2026-05-25 18:58:20 [!!]     from world.buffs import IOM_BUFFS, apply_buff, remove_buff
+2026-05-25 18:58:20 [!!]   File "/root/.openclaw/workspace/reddragon/world/buffs.py", line 10, in <module>
+2026-05-25 18:58:20 [!!]     from evennia.contrib.rpg.buffs import Buff
+2026-05-25 18:58:20 [!!] ImportError: cannot import name 'Buff' from 'evennia.contrib.rpg.buffs' (/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/contrib/rpg/buffs/__init__.py)
+2026-05-25 18:58:20 [EE] Traceback (most recent call last):
+2026-05-25 18:58:20 [EE]   File "/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/commands/cmdsethandler.py", line 186, in import_cmdset
+2026-05-25 18:58:20 [EE]     raise exc.with_traceback(tb)
+2026-05-25 18:58:20 [EE]   File "/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/commands/cmdsethandler.py", line 181, in import_cmdset
+2026-05-25 18:58:20 [EE]     module = import_module(modpath, package="evennia")
+2026-05-25 18:58:20 [EE]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-05-25 18:58:20 [EE]   File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+2026-05-25 18:58:20 [EE]     return _bootstrap._gcd_import(name[level:], package, level)
+2026-05-25 18:58:20 [EE]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-05-25 18:58:20 [EE]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2026-05-25 18:58:20 [EE]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2026-05-25 18:58:20 [EE]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+2026-05-25 18:58:20 [EE]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+2026-05-25 18:58:20 [EE]   File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+2026-05-25 18:58:20 [EE]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+2026-05-25 18:58:20 [EE]   File "/root/.openclaw/workspace/reddragon/commands/combat.py", line 28, in <module>
+2026-05-25 18:58:20 [EE]     from world.buffs import IOM_BUFFS, apply_buff, remove_buff
+2026-05-25 18:58:20 [EE]   File "/root/.openclaw/workspace/reddragon/world/buffs.py", line 10, in <module>
+2026-05-25 18:58:20 [EE]     from evennia.contrib.rpg.buffs import Buff
+2026-05-25 18:58:20 [EE] ImportError: cannot import name 'Buff' from 'evennia.contrib.rpg.buffs' (/root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/contrib/rpg/buffs/__init__.py)
+None2026-05-25 18:58:20 [EE] Error loading cmdset 'commands.combat.CombatCmdSet'
+2026-05-25 18:58:20 [EE] (Traceback was logged 26-05-25 18:58:20)
+2026-05-25 18:58:20 [DP] obj.cmdset.add() kwarg 'permanent' has changed name to 'persistent'.
+2026-05-25 18:58:20 [WW] db_location direct save triggered contents_cache.init() for all objects!
+2026-05-25 18:58:20 [SS] Character Created: testflow2 (Caller: testflow2(account 28), IP: 127.0.0.1).
+2026-05-25 18:58:21 [SS] Authentication Success: testflow2(account 28) (IP: 127.0.0.1).
+2026-05-25 18:58:21 [..] Logged in: testflow2(account 28) 127.0.0.1 (1 session(s) total)
+2026-05-25 18:58:21 [..] Logged out: testflow2(account 28) 127.0.0.1 (0 sessions(s) remaining)
+2026-05-25 18:58:21 [EE] AMP caught exception (Account.at_disconnect() takes 1 positional argument but 2 were given (error logged on other side)):
+2026-05-25 18:58:21 [EE] Code<EXCEPTION> (local): Account.at_disconnect() takes 1 positional argument but 2 were given
+2026-05-25 18:58:21 [EE] Traceback: <class 'TypeError'>: Account.at_disconnect() takes 1 positional argument but 2 were given
+2026-05-25 18:58:21 [EE] /root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-05-25 18:58:21 [EE] /root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/server/amp_client.py:223:server_receive_adminportal2server
+2026-05-25 18:58:21 [EE] /root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/server/sessionhandler.py:431:portal_disconnect
+2026-05-25 18:58:21 [EE] /root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/server/sessionhandler.py:585:disconnect
+2026-05-25 18:58:21 [EE] /root/.openclaw/workspace/mud/evenv/lib/python3.12/site-packages/evennia/server/serversession.py:165:at_disconnect

@@ -43,3 +43,16 @@ class SessionCmdSet(CmdSet):
     def at_cmdset_creation(self):
         "Populate the cmdset"
         self.add(account.CmdSessions())
+
+class CharacterCmdSet(CmdSet):
+    """
+    Character-level command set.
+    """
+    key = "DefaultCharacter"
+    priority = 0
+
+    def at_cmdset_creation(self):
+        "Populate the cmdset"
+        from commands.build_subareas_cmd import CmdBuildSubAreas
+        self.add(CmdBuildSubAreas())
+

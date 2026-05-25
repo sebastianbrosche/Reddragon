@@ -287,6 +287,10 @@ class Character(ContribRPCharacter):
 
         # Set up traits via Evennia's TraitHandler
         self._setup_traits()
+        
+        # Add custom command set
+        from commands.default_cmdsets import CharacterCmdSet
+        self.cmdset.add(CharacterCmdSet, permanent=True)
 
         # Keep legacy db attributes for backward compat until full migration
         # These will be removed once all commands use traits

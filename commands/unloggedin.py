@@ -121,19 +121,17 @@ class CmdCreate(CmdUnconnectedCreate):
             return
         
         # Create account using Evennia's native method - NO password restrictions
-        account, errors = AccountDB.objects.create_account(
-            key=name,
-            email=None,
-            password=password,
-            typeclass=settings.BASE_ACCOUNT_TYPECLASS,
-        )
-        
-        if errors:
-            session.msg(f"|rAccount creation failed: {errors}|n")
-            return
-        
-        session.msg(f"|gAccount '{name}' created successfully!|n")
-        session.msg(f"|yType 'connect {name} {password}' to log in.|n")
+        try:
+            account = AccountDB.objects.create_account(
+                key=name,
+                email=None,
+                password=password,
+                typeclass=settings.BASE_ACCOUNT_TYPECLASS,
+            )
+            session.msg(f"|gAccount '{name}' created successfully!|n")
+            session.msg(f"|yType 'connect {name} {password}' to log in.|n")
+        except Exception as e:
+            session.msg(f"|rAccount creation failed: {e}|n")
 
 
 class CmdQuit(CmdUnconnectedQuit):

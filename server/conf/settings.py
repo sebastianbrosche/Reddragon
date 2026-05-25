@@ -175,9 +175,9 @@ IDLE_TIMEOUT = 3600
 # Max simultaneous sessions per account
 MAX_NR_SIMULTANEOUS_LOGIN = 3
 
-# Auto-puppet settings - we handle puppeting manually in our custom login flow
-AUTO_PUPPET = False
-AUTO_CREATE_CHARACTER_WITH_ACCOUNT = False
+# Auto-puppet settings - auto-enter the game world on login
+AUTO_PUPPET = True
+AUTO_CREATE_CHARACTER_WITH_ACCOUNT = True
 
 # Disable Django password validation (this is a MUD, not a bank)
 AUTH_PASSWORD_VALIDATORS = []

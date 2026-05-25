@@ -1,5 +1,5 @@
 """
-Darkstaff MUD - IOM-style Who Command
+Red Dragon Reborn - IOM-style Who Command
 
 Replaces Evennia's default who with the classic Islands of Myth format:
 

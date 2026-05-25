@@ -1,5 +1,5 @@
 """
-Darkstaff MUD - Unlogged-in Command Set
+Red Dragon Reborn - Unlogged-in Command Set
 Uses Evennia's native login commands with IOM-style presentation.
 """
 
@@ -7,7 +7,7 @@ Uses Evennia's native login commands with IOM-style presentation.
 CONNECTION_SCREEN = """
 |b___________________________________________________________________________|n
 |y
-                        D A R K S T A F F   M U D
+                     R E D   D R A G O N   R E B O R N
 |n
 |b___________________________________________________________________________|n
 |g

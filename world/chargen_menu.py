@@ -1,5 +1,5 @@
 """
-Red Dragon MUD - Character Creation Menu
+Red Dragon Reborn - Character Creation Menu
 IOM-style race and class selection using Evennia's Character Creator
 """
 
@@ -21,7 +21,7 @@ IOM_GUILDS = [
 def menu_start_node(caller):
     """Welcome to character creation."""
     text = """
-    |cWelcome to Darkstaff MUD Character Creation!|n
+    |cWelcome to Red Dragon Reborn Character Creation!|n
     
     You are about to create a new adventurer in the world of Islands of Myth.
     

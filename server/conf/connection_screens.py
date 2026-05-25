@@ -1,5 +1,5 @@
 """
-Darkstaff MUD - Connection Screen
+Red Dragon Reborn - Connection Screen
 
 This is the screen shown to players when they first connect.
 Only DEFAULT_CONNECTION_SCREEN should be a top-level string in this module
@@ -14,7 +14,7 @@ def _get_menu_screen():
     return """
 |b___________________________________________________________________________|n
 |b|n
-|b  Welcome to Darkstaff MUD|n
+|b  Welcome to Red Dragon Reborn|n
 |b___________________________________________________________________________|n
 |n
   [n] - Enter your name to log in
@@ -47,7 +47,7 @@ def _get_new_player_screen():
 |b  Welcome, Adventurer!|n
 |b___________________________________________________________________________|n
 |n
-  You are about to enter the world of Darkstaff, a realm of magic,
+  You are about to enter the world of Red Dragon Reborn, a realm of magic,
   monsters, and mystery. Choose your race wisely, for it will shape
   your destiny.
 
@@ -84,4 +84,4 @@ def _get_online_count():
     return "|y  No players currently online.|n"
 
 # This is the ONLY top-level string in this module so Evennia picks it correctly
-DEFAULT_CONNECTION_SCREEN = _get_ascii_header() + "|g  Based on the classic 1995 MUD \"Red Dragon\" - now reborn as Darkstaff|n\n|g  A heavily modified LIMA mudlib running on Evennia (Python)|n\n|b___________________________________________________________________________|n|n" + _get_online_count() + "|b___________________________________________________________________________|n|n"
+DEFAULT_CONNECTION_SCREEN = _get_ascii_header() + "|g  Based on the classic 1995 MUD \"Red Dragon\" - now reborn|n\n|g  A heavily modified LIMA mudlib running on Evennia (Python)|n\n|b___________________________________________________________________________|n|n" + _get_online_count() + "|b___________________________________________________________________________|n|n"

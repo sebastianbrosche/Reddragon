@@ -57,7 +57,7 @@ ACHIEVEMENT_CONTRIB_MODULES = ["world.achievements"]
 # Game Info
 ######################################################################
 
-SERVERNAME = "Darkstaff MUD"
+SERVERNAME = "Red Dragon Reborn"
 GAME_SLOGAN = "The original 1995 MUD, reborn."
 
 ######################################################################

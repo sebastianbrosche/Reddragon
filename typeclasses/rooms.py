@@ -7,7 +7,7 @@ from evennia.contrib.grid.extended_room import ExtendedRoom as ContribExtendedRo
 
 class Room(DefaultRoom):
     """
-    Base room typeclass for Darkstaff MUD.
+    Base room typeclass for Red Dragon Reborn.
     Awards EXP when characters discover new rooms.
     """
     

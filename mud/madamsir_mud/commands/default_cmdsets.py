@@ -39,9 +39,14 @@ except Exception:
     CmdLevel = CmdHeal = CmdEquipment = CmdBuildWorld = None
 
 try:
-    from commands.cmd_roll import CmdRoll
+    from commands.cmd_roll import CmdRoll, CmdAccept, CmdReroll
 except Exception:
-    CmdRoll = None
+    CmdRoll = CmdAccept = CmdReroll = None
+
+try:
+    from commands.chargen_cmds import CmdAllRaces, CmdTouch, CmdLa, CmdReadChargen
+except Exception:
+    CmdAllRaces = CmdTouch = CmdLa = CmdReadChargen = None
 
 
 class CharacterCmdSet(default_cmds.CharacterCmdSet):
@@ -81,6 +86,12 @@ class CharacterCmdSet(default_cmds.CharacterCmdSet):
         if CmdEquipment: self.add(CmdEquipment)
         if CmdBuildWorld: self.add(CmdBuildWorld)
         if CmdRoll: self.add(CmdRoll)
+        if CmdAccept: self.add(CmdAccept)
+        if CmdReroll: self.add(CmdReroll)
+        if CmdAllRaces: self.add(CmdAllRaces)
+        if CmdTouch: self.add(CmdTouch)
+        if CmdLa: self.add(CmdLa)
+        if CmdReadChargen: self.add(CmdReadChargen)
         self.add(CmdReboot)
 
 

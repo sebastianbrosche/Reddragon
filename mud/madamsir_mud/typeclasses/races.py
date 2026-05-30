@@ -26,6 +26,11 @@ TIER_MAP = {
     "above ave": 1, "good": 2, "very good": 3, "excellent": 4,
 }
 
+TIER_NAME = {
+    -3: "Terrible", -2: "Bad", -1: "Below Ave", 0: "Average",
+    1: "Above Ave", 2: "Good", 3: "Very Good", 4: "Excellent",
+}
+
 # ---------------------------------------------------------------------------
 # Complete Race Database (27 races)
 # ---------------------------------------------------------------------------
@@ -702,43 +707,60 @@ def apply_race(character, race_key):
 
 
 def get_race_detail(race_key):
-    """Return formatted detailed info about a race."""
+    """Return formatted detailed info about a race (IOM-style)."""
     race = RACES.get(race_key.lower())
     if not race:
         return "Unknown race."
 
+    stats = race.get("stats", {})
     lines = []
-    lines.append(f"{{c{'='*60}{{n")
-    lines.append(f"{{G{race['name']}{{n")
-    lines.append(f"{{c{'='*60}{{n")
+    lines.append(f"{{c{'-'*70}{{n")
+    lines.append(f"{{c{' '*20}{{G{race['name']}{{c{' '*20}{{n")
+    lines.append(f"{{c{'-'*70}{{n")
     lines.append("")
     lines.append(race["desc"])
     lines.append("")
-    lines.append("{yBase Stats:{n")
-    stats = race.get("stats", {})
-    for stat in ["strength", "constitution", "dexterity", "stamina",
-                   "intelligence", "wisdom"]:
-        val = stats.get(stat, 0)
-        sign = "+" if val > 0 else ""
-        lines.append(f"  {stat.capitalize():12} {sign}{val}")
+    lines.append(f"{{c{'-'*70}{{n")
+    
+    stat_groups = [
+        ("strength", "dexterity", "intelligence"),
+        ("constitution", "stamina", "wisdom"),
+        ("hp_max", "ep_max", "sp_max"),
+        ("hp_regen", "ep_regen", "sp_regen"),
+    ]
+    stat_labels = {
+        "strength": "Strength", "constitution": "Constitution", "dexterity": "Dexterity",
+        "stamina": "Stamina", "intelligence": "Intelligence", "wisdom": "Wisdom",
+        "hp_max": "Hp max", "hp_regen": "Hp regen", "ep_max": "Ep max",
+        "ep_regen": "Ep regen", "sp_max": "Sp max", "sp_regen": "Sp regen",
+    }
+    
+    for group in stat_groups:
+        parts = []
+        for stat in group:
+            val = stats.get(stat, 0)
+            name = stat_labels.get(stat, stat)
+            tier_name = TIER_NAME.get(val, "Average")
+            parts.append(f"{{y{name:12}{{n : {{g{tier_name:10}{{n")
+        lines.append("  ".join(parts))
+    
+    lines.append(f"{{c{'-'*70}{{n")
+    lines.append(f"They can train skills up to {race['skill_cap']*100:.0f}%")
+    lines.append(f"They can study spells up to {race['spell_cap']*100:.0f}%")
+    lines.append(f"Their experience rate is {race['xp_rate']*100:.0f} %")
+    
+    height = race.get('height', '?')
+    mass = race.get('mass', '?')
+    if height != '?':
+        lines.append(f"Average height: {height}")
+    if mass != '?':
+        lines.append(f"Average mass: {mass}")
+    
+    cha_val = stats.get('charisma', 0)
+    cha_tier = TIER_NAME.get(cha_val, "average")
+    lines.append(f"They have {cha_tier.lower()} charisma.")
+    lines.append(f"{{c{'-'*70}{{n")
     lines.append("")
-    lines.append("{yResource Stats:{n")
-    for stat in ["hp_max", "hp_regen", "ep_max", "ep_regen", "sp_max", "sp_regen"]:
-        val = stats.get(stat, 0)
-        sign = "+" if val > 0 else ""
-        lines.append(f"  {stat.upper():12} {sign}{val}")
-    lines.append("")
-    lines.append("{yRacial Traits:{n")
-    for trait in race["traits"]:
-        lines.append(f"  • {trait}")
-    lines.append("")
-    lines.append(f"{{yXP Rate:{{n {race['xp_rate']*100:.0f}%  |  "
-                 f"{{ySkill Cap:{{n {race['skill_cap']*100:.0f}%  |  "
-                 f"{{ySpell Cap:{{n {race['spell_cap']*100:.0f}%")
-    lines.append(f"{{yHeight:{{n {race.get('height', '?')}  |  "
-                 f"{{yMass:{{n {race.get('mass', '?')} lbs")
-    lines.append(f"{{ySpecial Ability:{{n {race.get('special', 'None')}")
-    lines.append(f"{{c{'='*60}{{n")
     return "\n".join(lines)
 
 

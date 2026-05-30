@@ -1,0 +1,46 @@
+[
+  {
+    "timestamp": "2026-05-28T15:26:34.918126",
+    "all_ok": false,
+    "results": {
+      "SSH Key Access": {
+        "ok": true,
+        "message": "SSH key access working"
+      },
+      "Cloudflare API": {
+        "ok": false,
+        "message": "Cloudflare token invalid (HTTP 401), expires 2027-07-01"
+      },
+      "Evennia Server": {
+        "ok": true,
+        "message": "Evennia processes running"
+      },
+      "Network Ports": {
+        "ok": true,
+        "message": "All ports open"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-05-28T15:37:23.074049",
+    "all_ok": true,
+    "results": {
+      "SSH Key Access": {
+        "ok": true,
+        "message": "SSH key access working"
+      },
+      "Cloudflare API": {
+        "ok": true,
+        "message": "Cloudflare token valid"
+      },
+      "Evennia Server": {
+        "ok": true,
+        "message": "Evennia processes running"
+      },
+      "Network Ports": {
+        "ok": true,
+        "message": "All ports open"
+      }
+    }
+  }
+]

@@ -139,22 +139,37 @@ class CmdIOMCreate(COMMAND_DEFAULT_CLASS):
             from evennia import create_object, search_object
             from typeclasses.characters import Character
 
-            # Find Adventurer Guild for home location
-            adv_guild = search_object("Adventurer's Guild of Illium", typeclass="typeclasses.rooms.Room")
-            if not adv_guild:
-                adv_guild = search_object("Adventurer Guild", typeclass="typeclasses.rooms.Room")
-            if not adv_guild:
-                adv_guild = search_object("Guild", typeclass="typeclasses.rooms.Room")
+            # Find or create Hall of Races for starting location
+            from evennia import create_object
+            from typeclasses.rooms import Room
             
-            start_location = adv_guild[0] if adv_guild else None
+            hall_of_races = search_object("Hall of Races", typeclass="typeclasses.rooms.Room")
+            if hall_of_races:
+                start_location = hall_of_races[0]
+            else:
+                # Create Hall of Races
+                start_location = create_object(Room, key="Hall of Races")
+                start_location.db.desc = (
+                    "This is the Hall of Races in the space outside the world.\n"
+                    "The only way out of this void is to select the race you wish\n"
+                    "to represent in the world of Islands of Myth.\n\n"
+                    "In this hall, every race has a statue, and you feel that you can do these things:\n"
+                    "  |yall races|n      — To get a list of available races\n"
+                    "  |ytouch <race>|n   — To touch the statue of <race> and enter the world\n"
+                    "  |yla <race>|n     — To examine <race>'s statue and learn more info\n"
+                    "  |yread poster|n   — To see which races are best for which guilds\n"
+                    "  |yread sign|n     — You're lost and need additional help\n"
+                )
+                start_location.db.island = "chargen"
             
             char = create_object(Character, key=name, location=start_location)
             if char:
-                char.db.race = "Human"
-                char.db.island = "Gossamer"
-                # Set home to Adventurer Guild so they always start there
-                if start_location:
-                    char.db.home = start_location
+                # Don't set race yet — player must choose in Hall of Races
+                char.db.race = None
+                char.db.race_name = None
+                char.db.island = "chargen"
+                # Set home to Hall of Races initially
+                char.db.home = start_location
                 # Grant puppet permission — allow this account to puppet this char
                 # pid() checks the puppeting account's id
                 char.locks.add(f"puppet:pid({account.id}) or puppet:all()")
@@ -173,10 +188,10 @@ class CmdIOMCreate(COMMAND_DEFAULT_CLASS):
                 if start_location:
                     char.move_to(start_location)
                 else:
-                    # Fallback: any room with "Guild"
-                    start_location = search_object("Guild", typeclass="typeclasses.rooms.Room")
-                    if start_location:
-                        char.move_to(start_location[0])
+                    # Fallback: any room
+                    fallback = search_object("Hall of Races", typeclass="typeclasses.rooms.Room")
+                    if fallback:
+                        char.move_to(fallback[0])
                     else:
                         # Last resort: Limbo
                         limbo = search_object("Limbo", typeclass="typeclasses.rooms.Room")
@@ -186,7 +201,9 @@ class CmdIOMCreate(COMMAND_DEFAULT_CLASS):
             session.msg(f"\n|gWelcome, {name}! Your character has been created.|n")
             if start_location:
                 session.msg(f"|gYou awaken in {start_location.key}.|n")
-                session.msg("|gType LOOK to see your surroundings, or NORTH/SOUTH/EAST/WEST to move.|n\n")
+                session.msg("|gType LOOK to see your surroundings.|n")
+                session.msg("|gUse 'all races' to see available races, then 'touch <race>' to choose.|n")
+                session.msg("|gUse 'la <race>' to examine a race before choosing.|n\n")
 
         except Exception as e:
             import traceback

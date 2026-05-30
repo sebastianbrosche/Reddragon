@@ -1,81 +1,109 @@
 #!/bin/bash
 #
-# Miha Backup Script - Backs up Red Dragon MUD to Google Drive
+# Miha Backup Script - Backs up workspace to Git (originally Google Drive via rclone)
 # Triggered by "good night" or manual execution
+# Changed 2026-05-30: Switched from Google Drive to Git
 #
 
-BACKUP_DIR="/tmp/miha_backup"
-GDRIVE_FOLDER="KIMIMIHA"
-PROJECT_DIR="/root/.openclaw/workspace/reddragon"
+PROJECT_DIR="/root/.openclaw/workspace"
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
-BACKUP_NAME="miha_backup_${TIMESTAMP}.tar.gz"
+COMMIT_MSG="backup: ${TIMESTAMP}"
 
-echo "=== Miha Backup System ==="
+# Color codes for output
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+YELLOW='\033[1;33m'
+NC='\033[0m' # No Color
+
+echo "=== Miha Git Backup System ==="
 echo "Timestamp: $(date)"
 echo "Project: ${PROJECT_DIR}"
-echo "Target: Google Drive /${GDRIVE_FOLDER}/${BACKUP_NAME}"
+echo "Target: Git remote origin"
 echo ""
 
-# Check if rclone is configured
-if ! rclone listremotes 2>/dev/null | grep -q "gdrive"; then
-    echo "ERROR: Google Drive not configured."
-    echo "Run: rclone config (choose Google Drive, name it 'gdrive')"
-    echo "Or use the web auth: rclone authorize 'drive'"
+# Check if Git repo exists
+cd "${PROJECT_DIR}"
+
+if ! git rev-parse --git-dir > /dev/null 2>&1; then
+    echo -e "${RED}ERROR: Not a Git repository.${NC}"
+    echo "Run: git init && git remote add origin <url>"
     exit 1
 fi
 
-# Create backup directory
-mkdir -p "${BACKUP_DIR}"
+# Check if remote is configured
+REMOTE_URL=$(git remote get-url origin 2>/dev/null)
+if [ -z "${REMOTE_URL}" ]; then
+    echo -e "${RED}ERROR: No Git remote configured.${NC}"
+    exit 1
+fi
 
-# Package the project
-echo "[1/4] Packaging Red Dragon MUD..."
-tar czf "${BACKUP_DIR}/${BACKUP_NAME}" \
-    -C "$(dirname ${PROJECT_DIR})" \
-    --exclude='*.pyc' \
-    --exclude='__pycache__' \
-    --exclude='evennia.db3' \
-    --exclude='server/logs' \
-    --exclude='server/.static' \
-    --exclude='*.pid' \
-    --exclude='*.log' \
-    "$(basename ${PROJECT_DIR})"
+# Hide the token in output
+SAFE_URL=$(echo "${REMOTE_URL}" | sed 's/https:\/\/[^@]*@/https:\/\/***@/')
+echo "Remote: ${SAFE_URL}"
+echo ""
+
+# Check if there are any changes to commit
+# - Staged changes
+# - Unstaged changes
+# - Untracked files (respecting .gitignore)
+HAS_CHANGES=0
+
+if ! git diff --cached --quiet 2>/dev/null; then
+    HAS_CHANGES=1
+    echo "[ ] Staged changes found"
+fi
+
+if ! git diff --quiet 2>/dev/null; then
+    HAS_CHANGES=1
+    echo "[ ] Unstaged changes found"
+fi
+
+if [ -n "$(git ls-files --others --exclude-standard)" ]; then
+    HAS_CHANGES=1
+    echo "[ ] New untracked files found"
+fi
+
+if [ ${HAS_CHANGES} -eq 0 ]; then
+    echo -e "${GREEN}No changes to back up. Everything is up to date.${NC}"
+    echo "=== BACKUP COMPLETE (no changes) ==="
+    exit 0
+fi
+
+echo ""
+
+# Stage all changes (respects .gitignore)
+echo "[1/3] Staging changes..."
+git add -A
+STAGED_COUNT=$(git diff --cached --numstat | wc -l)
+echo "    ${STAGED_COUNT} file(s) staged"
+
+# Commit
+echo "[2/3] Committing..."
+git commit -m "${COMMIT_MSG}" --quiet
 
 if [ $? -ne 0 ]; then
-    echo "ERROR: Failed to create backup archive"
+    echo -e "${RED}ERROR: Git commit failed${NC}"
     exit 1
 fi
 
-echo "[2/4] Archive created: ${BACKUP_NAME}"
-echo "[3/4] Size: $(du -h ${BACKUP_DIR}/${BACKUP_NAME} | cut -f1)"
+COMMIT_HASH=$(git rev-parse --short HEAD)
+echo "    Commit: ${COMMIT_HASH}"
 
-# Ensure KIMIMIHA folder exists and upload
-echo "[4/4] Uploading to Google Drive..."
-rclone mkdir "gdrive:${GDRIVE_FOLDER}" 2>/dev/null
-
-rclone copy "${BACKUP_DIR}/${BACKUP_NAME}" "gdrive:${GDRIVE_FOLDER}/" \
-    --progress \
-    --drive-keep-revision-forever=false
+# Push
+echo "[3/3] Pushing to origin..."
+BRANCH=$(git branch --show-current)
+git push origin "${BRANCH}" --quiet
 
 if [ $? -eq 0 ]; then
     echo ""
-    echo "=== BACKUP COMPLETE ==="
-    echo "File: ${BACKUP_NAME}"
-    echo "Location: Google Drive /${GDRIVE_FOLDER}/"
+    echo -e "${GREEN}=== BACKUP COMPLETE ===${NC}"
+    echo "Commit: ${COMMIT_HASH}"
+    echo "Branch: ${BRANCH}"
+    echo "Message: ${COMMIT_MSG}"
     echo "Time: $(date)"
     echo "========================"
-    
-    # Clean up old local backups (keep last 5)
-    ls -t ${BACKUP_DIR}/miha_backup_*.tar.gz 2>/dev/null | tail -n +6 | xargs rm -f 2>/dev/null
-    
-    # Clean up old Google Drive backups (keep last 10)
-    rclone delete "gdrive:${GDRIVE_FOLDER}" --drive-trashed-only --drive-use-trash=false 2>/dev/null
-    OLD_BACKUPS=$(rclone ls "gdrive:${GDRIVE_FOLDER}" 2>/dev/null | grep "miha_backup_" | sort -r | tail -n +11 | awk '{print $2}')
-    for old in $OLD_BACKUPS; do
-        rclone delete "gdrive:${GDRIVE_FOLDER}/${old}" 2>/dev/null
-    done
-    
     exit 0
 else
-    echo "ERROR: Upload failed"
+    echo -e "${RED}ERROR: Git push failed${NC}"
     exit 1
 fi

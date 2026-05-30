@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-21T21:58:26.814Z",
+  "updatedAt": "2026-05-27T18:05:27.565Z",
   "entries": {
     "memory:memory/2026-05-14.md:1:30": {
       "key": "memory:memory/2026-05-14.md:1:30",
@@ -143,19 +143,23 @@
       "endLine": 28,
       "source": "memory",
       "snippet": "# Memory - 2026-05-18 ## MUD Development - Red Dragon / Darkstaff ### Name Change - New MUD name: **Darkstaff** (named after creator of original MUD) - Was previously calling it \"Red Dragon MUD\" in codebase - Need to update all references in files ### Character Status - emalz - **FROZEN** by IOM admins for \"fix your reconnect\" - anti-bot detection triggered - Character: Emalz, Kobold Warrior, Level 6 - XP: 1,276 (needs 842 for Level 7) - Freeze timestamp said \"until Sun May 17 19:48:36 2026\" but still frozen as of this session - **Cannot bot/grind until resolved** ### Subagent Issues - Rapid scripted reconnections triggered IOM's anti-bot protection - \"You are taken over by yourself, or",
-      "recallCount": 2,
+      "recallCount": 4,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.7388854026794434,
-      "maxScore": 0.3812136441469192,
+      "totalScore": 1.5084630966186523,
+      "maxScore": 0.40536923706531525,
       "firstRecalledAt": "2026-05-20T21:18:05.738Z",
-      "lastRecalledAt": "2026-05-20T21:18:14.991Z",
+      "lastRecalledAt": "2026-05-27T17:55:45.536Z",
       "queryHashes": [
         "47fe81007e9d",
-        "b7250cc60b34"
+        "b7250cc60b34",
+        "37ca1d542c09",
+        "7054e97d7b4f"
       ],
       "recallDays": [
-        "2026-05-21"
+        "2026-05-21",
+        "2026-05-26",
+        "2026-05-28"
       ],
       "conceptTags": [
         "anti-bot",
@@ -175,18 +179,20 @@
       "endLine": 39,
       "source": "memory",
       "snippet": "- Stopped server, updated `settings.py`: - `SERVERNAME = \"Red Dragon\"` - `TELNET_PORTS = [3001]` - `WEBSERVER_PORTS = [(3000, 4005)]` - `WEBSOCKET_CLIENT_PORT = 3002` - Restarted successfully. Both Portal and Server RUNNING. - Web responding on 3000 (HTTP 200 confirmed) - Scraped Islands of Myth website for placeholder content: - 14 guilds with names and subclass trees (Warrior, Martial Artist, Acrobat, Abjurer, Elemental, Psychics, Evoker, Necromancer, Weaver, Unraveller, Druid, Shapeshifter, Woodsman, Lurker) - 27 races listed (Human and Elf fully described with stat blocks; rest as names-only placeholders) - 10 map names - Compiled into `/root/.openclaw/workspace/mud/CONTENT",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.35196564495563504,
-      "maxScore": 0.35196564495563504,
+      "totalScore": 0.7166622221469878,
+      "maxScore": 0.36469657719135284,
       "firstRecalledAt": "2026-05-20T21:18:05.780Z",
-      "lastRecalledAt": "2026-05-20T21:18:05.780Z",
+      "lastRecalledAt": "2026-05-26T08:24:32.903Z",
       "queryHashes": [
-        "95e33dc9fe7c"
+        "95e33dc9fe7c",
+        "37ca1d542c09"
       ],
       "recallDays": [
-        "2026-05-21"
+        "2026-05-21",
+        "2026-05-26"
       ],
       "conceptTags": [
         "settings.py",
@@ -237,18 +243,20 @@
       "endLine": 131,
       "source": "memory",
       "snippet": "- **Screenshot reviewed by Sebastian and Miha:** Pricing page mockup for Yoga for BJJ - **Sebastian's feedback:** $8 pricing misleading, remove checkout text, no green, fix URLs - **Miha's critique sent to group chat:** 6 specific issues flagged — red on Lifetime (dark pattern), \"BEST VALUE\" badge wrong, bait-and-switch text, math contradiction, CTA mismatch, missing plan features - **Status:** Sarah fixing in her topic, will repost for Miha review --- ## 19:30 — Islands of Myth MUD Archive Mission **Character:** Sebbe the Snakeman, Disciples guild, Level 157 **Server:** islandsofmyth.org:3000 (LIMA mudlib) **Archive:** /root/.openclaw/workspace/mud/iom_sebbe_archive/ — 247 files, 1.2MB *",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.35531508326530453,
-      "maxScore": 0.35531508326530453,
+      "totalScore": 0.7162395030260085,
+      "maxScore": 0.360924419760704,
       "firstRecalledAt": "2026-05-21T21:58:26.814Z",
-      "lastRecalledAt": "2026-05-21T21:58:26.814Z",
+      "lastRecalledAt": "2026-05-26T07:26:11.061Z",
       "queryHashes": [
-        "727f3263fe28"
+        "727f3263fe28",
+        "95347b39350c"
       ],
       "recallDays": [
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-26"
       ],
       "conceptTags": [
         "bait-and-switch",
@@ -259,6 +267,413 @@
         "sebastian",
         "miha",
         "pricing"
+      ]
+    },
+    "memory:memory/2026-05-21.md:29:68": {
+      "key": "memory:memory/2026-05-21.md:29:68",
+      "path": "memory/2026-05-21.md",
+      "startLine": 29,
+      "endLine": 68,
+      "source": "memory",
+      "snippet": "**Next:** Need to connect a custom .org domain (rcp-housing.org or similar) **Note:** Used `cfut_YKTQuAMClyldwvmASE2dtBZ3z0LzDOvrfemTdH7V21836a51` token for Pages deployment. Project: `rcp-housing` ## Darkstaff MUD — Server restarted - Evennia running on port 3000 - Account: darkstaff / creative (superuser, reset today) - Port 3000 not open externally — SSH tunnel or Alibaba rule needed - User couldn't get SSH tunnel working (no SSH password, Git Bash issues) - Attempted aliyun-cli install to add security group rule — no credentials - Suggested Alibaba console as only real solution ## Memory Updated - Added RCP project to MEMORY.md - Created `rcp/` directory with website plan --- ## IOM",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7422556191682814,
+      "maxScore": 0.37161458432674405,
+      "firstRecalledAt": "2026-05-24T20:26:12.372Z",
+      "lastRecalledAt": "2026-05-27T18:05:27.565Z",
+      "queryHashes": [
+        "107bf8eda5ff",
+        "816fc67f3b00"
+      ],
+      "recallDays": [
+        "2026-05-25",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "rcp-housing.org",
+        "rcp-housing",
+        "aliyun-cli",
+        "memory.md",
+        "need",
+        "connect",
+        "custom",
+        "org"
+      ]
+    },
+    "memory:memory/2026-05-16.md:86:110": {
+      "key": "memory:memory/2026-05-16.md:86:110",
+      "path": "memory/2026-05-16.md",
+      "startLine": 86,
+      "endLine": 110,
+      "source": "memory",
+      "snippet": "- **Action needed:** Sebastian to specify which property + provide real tracking IDs, or add bots in Google Cloud Console --- *End of day log. Standing by for Adam's YTT fixes, Sarah's revised mockup, and Sebastian's GA instructions.* ### Cloudflare Tokens (from buffered messages 5-7) - **Account API:** `cfat_gZPIL52Ki9lcyFid6No89Vf8Wj2h2YJixAdm4Dmp90016b9b` — TESTED, works for DNS/Pages/zone - **Worker API:** `cfut_FWdCjiaC5zFf1rKDt67IQijs7G29pft97GF8dZL4857eec98` — TESTED, works for Workers/KV/R2 - **Miha confirmed:** Both tokens saved to TOOLS.md ### bsport Testing Phase - Sebastian wants Miha and Sarah to test Adam's bsport skills with hypothetical member questions - Examples: lateco",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7560214549303055,
+      "maxScore": 0.40270585417747495,
+      "firstRecalledAt": "2026-05-24T20:26:12.372Z",
+      "lastRecalledAt": "2026-05-27T18:05:27.565Z",
+      "queryHashes": [
+        "107bf8eda5ff",
+        "816fc67f3b00"
+      ],
+      "recallDays": [
+        "2026-05-25",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "5-7",
+        "dns/pages/zone",
+        "workers/kv/r2",
+        "tools.md",
+        "action",
+        "needed",
+        "sebastian",
+        "specify"
+      ]
+    },
+    "memory:memory/2026-05-26.md:26:49": {
+      "key": "memory:memory/2026-05-26.md:26:49",
+      "path": "memory/2026-05-26.md",
+      "startLine": 26,
+      "endLine": 49,
+      "source": "memory",
+      "snippet": "## Login Flow Fully Fixed & Verified (2026-05-26 ~11:20) **All login issues resolved on Hetzner server 178.105.198.32:3000.** 1. **Account typeclass fixed** — `typeclasses/accounts.py` overridden to suppress auto-puppet RuntimeError for new accounts without characters. Eliminated \"The Character does not exist.\" noise on login. 2. **AccountCmdSet populated** — `commands/account.py` rebuilt with full command set: `charcreate`, `chardelete`, `ic`, `ooc`, `who`, `sessions`, `option`, `style`, `colortest`, `quell`, `password`, `quit`, `ooiclook`. Root cause: `CMDSET_ACCOUNT` in settings.py pointed to a custom empty cmdset. 3. **Full new-account flow verified**: - `testuser205` + `1234abcd`",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.3660162210464477,
+      "maxScore": 0.3660162210464477,
+      "firstRecalledAt": "2026-05-26T07:42:55.902Z",
+      "lastRecalledAt": "2026-05-26T07:42:55.902Z",
+      "queryHashes": [
+        "1d2c59cc9b20"
+      ],
+      "recallDays": [
+        "2026-05-26"
+      ],
+      "conceptTags": [
+        "178.105.198.32",
+        "typeclasses/accounts.py",
+        "auto-puppet",
+        "commands/account.py",
+        "cmdset-account",
+        "settings.py",
+        "new-account",
+        "login"
+      ]
+    },
+    "memory:memory/2026-05-24.md:148:173": {
+      "key": "memory:memory/2026-05-24.md:148:173",
+      "path": "memory/2026-05-24.md",
+      "startLine": 148,
+      "endLine": 173,
+      "source": "memory",
+      "snippet": "- Area spawn system: lobelands, yensid_land, darkcaverns, forest, dungeon, etc. - Boss monsters: dragon (Lv25), lich (Lv20), demon (Lv15) - Damage rolls from dice strings (e.g., \"1d6+2\", \"3d10+10\") **Complete Guild Database - MASSIVE ACHIEVEMENT:** - Subagent fetched 130 guild pages from islandsofmyth.org (21m38s runtime) - `reddragon/world/guild_database.py` - 130 guilds in 14 trees, 699 skills + 587 spells = 1,286 entries - `reddragon/docs/guilds/*.md` - 130 individual guild documentation files - 8 placeholder guilds returned \"Unable to find guild\" (no data on server): blade_dancer, champion_of_the_crown, defender_of_the_crown, dragonfist, fighter, mystic, shield_master, warriors - Helper",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.397461262345314,
+      "maxScore": 0.397461262345314,
+      "firstRecalledAt": "2026-05-26T08:24:32.903Z",
+      "lastRecalledAt": "2026-05-26T08:24:32.903Z",
+      "queryHashes": [
+        "37ca1d542c09"
+      ],
+      "recallDays": [
+        "2026-05-26"
+      ],
+      "conceptTags": [
+        "yensid-land",
+        "e.g",
+        "islandsofmyth.org",
+        "reddragon/docs/guilds",
+        "blade-dancer",
+        "champion-of-the-crown",
+        "defender-of-the-crown",
+        "shield-master"
+      ]
+    },
+    "memory:memory/2026-05-24.md:124:153": {
+      "key": "memory:memory/2026-05-24.md:124:153",
+      "path": "memory/2026-05-24.md",
+      "startLine": 124,
+      "endLine": 153,
+      "source": "memory",
+      "snippet": "- `typeclasses/ferry.py` - Ferry boat typeclass with scheduled departures - `world/ferries.py` - 11 ferry routes connecting all island domains - Route examples: Gossamer↔Blackavar (15g/20s), Gossamer↔Twin Islands (10g/15s) - Docks built at each island, ferry NPCs announce departures - Git commit: `765d01a feat(ferries): Island ferry system with docks and routes` **Character Roll System:** - `commands/chargen_roll.py` - `roll`/`reroll`/`accept` commands - Unlimited rerolls (user changed from 3 to unlimited) - Stats: str/int/wis/con/dex/cha (3-18 each, random) - Exp rate: 50-150% based on total stats vs average of 60 - Formula: 100 - ((total - 60) × 2), clamped 50-150% - Higher stats = slower",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.373526468873024,
+      "maxScore": 0.373526468873024,
+      "firstRecalledAt": "2026-05-26T08:24:32.903Z",
+      "lastRecalledAt": "2026-05-26T08:24:32.903Z",
+      "queryHashes": [
+        "37ca1d542c09"
+      ],
+      "recallDays": [
+        "2026-05-26"
+      ],
+      "conceptTags": [
+        "typeclasses/ferry.py",
+        "world/ferries.py",
+        "15g/20s",
+        "10g/15s",
+        "commands/chargen-roll.py",
+        "str/int/wis/con/dex/cha",
+        "3-18",
+        "50-150"
+      ]
+    },
+    "memory:memory/2026-05-25.md:1:39": {
+      "key": "memory:memory/2026-05-25.md:1:39",
+      "path": "memory/2026-05-25.md",
+      "startLine": 1,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "## 2026-05-25 03:49 - Bot Fleet Expanded to 15, Ticks Accelerated to 5s **User requested:** \"More bots 5 seconds ticks.\" **Actions taken:** 1. Launched 10 additional bots via `create_bot()` directly (5 new + 5 more = total 15) 2. Updated `typeclasses/scripts/bot_tick.py`: - Class attribute `interval = 5` (was 15) - `at_script_creation()` sets `self.interval = 5` - `start_bot_tick()` passes `interval=5` to `create_script()` 3. Restarted tick script — confirmed `db_interval=5`, `db_is_active=True` **Bot Fleet (15 total):** - Eta: 5 rooms | 125 XP - Theta: 5 rooms | 125 XP - Iota: 5 rooms | 125 XP - Kappa: 6 rooms | 150 XP - Lambda: 6 rooms | 150 XP - Mu, Nu, Xi, Omicron, Pi, Rh",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.3710628777742386,
+      "maxScore": 0.3710628777742386,
+      "firstRecalledAt": "2026-05-26T08:24:32.903Z",
+      "lastRecalledAt": "2026-05-26T08:24:32.903Z",
+      "queryHashes": [
+        "37ca1d542c09"
+      ],
+      "recallDays": [
+        "2026-05-26"
+      ],
+      "conceptTags": [
+        "create-bot",
+        "typeclasses/scripts/bot-tick.py",
+        "at-script-creation",
+        "self.interval",
+        "start-bot-tick",
+        "create-script",
+        "db-interval",
+        "db-is-active"
+      ]
+    },
+    "memory:memory/2026-05-24.md:45:69": {
+      "key": "memory:memory/2026-05-24.md:45:69",
+      "path": "memory/2026-05-24.md",
+      "startLine": 45,
+      "endLine": 69,
+      "source": "memory",
+      "snippet": "- Dynamic achievement generation: creates titles, descriptions, rewards (XP, gold, stat boosts, items) on the fly - Triggers: creative quest solutions, first discoveries, creative combat, social mastery, easter eggs - Commands: `divine status`, `pray`, `achievements` (player); `divine log`, `divine force`, `divine personality` (admin) - File: `commands/ai_dm_commands.py` - Command set for interacting with the AI DM **Chat System + Version:** - File: `commands/utility.py` - `chat <msg>` broadcasts to all players, `on chat`/`off chat` toggle - `version` command shows build info (v0.4.0) and active feature list **MUD IP / x.eu Pointing:** - Server IP: 47.237.80.25 - **Problem:** Only port 22",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.35552146732807155,
+      "maxScore": 0.35552146732807155,
+      "firstRecalledAt": "2026-05-26T08:24:32.903Z",
+      "lastRecalledAt": "2026-05-26T08:24:32.903Z",
+      "queryHashes": [
+        "37ca1d542c09"
+      ],
+      "recallDays": [
+        "2026-05-26"
+      ],
+      "conceptTags": [
+        "commands/ai-dm-commands.py",
+        "commands/utility.py",
+        "v0.4.0",
+        "x.eu",
+        "47.237.80.25",
+        "dynamic",
+        "achievement",
+        "generation"
+      ]
+    },
+    "memory:memory/2026-05-25.md:32:64": {
+      "key": "memory:memory/2026-05-25.md:32:64",
+      "path": "memory/2026-05-25.md",
+      "startLine": 32,
+      "endLine": 64,
+      "source": "memory",
+      "snippet": "- Download ZIP: https://74e032cb.rcp-housing.pages.dev/reddragon-windows.zip ### Sebastian's Install - Has Python 3.11 installed (not 3.12, despite what he thought) - Evennia `pip install` succeeded - `evennia` command not in PATH → used `python -m evennia` instead - Database migration completed successfully - Created superuser account - Server running on localhost:3000 (telnet) and localhost:8000 (web) ### Fixes Applied During Session 1. **Connection screen missing** → Added `CONNECTION_SCREEN` string to `commands/unloggedin.py` 2. **Password validation blocking simple passwords** → Added `AUTH_PASSWORD_VALIDATORS = []` to `settings.py` ### Web Client - Standalone HTML client deployed at",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4318628340959549,
+      "maxScore": 0.4318628340959549,
+      "firstRecalledAt": "2026-05-26T19:28:37.591Z",
+      "lastRecalledAt": "2026-05-26T19:28:37.591Z",
+      "queryHashes": [
+        "22b8eed9b2b5"
+      ],
+      "recallDays": [
+        "2026-05-27"
+      ],
+      "conceptTags": [
+        "3.11",
+        "3.12",
+        "connection-screen",
+        "commands/unloggedin.py",
+        "auth-password-validators",
+        "settings.py",
+        "download",
+        "zip"
+      ]
+    },
+    "memory:memory/2026-05-27.md:1:39": {
+      "key": "memory:memory/2026-05-27.md:1:39",
+      "path": "memory/2026-05-27.md",
+      "startLine": 1,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "Movement is now working! The issue was that `testcombat1` and `darkstaff` had `location=None` (limbo). After moving them to Adventurer Guild Entrance: - `east` / `e` → Adventurers Leveling Place ✓ - `west` / `w` → Plaque Rooms ✓ (from Guild Entrance) - `south` / `s` → Myth Room ✓ - `north` / `n` → Cloud Road ✓ (from Guild Entrance) - `northeast` / `ne` → Silent Room ✓ - `southwest` / `sw` → Portal Room ✓ Now I need to fix the ROOT CAUSES: 1. `CmdMove` collides with `CmdWho` (both claim alias \"w\") - remove `CmdMove` since exits handle movement 2. New characters need to be placed in a starting room Sebastian — the movement fix is confirmed. What's next? --- ## Additional Fixes Applied (20",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7428438018705341,
+      "maxScore": 0.7428438018705341,
+      "firstRecalledAt": "2026-05-27T17:55:45.536Z",
+      "lastRecalledAt": "2026-05-27T17:55:45.536Z",
+      "queryHashes": [
+        "7054e97d7b4f"
+      ],
+      "recallDays": [
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "movement",
+        "now",
+        "working",
+        "the",
+        "issue",
+        "was",
+        "testcombat1",
+        "darkstaff"
+      ]
+    },
+    "memory:memory/2026-05-21.md:92:109": {
+      "key": "memory:memory/2026-05-21.md:92:109",
+      "path": "memory/2026-05-21.md",
+      "startLine": 92,
+      "endLine": 109,
+      "source": "memory",
+      "snippet": "Cloudflare Tunnel (http://localhost:8765) ↕ ws://localhost:8765 Python Relay (mud-relay.py) ↕ telnet Islands of Myth (islandsofmyth.org:3000) ``` **Server processes running:** - python3 /root/.openclaw/workspace/rcp/mud-relay.py (PID 132215) — connects to IOM - cloudflared tunnel --url http://localhost:8765 (PID 132718) — public WebSocket bridge **Session log:** /tmp/iom-session.log (Miha reads this to observe gameplay) **GitHub:** Local repo exists at /root/.openclaw/workspace/rcp/website/ — waiting for GitHub token to push **Note:** Tunnel URL is temporary. If server restarts, new URL will be generated. Client page must be redeployed with new URL.",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.38415628075599667,
+      "maxScore": 0.38415628075599667,
+      "firstRecalledAt": "2026-05-27T18:05:27.565Z",
+      "lastRecalledAt": "2026-05-27T18:05:27.565Z",
+      "queryHashes": [
+        "816fc67f3b00"
+      ],
+      "recallDays": [
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "mud-relay.py",
+        "islandsofmyth.org",
+        "tmp/iom-session.log",
+        "openclaw/workspace/rcp/website",
+        "cloudflare",
+        "tunnel",
+        "http",
+        "localhost"
+      ]
+    },
+    "memory:memory/2026-05-23.md:19:57": {
+      "key": "memory:memory/2026-05-23.md:19:57",
+      "path": "memory/2026-05-23.md",
+      "startLine": 19,
+      "endLine": 57,
+      "source": "memory",
+      "snippet": "- Evennia Web Client: https://hamilton-physics-promotional-requiring.trycloudflare.com/webclient/ - Custom Client: https://b073071f.rcp-housing.pages.dev/mud-client.html - Evennia Web Portal: https://hamilton-physics-promotional-requiring.trycloudflare.com/ **Architecture:** Browser → Cloudflare Tunnel → nginx (8080) → Evennia - / → Evennia web server (3000) - /ws → Evennia websocket (3002) **WARNING:** Tunnel URL is temporary. If server/tunnel restarts, URL changes and BOTH clients break. Need x.eu or named tunnel for permanence. --- ## Login Flow Fixes — Puppet & Name Restrictions (21:32–22:26) **User reported 5 issues after logging in:** 1. Password restrictions showing even though",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.3775906056165695,
+      "maxScore": 0.3775906056165695,
+      "firstRecalledAt": "2026-05-27T18:05:27.565Z",
+      "lastRecalledAt": "2026-05-27T18:05:27.565Z",
+      "queryHashes": [
+        "816fc67f3b00"
+      ],
+      "recallDays": [
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "server/tunnel",
+        "x.eu",
+        "evennia",
+        "web",
+        "client",
+        "https",
+        "hamilton",
+        "physics"
+      ]
+    },
+    "memory:memory/2026-05-24.md:100:129": {
+      "key": "memory:memory/2026-05-24.md:100:129",
+      "path": "memory/2026-05-24.md",
+      "startLine": 100,
+      "endLine": 129,
+      "source": "memory",
+      "snippet": "- rclone installed (v1.74.2), remote 'gdrive' created - `backup_miha.sh` and `setup_gdrive_backup.sh` scripts created - Local backups working: `/tmp/miha_backup/miha_backup_YYYYMMDD_HHMMSS.tar.gz` - Upload fails: `empty token found - please run \"rclone config reconnect gdrive:\"` - **Blocker:** Headless server cannot complete browser-based OAuth flow - **User action needed:** Run `rclone config` on server, visit auth URL on phone, paste code back - Backup trigger phrase: \"good night\" — wired into MUD via `at_say` hook in `typeclasses/rooms.py` - Retention: last 10 backups on Drive, last 5 locally - Backup excludes: *.pyc, __pycache__, evennia.db3, server/logs, server/.static, *.pid, *.log **",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.37581327855587005,
+      "maxScore": 0.37581327855587005,
+      "firstRecalledAt": "2026-05-27T18:05:27.565Z",
+      "lastRecalledAt": "2026-05-27T18:05:27.565Z",
+      "queryHashes": [
+        "816fc67f3b00"
+      ],
+      "recallDays": [
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "backup",
+        "backups",
+        "v1.74.2",
+        "backup-miha.sh",
+        "setup-gdrive-backup.sh",
+        "browser-based",
+        "at-say",
+        "typeclasses/rooms.py"
+      ]
+    },
+    "memory:memory/2026-05-23.md:1:27": {
+      "key": "memory:memory/2026-05-23.md:1:27",
+      "path": "memory/2026-05-23.md",
+      "startLine": 1,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "## Web Client Fix — COMPLETE (20:23) **Problem:** Custom MUD client stuck on \"Connection lost. Retrying...\" — websocket URL pointed to expired tunnel. **Root cause:** Cloudflare `cloudflared tunnel --url` creates temporary URLs that die when the process restarts. Evennia had crashed earlier, tunnel was restarted, URL changed. Custom client HTML still had old URL. **Fix applied:** 1. Updated custom client WS_URL to current tunnel: `wss://hamilton-physics-promotional-requiring.trycloudflare.com/ws` 2. Redeployed custom client to: https://b073071f.rcp-housing.pages.dev/mud-client.html 3. Verified Evennia built-in web client works: https://hamilton-physics-promotional-requiring.trycloudflar",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.3738635718822479,
+      "maxScore": 0.3738635718822479,
+      "firstRecalledAt": "2026-05-27T18:05:27.565Z",
+      "lastRecalledAt": "2026-05-27T18:05:27.565Z",
+      "queryHashes": [
+        "816fc67f3b00"
+      ],
+      "recallDays": [
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "ws-url",
+        "built-in",
+        "web",
+        "client",
+        "fix",
+        "complete",
+        "problem",
+        "custom"
       ]
     }
   }

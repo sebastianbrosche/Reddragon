@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Dragon MUD - Web Client</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #0a0a0a;
+            color: #c0c0c0;
+            font-family: 'Courier New', monospace;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        #header {
+            background: #1a1a2e;
+            padding: 8px 15px;
+            border-bottom: 2px solid #16213e;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #header h1 {
+            color: #e94560;
+            font-size: 18px;
+            text-shadow: 0 0 10px rgba(233, 69, 96, 0.5);
+        }
+        #status {
+            font-size: 12px;
+            padding: 4px 12px;
+            border-radius: 4px;
+            background: #333;
+        }
+        #status.connected { background: #1a5c1a; color: #5cff5c; }
+        #status.disconnected { background: #5c1a1a; color: #ff5c5c; }
+        #main {
+            flex: 1;
+            display: flex;
+            overflow: hidden;
+        }
+        #terminal {
+            flex: 1;
+            background: #0d1117;
+            padding: 10px;
+            overflow-y: auto;
+            font-size: 14px;
+            line-height: 1.5;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .ansi-30 { color: #4a4a4a; }
+        .ansi-31 { color: #ff5555; }
+        .ansi-32 { color: #55ff55; }
+        .ansi-33 { color: #ffff55; }
+        .ansi-34 { color: #5555ff; }
+        .ansi-35 { color: #ff55ff; }
+        .ansi-36 { color: #55ffff; }
+        .ansi-37 { color: #ffffff; }
+        .ansi-1 { font-weight: bold; }
+        #input-area {
+            display: flex;
+            padding: 10px;
+            background: #1a1a2e;
+            border-top: 2px solid #16213e;
+        }
+        #input-prompt {
+            color: #e94560;
+            padding: 8px 12px;
+            font-weight: bold;
+        }
+        #cmd-input {
+            flex: 1;
+            background: #0d1117;
+            border: 1px solid #333;
+            color: #c0c0c0;
+            padding: 8px 12px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            outline: none;
+        }
+        #cmd-input:focus { border-color: #e94560; }
+        #send-btn {
+            background: #e94560;
+            border: none;
+            color: white;
+            padding: 8px 20px;
+            margin-left: 8px;
+            cursor: pointer;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+        }
+        #send-btn:hover { background: #ff6b6b; }
+        .system-msg { color: #888; font-style: italic; }
+        .error-msg { color: #ff5555; }
+        #connect-panel {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #1a1a2e;
+            border: 2px solid #e94560;
+            padding: 30px;
+            border-radius: 8px;
+            z-index: 100;
+            text-align: center;
+            min-width: 300px;
+        }
+        #connect-panel h2 {
+            color: #e94560;
+            margin-bottom: 20px;
+        }
+        #connect-panel input {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            background: #0d1117;
+            border: 1px solid #333;
+            color: #c0c0c0;
+            font-family: 'Courier New', monospace;
+        }
+        #connect-panel button {
+            background: #e94560;
+            border: none;
+            color: white;
+            padding: 10px 30px;
+            margin-top: 15px;
+            cursor: pointer;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        #connect-panel button:hover { background: #ff6b6b; }
+        #connect-panel .note {
+            color: #888;
+            font-size: 12px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div id="connect-panel">
+        <h2>🔥 Red Dragon MUD</h2>
+        <input type="text" id="ws-url" placeholder="WebSocket URL (wss://...)" value="wss://regression-inform-supreme-met.trycloudflare.com">
+        <button onclick="connect()">CONNECT</button>
+        <div class="note">Evennia WebSocket Client v1.0<br>Leave URL as-is for default tunnel</div>
+    </div>
+
+    <div id="header">
+        <h1>🔥 RED DRAGON MUD</h1>
+        <span id="status" class="disconnected">DISCONNECTED</span>
+    </div>
+    <div id="main">
+        <div id="terminal"></div>
+    </div>
+    <div id="input-area">
+        <span id="input-prompt">&gt;</span>
+        <input type="text" id="cmd-input" autocomplete="off" spellcheck="false">
+        <button id="send-btn" onclick="sendCommand()">SEND</button>
+    </div>
+
+    <script>
+        let ws = null;
+        let cmdHistory = [];
+        let historyIndex = -1;
+        const terminal = document.getElementById('terminal');
+        const input = document.getElementById('cmd-input');
+        const status = document.getElementById('status');
+
+        function connect() {
+            const url = document.getElementById('ws-url').value;
+            
+            try {
+                ws = new WebSocket(url);
+                
+                ws.onopen = function() {
+                    status.textContent = 'CONNECTED';
+                    status.className = 'connected';
+                    document.getElementById('connect-panel').style.display = 'none';
+                    appendOutput('\n*** Connected to Red Dragon MUD ***\n', 'system-msg');
+                };
+                
+                ws.onmessage = function(event) {
+                    try {
+                        const data = JSON.parse(event.data);
+                        // Evennia format: ["cmdname", [args], {kwargs}]
+                        if (Array.isArray(data) && data.length >= 2) {
+                            const cmdname = data[0];
+                            const args = data[1];
+                            if (cmdname === 'text' && Array.isArray(args) && args.length > 0) {
+                                appendOutput(args[0]);
+                            } else {
+                                appendOutput(JSON.stringify(data));
+                            }
+                        } else {
+                            appendOutput(event.data);
+                        }
+                    } catch(e) {
+                        appendOutput(event.data);
+                    }
+                };
+                
+                ws.onclose = function() {
+                    status.textContent = 'DISCONNECTED';
+                    status.className = 'disconnected';
+                    appendOutput('\n*** Disconnected ***\n', 'error-msg');
+                    document.getElementById('connect-panel').style.display = 'block';
+                };
+                
+                ws.onerror = function(err) {
+                    appendOutput('\n*** Connection error ***\n', 'error-msg');
+                    console.error('WebSocket error:', err);
+                };
+            } catch(e) {
+                appendOutput('Error: ' + e.message, 'error-msg');
+            }
+        }
+
+        function appendOutput(text, className = '') {
+            const div = document.createElement('div');
+            div.innerHTML = ansiToHtml(String(text));
+            if (className) div.className = className;
+            terminal.appendChild(div);
+            terminal.scrollTop = terminal.scrollHeight;
+        }
+
+        function ansiToHtml(text) {
+            let html = text
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;');
+            
+            // ANSI color codes
+            const codes = [
+                ['\x1b[30m', '<span class="ansi-30">'],
+                ['\x1b[31m', '<span class="ansi-31">'],
+                ['\x1b[32m', '<span class="ansi-32">'],
+                ['\x1b[33m', '<span class="ansi-33">'],
+                ['\x1b[34m', '<span class="ansi-34">'],
+                ['\x1b[35m', '<span class="ansi-35">'],
+                ['\x1b[36m', '<span class="ansi-36">'],
+                ['\x1b[37m', '<span class="ansi-37">'],
+                ['\x1b[1m', '<span class="ansi-1">'],
+                ['\x1b[0m', '</span>'],
+                ['\x1b[22m', '</span>'],
+            ];
+            
+            for (const [code, tag] of codes) {
+                html = html.split(code).join(tag);
+            }
+            
+            // Clean up any remaining ANSI sequences
+            html = html.replace(/\x1b\[[0-9;]*m/g, '');
+            
+            return html;
+        }
+
+        function sendCommand() {
+            const cmd = input.value.trim();
+            if (!cmd || !ws || ws.readyState !== WebSocket.OPEN) return;
+            
+            // Evennia format: ["text", [cmd], {}]
+            ws.send(JSON.stringify(["text", [cmd], {}]));
+            cmdHistory.push(cmd);
+            historyIndex = cmdHistory.length;
+            input.value = '';
+        }
+
+        input.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') {
+                sendCommand();
+            } else if (e.key === 'ArrowUp') {
+                e.preventDefault();
+                if (historyIndex > 0) {
+                    historyIndex--;
+                    input.value = cmdHistory[historyIndex];
+                }
+            } else if (e.key === 'ArrowDown') {
+                e.preventDefault();
+                if (historyIndex < cmdHistory.length - 1) {
+                    historyIndex++;
+                    input.value = cmdHistory[historyIndex];
+                } else {
+                    historyIndex = cmdHistory.length;
+                    input.value = '';
+                }
+            }
+        });
+
+        // Auto-connect if URL in hash
+        if (window.location.hash) {
+            const hashUrl = window.location.hash.substring(1);
+            if (hashUrl.startsWith('ws')) {
+                document.getElementById('ws-url').value = hashUrl;
+                connect();
+            }
+        }
+    </script>
+</body>
+</html>

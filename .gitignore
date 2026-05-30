@@ -1,0 +1,68 @@
+# Miha Workspace Backup - Files to Ignore
+# Last updated: 2026-05-30
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.env
+.env.*
+
+# === Virtual Environments ===
+venv/
+env/
+evenv/
+mud/evenv/
+
+# === Runtime / Generated ===
+*.log
+*.pid
+*.db
+*.db3
+evennia.db3
+server/logs/
+server/.static/
+
+# === Secrets (NEVER commit these) ===
+.secrets/
+
+# === Temporary Downloads ===
+downloads/
+
+# === Large Archives ===
+reddragon_local_archived/
+reddragon_local_backup_*.tgz
+
+# === Cache ===
+.wrangler/cache/
+.openclaw/
+openclaw_cache/
+*.cache
+
+# === Node ===
+node_modules/
+package-lock.json
+yarn.lock
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Archives ===
+*.tar.gz
+*.zip
+*.tar
+
+# === Backups ===
+/tmp/miha_backup/

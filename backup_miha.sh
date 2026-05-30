@@ -80,6 +80,14 @@ git add -A
 STAGED_COUNT=$(git diff --cached --numstat | wc -l)
 echo "    ${STAGED_COUNT} file(s) staged"
 
+# Handle case where only submodules have changes (can't stage them)
+if [ ${STAGED_COUNT} -eq 0 ]; then
+    echo -e "${YELLOW}No staged changes. Submodule modifications detected (rcp/website).${NC}"
+    echo -e "${YELLOW}Skipping commit - submodule changes must be committed inside the submodule.${NC}"
+    echo "=== BACKUP COMPLETE (submodule changes only) ==="
+    exit 0
+fi
+
 # Commit
 echo "[3/4] Committing..."
 git commit -m "${COMMIT_MSG}" --quiet

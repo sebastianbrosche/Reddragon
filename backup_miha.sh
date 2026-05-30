@@ -71,14 +71,17 @@ fi
 
 echo ""
 
+echo "[1/4] Running secret sanitization..."
+python3 /root/.openclaw/workspace/scripts/sanitize_secrets.py || true
+
 # Stage all changes (respects .gitignore)
-echo "[1/3] Staging changes..."
+echo "[2/4] Staging changes..."
 git add -A
 STAGED_COUNT=$(git diff --cached --numstat | wc -l)
 echo "    ${STAGED_COUNT} file(s) staged"
 
 # Commit
-echo "[2/3] Committing..."
+echo "[3/4] Committing..."
 git commit -m "${COMMIT_MSG}" --quiet
 
 if [ $? -ne 0 ]; then
@@ -90,7 +93,7 @@ COMMIT_HASH=$(git rev-parse --short HEAD)
 echo "    Commit: ${COMMIT_HASH}"
 
 # Push
-echo "[3/3] Pushing to origin..."
+echo "[4/4] Pushing to origin..."
 BRANCH=$(git branch --show-current)
 git push origin "${BRANCH}" --quiet
 

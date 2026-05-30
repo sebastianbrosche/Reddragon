@@ -1,3 +1,16 @@
+## Backup Routine — CHANGED (2026-05-30)
+**Changed from:** Google Drive (rclone tarball)
+**Changed to:** Git commit + push to GitHub
+**Remote:** `https://github.com/sebastianbrosche/Reddragon.git`
+**Branch:** `master`
+**Script:** `backup_miha.sh` (updated to v2)
+**Cron:** Daily at 03:17 (off-peak)
+**Sanitization:** `scripts/sanitize_secrets.py` runs before every commit (redacts Cloudflare/GitHub tokens)
+**Excluded from backup:** `.secrets/`, `downloads/`, `mud/evenv/`, `reddragon_local_archived/`, large archives, `hestia-foundation/` (submodule), `rcp/website` (submodule)
+**Note:** All 17 secrets were sanitized from tracked files. Repository is clean. Push protection passes.
+
+---
+
 ## Cloudflare SUPER Token — SAVED (2026-05-28 21:50)
 **Token:** [REDACTED - Cloudflare token in .secrets/vault.yml]
 **Last 10 digits:** 1df41c90

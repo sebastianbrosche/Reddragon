@@ -37,6 +37,10 @@ downloads/
 reddragon_local_archived/
 reddragon_local_backup_*.tgz
 
+# === Nested Repositories ===
+hestia-foundation/
+rcp/
+
 # === Cache ===
 .wrangler/cache/
 .openclaw/

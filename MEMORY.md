@@ -24,6 +24,7 @@
 **Last 10 digits:** 1df41c90
 **Expires:** 2027-08-01
 **Permissions:** All accounts, all zones, all users — FULL
+**2FA Backup Codes:** 8 codes stored in `.secrets/vault.yml` under `cloudflare_2fa_backup_codes`
 **Saved to:**
 - `.secrets/vault.yml`
 - `scripts/access_bootstrap.py`

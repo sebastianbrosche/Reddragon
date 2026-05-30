@@ -1,3 +1,11 @@
+## Cloudflare Security Audit (2026-05-30)
+**Status:** Critical fixes complete. Report: `CLOUDFLARE_SECURITY_AUDIT.md`
+**Fixed:** SSL mode (4 zones), Always HTTPS (7 zones), Min TLS 1.2 (7 zones), HSTS (7 zones), DMARC duplicate, SPF records
+**Remaining:** Bot Fight Mode (7 zones, dashboard-only), MFA (4 users), security.txt (7 zones), AI bot blocking (12 issues)
+**Note:** yogaforbjj.net root is NOT proxied — traffic bypasses Cloudflare entirely. Consider enabling orange cloud.
+
+---
+
 ## Backup Routine — CHANGED (2026-05-30)
 **Changed from:** Google Drive (rclone tarball)
 **Changed to:** Git commit + push to GitHub

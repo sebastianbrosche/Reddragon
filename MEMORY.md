@@ -44,7 +44,35 @@
 **Pages URL:** https://bc391bfd.hestiafoundation.pages.dev
 **GitHub:** https://github.com/sebastianbrosche/hestia-foundation
 
-### Website Deployed — LIVE (8 pages)
+### Website Reinvention — COMPLETE (2026-05-31 06:40)
+**Status:** Complete redesign deployed to hestiafoundation.org
+**Approach:** Engineering-first, manifesto-style, heavily inspired by wikihouse.cc
+**Key changes:**
+- Single-page design with 8 numbered sections
+- Manifesto section: 4 problems (concrete trap, labor monopoly, proprietary lock-in, scale fallacy)
+- Open vs proprietary comparison table
+- System logic with EPAL pallet grid diagram
+- Standardized components table with exact specs, quantities, unit costs, sources
+- 10-day assembly timeline with hour-by-hour breakdown
+- Full cost transparency: €18,500 shell with itemized breakdown + bar charts
+- Logistics math: 2.5B pallets, €8-12 cost, 1 truck delivery, 320 hours, 4 tools
+- Live data promise with 20+ sensor types
+- Hestia mythology woven throughout (dignity, hearth, shelter)
+- Buckminster Fuller / Linux / open-source ethos
+- Dark/light alternating sections for visual rhythm
+- JetBrains Mono + Inter typography (engineering aesthetic)
+- Deployed: https://hestiafoundation.org (via GitHub → Cloudflare Pages)
+
+**User feedback incorporated:**
+- "€X/m²" prominently displayed (€493/m² shell, €595/m² complete)
+- "assembled in X hours" — 320 hours total, 10 days
+- Thermal performance: U-value 0.22 W/m²K
+- EPAL pallet geometry as core innovation
+- Modularity, logistics math, cost reduction mechanisms
+- Manifesto: why housing is broken, why local assembly matters, why open systems win
+- WikiHouse.cc distributed manufacturing ethos
+- Cost transparency with exact frame/insulation/foundation/labor/transport breakdowns
+- No vague humanitarian branding — engineering seriousness throughout
 - **Platform:** Cloudflare Pages, project: hestiafoundation
 - **Pages:** index.html, about.html, the-system.html, prototype.html, grants.html, partners.html, resources.html, contact.html + CSS + JS
 - **Custom domain:** hestiafoundation.org (verified working)

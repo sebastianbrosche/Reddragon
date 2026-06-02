@@ -1,0 +1,2557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>WordQuest - Language Adventure</title>
+  <style>
+    /* =====================================================================
+       RESET AND BASE STYLES
+       ===================================================================== */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+      overflow: hidden;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #1a1a2e;
+      color: #fff;
+      touch-action: manipulation;
+    }
+
+    #game-container {
+      width: 100%;
+      height: 100%;
+      max-width: 480px;
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* =====================================================================
+       SCREEN TRANSITIONS
+       ===================================================================== */
+    .screen {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      padding: 16px;
+      animation: fadeIn 0.3s ease-out;
+    }
+
+    .screen.active {
+      display: flex;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      25% { transform: translateX(-8px); }
+      75% { transform: translateX(8px); }
+    }
+
+    @keyframes pop {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    @keyframes glow {
+      0%, 100% { box-shadow: 0 0 10px rgba(255, 215, 0, 0.3); }
+      50% { box-shadow: 0 0 25px rgba(255, 215, 0, 0.7); }
+    }
+
+    @keyframes sparkle {
+      0% { transform: scale(0) rotate(0deg); opacity: 1; }
+      100% { transform: scale(1.5) rotate(180deg); opacity: 0; }
+    }
+
+    @keyframes damageFlash {
+      0% { background: transparent; }
+      50% { background: rgba(255, 0, 0, 0.3); }
+      100% { background: transparent; }
+    }
+
+    @keyframes lootShake {
+      0% { transform: rotate(0deg); }
+      25% { transform: rotate(-5deg); }
+      50% { transform: rotate(5deg); }
+      75% { transform: rotate(-3deg); }
+      100% { transform: rotate(0deg); }
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(100%); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.6; }
+    }
+
+    @keyframes flicker {
+      0%, 100% { opacity: 0.6; transform: scale(1); }
+      50% { opacity: 0.8; transform: scale(1.02); }
+    }
+
+    @keyframes floatUp {
+      0% { opacity: 1; transform: translateY(0); }
+      100% { opacity: 0; transform: translateY(-50px); }
+    }
+
+    @keyframes speechPop {
+      0% { transform: scale(0.5); opacity: 0; }
+      60% { transform: scale(1.1); opacity: 1; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    @keyframes wordReveal {
+      0% { transform: rotateY(90deg); }
+      100% { transform: rotateY(0deg); }
+    }
+
+    @keyframes newPulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(243, 156, 18, 0.7); }
+      50% { box-shadow: 0 0 0 8px rgba(243, 156, 18, 0); }
+    }
+
+    /* =====================================================================
+       TOP HUD
+       ===================================================================== */
+    #hud {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 12px;
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 12px;
+      margin-bottom: 12px;
+      font-size: 14px;
+      font-weight: bold;
+      flex-shrink: 0;
+    }
+
+    #hud .hud-section {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    #hud .hud-icon {
+      font-size: 18px;
+    }
+
+    #health-bar {
+      width: 80px;
+      height: 12px;
+      background: #333;
+      border-radius: 6px;
+      overflow: hidden;
+      border: 2px solid #555;
+    }
+
+    #health-fill {
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(90deg, #e74c3c, #c0392b);
+      transition: width 0.4s ease-out;
+      border-radius: 4px;
+    }
+
+    #health-fill.low {
+      background: linear-gradient(90deg, #e74c3c, #8e0000);
+      animation: pulse 1s infinite;
+    }
+
+    #timer {
+      font-family: monospace;
+      font-size: 16px;
+      color: #f1c40f;
+    }
+
+    #timer.warning {
+      color: #e74c3c;
+      animation: pop 0.5s infinite;
+    }
+
+    /* =====================================================================
+       START SCREEN
+       ===================================================================== */
+    #start-screen {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    }
+
+    .game-title {
+      font-size: 42px;
+      font-weight: 900;
+      margin-bottom: 8px;
+      text-shadow: 2px 2px 0px #e74c3c, 4px 4px 0px rgba(0,0,0,0.3);
+      letter-spacing: 2px;
+    }
+
+    .game-subtitle {
+      font-size: 16px;
+      color: #aaa;
+      margin-bottom: 40px;
+    }
+
+    .title-hero {
+      font-size: 80px;
+      margin-bottom: 24px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    .btn {
+      border: none;
+      border-radius: 12px;
+      padding: 14px 28px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.15s, box-shadow 0.15s;
+      color: #fff;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+      min-width: 160px;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .btn:active {
+      transform: scale(0.95);
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #e74c3c, #c0392b);
+      box-shadow: 0 4px 0 #962d22, 0 6px 10px rgba(0,0,0,0.3);
+    }
+
+    .btn-primary:active {
+      box-shadow: 0 2px 0 #962d22, 0 3px 6px rgba(0,0,0,0.3);
+      transform: translateY(2px) scale(0.95);
+    }
+
+    .btn-secondary {
+      background: linear-gradient(135deg, #3498db, #2980b9);
+      box-shadow: 0 4px 0 #1a5276, 0 6px 10px rgba(0,0,0,0.3);
+    }
+
+    .btn-secondary:active {
+      box-shadow: 0 2px 0 #1a5276, 0 3px 6px rgba(0,0,0,0.3);
+      transform: translateY(2px) scale(0.95);
+    }
+
+    .btn-gold {
+      background: linear-gradient(135deg, #f39c12, #d68910);
+      box-shadow: 0 4px 0 #9a7d0a, 0 6px 10px rgba(0,0,0,0.3);
+    }
+
+    .btn-gold:active {
+      box-shadow: 0 2px 0 #9a7d0a, 0 3px 6px rgba(0,0,0,0.3);
+      transform: translateY(2px) scale(0.95);
+    }
+
+    .btn-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      width: 100%;
+      max-width: 320px;
+    }
+
+    .btn-grid .btn {
+      min-width: 0;
+      padding: 12px 16px;
+      font-size: 15px;
+    }
+
+    /* =====================================================================
+       LEVEL INTRO SCREEN
+       ===================================================================== */
+    #level-intro-screen {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    }
+
+    .level-badge {
+      font-size: 60px;
+      margin-bottom: 16px;
+      animation: pop 0.5s ease-out;
+    }
+
+    .level-title {
+      font-size: 28px;
+      font-weight: 900;
+      margin-bottom: 8px;
+    }
+
+    .level-theme {
+      font-size: 18px;
+      color: #f39c12;
+      margin-bottom: 24px;
+      font-weight: bold;
+    }
+
+    .word-preview {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 32px;
+      max-width: 320px;
+    }
+
+    .word-chip {
+      background: rgba(255, 255, 255, 0.1);
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .word-chip .emoji {
+      font-size: 18px;
+    }
+
+    /* =====================================================================
+       COMBAT SCREEN
+       ===================================================================== */
+    #combat-screen {
+      background: linear-gradient(180deg, #2c3e50 0%, #1a1a2e 100%);
+    }
+
+    .combat-arena {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      overflow-y: auto;
+    }
+
+    .monster-container {
+      text-align: center;
+      margin-bottom: 12px;
+      position: relative;
+    }
+
+    .monster-sprite {
+      font-size: 90px;
+      display: inline-block;
+      transition: transform 0.2s;
+      filter: drop-shadow(0 4px 8px rgba(0,0,0,0.5));
+    }
+
+    .monster-sprite.hit {
+      animation: shake 0.4s ease-in-out;
+    }
+
+    .monster-sprite.defeated {
+      animation: fadeIn 0.5s ease-out reverse forwards;
+    }
+
+    .monster-name {
+      font-size: 18px;
+      font-weight: bold;
+      color: #e74c3c;
+      margin-top: 4px;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    }
+
+    .monster-hp-bar {
+      width: 120px;
+      height: 8px;
+      background: #333;
+      border-radius: 4px;
+      margin: 6px auto 0;
+      overflow: hidden;
+      border: 1px solid #555;
+    }
+
+    .monster-hp-fill {
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(90deg, #e74c3c, #c0392b);
+      transition: width 0.3s ease-out;
+    }
+
+    /* Speech Bubble */
+    .speech-bubble {
+      background: #fff;
+      color: #333;
+      border-radius: 16px;
+      padding: 12px 16px;
+      margin-bottom: 16px;
+      position: relative;
+      max-width: 90%;
+      animation: speechPop 0.4s ease-out;
+    }
+
+    .speech-bubble::after {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-top: 8px solid #fff;
+    }
+
+    .speech-label {
+      font-size: 11px;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    .speech-words {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .image-word {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #f0f0f0;
+      border-radius: 10px;
+      padding: 6px 10px;
+      min-width: 50px;
+      position: relative;
+      transition: transform 0.2s;
+    }
+
+    .image-word .iw-emoji {
+      font-size: 32px;
+      line-height: 1;
+    }
+
+    .image-word .iw-text {
+      font-size: 11px;
+      font-weight: bold;
+      color: #333;
+      margin-top: 2px;
+      text-transform: uppercase;
+    }
+
+    .image-word.new-word {
+      background: #fff8e1;
+      border: 2px solid #f39c12;
+      animation: newPulse 1.5s infinite;
+    }
+
+    .image-word.new-word .iw-text {
+      color: #e67e22;
+    }
+
+    .iw-new-badge {
+      position: absolute;
+      top: -6px;
+      right: -6px;
+      background: #e74c3c;
+      color: #fff;
+      font-size: 9px;
+      font-weight: bold;
+      padding: 2px 5px;
+      border-radius: 8px;
+      line-height: 1;
+    }
+
+    .combat-prompt {
+      text-align: center;
+      margin-bottom: 12px;
+    }
+
+    .combat-question {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 4px;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+
+    .combat-hint {
+      font-size: 13px;
+      color: #aaa;
+    }
+
+    .answer-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+      width: 100%;
+      max-width: 360px;
+      margin: 0 auto;
+    }
+
+    .answer-btn {
+      background: linear-gradient(135deg, #34495e, #2c3e50);
+      border: 2px solid #5d6d7e;
+      border-radius: 12px;
+      padding: 14px 16px;
+      font-size: 15px;
+      font-weight: bold;
+      color: #fff;
+      cursor: pointer;
+      transition: all 0.15s;
+      text-align: left;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+      line-height: 1.4;
+    }
+
+    .answer-btn:active {
+      transform: scale(0.98);
+    }
+
+    .answer-btn.correct {
+      background: linear-gradient(135deg, #27ae60, #1e8449);
+      border-color: #2ecc71;
+      animation: pop 0.3s ease-out;
+    }
+
+    .answer-btn.wrong {
+      background: linear-gradient(135deg, #e74c3c, #c0392b);
+      border-color: #ec7063;
+      animation: shake 0.4s ease-in-out;
+    }
+
+    .answer-btn:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .combo-display {
+      position: absolute;
+      top: 60px;
+      right: 16px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #f39c12;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .combo-display.active {
+      opacity: 1;
+      animation: pop 0.3s ease-out;
+    }
+
+    /* =====================================================================
+       SAFE ROOM (GUILD HALL)
+       ===================================================================== */
+    #safe-room-screen {
+      background: linear-gradient(180deg, #5d3a1a 0%, #3d2314 100%);
+    }
+
+    .room-scene {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      position: relative;
+      padding-bottom: 16px;
+      overflow-y: auto;
+    }
+
+    .room-furniture {
+      position: absolute;
+      font-size: 50px;
+      opacity: 0.6;
+      z-index: 0;
+    }
+
+    .room-furniture.fireplace {
+      bottom: 80px;
+      left: 20px;
+      font-size: 70px;
+      animation: flicker 2s ease-in-out infinite;
+    }
+
+    .room-furniture.bed {
+      bottom: 80px;
+      right: 20px;
+      font-size: 60px;
+    }
+
+    .room-furniture.shelf {
+      top: 60px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 55px;
+    }
+
+    .npc-container {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      margin-bottom: 16px;
+    }
+
+    .npc-sprite {
+      font-size: 80px;
+      display: inline-block;
+      animation: float 2s ease-in-out infinite;
+      filter: drop-shadow(0 4px 8px rgba(0,0,0,0.5));
+    }
+
+    .npc-name {
+      font-size: 16px;
+      font-weight: bold;
+      color: #f39c12;
+      margin-top: 4px;
+    }
+
+    .dialogue-box {
+      background: rgba(0, 0, 0, 0.6);
+      border: 2px solid #8b6914;
+      border-radius: 12px;
+      padding: 14px;
+      margin-bottom: 12px;
+      min-height: 60px;
+      z-index: 1;
+      position: relative;
+    }
+
+    .dialogue-text {
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    .dialogue-text .speaker {
+      color: #f39c12;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .dialogue-btn {
+      margin-top: 10px;
+      align-self: center;
+    }
+
+    /* =====================================================================
+       DICTIONARY IN SAFE ROOM
+       ===================================================================== */
+    .dictionary-section {
+      z-index: 1;
+      position: relative;
+      width: 100%;
+      max-width: 360px;
+      margin: 0 auto;
+    }
+
+    .dictionary-title {
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 10px;
+      color: #f39c12;
+    }
+
+    .dictionary-subtitle {
+      font-size: 12px;
+      text-align: center;
+      color: #aaa;
+      margin-bottom: 12px;
+    }
+
+    .dictionary-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+
+    .dict-card {
+      background: rgba(255, 255, 255, 0.1);
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      border-radius: 10px;
+      padding: 8px 4px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.2s;
+      position: relative;
+      user-select: none;
+      min-height: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .dict-card:active {
+      transform: scale(0.95);
+    }
+
+    .dict-card .dc-emoji {
+      font-size: 28px;
+      line-height: 1;
+      margin-bottom: 2px;
+    }
+
+    .dict-card .dc-word {
+      font-size: 11px;
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: all 0.3s;
+    }
+
+    .dict-card .dc-word.hidden {
+      color: transparent;
+      background: linear-gradient(90deg, #555, #777, #555);
+      background-size: 200% 100%;
+      animation: shimmer 2s infinite;
+      border-radius: 4px;
+      padding: 2px 8px;
+    }
+
+    @keyframes shimmer {
+      0% { background-position: -200% 0; }
+      100% { background-position: 200% 0; }
+    }
+
+    .dict-card.revealed {
+      background: rgba(243, 156, 18, 0.15);
+      border-color: rgba(243, 156, 18, 0.5);
+    }
+
+    .dict-card.revealed .dc-word {
+      color: #f39c12;
+    }
+
+    .dict-card.newly-learned {
+      animation: newPulse 1s ease-out;
+    }
+
+    /* =====================================================================
+       QUIZ SECTION
+       ===================================================================== */
+    .quiz-container {
+      width: 100%;
+      max-width: 360px;
+      margin: 0 auto;
+      z-index: 1;
+    }
+
+    .quiz-progress {
+      display: flex;
+      justify-content: center;
+      gap: 6px;
+      margin-bottom: 12px;
+    }
+
+    .quiz-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.2);
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      transition: all 0.3s;
+    }
+
+    .quiz-dot.correct {
+      background: #27ae60;
+      border-color: #2ecc71;
+    }
+
+    .quiz-dot.wrong {
+      background: #e74c3c;
+      border-color: #ec7063;
+    }
+
+    .quiz-dot.current {
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+      transform: scale(1.2);
+    }
+
+    .quiz-question {
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 12px;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+
+    .quiz-question .speech-mini {
+      display: flex;
+      justify-content: center;
+      gap: 6px;
+      margin-top: 8px;
+    }
+
+    .quiz-question .speech-mini .image-word {
+      padding: 4px 8px;
+      min-width: 40px;
+    }
+
+    .quiz-question .speech-mini .image-word .iw-emoji {
+      font-size: 24px;
+    }
+
+    .quiz-choices {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .quiz-choice {
+      background: linear-gradient(135deg, #5d3a1a, #4a2e15);
+      border: 2px solid #8b6914;
+      border-radius: 12px;
+      padding: 12px 14px;
+      font-size: 15px;
+      color: #fff;
+      cursor: pointer;
+      transition: all 0.15s;
+      text-align: left;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+      line-height: 1.4;
+    }
+
+    .quiz-choice:active {
+      transform: scale(0.98);
+    }
+
+    .quiz-choice.correct {
+      background: linear-gradient(135deg, #27ae60, #1e8449);
+      border-color: #2ecc71;
+    }
+
+    .quiz-choice.wrong {
+      background: linear-gradient(135deg, #e74c3c, #c0392b);
+      border-color: #ec7063;
+    }
+
+    .quiz-choice:disabled {
+      opacity: 0.6;
+    }
+
+    .quiz-score-display {
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      color: #f39c12;
+      margin-bottom: 12px;
+    }
+
+    /* =====================================================================
+       LOOT BOX SCREEN
+       ===================================================================== */
+    #loot-screen {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 50%, #16213e 100%);
+    }
+
+    .loot-title {
+      font-size: 26px;
+      font-weight: 900;
+      margin-bottom: 8px;
+    }
+
+    .loot-subtitle {
+      font-size: 15px;
+      color: #aaa;
+      margin-bottom: 24px;
+    }
+
+    .loot-box-container {
+      margin-bottom: 24px;
+      position: relative;
+    }
+
+    .loot-box {
+      font-size: 100px;
+      display: inline-block;
+      cursor: pointer;
+      transition: transform 0.2s;
+      filter: drop-shadow(0 8px 16px rgba(0,0,0,0.5));
+      animation: glow 2s ease-in-out infinite;
+    }
+
+    .loot-box:active {
+      transform: scale(0.95);
+    }
+
+    .loot-box.opening {
+      animation: lootShake 0.5s ease-in-out infinite;
+    }
+
+    .loot-box.opened {
+      animation: pop 0.5s ease-out;
+    }
+
+    .loot-result {
+      display: none;
+      animation: pop 0.5s ease-out;
+    }
+
+    .loot-result.active {
+      display: block;
+    }
+
+    .loot-item {
+      font-size: 70px;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .loot-item-name {
+      font-size: 18px;
+      font-weight: bold;
+      color: #f39c12;
+      margin-bottom: 4px;
+    }
+
+    .loot-item-rarity {
+      font-size: 13px;
+      color: #aaa;
+    }
+
+    .loot-item-desc {
+      font-size: 13px;
+      color: #ccc;
+      margin-top: 4px;
+    }
+
+    .loot-rarity-common { color: #bdc3c7; }
+    .loot-rarity-rare { color: #3498db; }
+    .loot-rarity-epic { color: #9b59b6; }
+    .loot-rarity-legendary { color: #f39c12; }
+
+    .sparkle-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      pointer-events: none;
+      overflow: visible;
+    }
+
+    .sparkle {
+      position: absolute;
+      font-size: 20px;
+      animation: sparkle 0.8s ease-out forwards;
+    }
+
+    /* =====================================================================
+       INVENTORY SCREEN
+       ===================================================================== */
+    #inventory-screen {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    }
+
+    .inv-tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 12px;
+      flex-shrink: 0;
+    }
+
+    .inv-tab {
+      flex: 1;
+      background: rgba(255, 255, 255, 0.1);
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      border-radius: 10px;
+      padding: 10px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      cursor: pointer;
+      transition: all 0.2s;
+      text-align: center;
+      user-select: none;
+    }
+
+    .inv-tab.active {
+      background: rgba(243, 156, 18, 0.3);
+      border-color: #f39c12;
+      color: #f39c12;
+    }
+
+    .inv-content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 4px;
+    }
+
+    .inv-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .inv-item {
+      background: rgba(255, 255, 255, 0.08);
+      border: 2px solid rgba(255, 255, 255, 0.15);
+      border-radius: 12px;
+      padding: 12px 8px;
+      text-align: center;
+      transition: all 0.2s;
+      cursor: pointer;
+    }
+
+    .inv-item:active {
+      transform: scale(0.95);
+    }
+
+    .inv-item .inv-emoji {
+      font-size: 32px;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .inv-item .inv-name {
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .inv-item .inv-count {
+      font-size: 11px;
+      color: #aaa;
+    }
+
+    .inv-empty {
+      text-align: center;
+      color: #666;
+      padding: 40px 20px;
+      font-size: 14px;
+    }
+
+    .award-item {
+      background: rgba(243, 156, 18, 0.15);
+      border-color: rgba(243, 156, 18, 0.4);
+    }
+
+    /* Dictionary Tab Specifics */
+    .dict-grid-large {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .dict-entry {
+      background: rgba(255, 255, 255, 0.08);
+      border: 2px solid rgba(255, 255, 255, 0.15);
+      border-radius: 12px;
+      padding: 14px 8px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .dict-entry .de-emoji {
+      font-size: 36px;
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+
+    .dict-entry .de-word {
+      font-size: 13px;
+      font-weight: bold;
+      color: #f39c12;
+      text-transform: uppercase;
+    }
+
+    .dict-entry .de-category {
+      font-size: 10px;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-top: 2px;
+    }
+
+    /* =====================================================================
+       NOTIFICATIONS / OVERLAYS
+       ===================================================================== */
+    .notification {
+      position: fixed;
+      top: 60px;
+      left: 50%;
+      transform: translateX(-50%) translateY(-100px);
+      background: linear-gradient(135deg, #f39c12, #d68910);
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 12px;
+      font-size: 14px;
+      font-weight: bold;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+      z-index: 1000;
+      transition: transform 0.4s ease-out;
+      text-align: center;
+      max-width: 90%;
+    }
+
+    .notification.active {
+      transform: translateX(-50%) translateY(0);
+    }
+
+    .damage-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      pointer-events: none;
+      z-index: 999;
+      animation: damageFlash 0.4s ease-out;
+    }
+
+    .xp-popup {
+      position: absolute;
+      font-size: 18px;
+      font-weight: bold;
+      color: #f39c12;
+      pointer-events: none;
+      animation: floatUp 1s ease-out forwards;
+      z-index: 100;
+    }
+
+    /* =====================================================================
+       VICTORY / GAME OVER
+       ===================================================================== */
+    #victory-screen, #gameover-screen {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    #victory-screen {
+      background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%);
+    }
+
+    #gameover-screen {
+      background: linear-gradient(135deg, #1a1a2e 0%, #4a0000 100%);
+    }
+
+    .end-title {
+      font-size: 36px;
+      font-weight: 900;
+      margin-bottom: 16px;
+    }
+
+    .end-emoji {
+      font-size: 100px;
+      margin-bottom: 24px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    .end-stats {
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 12px;
+      padding: 16px 24px;
+      margin-bottom: 32px;
+      font-size: 14px;
+      line-height: 2;
+    }
+
+    .end-stats .stat-value {
+      font-weight: bold;
+      color: #f39c12;
+    }
+
+    /* =====================================================================
+       UTILITY CLASSES
+       ===================================================================== */
+    .hidden { display: none !important; }
+    .flex { display: flex; }
+    .flex-col { flex-direction: column; }
+    .items-center { align-items: center; }
+    .justify-center { justify-content: center; }
+    .text-center { text-align: center; }
+    .gap-2 { gap: 8px; }
+    .gap-4 { gap: 16px; }
+    .mb-2 { margin-bottom: 8px; }
+    .mb-4 { margin-bottom: 16px; }
+    .mt-2 { margin-top: 8px; }
+    .mt-4 { margin-top: 16px; }
+    .w-full { width: 100%; }
+    .max-w-xs { max-width: 360px; }
+    .mx-auto { margin-left: auto; margin-right: auto; }
+    .font-mono { font-family: monospace; }
+    .text-sm { font-size: 14px; }
+    .text-lg { font-size: 18px; }
+    .text-xl { font-size: 22px; }
+    .text-2xl { font-size: 28px; }
+    .font-bold { font-weight: bold; }
+    .text-yellow { color: #f1c40f; }
+    .text-red { color: #e74c3c; }
+    .text-green { color: #2ecc71; }
+    .text-blue { color: #3498db; }
+    .text-gray { color: #aaa; }
+
+    /* =====================================================================
+       SCROLLBAR STYLING
+       ===================================================================== */
+    .inv-content::-webkit-scrollbar,
+    .combat-arena::-webkit-scrollbar,
+    .room-scene::-webkit-scrollbar {
+      width: 6px;
+    }
+    .inv-content::-webkit-scrollbar-track,
+    .combat-arena::-webkit-scrollbar-track,
+    .room-scene::-webkit-scrollbar-track {
+      background: rgba(255,255,255,0.05);
+      border-radius: 3px;
+    }
+    .inv-content::-webkit-scrollbar-thumb,
+    .combat-arena::-webkit-scrollbar-thumb,
+    .room-scene::-webkit-scrollbar-thumb {
+      background: rgba(255,255,255,0.2);
+      border-radius: 3px;
+    }
+
+    /* =====================================================================
+       RESPONSIVE ADJUSTMENTS
+       ===================================================================== */
+    @media (max-width: 360px) {
+      .game-title { font-size: 34px; }
+      .title-hero { font-size: 60px; }
+      .monster-sprite { font-size: 70px; }
+      .loot-box { font-size: 80px; }
+      .npc-sprite { font-size: 60px; }
+      .answer-btn { padding: 12px 10px; font-size: 14px; }
+      .quiz-choice { padding: 10px 10px; font-size: 14px; }
+      .dictionary-grid { grid-template-columns: repeat(3, 1fr); }
+      .image-word .iw-emoji { font-size: 26px; }
+    }
+
+    @media (min-width: 481px) {
+      #game-container {
+        border-left: 1px solid rgba(255,255,255,0.1);
+        border-right: 1px solid rgba(255,255,255,0.1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="game-container">
+    <!-- HUD (visible during gameplay) -->
+    <div id="hud" class="hidden">
+      <div class="hud-section">
+        <span class="hud-icon">&#x2764;&#xFE0F;</span>
+        <div id="health-bar"><div id="health-fill"></div></div>
+      </div>
+      <div class="hud-section">
+        <span class="hud-icon">&#x2694;&#xFE0F;</span>
+        <span id="level-display">Lv 1</span>
+      </div>
+      <div class="hud-section">
+        <span class="hud-icon">&#x23F1;&#xFE0F;</span>
+        <span id="timer">00:00</span>
+      </div>
+    </div>
+
+    <!-- NOTIFICATION AREA -->
+    <div id="notification" class="notification"></div>
+
+    <!-- =====================================================================
+         START SCREEN
+         ===================================================================== -->
+    <div id="start-screen" class="screen active">
+      <div class="title-hero">&#x1F9D9;&#x200D;&#x2642;&#xFE0F;</div>
+      <div class="game-title">WordQuest</div>
+      <div class="game-subtitle">Learn monster language. Decode image-words. Collect treasures.</div>
+      <button class="btn btn-primary" onclick="game.start()">Play</button>
+      <div class="mt-4 gap-2 flex flex-col items-center">
+        <button class="btn btn-secondary" onclick="game.showInventory()" style="min-width:160px;">Inventory</button>
+      </div>
+      <div class="mt-4 text-sm text-gray" id="stats-summary"></div>
+    </div>
+
+    <!-- =====================================================================
+         LEVEL INTRO SCREEN
+         ===================================================================== -->
+    <div id="level-intro-screen" class="screen">
+      <div class="level-badge" id="level-badge">&#x1F3A8;</div>
+      <div class="level-title" id="level-title">Level 1</div>
+      <div class="level-theme" id="level-theme">Learn the Monster Language</div>
+      <div class="text-sm text-gray mb-4">Image-words you will encounter:</div>
+      <div class="word-preview" id="word-preview"></div>
+      <div class="text-sm text-gray mb-4">Defeat 3 monsters to reach the Guild Hall!</div>
+      <button class="btn btn-primary" onclick="game.startCombat()">Begin</button>
+    </div>
+
+    <!-- =====================================================================
+         COMBAT SCREEN
+         ===================================================================== -->
+    <div id="combat-screen" class="screen">
+      <div class="combat-arena">
+        <div class="combo-display" id="combo-display">Combo x2!</div>
+
+        <!-- Monster speech bubble -->
+        <div class="speech-bubble" id="speech-bubble">
+          <div class="speech-label">The monster says:</div>
+          <div class="speech-words" id="speech-words"></div>
+        </div>
+
+        <div class="monster-container">
+          <div class="monster-sprite" id="monster-sprite">&#x1F47E;</div>
+          <div class="monster-name" id="monster-name">Shadow Beast</div>
+          <div class="monster-hp-bar">
+            <div class="monster-hp-fill" id="monster-hp-fill"></div>
+          </div>
+        </div>
+
+        <div class="combat-prompt">
+          <div class="combat-question" id="combat-question">What does the monster mean?</div>
+          <div class="combat-hint" id="combat-hint">Decode the image-words!</div>
+        </div>
+        <div class="answer-grid" id="answer-grid"></div>
+      </div>
+    </div>
+
+    <!-- =====================================================================
+         SAFE ROOM SCREEN (GUILD HALL)
+         ===================================================================== -->
+    <div id="safe-room-screen" class="screen">
+      <div class="room-scene">
+        <div class="room-furniture fireplace">&#x1F525;</div>
+        <div class="room-furniture bed">&#x1F6CF;&#xFE0F;</div>
+        <div class="room-furniture shelf">&#x1F4DA;</div>
+
+        <div class="npc-container">
+          <div class="npc-sprite">&#x1F400;</div>
+          <div class="npc-name">Mordecai, Guildmaster</div>
+        </div>
+
+        <div class="dialogue-box" id="dialogue-box">
+          <div class="dialogue-text" id="dialogue-text">
+            <span class="speaker">Mordecai:</span>
+            Welcome to the Tutorial Guild Hall, young adventurer! You have faced the monsters bravely. Now, let me teach you what those image-words mean. Tap each card to reveal its true word!
+          </div>
+        </div>
+
+        <!-- Dictionary learning section -->
+        <div class="dictionary-section" id="dictionary-section" style="display:none;">
+          <div class="dictionary-title" id="dict-title">New Words Learned!</div>
+          <div class="dictionary-subtitle" id="dict-subtitle">Tap cards to reveal meanings</div>
+          <div class="dictionary-grid" id="dictionary-grid"></div>
+          <button class="btn btn-gold mt-4" onclick="game.finishDictionary()" id="dict-continue-btn" style="display:none;">
+            Continue to Quiz
+          </button>
+        </div>
+
+        <div class="quiz-container" id="quiz-container"></div>
+      </div>
+    </div>
+
+    <!-- =====================================================================
+         LOOT SCREEN
+         ===================================================================== -->
+    <div id="loot-screen" class="screen">
+      <div class="loot-title" id="loot-title">Victory!</div>
+      <div class="loot-subtitle" id="loot-subtitle">Tap the chest to open your reward!</div>
+      <div class="loot-box-container" id="loot-box-container">
+        <div class="loot-box" id="loot-box" onclick="game.openLoot()">&#x1F9F0;</div>
+        <div class="sparkle-container" id="sparkle-container"></div>
+      </div>
+      <div class="loot-result" id="loot-result">
+        <span class="loot-item" id="loot-item-emoji">&#x1F3C6;</span>
+        <div class="loot-item-name" id="loot-item-name">Golden Trophy</div>
+        <div class="loot-item-rarity" id="loot-item-rarity">Legendary</div>
+        <div class="loot-item-desc" id="loot-item-desc">New image-word unlocked!</div>
+      </div>
+      <div id="loot-buttons" class="hidden mt-4">
+        <button class="btn btn-primary" onclick="game.nextLevel()">Next Level</button>
+        <div class="mt-2">
+          <button class="btn btn-secondary" onclick="game.showInventory()">Inventory</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- =====================================================================
+         INVENTORY SCREEN
+         ===================================================================== -->
+    <div id="inventory-screen" class="screen">
+      <div class="text-2xl font-bold text-center mb-4">Inventory</div>
+      <div class="inv-tabs">
+        <div class="inv-tab active" onclick="game.switchInvTab('awards')" id="tab-awards">Awards</div>
+        <div class="inv-tab" onclick="game.switchInvTab('boxes')" id="tab-boxes">Boxes</div>
+        <div class="inv-tab" onclick="game.switchInvTab('dictionary')" id="tab-dictionary">Dictionary</div>
+      </div>
+      <div class="inv-content" id="inv-content">
+        <div class="inv-empty">No items yet. Complete levels to earn rewards!</div>
+      </div>
+      <div class="mt-4 text-center">
+        <button class="btn btn-secondary" onclick="game.backToMenu()">Back</button>
+      </div>
+    </div>
+
+    <!-- =====================================================================
+         VICTORY SCREEN
+         ===================================================================== -->
+    <div id="victory-screen" class="screen">
+      <div class="end-emoji">&#x1F3C6;</div>
+      <div class="end-title">You Win!</div>
+      <div class="end-stats" id="victory-stats"></div>
+      <button class="btn btn-primary" onclick="game.restart()">Play Again</button>
+      <div class="mt-2">
+        <button class="btn btn-secondary" onclick="game.showInventory()">Inventory</button>
+      </div>
+    </div>
+
+    <!-- =====================================================================
+         GAME OVER SCREEN
+         ===================================================================== -->
+    <div id="gameover-screen" class="screen">
+      <div class="end-emoji">&#x1F480;</div>
+      <div class="end-title">Game Over</div>
+      <div class="end-stats" id="gameover-stats"></div>
+      <button class="btn btn-primary" onclick="game.restart()">Try Again</button>
+      <div class="mt-2">
+        <button class="btn btn-secondary" onclick="game.showInventory()">Inventory</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // =====================================================================
+    // IMAGE-WORD VOCABULARY SYSTEM
+    // =====================================================================
+
+    const IMAGE_WORDS = {
+      // Emotions (Level 1)
+      angry:     { id: 'angry',     emoji: '&#x1F620;', word: 'ANGRY',     category: 'emotion' },
+      happy:     { id: 'happy',     emoji: '&#x1F60A;', word: 'HAPPY',     category: 'emotion' },
+      sad:       { id: 'sad',       emoji: '&#x1F622;', word: 'SAD',       category: 'emotion' },
+      scared:    { id: 'scared',    emoji: '&#x1F628;', word: 'SCARED',    category: 'emotion' },
+
+      // Colors (Level 1)
+      red:       { id: 'red',       emoji: '&#x1F534;', word: 'RED',       category: 'color' },
+      blue:      { id: 'blue',      emoji: '&#x1F535;', word: 'BLUE',      category: 'color' },
+      green:     { id: 'green',     emoji: '&#x1F7E2;', word: 'GREEN',     category: 'color' },
+      yellow:    { id: 'yellow',    emoji: '&#x1F7E1;', word: 'YELLOW',    category: 'color' },
+
+      // Objects (Level 1)
+      ball:      { id: 'ball',      emoji: '&#x26BD;',  word: 'BALL',      category: 'object' },
+      box:       { id: 'box',       emoji: '&#x1F4E6;', word: 'BOX',       category: 'object' },
+      gem:       { id: 'gem',       emoji: '&#x1F48E;', word: 'GEM',       category: 'object' },
+      toy:       { id: 'toy',       emoji: '&#x1F9F8;', word: 'TOY',       category: 'object' },
+
+      // Actions (Level 1)
+      run:       { id: 'run',       emoji: '&#x1F3C3;', word: 'RUN',       category: 'action' },
+      throw:     { id: 'throw',     emoji: '&#x1F3AF;', word: 'THROW',     category: 'action' },
+      give:      { id: 'give',      emoji: '&#x1F381;', word: 'GIVE',      category: 'action' },
+      stop:      { id: 'stop',      emoji: '&#x270B;',  word: 'STOP',      category: 'action' },
+      jump:      { id: 'jump',      emoji: '&#x2B06;&#xFE0F;', word: 'JUMP', category: 'action' },
+
+      // Food (Level 2)
+      hungry:    { id: 'hungry',    emoji: '&#x1F924;', word: 'HUNGRY',    category: 'state' },
+      apple:     { id: 'apple',     emoji: '&#x1F34E;', word: 'APPLE',     category: 'food' },
+      banana:    { id: 'banana',    emoji: '&#x1F34C;', word: 'BANANA',    category: 'food' },
+      meat:      { id: 'meat',      emoji: '&#x1F356;', word: 'MEAT',      category: 'food' },
+      water:     { id: 'water',     emoji: '&#x1F4A7;', word: 'WATER',     category: 'food' },
+      eat:       { id: 'eat',       emoji: '&#x1F374;', word: 'EAT',       category: 'action' },
+
+      // Animals (Level 2)
+      dog:       { id: 'dog',       emoji: '&#x1F436;', word: 'DOG',       category: 'animal' },
+      cat:       { id: 'cat',       emoji: '&#x1F431;', word: 'CAT',       category: 'animal' },
+      bird:      { id: 'bird',      emoji: '&#x1F426;', word: 'BIRD',      category: 'animal' },
+      fish:      { id: 'fish',      emoji: '&#x1F41F;', word: 'FISH',      category: 'animal' },
+
+      // States (Level 3)
+      broken:    { id: 'broken',    emoji: '&#x1F494;', word: 'BROKEN',    category: 'state' },
+      tired:     { id: 'tired',     emoji: '&#x1F634;', word: 'TIRED',     category: 'state' },
+      hot:       { id: 'hot',       emoji: '&#x1F525;', word: 'HOT',       category: 'state' },
+      cold:      { id: 'cold',      emoji: '&#x2744;&#xFE0F;', word: 'COLD', category: 'state' },
+
+      // Complex actions (Level 3)
+      help:      { id: 'help',      emoji: '&#x1F198;', word: 'HELP',      category: 'action' },
+      fix:       { id: 'fix',       emoji: '&#x1F527;', word: 'FIX',       category: 'action' },
+      please:    { id: 'please',    emoji: '&#x1F64F;', word: 'PLEASE',    category: 'action' },
+      thank:     { id: 'thank',     emoji: '&#x1F64C;', word: 'THANK',     category: 'action' },
+      want:      { id: 'want',      emoji: '&#x2728;',  word: 'WANT',      category: 'action' },
+      go:        { id: 'go',        emoji: '&#x27A1;&#xFE0F;', word: 'GO',  category: 'action' },
+      come:      { id: 'come',      emoji: '&#x2B05;&#xFE0F;', word: 'COME', category: 'action' },
+      no:        { id: 'no',        emoji: '&#x274C;',  word: 'NO',        category: 'action' },
+      yes:       { id: 'yes',       emoji: '&#x2705;',  word: 'YES',       category: 'action' }
+    };
+
+    // =====================================================================
+    // MONSTER DEFINITIONS WITH SPEECH PATTERNS
+    // =====================================================================
+
+    const MONSTERS = [
+      // Level 1 monsters
+      {
+        name: 'Crimson Blob',
+        emoji: '&#x1F47E;',
+        hp: 2,
+        level: 0,
+        speech: ['angry', 'red', 'ball', 'throw'],
+        meaning: 'It is angry and throwing a red ball at you!',
+        answers: [
+          'Dodge! The monster is throwing a red ball!',
+          'Give the monster a red ball',
+          'The monster wants to play with you',
+          'Kick the ball back at the monster'
+        ],
+        correctIndex: 0
+      },
+      {
+        name: 'Azure Wisp',
+        emoji: '&#x1F47B;',
+        hp: 2,
+        level: 0,
+        speech: ['scared', 'blue', 'run', 'stop'],
+        meaning: 'It is scared of blue things and running away!',
+        answers: [
+          'The monster is scared and running from something blue',
+          'The monster wants you to run into a blue wall',
+          'Stop and throw something blue',
+          'The monster is happy to see blue'
+        ],
+        correctIndex: 0
+      },
+      {
+        name: 'Emerald Golem',
+        emoji: '&#x1F9DF;',
+        hp: 3,
+        level: 0,
+        speech: ['happy', 'green', 'gem', 'give'],
+        meaning: 'It is happy and wants to give you a green gem!',
+        answers: [
+          'Accept it! The monster wants to give you a green gem',
+          'The monster wants to steal your green gem',
+          'Throw a green gem at the monster',
+          'Run away from the green gem'
+        ],
+        correctIndex: 0
+      },
+      // Level 2 monsters
+      {
+        name: 'Wild Wolf',
+        emoji: '&#x1F43A;',
+        hp: 3,
+        level: 1,
+        speech: ['hungry', 'meat', 'eat', 'please'],
+        meaning: 'It is hungry and politely asking for meat to eat!',
+        answers: [
+          'Give the hungry wolf some meat to eat',
+          'The wolf wants you to eat its meat',
+          'Run away because the wolf is angry',
+          'The wolf wants to play with meat'
+        ],
+        correctIndex: 0
+      },
+      {
+        name: 'Shadow Panther',
+        emoji: '&#x1F405;',
+        hp: 3,
+        level: 1,
+        speech: ['sad', 'cat', 'water', 'help'],
+        meaning: 'It is sad and thirsty like a cat, asking for water help!',
+        answers: [
+          'Help! The sad cat-like creature needs water',
+          'The monster wants to drink you like water',
+          'Throw water at the sad cat',
+          'The monster is happy and has enough water'
+        ],
+        correctIndex: 0
+      },
+      {
+        name: 'Thunder Bear',
+        emoji: '&#x1F43B;',
+        hp: 4,
+        level: 1,
+        speech: ['tired', 'sleep', 'stop', 'run'],
+        meaning: 'It is tired, wants to sleep, telling you to stop running!',
+        answers: [
+          'Stop running! The tired bear wants to sleep',
+          'Run! The bear is waking up angry',
+          'The bear wants you to run while it sleeps',
+          'Throw something to wake the tired bear'
+        ],
+        correctIndex: 0
+      },
+      // Level 3 monsters
+      {
+        name: 'Hunger Fiend',
+        emoji: '&#x1F479;',
+        hp: 3,
+        level: 2,
+        speech: ['hungry', 'apple', 'banana', 'want'],
+        meaning: 'It is very hungry and wants apples and bananas!',
+        answers: [
+          'Give the monster apples and bananas, it is hungry',
+          'The monster wants to throw fruit at you',
+          'Run! The monster hates fruit',
+          'The monster wants you to eat its fruit'
+        ],
+        correctIndex: 0
+      },
+      {
+        name: 'Broken Golem',
+        emoji: '&#x1F9CA;',
+        hp: 4,
+        level: 2,
+        speech: ['sad', 'broken', 'toy', 'help'],
+        meaning: 'It is sad because its toy is broken and needs help!',
+        answers: [
+          'Help the sad monster fix its broken toy',
+          'The monster wants to break your toy',
+          'Run! The monster is angry about toys',
+          'Give the monster a new toy to break'
+        ],
+        correctIndex: 0
+      },
+      {
+        name: 'Glutton King',
+        emoji: '&#x1F9C0;',
+        hp: 5,
+        level: 2,
+        speech: ['hungry', 'eat', 'meat', 'fish', 'yes'],
+        meaning: 'It is very hungry and wants to eat meat and fish!',
+        answers: [
+          'Yes, give the monster meat and fish to eat',
+          'The monster wants to cook you as meat',
+          'Say no and run from the hungry monster',
+          'The monster wants to play with food'
+        ],
+        correctIndex: 0
+      }
+    ];
+
+    // Level configuration
+    const LEVELS = [
+      {
+        id: 1,
+        title: 'Level 1',
+        theme: 'The Basics',
+        emoji: '&#x1F9F5;',
+        words: ['angry', 'happy', 'sad', 'scared', 'red', 'blue', 'green', 'yellow', 'ball', 'box', 'gem', 'toy', 'run', 'throw', 'give', 'stop', 'jump'],
+        monsters: [0, 1, 2]
+      },
+      {
+        id: 2,
+        title: 'Level 2',
+        theme: 'Animals & Food',
+        emoji: '&#x1F431;',
+        words: ['hungry', 'apple', 'banana', 'meat', 'water', 'eat', 'dog', 'cat', 'bird', 'fish'],
+        monsters: [3, 4, 5]
+      },
+      {
+        id: 3,
+        title: 'Level 3',
+        theme: 'Complex Needs',
+        emoji: '&#x1F9EA;',
+        words: ['broken', 'tired', 'hot', 'cold', 'help', 'fix', 'please', 'thank', 'want', 'go', 'come', 'no', 'yes'],
+        monsters: [6, 7, 8]
+      }
+    ];
+
+    // Loot items (some give new dictionary words)
+    const LOOT_TABLE = [
+      { emoji: '&#x1F3C6;', name: 'Trophy of Courage', rarity: 'common', color: 'loot-rarity-common', desc: 'A shiny trophy!' },
+      { emoji: '&#x1F48E;', name: 'Crystal Gem', rarity: 'rare', color: 'loot-rarity-rare', desc: 'A beautiful crystal!' },
+      { emoji: '&#x1F31F;', name: 'Star Fragment', rarity: 'epic', color: 'loot-rarity-epic', desc: 'A piece of starlight!' },
+      { emoji: '&#x1F451;', name: 'Crown of Wisdom', rarity: 'legendary', color: 'loot-rarity-legendary', desc: 'The crown of a true linguist!' },
+      { emoji: '&#x1F4D6;', name: 'Dictionary Page', rarity: 'rare', color: 'loot-rarity-rare', desc: 'New word: GOLD', bonusWord: 'gold', bonusEmoji: '&#x1F7E1;' },
+      { emoji: '&#x1F4DC;', name: 'Ancient Scroll', rarity: 'epic', color: 'loot-rarity-epic', desc: 'New word: MAGIC', bonusWord: 'magic', bonusEmoji: '&#x1FA84;' },
+      { emoji: '&#x1F9E1;', name: 'Heart Amulet', rarity: 'common', color: 'loot-rarity-common', desc: 'A warm heart!' },
+      { emoji: '&#x1F5DD;&#xFE0F;', name: 'Master Key', rarity: 'legendary', color: 'loot-rarity-legendary', desc: 'Opens secret doors!' }
+    ];
+
+    // =====================================================================
+    // SOUND SYSTEM (Web Audio API)
+    // =====================================================================
+
+    const Sound = {
+      ctx: null,
+      init() {
+        if (!this.ctx) {
+          this.ctx = new (window.AudioContext || window.webkitAudioContext)();
+        }
+      },
+      playTone(freq, duration, type, volume) {
+        if (!this.ctx) return;
+        type = type || 'sine';
+        volume = volume || 0.3;
+        const osc = this.ctx.createOscillator();
+        const gain = this.ctx.createGain();
+        osc.type = type;
+        osc.frequency.value = freq;
+        gain.gain.setValueAtTime(volume, this.ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, this.ctx.currentTime + duration);
+        osc.connect(gain);
+        gain.connect(this.ctx.destination);
+        osc.start();
+        osc.stop(this.ctx.currentTime + duration);
+      },
+      correct() {
+        this.playTone(523, 0.15, 'sine', 0.2);
+        setTimeout(() => this.playTone(659, 0.15, 'sine', 0.2), 100);
+        setTimeout(() => this.playTone(784, 0.2, 'sine', 0.2), 200);
+      },
+      wrong() {
+        this.playTone(200, 0.3, 'sawtooth', 0.15);
+        setTimeout(() => this.playTone(150, 0.4, 'sawtooth', 0.15), 150);
+      },
+      attack() {
+        this.playTone(440, 0.1, 'square', 0.15);
+      },
+      monsterHit() {
+        this.playTone(100, 0.2, 'sawtooth', 0.2);
+      },
+      lootOpen() {
+        this.playTone(440, 0.1, 'sine', 0.2);
+        setTimeout(() => this.playTone(554, 0.1, 'sine', 0.2), 100);
+        setTimeout(() => this.playTone(659, 0.1, 'sine', 0.2), 200);
+        setTimeout(() => this.playTone(880, 0.3, 'sine', 0.2), 300);
+      },
+      levelUp() {
+        this.playTone(392, 0.1, 'sine', 0.2);
+        setTimeout(() => this.playTone(523, 0.1, 'sine', 0.2), 100);
+        setTimeout(() => this.playTone(659, 0.1, 'sine', 0.2), 200);
+        setTimeout(() => this.playTone(784, 0.4, 'sine', 0.2), 300);
+      },
+      click() {
+        this.playTone(800, 0.05, 'sine', 0.1);
+      },
+      wordReveal() {
+        this.playTone(600, 0.1, 'sine', 0.15);
+        setTimeout(() => this.playTone(800, 0.15, 'sine', 0.15), 100);
+      }
+    };
+
+    // =====================================================================
+    // GAME STATE
+    // =====================================================================
+
+    const GameState = {
+      currentLevel: 0,
+      playerHealth: 100,
+      maxHealth: 100,
+      monstersDefeated: 0,
+      totalMonsters: 3,
+      combo: 0,
+      maxCombo: 0,
+      score: 0,
+      timer: 0,
+      timerInterval: null,
+      quizScore: 0,
+      quizTotal: 0,
+      currentMonster: null,
+      currentQuestion: null,
+      inventory: { awards: [], boxes: [], dictionaryWords: [] },
+      learnedWords: {}, // wordId -> { learned: true, firstEncounter: timestamp }
+      encounteredWordsThisLevel: [],
+      achievements: new Set(),
+      gameStarted: false,
+      dictionaryRevealed: new Set()
+    };
+
+    // =====================================================================
+    // DOM HELPERS
+    // =====================================================================
+
+    function $(id) { return document.getElementById(id); }
+    function show(id) { $(id).classList.add('active'); $(id).classList.remove('hidden'); }
+    function hide(id) { $(id).classList.remove('active'); $(id).classList.add('hidden'); }
+    function showScreen(id) {
+      document.querySelectorAll('.screen').forEach(function(s) { s.classList.remove('active'); });
+      show(id);
+    }
+    function randInt(min, max) { return Math.floor(Math.random() * (max - min + 1)) + min; }
+    function shuffle(arr) {
+      const a = arr.slice();
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        const tmp = a[i]; a[i] = a[j]; a[j] = tmp;
+      }
+      return a;
+    }
+    function formatTime(sec) {
+      const m = Math.floor(sec / 60).toString().padStart(2, '0');
+      const s = (sec % 60).toString().padStart(2, '0');
+      return m + ':' + s;
+    }
+
+    // =====================================================================
+    // NOTIFICATIONS
+    // =====================================================================
+
+    function notify(msg, duration) {
+      duration = duration || 2000;
+      const el = $('notification');
+      el.textContent = msg;
+      el.classList.add('active');
+      Sound.click();
+      setTimeout(() => el.classList.remove('active'), duration);
+    }
+
+    function showAchievement(name) {
+      if (GameState.achievements.has(name)) return;
+      GameState.achievements.add(name);
+      notify('Achievement: ' + name + '!', 3000);
+    }
+
+    // =====================================================================
+    // XP FLOATER
+    // =====================================================================
+
+    function showXpFloater(xp, x, y) {
+      const el = document.createElement('div');
+      el.className = 'xp-popup';
+      el.textContent = '+' + xp + ' XP';
+      el.style.left = x + 'px';
+      el.style.top = y + 'px';
+      document.body.appendChild(el);
+      setTimeout(() => el.remove(), 1000);
+    }
+
+    // =====================================================================
+    // DAMAGE FLASH
+    // =====================================================================
+
+    function damageFlash() {
+      const el = document.createElement('div');
+      el.className = 'damage-overlay';
+      document.body.appendChild(el);
+      setTimeout(() => el.remove(), 400);
+    }
+
+    // =====================================================================
+    // SPARKLES
+    // =====================================================================
+
+    function createSparkles(container) {
+      const emojis = ['&#x2728;', '&#x2B50;', '&#x1F31F;', '&#x1F4AB;'];
+      for (let i = 0; i < 12; i++) {
+        const s = document.createElement('div');
+        s.className = 'sparkle';
+        s.innerHTML = emojis[randInt(0, emojis.length - 1)];
+        s.style.left = randInt(0, 100) + '%';
+        s.style.top = randInt(0, 100) + '%';
+        s.style.animationDelay = (randInt(0, 300) / 1000) + 's';
+        container.appendChild(s);
+        setTimeout(() => s.remove(), 1000);
+      }
+    }
+
+    // =====================================================================
+    // IMAGE-WORD RENDERERS
+    // =====================================================================
+
+    function renderImageWord(wordId, showText, isNew) {
+      const word = IMAGE_WORDS[wordId];
+      if (!word) return '<span>?</span>';
+      const newBadge = isNew ? '<span class="iw-new-badge">NEW</span>' : '';
+      const textHtml = showText ? '<span class="iw-text">' + word.word + '</span>' : '';
+      const newClass = isNew ? ' new-word' : '';
+      return '<div class="image-word' + newClass + '">' + newBadge +
+        '<span class="iw-emoji">' + word.emoji + '</span>' + textHtml + '</div>';
+    }
+
+    function renderSpeechBubble(wordIds) {
+      let html = '<div class="speech-label">The monster says:</div><div class="speech-words">';
+      wordIds.forEach(function(wid) {
+        const isNew = !GameState.learnedWords[wid];
+        html += renderImageWord(wid, !isNew, isNew);
+        // Track encountered words
+        if (GameState.encounteredWordsThisLevel.indexOf(wid) === -1) {
+          GameState.encounteredWordsThisLevel.push(wid);
+        }
+      });
+      html += '</div>';
+      return html;
+    }
+
+    // =====================================================================
+    // MAIN GAME OBJECT
+    // =====================================================================
+
+    const game = {
+      // -- Start / Menu --
+      start() {
+        Sound.init();
+        Sound.click();
+        this.reset();
+        GameState.gameStarted = true;
+        this.showLevelIntro();
+      },
+
+      reset() {
+        GameState.currentLevel = 0;
+        GameState.playerHealth = 100;
+        GameState.monstersDefeated = 0;
+        GameState.combo = 0;
+        GameState.maxCombo = 0;
+        GameState.score = 0;
+        GameState.timer = 0;
+        GameState.quizScore = 0;
+        GameState.learnedWords = {};
+        GameState.encounteredWordsThisLevel = [];
+        GameState.achievements = new Set();
+        GameState.dictionaryRevealed = new Set();
+        GameState.inventory = { awards: [], boxes: [], dictionaryWords: [] };
+        this.updateHealth();
+        this.updateHud();
+      },
+
+      restart() {
+        this.reset();
+        this.showLevelIntro();
+      },
+
+      backToMenu() {
+        showScreen('start-screen');
+        this.updateStartStats();
+        $('hud').classList.add('hidden');
+      },
+
+      // -- Level Intro --
+      showLevelIntro() {
+        const level = LEVELS[GameState.currentLevel];
+        if (!level) {
+          this.showVictory();
+          return;
+        }
+        $('hud').classList.remove('hidden');
+        $('level-badge').textContent = level.emoji;
+        $('level-title').textContent = level.title;
+        $('level-theme').textContent = level.theme;
+
+        // Show preview of image-words for this level
+        const preview = $('word-preview');
+        preview.innerHTML = '';
+        const previewWords = shuffle(level.words).slice(0, 6);
+        previewWords.forEach(function(wid) {
+          const w = IMAGE_WORDS[wid];
+          const chip = document.createElement('div');
+          chip.className = 'word-chip';
+          chip.innerHTML = '<span class="emoji">' + w.emoji + '</span>' + w.word;
+          preview.appendChild(chip);
+        });
+
+        showScreen('level-intro-screen');
+        this.updateHud();
+      },
+
+      // -- Combat Phase --
+      startCombat() {
+        Sound.levelUp();
+        GameState.monstersDefeated = 0;
+        GameState.combo = 0;
+        GameState.encounteredWordsThisLevel = [];
+        showScreen('combat-screen');
+        this.spawnMonster();
+        this.startTimer();
+      },
+
+      spawnMonster() {
+        const level = LEVELS[GameState.currentLevel];
+        const monsterIndex = level.monsters[GameState.monstersDefeated % level.monsters.length];
+        const monsterData = MONSTERS[monsterIndex];
+        GameState.currentMonster = {
+          index: monsterIndex,
+          maxHp: monsterData.hp,
+          currentHp: monsterData.hp
+        };
+        $('monster-sprite').innerHTML = monsterData.emoji;
+        $('monster-name').textContent = monsterData.name;
+        this.updateMonsterHp();
+
+        // Show speech bubble
+        $('speech-bubble').style.display = 'block';
+        $('speech-words').innerHTML = renderSpeechBubble(monsterData.speech);
+
+        this.showCombatAnswers(monsterData);
+      },
+
+      updateMonsterHp() {
+        const pct = (GameState.currentMonster.currentHp / GameState.currentMonster.maxHp) * 100;
+        $('monster-hp-fill').style.width = pct + '%';
+      },
+
+      showCombatAnswers(monsterData) {
+        $('combat-question').textContent = 'What does the monster mean?';
+        $('combat-hint').textContent = 'Decode the image-words above!';
+
+        // Shuffle answers
+        const shuffledIndices = shuffle([0, 1, 2, 3]);
+        let correctAnswerIndex = -1;
+
+        const grid = $('answer-grid');
+        grid.innerHTML = '';
+
+        shuffledIndices.forEach(function(idx, displayIdx) {
+          if (idx === monsterData.correctIndex) correctAnswerIndex = displayIdx;
+          const btn = document.createElement('button');
+          btn.className = 'answer-btn';
+          btn.textContent = monsterData.answers[idx];
+          btn.onclick = function() { game.handleAnswer(btn, displayIdx === correctAnswerIndex); };
+          grid.appendChild(btn);
+        });
+
+        // Store correct position for validation
+        GameState.currentCorrectIndex = correctAnswerIndex;
+      },
+
+      handleAnswer(btn, isCorrect) {
+        const buttons = document.querySelectorAll('.answer-btn');
+        buttons.forEach(function(b) { b.disabled = true; });
+
+        if (isCorrect) {
+          btn.classList.add('correct');
+          Sound.correct();
+          GameState.combo++;
+          if (GameState.combo > GameState.maxCombo) GameState.maxCombo = GameState.combo;
+          const xp = 10 + (GameState.combo * 5);
+          GameState.score += xp;
+
+          // Mark encountered words as learned now
+          const mIdx = GameState.currentMonster.index;
+          const monsterData = MONSTERS[mIdx];
+          monsterData.speech.forEach(function(wid) {
+            if (!GameState.learnedWords[wid]) {
+              GameState.learnedWords[wid] = { learned: true, time: Date.now() };
+            }
+          });
+
+          // Monster hit
+          const sprite = $('monster-sprite');
+          sprite.classList.add('hit');
+          Sound.attack();
+          setTimeout(() => sprite.classList.remove('hit'), 400);
+
+          GameState.currentMonster.currentHp--;
+          this.updateMonsterHp();
+
+          // Combo display
+          if (GameState.combo >= 2) {
+            const cd = $('combo-display');
+            cd.textContent = 'Combo x' + GameState.combo + '!';
+            cd.classList.add('active');
+            setTimeout(() => cd.classList.remove('active'), 1500);
+          }
+
+          if (GameState.currentMonster.currentHp <= 0) {
+            Sound.monsterHit();
+            sprite.classList.add('defeated');
+            GameState.monstersDefeated++;
+
+            if (GameState.monstersDefeated >= GameState.totalMonsters) {
+              setTimeout(() => this.enterSafeRoom(), 800);
+            } else {
+              setTimeout(() => {
+                sprite.classList.remove('defeated');
+                this.spawnMonster();
+              }, 800);
+            }
+          } else {
+            // Same monster, new speech (random variation)
+            setTimeout(() => this.refreshMonsterSpeech(), 600);
+          }
+
+          if (GameState.combo >= 3) showAchievement('Combo Master');
+          if (Object.keys(GameState.learnedWords).length >= 5) showAchievement('Word Collector');
+
+          this.updateHud();
+        } else {
+          btn.classList.add('wrong');
+          // Highlight correct answer
+          buttons.forEach(function(b, i) {
+            if (i === GameState.currentCorrectIndex) b.classList.add('correct');
+          });
+          Sound.wrong();
+          damageFlash();
+          GameState.playerHealth = Math.max(0, GameState.playerHealth - 15);
+          GameState.combo = 0;
+          this.updateHealth();
+          this.updateHud();
+
+          if (GameState.playerHealth <= 0) {
+            setTimeout(() => this.showGameOver(), 800);
+          } else {
+            setTimeout(() => this.refreshMonsterSpeech(), 1200);
+          }
+        }
+      },
+
+      refreshMonsterSpeech() {
+        // Show a slightly different speech pattern for the same monster
+        const mIdx = GameState.currentMonster.index;
+        const monsterData = MONSTERS[mIdx];
+        $('speech-words').innerHTML = renderSpeechBubble(monsterData.speech);
+        this.showCombatAnswers(monsterData);
+      },
+
+      // -- Safe Room (Guild Hall) --
+      enterSafeRoom() {
+        this.stopTimer();
+        showScreen('safe-room-screen');
+        $('dialogue-box').style.display = 'block';
+        $('dictionary-section').style.display = 'none';
+        $('quiz-container').innerHTML = '';
+
+        // Count new words learned this level
+        const newWords = GameState.encounteredWordsThisLevel.filter(function(wid) {
+          return GameState.learnedWords[wid] && !GameState.dictionaryRevealed.has(wid);
+        });
+
+        if (newWords.length > 0) {
+          // Show dictionary learning phase first
+          $('dialogue-text').innerHTML =
+            '<span class="speaker">Mordecai:</span>' +
+            'Excellent battling! You encountered new image-words. Let me teach you what they mean. Tap each card to reveal the English word!';
+
+          setTimeout(() => this.showDictionary(newWords), 2000);
+        } else {
+          $('dialogue-text').innerHTML =
+            '<span class="speaker">Mordecai:</span>' +
+            'Well fought! You have already learned these words. Let us test your knowledge with a quiz!';
+          setTimeout(() => this.startQuiz(), 2000);
+        }
+      },
+
+      showDictionary(newWords) {
+        $('dialogue-box').style.display = 'none';
+        $('dictionary-section').style.display = 'block';
+        $('quiz-container').innerHTML = '';
+
+        $('dict-title').textContent = newWords.length + ' New Word' + (newWords.length > 1 ? 's' : '') + ' Learned!';
+        $('dict-subtitle').textContent = 'Tap each card to reveal its meaning';
+        $('dict-continue-btn').style.display = 'none';
+
+        const grid = $('dictionary-grid');
+        grid.innerHTML = '';
+
+        newWords.forEach(function(wid) {
+          const word = IMAGE_WORDS[wid];
+          const card = document.createElement('div');
+          card.className = 'dict-card';
+          card.innerHTML =
+            '<span class="dc-emoji">' + word.emoji + '</span>' +
+            '<span class="dc-word hidden">' + word.word + '</span>';
+
+          card.onclick = function() {
+            if (card.classList.contains('revealed')) return;
+            Sound.wordReveal();
+            card.classList.add('revealed');
+            card.classList.add('newly-learned');
+            GameState.dictionaryRevealed.add(wid);
+            card.querySelector('.dc-word').classList.remove('hidden');
+
+            // Check if all revealed
+            const allRevealed = newWords.every(function(w) {
+              return GameState.dictionaryRevealed.has(w);
+            });
+            if (allRevealed) {
+              $('dict-continue-btn').style.display = 'inline-block';
+              notify('All words learned! Continue to quiz.', 2000);
+              showAchievement('Dictionary Master');
+            }
+          };
+
+          grid.appendChild(card);
+        });
+      },
+
+      finishDictionary() {
+        Sound.click();
+        $('dictionary-section').style.display = 'none';
+        this.startQuiz();
+      },
+
+      // -- Quiz --
+      startQuiz() {
+        $('dialogue-box').style.display = 'none';
+        const level = LEVELS[GameState.currentLevel];
+        // Build quiz from encountered words this level
+        const quizWords = shuffle(GameState.encounteredWordsThisLevel).slice(0, Math.min(5, GameState.encounteredWordsThisLevel.length));
+        if (quizWords.length < 3) {
+          // Fallback to level words
+          quizWords.push.apply(quizWords, shuffle(level.words).slice(0, 5 - quizWords.length));
+        }
+
+        GameState.quizQuestions = quizWords.map(function(wid) {
+          const word = IMAGE_WORDS[wid];
+          const wrongOptions = shuffle(Object.keys(IMAGE_WORDS).filter(function(w) {
+            return w !== wid;
+          })).slice(0, 3).map(function(w) { return IMAGE_WORDS[w].word; });
+
+          return {
+            wordId: wid,
+            emoji: word.emoji,
+            correct: word.word,
+            options: shuffle([word.word].concat(wrongOptions))
+          };
+        });
+
+        GameState.quizIndex = 0;
+        GameState.quizScore = 0;
+        this.showQuizQuestion();
+      },
+
+      showQuizQuestion() {
+        const q = GameState.quizQuestions[GameState.quizIndex];
+        const container = $('quiz-container');
+
+        // Progress dots
+        let dotsHtml = '<div class="quiz-progress">';
+        for (let i = 0; i < GameState.quizQuestions.length; i++) {
+          let cls = 'quiz-dot';
+          if (i < GameState.quizIndex) {
+            cls += (i < GameState.quizScore ? ' correct' : ' wrong');
+          } else if (i === GameState.quizIndex) {
+            cls += ' current';
+          }
+          dotsHtml += '<div class="' + cls + '"></div>';
+        }
+        dotsHtml += '</div>';
+
+        const scoreHtml = '<div class="quiz-score-display">Score: ' + GameState.quizScore + '/' + GameState.quizIndex + '</div>';
+        const questionHtml = '<div class="quiz-question">What word is this?<div class="speech-mini">' + renderImageWord(q.wordId, true, false) + '</div></div>';
+
+        let choicesHtml = '<div class="quiz-choices">';
+        q.options.forEach(function(opt) {
+          choicesHtml += '<button class="quiz-choice" onclick="game.handleQuizAnswer(this, \'' + opt + '\', \'' + q.correct + '\')">' + opt + '</button>';
+        });
+        choicesHtml += '</div>';
+
+        container.innerHTML = dotsHtml + scoreHtml + questionHtml + choicesHtml;
+      },
+
+      handleQuizAnswer(btn, chosen, correct) {
+        const isCorrect = chosen === correct;
+        const buttons = document.querySelectorAll('.quiz-choice');
+        buttons.forEach(function(b) { b.disabled = true; });
+
+        if (isCorrect) {
+          btn.classList.add('correct');
+          Sound.correct();
+          GameState.quizScore++;
+        } else {
+          btn.classList.add('wrong');
+          buttons.forEach(function(b) {
+            if (b.textContent === correct) b.classList.add('correct');
+          });
+          Sound.wrong();
+        }
+
+        GameState.quizIndex++;
+        if (GameState.quizIndex >= GameState.quizQuestions.length) {
+          setTimeout(() => this.showLoot(), 800);
+        } else {
+          setTimeout(() => this.showQuizQuestion(), 800);
+        }
+      },
+
+      // -- Loot Phase --
+      showLoot() {
+        showScreen('loot-screen');
+        const pct = GameState.quizScore / GameState.quizQuestions.length;
+        let rarity;
+        if (pct === 1) rarity = 'legendary';
+        else if (pct >= 0.8) rarity = 'epic';
+        else if (pct >= 0.6) rarity = 'rare';
+        else rarity = 'common';
+
+        const possible = LOOT_TABLE.filter(function(l) { return l.rarity === rarity; });
+        GameState.pendingLoot = possible[randInt(0, possible.length - 1)];
+        GameState.lootOpened = false;
+
+        $('loot-title').textContent = 'Quiz Complete!';
+        $('loot-subtitle').textContent = 'You scored ' + GameState.quizScore + '/' + GameState.quizQuestions.length + ' | Tap the chest!';
+        $('loot-box').innerHTML = '&#x1F9F0;';
+        $('loot-box').classList.remove('opening', 'opened');
+        $('loot-box').style.display = 'inline-block';
+        $('loot-result').classList.remove('active');
+        $('loot-buttons').classList.add('hidden');
+        $('sparkle-container').innerHTML = '';
+      },
+
+      openLoot() {
+        if (GameState.lootOpened) return;
+        GameState.lootOpened = true;
+        Sound.lootOpen();
+
+        const box = $('loot-box');
+        box.classList.add('opening');
+        createSparkles($('sparkle-container'));
+
+        setTimeout(() => {
+          box.classList.remove('opening');
+          box.classList.add('opened');
+          box.style.display = 'none';
+
+          const loot = GameState.pendingLoot;
+          $('loot-item-emoji').innerHTML = loot.emoji;
+          $('loot-item-name').textContent = loot.name;
+          $('loot-item-rarity').textContent = loot.rarity.toUpperCase();
+          $('loot-item-rarity').className = 'loot-item-rarity ' + loot.color;
+          $('loot-item-desc').textContent = loot.desc;
+          $('loot-result').classList.add('active');
+          $('loot-buttons').classList.remove('hidden');
+
+          // Add to inventory
+          GameState.inventory.awards.push({
+            emoji: loot.emoji,
+            name: loot.name,
+            rarity: loot.rarity,
+            level: GameState.currentLevel + 1,
+            time: Date.now()
+          });
+
+          // Box
+          const boxType = loot.rarity === 'legendary' ? '&#x1F9F0;' : loot.rarity === 'epic' ? '&#x1F4E6;' : '&#x1F4E5;';
+          GameState.inventory.boxes.push({
+            emoji: boxType,
+            name: loot.rarity + ' Box',
+            rarity: loot.rarity,
+            level: GameState.currentLevel + 1,
+            time: Date.now()
+          });
+
+          // Bonus dictionary word from loot?
+          if (loot.bonusWord) {
+            if (!GameState.learnedWords[loot.bonusWord]) {
+              GameState.learnedWords[loot.bonusWord] = { learned: true, time: Date.now(), fromLoot: true };
+              GameState.inventory.dictionaryWords.push({
+                id: loot.bonusWord,
+                emoji: loot.bonusEmoji,
+                word: loot.bonusWord.toUpperCase(),
+                fromLoot: true
+              });
+              $('loot-item-desc').textContent = 'New word unlocked: ' + loot.bonusWord.toUpperCase() + '!';
+              notify('New dictionary word: ' + loot.bonusWord.toUpperCase() + '!', 2500);
+            }
+          }
+
+          const bonus = (GameState.quizScore * 20) + (loot.rarity === 'legendary' ? 100 : loot.rarity === 'epic' ? 50 : 25);
+          GameState.score += bonus;
+          notify('Bonus: +' + bonus + ' points!', 2000);
+
+          if (GameState.quizScore === GameState.quizQuestions.length) showAchievement('Perfect Quiz');
+          if (loot.rarity === 'legendary') showAchievement('Legendary Find');
+
+          this.updateHud();
+        }, 1000);
+      },
+
+      nextLevel() {
+        Sound.click();
+        GameState.currentLevel++;
+        if (GameState.currentLevel >= LEVELS.length) {
+          this.showVictory();
+        } else {
+          this.showLevelIntro();
+        }
+      },
+
+      // -- Victory / Game Over --
+      showVictory() {
+        showScreen('victory-screen');
+        $('hud').classList.add('hidden');
+        Sound.levelUp();
+        showAchievement('Word Quest Champion');
+        const wordsCount = Object.keys(GameState.learnedWords).length;
+        $('victory-stats').innerHTML =
+          'Score: <span class="stat-value">' + GameState.score + '</span><br>' +
+          'Time: <span class="stat-value">' + formatTime(GameState.timer) + '</span><br>' +
+          'Words: <span class="stat-value">' + wordsCount + '</span><br>' +
+          'Max Combo: <span class="stat-value">' + GameState.maxCombo + '</span><br>' +
+          'Achievements: <span class="stat-value">' + GameState.achievements.size + '/8</span>';
+        this.updateStartStats();
+      },
+
+      showGameOver() {
+        this.stopTimer();
+        showScreen('gameover-screen');
+        $('hud').classList.add('hidden');
+        Sound.wrong();
+        const lvl = LEVELS[GameState.currentLevel];
+        $('gameover-stats').innerHTML =
+          'Reached: <span class="stat-value">' + lvl.title + '</span><br>' +
+          'Score: <span class="stat-value">' + GameState.score + '</span><br>' +
+          'Words: <span class="stat-value">' + Object.keys(GameState.learnedWords).length + '</span><br>' +
+          'Time: <span class="stat-value">' + formatTime(GameState.timer) + '</span>';
+        this.updateStartStats();
+      },
+
+      // -- Inventory --
+      showInventory() {
+        Sound.click();
+        showScreen('inventory-screen');
+        $('hud').classList.add('hidden');
+        this.switchInvTab('awards');
+      },
+
+      switchInvTab(tab) {
+        Sound.click();
+        document.querySelectorAll('.inv-tab').forEach(function(t) { t.classList.remove('active'); });
+        $('tab-' + tab).classList.add('active');
+        const content = $('inv-content');
+
+        if (tab === 'dictionary') {
+          this.renderDictionaryTab(content);
+          return;
+        }
+
+        const items = GameState.inventory[tab];
+        if (!items || items.length === 0) {
+          content.innerHTML = '<div class="inv-empty">No ' + tab + ' yet. Complete levels to earn rewards!</div>';
+          return;
+        }
+
+        content.innerHTML = '<div class="inv-grid" id="inv-grid"></div>';
+        const grid = $('inv-grid');
+        items.forEach(function(item) {
+          const div = document.createElement('div');
+          div.className = 'inv-item' + (tab === 'awards' ? ' award-item' : '');
+          div.innerHTML =
+            '<span class="inv-emoji">' + item.emoji + '</span>' +
+            '<span class="inv-name">' + item.name + '</span>' +
+            '<span class="inv-count">Lv ' + item.level + '</span>';
+          div.onclick = function() { notify(item.name + ' (' + item.rarity + ')', 1500); };
+          grid.appendChild(div);
+        });
+      },
+
+      renderDictionaryTab(content) {
+        // Combine learned words + loot words
+        const allWords = Object.keys(GameState.learnedWords);
+        if (allWords.length === 0 && GameState.inventory.dictionaryWords.length === 0) {
+          content.innerHTML = '<div class="inv-empty">No words learned yet. Battle monsters to learn their language!</div>';
+          return;
+        }
+
+        content.innerHTML = '<div class="dict-grid-large" id="dict-grid-large"></div>';
+        const grid = $('dict-grid-large');
+
+        allWords.forEach(function(wid) {
+          const word = IMAGE_WORDS[wid];
+          if (!word) return;
+          const div = document.createElement('div');
+          div.className = 'dict-entry';
+          div.innerHTML =
+            '<span class="de-emoji">' + word.emoji + '</span>' +
+            '<span class="de-word">' + word.word + '</span>' +
+            '<span class="de-category">' + word.category + '</span>';
+          grid.appendChild(div);
+        });
+
+        GameState.inventory.dictionaryWords.forEach(function(dw) {
+          const div = document.createElement('div');
+          div.className = 'dict-entry';
+          div.style.background = 'rgba(243, 156, 18, 0.1)';
+          div.style.borderColor = 'rgba(243, 156, 18, 0.3)';
+          div.innerHTML =
+            '<span class="de-emoji">' + dw.emoji + '</span>' +
+            '<span class="de-word">' + dw.word + '</span>' +
+            '<span class="de-category">loot bonus</span>';
+          grid.appendChild(div);
+        });
+      },
+
+      // -- HUD & Timer --
+      startTimer() {
+        this.stopTimer();
+        GameState.timerInterval = setInterval(() => {
+          GameState.timer++;
+          this.updateHud();
+        }, 1000);
+      },
+
+      stopTimer() {
+        if (GameState.timerInterval) {
+          clearInterval(GameState.timerInterval);
+          GameState.timerInterval = null;
+        }
+      },
+
+      updateHud() {
+        $('level-display').textContent = 'Lv ' + (GameState.currentLevel + 1);
+        $('timer').textContent = formatTime(GameState.timer);
+        if (GameState.timer > 180) {
+          $('timer').classList.add('warning');
+        } else {
+          $('timer').classList.remove('warning');
+        }
+      },
+
+      updateHealth() {
+        const pct = (GameState.playerHealth / GameState.maxHealth) * 100;
+        $('health-fill').style.width = pct + '%';
+        if (pct <= 30) {
+          $('health-fill').classList.add('low');
+        } else {
+          $('health-fill').classList.remove('low');
+        }
+      },
+
+      updateStartStats() {
+        const summary = $('stats-summary');
+        if (!summary) return;
+        if (GameState.gameStarted) {
+          summary.innerHTML =
+            'Best Score: ' + GameState.score + '<br>' +
+            'Words Learned: ' + Object.keys(GameState.learnedWords).length + '<br>' +
+            'Achievements: ' + GameState.achievements.size + '/8';
+        } else {
+          summary.textContent = '';
+        }
+      }
+    };
+
+    // =====================================================================
+    // KEYBOARD SUPPORT
+    // =====================================================================
+
+    document.addEventListener('keydown', function(e) {
+      const buttons = document.querySelectorAll('.answer-btn:not(:disabled), .quiz-choice:not(:disabled)');
+      if (buttons.length >= 4) {
+        const key = parseInt(e.key);
+        if (key >= 1 && key <= 4) {
+          buttons[key - 1].click();
+        }
+      }
+    });
+
+    // Prevent double-tap zoom on mobile
+    document.addEventListener('touchend', function(e) {
+      e.preventDefault();
+      e.target.click();
+    }, { passive: false });
+
+    // Init
+    game.updateStartStats();
+  </script>
+</body>
+</html>

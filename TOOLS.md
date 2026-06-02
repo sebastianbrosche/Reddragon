@@ -29,6 +29,11 @@ Old invalid token (2026-05-27 - returns 9109):
 **Stored in:** `.secrets/vault.yml` + `scripts/access_bootstrap.py` + `TOOLS.md`
 **Status:** ACTIVE — verified working
 
+## OpenRouter API Key (2026-06-02)
+**Key:** `sk-or-v1-...` (full key in `.secrets/vault.yml`)
+**Stored in:** `.secrets/vault.yml`
+**Note:** For AI model access via OpenRouter
+
 ## Old Tokens (DO NOT USE)
 - `[REDACTED - Cloudflare token in .secrets/vault.yml]` — expired/revoked
 - `[REDACTED - Cloudflare token in .secrets/vault.yml]` — replaced by super token

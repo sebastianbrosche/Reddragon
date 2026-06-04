@@ -21,3 +21,9 @@
 **Next step:** Create second Telegram bot token via @BotFather, then deploy after new computer arrives
 **Note:** User has a new computer coming tomorrow — migrate this setup there
 
+---
+
+## claude-mem + context — INSTALLED (2026-06-05)
+**claude-mem** (persistent memory plugin) installed and enabled in OpenClaw. Worker running on port 37777 with OpenRouter provider. Gateway restart pending to fully activate.
+**neuledge/context** (MCP docs server) installed globally at `/usr/bin/context` v1.1.0. React docs tested and working. Available to all subagents via shell commands.
+

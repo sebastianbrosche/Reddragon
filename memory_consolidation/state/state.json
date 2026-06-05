@@ -1,7 +1,7 @@
 {
   "diary": {
-    "count": 40,
-    "last_ts": "2026-06-04T03:48:43.729912",
+    "count": 41,
+    "last_ts": "2026-06-05T03:56:19.332770",
     "last_day": 21,
     "last_sessions": 7,
     "last_messages": 342,
@@ -11,12 +11,12 @@
     "last_error": "The read operation timed out"
   },
   "compact": {
-    "count": 40,
-    "last_ts": "2026-06-04T03:48:44.916015",
+    "count": 41,
+    "last_ts": "2026-06-05T03:56:56.066202",
     "last_invoke": 21,
-    "last_sessions": 70,
-    "last_messages": 870,
-    "last_latency_s": 32.8,
+    "last_sessions": 74,
+    "last_messages": 916,
+    "last_latency_s": 35.5,
     "last_model": "k2p6",
     "last_skip": "stm_hash_unchanged"
   },
